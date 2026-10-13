@@ -24,8 +24,9 @@ __pycache__/
 *.exe
 *.dll
 
-# Large raw video downloads & archives (>100MB)
-raw/
+# Originals backup & temp files (>100MB)
+raw/_originals/
+raw/temp_*
 *.zip
 **/proof-input/
 
