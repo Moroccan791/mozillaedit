@@ -20,9 +20,13 @@ Progress: 4/7 clips complete (48 windows).
   431.5/435.7 multi), 4 probable (45.5, 341.5, 358.0, 505.5), 3 exclude
   (THRIFTY round-end sound FP, shots-no-kill, passive aim). FP classes also
   incl. colored edit-transition smears and pre-window kill aftermaths.
-- Z210dNkaapY (Your aim is just): 2 good_kill (27.7, 276.1), 3 probable
-  (97.5, 304.5, 354.5/361.6), 7 exclude. New FP classes: creator CTA overlay
-  (subscribe popup), round-win stings (CLUTCH/WON banners), premium-skin
-  equip SFX, ambient footsteps, death-spectate.
+- Z210dNkaapY (aim clip): 4 good_kill (27.7, 275.7, 307.0, 361.4), 0 probable,
+  8 exclude -- FP classes: death/spectate+subscribe-callout, Raze-nade
+  explosion, round-win jingles (CLUTCH/WON), corpse-cam, shots-no-kill
+  duels, passive holds, corridor rotation.
+  ALT annotation: review-Z210dNkaapY.alt-bd40df6.json = parallel-session pass
+  on same sheets (2 good/3 probable/7 exclude; agrees on kill times, differs
+  in good-vs-probable calibration + flags 97.5/304.5 as probable). Reconcile
+  both during detector-audit spot checks.
 Next: label remaining 3 clips (36 sheets), then dense-resample probable
 kills for exact shot times.
