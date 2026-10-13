@@ -1,0 +1,231 @@
+{
+ "schema": "agent-visual-review/v1",
+ "provenance": "independent agent frame-level visual review of decoded source frames; audio candidates only used to locate windows; labels are visual observations, not audio inference",
+ "clips": {
+  "Z210dNkaapY_Your-aim-is-just": {
+   "windows": [
+    {
+     "w": 1,
+     "lo": 33.5,
+     "hi": 38.7,
+     "peak": 35.5,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "subscribe CTA card overlay",
+      "blurred gameplay behind",
+      "pistol pull at end, no combat"
+     ],
+     "notes": "CTA/overlay FP class"
+    },
+    {
+     "w": 0,
+     "lo": 24.1,
+     "hi": 29.3,
+     "peak": 26.1,
+     "verdict": "good_kill_window",
+     "kill_times": [
+      27.7
+     ],
+     "setup": true,
+     "outcome": true,
+     "signals": [
+      "enemy mid-street 0:26.9",
+      "fire ammo 30->19",
+      "red burst + kill emblem 0:27.7",
+      "emblem persists"
+     ],
+     "notes": "clean kill",
+     "best_moment": 27.7
+    },
+    {
+     "w": 2,
+     "lo": 99.1,
+     "hi": 104.3,
+     "peak": 101.1,
+     "verdict": "probable_kill_verify",
+     "kill_times": [
+      98.5,
+      102.7
+     ],
+     "setup": true,
+     "outcome": true,
+     "signals": [
+      "giant blood-wall (kill pre-window)",
+      "muzzle glows 1:39.9/1:41.9",
+      "new red splash 1:42.7",
+      "source cut 1:44"
+     ],
+     "notes": "resample 1:38-1:43 for both shots",
+     "best_moment": 101.5
+    },
+    {
+     "w": 3,
+     "lo": 108.5,
+     "hi": 113.7,
+     "peak": 110.5,
+     "verdict": "probable_kill_verify",
+     "kill_times": [
+      107.5
+     ],
+     "setup": false,
+     "outcome": true,
+     "signals": [
+      "CLUTCH banner + corpse at start (round-winning kill pre-window)",
+      "PiP scoreboard outro 1:52+"
+     ],
+     "notes": "resample 1:46-1:49 for clutch kill",
+     "best_moment": 107.7
+    },
+    {
+     "w": 4,
+     "lo": 115.1,
+     "hi": 120.3,
+     "peak": 117.1,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "authored PiP interlude w/ roster panel",
+      "source cut 1:59",
+      "neon edit FX, ammo constant 25"
+     ],
+     "notes": "interlude/transition FP"
+    },
+    {
+     "w": 5,
+     "lo": 272.9,
+     "hi": 278.1,
+     "peak": 274.9,
+     "verdict": "good_kill_window",
+     "kill_times": [
+      276.1
+     ],
+     "setup": true,
+     "outcome": true,
+     "signals": [
+      "Ghost fired ammo 12->8",
+      "hit sparks 4:34.9",
+      "kill emblem 4:36.1",
+      "corpse 4:37.3",
+      "knife-out 4:38.1"
+     ],
+     "notes": "clean pistol kill",
+     "best_moment": 276.3
+    },
+    {
+     "w": 6,
+     "lo": 280.0,
+     "hi": 285.2,
+     "peak": 282.0,
+     "verdict": "probable_kill_verify",
+     "kill_times": [
+      287.0
+     ],
+     "setup": true,
+     "outcome": false,
+     "signals": [
+      "Ghost fired 13->9",
+      "green ability cast 4:43.2",
+      "enemy ALIVE at last frame 4:45.2"
+     ],
+     "notes": "unverified - kill likely 4:46-4:52; resample 4:44-4:54"
+    },
+    {
+     "w": 7,
+     "lo": 292.5,
+     "hi": 297.7,
+     "peak": 294.5,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "knife inspect + Sovereign Ghost aiming",
+      "ammo constant 13",
+      "pink/white ability blob end"
+     ],
+     "notes": "no kill evidence; w06 outcome decided by resample 4:44-4:53"
+    },
+    {
+     "w": 8,
+     "lo": 306.3,
+     "hi": 311.5,
+     "peak": 308.3,
+     "verdict": "good_kill_window",
+     "kill_times": [
+      307.0,
+      308.7
+     ],
+     "setup": true,
+     "outcome": true,
+     "signals": [
+      "muzzle flash 5:06.7",
+      "kill emblem 5:07.5-5:09.1",
+      "second shot 5:08.7",
+      "pink edit wipe through",
+      "hand FX 5:10.3",
+      "HP 100->87"
+     ],
+     "notes": "kill + follow-up shot; montage candidate",
+     "best_moment": 307.3
+    },
+    {
+     "w": 9,
+     "lo": 356.2,
+     "hi": 361.4,
+     "peak": 358.2,
+     "verdict": "probable_kill_verify",
+     "kill_times": [
+      355.0,
+      361.4
+     ],
+     "setup": false,
+     "outcome": true,
+     "signals": [
+      "skull emblem up at start (kill pre-window)",
+      "red soul-devour glow 5:57-58 (peak)",
+      "refire 13->8 at 6:01 + spark 6:01.4"
+     ],
+     "notes": "resample 5:54-5:56 and 6:00-6:02",
+     "best_moment": 357.5
+    },
+    {
+     "w": 10,
+     "lo": 400.9,
+     "hi": 406.1,
+     "peak": 402.9,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "corridor walking, ammo constant",
+      "no enemy visible",
+      "1 potshot at end"
+     ],
+     "notes": "rotation FP"
+    },
+    {
+     "w": 11,
+     "lo": 417.9,
+     "hi": 423.5,
+     "peak": 419.9,
+     "verdict": "probable_kill_verify",
+     "kill_times": [
+      416.0
+     ],
+     "setup": false,
+     "outcome": true,
+     "signals": [
+      "WON banner + own kill emblem at start (round-winning kill pre-window)",
+      "ability orb FX",
+      "tunnel scene cut"
+     ],
+     "notes": "resample 6:54-6:58",
+     "best_moment": 416.2
+    }
+   ],
+   "summary": {
+    "exclude": 4,
+    "good_kill_window": 3,
+    "probable_kill_verify": 5
+   }
+  }
+ }
+}

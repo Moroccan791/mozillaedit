@@ -34,3 +34,12 @@ Progress: 5/7 clips complete (60 windows).
   (w00 frames are actually clamped t=0); also 1:60.0 = 120.0s formatter quirk.
 Next: label remaining 2 clips (24 sheets), then dense-resample probable
 kills for exact shot times.
+
+
+Label versions for clip 4 (Z210dNkaapY): canonical = e2c8f7b pass (4 good /
+8 exclude); .alt-bd40df6 = first pass; .alt-d9538e8 = parallel-session pass
+(3 good / 5 probable / 4 exclude). Disagreements on w02 (blood-wall resample
+lead 98.5/102.7), w03 (CLUTCH kill 107.5), w06 (shot-no-kill edge 287),
+w09 (pre-window kill 355), w11 (WON-kill 416) -- reconcile during detector
+audit step: probable => audio peak is kill-ADJACENT (banner/devour/round-win
+sound), which povkills/killfeed SHOULD also learn to accept.
