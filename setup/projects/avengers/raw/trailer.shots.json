@@ -1,0 +1,268 @@
+[
+  {
+    "start": 0.0,
+    "end": 10.886,
+    "intensity": 0.5,
+    "kind": "scene",
+    "label": ""
+  },
+  {
+    "start": 10.886,
+    "end": 12.638,
+    "intensity": 0.5,
+    "kind": "audio",
+    "label": ""
+  },
+  {
+    "start": 12.638,
+    "end": 24.441,
+    "intensity": 0.5,
+    "kind": "scene",
+    "label": ""
+  },
+  {
+    "start": 24.441,
+    "end": 24.691,
+    "intensity": 0.0,
+    "kind": "scene",
+    "label": ""
+  },
+  {
+    "start": 24.691,
+    "end": 29.863,
+    "intensity": 0.5,
+    "kind": "scene",
+    "label": ""
+  },
+  {
+    "start": 29.863,
+    "end": 35.202,
+    "intensity": 0.5,
+    "kind": "scene",
+    "label": ""
+  },
+  {
+    "start": 35.202,
+    "end": 44.419,
+    "intensity": 0.5,
+    "kind": "scene",
+    "label": ""
+  },
+  {
+    "start": 44.419,
+    "end": 45.462,
+    "intensity": 0.5,
+    "kind": "audio",
+    "label": ""
+  },
+  {
+    "start": 45.462,
+    "end": 53.762,
+    "intensity": 0.5,
+    "kind": "scene",
+    "label": ""
+  },
+  {
+    "start": 53.762,
+    "end": 54.096,
+    "intensity": 0.0,
+    "kind": "scene",
+    "label": ""
+  },
+  {
+    "start": 54.096,
+    "end": 54.805,
+    "intensity": 0.5,
+    "kind": "audio",
+    "label": ""
+  },
+  {
+    "start": 54.805,
+    "end": 63.438,
+    "intensity": 0.5,
+    "kind": "scene",
+    "label": ""
+  },
+  {
+    "start": 63.438,
+    "end": 64.523,
+    "intensity": 0.5,
+    "kind": "audio",
+    "label": ""
+  },
+  {
+    "start": 64.523,
+    "end": 67.109,
+    "intensity": 0.5,
+    "kind": "scene",
+    "label": ""
+  },
+  {
+    "start": 67.109,
+    "end": 69.528,
+    "intensity": 0.5,
+    "kind": "scene",
+    "label": ""
+  },
+  {
+    "start": 69.528,
+    "end": 77.744,
+    "intensity": 0.5,
+    "kind": "scene",
+    "label": ""
+  },
+  {
+    "start": 77.744,
+    "end": 80.497,
+    "intensity": 0.5,
+    "kind": "scene",
+    "label": ""
+  },
+  {
+    "start": 80.497,
+    "end": 81.832,
+    "intensity": 0.5,
+    "kind": "audio",
+    "label": ""
+  },
+  {
+    "start": 81.832,
+    "end": 83.166,
+    "intensity": 0.5,
+    "kind": "audio",
+    "label": ""
+  },
+  {
+    "start": 83.166,
+    "end": 84.501,
+    "intensity": 0.0,
+    "kind": "scene",
+    "label": ""
+  },
+  {
+    "start": 84.501,
+    "end": 85.669,
+    "intensity": 0.5,
+    "kind": "audio",
+    "label": ""
+  },
+  {
+    "start": 85.669,
+    "end": 87.129,
+    "intensity": 0.5,
+    "kind": "audio",
+    "label": ""
+  },
+  {
+    "start": 87.129,
+    "end": 88.755,
+    "intensity": 0.5,
+    "kind": "audio",
+    "label": ""
+  },
+  {
+    "start": 88.755,
+    "end": 89.798,
+    "intensity": 0.5,
+    "kind": "audio",
+    "label": ""
+  },
+  {
+    "start": 89.798,
+    "end": 91.174,
+    "intensity": 0.5,
+    "kind": "audio",
+    "label": ""
+  },
+  {
+    "start": 91.174,
+    "end": 92.843,
+    "intensity": 0.5,
+    "kind": "audio",
+    "label": ""
+  },
+  {
+    "start": 92.843,
+    "end": 93.26,
+    "intensity": 0.0,
+    "kind": "scene",
+    "label": ""
+  },
+  {
+    "start": 93.26,
+    "end": 93.635,
+    "intensity": 0.0,
+    "kind": "scene",
+    "label": ""
+  },
+  {
+    "start": 93.635,
+    "end": 95.22,
+    "intensity": 0.5,
+    "kind": "audio",
+    "label": ""
+  },
+  {
+    "start": 95.22,
+    "end": 95.304,
+    "intensity": 0.0,
+    "kind": "scene",
+    "label": ""
+  },
+  {
+    "start": 95.304,
+    "end": 95.804,
+    "intensity": 0.5,
+    "kind": "audio",
+    "label": ""
+  },
+  {
+    "start": 95.804,
+    "end": 96.305,
+    "intensity": 0.0,
+    "kind": "scene",
+    "label": ""
+  },
+  {
+    "start": 96.305,
+    "end": 97.806,
+    "intensity": 0.5,
+    "kind": "audio",
+    "label": ""
+  },
+  {
+    "start": 97.806,
+    "end": 98.64,
+    "intensity": 0.5,
+    "kind": "audio",
+    "label": ""
+  },
+  {
+    "start": 98.64,
+    "end": 99.308,
+    "intensity": 0.5,
+    "kind": "audio",
+    "label": ""
+  },
+  {
+    "start": 99.308,
+    "end": 113.947,
+    "intensity": 0.5,
+    "kind": "scene",
+    "label": ""
+  },
+  {
+    "start": 113.947,
+    "end": 115.073,
+    "intensity": 0.5,
+    "kind": "audio",
+    "label": ""
+  },
+  {
+    "start": 115.073,
+    "end": 145.821,
+    "intensity": 0.5,
+    "kind": "scene",
+    "label": ""
+  }
+]

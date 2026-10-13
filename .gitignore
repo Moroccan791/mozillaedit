@@ -6,7 +6,7 @@ __pycache__/
 *.pyc
 *.pyo
 
-# Browser binaries & disposable caches (allows all session data, agent managers, local storage, indexeddb)
+# Browser binaries & disposable caches
 **/AsideDaemon/
 **/aside_component_crx_cache/
 **/component_crx_cache/
@@ -14,6 +14,13 @@ __pycache__/
 **/Crashpad/
 **/ShaderCache/
 **/GPUPersistentCache/
+**/Default/Cache/
+**/Default/Code Cache/
+**/Default/GPUCache/
+**/Default/DawnWebGPUCache/
+**/Default/DawnGraphiteCache/
+**/Default/Shared Dictionary/cache/
+**/AsideAdBlock/Cache/
 *.exe
 *.dll
 
@@ -27,6 +34,15 @@ raw/
 output/
 **/output/
 **/cache/
+
+# Un-ignore specific analysis screenshots, strips, and subtitle/score metadata
+!setup/output/strips/
+!setup/output/strips/**
+!setup/cache/captions.ass
+!setup/cache/ec.jpg
+!setup/cache/endcard.jpg
+!setup/projects/**/captions.ass
+!setup/projects/**/raw/*.json
 
 # Logs and temp files
 *.log

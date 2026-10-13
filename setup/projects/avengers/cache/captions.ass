@@ -1,0 +1,28 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Title,Bahnschrift,70,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,1,0,0,0,100,100,14,0,1,3.0,1.0,5,40,40,0,1
+Style: Heavy,Arial Black,120,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,1,0,0,0,100,100,0,0,1,3.0,1.0,5,40,40,0,1
+Style: Lower,Bahnschrift,52,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,1,0,0,0,100,100,1,0,1,3.0,1.0,2,40,40,90,1
+Style: OutroTop,Bahnschrift,64,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,1,0,0,0,100,100,12,0,1,3.0,1.0,8,40,40,170,1
+Style: OutroMid,Arial Black,118,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,1,0,0,0,100,100,0,0,1,3.0,1.0,5,40,40,0,1
+Style: OutroBottom,Bahnschrift,42,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,1,0,0,0,100,100,2,0,1,3.0,1.0,2,40,40,170,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.40,0:00:03.20,Title,,0,0,0,,{\fad(400,400)}A V E N G E R S
+Dialogue: 0,0:00:00.40,0:00:03.20,Heavy,,0,0,0,,{\fad(400,400)}DOOMSDAY
+Dialogue: 0,0:00:08.50,0:00:11.00,Lower,,0,0,0,,{\fad(400,400)}THEIR GREATEST THREAT
+Dialogue: 0,0:00:14.50,0:00:17.00,Lower,,0,0,0,,{\fad(400,400)}BECOMES THEIR FINAL STAND
+Dialogue: 0,0:00:27.00,0:00:29.50,Lower,,0,0,0,,{\fad(400,400)}NO ONE GETS OUT
+Dialogue: 0,0:00:35.00,0:00:37.50,Lower,,0,0,0,,{\fad(400,400)}EVERYTHING ENDS
+Dialogue: 0,0:00:45.13,0:00:51.53,OutroTop,,0,0,0,,{\fad(400,400)}A V E N G E R S
+Dialogue: 0,0:00:45.13,0:00:51.53,OutroMid,,0,0,0,,{\fad(400,400)}DOOMSDAY
+Dialogue: 0,0:00:45.13,0:00:51.53,OutroBottom,,0,0,0,,{\fad(400,400)}IN THEATERS DECEMBER 18

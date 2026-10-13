@@ -1,0 +1,3052 @@
+{
+  "0": {
+    "loudness_db": -30.2,
+    "motion": 13.511,
+    "score": 0.2907
+  },
+  "1": {
+    "loudness_db": -21.4,
+    "motion": 15.601,
+    "score": 0.6563
+  },
+  "2": {
+    "loudness_db": -20.6,
+    "motion": 12.389,
+    "score": 0.6613
+  },
+  "3": {
+    "loudness_db": -22.4,
+    "motion": 0.506,
+    "score": 0.4948
+  },
+  "4": {
+    "loudness_db": -23.4,
+    "motion": 3.467,
+    "score": 0.4782
+  },
+  "5": {
+    "loudness_db": -22.0,
+    "motion": 1.262,
+    "score": 0.5141
+  },
+  "6": {
+    "loudness_db": -22.5,
+    "motion": 24.551,
+    "score": 0.6851
+  },
+  "7": {
+    "loudness_db": -23.8,
+    "motion": 23.657,
+    "score": 0.6252
+  },
+  "8": {
+    "loudness_db": -27.9,
+    "motion": 19.383,
+    "score": 0.4307
+  },
+  "9": {
+    "loudness_db": -25.8,
+    "motion": 6.718,
+    "score": 0.4118
+  },
+  "10": {
+    "loudness_db": -25.9,
+    "motion": 7.132,
+    "score": 0.4115
+  },
+  "11": {
+    "loudness_db": -21.4,
+    "motion": 6.063,
+    "score": 0.5774
+  },
+  "12": {
+    "loudness_db": -20.4,
+    "motion": 5.231,
+    "score": 0.6109
+  },
+  "13": {
+    "loudness_db": -20.1,
+    "motion": 3.232,
+    "score": 0.6072
+  },
+  "14": {
+    "loudness_db": -20.1,
+    "motion": 16.36,
+    "score": 0.713
+  },
+  "15": {
+    "loudness_db": -19.8,
+    "motion": 0.663,
+    "score": 0.599
+  },
+  "16": {
+    "loudness_db": -21.5,
+    "motion": 17.871,
+    "score": 0.6684
+  },
+  "17": {
+    "loudness_db": -20.5,
+    "motion": 6.832,
+    "score": 0.6193
+  },
+  "18": {
+    "loudness_db": -21.0,
+    "motion": 7.392,
+    "score": 0.6053
+  },
+  "19": {
+    "loudness_db": -24.3,
+    "motion": 8.094,
+    "score": 0.4792
+  },
+  "20": {
+    "loudness_db": -25.6,
+    "motion": 6.933,
+    "score": 0.4216
+  },
+  "21": {
+    "loudness_db": -25.1,
+    "motion": 9.105,
+    "score": 0.4581
+  },
+  "22": {
+    "loudness_db": -23.2,
+    "motion": 14.195,
+    "score": 0.573
+  },
+  "23": {
+    "loudness_db": -23.2,
+    "motion": 14.344,
+    "score": 0.5752
+  },
+  "24": {
+    "loudness_db": -22.1,
+    "motion": 22.309,
+    "score": 0.6808
+  },
+  "25": {
+    "loudness_db": -23.2,
+    "motion": 4.232,
+    "score": 0.4944
+  },
+  "26": {
+    "loudness_db": -21.1,
+    "motion": 15.972,
+    "score": 0.6685
+  },
+  "27": {
+    "loudness_db": -21.3,
+    "motion": 9.554,
+    "score": 0.6084
+  },
+  "28": {
+    "loudness_db": -20.9,
+    "motion": 7.588,
+    "score": 0.6086
+  },
+  "29": {
+    "loudness_db": -24.4,
+    "motion": 9.921,
+    "score": 0.4925
+  },
+  "30": {
+    "loudness_db": -23.6,
+    "motion": 10.786,
+    "score": 0.5291
+  },
+  "31": {
+    "loudness_db": -23.5,
+    "motion": 11.085,
+    "score": 0.5339
+  },
+  "32": {
+    "loudness_db": -21.5,
+    "motion": 13.134,
+    "score": 0.6314
+  },
+  "33": {
+    "loudness_db": -28.5,
+    "motion": 12.48,
+    "score": 0.3495
+  },
+  "34": {
+    "loudness_db": -20.7,
+    "motion": 17.241,
+    "score": 0.6959
+  },
+  "35": {
+    "loudness_db": -19.1,
+    "motion": 14.125,
+    "score": 0.7345
+  },
+  "36": {
+    "loudness_db": -19.6,
+    "motion": 14.344,
+    "score": 0.7136
+  },
+  "37": {
+    "loudness_db": -19.4,
+    "motion": 12.778,
+    "score": 0.7095
+  },
+  "38": {
+    "loudness_db": -19.5,
+    "motion": 14.012,
+    "score": 0.717
+  },
+  "39": {
+    "loudness_db": -19.3,
+    "motion": 16.497,
+    "score": 0.7431
+  },
+  "40": {
+    "loudness_db": -19.7,
+    "motion": 35.577,
+    "score": 0.8823
+  },
+  "41": {
+    "loudness_db": -20.1,
+    "motion": 32.518,
+    "score": 0.8415
+  },
+  "42": {
+    "loudness_db": -19.1,
+    "motion": 40.605,
+    "score": 0.9458
+  },
+  "43": {
+    "loudness_db": -20.1,
+    "motion": 28.344,
+    "score": 0.8074
+  },
+  "44": {
+    "loudness_db": -19.0,
+    "motion": 26.799,
+    "score": 0.8396
+  },
+  "45": {
+    "loudness_db": -20.7,
+    "motion": 28.111,
+    "score": 0.7843
+  },
+  "46": {
+    "loudness_db": -20.1,
+    "motion": 28.981,
+    "score": 0.813
+  },
+  "47": {
+    "loudness_db": -20.1,
+    "motion": 22.955,
+    "score": 0.764
+  },
+  "48": {
+    "loudness_db": -20.3,
+    "motion": 10.189,
+    "score": 0.6543
+  },
+  "49": {
+    "loudness_db": -20.4,
+    "motion": 14.413,
+    "score": 0.686
+  },
+  "50": {
+    "loudness_db": -20.6,
+    "motion": 5.098,
+    "score": 0.6004
+  },
+  "51": {
+    "loudness_db": -21.8,
+    "motion": 10.008,
+    "score": 0.5941
+  },
+  "52": {
+    "loudness_db": -22.4,
+    "motion": 18.105,
+    "score": 0.635
+  },
+  "53": {
+    "loudness_db": -20.4,
+    "motion": 20.052,
+    "score": 0.73
+  },
+  "54": {
+    "loudness_db": -19.3,
+    "motion": 16.981,
+    "score": 0.7468
+  },
+  "55": {
+    "loudness_db": -21.4,
+    "motion": 14.318,
+    "score": 0.6431
+  },
+  "56": {
+    "loudness_db": -25.0,
+    "motion": 16.888,
+    "score": 0.5223
+  },
+  "57": {
+    "loudness_db": -25.1,
+    "motion": 17.894,
+    "score": 0.5285
+  },
+  "58": {
+    "loudness_db": -22.4,
+    "motion": 20.449,
+    "score": 0.6556
+  },
+  "59": {
+    "loudness_db": -21.1,
+    "motion": 7.165,
+    "score": 0.5983
+  },
+  "60": {
+    "loudness_db": -20.7,
+    "motion": 6.853,
+    "score": 0.6118
+  },
+  "61": {
+    "loudness_db": -21.0,
+    "motion": 6.303,
+    "score": 0.5967
+  },
+  "62": {
+    "loudness_db": -20.4,
+    "motion": 6.529,
+    "score": 0.6217
+  },
+  "63": {
+    "loudness_db": -20.6,
+    "motion": 8.563,
+    "score": 0.6292
+  },
+  "64": {
+    "loudness_db": -21.2,
+    "motion": 11.353,
+    "score": 0.627
+  },
+  "65": {
+    "loudness_db": -19.3,
+    "motion": 10.241,
+    "score": 0.6948
+  },
+  "66": {
+    "loudness_db": -20.0,
+    "motion": 12.628,
+    "score": 0.6877
+  },
+  "67": {
+    "loudness_db": -20.9,
+    "motion": 10.158,
+    "score": 0.6316
+  },
+  "68": {
+    "loudness_db": -23.3,
+    "motion": 6.355,
+    "score": 0.5063
+  },
+  "69": {
+    "loudness_db": -25.6,
+    "motion": 11.69,
+    "score": 0.4579
+  },
+  "70": {
+    "loudness_db": -24.4,
+    "motion": 11.049,
+    "score": 0.5007
+  },
+  "71": {
+    "loudness_db": -22.2,
+    "motion": 9.794,
+    "score": 0.5762
+  },
+  "72": {
+    "loudness_db": -21.8,
+    "motion": 5.179,
+    "score": 0.5536
+  },
+  "73": {
+    "loudness_db": -21.0,
+    "motion": 6.853,
+    "score": 0.6005
+  },
+  "74": {
+    "loudness_db": -20.2,
+    "motion": 7.481,
+    "score": 0.6351
+  },
+  "75": {
+    "loudness_db": -19.9,
+    "motion": 9.807,
+    "score": 0.6665
+  },
+  "76": {
+    "loudness_db": -19.4,
+    "motion": 12.494,
+    "score": 0.7086
+  },
+  "77": {
+    "loudness_db": -18.6,
+    "motion": 15.173,
+    "score": 0.7608
+  },
+  "78": {
+    "loudness_db": -18.8,
+    "motion": 12.792,
+    "score": 0.7325
+  },
+  "79": {
+    "loudness_db": -18.6,
+    "motion": 8.229,
+    "score": 0.7067
+  },
+  "80": {
+    "loudness_db": -19.3,
+    "motion": 11.671,
+    "score": 0.704
+  },
+  "81": {
+    "loudness_db": -18.9,
+    "motion": 23.14,
+    "score": 0.8135
+  },
+  "82": {
+    "loudness_db": -19.3,
+    "motion": 26.781,
+    "score": 0.8285
+  },
+  "83": {
+    "loudness_db": -19.4,
+    "motion": 6.176,
+    "score": 0.6574
+  },
+  "84": {
+    "loudness_db": -20.6,
+    "motion": 7.257,
+    "score": 0.6199
+  },
+  "85": {
+    "loudness_db": -22.0,
+    "motion": 6.892,
+    "score": 0.5624
+  },
+  "86": {
+    "loudness_db": -24.1,
+    "motion": 9.02,
+    "score": 0.4973
+  },
+  "87": {
+    "loudness_db": -22.1,
+    "motion": 11.509,
+    "score": 0.5944
+  },
+  "88": {
+    "loudness_db": -21.0,
+    "motion": 15.11,
+    "score": 0.6682
+  },
+  "89": {
+    "loudness_db": -20.0,
+    "motion": 18.297,
+    "score": 0.7298
+  },
+  "90": {
+    "loudness_db": -19.8,
+    "motion": 11.127,
+    "score": 0.6814
+  },
+  "91": {
+    "loudness_db": -20.5,
+    "motion": 11.963,
+    "score": 0.6619
+  },
+  "92": {
+    "loudness_db": -19.5,
+    "motion": 10.708,
+    "score": 0.6886
+  },
+  "93": {
+    "loudness_db": -19.4,
+    "motion": 4.936,
+    "score": 0.6469
+  },
+  "94": {
+    "loudness_db": -18.6,
+    "motion": 6.353,
+    "score": 0.6902
+  },
+  "95": {
+    "loudness_db": -22.9,
+    "motion": 9.577,
+    "score": 0.549
+  },
+  "96": {
+    "loudness_db": -25.2,
+    "motion": 9.151,
+    "score": 0.4536
+  },
+  "97": {
+    "loudness_db": -21.7,
+    "motion": 10.088,
+    "score": 0.597
+  },
+  "98": {
+    "loudness_db": -22.9,
+    "motion": 12.641,
+    "score": 0.571
+  },
+  "99": {
+    "loudness_db": -25.1,
+    "motion": 13.021,
+    "score": 0.4901
+  },
+  "100": {
+    "loudness_db": -23.6,
+    "motion": 13.162,
+    "score": 0.5479
+  },
+  "101": {
+    "loudness_db": -21.8,
+    "motion": 14.733,
+    "score": 0.633
+  },
+  "102": {
+    "loudness_db": -21.3,
+    "motion": 11.782,
+    "score": 0.6275
+  },
+  "103": {
+    "loudness_db": -23.3,
+    "motion": 15.905,
+    "score": 0.5803
+  },
+  "104": {
+    "loudness_db": -22.7,
+    "motion": 16.793,
+    "score": 0.6132
+  },
+  "105": {
+    "loudness_db": -25.4,
+    "motion": 17.09,
+    "score": 0.5081
+  },
+  "106": {
+    "loudness_db": -23.8,
+    "motion": 14.927,
+    "score": 0.5538
+  },
+  "107": {
+    "loudness_db": -20.2,
+    "motion": 17.779,
+    "score": 0.7197
+  },
+  "108": {
+    "loudness_db": -23.1,
+    "motion": 12.891,
+    "score": 0.5675
+  },
+  "109": {
+    "loudness_db": -21.6,
+    "motion": 12.834,
+    "score": 0.626
+  },
+  "110": {
+    "loudness_db": -21.0,
+    "motion": 9.643,
+    "score": 0.6223
+  },
+  "111": {
+    "loudness_db": -22.8,
+    "motion": 6.334,
+    "score": 0.5238
+  },
+  "112": {
+    "loudness_db": -22.2,
+    "motion": 6.371,
+    "score": 0.5504
+  },
+  "113": {
+    "loudness_db": -19.3,
+    "motion": 7.528,
+    "score": 0.6718
+  },
+  "114": {
+    "loudness_db": -20.3,
+    "motion": 12.468,
+    "score": 0.6721
+  },
+  "115": {
+    "loudness_db": -20.3,
+    "motion": 13.678,
+    "score": 0.6807
+  },
+  "116": {
+    "loudness_db": -18.6,
+    "motion": 11.02,
+    "score": 0.7275
+  },
+  "117": {
+    "loudness_db": -19.0,
+    "motion": 21.087,
+    "score": 0.7919
+  },
+  "118": {
+    "loudness_db": -18.8,
+    "motion": 26.229,
+    "score": 0.8408
+  },
+  "119": {
+    "loudness_db": -19.9,
+    "motion": 25.215,
+    "score": 0.7914
+  },
+  "120": {
+    "loudness_db": -26.5,
+    "motion": 10.625,
+    "score": 0.4143
+  },
+  "121": {
+    "loudness_db": -25.8,
+    "motion": 4.863,
+    "score": 0.3963
+  },
+  "122": {
+    "loudness_db": -31.6,
+    "motion": 5.098,
+    "score": 0.1697
+  },
+  "123": {
+    "loudness_db": -31.0,
+    "motion": 7.867,
+    "score": 0.2145
+  },
+  "124": {
+    "loudness_db": -21.0,
+    "motion": 10.348,
+    "score": 0.6286
+  },
+  "125": {
+    "loudness_db": -21.4,
+    "motion": 13.458,
+    "score": 0.6365
+  },
+  "126": {
+    "loudness_db": -21.6,
+    "motion": 23.762,
+    "score": 0.7136
+  },
+  "127": {
+    "loudness_db": -20.4,
+    "motion": 29.312,
+    "score": 0.8057
+  },
+  "128": {
+    "loudness_db": -21.7,
+    "motion": 23.449,
+    "score": 0.7046
+  },
+  "129": {
+    "loudness_db": -28.5,
+    "motion": 6.745,
+    "score": 0.3043
+  },
+  "130": {
+    "loudness_db": -29.8,
+    "motion": 9.661,
+    "score": 0.2758
+  },
+  "131": {
+    "loudness_db": -22.9,
+    "motion": 12.623,
+    "score": 0.5709
+  },
+  "132": {
+    "loudness_db": -21.0,
+    "motion": 15.351,
+    "score": 0.6681
+  },
+  "133": {
+    "loudness_db": -20.5,
+    "motion": 13.89,
+    "score": 0.6775
+  },
+  "134": {
+    "loudness_db": -21.4,
+    "motion": 4.147,
+    "score": 0.5617
+  },
+  "135": {
+    "loudness_db": -20.5,
+    "motion": 12.724,
+    "score": 0.6678
+  },
+  "136": {
+    "loudness_db": -22.8,
+    "motion": 15.191,
+    "score": 0.5966
+  },
+  "137": {
+    "loudness_db": -22.7,
+    "motion": 14.872,
+    "score": 0.5985
+  },
+  "138": {
+    "loudness_db": -21.6,
+    "motion": 25.933,
+    "score": 0.7293
+  },
+  "139": {
+    "loudness_db": -21.8,
+    "motion": 23.784,
+    "score": 0.703
+  },
+  "140": {
+    "loudness_db": -24.0,
+    "motion": 28.957,
+    "score": 0.6597
+  },
+  "141": {
+    "loudness_db": -24.0,
+    "motion": 9.257,
+    "score": 0.5024
+  },
+  "142": {
+    "loudness_db": -28.6,
+    "motion": 11.271,
+    "score": 0.3356
+  },
+  "143": {
+    "loudness_db": -21.0,
+    "motion": 11.598,
+    "score": 0.6373
+  },
+  "144": {
+    "loudness_db": -22.0,
+    "motion": 11.175,
+    "score": 0.594
+  },
+  "145": {
+    "loudness_db": -24.4,
+    "motion": 7.599,
+    "score": 0.471
+  },
+  "146": {
+    "loudness_db": -23.0,
+    "motion": 8.584,
+    "score": 0.5353
+  },
+  "147": {
+    "loudness_db": -20.6,
+    "motion": 7.558,
+    "score": 0.6226
+  },
+  "148": {
+    "loudness_db": -21.8,
+    "motion": 6.404,
+    "score": 0.5662
+  },
+  "149": {
+    "loudness_db": -22.3,
+    "motion": 7.041,
+    "score": 0.5485
+  },
+  "150": {
+    "loudness_db": -23.7,
+    "motion": 13.087,
+    "score": 0.5437
+  },
+  "151": {
+    "loudness_db": -22.8,
+    "motion": 13.762,
+    "score": 0.5856
+  },
+  "152": {
+    "loudness_db": -23.6,
+    "motion": 15.029,
+    "score": 0.5637
+  },
+  "153": {
+    "loudness_db": -24.2,
+    "motion": 6.712,
+    "score": 0.4717
+  },
+  "154": {
+    "loudness_db": -23.2,
+    "motion": 6.998,
+    "score": 0.5162
+  },
+  "155": {
+    "loudness_db": -25.1,
+    "motion": 6.95,
+    "score": 0.4395
+  },
+  "156": {
+    "loudness_db": -22.2,
+    "motion": 7.42,
+    "score": 0.5558
+  },
+  "157": {
+    "loudness_db": -20.9,
+    "motion": 12.12,
+    "score": 0.6481
+  },
+  "158": {
+    "loudness_db": -24.1,
+    "motion": 11.346,
+    "score": 0.5131
+  },
+  "159": {
+    "loudness_db": -22.1,
+    "motion": 17.61,
+    "score": 0.6427
+  },
+  "160": {
+    "loudness_db": -23.4,
+    "motion": 1.298,
+    "score": 0.46
+  },
+  "161": {
+    "loudness_db": -23.9,
+    "motion": 15.537,
+    "score": 0.5541
+  },
+  "162": {
+    "loudness_db": -22.1,
+    "motion": 7.53,
+    "score": 0.5616
+  },
+  "163": {
+    "loudness_db": -24.8,
+    "motion": 6.696,
+    "score": 0.4485
+  },
+  "164": {
+    "loudness_db": -28.9,
+    "motion": 6.938,
+    "score": 0.2903
+  },
+  "165": {
+    "loudness_db": -23.6,
+    "motion": 7.119,
+    "score": 0.5019
+  },
+  "166": {
+    "loudness_db": -20.5,
+    "motion": 6.968,
+    "score": 0.6218
+  },
+  "167": {
+    "loudness_db": -19.8,
+    "motion": 13.177,
+    "score": 0.6984
+  },
+  "168": {
+    "loudness_db": -20.1,
+    "motion": 23.295,
+    "score": 0.7678
+  },
+  "169": {
+    "loudness_db": -22.6,
+    "motion": 25.411,
+    "score": 0.6879
+  },
+  "170": {
+    "loudness_db": -24.7,
+    "motion": 12.119,
+    "score": 0.4958
+  },
+  "171": {
+    "loudness_db": -26.6,
+    "motion": 4.999,
+    "score": 0.3639
+  },
+  "172": {
+    "loudness_db": -27.3,
+    "motion": 11.794,
+    "score": 0.391
+  },
+  "173": {
+    "loudness_db": -27.0,
+    "motion": 5.178,
+    "score": 0.3499
+  },
+  "174": {
+    "loudness_db": -24.3,
+    "motion": 13.018,
+    "score": 0.5183
+  },
+  "175": {
+    "loudness_db": -21.3,
+    "motion": 10.074,
+    "score": 0.6133
+  },
+  "176": {
+    "loudness_db": -21.2,
+    "motion": 20.97,
+    "score": 0.7052
+  },
+  "177": {
+    "loudness_db": -25.9,
+    "motion": 26.765,
+    "score": 0.5672
+  },
+  "178": {
+    "loudness_db": -26.1,
+    "motion": 24.995,
+    "score": 0.5439
+  },
+  "179": {
+    "loudness_db": -24.5,
+    "motion": 12.623,
+    "score": 0.509
+  },
+  "180": {
+    "loudness_db": -23.8,
+    "motion": 16.387,
+    "score": 0.5647
+  },
+  "181": {
+    "loudness_db": -22.9,
+    "motion": 1.026,
+    "score": 0.4773
+  },
+  "182": {
+    "loudness_db": -23.5,
+    "motion": 14.491,
+    "score": 0.5643
+  },
+  "183": {
+    "loudness_db": -26.2,
+    "motion": 6.766,
+    "score": 0.3941
+  },
+  "184": {
+    "loudness_db": -23.1,
+    "motion": 13.496,
+    "score": 0.5698
+  },
+  "185": {
+    "loudness_db": -19.2,
+    "motion": 14.671,
+    "score": 0.7332
+  },
+  "186": {
+    "loudness_db": -18.5,
+    "motion": 16.038,
+    "score": 0.7735
+  },
+  "187": {
+    "loudness_db": -18.9,
+    "motion": 17.697,
+    "score": 0.7702
+  },
+  "188": {
+    "loudness_db": -20.0,
+    "motion": 17.691,
+    "score": 0.7261
+  },
+  "189": {
+    "loudness_db": -22.2,
+    "motion": 23.703,
+    "score": 0.6888
+  },
+  "190": {
+    "loudness_db": -20.1,
+    "motion": 20.337,
+    "score": 0.743
+  },
+  "191": {
+    "loudness_db": -20.2,
+    "motion": 4.158,
+    "score": 0.6117
+  },
+  "192": {
+    "loudness_db": -20.2,
+    "motion": 19.96,
+    "score": 0.7359
+  },
+  "193": {
+    "loudness_db": -22.1,
+    "motion": 8.693,
+    "score": 0.5729
+  },
+  "194": {
+    "loudness_db": -22.5,
+    "motion": 12.105,
+    "score": 0.5849
+  },
+  "195": {
+    "loudness_db": -21.3,
+    "motion": 12.935,
+    "score": 0.638
+  },
+  "196": {
+    "loudness_db": -20.5,
+    "motion": 14.134,
+    "score": 0.6792
+  },
+  "197": {
+    "loudness_db": -20.6,
+    "motion": 9.983,
+    "score": 0.641
+  },
+  "198": {
+    "loudness_db": -22.5,
+    "motion": 13.769,
+    "score": 0.5956
+  },
+  "199": {
+    "loudness_db": -21.9,
+    "motion": 9.943,
+    "score": 0.5893
+  },
+  "200": {
+    "loudness_db": -24.6,
+    "motion": 13.179,
+    "score": 0.5084
+  },
+  "201": {
+    "loudness_db": -22.6,
+    "motion": 12.439,
+    "score": 0.5826
+  },
+  "202": {
+    "loudness_db": -24.4,
+    "motion": 8.29,
+    "score": 0.4792
+  },
+  "203": {
+    "loudness_db": -20.3,
+    "motion": 15.796,
+    "score": 0.6991
+  },
+  "204": {
+    "loudness_db": -21.6,
+    "motion": 6.298,
+    "score": 0.5713
+  },
+  "205": {
+    "loudness_db": -20.9,
+    "motion": 7.425,
+    "score": 0.6084
+  },
+  "206": {
+    "loudness_db": -20.9,
+    "motion": 8.959,
+    "score": 0.6191
+  },
+  "207": {
+    "loudness_db": -21.5,
+    "motion": 13.167,
+    "score": 0.6323
+  },
+  "208": {
+    "loudness_db": -20.7,
+    "motion": 15.553,
+    "score": 0.6815
+  },
+  "209": {
+    "loudness_db": -20.2,
+    "motion": 19.788,
+    "score": 0.7337
+  },
+  "210": {
+    "loudness_db": -20.3,
+    "motion": 21.686,
+    "score": 0.7486
+  },
+  "211": {
+    "loudness_db": -20.8,
+    "motion": 20.067,
+    "score": 0.7145
+  },
+  "212": {
+    "loudness_db": -20.6,
+    "motion": 12.833,
+    "score": 0.6639
+  },
+  "213": {
+    "loudness_db": -24.4,
+    "motion": 6.362,
+    "score": 0.4617
+  },
+  "214": {
+    "loudness_db": -23.7,
+    "motion": 7.965,
+    "score": 0.5018
+  },
+  "215": {
+    "loudness_db": -19.3,
+    "motion": 7.937,
+    "score": 0.6758
+  },
+  "216": {
+    "loudness_db": -20.0,
+    "motion": 8.106,
+    "score": 0.649
+  },
+  "217": {
+    "loudness_db": -21.2,
+    "motion": 6.779,
+    "score": 0.5936
+  },
+  "218": {
+    "loudness_db": -21.9,
+    "motion": 6.905,
+    "score": 0.5658
+  },
+  "219": {
+    "loudness_db": -23.6,
+    "motion": 7.812,
+    "score": 0.5061
+  },
+  "220": {
+    "loudness_db": -24.3,
+    "motion": 8.076,
+    "score": 0.4782
+  },
+  "221": {
+    "loudness_db": -22.3,
+    "motion": 8.515,
+    "score": 0.562
+  },
+  "222": {
+    "loudness_db": -21.2,
+    "motion": 16.68,
+    "score": 0.6697
+  },
+  "223": {
+    "loudness_db": -19.8,
+    "motion": 11.19,
+    "score": 0.6802
+  },
+  "224": {
+    "loudness_db": -20.0,
+    "motion": 15.569,
+    "score": 0.7085
+  },
+  "225": {
+    "loudness_db": -19.8,
+    "motion": 12.016,
+    "score": 0.6871
+  },
+  "226": {
+    "loudness_db": -19.6,
+    "motion": 14.925,
+    "score": 0.7192
+  },
+  "227": {
+    "loudness_db": -19.8,
+    "motion": 12.833,
+    "score": 0.6943
+  },
+  "228": {
+    "loudness_db": -21.1,
+    "motion": 15.882,
+    "score": 0.6699
+  },
+  "229": {
+    "loudness_db": -23.5,
+    "motion": 11.145,
+    "score": 0.5355
+  },
+  "230": {
+    "loudness_db": -25.9,
+    "motion": 6.23,
+    "score": 0.4014
+  },
+  "231": {
+    "loudness_db": -25.7,
+    "motion": 10.117,
+    "score": 0.4412
+  },
+  "232": {
+    "loudness_db": -23.0,
+    "motion": 11.49,
+    "score": 0.5604
+  },
+  "233": {
+    "loudness_db": -23.6,
+    "motion": 12.109,
+    "score": 0.5401
+  },
+  "234": {
+    "loudness_db": -22.1,
+    "motion": 20.37,
+    "score": 0.6657
+  },
+  "235": {
+    "loudness_db": -21.0,
+    "motion": 2.19,
+    "score": 0.5645
+  },
+  "236": {
+    "loudness_db": -19.9,
+    "motion": 19.478,
+    "score": 0.745
+  },
+  "237": {
+    "loudness_db": -22.2,
+    "motion": 9.965,
+    "score": 0.577
+  },
+  "238": {
+    "loudness_db": -21.3,
+    "motion": 15.391,
+    "score": 0.6567
+  },
+  "239": {
+    "loudness_db": -18.6,
+    "motion": 20.961,
+    "score": 0.8063
+  },
+  "240": {
+    "loudness_db": -19.8,
+    "motion": 22.952,
+    "score": 0.7757
+  },
+  "241": {
+    "loudness_db": -20.9,
+    "motion": 18.243,
+    "score": 0.6962
+  },
+  "242": {
+    "loudness_db": -24.8,
+    "motion": 15.395,
+    "score": 0.5199
+  },
+  "243": {
+    "loudness_db": -22.7,
+    "motion": 12.996,
+    "score": 0.5808
+  },
+  "244": {
+    "loudness_db": -23.5,
+    "motion": 29.213,
+    "score": 0.6811
+  },
+  "245": {
+    "loudness_db": -29.5,
+    "motion": 24.871,
+    "score": 0.4113
+  },
+  "246": {
+    "loudness_db": -26.6,
+    "motion": 30.733,
+    "score": 0.5709
+  },
+  "247": {
+    "loudness_db": -24.0,
+    "motion": 29.898,
+    "score": 0.6659
+  },
+  "248": {
+    "loudness_db": -25.4,
+    "motion": 35.851,
+    "score": 0.6609
+  },
+  "249": {
+    "loudness_db": -30.3,
+    "motion": 7.331,
+    "score": 0.2389
+  },
+  "250": {
+    "loudness_db": -28.5,
+    "motion": 7.053,
+    "score": 0.3054
+  },
+  "251": {
+    "loudness_db": -27.4,
+    "motion": 7.695,
+    "score": 0.3564
+  },
+  "252": {
+    "loudness_db": -21.5,
+    "motion": 12.313,
+    "score": 0.6224
+  },
+  "253": {
+    "loudness_db": -22.7,
+    "motion": 10.589,
+    "score": 0.5641
+  },
+  "254": {
+    "loudness_db": -22.8,
+    "motion": 17.384,
+    "score": 0.6141
+  },
+  "255": {
+    "loudness_db": -27.1,
+    "motion": 13.547,
+    "score": 0.4146
+  },
+  "256": {
+    "loudness_db": -27.9,
+    "motion": 20.304,
+    "score": 0.436
+  },
+  "257": {
+    "loudness_db": -24.4,
+    "motion": 18.042,
+    "score": 0.5568
+  },
+  "258": {
+    "loudness_db": -26.7,
+    "motion": 19.279,
+    "score": 0.477
+  },
+  "259": {
+    "loudness_db": -24.3,
+    "motion": 5.284,
+    "score": 0.4585
+  },
+  "260": {
+    "loudness_db": -25.9,
+    "motion": 12.982,
+    "score": 0.4552
+  },
+  "261": {
+    "loudness_db": -24.7,
+    "motion": 9.887,
+    "score": 0.4791
+  },
+  "262": {
+    "loudness_db": -25.5,
+    "motion": 11.281,
+    "score": 0.4594
+  },
+  "263": {
+    "loudness_db": -29.1,
+    "motion": 26.286,
+    "score": 0.4377
+  },
+  "264": {
+    "loudness_db": -30.8,
+    "motion": 33.799,
+    "score": 0.4316
+  },
+  "265": {
+    "loudness_db": -31.5,
+    "motion": 28.385,
+    "score": 0.3606
+  },
+  "266": {
+    "loudness_db": -32.4,
+    "motion": 20.158,
+    "score": 0.2588
+  },
+  "267": {
+    "loudness_db": -26.7,
+    "motion": 17.429,
+    "score": 0.4624
+  },
+  "268": {
+    "loudness_db": -28.2,
+    "motion": 17.69,
+    "score": 0.4046
+  },
+  "269": {
+    "loudness_db": -26.1,
+    "motion": 22.787,
+    "score": 0.5255
+  },
+  "270": {
+    "loudness_db": -25.7,
+    "motion": 22.675,
+    "score": 0.5429
+  },
+  "271": {
+    "loudness_db": -28.7,
+    "motion": 28.683,
+    "score": 0.4727
+  },
+  "272": {
+    "loudness_db": -24.5,
+    "motion": 15.266,
+    "score": 0.5304
+  },
+  "273": {
+    "loudness_db": -28.2,
+    "motion": 22.478,
+    "score": 0.4437
+  },
+  "274": {
+    "loudness_db": -31.4,
+    "motion": 17.395,
+    "score": 0.2772
+  },
+  "275": {
+    "loudness_db": -28.2,
+    "motion": 17.316,
+    "score": 0.4012
+  },
+  "276": {
+    "loudness_db": -19.3,
+    "motion": 13.605,
+    "score": 0.7225
+  },
+  "277": {
+    "loudness_db": -22.9,
+    "motion": 13.021,
+    "score": 0.5756
+  },
+  "278": {
+    "loudness_db": -21.0,
+    "motion": 13.437,
+    "score": 0.6514
+  },
+  "279": {
+    "loudness_db": -19.5,
+    "motion": 15.684,
+    "score": 0.7317
+  },
+  "280": {
+    "loudness_db": -20.8,
+    "motion": 10.36,
+    "score": 0.6372
+  },
+  "281": {
+    "loudness_db": -20.5,
+    "motion": 15.762,
+    "score": 0.6918
+  },
+  "282": {
+    "loudness_db": -19.7,
+    "motion": 23.761,
+    "score": 0.785
+  },
+  "283": {
+    "loudness_db": -20.1,
+    "motion": 25.892,
+    "score": 0.7898
+  },
+  "284": {
+    "loudness_db": -20.7,
+    "motion": 26.949,
+    "score": 0.7728
+  },
+  "285": {
+    "loudness_db": -21.7,
+    "motion": 27.477,
+    "score": 0.7397
+  },
+  "286": {
+    "loudness_db": -22.2,
+    "motion": 28.16,
+    "score": 0.7258
+  },
+  "287": {
+    "loudness_db": -26.6,
+    "motion": 16.176,
+    "score": 0.4545
+  },
+  "288": {
+    "loudness_db": -24.8,
+    "motion": 11.38,
+    "score": 0.488
+  },
+  "289": {
+    "loudness_db": -23.8,
+    "motion": 14.375,
+    "score": 0.5499
+  },
+  "290": {
+    "loudness_db": -24.0,
+    "motion": 14.818,
+    "score": 0.5443
+  },
+  "291": {
+    "loudness_db": -26.3,
+    "motion": 15.183,
+    "score": 0.4575
+  },
+  "292": {
+    "loudness_db": -25.3,
+    "motion": 8.822,
+    "score": 0.4462
+  },
+  "293": {
+    "loudness_db": -28.0,
+    "motion": 8.92,
+    "score": 0.343
+  },
+  "294": {
+    "loudness_db": -21.1,
+    "motion": 8.036,
+    "score": 0.6049
+  },
+  "295": {
+    "loudness_db": -22.6,
+    "motion": 6.281,
+    "score": 0.5319
+  },
+  "296": {
+    "loudness_db": -23.1,
+    "motion": 6.309,
+    "score": 0.5135
+  },
+  "297": {
+    "loudness_db": -18.8,
+    "motion": 4.97,
+    "score": 0.6697
+  },
+  "298": {
+    "loudness_db": -18.7,
+    "motion": 12.134,
+    "score": 0.7316
+  },
+  "299": {
+    "loudness_db": -18.9,
+    "motion": 17.865,
+    "score": 0.7725
+  },
+  "300": {
+    "loudness_db": -19.8,
+    "motion": 18.732,
+    "score": 0.7409
+  },
+  "301": {
+    "loudness_db": -19.2,
+    "motion": 16.389,
+    "score": 0.7473
+  },
+  "302": {
+    "loudness_db": -21.6,
+    "motion": 17.642,
+    "score": 0.6631
+  },
+  "303": {
+    "loudness_db": -27.8,
+    "motion": 3.788,
+    "score": 0.307
+  },
+  "304": {
+    "loudness_db": -29.5,
+    "motion": 3.405,
+    "score": 0.2399
+  },
+  "305": {
+    "loudness_db": -31.4,
+    "motion": 23.669,
+    "score": 0.3266
+  },
+  "306": {
+    "loudness_db": -26.2,
+    "motion": 22.963,
+    "score": 0.5249
+  },
+  "307": {
+    "loudness_db": -26.8,
+    "motion": 17.899,
+    "score": 0.4617
+  },
+  "308": {
+    "loudness_db": -26.6,
+    "motion": 12.801,
+    "score": 0.4294
+  },
+  "309": {
+    "loudness_db": -23.9,
+    "motion": 9.24,
+    "score": 0.5044
+  },
+  "310": {
+    "loudness_db": -28.0,
+    "motion": 5.333,
+    "score": 0.3133
+  },
+  "311": {
+    "loudness_db": -28.8,
+    "motion": 4.921,
+    "score": 0.2782
+  },
+  "312": {
+    "loudness_db": -26.5,
+    "motion": 5.924,
+    "score": 0.3767
+  },
+  "313": {
+    "loudness_db": -23.7,
+    "motion": 7.137,
+    "score": 0.4969
+  },
+  "314": {
+    "loudness_db": -18.5,
+    "motion": 7.26,
+    "score": 0.7022
+  },
+  "315": {
+    "loudness_db": -19.1,
+    "motion": 17.562,
+    "score": 0.7616
+  },
+  "316": {
+    "loudness_db": -18.5,
+    "motion": 15.55,
+    "score": 0.7677
+  },
+  "317": {
+    "loudness_db": -19.7,
+    "motion": 18.722,
+    "score": 0.7473
+  },
+  "318": {
+    "loudness_db": -19.4,
+    "motion": 31.997,
+    "score": 0.8638
+  },
+  "319": {
+    "loudness_db": -19.1,
+    "motion": 24.134,
+    "score": 0.814
+  },
+  "320": {
+    "loudness_db": -19.7,
+    "motion": 19.026,
+    "score": 0.7508
+  },
+  "321": {
+    "loudness_db": -21.1,
+    "motion": 13.492,
+    "score": 0.6483
+  },
+  "322": {
+    "loudness_db": -19.9,
+    "motion": 22.278,
+    "score": 0.7656
+  },
+  "323": {
+    "loudness_db": -19.2,
+    "motion": 13.791,
+    "score": 0.7272
+  },
+  "324": {
+    "loudness_db": -20.0,
+    "motion": 21.478,
+    "score": 0.7567
+  },
+  "325": {
+    "loudness_db": -19.9,
+    "motion": 10.999,
+    "score": 0.6768
+  },
+  "326": {
+    "loudness_db": -21.4,
+    "motion": 12.879,
+    "score": 0.6323
+  },
+  "327": {
+    "loudness_db": -25.0,
+    "motion": 4.729,
+    "score": 0.424
+  },
+  "328": {
+    "loudness_db": -22.9,
+    "motion": 6.707,
+    "score": 0.5232
+  },
+  "329": {
+    "loudness_db": -21.4,
+    "motion": 5.792,
+    "score": 0.5741
+  },
+  "330": {
+    "loudness_db": -22.5,
+    "motion": 5.316,
+    "score": 0.5293
+  },
+  "331": {
+    "loudness_db": -20.3,
+    "motion": 9.897,
+    "score": 0.6519
+  },
+  "332": {
+    "loudness_db": -20.3,
+    "motion": 8.668,
+    "score": 0.6414
+  },
+  "333": {
+    "loudness_db": -20.9,
+    "motion": 18.639,
+    "score": 0.7
+  },
+  "334": {
+    "loudness_db": -21.2,
+    "motion": 18.072,
+    "score": 0.6816
+  },
+  "335": {
+    "loudness_db": -21.3,
+    "motion": 20.562,
+    "score": 0.6967
+  },
+  "336": {
+    "loudness_db": -25.3,
+    "motion": 4.383,
+    "score": 0.4114
+  },
+  "337": {
+    "loudness_db": -23.3,
+    "motion": 6.875,
+    "score": 0.5093
+  },
+  "338": {
+    "loudness_db": -24.3,
+    "motion": 8.63,
+    "score": 0.484
+  },
+  "339": {
+    "loudness_db": -26.3,
+    "motion": 3.338,
+    "score": 0.3615
+  },
+  "340": {
+    "loudness_db": -23.3,
+    "motion": 13.538,
+    "score": 0.5635
+  },
+  "341": {
+    "loudness_db": -24.2,
+    "motion": 9.852,
+    "score": 0.497
+  },
+  "342": {
+    "loudness_db": -23.3,
+    "motion": 11.977,
+    "score": 0.5524
+  },
+  "343": {
+    "loudness_db": -23.5,
+    "motion": 5.836,
+    "score": 0.4945
+  },
+  "344": {
+    "loudness_db": -27.8,
+    "motion": 8.204,
+    "score": 0.3416
+  },
+  "345": {
+    "loudness_db": -25.1,
+    "motion": 6.877,
+    "score": 0.438
+  },
+  "346": {
+    "loudness_db": -26.2,
+    "motion": 6.58,
+    "score": 0.3944
+  },
+  "347": {
+    "loudness_db": -25.8,
+    "motion": 8.979,
+    "score": 0.429
+  },
+  "348": {
+    "loudness_db": -22.7,
+    "motion": 8.879,
+    "score": 0.55
+  },
+  "349": {
+    "loudness_db": -26.2,
+    "motion": 6.637,
+    "score": 0.3947
+  },
+  "350": {
+    "loudness_db": -23.1,
+    "motion": 8.512,
+    "score": 0.5314
+  },
+  "351": {
+    "loudness_db": -25.1,
+    "motion": 8.775,
+    "score": 0.4551
+  },
+  "352": {
+    "loudness_db": -28.6,
+    "motion": 9.683,
+    "score": 0.3252
+  },
+  "353": {
+    "loudness_db": -27.3,
+    "motion": 9.82,
+    "score": 0.3779
+  },
+  "354": {
+    "loudness_db": -27.4,
+    "motion": 9.942,
+    "score": 0.3739
+  },
+  "355": {
+    "loudness_db": -27.8,
+    "motion": 12.556,
+    "score": 0.3782
+  },
+  "356": {
+    "loudness_db": -20.7,
+    "motion": 12.901,
+    "score": 0.6619
+  },
+  "357": {
+    "loudness_db": -22.1,
+    "motion": 9.344,
+    "score": 0.5782
+  },
+  "358": {
+    "loudness_db": -22.4,
+    "motion": 10.327,
+    "score": 0.5724
+  },
+  "359": {
+    "loudness_db": -24.7,
+    "motion": 29.075,
+    "score": 0.6336
+  },
+  "360": {
+    "loudness_db": -26.2,
+    "motion": 23.036,
+    "score": 0.5269
+  },
+  "361": {
+    "loudness_db": -30.6,
+    "motion": 15.412,
+    "score": 0.2906
+  },
+  "362": {
+    "loudness_db": -31.7,
+    "motion": 6.674,
+    "score": 0.1795
+  },
+  "363": {
+    "loudness_db": -29.0,
+    "motion": 13.115,
+    "score": 0.3346
+  },
+  "364": {
+    "loudness_db": -30.1,
+    "motion": 13.2,
+    "score": 0.2946
+  },
+  "365": {
+    "loudness_db": -24.7,
+    "motion": 9.208,
+    "score": 0.4732
+  },
+  "366": {
+    "loudness_db": -21.3,
+    "motion": 9.076,
+    "score": 0.6057
+  },
+  "367": {
+    "loudness_db": -21.5,
+    "motion": 10.156,
+    "score": 0.6082
+  },
+  "368": {
+    "loudness_db": -21.1,
+    "motion": 9.585,
+    "score": 0.6184
+  },
+  "369": {
+    "loudness_db": -22.8,
+    "motion": 15.713,
+    "score": 0.6018
+  },
+  "370": {
+    "loudness_db": -25.3,
+    "motion": 14.899,
+    "score": 0.4974
+  },
+  "371": {
+    "loudness_db": -25.4,
+    "motion": 18.992,
+    "score": 0.5229
+  },
+  "372": {
+    "loudness_db": -24.9,
+    "motion": 15.716,
+    "score": 0.5191
+  },
+  "373": {
+    "loudness_db": -24.6,
+    "motion": 20.945,
+    "score": 0.5719
+  },
+  "374": {
+    "loudness_db": -25.2,
+    "motion": 19.24,
+    "score": 0.5326
+  },
+  "375": {
+    "loudness_db": -20.7,
+    "motion": 9.947,
+    "score": 0.6372
+  },
+  "376": {
+    "loudness_db": -19.3,
+    "motion": 6.772,
+    "score": 0.6649
+  },
+  "377": {
+    "loudness_db": -20.9,
+    "motion": 6.173,
+    "score": 0.5982
+  },
+  "378": {
+    "loudness_db": -20.8,
+    "motion": 8.431,
+    "score": 0.6193
+  },
+  "379": {
+    "loudness_db": -21.0,
+    "motion": 10.08,
+    "score": 0.6261
+  },
+  "380": {
+    "loudness_db": -20.8,
+    "motion": 14.486,
+    "score": 0.668
+  },
+  "381": {
+    "loudness_db": -23.0,
+    "motion": 11.673,
+    "score": 0.5601
+  },
+  "382": {
+    "loudness_db": -21.5,
+    "motion": 13.624,
+    "score": 0.6328
+  },
+  "383": {
+    "loudness_db": -21.3,
+    "motion": 9.956,
+    "score": 0.6134
+  },
+  "384": {
+    "loudness_db": -22.7,
+    "motion": 14.061,
+    "score": 0.5918
+  },
+  "385": {
+    "loudness_db": -21.2,
+    "motion": 15.673,
+    "score": 0.664
+  },
+  "386": {
+    "loudness_db": -22.6,
+    "motion": 16.602,
+    "score": 0.615
+  },
+  "387": {
+    "loudness_db": -24.1,
+    "motion": 7.455,
+    "score": 0.4836
+  },
+  "388": {
+    "loudness_db": -23.7,
+    "motion": 7.1,
+    "score": 0.496
+  },
+  "389": {
+    "loudness_db": -23.0,
+    "motion": 7.93,
+    "score": 0.531
+  },
+  "390": {
+    "loudness_db": -29.7,
+    "motion": 6.52,
+    "score": 0.2552
+  },
+  "391": {
+    "loudness_db": -28.8,
+    "motion": 22.499,
+    "score": 0.42
+  },
+  "392": {
+    "loudness_db": -21.7,
+    "motion": 37.2,
+    "score": 0.8145
+  },
+  "393": {
+    "loudness_db": -21.0,
+    "motion": 26.98,
+    "score": 0.7628
+  },
+  "394": {
+    "loudness_db": -21.1,
+    "motion": 24.979,
+    "score": 0.7421
+  },
+  "395": {
+    "loudness_db": -20.2,
+    "motion": 21.6,
+    "score": 0.7515
+  },
+  "396": {
+    "loudness_db": -20.4,
+    "motion": 15.764,
+    "score": 0.6944
+  },
+  "397": {
+    "loudness_db": -20.6,
+    "motion": 12.82,
+    "score": 0.6643
+  },
+  "398": {
+    "loudness_db": -21.2,
+    "motion": 21.617,
+    "score": 0.7093
+  },
+  "399": {
+    "loudness_db": -23.1,
+    "motion": 16.82,
+    "score": 0.5956
+  },
+  "400": {
+    "loudness_db": -21.8,
+    "motion": 20.762,
+    "score": 0.6804
+  },
+  "401": {
+    "loudness_db": -21.5,
+    "motion": 2.152,
+    "score": 0.5419
+  },
+  "402": {
+    "loudness_db": -22.8,
+    "motion": 12.681,
+    "score": 0.5767
+  },
+  "403": {
+    "loudness_db": -24.8,
+    "motion": 9.125,
+    "score": 0.4703
+  },
+  "404": {
+    "loudness_db": -23.4,
+    "motion": 4.33,
+    "score": 0.4844
+  },
+  "405": {
+    "loudness_db": -22.0,
+    "motion": 5.81,
+    "score": 0.5516
+  },
+  "406": {
+    "loudness_db": -20.8,
+    "motion": 7.799,
+    "score": 0.6169
+  },
+  "407": {
+    "loudness_db": -21.3,
+    "motion": 7.306,
+    "score": 0.5902
+  },
+  "408": {
+    "loudness_db": -21.3,
+    "motion": 19.24,
+    "score": 0.6877
+  },
+  "409": {
+    "loudness_db": -23.1,
+    "motion": 18.992,
+    "score": 0.6151
+  },
+  "410": {
+    "loudness_db": -26.5,
+    "motion": 8.421,
+    "score": 0.3953
+  },
+  "411": {
+    "loudness_db": -28.3,
+    "motion": 9.567,
+    "score": 0.333
+  },
+  "412": {
+    "loudness_db": -28.5,
+    "motion": 6.57,
+    "score": 0.3034
+  },
+  "413": {
+    "loudness_db": -23.0,
+    "motion": 5.947,
+    "score": 0.5131
+  },
+  "414": {
+    "loudness_db": -22.2,
+    "motion": 5.56,
+    "score": 0.5409
+  },
+  "415": {
+    "loudness_db": -19.5,
+    "motion": 5.947,
+    "score": 0.6533
+  },
+  "416": {
+    "loudness_db": -19.6,
+    "motion": 12.653,
+    "score": 0.702
+  },
+  "417": {
+    "loudness_db": -19.8,
+    "motion": 11.973,
+    "score": 0.6876
+  },
+  "418": {
+    "loudness_db": -19.7,
+    "motion": 32.566,
+    "score": 0.8573
+  },
+  "419": {
+    "loudness_db": -20.5,
+    "motion": 41.611,
+    "score": 0.8976
+  },
+  "420": {
+    "loudness_db": -21.7,
+    "motion": 31.445,
+    "score": 0.7685
+  },
+  "421": {
+    "loudness_db": -26.5,
+    "motion": 4.197,
+    "score": 0.3635
+  },
+  "422": {
+    "loudness_db": -26.3,
+    "motion": 9.324,
+    "score": 0.4116
+  },
+  "423": {
+    "loudness_db": -24.8,
+    "motion": 16.902,
+    "score": 0.5321
+  },
+  "424": {
+    "loudness_db": -21.2,
+    "motion": 15.322,
+    "score": 0.66
+  },
+  "425": {
+    "loudness_db": -20.3,
+    "motion": 17.052,
+    "score": 0.7112
+  },
+  "426": {
+    "loudness_db": -20.3,
+    "motion": 18.671,
+    "score": 0.7222
+  },
+  "427": {
+    "loudness_db": -21.8,
+    "motion": 22.986,
+    "score": 0.6975
+  },
+  "428": {
+    "loudness_db": -23.5,
+    "motion": 23.26,
+    "score": 0.6351
+  },
+  "429": {
+    "loudness_db": -25.8,
+    "motion": 18.512,
+    "score": 0.506
+  },
+  "430": {
+    "loudness_db": -23.1,
+    "motion": 13.627,
+    "score": 0.57
+  },
+  "431": {
+    "loudness_db": -26.3,
+    "motion": 6.923,
+    "score": 0.3933
+  },
+  "432": {
+    "loudness_db": -24.8,
+    "motion": 5.402,
+    "score": 0.437
+  },
+  "433": {
+    "loudness_db": -29.2,
+    "motion": 4.436,
+    "score": 0.2593
+  },
+  "434": {
+    "loudness_db": -29.9,
+    "motion": 4.359,
+    "score": 0.2282
+  },
+  "435": {
+    "loudness_db": -22.2,
+    "motion": 4.998,
+    "score": 0.5364
+  },
+  "436": {
+    "loudness_db": -18.7,
+    "motion": 11.752,
+    "score": 0.73
+  },
+  "437": {
+    "loudness_db": -20.4,
+    "motion": 16.765,
+    "score": 0.7036
+  },
+  "438": {
+    "loudness_db": -22.7,
+    "motion": 10.179,
+    "score": 0.5604
+  },
+  "439": {
+    "loudness_db": -22.6,
+    "motion": 19.07,
+    "score": 0.6364
+  },
+  "440": {
+    "loudness_db": -27.3,
+    "motion": 10.797,
+    "score": 0.3845
+  },
+  "441": {
+    "loudness_db": -24.3,
+    "motion": 14.134,
+    "score": 0.5303
+  },
+  "442": {
+    "loudness_db": -21.3,
+    "motion": 11.324,
+    "score": 0.6232
+  },
+  "443": {
+    "loudness_db": -21.1,
+    "motion": 6.483,
+    "score": 0.5919
+  },
+  "444": {
+    "loudness_db": -21.7,
+    "motion": 8.696,
+    "score": 0.5874
+  },
+  "445": {
+    "loudness_db": -27.8,
+    "motion": 11.857,
+    "score": 0.3716
+  },
+  "446": {
+    "loudness_db": -28.5,
+    "motion": 9.014,
+    "score": 0.3232
+  },
+  "447": {
+    "loudness_db": -28.3,
+    "motion": 7.816,
+    "score": 0.3208
+  },
+  "448": {
+    "loudness_db": -21.2,
+    "motion": 14.071,
+    "score": 0.6494
+  },
+  "449": {
+    "loudness_db": -18.5,
+    "motion": 14.047,
+    "score": 0.7562
+  },
+  "450": {
+    "loudness_db": -18.4,
+    "motion": 8.823,
+    "score": 0.7168
+  },
+  "451": {
+    "loudness_db": -18.5,
+    "motion": 16.967,
+    "score": 0.778
+  },
+  "452": {
+    "loudness_db": -19.6,
+    "motion": 11.141,
+    "score": 0.6887
+  },
+  "453": {
+    "loudness_db": -20.4,
+    "motion": 10.176,
+    "score": 0.6492
+  },
+  "454": {
+    "loudness_db": -22.1,
+    "motion": 20.656,
+    "score": 0.6672
+  },
+  "455": {
+    "loudness_db": -21.3,
+    "motion": 12.595,
+    "score": 0.6339
+  },
+  "456": {
+    "loudness_db": -23.9,
+    "motion": 21.651,
+    "score": 0.6033
+  },
+  "457": {
+    "loudness_db": -21.0,
+    "motion": 25.194,
+    "score": 0.7466
+  },
+  "458": {
+    "loudness_db": -21.2,
+    "motion": 29.065,
+    "score": 0.7711
+  },
+  "459": {
+    "loudness_db": -20.9,
+    "motion": 20.89,
+    "score": 0.716
+  },
+  "460": {
+    "loudness_db": -21.7,
+    "motion": 20.558,
+    "score": 0.6808
+  },
+  "461": {
+    "loudness_db": -20.3,
+    "motion": 12.964,
+    "score": 0.6775
+  },
+  "462": {
+    "loudness_db": -20.8,
+    "motion": 4.221,
+    "score": 0.5857
+  },
+  "463": {
+    "loudness_db": -21.0,
+    "motion": 29.214,
+    "score": 0.7781
+  },
+  "464": {
+    "loudness_db": -19.8,
+    "motion": 26.737,
+    "score": 0.806
+  },
+  "465": {
+    "loudness_db": -20.2,
+    "motion": 19.597,
+    "score": 0.7347
+  },
+  "466": {
+    "loudness_db": -22.2,
+    "motion": 7.0,
+    "score": 0.5531
+  },
+  "467": {
+    "loudness_db": -20.9,
+    "motion": 18.941,
+    "score": 0.6995
+  },
+  "468": {
+    "loudness_db": -20.8,
+    "motion": 10.633,
+    "score": 0.6384
+  },
+  "469": {
+    "loudness_db": -23.4,
+    "motion": 10.519,
+    "score": 0.5349
+  },
+  "470": {
+    "loudness_db": -22.2,
+    "motion": 11.469,
+    "score": 0.5892
+  },
+  "471": {
+    "loudness_db": -20.7,
+    "motion": 12.598,
+    "score": 0.6563
+  },
+  "472": {
+    "loudness_db": -21.1,
+    "motion": 12.888,
+    "score": 0.6452
+  },
+  "473": {
+    "loudness_db": -21.0,
+    "motion": 12.331,
+    "score": 0.6428
+  },
+  "474": {
+    "loudness_db": -21.7,
+    "motion": 9.283,
+    "score": 0.5908
+  },
+  "475": {
+    "loudness_db": -23.4,
+    "motion": 18.63,
+    "score": 0.6012
+  },
+  "476": {
+    "loudness_db": -22.1,
+    "motion": 18.162,
+    "score": 0.6485
+  },
+  "477": {
+    "loudness_db": -22.0,
+    "motion": 17.915,
+    "score": 0.65
+  },
+  "478": {
+    "loudness_db": -25.3,
+    "motion": 10.733,
+    "score": 0.4632
+  },
+  "479": {
+    "loudness_db": -21.6,
+    "motion": 21.191,
+    "score": 0.6933
+  },
+  "480": {
+    "loudness_db": -21.5,
+    "motion": 27.157,
+    "score": 0.7445
+  },
+  "481": {
+    "loudness_db": -23.8,
+    "motion": 30.977,
+    "score": 0.6828
+  },
+  "482": {
+    "loudness_db": -22.8,
+    "motion": 9.963,
+    "score": 0.5543
+  },
+  "483": {
+    "loudness_db": -21.6,
+    "motion": 10.183,
+    "score": 0.6045
+  },
+  "484": {
+    "loudness_db": -28.5,
+    "motion": 10.431,
+    "score": 0.332
+  },
+  "485": {
+    "loudness_db": -26.2,
+    "motion": 8.301,
+    "score": 0.4059
+  },
+  "486": {
+    "loudness_db": -23.2,
+    "motion": 16.845,
+    "score": 0.5946
+  },
+  "487": {
+    "loudness_db": -25.7,
+    "motion": 14.267,
+    "score": 0.4746
+  },
+  "488": {
+    "loudness_db": -22.9,
+    "motion": 18.677,
+    "score": 0.6186
+  },
+  "489": {
+    "loudness_db": -22.4,
+    "motion": 22.116,
+    "score": 0.6694
+  },
+  "490": {
+    "loudness_db": -22.5,
+    "motion": 20.527,
+    "score": 0.6506
+  },
+  "491": {
+    "loudness_db": -28.4,
+    "motion": 6.034,
+    "score": 0.3029
+  },
+  "492": {
+    "loudness_db": -29.7,
+    "motion": 5.974,
+    "score": 0.2518
+  },
+  "493": {
+    "loudness_db": -22.8,
+    "motion": 6.817,
+    "score": 0.5298
+  },
+  "494": {
+    "loudness_db": -26.4,
+    "motion": 10.454,
+    "score": 0.4153
+  },
+  "495": {
+    "loudness_db": -28.9,
+    "motion": 14.754,
+    "score": 0.3546
+  },
+  "496": {
+    "loudness_db": -26.2,
+    "motion": 24.761,
+    "score": 0.5411
+  },
+  "497": {
+    "loudness_db": -27.0,
+    "motion": 25.699,
+    "score": 0.5171
+  },
+  "498": {
+    "loudness_db": -28.3,
+    "motion": 19.31,
+    "score": 0.4129
+  },
+  "499": {
+    "loudness_db": -28.1,
+    "motion": 6.354,
+    "score": 0.3149
+  },
+  "500": {
+    "loudness_db": -29.0,
+    "motion": 6.78,
+    "score": 0.2867
+  },
+  "501": {
+    "loudness_db": -28.1,
+    "motion": 7.19,
+    "score": 0.3228
+  },
+  "502": {
+    "loudness_db": -28.2,
+    "motion": 8.732,
+    "score": 0.3322
+  },
+  "503": {
+    "loudness_db": -27.8,
+    "motion": 6.8,
+    "score": 0.3317
+  },
+  "504": {
+    "loudness_db": -22.7,
+    "motion": 7.049,
+    "score": 0.536
+  },
+  "505": {
+    "loudness_db": -23.2,
+    "motion": 9.999,
+    "score": 0.5369
+  },
+  "506": {
+    "loudness_db": -21.5,
+    "motion": 13.937,
+    "score": 0.6375
+  },
+  "507": {
+    "loudness_db": -23.5,
+    "motion": 14.568,
+    "score": 0.5656
+  },
+  "508": {
+    "loudness_db": -20.4,
+    "motion": 17.311,
+    "score": 0.7082
+  },
+  "509": {
+    "loudness_db": -20.2,
+    "motion": 14.575,
+    "score": 0.6928
+  },
+  "510": {
+    "loudness_db": -21.8,
+    "motion": 19.361,
+    "score": 0.6689
+  },
+  "511": {
+    "loudness_db": -20.9,
+    "motion": 16.945,
+    "score": 0.6838
+  },
+  "512": {
+    "loudness_db": -21.0,
+    "motion": 13.881,
+    "score": 0.6575
+  },
+  "513": {
+    "loudness_db": -22.9,
+    "motion": 11.464,
+    "score": 0.5625
+  },
+  "514": {
+    "loudness_db": -21.2,
+    "motion": 27.017,
+    "score": 0.7538
+  },
+  "515": {
+    "loudness_db": -21.9,
+    "motion": 38.316,
+    "score": 0.8181
+  },
+  "516": {
+    "loudness_db": -22.5,
+    "motion": 44.111,
+    "score": 0.8413
+  },
+  "517": {
+    "loudness_db": -25.5,
+    "motion": 31.833,
+    "score": 0.6244
+  },
+  "518": {
+    "loudness_db": -24.9,
+    "motion": 25.188,
+    "score": 0.5919
+  },
+  "519": {
+    "loudness_db": -21.6,
+    "motion": 6.432,
+    "score": 0.5721
+  },
+  "520": {
+    "loudness_db": -22.2,
+    "motion": 11.04,
+    "score": 0.5866
+  },
+  "521": {
+    "loudness_db": -23.9,
+    "motion": 8.113,
+    "score": 0.4953
+  },
+  "522": {
+    "loudness_db": -22.5,
+    "motion": 8.277,
+    "score": 0.5513
+  },
+  "523": {
+    "loudness_db": -32.2,
+    "motion": 19.145,
+    "score": 0.2587
+  },
+  "524": {
+    "loudness_db": -34.0,
+    "motion": 20.419,
+    "score": 0.1962
+  },
+  "525": {
+    "loudness_db": -30.6,
+    "motion": 17.302,
+    "score": 0.3065
+  },
+  "526": {
+    "loudness_db": -24.0,
+    "motion": 16.002,
+    "score": 0.5547
+  },
+  "527": {
+    "loudness_db": -27.0,
+    "motion": 14.616,
+    "score": 0.4263
+  },
+  "528": {
+    "loudness_db": -23.8,
+    "motion": 14.93,
+    "score": 0.5563
+  },
+  "529": {
+    "loudness_db": -25.2,
+    "motion": 15.311,
+    "score": 0.5027
+  },
+  "530": {
+    "loudness_db": -25.9,
+    "motion": 8.177,
+    "score": 0.416
+  },
+  "531": {
+    "loudness_db": -24.2,
+    "motion": 8.638,
+    "score": 0.4901
+  },
+  "532": {
+    "loudness_db": -24.1,
+    "motion": 8.325,
+    "score": 0.4902
+  },
+  "533": {
+    "loudness_db": -32.0,
+    "motion": 12.88,
+    "score": 0.2158
+  },
+  "534": {
+    "loudness_db": -24.2,
+    "motion": 7.382,
+    "score": 0.4789
+  },
+  "535": {
+    "loudness_db": -26.7,
+    "motion": 21.363,
+    "score": 0.4919
+  },
+  "536": {
+    "loudness_db": -25.5,
+    "motion": 31.245,
+    "score": 0.6205
+  },
+  "537": {
+    "loudness_db": -25.4,
+    "motion": 33.951,
+    "score": 0.6437
+  },
+  "538": {
+    "loudness_db": -30.5,
+    "motion": 5.991,
+    "score": 0.2202
+  },
+  "539": {
+    "loudness_db": -31.7,
+    "motion": 6.22,
+    "score": 0.1743
+  },
+  "540": {
+    "loudness_db": -32.0,
+    "motion": 6.943,
+    "score": 0.1675
+  },
+  "541": {
+    "loudness_db": -22.3,
+    "motion": 11.14,
+    "score": 0.5841
+  },
+  "542": {
+    "loudness_db": -24.8,
+    "motion": 14.364,
+    "score": 0.5119
+  },
+  "543": {
+    "loudness_db": -28.4,
+    "motion": 21.99,
+    "score": 0.4298
+  },
+  "544": {
+    "loudness_db": -29.1,
+    "motion": 17.559,
+    "score": 0.3676
+  },
+  "545": {
+    "loudness_db": -29.6,
+    "motion": 23.748,
+    "score": 0.3963
+  },
+  "546": {
+    "loudness_db": -30.3,
+    "motion": 21.61,
+    "score": 0.3526
+  },
+  "547": {
+    "loudness_db": -29.6,
+    "motion": 23.837,
+    "score": 0.3986
+  },
+  "548": {
+    "loudness_db": -26.1,
+    "motion": 8.404,
+    "score": 0.4103
+  },
+  "549": {
+    "loudness_db": -24.8,
+    "motion": 9.254,
+    "score": 0.4686
+  },
+  "550": {
+    "loudness_db": -27.5,
+    "motion": 8.658,
+    "score": 0.3572
+  },
+  "551": {
+    "loudness_db": -25.2,
+    "motion": 9.35,
+    "score": 0.4536
+  },
+  "552": {
+    "loudness_db": -28.6,
+    "motion": 12.606,
+    "score": 0.349
+  },
+  "553": {
+    "loudness_db": -26.5,
+    "motion": 11.853,
+    "score": 0.4248
+  },
+  "554": {
+    "loudness_db": -25.0,
+    "motion": 16.29,
+    "score": 0.5187
+  },
+  "555": {
+    "loudness_db": -35.0,
+    "motion": 18.858,
+    "score": 0.1473
+  },
+  "556": {
+    "loudness_db": -25.7,
+    "motion": 14.343,
+    "score": 0.4735
+  },
+  "557": {
+    "loudness_db": -25.1,
+    "motion": 17.34,
+    "score": 0.5226
+  },
+  "558": {
+    "loudness_db": -25.0,
+    "motion": 18.148,
+    "score": 0.5336
+  },
+  "559": {
+    "loudness_db": -29.5,
+    "motion": 10.048,
+    "score": 0.2923
+  },
+  "560": {
+    "loudness_db": -28.2,
+    "motion": 18.541,
+    "score": 0.4115
+  },
+  "561": {
+    "loudness_db": -30.3,
+    "motion": 29.447,
+    "score": 0.4149
+  },
+  "562": {
+    "loudness_db": -30.3,
+    "motion": 34.285,
+    "score": 0.4539
+  },
+  "563": {
+    "loudness_db": -32.6,
+    "motion": 15.26,
+    "score": 0.2096
+  },
+  "564": {
+    "loudness_db": -29.7,
+    "motion": 7.876,
+    "score": 0.2644
+  },
+  "565": {
+    "loudness_db": -26.2,
+    "motion": 10.263,
+    "score": 0.4219
+  },
+  "566": {
+    "loudness_db": -32.6,
+    "motion": 7.739,
+    "score": 0.1519
+  },
+  "567": {
+    "loudness_db": -33.4,
+    "motion": 16.19,
+    "score": 0.1887
+  },
+  "568": {
+    "loudness_db": -33.4,
+    "motion": 23.435,
+    "score": 0.2455
+  },
+  "569": {
+    "loudness_db": -26.0,
+    "motion": 31.465,
+    "score": 0.6006
+  },
+  "570": {
+    "loudness_db": -24.4,
+    "motion": 7.788,
+    "score": 0.4735
+  },
+  "571": {
+    "loudness_db": -26.2,
+    "motion": 9.404,
+    "score": 0.4177
+  },
+  "572": {
+    "loudness_db": -27.6,
+    "motion": 10.303,
+    "score": 0.3693
+  },
+  "573": {
+    "loudness_db": -23.3,
+    "motion": 14.292,
+    "score": 0.5689
+  },
+  "574": {
+    "loudness_db": -28.2,
+    "motion": 18.62,
+    "score": 0.4115
+  },
+  "575": {
+    "loudness_db": -24.4,
+    "motion": 12.319,
+    "score": 0.5096
+  },
+  "576": {
+    "loudness_db": -30.4,
+    "motion": 8.795,
+    "score": 0.2457
+  },
+  "577": {
+    "loudness_db": -30.3,
+    "motion": 29.304,
+    "score": 0.4141
+  },
+  "578": {
+    "loudness_db": -29.1,
+    "motion": 34.926,
+    "score": 0.5055
+  },
+  "579": {
+    "loudness_db": -31.5,
+    "motion": 32.027,
+    "score": 0.3892
+  },
+  "580": {
+    "loudness_db": -34.4,
+    "motion": 19.508,
+    "score": 0.1741
+  },
+  "581": {
+    "loudness_db": -27.7,
+    "motion": 22.165,
+    "score": 0.4601
+  },
+  "582": {
+    "loudness_db": -24.1,
+    "motion": 4.876,
+    "score": 0.4609
+  },
+  "583": {
+    "loudness_db": -21.8,
+    "motion": 6.569,
+    "score": 0.5674
+  },
+  "584": {
+    "loudness_db": -22.8,
+    "motion": 8.93,
+    "score": 0.5443
+  },
+  "585": {
+    "loudness_db": -20.6,
+    "motion": 12.063,
+    "score": 0.6587
+  },
+  "586": {
+    "loudness_db": -26.5,
+    "motion": 22.817,
+    "score": 0.5102
+  },
+  "587": {
+    "loudness_db": -24.5,
+    "motion": 31.644,
+    "score": 0.6601
+  },
+  "588": {
+    "loudness_db": -23.5,
+    "motion": 12.982,
+    "score": 0.5494
+  },
+  "589": {
+    "loudness_db": -28.1,
+    "motion": 10.009,
+    "score": 0.3442
+  },
+  "590": {
+    "loudness_db": -29.4,
+    "motion": 14.984,
+    "score": 0.3343
+  },
+  "591": {
+    "loudness_db": -24.4,
+    "motion": 10.574,
+    "score": 0.495
+  },
+  "592": {
+    "loudness_db": -23.9,
+    "motion": 16.338,
+    "score": 0.5613
+  },
+  "593": {
+    "loudness_db": -23.4,
+    "motion": 16.774,
+    "score": 0.5863
+  },
+  "594": {
+    "loudness_db": -27.0,
+    "motion": 10.13,
+    "score": 0.3889
+  },
+  "595": {
+    "loudness_db": -22.8,
+    "motion": 10.844,
+    "score": 0.563
+  },
+  "596": {
+    "loudness_db": -23.7,
+    "motion": 9.387,
+    "score": 0.5133
+  },
+  "597": {
+    "loudness_db": -25.9,
+    "motion": 22.614,
+    "score": 0.5327
+  },
+  "598": {
+    "loudness_db": -22.6,
+    "motion": 23.992,
+    "score": 0.6749
+  },
+  "599": {
+    "loudness_db": -23.5,
+    "motion": 16.246,
+    "score": 0.5783
+  },
+  "600": {
+    "loudness_db": -23.6,
+    "motion": 12.095,
+    "score": 0.5418
+  },
+  "601": {
+    "loudness_db": -20.4,
+    "motion": 22.785,
+    "score": 0.7521
+  },
+  "602": {
+    "loudness_db": -21.9,
+    "motion": 19.347,
+    "score": 0.6637
+  },
+  "603": {
+    "loudness_db": -23.1,
+    "motion": 25.29,
+    "score": 0.6662
+  },
+  "604": {
+    "loudness_db": -23.5,
+    "motion": 19.299,
+    "score": 0.6008
+  },
+  "605": {
+    "loudness_db": -28.2,
+    "motion": 31.05,
+    "score": 0.5104
+  },
+  "606": {
+    "loudness_db": -27.0,
+    "motion": 27.899,
+    "score": 0.5327
+  },
+  "607": {
+    "loudness_db": -23.9,
+    "motion": 34.871,
+    "score": 0.7093
+  },
+  "608": {
+    "loudness_db": -24.1,
+    "motion": 23.944,
+    "score": 0.6171
+  },
+  "609": {
+    "loudness_db": -25.6,
+    "motion": 19.667,
+    "score": 0.5236
+  }
+}
