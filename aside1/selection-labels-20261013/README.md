@@ -10,7 +10,7 @@ to locate windows; every verdict below comes from actually viewing frames.
 - `review-*.json` — per-clip verdicts: good_kill_window / probable_kill_verify /
   exclude, with signals and best moments.
 
-Progress: 5/7 clips complete (60 windows).
+Progress: 6/7 clips complete (72 windows).
 - 2Ywo4r3D9DM (1v9): 2 good_kill, 4 probable, 6 exclude
   (rotation/scoreboard/death/buy-phase/ability = semantic FP classes).
 - 56-Wg-oTX6M (Champions 2026): 2 good_kill (209.2, 313.9),
@@ -32,7 +32,10 @@ Progress: 5/7 clips complete (60 windows).
   1 probable (305), 5 exclude (intro, green-flash, Thrash/ability, scoreboard,
   passive smoke). NOTE: sheet stamp bug for negative lo renders as -M:SS
   (w00 frames are actually clamped t=0); also 1:60.0 = 120.0s formatter quirk.
-Next: label remaining 2 clips (24 sheets), then dense-resample probable
+- j59f0UqxcIs (90 aim 10 brain): 7 good_kill (61.8 sniper, 234/236.3,
+  245.2 util, 385.5 trade, 398.6, 483.4+487.1 multi), 5 exclude
+  (hold-no-contact, aiming, VICTORY screen, passive aim, black outro).
+Next: label last clip (z0ALKJiFRDU), then dense-resample probable
 kills for exact shot times.
 
 
