@@ -1,0 +1,240 @@
+{
+ "schema": "agent-visual-review/v1",
+ "provenance": "independent agent frame-level visual review of decoded source frames; audio candidates only used to locate windows; labels are visual observations, not audio inference",
+ "clips": {
+  "ObWy97A6INU_reyna-u-need-to-": {
+   "windows": [
+    {
+     "w": 0,
+     "lo": 1.7,
+     "hi": 6.9,
+     "peak": 3.7,
+     "verdict": "good_kill_window",
+     "kill_times": [
+      4.1
+     ],
+     "setup": false,
+     "outcome": true,
+     "signals": [
+      "clip opens mid-fight",
+      "point-blank muzzle flash 0:03.7",
+      "kill emblem + corpse 0:04.1",
+      "pink-glowing enemies ahead 0:06.1"
+     ],
+     "notes": "opening kill; montage start candidate",
+     "best_moment": 4.1
+    },
+    {
+     "w": 1,
+     "lo": 47.5,
+     "hi": 52.7,
+     "peak": 49.5,
+     "verdict": "probable_kill_verify",
+     "kill_times": [
+      45.5
+     ],
+     "setup": false,
+     "outcome": true,
+     "signals": [
+      "corpse + soul orb at 0:47.5 (kill pre-window)",
+      "aim 0:48-49",
+      "colored edit-transition smear 0:49.9-52.3 (peak cause)"
+     ],
+     "notes": "resample 0:44-47.5 for exact shot",
+     "best_moment": 45.5
+    },
+    {
+     "w": 2,
+     "lo": 226.4,
+     "hi": 231.6,
+     "peak": 228.0,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "THRIFTY round-win banner",
+      "knife swing + corpse (kill pre-window)",
+      "edit flash 3:47.2",
+      "ability cast after source cut"
+     ],
+     "notes": "round-end sound FP; possible round-winning kill ~224-226 pre-window spot-check"
+    },
+    {
+     "w": 3,
+     "lo": 253.0,
+     "hi": 258.2,
+     "peak": 255.0,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "enemy spotted 4:13.8-14.6",
+      "2 shots fired ammo 30->28",
+      "enemy escapes doorway",
+      "camera whip 4:17"
+     ],
+     "notes": "shots-no-kill class; no emblem/corpse"
+    },
+    {
+     "w": 4,
+     "lo": 285.9,
+     "hi": 291.1,
+     "peak": 287.9,
+     "verdict": "good_kill_window",
+     "kill_times": [
+      288.1
+     ],
+     "setup": true,
+     "outcome": true,
+     "signals": [
+      "enemy engaged 4:47.9",
+      "kill emblem + ACE banner 4:48.3",
+      "flames + CROWN 4:49.1",
+      "Reyna soul devour FX 4:49.9+"
+     ],
+     "notes": "ACE = peak montage payoff; strongest candidate in clip",
+     "best_moment": 288.3
+    },
+    {
+     "w": 5,
+     "lo": 314.8,
+     "hi": 320.0,
+     "peak": 316.8,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "passive aiming most of window",
+      "shots at edge ammo 19->16",
+      "corpse-like shape on road 5:17.6+",
+      "red edit bars right"
+     ],
+     "notes": "spot-check 5:19-21 for kill continuation"
+    },
+    {
+     "w": 6,
+     "lo": 326.8,
+     "hi": 332.0,
+     "peak": 328.0,
+     "verdict": "good_kill_window",
+     "kill_times": [
+      329.6
+     ],
+     "setup": true,
+     "outcome": true,
+     "signals": [
+      "point-blank duel HP 72->57",
+      "kill emblem 5:29.6",
+      "soul orb + devour FX",
+      "corpse visible 5:31.6"
+     ],
+     "notes": "clean trade-kill with full Reyna kit",
+     "best_moment": 329.8
+    },
+    {
+     "w": 7,
+     "lo": 342.3,
+     "hi": 347.5,
+     "peak": 344.0,
+     "verdict": "probable_kill_verify",
+     "kill_times": [
+      341.5
+     ],
+     "setup": true,
+     "outcome": false,
+     "signals": [
+      "kill emblem up at start (kill ~5:41 pre-window)",
+      "rainbow edit wash 5:42-43",
+      "edit border 5:44+",
+      "scope on live target 5:46.7-47.5 (shot ~5:48 post-window)"
+     ],
+     "notes": "BOTH kills fall outside window edges; dense pass 5:41-5:49 catches the pair",
+     "best_moment": 348.0
+    },
+    {
+     "w": 8,
+     "lo": 359.0,
+     "hi": 364.2,
+     "peak": 361.0,
+     "verdict": "probable_kill_verify",
+     "kill_times": [
+      358.0
+     ],
+     "setup": false,
+     "outcome": true,
+     "signals": [
+      "corpse at 6:00.2 (kill pre-window)",
+      "soul-devour FX 6:01.4-6:01.8 (peak)",
+      "gold rifle re-equip 6:02.2"
+     ],
+     "notes": "resample 5:56-6:00 for exact shot",
+     "best_moment": 358.5
+    },
+    {
+     "w": 9,
+     "lo": 365.0,
+     "hi": 370.2,
+     "peak": 367.0,
+     "verdict": "good_kill_window",
+     "kill_times": [
+      365.1
+     ],
+     "setup": true,
+     "outcome": true,
+     "signals": [
+      "muzzle glow 6:05.0",
+      "SPIKE CARRIER KILLED banner + emblem 6:05.0-05.4",
+      "dismiss FX 6:08.2",
+      "emblem persists to 6:10"
+     ],
+     "notes": "shot may be ~364.5; dense resample 6:03.5-6:06",
+     "best_moment": 365.2
+    },
+    {
+     "w": 10,
+     "lo": 432.1,
+     "hi": 437.3,
+     "peak": 434.1,
+     "verdict": "good_kill_window",
+     "kill_times": [
+      431.5,
+      435.7
+     ],
+     "setup": true,
+     "outcome": true,
+     "signals": [
+      "emblem up at start (prior kill)",
+      "enemy engaged 7:12.9-7:16.5",
+      "11+ rounds fired ammo 46->33",
+      "second emblem ~7:15.7",
+      "green edit-flash end"
+     ],
+     "notes": "multi-kill fight; dense resample 7:11-7:17",
+     "best_moment": 435.7
+    },
+    {
+     "w": 11,
+     "lo": 506.4,
+     "hi": 511.6,
+     "peak": 508.4,
+     "verdict": "probable_kill_verify",
+     "kill_times": [
+      505.5
+     ],
+     "setup": false,
+     "outcome": true,
+     "signals": [
+      "emblem up at start (kill ~8:25 pre-window)",
+      "scope in/out 8:27-8:29",
+      "blood splat 8:30",
+      "no firing in-window"
+     ],
+     "notes": "resample 8:23-8:27",
+     "best_moment": 505.5
+    }
+   ],
+   "summary": {
+    "good_kill_window": 5,
+    "probable_kill_verify": 4,
+    "exclude": 3
+   }
+  }
+ }
+}

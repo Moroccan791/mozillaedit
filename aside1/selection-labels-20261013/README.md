@@ -10,12 +10,15 @@ to locate windows; every verdict below comes from actually viewing frames.
 - `review-*.json` — per-clip verdicts: good_kill_window / probable_kill_verify /
   exclude, with signals and best moments.
 
-Progress: 2/7 clips complete.
-- 2Ywo4r3D9DM (1v9): 12/12 -> 2 good_kill, 4 probable, 6 exclude
+Progress: 3/7 clips complete (36 windows).
+- 2Ywo4r3D9DM (1v9): 2 good_kill, 4 probable, 6 exclude
   (rotation/scoreboard/death/buy-phase/ability = semantic FP classes).
-- 56-Wg-oTX6M (Champions 2026): 12/12 -> 2 good_kill (209.2, 313.9),
+- 56-Wg-oTX6M (Champions 2026): 2 good_kill (209.2, 313.9),
   2 probable (54.2, 416.5), 8 exclude -- incl. a 40s sponsor block (114-154s)
-  that produced 5 consecutive FP windows (voiceover/music swell) and a
-  source-edit whip-smear transition FP.
-Next: label remaining 5 clips (60 sheets), then dense-resample probable
+  with 5 consecutive FP windows (voiceover/music swell) + edit-transition FP.
+- ObWy97A6INU (reyna montage): 5 good_kill (4.1, 288.1 ACE, 329.6, 365.1,
+  431.5/435.7 multi), 4 probable (45.5, 341.5, 358.0, 505.5), 3 exclude
+  (THRIFTY round-end sound FP, shots-no-kill, passive aim). FP classes also
+  incl. colored edit-transition smears and pre-window kill aftermaths.
+Next: label remaining 4 clips (48 sheets), then dense-resample probable
 kills for exact shot times.
