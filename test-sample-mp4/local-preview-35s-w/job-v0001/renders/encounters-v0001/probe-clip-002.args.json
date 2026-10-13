@@ -1,0 +1,10 @@
+[
+  "ffprobe",
+  "-v",
+  "error",
+  "-show_streams",
+  "-show_format",
+  "-of",
+  "json",
+  "/home/user/mozillaedit/test-sample-mp4/local-preview-35s-w/job-v0001/renders/encounters-v0001/clip-002-libx264.mp4"
+]

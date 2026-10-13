@@ -1,0 +1,10 @@
+[
+  "ffprobe",
+  "-v",
+  "error",
+  "-show_streams",
+  "-show_format",
+  "-of",
+  "json",
+  "/home/user/mozillaedit/audio/The Winner Takes It All but it\u2019s the best part (Meryl Streep).mp3"
+]

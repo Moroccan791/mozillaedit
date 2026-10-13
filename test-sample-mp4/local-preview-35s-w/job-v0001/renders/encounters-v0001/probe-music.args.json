@@ -1,0 +1,10 @@
+[
+  "ffprobe",
+  "-v",
+  "error",
+  "-show_streams",
+  "-show_format",
+  "-of",
+  "json",
+  "/home/user/mozillaedit/audio/Reflections (slowed) - The Neighbourhood [Edit Audio].mp3"
+]

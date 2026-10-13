@@ -1,0 +1,1093 @@
+{
+  "schema_version": "encounter-render/v1",
+  "job_dir": "/home/user/mozillaedit/test-sample-mp4/job-v0001/renders/encounters-v0001",
+  "manifest_path": "/home/user/mozillaedit/test-sample-mp4/job-v0001/renders/encounters-v0001/render-manifest.json",
+  "output": "/home/user/mozillaedit/test-sample-mp4/job-v0001/renders/encounters-v0001/encounters.mp4",
+  "game_stem": "/home/user/mozillaedit/test-sample-mp4/job-v0001/renders/encounters-v0001/game-stem.wav",
+  "music_stem": "/home/user/mozillaedit/test-sample-mp4/job-v0001/renders/encounters-v0001/music-stem.wav",
+  "style": "authored-footage",
+  "clock_model": {
+    "schema": "render-clock-model/v1",
+    "kind": "uniform-1x",
+    "style": "authored-footage",
+    "retimed": false,
+    "source_to_output": "constant-offset",
+    "mapped_rows": 0
+  },
+  "multishot_maps": null,
+  "combined_limitations": [],
+  "combined_style_policy": null,
+  "authored_design": {
+    "schema_version": "authored-footage/v1",
+    "shots": [
+      {
+        "role": "setup",
+        "composition": "full"
+      },
+      {
+        "role": "impact",
+        "composition": "full"
+      },
+      {
+        "role": "contrast",
+        "composition": "inset"
+      },
+      {
+        "role": "impact",
+        "composition": "full"
+      },
+      {
+        "role": "impact",
+        "composition": "full"
+      },
+      {
+        "role": "payoff",
+        "composition": "full"
+      }
+    ],
+    "bridges": [
+      {
+        "boundary": 1,
+        "direction": "left",
+        "frames": 12
+      },
+      {
+        "boundary": 2,
+        "direction": "right",
+        "frames": 12
+      },
+      {
+        "boundary": 3,
+        "direction": "left",
+        "frames": 12
+      },
+      {
+        "boundary": 4,
+        "direction": "right",
+        "frames": 12
+      },
+      {
+        "boundary": 5,
+        "direction": "left",
+        "frames": 12
+      }
+    ],
+    "ending": {
+      "fade_frames": 16
+    }
+  },
+  "authored_limitations": [
+    "Paired directional edge reframing/smear across unchanged hard cuts, not an overlapping wipe or crossfade.",
+    "Inset duplicates the same decoded footage, not an unseen camera angle or isolated subject.",
+    "1x video and unchanged PCM/music clocks; no attack or aesthetic certification.",
+    "Supplied anchors, complete supplied attack intervals and map protected intervals are guarded; unknown attacks and unresolved fight bounds require independent review."
+  ],
+  "motion_audio_granularity_seconds": null,
+  "motion_limitations": [],
+  "multishot_limitations": [],
+  "video_concat": "/home/user/mozillaedit/test-sample-mp4/job-v0001/renders/encounters-v0001/video.ffconcat",
+  "game_concat": "/home/user/mozillaedit/test-sample-mp4/job-v0001/renders/encounters-v0001/game.ffconcat",
+  "config": {
+    "width": 1280,
+    "height": 720,
+    "fps": 60,
+    "sample_rate": 48000,
+    "encoder": "libx264",
+    "fallback_encoder": null,
+    "quality": 21,
+    "preset": "veryfast",
+    "music_gain_db": -7.0,
+    "game_gain_db": -8.0,
+    "max_duration": 120.0,
+    "max_clip_duration": 30.0,
+    "max_clips": 64,
+    "max_source_duration": 86400.0,
+    "timeout": 600.0,
+    "ffmpeg": "ffmpeg",
+    "ffprobe": "ffprobe",
+    "style": "authored-footage"
+  },
+  "plan_duration": 8.483999999999998,
+  "video_duration": 8.483333333333333,
+  "audio_duration": 8.484,
+  "frame_count": 509,
+  "sample_count": 407232,
+  "music_start_sample": 2016000,
+  "music_source": "/home/user/mozillaedit/audio/The Winner Takes It All but it\u2019s the best part (Meryl Streep).mp3",
+  "music_time_origin": "decoded sample zero after FFmpeg codec skip/encoder-delay handling",
+  "chunks": [
+    {
+      "source_start": 276.319,
+      "source_end": 277.8175,
+      "output_start": 0.0,
+      "output_end": 1.4984999999999786,
+      "music_start": 42.0,
+      "music_end": 43.49849999999998,
+      "speed": 1.0,
+      "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_iufseng8xEs_Ranked-but-I-m-Overheating-Non-Stop_002_720p.mp4",
+      "index": 0,
+      "frame_start": 0,
+      "frame_end": 90,
+      "frame_count": 90,
+      "sample_start": 0,
+      "sample_end": 71928,
+      "sample_count": 71928,
+      "source_sample_start": 13263312,
+      "source_sample_end": 13335240,
+      "video_phase_seconds": 0.0,
+      "events": [],
+      "authored_shot": {
+        "role": "setup",
+        "composition": "full"
+      },
+      "authored_edges": [
+        {
+          "side": "out",
+          "frames": 12,
+          "direction": "left",
+          "boundary": 1
+        }
+      ],
+      "authored_design": {
+        "schema_version": "authored-footage/v1",
+        "shots": [
+          {
+            "role": "setup",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "contrast",
+            "composition": "inset"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "payoff",
+            "composition": "full"
+          }
+        ],
+        "bridges": [
+          {
+            "boundary": 1,
+            "direction": "left",
+            "frames": 12
+          },
+          {
+            "boundary": 2,
+            "direction": "right",
+            "frames": 12
+          },
+          {
+            "boundary": 3,
+            "direction": "left",
+            "frames": 12
+          },
+          {
+            "boundary": 4,
+            "direction": "right",
+            "frames": 12
+          },
+          {
+            "boundary": 5,
+            "direction": "left",
+            "frames": 12
+          }
+        ],
+        "ending": {
+          "fade_frames": 16
+        }
+      },
+      "combined_limitations": [],
+      "video": "/home/user/mozillaedit/test-sample-mp4/job-v0001/renders/encounters-v0001/clip-000-libx264.mp4",
+      "game_audio": "/home/user/mozillaedit/test-sample-mp4/job-v0001/renders/encounters-v0001/game-000.wav",
+      "encoder": "libx264",
+      "source_audio_end_rounding_seconds": 0.0
+    },
+    {
+      "source_start": 50.83854166666664,
+      "source_end": 52.474999999999994,
+      "output_start": 1.4984999999999786,
+      "output_end": 3.13495833333333,
+      "music_start": 43.49849999999998,
+      "music_end": 45.13495833333333,
+      "speed": 1.0,
+      "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_iufseng8xEs_Ranked-but-I-m-Overheating-Non-Stop_002_720p.mp4",
+      "index": 1,
+      "frame_start": 90,
+      "frame_end": 188,
+      "frame_count": 98,
+      "sample_start": 71928,
+      "sample_end": 150478,
+      "sample_count": 78550,
+      "source_sample_start": 2440250,
+      "source_sample_end": 2518800,
+      "video_phase_seconds": -0.0015000000000213731,
+      "events": [],
+      "authored_shot": {
+        "role": "impact",
+        "composition": "full"
+      },
+      "authored_edges": [
+        {
+          "side": "in",
+          "frames": 12,
+          "direction": "left",
+          "boundary": 1
+        },
+        {
+          "side": "out",
+          "frames": 12,
+          "direction": "right",
+          "boundary": 2
+        }
+      ],
+      "authored_design": {
+        "schema_version": "authored-footage/v1",
+        "shots": [
+          {
+            "role": "setup",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "contrast",
+            "composition": "inset"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "payoff",
+            "composition": "full"
+          }
+        ],
+        "bridges": [
+          {
+            "boundary": 1,
+            "direction": "left",
+            "frames": 12
+          },
+          {
+            "boundary": 2,
+            "direction": "right",
+            "frames": 12
+          },
+          {
+            "boundary": 3,
+            "direction": "left",
+            "frames": 12
+          },
+          {
+            "boundary": 4,
+            "direction": "right",
+            "frames": 12
+          },
+          {
+            "boundary": 5,
+            "direction": "left",
+            "frames": 12
+          }
+        ],
+        "ending": {
+          "fade_frames": 16
+        }
+      },
+      "combined_limitations": [],
+      "video": "/home/user/mozillaedit/test-sample-mp4/job-v0001/renders/encounters-v0001/clip-001-libx264.mp4",
+      "game_audio": "/home/user/mozillaedit/test-sample-mp4/job-v0001/renders/encounters-v0001/game-001.wav",
+      "encoder": "libx264",
+      "source_audio_end_rounding_seconds": 7.105427357601002e-15
+    },
+    {
+      "source_start": 24.525958333333328,
+      "source_end": 25.6225,
+      "output_start": 3.13495833333333,
+      "output_end": 4.2315000000000005,
+      "music_start": 45.13495833333333,
+      "music_end": 46.2315,
+      "speed": 1.0,
+      "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_iufseng8xEs_Ranked-but-I-m-Overheating-Non-Stop_002_720p.mp4",
+      "index": 2,
+      "frame_start": 188,
+      "frame_end": 254,
+      "frame_count": 66,
+      "sample_start": 150478,
+      "sample_end": 203112,
+      "sample_count": 52634,
+      "source_sample_start": 1177246,
+      "source_sample_end": 1229880,
+      "video_phase_seconds": 0.001624999999996657,
+      "events": [],
+      "authored_shot": {
+        "role": "contrast",
+        "composition": "inset"
+      },
+      "authored_edges": [
+        {
+          "side": "in",
+          "frames": 12,
+          "direction": "right",
+          "boundary": 2
+        },
+        {
+          "side": "out",
+          "frames": 12,
+          "direction": "left",
+          "boundary": 3
+        }
+      ],
+      "authored_design": {
+        "schema_version": "authored-footage/v1",
+        "shots": [
+          {
+            "role": "setup",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "contrast",
+            "composition": "inset"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "payoff",
+            "composition": "full"
+          }
+        ],
+        "bridges": [
+          {
+            "boundary": 1,
+            "direction": "left",
+            "frames": 12
+          },
+          {
+            "boundary": 2,
+            "direction": "right",
+            "frames": 12
+          },
+          {
+            "boundary": 3,
+            "direction": "left",
+            "frames": 12
+          },
+          {
+            "boundary": 4,
+            "direction": "right",
+            "frames": 12
+          },
+          {
+            "boundary": 5,
+            "direction": "left",
+            "frames": 12
+          }
+        ],
+        "ending": {
+          "fade_frames": 16
+        }
+      },
+      "combined_limitations": [],
+      "video": "/home/user/mozillaedit/test-sample-mp4/job-v0001/renders/encounters-v0001/clip-002-libx264.mp4",
+      "game_audio": "/home/user/mozillaedit/test-sample-mp4/job-v0001/renders/encounters-v0001/game-002.wav",
+      "encoder": "libx264",
+      "source_audio_end_rounding_seconds": 0.0
+    },
+    {
+      "source_start": 108.3395,
+      "source_end": 109.87,
+      "output_start": 4.2315000000000005,
+      "output_end": 5.762000000000004,
+      "music_start": 46.2315,
+      "music_end": 47.762,
+      "speed": 1.0,
+      "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_iufseng8xEs_Ranked-but-I-m-Overheating-Non-Stop_002_720p.mp4",
+      "index": 3,
+      "frame_start": 254,
+      "frame_end": 346,
+      "frame_count": 92,
+      "sample_start": 203112,
+      "sample_end": 276576,
+      "sample_count": 73464,
+      "source_sample_start": 5200296,
+      "source_sample_end": 5273760,
+      "video_phase_seconds": -0.0018333333333329094,
+      "events": [],
+      "authored_shot": {
+        "role": "impact",
+        "composition": "full"
+      },
+      "authored_edges": [
+        {
+          "side": "in",
+          "frames": 12,
+          "direction": "left",
+          "boundary": 3
+        },
+        {
+          "side": "out",
+          "frames": 12,
+          "direction": "right",
+          "boundary": 4
+        }
+      ],
+      "authored_design": {
+        "schema_version": "authored-footage/v1",
+        "shots": [
+          {
+            "role": "setup",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "contrast",
+            "composition": "inset"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "payoff",
+            "composition": "full"
+          }
+        ],
+        "bridges": [
+          {
+            "boundary": 1,
+            "direction": "left",
+            "frames": 12
+          },
+          {
+            "boundary": 2,
+            "direction": "right",
+            "frames": 12
+          },
+          {
+            "boundary": 3,
+            "direction": "left",
+            "frames": 12
+          },
+          {
+            "boundary": 4,
+            "direction": "right",
+            "frames": 12
+          },
+          {
+            "boundary": 5,
+            "direction": "left",
+            "frames": 12
+          }
+        ],
+        "ending": {
+          "fade_frames": 16
+        }
+      },
+      "combined_limitations": [],
+      "video": "/home/user/mozillaedit/test-sample-mp4/job-v0001/renders/encounters-v0001/clip-003-libx264.mp4",
+      "game_audio": "/home/user/mozillaedit/test-sample-mp4/job-v0001/renders/encounters-v0001/game-003.wav",
+      "encoder": "libx264",
+      "source_audio_end_rounding_seconds": 0.0
+    },
+    {
+      "source_start": 265.132,
+      "source_end": 266.625,
+      "output_start": 5.762000000000004,
+      "output_end": 7.254999999999999,
+      "music_start": 47.762,
+      "music_end": 49.254999999999995,
+      "speed": 1.0,
+      "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_iufseng8xEs_Ranked-but-I-m-Overheating-Non-Stop_002_720p.mp4",
+      "index": 4,
+      "frame_start": 346,
+      "frame_end": 435,
+      "frame_count": 89,
+      "sample_start": 276576,
+      "sample_end": 348240,
+      "sample_count": 71664,
+      "source_sample_start": 12726336,
+      "source_sample_end": 12798000,
+      "video_phase_seconds": -0.0046666666666626,
+      "events": [],
+      "authored_shot": {
+        "role": "impact",
+        "composition": "full"
+      },
+      "authored_edges": [
+        {
+          "side": "in",
+          "frames": 12,
+          "direction": "right",
+          "boundary": 4
+        },
+        {
+          "side": "out",
+          "frames": 12,
+          "direction": "left",
+          "boundary": 5
+        }
+      ],
+      "authored_design": {
+        "schema_version": "authored-footage/v1",
+        "shots": [
+          {
+            "role": "setup",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "contrast",
+            "composition": "inset"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "payoff",
+            "composition": "full"
+          }
+        ],
+        "bridges": [
+          {
+            "boundary": 1,
+            "direction": "left",
+            "frames": 12
+          },
+          {
+            "boundary": 2,
+            "direction": "right",
+            "frames": 12
+          },
+          {
+            "boundary": 3,
+            "direction": "left",
+            "frames": 12
+          },
+          {
+            "boundary": 4,
+            "direction": "right",
+            "frames": 12
+          },
+          {
+            "boundary": 5,
+            "direction": "left",
+            "frames": 12
+          }
+        ],
+        "ending": {
+          "fade_frames": 16
+        }
+      },
+      "combined_limitations": [],
+      "video": "/home/user/mozillaedit/test-sample-mp4/job-v0001/renders/encounters-v0001/clip-004-libx264.mp4",
+      "game_audio": "/home/user/mozillaedit/test-sample-mp4/job-v0001/renders/encounters-v0001/game-004.wav",
+      "encoder": "libx264",
+      "source_audio_end_rounding_seconds": 0.0
+    },
+    {
+      "source_start": 47.766000000000005,
+      "source_end": 48.995000000000005,
+      "output_start": 7.254999999999999,
+      "output_end": 8.483999999999998,
+      "music_start": 49.254999999999995,
+      "music_end": 50.483999999999995,
+      "speed": 1.0,
+      "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_iufseng8xEs_Ranked-but-I-m-Overheating-Non-Stop_002_720p.mp4",
+      "index": 5,
+      "frame_start": 435,
+      "frame_end": 509,
+      "frame_count": 74,
+      "sample_start": 348240,
+      "sample_end": 407232,
+      "sample_count": 58992,
+      "source_sample_start": 2292768,
+      "source_sample_end": 2351760,
+      "video_phase_seconds": 0.004999999999999005,
+      "events": [],
+      "authored_shot": {
+        "role": "payoff",
+        "composition": "full"
+      },
+      "authored_edges": [
+        {
+          "side": "in",
+          "frames": 12,
+          "direction": "left",
+          "boundary": 5
+        }
+      ],
+      "authored_fade_frames": 16,
+      "authored_design": {
+        "schema_version": "authored-footage/v1",
+        "shots": [
+          {
+            "role": "setup",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "contrast",
+            "composition": "inset"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "payoff",
+            "composition": "full"
+          }
+        ],
+        "bridges": [
+          {
+            "boundary": 1,
+            "direction": "left",
+            "frames": 12
+          },
+          {
+            "boundary": 2,
+            "direction": "right",
+            "frames": 12
+          },
+          {
+            "boundary": 3,
+            "direction": "left",
+            "frames": 12
+          },
+          {
+            "boundary": 4,
+            "direction": "right",
+            "frames": 12
+          },
+          {
+            "boundary": 5,
+            "direction": "left",
+            "frames": 12
+          }
+        ],
+        "ending": {
+          "fade_frames": 16
+        }
+      },
+      "combined_limitations": [],
+      "video": "/home/user/mozillaedit/test-sample-mp4/job-v0001/renders/encounters-v0001/clip-005-libx264.mp4",
+      "game_audio": "/home/user/mozillaedit/test-sample-mp4/job-v0001/renders/encounters-v0001/game-005.wav",
+      "encoder": "libx264",
+      "source_audio_end_rounding_seconds": -7.105427357601002e-15
+    }
+  ],
+  "source_metadata": {
+    "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_iufseng8xEs_Ranked-but-I-m-Overheating-Non-Stop_002_720p.mp4": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "profile": "High",
+          "codec_type": "video",
+          "codec_tag_string": "avc1",
+          "codec_tag": "0x31637661",
+          "width": 1280,
+          "height": 720,
+          "coded_width": 1280,
+          "coded_height": 720,
+          "closed_captions": 0,
+          "film_grain": 0,
+          "has_b_frames": 1,
+          "sample_aspect_ratio": "1:1",
+          "display_aspect_ratio": "16:9",
+          "pix_fmt": "yuv420p",
+          "level": 32,
+          "color_range": "tv",
+          "color_space": "bt709",
+          "color_transfer": "bt709",
+          "color_primaries": "bt709",
+          "chroma_location": "left",
+          "field_order": "progressive",
+          "refs": 1,
+          "is_avc": "true",
+          "nal_length_size": "4",
+          "id": "0x1",
+          "r_frame_rate": "60/1",
+          "avg_frame_rate": "60/1",
+          "time_base": "1/15360",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 7525888,
+          "duration": "489.966667",
+          "bit_rate": "1084854",
+          "bits_per_raw_sample": "8",
+          "nb_frames": "29398",
+          "extradata_size": 58,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "ISO Media file produced by Google Inc.",
+            "vendor_id": "[0][0][0][0]",
+            "encoder": "Lavc63.1.101 h264_qsv"
+          }
+        },
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "codec_long_name": "AAC (Advanced Audio Coding)",
+          "profile": "LC",
+          "codec_type": "audio",
+          "codec_tag_string": "mp4a",
+          "codec_tag": "0x6134706d",
+          "sample_fmt": "fltp",
+          "sample_rate": "44100",
+          "channels": 2,
+          "channel_layout": "stereo",
+          "bits_per_sample": 0,
+          "initial_padding": 0,
+          "id": "0x2",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "time_base": "1/44100",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 21610496,
+          "duration": "490.033923",
+          "bit_rate": "97959",
+          "nb_frames": "21105",
+          "extradata_size": 5,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "ISO Media file produced by Google Inc.",
+            "vendor_id": "[0][0][0][0]"
+          }
+        }
+      ],
+      "format": {
+        "filename": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_iufseng8xEs_Ranked-but-I-m-Overheating-Non-Stop_002_720p.mp4",
+        "nb_streams": 2,
+        "nb_programs": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.000000",
+        "duration": "490.033923",
+        "size": "73172543",
+        "bit_rate": "1194571",
+        "probe_score": 100,
+        "tags": {
+          "major_brand": "isom",
+          "minor_version": "512",
+          "compatible_brands": "isomiso2avc1mp41",
+          "encoder": "Lavf63.1.101"
+        }
+      }
+    }
+  },
+  "music_metadata": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "mp3",
+        "codec_long_name": "MP3 (MPEG audio layer 3)",
+        "codec_type": "audio",
+        "codec_tag_string": "[0][0][0][0]",
+        "codec_tag": "0x0000",
+        "sample_fmt": "fltp",
+        "sample_rate": "44100",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/14112000",
+        "start_pts": 353600,
+        "start_time": "0.025057",
+        "duration_ts": 1118453760,
+        "duration": "79.255510",
+        "bit_rate": "118833",
+        "disposition": {
+          "default": 0,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0
+        },
+        "tags": {
+          "encoder": "Lavc60.31"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/home/user/mozillaedit/audio/The Winner Takes It All but it\u2019s the best part (Meryl Streep).mp3",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "format_name": "mp3",
+      "format_long_name": "MP2/3 (MPEG audio layer 2/3)",
+      "start_time": "0.025057",
+      "duration": "79.255510",
+      "size": "1177418",
+      "bit_rate": "118847",
+      "probe_score": 51,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf60.16.100"
+      }
+    }
+  },
+  "media_content_identities": {
+    "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_iufseng8xEs_Ranked-but-I-m-Overheating-Non-Stop_002_720p.mp4": {
+      "schema": "file-content/v1",
+      "sha256": "3c3a5f27dceaa7696c7d9f8a13de9c2559e0d092799ca1df9469fb093fd56141",
+      "size_bytes": 73172543
+    },
+    "/home/user/mozillaedit/audio/The Winner Takes It All but it\u2019s the best part (Meryl Streep).mp3": {
+      "schema": "file-content/v1",
+      "sha256": "fee64bb4540fb6a2f0c391718c024512bc75e0cdfdb8d1b88da1cf773a7eb3c8",
+      "size_bytes": 1177418
+    }
+  },
+  "media_identity_binding": {
+    "schema": "render-media-binding/v1",
+    "status": "checked_before_after",
+    "method": "bounded full-file SHA256 before/after rendering",
+    "limitations": "Not semantic authentication; adversarial change-and-restore is not excluded."
+  },
+  "output_metadata": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "width": 1280,
+        "height": 720,
+        "coded_width": 1280,
+        "coded_height": 720,
+        "closed_captions": 0,
+        "film_grain": 0,
+        "has_b_frames": 2,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "16:9",
+        "pix_fmt": "yuv420p",
+        "level": 32,
+        "color_range": "tv",
+        "color_space": "bt709",
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "refs": 1,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "60/1",
+        "avg_frame_rate": "60/1",
+        "time_base": "1/15360",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 130304,
+        "duration": "8.483333",
+        "bit_rate": "3455336",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "509",
+        "extradata_size": 48,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "vendor_id": "[0][0][0][0]",
+          "encoder": "Lavc61.3.100 libx264"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 407232,
+        "duration": "8.484000",
+        "bit_rate": "192208",
+        "nb_frames": "399",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler",
+          "vendor_id": "[0][0][0][0]"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/home/user/mozillaedit/test-sample-mp4/job-v0001/renders/encounters-v0001/encounters.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "8.484000",
+      "size": "3882487",
+      "bit_rate": "3660996",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf61.1.100"
+      }
+    }
+  },
+  "warnings": [
+    "Not unattended-ready: real decoded event/video/audio QA is still required.",
+    "Final video is globally rounded to frames; audio retains sample-precision plan timing.",
+    "At most two edge frames may be cloned for CFR rounding, never source speed changed.",
+    "Constant-gain mix can clip; PCM stems are retained for independent timing QA."
+  ]
+}

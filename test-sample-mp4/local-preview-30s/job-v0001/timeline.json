@@ -1,0 +1,81 @@
+{
+  "schema_version": "encounters/v1",
+  "mode": "candidate-preview",
+  "confirmed": false,
+  "review_status": "unreviewed",
+  "status": "blocked",
+  "requested_duration": 30.0,
+  "duration": 0.0,
+  "music_start": 40.0,
+  "music_end": 40.0,
+  "music_continuous": true,
+  "gaps": [],
+  "timeline": [],
+  "rhythm_assignments": [],
+  "omitted_encounters": [
+    {
+      "icon_index": 3,
+      "reason": "no existing audio association"
+    },
+    {
+      "icon_index": 5,
+      "reason": "no existing audio association"
+    },
+    {
+      "icon_index": 6,
+      "reason": "no existing audio association"
+    },
+    {
+      "icon_index": 7,
+      "reason": "no existing audio association"
+    },
+    {
+      "icon_index": 9,
+      "reason": "no existing audio association"
+    }
+  ],
+  "warnings": [
+    "Explicit unverified local candidate diagnostic, not a reviewed montage or certified sync.",
+    "Template cosine is not probability; local profile and gameplay/outcomes are uncalibrated.",
+    "Context inferred locally only; scene cuts, fight closure and song suitability remain unverified."
+  ],
+  "authored_role_scope": "Generated video design roles only, not reviewed gameplay semantics.",
+  "candidate_protection": "Every root attack retained; bridge/fade exclude all intervals with >=0.18s margin.",
+  "local_selection_evidence": {
+    "schema_version": "local-selection/v1",
+    "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_iufseng8xEs_Ranked-but-I-m-Overheating-Non-Stop_002_720p.mp4",
+    "profile_status": "uncalibrated",
+    "confirmed": false,
+    "review_status": "unreviewed",
+    "song_sha256": "fee64bb4540fb6a2f0c391718c024512bc75e0cdfdb8d1b88da1cf773a7eb3c8",
+    "measured_excerpts": [
+      {
+        "start": 40.0,
+        "end": 50.0
+      },
+      {
+        "start": 50.0,
+        "end": 60.0
+      },
+      {
+        "start": 60.0,
+        "end": 70.0
+      }
+    ],
+    "refined_hit_count": 59,
+    "original_eligible_hit_count": 64,
+    "confidence_kind": "template_cosine_not_probability",
+    "no_source_retiming": true,
+    "policy": "Existing associated audio only; full root candidates, no truncation, reuse, outcome claims or filler.",
+    "max_beam_options": 1024,
+    "context_nominal_pre": 1.3,
+    "context_nominal_post": 1.7,
+    "max_clip_seconds": 5.0,
+    "max_neutral_tail_seconds": 4.0,
+    "beam_width": 24,
+    "eligible_associated_roots": 8,
+    "planning_depth_reached": 0
+  },
+  "blocked_reason": "Insufficient distinct icon-associated source attacks or measured targets for 10..20 shots",
+  "music": "/home/user/mozillaedit/audio/The Winner Takes It All but it\u2019s the best part (Meryl Streep).mp3"
+}

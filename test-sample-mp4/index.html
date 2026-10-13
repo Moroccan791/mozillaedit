@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>test-sample-mp4 — real pipeline samples</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin: 0; padding: 24px; background: #101014; color: #e8e8ee;
+         font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  h1 { font-size: 20px; margin: 0 0 4px; }
+  p.sub { margin: 0 0 24px; color: #9a9aa8; }
+  .card { background: #17171d; border: 1px solid #26262f; border-radius: 12px;
+          padding: 16px; margin-bottom: 24px; }
+  h2 { font-size: 16px; margin: 0 0 4px; }
+  .meta { color: #9a9aa8; font-size: 13px; margin: 0 0 12px; }
+  video { width: 100%; max-width: 960px; border-radius: 8px; background: #000; display: block; }
+  a { color: #8ab4ff; }
+  .warn { color: #ffca7a; font-size: 13px; margin-top: 10px; }
+</style>
+</head>
+<body>
+  <h1>test-sample-mp4</h1>
+  <p class="sub">Real pipeline output from the existing editor code, rendered 2026-10-14 in the sandbox.
+  Candidate/diagnostic previews — not finished or perceptual-approved montages.</p>
+
+  <div class="card">
+    <h2>Sample B — 35 s local-preview <span title="recommended">▶</span></h2>
+    <p class="meta">Reflections (slowed) · Warden raw source · excerpt 8→43 s ·
+      35.000 s · 2100 frames · 1280×720/60 · libx264</p>
+    <video controls preload="metadata" src="sample-B-35s-local-preview-reflections.mp4"></video>
+    <p class="warn">QA warn-only: musical_sync unverified, no confirmed event anchors. Full decode passes.
+    Not reviewed yet — flagged for tomorrow.
+    <a href="sample-B-35s-local-preview-reflections.mp4" download>download mp4</a></p>
+  </div>
+
+  <div class="card">
+    <h2>Sample A — 10 s studio candidate preview</h2>
+    <p class="meta">The Winner Takes It All · Overheating raw source · excerpt 42→50.5 s ·
+      8.484 s · 509 frames · 1280×720/60</p>
+    <video controls preload="metadata" src="sample-A-10s-studio-candidate-preview.mp4"></video>
+    <p class="warn">Candidate automation preview (screened), 6/6 planned candidate matches.
+    <strong>First user listen: “beat sync was good”.</strong>
+    <a href="sample-A-10s-studio-candidate-preview.mp4" download>download mp4</a></p>
+  </div>
+
+  <div class="card">
+    <h2>Evidence</h2>
+    <p class="meta">Per-run reports live in <code>job-v0001/</code> and
+    <code>local-preview-35s-w/job-v0001/</code>: <code>REPORT.md</code>, <code>job-report.json</code>,
+    <code>quality-report.json</code>, <code>attack-alignment.json</code>, <code>closure-report.json</code>,
+    <code>timeline.json</code>, renderer manifest + PCM stems. See <a href="README.md">README.md</a>.</p>
+  </div>
+</body>
+</html>

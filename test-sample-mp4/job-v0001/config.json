@@ -1,0 +1,20 @@
+{
+  "song": "/home/user/mozillaedit/audio/The Winner Takes It All but it\u2019s the best part (Meryl Streep).mp3",
+  "clip_folder": "/home/user/mozillaedit/test-sample-mp4/pick",
+  "output_root": "/home/user/mozillaedit/test-sample-mp4",
+  "music_start": 42.0,
+  "duration": 10.0,
+  "encoder": "libx264",
+  "width": 1280,
+  "height": 720,
+  "fps": 60,
+  "game_gain_db": -8.0,
+  "music_gain_db": -7.0,
+  "max_clips": 4,
+  "max_source_seconds": 600.0,
+  "plan_only": false,
+  "lyric_track": null,
+  "lyric_design": null,
+  "visual_screen": true,
+  "exclusions_file": null
+}

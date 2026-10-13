@@ -1,0 +1,538 @@
+{
+  "schema_version": "encounters/v1",
+  "mode": "candidate-preview",
+  "requested_duration": 10.0,
+  "duration": 8.483999999999998,
+  "music_start": 42.0,
+  "music_end": 50.483999999999995,
+  "music_continuous": true,
+  "gaps": [],
+  "timeline": [
+    {
+      "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_iufseng8xEs_Ranked-but-I-m-Overheating-Non-Stop_002_720p.mp4",
+      "source_start": 276.319,
+      "source_end": 277.8175,
+      "output_start": 0.0,
+      "output_end": 1.4984999999999786,
+      "music_start": 42.0,
+      "music_end": 43.49849999999998,
+      "speed": 1.0,
+      "events": [],
+      "candidate_events": [
+        {
+          "id": "candidate-01040",
+          "time": 276.815,
+          "source_start": 276.81,
+          "source_end": 276.825,
+          "attack_interval": [
+            276.81,
+            276.825
+          ],
+          "confirmed": false,
+          "type": "audio_transient",
+          "instrument": "unknown",
+          "origin": "unknown",
+          "strength": 0.2899058593704472,
+          "uncertainty": {
+            "timing_seconds": 0.005,
+            "identity": "unknown",
+            "note": "Attack interval estimate; not a confirmed shot or kill."
+          },
+          "evidence": {
+            "method": "multiband-energy-rise/v1",
+            "band_count": 2,
+            "local_salience": 4.696699750406746,
+            "score": 4.0826397907385
+          },
+          "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_iufseng8xEs_Ranked-but-I-m-Overheating-Non-Stop_002_720p.mp4",
+          "source_audio_event": 276.815,
+          "output_audio_event": 0.4959999999999809
+        }
+      ],
+      "candidate_window_id": 7,
+      "context_provenance": {
+        "kind": "unreviewed_candidate_window",
+        "start": 276.35249999999996,
+        "end": 277.8175,
+        "outcome": "unknown"
+      }
+    },
+    {
+      "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_iufseng8xEs_Ranked-but-I-m-Overheating-Non-Stop_002_720p.mp4",
+      "source_start": 50.83854166666664,
+      "source_end": 52.474999999999994,
+      "output_start": 1.4984999999999786,
+      "output_end": 3.13495833333333,
+      "music_start": 43.49849999999998,
+      "music_end": 45.13495833333333,
+      "speed": 1.0,
+      "events": [],
+      "candidate_events": [
+        {
+          "id": "candidate-00210",
+          "time": 51.71,
+          "source_start": 51.705,
+          "source_end": 51.72,
+          "attack_interval": [
+            51.705,
+            51.72
+          ],
+          "confirmed": false,
+          "type": "audio_transient",
+          "instrument": "unknown",
+          "origin": "unknown",
+          "strength": 0.4825013937954926,
+          "uncertainty": {
+            "timing_seconds": 0.005,
+            "identity": "unknown",
+            "note": "Attack interval estimate; not a confirmed shot or kill."
+          },
+          "evidence": {
+            "method": "multiband-energy-rise/v1",
+            "band_count": 3,
+            "local_salience": 12.568348498710506,
+            "score": 9.323723542644974
+          },
+          "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_iufseng8xEs_Ranked-but-I-m-Overheating-Non-Stop_002_720p.mp4",
+          "source_audio_event": 51.71,
+          "output_audio_event": 2.3699583333333365
+        }
+      ],
+      "candidate_window_id": 2,
+      "context_provenance": {
+        "kind": "unreviewed_candidate_window",
+        "start": 51.2125,
+        "end": 52.474999999999994,
+        "outcome": "unknown"
+      }
+    },
+    {
+      "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_iufseng8xEs_Ranked-but-I-m-Overheating-Non-Stop_002_720p.mp4",
+      "source_start": 24.525958333333328,
+      "source_end": 25.6225,
+      "output_start": 3.13495833333333,
+      "output_end": 4.2315000000000005,
+      "music_start": 45.13495833333333,
+      "music_end": 46.2315,
+      "speed": 1.0,
+      "events": [],
+      "candidate_events": [
+        {
+          "id": "candidate-00116",
+          "time": 25.155,
+          "source_start": 25.15,
+          "source_end": 25.165,
+          "attack_interval": [
+            25.15,
+            25.165
+          ],
+          "confirmed": false,
+          "type": "audio_transient",
+          "instrument": "unknown",
+          "origin": "unknown",
+          "strength": 0.26434382496764824,
+          "uncertainty": {
+            "timing_seconds": 0.005,
+            "identity": "unknown",
+            "note": "Attack interval estimate; not a confirmed shot or kill."
+          },
+          "evidence": {
+            "method": "multiband-energy-rise/v1",
+            "band_count": 3,
+            "local_salience": 5.109869938061125,
+            "score": 3.593306682378127
+          },
+          "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_iufseng8xEs_Ranked-but-I-m-Overheating-Non-Stop_002_720p.mp4",
+          "source_audio_event": 25.155,
+          "output_audio_event": 3.764000000000003
+        }
+      ],
+      "candidate_window_id": 0,
+      "context_provenance": {
+        "kind": "unreviewed_candidate_window",
+        "start": 24.7475,
+        "end": 25.6225,
+        "outcome": "unknown"
+      }
+    },
+    {
+      "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_iufseng8xEs_Ranked-but-I-m-Overheating-Non-Stop_002_720p.mp4",
+      "source_start": 108.3395,
+      "source_end": 109.87,
+      "output_start": 4.2315000000000005,
+      "output_end": 5.762000000000004,
+      "music_start": 46.2315,
+      "music_end": 47.762,
+      "speed": 1.0,
+      "events": [],
+      "candidate_events": [
+        {
+          "id": "candidate-00421",
+          "time": 109.27,
+          "source_start": 109.265,
+          "source_end": 109.28,
+          "attack_interval": [
+            109.265,
+            109.28
+          ],
+          "confirmed": false,
+          "type": "audio_transient",
+          "instrument": "unknown",
+          "origin": "unknown",
+          "strength": 0.26669572956446186,
+          "uncertainty": {
+            "timing_seconds": 0.005,
+            "identity": "unknown",
+            "note": "Attack interval estimate; not a confirmed shot or kill."
+          },
+          "evidence": {
+            "method": "multiband-energy-rise/v1",
+            "band_count": 2,
+            "local_salience": 4.619864670685901,
+            "score": 3.636904083567669
+          },
+          "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_iufseng8xEs_Ranked-but-I-m-Overheating-Non-Stop_002_720p.mp4",
+          "source_audio_event": 109.27,
+          "output_audio_event": 5.161999999999992
+        }
+      ],
+      "candidate_window_id": 3,
+      "context_provenance": {
+        "kind": "unreviewed_candidate_window",
+        "start": 108.7975,
+        "end": 109.87,
+        "outcome": "unknown"
+      }
+    },
+    {
+      "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_iufseng8xEs_Ranked-but-I-m-Overheating-Non-Stop_002_720p.mp4",
+      "source_start": 265.132,
+      "source_end": 266.625,
+      "output_start": 5.762000000000004,
+      "output_end": 7.254999999999999,
+      "music_start": 47.762,
+      "music_end": 49.254999999999995,
+      "speed": 1.0,
+      "events": [],
+      "candidate_events": [
+        {
+          "id": "candidate-00994",
+          "time": 265.96,
+          "source_start": 265.955,
+          "source_end": 265.97,
+          "attack_interval": [
+            265.955,
+            265.97
+          ],
+          "confirmed": false,
+          "type": "audio_transient",
+          "instrument": "unknown",
+          "origin": "unknown",
+          "strength": 0.3142872157478647,
+          "uncertainty": {
+            "timing_seconds": 0.005,
+            "identity": "unknown",
+            "note": "Attack interval estimate; not a confirmed shot or kill."
+          },
+          "evidence": {
+            "method": "multiband-energy-rise/v1",
+            "band_count": 3,
+            "local_salience": 6.1777577028576065,
+            "score": 4.583365265541001
+          },
+          "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_iufseng8xEs_Ranked-but-I-m-Overheating-Non-Stop_002_720p.mp4",
+          "source_audio_event": 265.96,
+          "output_audio_event": 6.589999999999975
+        }
+      ],
+      "candidate_window_id": 6,
+      "context_provenance": {
+        "kind": "unreviewed_candidate_window",
+        "start": 265.48249999999996,
+        "end": 266.625,
+        "outcome": "unknown"
+      }
+    },
+    {
+      "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_iufseng8xEs_Ranked-but-I-m-Overheating-Non-Stop_002_720p.mp4",
+      "source_start": 47.766000000000005,
+      "source_end": 48.995000000000005,
+      "output_start": 7.254999999999999,
+      "output_end": 8.483999999999998,
+      "music_start": 49.254999999999995,
+      "music_end": 50.483999999999995,
+      "speed": 1.0,
+      "events": [],
+      "candidate_events": [
+        {
+          "id": "candidate-00201",
+          "time": 48.515,
+          "source_start": 48.51,
+          "source_end": 48.525,
+          "attack_interval": [
+            48.51,
+            48.525
+          ],
+          "confirmed": false,
+          "type": "audio_transient",
+          "instrument": "unknown",
+          "origin": "unknown",
+          "strength": 0.21331120752315227,
+          "uncertainty": {
+            "timing_seconds": 0.005,
+            "identity": "unknown",
+            "note": "Attack interval estimate; not a confirmed shot or kill."
+          },
+          "evidence": {
+            "method": "multiband-energy-rise/v1",
+            "band_count": 3,
+            "local_salience": 3.9615177258349163,
+            "score": 2.7115068825571202
+          },
+          "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_iufseng8xEs_Ranked-but-I-m-Overheating-Non-Stop_002_720p.mp4",
+          "source_audio_event": 48.515,
+          "output_audio_event": 8.00399999999999
+        }
+      ],
+      "candidate_window_id": 1,
+      "context_provenance": {
+        "kind": "unreviewed_candidate_window",
+        "start": 48.129999999999995,
+        "end": 48.995000000000005,
+        "outcome": "unknown"
+      }
+    }
+  ],
+  "rhythm_assignments": [
+    {
+      "event_id": "candidate-01040",
+      "source_time": 276.815,
+      "output_time": 0.4959999999999809,
+      "source_interval": [
+        276.81,
+        276.825
+      ],
+      "matched": true,
+      "event_status": "candidate",
+      "semantic_sync": "unverified",
+      "music_hit_id": "hit-002",
+      "music_time": 42.496,
+      "music_interval": [
+        42.494,
+        42.508
+      ],
+      "planned_error_ms": -2.1316282072803006e-11,
+      "hit_review_status": "unreviewed",
+      "clip_index": 0
+    },
+    {
+      "event_id": "candidate-00210",
+      "source_time": 51.71,
+      "output_time": 2.3699583333333365,
+      "source_interval": [
+        51.705,
+        51.72
+      ],
+      "matched": true,
+      "event_status": "candidate",
+      "semantic_sync": "unverified",
+      "music_hit_id": "hit-011",
+      "music_time": 44.36995833333334,
+      "music_interval": [
+        44.36995833333334,
+        44.373958333333334
+      ],
+      "planned_error_ms": 0.0,
+      "hit_review_status": "unreviewed",
+      "clip_index": 1
+    },
+    {
+      "event_id": "candidate-00116",
+      "source_time": 25.155,
+      "output_time": 3.764000000000003,
+      "source_interval": [
+        25.15,
+        25.165
+      ],
+      "matched": true,
+      "event_status": "candidate",
+      "semantic_sync": "unverified",
+      "music_hit_id": "hit-016",
+      "music_time": 45.764,
+      "music_interval": [
+        45.762,
+        45.768
+      ],
+      "planned_error_ms": 0.0,
+      "hit_review_status": "unreviewed",
+      "clip_index": 2
+    },
+    {
+      "event_id": "candidate-00421",
+      "source_time": 109.27,
+      "output_time": 5.161999999999992,
+      "source_interval": [
+        109.265,
+        109.28
+      ],
+      "matched": true,
+      "event_status": "candidate",
+      "semantic_sync": "unverified",
+      "music_hit_id": "hit-021",
+      "music_time": 47.162,
+      "music_interval": [
+        47.156,
+        47.17
+      ],
+      "planned_error_ms": -7.105427357601002e-12,
+      "hit_review_status": "unreviewed",
+      "clip_index": 3
+    },
+    {
+      "event_id": "candidate-00994",
+      "source_time": 265.96,
+      "output_time": 6.589999999999975,
+      "source_interval": [
+        265.955,
+        265.97
+      ],
+      "matched": true,
+      "event_status": "candidate",
+      "semantic_sync": "unverified",
+      "music_hit_id": "hit-025",
+      "music_time": 48.59,
+      "music_interval": [
+        48.586,
+        48.596000000000004
+      ],
+      "planned_error_ms": -2.8421709430404007e-11,
+      "hit_review_status": "unreviewed",
+      "clip_index": 4
+    },
+    {
+      "event_id": "candidate-00201",
+      "source_time": 48.515,
+      "output_time": 8.00399999999999,
+      "source_interval": [
+        48.51,
+        48.525
+      ],
+      "matched": true,
+      "event_status": "candidate",
+      "semantic_sync": "unverified",
+      "music_hit_id": "hit-028",
+      "music_time": 50.004,
+      "music_interval": [
+        50.004,
+        50.012
+      ],
+      "planned_error_ms": -7.105427357601002e-12,
+      "hit_review_status": "unreviewed",
+      "clip_index": 5
+    }
+  ],
+  "rhythm_summary": {
+    "matched": 6,
+    "total": 6,
+    "semantic_sync": "unverified",
+    "beam_width": 24
+  },
+  "warnings": [
+    "Candidate preview only: audio transients are not confirmed POV shots/kills; musical suitability and phrase are unreviewed.",
+    "All selected candidate attacks retain 1x timing; unmatched attacks are explicitly reported, not forced onto beats.",
+    "Window outcome/completeness unknown; source-authored effects may already exist.",
+    "shorter than requested by 1.516s; no filler or reuse"
+  ],
+  "omitted_encounters": [
+    {
+      "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_iufseng8xEs_Ranked-but-I-m-Overheating-Non-Stop_002_720p.mp4",
+      "start": 0.0,
+      "end": 1.4425,
+      "reason": "event count outside1..8; intact omission, no burst truncation"
+    },
+    {
+      "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_iufseng8xEs_Ranked-but-I-m-Overheating-Non-Stop_002_720p.mp4",
+      "start": 196.3675,
+      "end": 198.8425,
+      "reason": "event count outside1..8; intact omission, no burst truncation"
+    }
+  ],
+  "review_status": "unreviewed",
+  "candidate_selection_scope": {
+    "eligible_windows": 14,
+    "explicitly_omitted_windows": 2,
+    "acoustic_hit_count": 29,
+    "original_eligible_hit_count": 31,
+    "policy": "All root candidates in selected source ranges are retained; dense windows omitted intact."
+  },
+  "music": "/home/user/mozillaedit/audio/The Winner Takes It All but it\u2019s the best part (Meryl Streep).mp3",
+  "authored_design": {
+    "schema_version": "authored-footage/v1",
+    "shots": [
+      {
+        "role": "setup",
+        "composition": "full"
+      },
+      {
+        "role": "impact",
+        "composition": "full"
+      },
+      {
+        "role": "contrast",
+        "composition": "inset"
+      },
+      {
+        "role": "impact",
+        "composition": "full"
+      },
+      {
+        "role": "impact",
+        "composition": "full"
+      },
+      {
+        "role": "payoff",
+        "composition": "full"
+      }
+    ],
+    "bridges": [
+      {
+        "boundary": 1,
+        "direction": "left",
+        "frames": 12
+      },
+      {
+        "boundary": 2,
+        "direction": "right",
+        "frames": 12
+      },
+      {
+        "boundary": 3,
+        "direction": "left",
+        "frames": 12
+      },
+      {
+        "boundary": 4,
+        "direction": "right",
+        "frames": 12
+      },
+      {
+        "boundary": 5,
+        "direction": "left",
+        "frames": 12
+      }
+    ],
+    "ending": {
+      "fade_frames": 16
+    }
+  },
+  "authored_role_scope": "Generated render roles, not reviewed gameplay semantics or approved composition.",
+  "candidate_protection": "Bridge/fade windows exclude every supplied candidate attack interval with 0.18s margin; identity remains unreviewed.",
+  "clock_model": {
+    "schema": "render-clock-model/v1",
+    "kind": "uniform-1x",
+    "style": "authored-footage",
+    "retimed": false,
+    "source_to_output": "constant-offset",
+    "mapped_rows": 0
+  }
+}

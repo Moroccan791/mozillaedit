@@ -1,0 +1,12 @@
+{
+  "pipeline": "existing-authored-system/v2",
+  "renderer_style": "authored-footage",
+  "runner": "aive.local_preview_runner",
+  "visual_ai_used": false,
+  "manual_source_windows": false,
+  "fallback_allowed": false,
+  "finished_montage": false,
+  "manifest": "/home/user/mozillaedit/test-sample-mp4/local-preview-35s-w/job-v0001/renders/encounters-v0001/render-manifest.json",
+  "lyrics_mode": "off",
+  "lyrics_enabled": false
+}

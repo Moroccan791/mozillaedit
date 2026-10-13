@@ -1,0 +1,2722 @@
+{
+  "schema_version": "encounter-render/v1",
+  "job_dir": "/home/user/mozillaedit/test-sample-mp4/local-preview-35s-w/job-v0001/renders/encounters-v0001",
+  "manifest_path": "/home/user/mozillaedit/test-sample-mp4/local-preview-35s-w/job-v0001/renders/encounters-v0001/render-manifest.json",
+  "output": "/home/user/mozillaedit/test-sample-mp4/local-preview-35s-w/job-v0001/renders/encounters-v0001/encounters.mp4",
+  "game_stem": "/home/user/mozillaedit/test-sample-mp4/local-preview-35s-w/job-v0001/renders/encounters-v0001/game-stem.wav",
+  "music_stem": "/home/user/mozillaedit/test-sample-mp4/local-preview-35s-w/job-v0001/renders/encounters-v0001/music-stem.wav",
+  "style": "authored-footage",
+  "clock_model": {
+    "schema": "render-clock-model/v1",
+    "kind": "uniform-1x",
+    "style": "authored-footage",
+    "retimed": false,
+    "source_to_output": "constant-offset",
+    "mapped_rows": 0
+  },
+  "multishot_maps": null,
+  "combined_limitations": [],
+  "combined_style_policy": null,
+  "authored_design": {
+    "schema_version": "authored-footage/v2",
+    "shots": [
+      {
+        "role": "setup",
+        "composition": "full"
+      },
+      {
+        "role": "impact",
+        "composition": "full"
+      },
+      {
+        "role": "impact",
+        "composition": "full"
+      },
+      {
+        "role": "impact",
+        "composition": "full"
+      },
+      {
+        "role": "contrast",
+        "composition": "inset"
+      },
+      {
+        "role": "impact",
+        "composition": "full"
+      },
+      {
+        "role": "impact",
+        "composition": "full"
+      },
+      {
+        "role": "impact",
+        "composition": "full"
+      },
+      {
+        "role": "impact",
+        "composition": "full"
+      },
+      {
+        "role": "impact",
+        "composition": "full"
+      },
+      {
+        "role": "payoff",
+        "composition": "full"
+      }
+    ],
+    "bridges": [
+      {
+        "boundary": 1,
+        "direction": "left",
+        "frames": 10
+      },
+      {
+        "boundary": 2,
+        "direction": "right",
+        "frames": 10
+      },
+      {
+        "boundary": 3,
+        "direction": "left",
+        "frames": 6
+      },
+      {
+        "boundary": 6,
+        "direction": "right",
+        "frames": 3
+      },
+      {
+        "boundary": 10,
+        "direction": "right",
+        "frames": 10
+      }
+    ],
+    "ending": {
+      "fade_frames": 17
+    },
+    "impacts": [
+      {
+        "clip_index": 0,
+        "output_time": 3.3220000000000027,
+        "frames": 6,
+        "strength": 0.33093615163600776
+      },
+      {
+        "clip_index": 1,
+        "output_time": 5.214999999999975,
+        "frames": 6,
+        "strength": 0.20927481991137317
+      },
+      {
+        "clip_index": 2,
+        "output_time": 7.319999999999993,
+        "frames": 6,
+        "strength": 0.20141208257484838
+      },
+      {
+        "clip_index": 3,
+        "output_time": 10.682000000000016,
+        "frames": 6,
+        "strength": 0.20670022904219637
+      },
+      {
+        "clip_index": 4,
+        "output_time": 14.292000000000002,
+        "frames": 6,
+        "strength": 0.20250136023434226
+      },
+      {
+        "clip_index": 5,
+        "output_time": 17.78200000000004,
+        "frames": 6,
+        "strength": 0.1634715499564853
+      },
+      {
+        "clip_index": 6,
+        "output_time": 20.189999999999998,
+        "frames": 6,
+        "strength": 0.1852876330603841
+      },
+      {
+        "clip_index": 7,
+        "output_time": 23.671999999999997,
+        "frames": 6,
+        "strength": 0.19151656153518556
+      },
+      {
+        "clip_index": 8,
+        "output_time": 27.221999999999994,
+        "frames": 6,
+        "strength": 0.17353325004364767
+      },
+      {
+        "clip_index": 9,
+        "output_time": 31.021958333333373,
+        "frames": 6,
+        "strength": 0.13285606866488026
+      },
+      {
+        "clip_index": 10,
+        "output_time": 33.19799999999998,
+        "frames": 6,
+        "strength": 0.16370809935209607
+      }
+    ]
+  },
+  "authored_limitations": [
+    "Paired directional edge reframing/smear across unchanged hard cuts, not an overlapping wipe or crossfade.",
+    "Inset duplicates the same decoded footage, not an unseen camera angle or isolated subject.",
+    "1x video and unchanged PCM/music clocks; no attack or aesthetic certification.",
+    "Supplied anchors, complete supplied attack intervals and map protected intervals are guarded; unknown attacks and unresolved fight bounds require independent review."
+  ],
+  "motion_audio_granularity_seconds": null,
+  "motion_limitations": [],
+  "multishot_limitations": [],
+  "video_concat": "/home/user/mozillaedit/test-sample-mp4/local-preview-35s-w/job-v0001/renders/encounters-v0001/video.ffconcat",
+  "game_concat": "/home/user/mozillaedit/test-sample-mp4/local-preview-35s-w/job-v0001/renders/encounters-v0001/game.ffconcat",
+  "config": {
+    "width": 1280,
+    "height": 720,
+    "fps": 60,
+    "sample_rate": 48000,
+    "encoder": "libx264",
+    "fallback_encoder": null,
+    "quality": 21,
+    "preset": "veryfast",
+    "music_gain_db": -7,
+    "game_gain_db": -8,
+    "max_duration": 120.0,
+    "max_clip_duration": 30.0,
+    "max_clips": 64,
+    "max_source_duration": 86400.0,
+    "timeout": 600.0,
+    "ffmpeg": "ffmpeg",
+    "ffprobe": "ffprobe",
+    "style": "authored-footage"
+  },
+  "plan_duration": 35.0,
+  "video_duration": 35.0,
+  "audio_duration": 35.0,
+  "frame_count": 2100,
+  "sample_count": 1680000,
+  "music_start_sample": 384000,
+  "music_source": "/home/user/mozillaedit/audio/Reflections (slowed) - The Neighbourhood [Edit Audio].mp3",
+  "music_time_origin": "decoded sample zero after FFmpeg codec skip/encoder-delay handling",
+  "chunks": [
+    {
+      "source_start": 68.693,
+      "source_end": 72.815,
+      "output_start": 0.0,
+      "output_end": 4.121999999999999,
+      "music_start": 8.0,
+      "music_end": 12.122,
+      "speed": 1.0,
+      "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_z0ALKJiFRDU_Warden-is-Simply-Overpowered_002_720p.mp4",
+      "index": 0,
+      "frame_start": 0,
+      "frame_end": 247,
+      "frame_count": 247,
+      "sample_start": 0,
+      "sample_end": 197856,
+      "sample_count": 197856,
+      "source_sample_start": 3297264,
+      "source_sample_end": 3495120,
+      "video_phase_seconds": 0.0,
+      "events": [],
+      "authored_shot": {
+        "role": "setup",
+        "composition": "full"
+      },
+      "authored_edges": [
+        {
+          "side": "out",
+          "frames": 10,
+          "direction": "left",
+          "boundary": 1
+        }
+      ],
+      "authored_impacts": [
+        {
+          "clip_index": 0,
+          "output_time": 3.3220000000000027,
+          "frames": 6,
+          "strength": 0.33093615163600776,
+          "start_frame": 197,
+          "end_frame": 202,
+          "center_frame": 199
+        }
+      ],
+      "authored_design": {
+        "schema_version": "authored-footage/v2",
+        "shots": [
+          {
+            "role": "setup",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "contrast",
+            "composition": "inset"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "payoff",
+            "composition": "full"
+          }
+        ],
+        "bridges": [
+          {
+            "boundary": 1,
+            "direction": "left",
+            "frames": 10
+          },
+          {
+            "boundary": 2,
+            "direction": "right",
+            "frames": 10
+          },
+          {
+            "boundary": 3,
+            "direction": "left",
+            "frames": 6
+          },
+          {
+            "boundary": 6,
+            "direction": "right",
+            "frames": 3
+          },
+          {
+            "boundary": 10,
+            "direction": "right",
+            "frames": 10
+          }
+        ],
+        "ending": {
+          "fade_frames": 17
+        },
+        "impacts": [
+          {
+            "clip_index": 0,
+            "output_time": 3.3220000000000027,
+            "frames": 6,
+            "strength": 0.33093615163600776
+          },
+          {
+            "clip_index": 1,
+            "output_time": 5.214999999999975,
+            "frames": 6,
+            "strength": 0.20927481991137317
+          },
+          {
+            "clip_index": 2,
+            "output_time": 7.319999999999993,
+            "frames": 6,
+            "strength": 0.20141208257484838
+          },
+          {
+            "clip_index": 3,
+            "output_time": 10.682000000000016,
+            "frames": 6,
+            "strength": 0.20670022904219637
+          },
+          {
+            "clip_index": 4,
+            "output_time": 14.292000000000002,
+            "frames": 6,
+            "strength": 0.20250136023434226
+          },
+          {
+            "clip_index": 5,
+            "output_time": 17.78200000000004,
+            "frames": 6,
+            "strength": 0.1634715499564853
+          },
+          {
+            "clip_index": 6,
+            "output_time": 20.189999999999998,
+            "frames": 6,
+            "strength": 0.1852876330603841
+          },
+          {
+            "clip_index": 7,
+            "output_time": 23.671999999999997,
+            "frames": 6,
+            "strength": 0.19151656153518556
+          },
+          {
+            "clip_index": 8,
+            "output_time": 27.221999999999994,
+            "frames": 6,
+            "strength": 0.17353325004364767
+          },
+          {
+            "clip_index": 9,
+            "output_time": 31.021958333333373,
+            "frames": 6,
+            "strength": 0.13285606866488026
+          },
+          {
+            "clip_index": 10,
+            "output_time": 33.19799999999998,
+            "frames": 6,
+            "strength": 0.16370809935209607
+          }
+        ]
+      },
+      "combined_limitations": [],
+      "video": "/home/user/mozillaedit/test-sample-mp4/local-preview-35s-w/job-v0001/renders/encounters-v0001/clip-000-libx264.mp4",
+      "game_audio": "/home/user/mozillaedit/test-sample-mp4/local-preview-35s-w/job-v0001/renders/encounters-v0001/game-000.wav",
+      "encoder": "libx264",
+      "source_audio_end_rounding_seconds": 0.0
+    },
+    {
+      "source_start": 252.132,
+      "source_end": 254.132,
+      "output_start": 4.121999999999999,
+      "output_end": 6.121999999999999,
+      "music_start": 12.122,
+      "music_end": 14.122,
+      "speed": 1.0,
+      "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_z0ALKJiFRDU_Warden-is-Simply-Overpowered_002_720p.mp4",
+      "index": 1,
+      "frame_start": 247,
+      "frame_end": 367,
+      "frame_count": 120,
+      "sample_start": 197856,
+      "sample_end": 293856,
+      "sample_count": 96000,
+      "source_sample_start": 12102336,
+      "source_sample_end": 12198336,
+      "video_phase_seconds": 0.005333333333332746,
+      "events": [],
+      "authored_shot": {
+        "role": "impact",
+        "composition": "full"
+      },
+      "authored_edges": [
+        {
+          "side": "in",
+          "frames": 10,
+          "direction": "left",
+          "boundary": 1
+        },
+        {
+          "side": "out",
+          "frames": 10,
+          "direction": "right",
+          "boundary": 2
+        }
+      ],
+      "authored_impacts": [
+        {
+          "clip_index": 1,
+          "output_time": 5.214999999999975,
+          "frames": 6,
+          "strength": 0.20927481991137317,
+          "start_frame": 64,
+          "end_frame": 69,
+          "center_frame": 66
+        }
+      ],
+      "authored_design": {
+        "schema_version": "authored-footage/v2",
+        "shots": [
+          {
+            "role": "setup",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "contrast",
+            "composition": "inset"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "payoff",
+            "composition": "full"
+          }
+        ],
+        "bridges": [
+          {
+            "boundary": 1,
+            "direction": "left",
+            "frames": 10
+          },
+          {
+            "boundary": 2,
+            "direction": "right",
+            "frames": 10
+          },
+          {
+            "boundary": 3,
+            "direction": "left",
+            "frames": 6
+          },
+          {
+            "boundary": 6,
+            "direction": "right",
+            "frames": 3
+          },
+          {
+            "boundary": 10,
+            "direction": "right",
+            "frames": 10
+          }
+        ],
+        "ending": {
+          "fade_frames": 17
+        },
+        "impacts": [
+          {
+            "clip_index": 0,
+            "output_time": 3.3220000000000027,
+            "frames": 6,
+            "strength": 0.33093615163600776
+          },
+          {
+            "clip_index": 1,
+            "output_time": 5.214999999999975,
+            "frames": 6,
+            "strength": 0.20927481991137317
+          },
+          {
+            "clip_index": 2,
+            "output_time": 7.319999999999993,
+            "frames": 6,
+            "strength": 0.20141208257484838
+          },
+          {
+            "clip_index": 3,
+            "output_time": 10.682000000000016,
+            "frames": 6,
+            "strength": 0.20670022904219637
+          },
+          {
+            "clip_index": 4,
+            "output_time": 14.292000000000002,
+            "frames": 6,
+            "strength": 0.20250136023434226
+          },
+          {
+            "clip_index": 5,
+            "output_time": 17.78200000000004,
+            "frames": 6,
+            "strength": 0.1634715499564853
+          },
+          {
+            "clip_index": 6,
+            "output_time": 20.189999999999998,
+            "frames": 6,
+            "strength": 0.1852876330603841
+          },
+          {
+            "clip_index": 7,
+            "output_time": 23.671999999999997,
+            "frames": 6,
+            "strength": 0.19151656153518556
+          },
+          {
+            "clip_index": 8,
+            "output_time": 27.221999999999994,
+            "frames": 6,
+            "strength": 0.17353325004364767
+          },
+          {
+            "clip_index": 9,
+            "output_time": 31.021958333333373,
+            "frames": 6,
+            "strength": 0.13285606866488026
+          },
+          {
+            "clip_index": 10,
+            "output_time": 33.19799999999998,
+            "frames": 6,
+            "strength": 0.16370809935209607
+          }
+        ]
+      },
+      "combined_limitations": [],
+      "video": "/home/user/mozillaedit/test-sample-mp4/local-preview-35s-w/job-v0001/renders/encounters-v0001/clip-001-libx264.mp4",
+      "game_audio": "/home/user/mozillaedit/test-sample-mp4/local-preview-35s-w/job-v0001/renders/encounters-v0001/game-001.wav",
+      "encoder": "libx264",
+      "source_audio_end_rounding_seconds": 0.0
+    },
+    {
+      "source_start": 435.41700000000003,
+      "source_end": 438.5988181818182,
+      "output_start": 6.121999999999999,
+      "output_end": 9.30381818181818,
+      "music_start": 14.122,
+      "music_end": 17.30381818181818,
+      "speed": 1.0,
+      "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_z0ALKJiFRDU_Warden-is-Simply-Overpowered_002_720p.mp4",
+      "index": 2,
+      "frame_start": 367,
+      "frame_end": 558,
+      "frame_count": 191,
+      "sample_start": 293856,
+      "sample_end": 446583,
+      "sample_count": 152727,
+      "source_sample_start": 20900016,
+      "source_sample_end": 21052743,
+      "video_phase_seconds": 0.005333333333332746,
+      "events": [],
+      "authored_shot": {
+        "role": "impact",
+        "composition": "full"
+      },
+      "authored_edges": [
+        {
+          "side": "in",
+          "frames": 10,
+          "direction": "right",
+          "boundary": 2
+        },
+        {
+          "side": "out",
+          "frames": 6,
+          "direction": "left",
+          "boundary": 3
+        }
+      ],
+      "authored_impacts": [
+        {
+          "clip_index": 2,
+          "output_time": 7.319999999999993,
+          "frames": 6,
+          "strength": 0.20141208257484838,
+          "start_frame": 70,
+          "end_frame": 75,
+          "center_frame": 72
+        }
+      ],
+      "authored_design": {
+        "schema_version": "authored-footage/v2",
+        "shots": [
+          {
+            "role": "setup",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "contrast",
+            "composition": "inset"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "payoff",
+            "composition": "full"
+          }
+        ],
+        "bridges": [
+          {
+            "boundary": 1,
+            "direction": "left",
+            "frames": 10
+          },
+          {
+            "boundary": 2,
+            "direction": "right",
+            "frames": 10
+          },
+          {
+            "boundary": 3,
+            "direction": "left",
+            "frames": 6
+          },
+          {
+            "boundary": 6,
+            "direction": "right",
+            "frames": 3
+          },
+          {
+            "boundary": 10,
+            "direction": "right",
+            "frames": 10
+          }
+        ],
+        "ending": {
+          "fade_frames": 17
+        },
+        "impacts": [
+          {
+            "clip_index": 0,
+            "output_time": 3.3220000000000027,
+            "frames": 6,
+            "strength": 0.33093615163600776
+          },
+          {
+            "clip_index": 1,
+            "output_time": 5.214999999999975,
+            "frames": 6,
+            "strength": 0.20927481991137317
+          },
+          {
+            "clip_index": 2,
+            "output_time": 7.319999999999993,
+            "frames": 6,
+            "strength": 0.20141208257484838
+          },
+          {
+            "clip_index": 3,
+            "output_time": 10.682000000000016,
+            "frames": 6,
+            "strength": 0.20670022904219637
+          },
+          {
+            "clip_index": 4,
+            "output_time": 14.292000000000002,
+            "frames": 6,
+            "strength": 0.20250136023434226
+          },
+          {
+            "clip_index": 5,
+            "output_time": 17.78200000000004,
+            "frames": 6,
+            "strength": 0.1634715499564853
+          },
+          {
+            "clip_index": 6,
+            "output_time": 20.189999999999998,
+            "frames": 6,
+            "strength": 0.1852876330603841
+          },
+          {
+            "clip_index": 7,
+            "output_time": 23.671999999999997,
+            "frames": 6,
+            "strength": 0.19151656153518556
+          },
+          {
+            "clip_index": 8,
+            "output_time": 27.221999999999994,
+            "frames": 6,
+            "strength": 0.17353325004364767
+          },
+          {
+            "clip_index": 9,
+            "output_time": 31.021958333333373,
+            "frames": 6,
+            "strength": 0.13285606866488026
+          },
+          {
+            "clip_index": 10,
+            "output_time": 33.19799999999998,
+            "frames": 6,
+            "strength": 0.16370809935209607
+          }
+        ]
+      },
+      "combined_limitations": [],
+      "video": "/home/user/mozillaedit/test-sample-mp4/local-preview-35s-w/job-v0001/renders/encounters-v0001/clip-002-libx264.mp4",
+      "game_audio": "/home/user/mozillaedit/test-sample-mp4/local-preview-35s-w/job-v0001/renders/encounters-v0001/game-002.wav",
+      "encoder": "libx264",
+      "source_audio_end_rounding_seconds": -5.681818208813638e-06
+    },
+    {
+      "source_start": 410.2868181818182,
+      "source_end": 413.7868181818182,
+      "output_start": 9.30381818181818,
+      "output_end": 12.80381818181818,
+      "music_start": 17.30381818181818,
+      "music_end": 20.80381818181818,
+      "speed": 1.0,
+      "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_z0ALKJiFRDU_Warden-is-Simply-Overpowered_002_720p.mp4",
+      "index": 3,
+      "frame_start": 558,
+      "frame_end": 768,
+      "frame_count": 210,
+      "sample_start": 446583,
+      "sample_end": 614583,
+      "sample_count": 168000,
+      "source_sample_start": 19693767,
+      "source_sample_end": 19861767,
+      "video_phase_seconds": 0.003818181818179056,
+      "events": [],
+      "authored_shot": {
+        "role": "impact",
+        "composition": "full"
+      },
+      "authored_edges": [
+        {
+          "side": "in",
+          "frames": 6,
+          "direction": "left",
+          "boundary": 3
+        }
+      ],
+      "authored_impacts": [
+        {
+          "clip_index": 3,
+          "output_time": 10.682000000000016,
+          "frames": 6,
+          "strength": 0.20670022904219637,
+          "start_frame": 81,
+          "end_frame": 86,
+          "center_frame": 83
+        }
+      ],
+      "authored_design": {
+        "schema_version": "authored-footage/v2",
+        "shots": [
+          {
+            "role": "setup",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "contrast",
+            "composition": "inset"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "payoff",
+            "composition": "full"
+          }
+        ],
+        "bridges": [
+          {
+            "boundary": 1,
+            "direction": "left",
+            "frames": 10
+          },
+          {
+            "boundary": 2,
+            "direction": "right",
+            "frames": 10
+          },
+          {
+            "boundary": 3,
+            "direction": "left",
+            "frames": 6
+          },
+          {
+            "boundary": 6,
+            "direction": "right",
+            "frames": 3
+          },
+          {
+            "boundary": 10,
+            "direction": "right",
+            "frames": 10
+          }
+        ],
+        "ending": {
+          "fade_frames": 17
+        },
+        "impacts": [
+          {
+            "clip_index": 0,
+            "output_time": 3.3220000000000027,
+            "frames": 6,
+            "strength": 0.33093615163600776
+          },
+          {
+            "clip_index": 1,
+            "output_time": 5.214999999999975,
+            "frames": 6,
+            "strength": 0.20927481991137317
+          },
+          {
+            "clip_index": 2,
+            "output_time": 7.319999999999993,
+            "frames": 6,
+            "strength": 0.20141208257484838
+          },
+          {
+            "clip_index": 3,
+            "output_time": 10.682000000000016,
+            "frames": 6,
+            "strength": 0.20670022904219637
+          },
+          {
+            "clip_index": 4,
+            "output_time": 14.292000000000002,
+            "frames": 6,
+            "strength": 0.20250136023434226
+          },
+          {
+            "clip_index": 5,
+            "output_time": 17.78200000000004,
+            "frames": 6,
+            "strength": 0.1634715499564853
+          },
+          {
+            "clip_index": 6,
+            "output_time": 20.189999999999998,
+            "frames": 6,
+            "strength": 0.1852876330603841
+          },
+          {
+            "clip_index": 7,
+            "output_time": 23.671999999999997,
+            "frames": 6,
+            "strength": 0.19151656153518556
+          },
+          {
+            "clip_index": 8,
+            "output_time": 27.221999999999994,
+            "frames": 6,
+            "strength": 0.17353325004364767
+          },
+          {
+            "clip_index": 9,
+            "output_time": 31.021958333333373,
+            "frames": 6,
+            "strength": 0.13285606866488026
+          },
+          {
+            "clip_index": 10,
+            "output_time": 33.19799999999998,
+            "frames": 6,
+            "strength": 0.16370809935209607
+          }
+        ]
+      },
+      "combined_limitations": [],
+      "video": "/home/user/mozillaedit/test-sample-mp4/local-preview-35s-w/job-v0001/renders/encounters-v0001/clip-003-libx264.mp4",
+      "game_audio": "/home/user/mozillaedit/test-sample-mp4/local-preview-35s-w/job-v0001/renders/encounters-v0001/game-003.wav",
+      "encoder": "libx264",
+      "source_audio_end_rounding_seconds": -5.681818208813638e-06
+    },
+    {
+      "source_start": 83.70181818181817,
+      "source_end": 86.88363636363636,
+      "output_start": 12.80381818181818,
+      "output_end": 15.985636363636361,
+      "music_start": 20.80381818181818,
+      "music_end": 23.98563636363636,
+      "speed": 1.0,
+      "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_z0ALKJiFRDU_Warden-is-Simply-Overpowered_002_720p.mp4",
+      "index": 4,
+      "frame_start": 768,
+      "frame_end": 959,
+      "frame_count": 191,
+      "sample_start": 614583,
+      "sample_end": 767311,
+      "sample_count": 152728,
+      "source_sample_start": 4017687,
+      "source_sample_end": 4170415,
+      "video_phase_seconds": 0.003818181818179056,
+      "events": [],
+      "authored_shot": {
+        "role": "contrast",
+        "composition": "inset"
+      },
+      "authored_edges": [],
+      "authored_impacts": [
+        {
+          "clip_index": 4,
+          "output_time": 14.292000000000002,
+          "frames": 6,
+          "strength": 0.20250136023434226,
+          "start_frame": 88,
+          "end_frame": 93,
+          "center_frame": 90
+        }
+      ],
+      "authored_design": {
+        "schema_version": "authored-footage/v2",
+        "shots": [
+          {
+            "role": "setup",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "contrast",
+            "composition": "inset"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "payoff",
+            "composition": "full"
+          }
+        ],
+        "bridges": [
+          {
+            "boundary": 1,
+            "direction": "left",
+            "frames": 10
+          },
+          {
+            "boundary": 2,
+            "direction": "right",
+            "frames": 10
+          },
+          {
+            "boundary": 3,
+            "direction": "left",
+            "frames": 6
+          },
+          {
+            "boundary": 6,
+            "direction": "right",
+            "frames": 3
+          },
+          {
+            "boundary": 10,
+            "direction": "right",
+            "frames": 10
+          }
+        ],
+        "ending": {
+          "fade_frames": 17
+        },
+        "impacts": [
+          {
+            "clip_index": 0,
+            "output_time": 3.3220000000000027,
+            "frames": 6,
+            "strength": 0.33093615163600776
+          },
+          {
+            "clip_index": 1,
+            "output_time": 5.214999999999975,
+            "frames": 6,
+            "strength": 0.20927481991137317
+          },
+          {
+            "clip_index": 2,
+            "output_time": 7.319999999999993,
+            "frames": 6,
+            "strength": 0.20141208257484838
+          },
+          {
+            "clip_index": 3,
+            "output_time": 10.682000000000016,
+            "frames": 6,
+            "strength": 0.20670022904219637
+          },
+          {
+            "clip_index": 4,
+            "output_time": 14.292000000000002,
+            "frames": 6,
+            "strength": 0.20250136023434226
+          },
+          {
+            "clip_index": 5,
+            "output_time": 17.78200000000004,
+            "frames": 6,
+            "strength": 0.1634715499564853
+          },
+          {
+            "clip_index": 6,
+            "output_time": 20.189999999999998,
+            "frames": 6,
+            "strength": 0.1852876330603841
+          },
+          {
+            "clip_index": 7,
+            "output_time": 23.671999999999997,
+            "frames": 6,
+            "strength": 0.19151656153518556
+          },
+          {
+            "clip_index": 8,
+            "output_time": 27.221999999999994,
+            "frames": 6,
+            "strength": 0.17353325004364767
+          },
+          {
+            "clip_index": 9,
+            "output_time": 31.021958333333373,
+            "frames": 6,
+            "strength": 0.13285606866488026
+          },
+          {
+            "clip_index": 10,
+            "output_time": 33.19799999999998,
+            "frames": 6,
+            "strength": 0.16370809935209607
+          }
+        ]
+      },
+      "combined_limitations": [],
+      "video": "/home/user/mozillaedit/test-sample-mp4/local-preview-35s-w/job-v0001/renders/encounters-v0001/clip-004-libx264.mp4",
+      "game_audio": "/home/user/mozillaedit/test-sample-mp4/local-preview-35s-w/job-v0001/renders/encounters-v0001/game-004.wav",
+      "encoder": "libx264",
+      "source_audio_end_rounding_seconds": 9.469696976793784e-06
+    },
+    {
+      "source_start": 275.88863636363635,
+      "source_end": 278.88863636363635,
+      "output_start": 15.985636363636361,
+      "output_end": 18.98563636363636,
+      "music_start": 23.98563636363636,
+      "music_end": 26.98563636363636,
+      "speed": 1.0,
+      "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_z0ALKJiFRDU_Warden-is-Simply-Overpowered_002_720p.mp4",
+      "index": 5,
+      "frame_start": 959,
+      "frame_end": 1139,
+      "frame_count": 180,
+      "sample_start": 767311,
+      "sample_end": 911311,
+      "sample_count": 144000,
+      "source_sample_start": 13242655,
+      "source_sample_end": 13386655,
+      "video_phase_seconds": 0.002303030303028919,
+      "events": [],
+      "authored_shot": {
+        "role": "impact",
+        "composition": "full"
+      },
+      "authored_edges": [
+        {
+          "side": "out",
+          "frames": 3,
+          "direction": "right",
+          "boundary": 6
+        }
+      ],
+      "authored_impacts": [
+        {
+          "clip_index": 5,
+          "output_time": 17.78200000000004,
+          "frames": 6,
+          "strength": 0.1634715499564853,
+          "start_frame": 106,
+          "end_frame": 111,
+          "center_frame": 108
+        }
+      ],
+      "authored_design": {
+        "schema_version": "authored-footage/v2",
+        "shots": [
+          {
+            "role": "setup",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "contrast",
+            "composition": "inset"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "payoff",
+            "composition": "full"
+          }
+        ],
+        "bridges": [
+          {
+            "boundary": 1,
+            "direction": "left",
+            "frames": 10
+          },
+          {
+            "boundary": 2,
+            "direction": "right",
+            "frames": 10
+          },
+          {
+            "boundary": 3,
+            "direction": "left",
+            "frames": 6
+          },
+          {
+            "boundary": 6,
+            "direction": "right",
+            "frames": 3
+          },
+          {
+            "boundary": 10,
+            "direction": "right",
+            "frames": 10
+          }
+        ],
+        "ending": {
+          "fade_frames": 17
+        },
+        "impacts": [
+          {
+            "clip_index": 0,
+            "output_time": 3.3220000000000027,
+            "frames": 6,
+            "strength": 0.33093615163600776
+          },
+          {
+            "clip_index": 1,
+            "output_time": 5.214999999999975,
+            "frames": 6,
+            "strength": 0.20927481991137317
+          },
+          {
+            "clip_index": 2,
+            "output_time": 7.319999999999993,
+            "frames": 6,
+            "strength": 0.20141208257484838
+          },
+          {
+            "clip_index": 3,
+            "output_time": 10.682000000000016,
+            "frames": 6,
+            "strength": 0.20670022904219637
+          },
+          {
+            "clip_index": 4,
+            "output_time": 14.292000000000002,
+            "frames": 6,
+            "strength": 0.20250136023434226
+          },
+          {
+            "clip_index": 5,
+            "output_time": 17.78200000000004,
+            "frames": 6,
+            "strength": 0.1634715499564853
+          },
+          {
+            "clip_index": 6,
+            "output_time": 20.189999999999998,
+            "frames": 6,
+            "strength": 0.1852876330603841
+          },
+          {
+            "clip_index": 7,
+            "output_time": 23.671999999999997,
+            "frames": 6,
+            "strength": 0.19151656153518556
+          },
+          {
+            "clip_index": 8,
+            "output_time": 27.221999999999994,
+            "frames": 6,
+            "strength": 0.17353325004364767
+          },
+          {
+            "clip_index": 9,
+            "output_time": 31.021958333333373,
+            "frames": 6,
+            "strength": 0.13285606866488026
+          },
+          {
+            "clip_index": 10,
+            "output_time": 33.19799999999998,
+            "frames": 6,
+            "strength": 0.16370809935209607
+          }
+        ]
+      },
+      "combined_limitations": [],
+      "video": "/home/user/mozillaedit/test-sample-mp4/local-preview-35s-w/job-v0001/renders/encounters-v0001/clip-005-libx264.mp4",
+      "game_audio": "/home/user/mozillaedit/test-sample-mp4/local-preview-35s-w/job-v0001/renders/encounters-v0001/game-005.wav",
+      "encoder": "libx264",
+      "source_audio_end_rounding_seconds": 9.469696976793784e-06
+    },
+    {
+      "source_start": 306.03063636363635,
+      "source_end": 309.21245454545453,
+      "output_start": 18.98563636363636,
+      "output_end": 22.16745454545454,
+      "music_start": 26.98563636363636,
+      "music_end": 30.16745454545454,
+      "speed": 1.0,
+      "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_z0ALKJiFRDU_Warden-is-Simply-Overpowered_002_720p.mp4",
+      "index": 6,
+      "frame_start": 1139,
+      "frame_end": 1330,
+      "frame_count": 191,
+      "sample_start": 911311,
+      "sample_end": 1064038,
+      "sample_count": 152727,
+      "source_sample_start": 14689471,
+      "source_sample_end": 14842198,
+      "video_phase_seconds": 0.0023030303030253663,
+      "events": [],
+      "authored_shot": {
+        "role": "impact",
+        "composition": "full"
+      },
+      "authored_edges": [
+        {
+          "side": "in",
+          "frames": 3,
+          "direction": "right",
+          "boundary": 6
+        }
+      ],
+      "authored_impacts": [
+        {
+          "clip_index": 6,
+          "output_time": 20.189999999999998,
+          "frames": 6,
+          "strength": 0.1852876330603841,
+          "start_frame": 70,
+          "end_frame": 75,
+          "center_frame": 72
+        }
+      ],
+      "authored_design": {
+        "schema_version": "authored-footage/v2",
+        "shots": [
+          {
+            "role": "setup",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "contrast",
+            "composition": "inset"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "payoff",
+            "composition": "full"
+          }
+        ],
+        "bridges": [
+          {
+            "boundary": 1,
+            "direction": "left",
+            "frames": 10
+          },
+          {
+            "boundary": 2,
+            "direction": "right",
+            "frames": 10
+          },
+          {
+            "boundary": 3,
+            "direction": "left",
+            "frames": 6
+          },
+          {
+            "boundary": 6,
+            "direction": "right",
+            "frames": 3
+          },
+          {
+            "boundary": 10,
+            "direction": "right",
+            "frames": 10
+          }
+        ],
+        "ending": {
+          "fade_frames": 17
+        },
+        "impacts": [
+          {
+            "clip_index": 0,
+            "output_time": 3.3220000000000027,
+            "frames": 6,
+            "strength": 0.33093615163600776
+          },
+          {
+            "clip_index": 1,
+            "output_time": 5.214999999999975,
+            "frames": 6,
+            "strength": 0.20927481991137317
+          },
+          {
+            "clip_index": 2,
+            "output_time": 7.319999999999993,
+            "frames": 6,
+            "strength": 0.20141208257484838
+          },
+          {
+            "clip_index": 3,
+            "output_time": 10.682000000000016,
+            "frames": 6,
+            "strength": 0.20670022904219637
+          },
+          {
+            "clip_index": 4,
+            "output_time": 14.292000000000002,
+            "frames": 6,
+            "strength": 0.20250136023434226
+          },
+          {
+            "clip_index": 5,
+            "output_time": 17.78200000000004,
+            "frames": 6,
+            "strength": 0.1634715499564853
+          },
+          {
+            "clip_index": 6,
+            "output_time": 20.189999999999998,
+            "frames": 6,
+            "strength": 0.1852876330603841
+          },
+          {
+            "clip_index": 7,
+            "output_time": 23.671999999999997,
+            "frames": 6,
+            "strength": 0.19151656153518556
+          },
+          {
+            "clip_index": 8,
+            "output_time": 27.221999999999994,
+            "frames": 6,
+            "strength": 0.17353325004364767
+          },
+          {
+            "clip_index": 9,
+            "output_time": 31.021958333333373,
+            "frames": 6,
+            "strength": 0.13285606866488026
+          },
+          {
+            "clip_index": 10,
+            "output_time": 33.19799999999998,
+            "frames": 6,
+            "strength": 0.16370809935209607
+          }
+        ]
+      },
+      "combined_limitations": [],
+      "video": "/home/user/mozillaedit/test-sample-mp4/local-preview-35s-w/job-v0001/renders/encounters-v0001/clip-006-libx264.mp4",
+      "game_audio": "/home/user/mozillaedit/test-sample-mp4/local-preview-35s-w/job-v0001/renders/encounters-v0001/game-006.wav",
+      "encoder": "libx264",
+      "source_audio_end_rounding_seconds": 3.787878824823565e-06
+    },
+    {
+      "source_start": 163.45045454545456,
+      "source_end": 166.65500000000003,
+      "output_start": 22.16745454545454,
+      "output_end": 25.372,
+      "music_start": 30.16745454545454,
+      "music_end": 33.372,
+      "speed": 1.0,
+      "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_z0ALKJiFRDU_Warden-is-Simply-Overpowered_002_720p.mp4",
+      "index": 7,
+      "frame_start": 1330,
+      "frame_end": 1522,
+      "frame_count": 192,
+      "sample_start": 1064038,
+      "sample_end": 1217856,
+      "sample_count": 153818,
+      "source_sample_start": 7845622,
+      "source_sample_end": 7999440,
+      "video_phase_seconds": 0.0007878787878716764,
+      "events": [],
+      "authored_shot": {
+        "role": "impact",
+        "composition": "full"
+      },
+      "authored_edges": [],
+      "authored_impacts": [
+        {
+          "clip_index": 7,
+          "output_time": 23.671999999999997,
+          "frames": 6,
+          "strength": 0.19151656153518556,
+          "start_frame": 88,
+          "end_frame": 93,
+          "center_frame": 90
+        }
+      ],
+      "authored_design": {
+        "schema_version": "authored-footage/v2",
+        "shots": [
+          {
+            "role": "setup",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "contrast",
+            "composition": "inset"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "payoff",
+            "composition": "full"
+          }
+        ],
+        "bridges": [
+          {
+            "boundary": 1,
+            "direction": "left",
+            "frames": 10
+          },
+          {
+            "boundary": 2,
+            "direction": "right",
+            "frames": 10
+          },
+          {
+            "boundary": 3,
+            "direction": "left",
+            "frames": 6
+          },
+          {
+            "boundary": 6,
+            "direction": "right",
+            "frames": 3
+          },
+          {
+            "boundary": 10,
+            "direction": "right",
+            "frames": 10
+          }
+        ],
+        "ending": {
+          "fade_frames": 17
+        },
+        "impacts": [
+          {
+            "clip_index": 0,
+            "output_time": 3.3220000000000027,
+            "frames": 6,
+            "strength": 0.33093615163600776
+          },
+          {
+            "clip_index": 1,
+            "output_time": 5.214999999999975,
+            "frames": 6,
+            "strength": 0.20927481991137317
+          },
+          {
+            "clip_index": 2,
+            "output_time": 7.319999999999993,
+            "frames": 6,
+            "strength": 0.20141208257484838
+          },
+          {
+            "clip_index": 3,
+            "output_time": 10.682000000000016,
+            "frames": 6,
+            "strength": 0.20670022904219637
+          },
+          {
+            "clip_index": 4,
+            "output_time": 14.292000000000002,
+            "frames": 6,
+            "strength": 0.20250136023434226
+          },
+          {
+            "clip_index": 5,
+            "output_time": 17.78200000000004,
+            "frames": 6,
+            "strength": 0.1634715499564853
+          },
+          {
+            "clip_index": 6,
+            "output_time": 20.189999999999998,
+            "frames": 6,
+            "strength": 0.1852876330603841
+          },
+          {
+            "clip_index": 7,
+            "output_time": 23.671999999999997,
+            "frames": 6,
+            "strength": 0.19151656153518556
+          },
+          {
+            "clip_index": 8,
+            "output_time": 27.221999999999994,
+            "frames": 6,
+            "strength": 0.17353325004364767
+          },
+          {
+            "clip_index": 9,
+            "output_time": 31.021958333333373,
+            "frames": 6,
+            "strength": 0.13285606866488026
+          },
+          {
+            "clip_index": 10,
+            "output_time": 33.19799999999998,
+            "frames": 6,
+            "strength": 0.16370809935209607
+          }
+        ]
+      },
+      "combined_limitations": [],
+      "video": "/home/user/mozillaedit/test-sample-mp4/local-preview-35s-w/job-v0001/renders/encounters-v0001/clip-007-libx264.mp4",
+      "game_audio": "/home/user/mozillaedit/test-sample-mp4/local-preview-35s-w/job-v0001/renders/encounters-v0001/game-007.wav",
+      "encoder": "libx264",
+      "source_audio_end_rounding_seconds": -2.842170943040401e-14
+    },
+    {
+      "source_start": 91.495,
+      "source_end": 94.67681818181819,
+      "output_start": 25.372,
+      "output_end": 28.55381818181818,
+      "music_start": 33.372,
+      "music_end": 36.55381818181818,
+      "speed": 1.0,
+      "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_z0ALKJiFRDU_Warden-is-Simply-Overpowered_002_720p.mp4",
+      "index": 8,
+      "frame_start": 1522,
+      "frame_end": 1713,
+      "frame_count": 191,
+      "sample_start": 1217856,
+      "sample_end": 1370583,
+      "sample_count": 152727,
+      "source_sample_start": 4391760,
+      "source_sample_end": 4544487,
+      "video_phase_seconds": 0.005333333333332746,
+      "events": [],
+      "authored_shot": {
+        "role": "impact",
+        "composition": "full"
+      },
+      "authored_edges": [],
+      "authored_impacts": [
+        {
+          "clip_index": 8,
+          "output_time": 27.221999999999994,
+          "frames": 6,
+          "strength": 0.17353325004364767,
+          "start_frame": 109,
+          "end_frame": 114,
+          "center_frame": 111
+        }
+      ],
+      "authored_design": {
+        "schema_version": "authored-footage/v2",
+        "shots": [
+          {
+            "role": "setup",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "contrast",
+            "composition": "inset"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "payoff",
+            "composition": "full"
+          }
+        ],
+        "bridges": [
+          {
+            "boundary": 1,
+            "direction": "left",
+            "frames": 10
+          },
+          {
+            "boundary": 2,
+            "direction": "right",
+            "frames": 10
+          },
+          {
+            "boundary": 3,
+            "direction": "left",
+            "frames": 6
+          },
+          {
+            "boundary": 6,
+            "direction": "right",
+            "frames": 3
+          },
+          {
+            "boundary": 10,
+            "direction": "right",
+            "frames": 10
+          }
+        ],
+        "ending": {
+          "fade_frames": 17
+        },
+        "impacts": [
+          {
+            "clip_index": 0,
+            "output_time": 3.3220000000000027,
+            "frames": 6,
+            "strength": 0.33093615163600776
+          },
+          {
+            "clip_index": 1,
+            "output_time": 5.214999999999975,
+            "frames": 6,
+            "strength": 0.20927481991137317
+          },
+          {
+            "clip_index": 2,
+            "output_time": 7.319999999999993,
+            "frames": 6,
+            "strength": 0.20141208257484838
+          },
+          {
+            "clip_index": 3,
+            "output_time": 10.682000000000016,
+            "frames": 6,
+            "strength": 0.20670022904219637
+          },
+          {
+            "clip_index": 4,
+            "output_time": 14.292000000000002,
+            "frames": 6,
+            "strength": 0.20250136023434226
+          },
+          {
+            "clip_index": 5,
+            "output_time": 17.78200000000004,
+            "frames": 6,
+            "strength": 0.1634715499564853
+          },
+          {
+            "clip_index": 6,
+            "output_time": 20.189999999999998,
+            "frames": 6,
+            "strength": 0.1852876330603841
+          },
+          {
+            "clip_index": 7,
+            "output_time": 23.671999999999997,
+            "frames": 6,
+            "strength": 0.19151656153518556
+          },
+          {
+            "clip_index": 8,
+            "output_time": 27.221999999999994,
+            "frames": 6,
+            "strength": 0.17353325004364767
+          },
+          {
+            "clip_index": 9,
+            "output_time": 31.021958333333373,
+            "frames": 6,
+            "strength": 0.13285606866488026
+          },
+          {
+            "clip_index": 10,
+            "output_time": 33.19799999999998,
+            "frames": 6,
+            "strength": 0.16370809935209607
+          }
+        ]
+      },
+      "combined_limitations": [],
+      "video": "/home/user/mozillaedit/test-sample-mp4/local-preview-35s-w/job-v0001/renders/encounters-v0001/clip-008-libx264.mp4",
+      "game_audio": "/home/user/mozillaedit/test-sample-mp4/local-preview-35s-w/job-v0001/renders/encounters-v0001/game-008.wav",
+      "encoder": "libx264",
+      "source_audio_end_rounding_seconds": -5.6818181946027835e-06
+    },
+    {
+      "source_start": 447.12685984848486,
+      "source_end": 450.395,
+      "output_start": 28.55381818181818,
+      "output_end": 31.82195833333333,
+      "music_start": 36.55381818181818,
+      "music_end": 39.82195833333333,
+      "speed": 1.0,
+      "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_z0ALKJiFRDU_Warden-is-Simply-Overpowered_002_720p.mp4",
+      "index": 9,
+      "frame_start": 1713,
+      "frame_end": 1909,
+      "frame_count": 196,
+      "sample_start": 1370583,
+      "sample_end": 1527454,
+      "sample_count": 156871,
+      "source_sample_start": 21462089,
+      "source_sample_end": 21618960,
+      "video_phase_seconds": 0.003818181818179056,
+      "events": [],
+      "authored_shot": {
+        "role": "impact",
+        "composition": "full"
+      },
+      "authored_edges": [
+        {
+          "side": "out",
+          "frames": 10,
+          "direction": "right",
+          "boundary": 10
+        }
+      ],
+      "authored_impacts": [
+        {
+          "clip_index": 9,
+          "output_time": 31.021958333333373,
+          "frames": 6,
+          "strength": 0.13285606866488026,
+          "start_frame": 146,
+          "end_frame": 151,
+          "center_frame": 148
+        }
+      ],
+      "authored_design": {
+        "schema_version": "authored-footage/v2",
+        "shots": [
+          {
+            "role": "setup",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "contrast",
+            "composition": "inset"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "payoff",
+            "composition": "full"
+          }
+        ],
+        "bridges": [
+          {
+            "boundary": 1,
+            "direction": "left",
+            "frames": 10
+          },
+          {
+            "boundary": 2,
+            "direction": "right",
+            "frames": 10
+          },
+          {
+            "boundary": 3,
+            "direction": "left",
+            "frames": 6
+          },
+          {
+            "boundary": 6,
+            "direction": "right",
+            "frames": 3
+          },
+          {
+            "boundary": 10,
+            "direction": "right",
+            "frames": 10
+          }
+        ],
+        "ending": {
+          "fade_frames": 17
+        },
+        "impacts": [
+          {
+            "clip_index": 0,
+            "output_time": 3.3220000000000027,
+            "frames": 6,
+            "strength": 0.33093615163600776
+          },
+          {
+            "clip_index": 1,
+            "output_time": 5.214999999999975,
+            "frames": 6,
+            "strength": 0.20927481991137317
+          },
+          {
+            "clip_index": 2,
+            "output_time": 7.319999999999993,
+            "frames": 6,
+            "strength": 0.20141208257484838
+          },
+          {
+            "clip_index": 3,
+            "output_time": 10.682000000000016,
+            "frames": 6,
+            "strength": 0.20670022904219637
+          },
+          {
+            "clip_index": 4,
+            "output_time": 14.292000000000002,
+            "frames": 6,
+            "strength": 0.20250136023434226
+          },
+          {
+            "clip_index": 5,
+            "output_time": 17.78200000000004,
+            "frames": 6,
+            "strength": 0.1634715499564853
+          },
+          {
+            "clip_index": 6,
+            "output_time": 20.189999999999998,
+            "frames": 6,
+            "strength": 0.1852876330603841
+          },
+          {
+            "clip_index": 7,
+            "output_time": 23.671999999999997,
+            "frames": 6,
+            "strength": 0.19151656153518556
+          },
+          {
+            "clip_index": 8,
+            "output_time": 27.221999999999994,
+            "frames": 6,
+            "strength": 0.17353325004364767
+          },
+          {
+            "clip_index": 9,
+            "output_time": 31.021958333333373,
+            "frames": 6,
+            "strength": 0.13285606866488026
+          },
+          {
+            "clip_index": 10,
+            "output_time": 33.19799999999998,
+            "frames": 6,
+            "strength": 0.16370809935209607
+          }
+        ]
+      },
+      "combined_limitations": [],
+      "video": "/home/user/mozillaedit/test-sample-mp4/local-preview-35s-w/job-v0001/renders/encounters-v0001/clip-009-libx264.mp4",
+      "game_audio": "/home/user/mozillaedit/test-sample-mp4/local-preview-35s-w/job-v0001/renders/encounters-v0001/game-009.wav",
+      "encoder": "libx264",
+      "source_audio_end_rounding_seconds": 0.0
+    },
+    {
+      "source_start": 322.86395833333336,
+      "source_end": 326.04200000000003,
+      "output_start": 31.82195833333333,
+      "output_end": 35.0,
+      "music_start": 39.82195833333333,
+      "music_end": 43.0,
+      "speed": 1.0,
+      "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_z0ALKJiFRDU_Warden-is-Simply-Overpowered_002_720p.mp4",
+      "index": 10,
+      "frame_start": 1909,
+      "frame_end": 2100,
+      "frame_count": 191,
+      "sample_start": 1527454,
+      "sample_end": 1680000,
+      "sample_count": 152546,
+      "source_sample_start": 15497470,
+      "source_sample_end": 15650016,
+      "video_phase_seconds": 0.005291666666664696,
+      "events": [],
+      "authored_shot": {
+        "role": "payoff",
+        "composition": "full"
+      },
+      "authored_edges": [
+        {
+          "side": "in",
+          "frames": 10,
+          "direction": "right",
+          "boundary": 10
+        }
+      ],
+      "authored_fade_frames": 17,
+      "authored_impacts": [
+        {
+          "clip_index": 10,
+          "output_time": 33.19799999999998,
+          "frames": 6,
+          "strength": 0.16370809935209607,
+          "start_frame": 81,
+          "end_frame": 86,
+          "center_frame": 83
+        }
+      ],
+      "authored_design": {
+        "schema_version": "authored-footage/v2",
+        "shots": [
+          {
+            "role": "setup",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "contrast",
+            "composition": "inset"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "payoff",
+            "composition": "full"
+          }
+        ],
+        "bridges": [
+          {
+            "boundary": 1,
+            "direction": "left",
+            "frames": 10
+          },
+          {
+            "boundary": 2,
+            "direction": "right",
+            "frames": 10
+          },
+          {
+            "boundary": 3,
+            "direction": "left",
+            "frames": 6
+          },
+          {
+            "boundary": 6,
+            "direction": "right",
+            "frames": 3
+          },
+          {
+            "boundary": 10,
+            "direction": "right",
+            "frames": 10
+          }
+        ],
+        "ending": {
+          "fade_frames": 17
+        },
+        "impacts": [
+          {
+            "clip_index": 0,
+            "output_time": 3.3220000000000027,
+            "frames": 6,
+            "strength": 0.33093615163600776
+          },
+          {
+            "clip_index": 1,
+            "output_time": 5.214999999999975,
+            "frames": 6,
+            "strength": 0.20927481991137317
+          },
+          {
+            "clip_index": 2,
+            "output_time": 7.319999999999993,
+            "frames": 6,
+            "strength": 0.20141208257484838
+          },
+          {
+            "clip_index": 3,
+            "output_time": 10.682000000000016,
+            "frames": 6,
+            "strength": 0.20670022904219637
+          },
+          {
+            "clip_index": 4,
+            "output_time": 14.292000000000002,
+            "frames": 6,
+            "strength": 0.20250136023434226
+          },
+          {
+            "clip_index": 5,
+            "output_time": 17.78200000000004,
+            "frames": 6,
+            "strength": 0.1634715499564853
+          },
+          {
+            "clip_index": 6,
+            "output_time": 20.189999999999998,
+            "frames": 6,
+            "strength": 0.1852876330603841
+          },
+          {
+            "clip_index": 7,
+            "output_time": 23.671999999999997,
+            "frames": 6,
+            "strength": 0.19151656153518556
+          },
+          {
+            "clip_index": 8,
+            "output_time": 27.221999999999994,
+            "frames": 6,
+            "strength": 0.17353325004364767
+          },
+          {
+            "clip_index": 9,
+            "output_time": 31.021958333333373,
+            "frames": 6,
+            "strength": 0.13285606866488026
+          },
+          {
+            "clip_index": 10,
+            "output_time": 33.19799999999998,
+            "frames": 6,
+            "strength": 0.16370809935209607
+          }
+        ]
+      },
+      "combined_limitations": [],
+      "video": "/home/user/mozillaedit/test-sample-mp4/local-preview-35s-w/job-v0001/renders/encounters-v0001/clip-010-libx264.mp4",
+      "game_audio": "/home/user/mozillaedit/test-sample-mp4/local-preview-35s-w/job-v0001/renders/encounters-v0001/game-010.wav",
+      "encoder": "libx264",
+      "source_audio_end_rounding_seconds": -5.684341886080802e-14
+    }
+  ],
+  "source_metadata": {
+    "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_z0ALKJiFRDU_Warden-is-Simply-Overpowered_002_720p.mp4": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "profile": "High",
+          "codec_type": "video",
+          "codec_tag_string": "avc1",
+          "codec_tag": "0x31637661",
+          "width": 1280,
+          "height": 720,
+          "coded_width": 1280,
+          "coded_height": 720,
+          "closed_captions": 0,
+          "film_grain": 0,
+          "has_b_frames": 1,
+          "sample_aspect_ratio": "1:1",
+          "display_aspect_ratio": "16:9",
+          "pix_fmt": "yuv420p",
+          "level": 32,
+          "color_range": "tv",
+          "color_space": "bt709",
+          "color_transfer": "bt709",
+          "color_primaries": "bt709",
+          "chroma_location": "left",
+          "field_order": "progressive",
+          "refs": 1,
+          "is_avc": "true",
+          "nal_length_size": "4",
+          "id": "0x1",
+          "r_frame_rate": "60/1",
+          "avg_frame_rate": "60/1",
+          "time_base": "1/15360",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 7373568,
+          "duration": "480.050000",
+          "bit_rate": "1076579",
+          "bits_per_raw_sample": "8",
+          "nb_frames": "28803",
+          "extradata_size": 58,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "ISO Media file produced by Google Inc.",
+            "vendor_id": "[0][0][0][0]",
+            "encoder": "Lavc63.1.101 h264_qsv"
+          }
+        },
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "codec_long_name": "AAC (Advanced Audio Coding)",
+          "profile": "LC",
+          "codec_type": "audio",
+          "codec_tag_string": "mp4a",
+          "codec_tag": "0x6134706d",
+          "sample_fmt": "fltp",
+          "sample_rate": "44100",
+          "channels": 2,
+          "channel_layout": "stereo",
+          "bits_per_sample": 0,
+          "initial_padding": 0,
+          "id": "0x2",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "time_base": "1/44100",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 21173248,
+          "duration": "480.119002",
+          "bit_rate": "98013",
+          "nb_frames": "20678",
+          "extradata_size": 5,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "ISO Media file produced by Google Inc.",
+            "vendor_id": "[0][0][0][0]"
+          }
+        }
+      ],
+      "format": {
+        "filename": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_z0ALKJiFRDU_Warden-is-Simply-Overpowered_002_720p.mp4",
+        "nb_streams": 2,
+        "nb_programs": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.000000",
+        "duration": "480.119002",
+        "size": "71198338",
+        "bit_rate": "1186344",
+        "probe_score": 100,
+        "tags": {
+          "major_brand": "isom",
+          "minor_version": "512",
+          "compatible_brands": "isomiso2avc1mp41",
+          "encoder": "Lavf63.1.101"
+        }
+      }
+    }
+  },
+  "music_metadata": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "mp3",
+        "codec_long_name": "MP3 (MPEG audio layer 3)",
+        "codec_type": "audio",
+        "codec_tag_string": "[0][0][0][0]",
+        "codec_tag": "0x0000",
+        "sample_fmt": "fltp",
+        "sample_rate": "44100",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/14112000",
+        "start_pts": 353600,
+        "start_time": "0.025057",
+        "duration_ts": 640327680,
+        "duration": "45.374694",
+        "bit_rate": "112232",
+        "disposition": {
+          "default": 0,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0
+        },
+        "tags": {
+          "encoder": "Lavc60.31"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/home/user/mozillaedit/audio/Reflections (slowed) - The Neighbourhood [Edit Audio].mp3",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "format_name": "mp3",
+      "format_long_name": "MP2/3 (MPEG audio layer 2/3)",
+      "start_time": "0.025057",
+      "duration": "45.374694",
+      "size": "636703",
+      "bit_rate": "112256",
+      "probe_score": 51,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2mp41",
+        "encoder": "Lavf60.16.100"
+      }
+    }
+  },
+  "media_content_identities": {
+    "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_z0ALKJiFRDU_Warden-is-Simply-Overpowered_002_720p.mp4": {
+      "schema": "file-content/v1",
+      "sha256": "b68eb9ee7a3bd5901e4490c0da47762139a9151b9cbeccd9d959e6b3c01ebf4f",
+      "size_bytes": 71198338
+    },
+    "/home/user/mozillaedit/audio/Reflections (slowed) - The Neighbourhood [Edit Audio].mp3": {
+      "schema": "file-content/v1",
+      "sha256": "25c7bc6d077cd96d752c32cc493cc72f354607596a1dc8b4288f682e0e304396",
+      "size_bytes": 636703
+    }
+  },
+  "media_identity_binding": {
+    "schema": "render-media-binding/v1",
+    "status": "checked_before_after",
+    "method": "bounded full-file SHA256 before/after rendering",
+    "limitations": "Not semantic authentication; adversarial change-and-restore is not excluded."
+  },
+  "output_metadata": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "width": 1280,
+        "height": 720,
+        "coded_width": 1280,
+        "coded_height": 720,
+        "closed_captions": 0,
+        "film_grain": 0,
+        "has_b_frames": 2,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "16:9",
+        "pix_fmt": "yuv420p",
+        "level": 32,
+        "color_range": "tv",
+        "color_space": "bt709",
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "refs": 1,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "60/1",
+        "avg_frame_rate": "60/1",
+        "time_base": "1/15360",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 537600,
+        "duration": "35.000000",
+        "bit_rate": "3029342",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "2100",
+        "extradata_size": 48,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "vendor_id": "[0][0][0][0]",
+          "encoder": "Lavc61.3.100 libx264"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 1680000,
+        "duration": "35.000000",
+        "bit_rate": "192542",
+        "nb_frames": "1642",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler",
+          "vendor_id": "[0][0][0][0]"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/home/user/mozillaedit/test-sample-mp4/local-preview-35s-w/job-v0001/renders/encounters-v0001/encounters.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "35.000000",
+      "size": "14149049",
+      "bit_rate": "3234068",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf61.1.100"
+      }
+    }
+  },
+  "warnings": [
+    "Not unattended-ready: real decoded event/video/audio QA is still required.",
+    "Final video is globally rounded to frames; audio retains sample-precision plan timing.",
+    "At most two edge frames may be cloned for CFR rounding, never source speed changed.",
+    "Constant-gain mix can clip; PCM stems are retained for independent timing QA."
+  ]
+}

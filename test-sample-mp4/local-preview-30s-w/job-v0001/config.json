@@ -1,0 +1,17 @@
+{
+  "song": "/home/user/mozillaedit/audio/The Winner Takes It All but it\u2019s the best part (Meryl Streep).mp3",
+  "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_z0ALKJiFRDU_Warden-is-Simply-Overpowered_002_720p.mp4",
+  "profile": "/home/user/mozillaedit/aside1/selection-calibration-20261012-153257/reyna-expanded-profile.json",
+  "music_start": 40.0,
+  "duration": 30.0,
+  "encoder": "libx264",
+  "plan_only": false,
+  "lyrics_mode": "off",
+  "lyric_track": null,
+  "lyric_design": null,
+  "lyric_model": null,
+  "lyric_language": null,
+  "lyric_max_moments": 3,
+  "fonts_root": "E:\\fonts",
+  "calibration_labels": null
+}
