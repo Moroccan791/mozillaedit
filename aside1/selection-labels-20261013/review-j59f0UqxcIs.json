@@ -1,0 +1,227 @@
+{
+ "schema": "agent-visual-review/v1",
+ "provenance": "independent agent frame-level visual review of decoded source frames; audio candidates only used to locate windows; labels are visual observations, not audio inference",
+ "clips": {
+  "j59f0UqxcIs_90-aim-10-brain-": {
+   "windows": [
+    {
+     "w": 0,
+     "lo": 58.2,
+     "hi": 63.4,
+     "peak": 60.3,
+     "verdict": "good_kill_window",
+     "kill_times": [
+      61.8
+     ],
+     "setup": true,
+     "outcome": true,
+     "signals": [
+      "scope hold 0:59.4-1:01.4",
+      "fired ammo 4->3 + muzzle 1:01.8",
+      "kill emblem 1:02.2",
+      "knife-out celebration"
+     ],
+     "notes": "clean sniper kill",
+     "best_moment": 61.9
+    },
+    {
+     "w": 1,
+     "lo": 177.0,
+     "hi": 182.2,
+     "peak": 179.0,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "ammo constant 12 (no firing)",
+      "enemy pass-by 2:58.2",
+      "teammate silhouette through wall",
+      "others' red kill banner 3:01"
+     ],
+     "notes": "hold-without-contact FP"
+    },
+    {
+     "w": 2,
+     "lo": 233.9,
+     "hi": 239.1,
+     "peak": 235.9,
+     "verdict": "good_kill_window",
+     "kill_times": [
+      234.0,
+      236.3
+     ],
+     "setup": true,
+     "outcome": true,
+     "signals": [
+      "kill emblem at 3:54.3 (kill ~3:53.5)",
+      "blood burst 3:56.3",
+      "refire ammo 24->22 + killfeed 3:57.9-58.3",
+      "fire FX"
+     ],
+     "notes": "multi-action; resample 3:52-3:59",
+     "best_moment": 236.3
+    },
+    {
+     "w": 3,
+     "lo": 282.0,
+     "hi": 287.2,
+     "peak": 284.0,
+     "verdict": "good_kill_window",
+     "kill_times": [
+      245.2
+     ],
+     "setup": true,
+     "outcome": true,
+     "signals": [
+      "SPIKE CARRIER banner pre-window",
+      "cyan orb cast + impact 4:43.6",
+      "HP 100->87",
+      "kill emblem 4:45.2-4:47 + death burst 4:45.6"
+     ],
+     "notes": "utility kill; resample 4:44-4:46.5",
+     "best_moment": 285.3
+    },
+    {
+     "w": 4,
+     "lo": 319.1,
+     "hi": 324.3,
+     "peak": 321.1,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "ammo constant 15 (no fire)",
+      "others' killfeed",
+      "edit transition wash 5:23.9+"
+     ],
+     "notes": "aiming/transition FP"
+    },
+    {
+     "w": 5,
+     "lo": 376.6,
+     "hi": 381.8,
+     "peak": 378.6,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "VICTORY scoreboard 6:16.6-17.8 (match-end sting = peak)",
+      "source cut",
+      "single shot 6:19.4 no confirm"
+     ],
+     "notes": "match-end-screen FP class"
+    },
+    {
+     "w": 6,
+     "lo": 380.9,
+     "hi": 386.1,
+     "peak": 382.9,
+     "verdict": "good_kill_window",
+     "kill_times": [
+      385.5
+     ],
+     "setup": true,
+     "outcome": true,
+     "signals": [
+      "firing at doorway 6:25.3",
+      "red kill emblem 6:25.7",
+      "HP 89->76",
+      "killfeed active",
+      "possible earlier badge 6:24.1"
+     ],
+     "notes": "traded kill; resample 6:23-6:26.5",
+     "best_moment": 385.6
+    },
+    {
+     "w": 7,
+     "lo": 455.4,
+     "hi": 460.6,
+     "peak": 457.4,
+     "verdict": "good_kill_window",
+     "kill_times": [
+      398.6
+     ],
+     "setup": true,
+     "outcome": true,
+     "signals": [
+      "orange cast 7:35.4",
+      "enemy figure 7:37.8",
+      "kill emblem 7:38.6",
+      "snap FX 7:39.0",
+      "re-cast 7:40.2"
+     ],
+     "notes": "kill via cast/shots just before emblem; resample 7:36-7:39",
+     "best_moment": 398.6
+    },
+    {
+     "w": 8,
+     "lo": 475.3,
+     "hi": 480.5,
+     "peak": 477.3,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "purple burst at start (ambiguous, no emblem)",
+      "ammo 25 constant (no fire)",
+      "passive aim + edit sticker"
+     ],
+     "notes": "ability FX FP; possible kill aftermath in gap 7:41-7:55 low-confidence"
+    },
+    {
+     "w": 9,
+     "lo": 479.3,
+     "hi": 484.5,
+     "peak": 481.3,
+     "verdict": "good_kill_window",
+     "kill_times": [
+      483.4
+     ],
+     "setup": true,
+     "outcome": true,
+     "signals": [
+      "enemy spotted 8:02.9",
+      "fired ammo 25->16",
+      "death burst + emblem 8:03.4",
+      "second gold target 8:04.1+"
+     ],
+     "notes": "kill #2 continues into w10; resample 8:02.5-8:05",
+     "best_moment": 483.5
+    },
+    {
+     "w": 10,
+     "lo": 486.7,
+     "hi": 491.9,
+     "peak": 488.7,
+     "verdict": "good_kill_window",
+     "kill_times": [
+      487.1
+     ],
+     "setup": true,
+     "outcome": true,
+     "signals": [
+      "emblem persists from w09",
+      "mid-spray ammo 16->7",
+      "magenta death burst 8:07.1",
+      "killfeed swarm",
+      "swap to pistol 8:09.5"
+     ],
+     "notes": "multi-kill #2 same fight as w09",
+     "best_moment": 487.2
+    },
+    {
+     "w": 11,
+     "lo": 502.4,
+     "hi": 507.6,
+     "peak": 504.4,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "all frames black (outro)"
+     ],
+     "notes": "outro-music FP class"
+    }
+   ],
+   "summary": {
+    "good_kill_window": 7,
+    "exclude": 5
+   }
+  }
+ }
+}
