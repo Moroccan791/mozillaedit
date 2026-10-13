@@ -1,0 +1,211 @@
+{
+ "clips": {
+  "56-Wg-oTX6M_Champions-2026-B": {
+   "windows": [
+    {
+     "w": 0,
+     "lo": 49.4,
+     "hi": 54.9,
+     "peak": 51.4,
+     "verdict": "probable_kill_verify",
+     "kill_times": [
+      54.2
+     ],
+     "setup": true,
+     "outcome": true,
+     "signals": [
+      "firing at enemy on structure 49.8-51.4",
+      "full-screen green flash 51.8-52.6",
+      "source cut ~53.6",
+      "SPIKE CARRIER KILLED banner + white skull 54.2",
+      "HP 100->89"
+     ],
+     "notes": "kill at window edge; resample 53.8-55.5; source montage has internal cuts",
+     "best_moment": 54.2
+    },
+    {
+     "w": 1,
+     "lo": 114.5,
+     "hi": 119.9,
+     "peak": 116.0,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "GEARUP sponsor overlay",
+      "ad captions",
+      "menu UI 1:59.3+",
+      "no combat"
+     ],
+     "notes": "sponsored segment; audio peak = voiceover/music"
+    },
+    {
+     "w": 2,
+     "lo": 120.2,
+     "hi": 125.7,
+     "peak": 122.0,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "GEARUP app UI fullscreen",
+      "server-select + globe map",
+      "blurred gameplay only"
+     ],
+     "notes": "continuation of sponsor segment"
+    },
+    {
+     "w": 3,
+     "lo": 123.8,
+     "hi": 129.0,
+     "peak": 125.0,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "globe server-map UI",
+      "split-screen ping demo",
+      "ad captions"
+     ],
+     "notes": "sponsor segment continues"
+    },
+    {
+     "w": 4,
+     "lo": 129.3,
+     "hi": 134.5,
+     "peak": 131.0,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "GEARUP OFF/AND ON split-screen",
+      "feature captions",
+      "ad demo footage"
+     ],
+     "notes": "sponsor segment continues"
+    },
+    {
+     "w": 5,
+     "lo": 134.4,
+     "hi": 139.6,
+     "peak": 136.4,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "LOWEST PACKET LOSS captions",
+      "purple dashboard UI overlay",
+      "no combat"
+     ],
+     "notes": "sponsor segment finale"
+    },
+    {
+     "w": 6,
+     "lo": 141.0,
+     "hi": 146.2,
+     "peak": 143.0,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "TSM x GEARUP endcard",
+      "tweet overlays",
+      "CTA captions over inventory UI"
+     ],
+     "notes": "sponsor CTA; ad block 114-146s total"
+    },
+    {
+     "w": 7,
+     "lo": 148.4,
+     "hi": 153.6,
+     "peak": 150.4,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "CODE: Narwax promo screen",
+      "free-trial CTA captions",
+      "app UI only"
+     ],
+     "notes": "sponsor block 114-154s: 5 windows all ad false positives"
+    },
+    {
+     "w": 8,
+     "lo": 205.2,
+     "hi": 210.4,
+     "peak": 207.2,
+     "verdict": "good_kill_window",
+     "kill_times": [
+      209.2
+     ],
+     "setup": true,
+     "outcome": true,
+     "signals": [
+      "stalk setup 3:27.2-3:28.0",
+      "muzzle flash 3:28.4",
+      "red kill-emblem 3:29.2",
+      "blood splash + corpse 3:30.0"
+     ],
+     "notes": "clean unaware-victim kill; montage-usable",
+     "best_moment": 209.2
+    },
+    {
+     "w": 9,
+     "lo": 310.7,
+     "hi": 315.9,
+     "peak": 312.7,
+     "verdict": "good_kill_window",
+     "kill_times": [
+      313.9
+     ],
+     "setup": true,
+     "outcome": true,
+     "signals": [
+      "enemy spotted 5:12.7",
+      "muzzle flash + hit sparks ammo 30->25",
+      "kill emblem 5:13.9",
+      "knife reposition"
+     ],
+     "notes": "clean entry kill",
+     "best_moment": 313.9
+    },
+    {
+     "w": 10,
+     "lo": 417.0,
+     "hi": 422.2,
+     "peak": 419.0,
+     "verdict": "probable_kill_verify",
+     "kill_times": [
+      416.5
+     ],
+     "setup": true,
+     "outcome": true,
+     "signals": [
+      "kill emblem already up at 6:57.0",
+      "body on ground",
+      "firing ammo 22->17 at distant enemy",
+      "Omen smoke/TP cast 6:59+",
+      "source-edit transitions"
+     ],
+     "notes": "kill likely just BEFORE window; resample 6:55-6:59; peak itself = ability cast",
+     "best_moment": 416.5
+    },
+    {
+     "w": 11,
+     "lo": 452.9,
+     "hi": 458.1,
+     "peak": 454.7,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "whip-smear edit transition 7:33-7:35 (peak cause)",
+      "quiet aiming after",
+      "edit-frame overlay",
+      "suspect corpse 7:37.7 spot-check"
+     ],
+     "notes": "transition artifact; keep corpse note for dense pass"
+    }
+   ],
+   "summary": {
+    "probable_kill_verify": 2,
+    "exclude": 8,
+    "good_kill_window": 2
+   }
+  }
+ },
+ "schema": "agent-visual-review/v1",
+ "provenance": "independent agent frame-level visual review of decoded source frames; audio candidates only used to locate windows; labels are visual observations, not audio inference"
+}
