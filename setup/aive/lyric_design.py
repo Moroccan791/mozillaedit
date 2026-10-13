@@ -30,7 +30,13 @@ COLOR_NAMES = {"maroon": "800000", "red": "FF0000", "white": "FFFFFF",
 # Normalized conservative gameplay zones: aiming/enemy region, kill feed,
 # bottom weapon/HUD. Callers can add boxes, never silently remove these.
 GAMEPLAY_ZONES = ((.30, .25, .40, .50), (.74, 0, .26, .25), (0, .82, 1, .18))
-SERIF_FAMILIES = {"Libre Baskerville", "Cormorant Garamond", "Lora", "Source Serif 4", "Noto Serif"}
+SERIF_FAMILIES = {"Libre Baskerville", "Cormorant Garamond", "Lora", "Source Serif 4", "Noto Serif",
+                  "Tinos"}
+# Reference-matched graphic faces (see aside1 style study): Anton = heavy condensed
+# impact caps, Fredoka/Luckiest Guy = rounded lyrical words, Archivo Black = wide
+# outlined display. Bebas Neue/Oswald remain permitted for older designs.
+DISPLAY_FAMILIES = {"Anton", "Fredoka", "Archivo Black", "Luckiest Guy",
+                    "Bebas Neue", "Oswald"}
 
 
 class LyricDesignError(lyrics.LyricValidationError):
@@ -265,7 +271,7 @@ def compile_lyric_design(track: lyrics.LyricTrack, document: dict, *,
         if any(b.start-a.end > .6 for a, b in zip(selected, selected[1:])):
             raise LyricDesignError("selected phrase has a gap >0.6s")
         family = moment["font_family"]
-        permitted = SERIF_FAMILIES if role == "quiet_serif" else {"Bebas Neue", "Oswald"}
+        permitted = SERIF_FAMILIES if role == "quiet_serif" else DISPLAY_FAMILIES
         if type(family) is not str or family not in permitted:
             raise LyricDesignError("font does not match explicit role")
         candidates = [f for f in fonts if f.family == family]
@@ -355,7 +361,7 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Design,Bebas Neue,30,&H00FFFFFF,&H00FFFFFF,&H00000000,&HFF000000,0,0,0,0,100,100,0,0,1,0,0,5,0,0,0,1
+Style: Design,Anton,30,&H00FFFFFF,&H00FFFFFF,&H00000000,&HFF000000,0,0,0,0,100,100,0,0,1,0,0,5,0,0,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text

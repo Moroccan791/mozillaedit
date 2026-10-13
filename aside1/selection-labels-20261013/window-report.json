@@ -1,0 +1,604 @@
+{
+ "2Ywo4r3D9DM_Ranked-but-it-s-a-1v9": [
+  {
+   "w": 0,
+   "lo": 6.82,
+   "hi": 12.32,
+   "peak": 8.82,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/2Ywo4r3D9DM_Ranked-but-it-s-/w00_p0008.jpg"
+  },
+  {
+   "w": 1,
+   "lo": 112.75,
+   "hi": 118.25,
+   "peak": 114.75,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/2Ywo4r3D9DM_Ranked-but-it-s-/w01_p0114.jpg"
+  },
+  {
+   "w": 2,
+   "lo": 117.0,
+   "hi": 122.5,
+   "peak": 119.0,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/2Ywo4r3D9DM_Ranked-but-it-s-/w02_p0119.jpg"
+  },
+  {
+   "w": 3,
+   "lo": 119.64,
+   "hi": 125.14,
+   "peak": 121.64,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/2Ywo4r3D9DM_Ranked-but-it-s-/w03_p0121.jpg"
+  },
+  {
+   "w": 4,
+   "lo": 125.47,
+   "hi": 130.97,
+   "peak": 127.47,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/2Ywo4r3D9DM_Ranked-but-it-s-/w04_p0127.jpg"
+  },
+  {
+   "w": 5,
+   "lo": 210.8,
+   "hi": 216.3,
+   "peak": 212.8,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/2Ywo4r3D9DM_Ranked-but-it-s-/w05_p0212.jpg"
+  },
+  {
+   "w": 6,
+   "lo": 260.0,
+   "hi": 265.5,
+   "peak": 262.0,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/2Ywo4r3D9DM_Ranked-but-it-s-/w06_p0261.jpg"
+  },
+  {
+   "w": 7,
+   "lo": 268.24,
+   "hi": 273.74,
+   "peak": 270.24,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/2Ywo4r3D9DM_Ranked-but-it-s-/w07_p0270.jpg"
+  },
+  {
+   "w": 8,
+   "lo": 289.18,
+   "hi": 294.68,
+   "peak": 291.18,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/2Ywo4r3D9DM_Ranked-but-it-s-/w08_p0291.jpg"
+  },
+  {
+   "w": 9,
+   "lo": 313.88,
+   "hi": 319.38,
+   "peak": 315.88,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/2Ywo4r3D9DM_Ranked-but-it-s-/w09_p0315.jpg"
+  },
+  {
+   "w": 10,
+   "lo": 454.49,
+   "hi": 459.99,
+   "peak": 456.49,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/2Ywo4r3D9DM_Ranked-but-it-s-/w10_p0456.jpg"
+  },
+  {
+   "w": 11,
+   "lo": 469.58,
+   "hi": 475.08,
+   "peak": 471.58,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/2Ywo4r3D9DM_Ranked-but-it-s-/w11_p0471.jpg"
+  }
+ ],
+ "56-Wg-oTX6M_Champions-2026-Bundle-ASMR": [
+  {
+   "w": 0,
+   "lo": 49.39,
+   "hi": 54.89,
+   "peak": 51.39,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/56-Wg-oTX6M_Champions-2026-B/w00_p0051.jpg"
+  },
+  {
+   "w": 1,
+   "lo": 114.5,
+   "hi": 120.0,
+   "peak": 116.5,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/56-Wg-oTX6M_Champions-2026-B/w01_p0116.jpg"
+  },
+  {
+   "w": 2,
+   "lo": 120.17,
+   "hi": 125.67,
+   "peak": 122.17,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/56-Wg-oTX6M_Champions-2026-B/w02_p0122.jpg"
+  },
+  {
+   "w": 3,
+   "lo": 123.78,
+   "hi": 129.28,
+   "peak": 125.78,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/56-Wg-oTX6M_Champions-2026-B/w03_p0125.jpg"
+  },
+  {
+   "w": 4,
+   "lo": 129.27,
+   "hi": 134.77,
+   "peak": 131.27,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/56-Wg-oTX6M_Champions-2026-B/w04_p0131.jpg"
+  },
+  {
+   "w": 5,
+   "lo": 134.35,
+   "hi": 139.85,
+   "peak": 136.35,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/56-Wg-oTX6M_Champions-2026-B/w05_p0136.jpg"
+  },
+  {
+   "w": 6,
+   "lo": 141.0,
+   "hi": 146.5,
+   "peak": 143.0,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/56-Wg-oTX6M_Champions-2026-B/w06_p0142.jpg"
+  },
+  {
+   "w": 7,
+   "lo": 148.41,
+   "hi": 153.91,
+   "peak": 150.41,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/56-Wg-oTX6M_Champions-2026-B/w07_p0150.jpg"
+  },
+  {
+   "w": 8,
+   "lo": 205.24,
+   "hi": 210.74,
+   "peak": 207.24,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/56-Wg-oTX6M_Champions-2026-B/w08_p0207.jpg"
+  },
+  {
+   "w": 9,
+   "lo": 310.75,
+   "hi": 316.25,
+   "peak": 312.75,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/56-Wg-oTX6M_Champions-2026-B/w09_p0312.jpg"
+  },
+  {
+   "w": 10,
+   "lo": 416.99,
+   "hi": 422.49,
+   "peak": 418.99,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/56-Wg-oTX6M_Champions-2026-B/w10_p0418.jpg"
+  },
+  {
+   "w": 11,
+   "lo": 452.86,
+   "hi": 458.36,
+   "peak": 454.86,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/56-Wg-oTX6M_Champions-2026-B/w11_p0454.jpg"
+  }
+ ],
+ "ObWy97A6INU_reyna-u-need-to-toggle-harder": [
+  {
+   "w": 0,
+   "lo": 1.69,
+   "hi": 7.2,
+   "peak": 3.69,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/ObWy97A6INU_reyna-u-need-to-/w00_p0003.jpg"
+  },
+  {
+   "w": 1,
+   "lo": 47.49,
+   "hi": 52.99,
+   "peak": 49.49,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/ObWy97A6INU_reyna-u-need-to-/w01_p0049.jpg"
+  },
+  {
+   "w": 2,
+   "lo": 226.4,
+   "hi": 231.9,
+   "peak": 228.4,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/ObWy97A6INU_reyna-u-need-to-/w02_p0228.jpg"
+  },
+  {
+   "w": 3,
+   "lo": 252.96,
+   "hi": 258.46,
+   "peak": 254.96,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/ObWy97A6INU_reyna-u-need-to-/w03_p0254.jpg"
+  },
+  {
+   "w": 4,
+   "lo": 285.94,
+   "hi": 291.44,
+   "peak": 287.94,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/ObWy97A6INU_reyna-u-need-to-/w04_p0287.jpg"
+  },
+  {
+   "w": 5,
+   "lo": 314.82,
+   "hi": 320.32,
+   "peak": 316.82,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/ObWy97A6INU_reyna-u-need-to-/w05_p0316.jpg"
+  },
+  {
+   "w": 6,
+   "lo": 326.75,
+   "hi": 332.25,
+   "peak": 328.75,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/ObWy97A6INU_reyna-u-need-to-/w06_p0328.jpg"
+  },
+  {
+   "w": 7,
+   "lo": 342.3,
+   "hi": 347.8,
+   "peak": 344.3,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/ObWy97A6INU_reyna-u-need-to-/w07_p0344.jpg"
+  },
+  {
+   "w": 8,
+   "lo": 358.98,
+   "hi": 364.48,
+   "peak": 360.98,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/ObWy97A6INU_reyna-u-need-to-/w08_p0360.jpg"
+  },
+  {
+   "w": 9,
+   "lo": 365.04,
+   "hi": 370.54,
+   "peak": 367.04,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/ObWy97A6INU_reyna-u-need-to-/w09_p0367.jpg"
+  },
+  {
+   "w": 10,
+   "lo": 432.1,
+   "hi": 437.6,
+   "peak": 434.1,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/ObWy97A6INU_reyna-u-need-to-/w10_p0434.jpg"
+  },
+  {
+   "w": 11,
+   "lo": 506.36,
+   "hi": 511.86,
+   "peak": 508.36,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/ObWy97A6INU_reyna-u-need-to-/w11_p0508.jpg"
+  }
+ ],
+ "Z210dNkaapY_Your-aim-is-just-fkn-amazing-man": [
+  {
+   "w": 0,
+   "lo": 24.14,
+   "hi": 29.64,
+   "peak": 26.14,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/Z210dNkaapY_Your-aim-is-just/w00_p0026.jpg"
+  },
+  {
+   "w": 1,
+   "lo": 33.45,
+   "hi": 38.95,
+   "peak": 35.45,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/Z210dNkaapY_Your-aim-is-just/w01_p0035.jpg"
+  },
+  {
+   "w": 2,
+   "lo": 99.06,
+   "hi": 104.56,
+   "peak": 101.06,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/Z210dNkaapY_Your-aim-is-just/w02_p0101.jpg"
+  },
+  {
+   "w": 3,
+   "lo": 108.5,
+   "hi": 114.0,
+   "peak": 110.5,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/Z210dNkaapY_Your-aim-is-just/w03_p0110.jpg"
+  },
+  {
+   "w": 4,
+   "lo": 115.08,
+   "hi": 120.58,
+   "peak": 117.08,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/Z210dNkaapY_Your-aim-is-just/w04_p0117.jpg"
+  },
+  {
+   "w": 5,
+   "lo": 272.86,
+   "hi": 278.36,
+   "peak": 274.86,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/Z210dNkaapY_Your-aim-is-just/w05_p0274.jpg"
+  },
+  {
+   "w": 6,
+   "lo": 280.0,
+   "hi": 285.5,
+   "peak": 282.0,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/Z210dNkaapY_Your-aim-is-just/w06_p0281.jpg"
+  },
+  {
+   "w": 7,
+   "lo": 292.48,
+   "hi": 297.98,
+   "peak": 294.48,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/Z210dNkaapY_Your-aim-is-just/w07_p0294.jpg"
+  },
+  {
+   "w": 8,
+   "lo": 306.31,
+   "hi": 311.81,
+   "peak": 308.31,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/Z210dNkaapY_Your-aim-is-just/w08_p0308.jpg"
+  },
+  {
+   "w": 9,
+   "lo": 356.18,
+   "hi": 361.68,
+   "peak": 358.18,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/Z210dNkaapY_Your-aim-is-just/w09_p0358.jpg"
+  },
+  {
+   "w": 10,
+   "lo": 400.92,
+   "hi": 406.42,
+   "peak": 402.92,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/Z210dNkaapY_Your-aim-is-just/w10_p0402.jpg"
+  },
+  {
+   "w": 11,
+   "lo": 417.89,
+   "hi": 423.39,
+   "peak": 419.89,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/Z210dNkaapY_Your-aim-is-just/w11_p0419.jpg"
+  }
+ ],
+ "iufseng8xEs_Ranked-but-I-m-Overheating-Non-Stop": [
+  {
+   "w": 0,
+   "lo": -1.48,
+   "hi": 4.02,
+   "peak": 0.52,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/iufseng8xEs_Ranked-but-I-m-O/w00_p0000.jpg"
+  },
+  {
+   "w": 1,
+   "lo": 64.81,
+   "hi": 70.31,
+   "peak": 66.81,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/iufseng8xEs_Ranked-but-I-m-O/w01_p0066.jpg"
+  },
+  {
+   "w": 2,
+   "lo": 117.15,
+   "hi": 122.65,
+   "peak": 119.15,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/iufseng8xEs_Ranked-but-I-m-O/w02_p0119.jpg"
+  },
+  {
+   "w": 3,
+   "lo": 151.27,
+   "hi": 156.77,
+   "peak": 153.27,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/iufseng8xEs_Ranked-but-I-m-O/w03_p0153.jpg"
+  },
+  {
+   "w": 4,
+   "lo": 174.65,
+   "hi": 180.15,
+   "peak": 176.65,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/iufseng8xEs_Ranked-but-I-m-O/w04_p0176.jpg"
+  },
+  {
+   "w": 5,
+   "lo": 194.68,
+   "hi": 200.18,
+   "peak": 196.68,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/iufseng8xEs_Ranked-but-I-m-O/w05_p0196.jpg"
+  },
+  {
+   "w": 6,
+   "lo": 214.35,
+   "hi": 219.85,
+   "peak": 216.35,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/iufseng8xEs_Ranked-but-I-m-O/w06_p0216.jpg"
+  },
+  {
+   "w": 7,
+   "lo": 260.26,
+   "hi": 265.76,
+   "peak": 262.26,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/iufseng8xEs_Ranked-but-I-m-O/w07_p0262.jpg"
+  },
+  {
+   "w": 8,
+   "lo": 303.74,
+   "hi": 309.24,
+   "peak": 305.74,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/iufseng8xEs_Ranked-but-I-m-O/w08_p0305.jpg"
+  },
+  {
+   "w": 9,
+   "lo": 359.31,
+   "hi": 364.81,
+   "peak": 361.31,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/iufseng8xEs_Ranked-but-I-m-O/w09_p0361.jpg"
+  },
+  {
+   "w": 10,
+   "lo": 421.38,
+   "hi": 426.88,
+   "peak": 423.38,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/iufseng8xEs_Ranked-but-I-m-O/w10_p0423.jpg"
+  },
+  {
+   "w": 11,
+   "lo": 455.55,
+   "hi": 461.05,
+   "peak": 457.55,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/iufseng8xEs_Ranked-but-I-m-O/w11_p0457.jpg"
+  }
+ ],
+ "j59f0UqxcIs_90-aim-10-brain-immortal-2": [
+  {
+   "w": 0,
+   "lo": 58.22,
+   "hi": 63.72,
+   "peak": 60.22,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/j59f0UqxcIs_90-aim-10-brain-/w00_p0060.jpg"
+  },
+  {
+   "w": 1,
+   "lo": 176.99,
+   "hi": 182.49,
+   "peak": 178.99,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/j59f0UqxcIs_90-aim-10-brain-/w01_p0178.jpg"
+  },
+  {
+   "w": 2,
+   "lo": 233.86,
+   "hi": 239.36,
+   "peak": 235.86,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/j59f0UqxcIs_90-aim-10-brain-/w02_p0235.jpg"
+  },
+  {
+   "w": 3,
+   "lo": 281.98,
+   "hi": 287.48,
+   "peak": 283.98,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/j59f0UqxcIs_90-aim-10-brain-/w03_p0283.jpg"
+  },
+  {
+   "w": 4,
+   "lo": 319.12,
+   "hi": 324.62,
+   "peak": 321.12,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/j59f0UqxcIs_90-aim-10-brain-/w04_p0321.jpg"
+  },
+  {
+   "w": 5,
+   "lo": 376.64,
+   "hi": 382.14,
+   "peak": 378.64,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/j59f0UqxcIs_90-aim-10-brain-/w05_p0378.jpg"
+  },
+  {
+   "w": 6,
+   "lo": 380.86,
+   "hi": 386.36,
+   "peak": 382.86,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/j59f0UqxcIs_90-aim-10-brain-/w06_p0382.jpg"
+  },
+  {
+   "w": 7,
+   "lo": 455.44,
+   "hi": 460.94,
+   "peak": 457.44,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/j59f0UqxcIs_90-aim-10-brain-/w07_p0457.jpg"
+  },
+  {
+   "w": 8,
+   "lo": 475.3,
+   "hi": 480.8,
+   "peak": 477.3,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/j59f0UqxcIs_90-aim-10-brain-/w08_p0477.jpg"
+  },
+  {
+   "w": 9,
+   "lo": 479.29,
+   "hi": 484.79,
+   "peak": 481.29,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/j59f0UqxcIs_90-aim-10-brain-/w09_p0481.jpg"
+  },
+  {
+   "w": 10,
+   "lo": 486.71,
+   "hi": 492.21,
+   "peak": 488.71,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/j59f0UqxcIs_90-aim-10-brain-/w10_p0488.jpg"
+  },
+  {
+   "w": 11,
+   "lo": 502.4,
+   "hi": 507.9,
+   "peak": 504.4,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/j59f0UqxcIs_90-aim-10-brain-/w11_p0504.jpg"
+  }
+ ],
+ "z0ALKJiFRDU_Warden-is-Simply-Overpowered": [
+  {
+   "w": 0,
+   "lo": 44.81,
+   "hi": 50.31,
+   "peak": 46.81,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/z0ALKJiFRDU_Warden-is-Simply/w00_p0046.jpg"
+  },
+  {
+   "w": 1,
+   "lo": 57.59,
+   "hi": 63.09,
+   "peak": 59.59,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/z0ALKJiFRDU_Warden-is-Simply/w01_p0059.jpg"
+  },
+  {
+   "w": 2,
+   "lo": 109.94,
+   "hi": 115.44,
+   "peak": 111.94,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/z0ALKJiFRDU_Warden-is-Simply/w02_p0111.jpg"
+  },
+  {
+   "w": 3,
+   "lo": 237.41,
+   "hi": 242.91,
+   "peak": 239.41,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/z0ALKJiFRDU_Warden-is-Simply/w03_p0239.jpg"
+  },
+  {
+   "w": 4,
+   "lo": 241.73,
+   "hi": 247.23,
+   "peak": 243.73,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/z0ALKJiFRDU_Warden-is-Simply/w04_p0243.jpg"
+  },
+  {
+   "w": 5,
+   "lo": 281.29,
+   "hi": 286.79,
+   "peak": 283.29,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/z0ALKJiFRDU_Warden-is-Simply/w05_p0283.jpg"
+  },
+  {
+   "w": 6,
+   "lo": 288.18,
+   "hi": 293.68,
+   "peak": 290.18,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/z0ALKJiFRDU_Warden-is-Simply/w06_p0290.jpg"
+  },
+  {
+   "w": 7,
+   "lo": 313.14,
+   "hi": 318.64,
+   "peak": 315.14,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/z0ALKJiFRDU_Warden-is-Simply/w07_p0315.jpg"
+  },
+  {
+   "w": 8,
+   "lo": 356.89,
+   "hi": 362.39,
+   "peak": 358.89,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/z0ALKJiFRDU_Warden-is-Simply/w08_p0358.jpg"
+  },
+  {
+   "w": 9,
+   "lo": 368.63,
+   "hi": 374.13,
+   "peak": 370.63,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/z0ALKJiFRDU_Warden-is-Simply/w09_p0370.jpg"
+  },
+  {
+   "w": 10,
+   "lo": 404.56,
+   "hi": 410.06,
+   "peak": 406.56,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/z0ALKJiFRDU_Warden-is-Simply/w10_p0406.jpg"
+  },
+  {
+   "w": 11,
+   "lo": 450.26,
+   "hi": 455.76,
+   "peak": 452.26,
+   "sheet": "/home/user/mozillaedit/aside1/selection-labels-20261013/sheets/z0ALKJiFRDU_Warden-is-Simply/w11_p0452.jpg"
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "agent-visual-review/v1",
+  "provenance": "independent agent frame-level visual review of decoded source frames; audio candidates only used to locate windows; labels are visual observations, not audio inference",
+  "clips": {
+    "2Ywo4r3D9DM_Ranked-but-it-s-a-1v9": {
+      "windows": [
+        {"w": 0, "lo": 4.8, "hi": 13.0, "peak": 8.8,
+         "verdict": "good_kill_window",
+         "kill_times": [7.6],
+         "setup": true, "outcome": true,
+         "signals": ["muzzle flash 6.8-7.6", "red kill-confirm banner", "center skull badge 7.6-9.6", "corpse on stairs by 11.6"],
+         "notes": "full firing->kill->aftermath visible", "best_moment": 7.6},
+        {"w": 1, "lo": 112.8, "hi": 118.3, "peak": 114.8,
+         "verdict": "exclude", "kill_times": [],
+         "signals": ["corridor rotation", "no banner/corpse/enemy contact"],
+         "notes": "repositioning only; distant spark at 1:55.6 inconclusive"},
+        {"w": 2, "lo": 117.8, "hi": 123.3, "peak": 119.8,
+         "verdict": "exclude", "kill_times": [],
+         "signals": ["rotation", "tail enters scoreboard"],
+         "notes": "overlaps w03"},
+        {"w": 3, "lo": 119.6, "hi": 125.1, "peak": 121.8,
+         "verdict": "exclude", "kill_times": [],
+         "signals": ["smoke burst 2:02.0", "dead-state red overlay", "scoreboard open 2:02.4+"],
+         "notes": "death + scoreboard; semantic false positive"},
+        {"w": 4, "lo": 125.5, "hi": 131.0, "peak": 127.5,
+         "verdict": "exclude", "kill_times": [],
+         "signals": ["scoreboard open 2:05.5-2:07.1", "knife out 2:07.5+", "weapon pickup", "ability UI frame 2:10.7"],
+         "notes": "scoreboard/knife/pickup; no kill"},
+        {"w": 5, "lo": 210.8, "hi": 216.3, "peak": 212.8,
+         "verdict": "probable_kill_verify",
+         "kill_times": [333.0],
+         "setup": true, "outcome": "partial",
+         "signals": ["Chamber ult scope (orange octagon)", "corpse + red decals in doorway 3:33.2-3:34.0", "center reward icon 3:33.6"],
+         "notes": "kill ~3:33 with Chamber Tour De Force; dense resample needed for exact shot time"}
+      ]
+    }
+  }
+}

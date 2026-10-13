@@ -70,7 +70,7 @@ class SparseTypographyPolicy:
     max_moments: int = 3
     min_gap: float = 1.0
     max_coverage: float = .35
-    font_family: str = "Bebas Neue"
+    font_family: str = "Anton"
     palette: str = "ice"
     box: tuple[float, ...] = (.04, .055, .64, .16)
     size: float = .055
@@ -82,7 +82,8 @@ class SparseTypographyPolicy:
             raise lyrics.LyricValidationError("sparse min_gap must be >=0.5s")
         if not .01 <= _finite(self.max_coverage, "max_coverage") <= .35:
             raise lyrics.LyricValidationError("sparse coverage must be within .01..35")
-        if self.font_family not in {"Oswald", "Bebas Neue"}:
+        if self.font_family not in {"Anton", "Fredoka", "Archivo Black", "Luckiest Guy",
+                                    "Oswald", "Bebas Neue"}:
             raise lyrics.LyricValidationError("licensed graphic role font required; no fallback")
         if self.accent_word_indices is not None:
             indices = tuple(self.accent_word_indices)

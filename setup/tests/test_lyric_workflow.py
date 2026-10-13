@@ -33,7 +33,7 @@ class LyricWorkflowTests(unittest.TestCase):
         license_file = self.fonts_root / "OFL.txt"
         license_file.write_text("SIL OPEN FONT LICENSE synthetic fixture", encoding="utf-8")
         self.fonts = []
-        for name in ("Oswald", "Bebas Neue"):
+        for name in ("Oswald", "Bebas Neue", "Anton"):
             font = self.fonts_root / f"{name}-Regular.ttf"
             font.write_bytes(b"synthetic licensed face")
             self.fonts.append(LicensedFont(name, font, license_file))
