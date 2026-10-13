@@ -1,0 +1,480 @@
+{
+  "schema_version": "encounter-render/v1",
+  "job_dir": "E:\\aside\\continuation-20261012-account5\\lyric-design-integration",
+  "output": "E:\\aside\\continuation-20261012-account5\\lyric-design-integration\\text-v0001\\encounters-text.mp4",
+  "music_source": "E:\\aside\\continuation-20261012-account5\\lyric-design-demo\\synthetic-selected-audio.wav",
+  "config": {
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "sample_rate": 48000,
+    "encoder": "libx264",
+    "fallback_encoder": null,
+    "quality": 21,
+    "preset": "ultrafast",
+    "music_gain_db": -6.0,
+    "game_gain_db": 0.0,
+    "max_duration": 120.0,
+    "max_clip_duration": 30.0,
+    "max_clips": 64,
+    "max_source_duration": 86400.0,
+    "timeout": 600.0,
+    "ffmpeg": "ffmpeg",
+    "ffprobe": "ffprobe",
+    "style": "clean"
+  },
+  "frame_count": 180,
+  "video_duration": 6.0,
+  "plan_duration": 6.0,
+  "music_start_sample": 48000,
+  "chunks": [],
+  "output_metadata": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "Constrained Baseline",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.42c01f",
+        "width": 1280,
+        "height": 720,
+        "coded_width": 1280,
+        "coded_height": 720,
+        "has_b_frames": 0,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "16:9",
+        "pix_fmt": "yuv420p",
+        "level": 31,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "time_base": "1/15360",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 92160,
+        "duration": "6.000000",
+        "bit_rate": "184985",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "180",
+        "extradata_size": 38,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "encoder": "Lavc63.1.101 libx264"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "mime_codec_string": "mp4a.40.2",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 1,
+        "channel_layout": "mono",
+        "bits_per_sample": 0,
+        "initial_padding": 1024,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 288000,
+        "duration": "6.000000",
+        "bit_rate": "69555",
+        "nb_frames": "283",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler"
+        }
+      }
+    ],
+    "format": {
+      "filename": "E:\\aside\\continuation-20261012-account5\\lyric-design-integration\\text-v0001\\encounters-text.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "6.000000",
+      "size": "197682",
+      "bit_rate": "263576",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf63.1.101"
+      }
+    }
+  },
+  "manifest_path": "E:\\aside\\continuation-20261012-account5\\lyric-design-integration\\text-v0001\\render-manifest.json",
+  "typography_audit": {
+    "schema": "encounter-text/v1",
+    "enabled": true,
+    "original_output": "E:\\aside\\continuation-20261012-account5\\lyric-design-integration\\original.mp4",
+    "original_output_sha256": "f69273c2fc91b6a636c0cd9aeb9e92651883519d49d92dcce1d1a92b68fa08c6",
+    "ass_path": "E:\\aside\\continuation-20261012-account5\\lyric-design-integration\\text-v0001\\lyrics.ass",
+    "graph_path": "E:\\aside\\continuation-20261012-account5\\lyric-design-integration\\text-v0001\\lyrics.filter.txt",
+    "track_path": "E:\\aside\\continuation-20261012-account5\\lyric-design-demo\\synthetic-track.json",
+    "track_sha256": "f0f6971237ad0e3c53b38a0a80110daa23c723360540e64904b341aadec073d7",
+    "audio_sha256": "95c7cb40336aa5a49fcc0405f803807116be8c1694c6b74f0f8447062d0d4120",
+    "provenance": {
+      "alignment_verified": true,
+      "method": "Synthetic diagnostic timing assertion. These words are NOT sung and NOT actual song lyrics."
+    },
+    "music_start": 1.0,
+    "excerpt_duration": 6.0,
+    "fonts": [
+      {
+        "family": "Bebas Neue",
+        "file": "E:\\fonts\\Bebas_Neue\\BebasNeue-Regular.ttf",
+        "license": "E:\\fonts\\Bebas_Neue\\OFL.txt"
+      },
+      {
+        "family": "Bebas Neue",
+        "file": "E:\\fonts\\BebasNeue-Regular.ttf",
+        "license": "E:\\fonts\\OFL.txt"
+      },
+      {
+        "family": "Oswald",
+        "file": "E:\\fonts\\Oswald\\Oswald-VariableFont_wght.ttf",
+        "license": "E:\\fonts\\Oswald\\OFL.txt"
+      },
+      {
+        "family": "Oswald",
+        "file": "E:\\fonts\\Oswald\\static\\Oswald-Bold.ttf",
+        "license": "E:\\fonts\\Oswald\\OFL.txt"
+      },
+      {
+        "family": "Oswald",
+        "file": "E:\\fonts\\Oswald\\static\\Oswald-ExtraLight.ttf",
+        "license": "E:\\fonts\\Oswald\\OFL.txt"
+      },
+      {
+        "family": "Oswald",
+        "file": "E:\\fonts\\Oswald\\static\\Oswald-Light.ttf",
+        "license": "E:\\fonts\\Oswald\\OFL.txt"
+      },
+      {
+        "family": "Oswald",
+        "file": "E:\\fonts\\Oswald\\static\\Oswald-Medium.ttf",
+        "license": "E:\\fonts\\Oswald\\OFL.txt"
+      },
+      {
+        "family": "Oswald",
+        "file": "E:\\fonts\\Oswald\\static\\Oswald-Regular.ttf",
+        "license": "E:\\fonts\\Oswald\\OFL.txt"
+      },
+      {
+        "family": "Oswald",
+        "file": "E:\\fonts\\Oswald\\static\\Oswald-SemiBold.ttf",
+        "license": "E:\\fonts\\Oswald\\OFL.txt"
+      }
+    ],
+    "audio_mode": "copy",
+    "frame_count": 180,
+    "fps": "30",
+    "video_duration": 6.0,
+    "roles": [
+      "accent_echo",
+      "giant_word",
+      "quiet_italic"
+    ],
+    "design_path": "E:\\aside\\continuation-20261012-account5\\lyric-design-integration\\design.json",
+    "design_sha256": "8c3766bfa57c08b8986f44db06e61239be4986b9bdf630f5afaf16ea00cb303c",
+    "design_audit": {
+      "schema": "lyric-design/v1",
+      "enabled": true,
+      "source": {
+        "music_source": "E:\\aside\\continuation-20261012-account5\\lyric-design-demo\\synthetic-selected-audio.wav",
+        "audio_sha256": "95c7cb40336aa5a49fcc0405f803807116be8c1694c6b74f0f8447062d0d4120"
+      },
+      "alignment_method_assertion": "Synthetic diagnostic timing assertion. These words are NOT sung and NOT actual song lyrics.",
+      "excerpt": {
+        "music_start_sample": 48000,
+        "sample_rate": 48000,
+        "sample_count": 288000,
+        "output_start": 0
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "mode": "gameplay"
+      },
+      "protected_zones": [
+        [
+          0.3,
+          0.25,
+          0.4,
+          0.5
+        ],
+        [
+          0.74,
+          0,
+          0.26,
+          0.25
+        ],
+        [
+          0,
+          0.82,
+          1,
+          0.18
+        ]
+      ],
+      "allow_protected_overlap": true,
+      "allow_impact_collision": false,
+      "visual_impacts": [],
+      "moments": [
+        {
+          "id": "shape",
+          "role": "giant_word",
+          "original_word_indices": [
+            0
+          ],
+          "text": "SHAPE",
+          "source_times": [
+            [
+              1.2,
+              2.6
+            ]
+          ],
+          "box": [
+            0.03,
+            0.04,
+            0.94,
+            0.84
+          ],
+          "design": {
+            "id": "shape",
+            "word_indices": [
+              0
+            ],
+            "role": "giant_word",
+            "font_family": "Bebas Neue",
+            "palette": "ice",
+            "box": [
+              0.03,
+              0.04,
+              0.94,
+              0.84
+            ],
+            "size": 0.4,
+            "opacity": 0.7,
+            "animation": {
+              "entrance_ms": 160,
+              "exit_ms": 140,
+              "from_scale": 1.12,
+              "echo_offset": [
+                0,
+                0
+              ],
+              "glow": 0.006
+            }
+          },
+          "font": {
+            "family": "Bebas Neue",
+            "file": "E:\\fonts\\BebasNeue-Regular.ttf",
+            "license": "E:\\fonts\\OFL.txt"
+          },
+          "status": "rendered",
+          "reason": null,
+          "output_centiseconds": [
+            20,
+            160
+          ]
+        },
+        {
+          "id": "light",
+          "role": "accent_echo",
+          "original_word_indices": [
+            1
+          ],
+          "text": "LIGHT",
+          "source_times": [
+            [
+              2.9,
+              4.4
+            ]
+          ],
+          "box": [
+            0.07,
+            0.04,
+            0.9,
+            0.84
+          ],
+          "design": {
+            "id": "light",
+            "word_indices": [
+              1
+            ],
+            "role": "accent_echo",
+            "font_family": "Bebas Neue",
+            "palette": "violet",
+            "box": [
+              0.07,
+              0.04,
+              0.9,
+              0.84
+            ],
+            "size": 0.33,
+            "opacity": 0.86,
+            "animation": {
+              "entrance_ms": 160,
+              "exit_ms": 140,
+              "from_scale": 1.12,
+              "echo_offset": [
+                0.018,
+                0.012
+              ],
+              "glow": 0.006
+            }
+          },
+          "font": {
+            "family": "Bebas Neue",
+            "file": "E:\\fonts\\BebasNeue-Regular.ttf",
+            "license": "E:\\fonts\\OFL.txt"
+          },
+          "status": "rendered",
+          "reason": null,
+          "output_centiseconds": [
+            190,
+            340
+          ]
+        },
+        {
+          "id": "quiet",
+          "role": "quiet_italic",
+          "original_word_indices": [
+            2,
+            3
+          ],
+          "text": "quiet form",
+          "source_times": [
+            [
+              4.7,
+              5.3
+            ],
+            [
+              5.4,
+              6.4
+            ]
+          ],
+          "box": [
+            0.1,
+            0.65,
+            0.8,
+            0.26
+          ],
+          "design": {
+            "id": "quiet",
+            "word_indices": [
+              2,
+              3
+            ],
+            "role": "quiet_italic",
+            "font_family": "Oswald",
+            "palette": "paper",
+            "box": [
+              0.1,
+              0.65,
+              0.8,
+              0.26
+            ],
+            "size": 0.046,
+            "opacity": 0.9,
+            "animation": {
+              "entrance_ms": 160,
+              "exit_ms": 140,
+              "from_scale": 1.12,
+              "echo_offset": [
+                0,
+                0
+              ],
+              "glow": 0.002
+            }
+          },
+          "font": {
+            "family": "Oswald",
+            "file": "E:\\fonts\\Oswald\\static\\Oswald-Regular.ttf",
+            "license": "E:\\fonts\\Oswald\\OFL.txt"
+          },
+          "status": "rendered",
+          "reason": null,
+          "output_centiseconds": [
+            370,
+            540
+          ]
+        }
+      ],
+      "limitations": [
+        "No independent sung-word or vocal alignment verification.",
+        "Sample rate/excerpt lineage is a caller assertion; no mixed audio verification.",
+        "Conservative TTF ink bounds plus hard ASS rectangle clips, not gameplay semantic occlusion proof.",
+        "No automatic captions; no renderer integration or audio processing."
+      ]
+    },
+    "limitations": [
+      "Lyric metadata alignment verification is a supplied assertion, not truth or independent listening verification.",
+      "Manifest music_source linkage is supplied metadata, not independent proof of the mixed audio provenance.",
+      "Partial boundary words omitted; ASS times quantized inward to centiseconds.",
+      "Video is re-encoded for text; original mixed audio is stream copied; no aesthetic certification."
+    ]
+  }
+}

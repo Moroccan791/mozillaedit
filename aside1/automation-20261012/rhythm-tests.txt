@@ -1,0 +1,11 @@
+test_bad_contracts (test_rhythm_planner.RhythmTests.test_bad_contracts) ... ok
+test_dp_one_to_one_preserves_unmatched_burst (test_rhythm_planner.RhythmTests.test_dp_one_to_one_preserves_unmatched_burst) ... ok
+test_intact_four_windows_no_promotions_audio_clocks (test_rhythm_planner.RhythmTests.test_intact_four_windows_no_promotions_audio_clocks) ... ok
+test_known_late_hit_error_and_order (test_rhythm_planner.RhythmTests.test_known_late_hit_error_and_order) ... ok
+test_no_duplicate_source_ranges (test_rhythm_planner.RhythmTests.test_no_duplicate_source_ranges) ... ok
+test_no_eligible_hits_blocks_without_filler (test_rhythm_planner.RhythmTests.test_no_eligible_hits_blocks_without_filler) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.050s
+
+OK

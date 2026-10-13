@@ -1,0 +1,7 @@
+ffconcat version 1.0
+file 'clip-000-h264_qsv.mp4'
+duration 2.783333333333
+file 'clip-001-h264_qsv.mp4'
+duration 3.033333333333
+file 'clip-002-h264_qsv.mp4'
+duration 3.716666666667

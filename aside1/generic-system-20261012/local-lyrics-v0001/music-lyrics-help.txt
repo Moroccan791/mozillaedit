@@ -1,0 +1,11 @@
+usage: aive music-lyrics [-h] --music MUSIC --local-model LOCAL_MODEL
+                         [--language LANGUAGE] --out OUT
+
+options:
+  -h, --help            show this help message and exit
+  --music MUSIC
+  --local-model LOCAL_MODEL
+                        existing faster-whisper model folder; no automatic
+                        downloads
+  --language LANGUAGE
+  --out OUT             new UNVERIFIED candidate JSON file

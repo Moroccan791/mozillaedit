@@ -1,0 +1,30 @@
+[
+  {
+    "name": "arbitrary-a",
+    "music_start": 2.0,
+    "duration": 35.0,
+    "frame_count": 1050,
+    "output": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-a\\renders\\encounters-v0001\\text-v0001\\encounters-text.mp4",
+    "manifest": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-a\\renders\\encounters-v0001\\text-v0001\\render-manifest.json",
+    "moments": 3,
+    "audio_pcm_identical": true,
+    "originals_unchanged": true,
+    "full_decode": 0,
+    "actual_singing": false,
+    "perceptual_approval": false
+  },
+  {
+    "name": "arbitrary-b",
+    "music_start": 5.25,
+    "duration": 35.0,
+    "frame_count": 1050,
+    "output": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\renders\\encounters-v0001\\text-v0001\\encounters-text.mp4",
+    "manifest": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\renders\\encounters-v0001\\text-v0001\\render-manifest.json",
+    "moments": 3,
+    "audio_pcm_identical": true,
+    "originals_unchanged": true,
+    "full_decode": 0,
+    "actual_singing": false,
+    "perceptual_approval": false
+  }
+]

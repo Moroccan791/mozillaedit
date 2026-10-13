@@ -1,0 +1,3 @@
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{};e._posthogReleaseId=e._posthogReleaseId||"01a129b7-2369-0000-b6af-fe63822fbcec";var n=(new e.Error).stack;n&&(e._posthogChunkIds=e._posthogChunkIds||{},e._posthogChunkIds[n]="d13fa65a-0618-5764-88be-c045607c1dbc")}catch(e){}}();import{W as a}from"./relative-time-Cs5f0LVJ.js";import{_ as i}from"./queries-CiOWpoLr.js";import{r}from"./context-BthHsdw5.js";function S(){const{accountId:e}=r(),s=i(),{data:n,isFetched:t}=a(s.settings.getAll.queryOptions({accountId:e},{select:o=>o.sidepanelSessionOnTabChange}));return{mode:n??"new-session",isReady:t}}export{S as t};
+
+//# chunkId=d13fa65a-0618-5764-88be-c045607c1dbc

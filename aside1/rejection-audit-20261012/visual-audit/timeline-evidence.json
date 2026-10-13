@@ -1,0 +1,119 @@
+{
+  "scope": "Visual-only local audit. No listening or onset/detector assessment.",
+  "plans_identical": true,
+  "timeline": [
+    {
+      "index": 0,
+      "first_frame": 0,
+      "first_frame_pts": 0,
+      "last_frame": 272,
+      "last_frame_pts": 4.533333333333333,
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "source_start": 219.6558,
+      "source_end": 224.2011,
+      "duration": 4.5452999999999975,
+      "visual_event": 2.0108999999999924,
+      "lead_seconds": 2.0108999999999924,
+      "aftermath_seconds": 2.534400000000005,
+      "labels": [
+        "1v9-1"
+      ]
+    },
+    {
+      "index": 1,
+      "first_frame": 273,
+      "first_frame_pts": 4.55,
+      "last_frame": 508,
+      "last_frame_pts": 8.466666666666667,
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "source_start": 231.8336,
+      "source_end": 235.76355170068027,
+      "duration": 3.9299517006802738,
+      "visual_event": 7.2117000000000075,
+      "lead_seconds": 2.66640000000001,
+      "aftermath_seconds": 1.2635517006802637,
+      "labels": [
+        "1v9-2"
+      ]
+    },
+    {
+      "index": 2,
+      "first_frame": 509,
+      "first_frame_pts": 8.483333333333333,
+      "last_frame": 781,
+      "last_frame_pts": 13.016666666666667,
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "source_start": 263.2303517006803,
+      "source_end": 267.7931,
+      "duration": 4.562748299319729,
+      "visual_event": 10.978199999999958,
+      "lead_seconds": 2.502948299319687,
+      "aftermath_seconds": 2.059800000000042,
+      "labels": [
+        "1v9-3"
+      ]
+    },
+    {
+      "index": 3,
+      "first_frame": 782,
+      "first_frame_pts": 13.033333333333333,
+      "last_frame": 964,
+      "last_frame_pts": 16.066666666666666,
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "source_start": 7.858100000000004,
+      "source_end": 10.911496825396824,
+      "duration": 3.053396825396824,
+      "visual_event": 14.913233333333327,
+      "lead_seconds": 1.8752333333333269,
+      "aftermath_seconds": 1.1781634920634971,
+      "labels": [
+        "reyna-1"
+      ]
+    },
+    {
+      "index": 4,
+      "first_frame": 965,
+      "first_frame_pts": 16.083333333333332,
+      "last_frame": 1198,
+      "last_frame_pts": 19.966666666666665,
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "source_start": 90.45269682539683,
+      "source_end": 94.34200000000001,
+      "duration": 3.889303174603171,
+      "visual_event": 17.97203333333333,
+      "lead_seconds": 1.8806365079365044,
+      "aftermath_seconds": 2.0086666666666666,
+      "labels": [
+        "reyna-2"
+      ]
+    },
+    {
+      "index": 5,
+      "first_frame": 1199,
+      "first_frame_pts": 19.983333333333334,
+      "last_frame": 1411,
+      "last_frame_pts": 23.516666666666666,
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "source_start": 186.7393,
+      "source_end": 190.28619999999998,
+      "duration": 3.546900000000001,
+      "visual_event": 21.374733333333324,
+      "lead_seconds": 1.3940333333333292,
+      "aftermath_seconds": 2.1528666666666716,
+      "labels": [
+        "reyna-4"
+      ]
+    }
+  ],
+  "treatment": {
+    "zoom_peak": 1.035,
+    "brightness_peak": 0.045,
+    "zoom_total_envelope_seconds": 2.64,
+    "brightness_total_envelope_seconds": 0.96,
+    "speed_bounds": [
+      0.8291351286586903,
+      1.2595664462156133
+    ]
+  },
+  "contact_sheets_directory": "C:\\Users\\Junayed\\.aside\\u\\3\\sessions\\2026-10-12_BD3SnMn4J708Lutn\\tmp"
+}

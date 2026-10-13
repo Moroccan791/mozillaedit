@@ -1,0 +1,1 @@
+[0:v:0]ass=filename='E\:/aside/continuation-20261012-account5/lyric-design-integration/text-v0001/lyrics.ass':fontsdir='E\:/aside/continuation-20261012-account5/lyric-design-integration/text-v0001/fonts'[text]

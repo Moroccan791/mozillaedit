@@ -1,0 +1,27 @@
+QA: E:\aside\multisource-proof-20261012\encounters-v0001\encounters.mp4
+----------------------------------------
+[PASS] decode
+[PASS] pix_fmt universal  -- pix_fmt=yuv420p
+[PASS] streams  -- video=True audio=True
+[PASS] a/v duration sync  -- video=9.53s audio=9.53s
+----------------------------------------
+RESULT: OK
+Encounter 1, source YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4
+Timing evidence (decoded media; original game and music references):
+[PASS] event 1 video frame correlation=1.000, offset=+1 frame(s)
+[PASS] event 1 music-only correlation (masking-sensitive) correlation=0.450, offset=+0 frame(s)
+[PASS] event 1 source-gunshot correlation=0.899, offset=+0 ms
+[PASS] event 1 original-game+music mix correlation=0.999, offset=+0 ms, positive source/music gains=True
+Encounter 2, source YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4
+Timing evidence (decoded media; original game and music references):
+[PASS] event 1 video frame correlation=1.000, offset=+0 frame(s)
+[PASS] event 1 music-only correlation (masking-sensitive) correlation=0.504, offset=+0 frame(s)
+[PASS] event 1 source-gunshot correlation=0.871, offset=+0 ms
+[PASS] event 1 original-game+music mix correlation=0.997, offset=+0 ms, positive source/music gains=True
+Encounter 3, source YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4
+Timing evidence (decoded media; original game and music references):
+[PASS] event 1 video frame correlation=1.000, offset=+0 frame(s)
+[PASS] event 1 music-only correlation (masking-sensitive) correlation=0.674, offset=+0 frame(s)
+[PASS] event 1 source-gunshot correlation=0.747, offset=+0 ms
+[PASS] event 1 original-game+music mix correlation=0.997, offset=+0 ms, positive source/music gains=True
+OVERALL: PASS

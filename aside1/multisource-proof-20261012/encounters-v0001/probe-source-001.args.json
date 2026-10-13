@@ -1,0 +1,10 @@
+[
+  "ffprobe",
+  "-v",
+  "error",
+  "-show_streams",
+  "-show_format",
+  "-of",
+  "json",
+  "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4"
+]

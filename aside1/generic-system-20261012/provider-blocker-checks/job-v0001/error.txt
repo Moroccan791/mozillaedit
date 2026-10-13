@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "E:\ai-video-editor\aive\local_preview_runner.py", line 59, in run_local_preview
+    candidates=extract_lyric_candidates(song,job,model_directory=lyric_model,language=lyric_language)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ai-video-editor\aive\lyric_workflow.py", line 335, in extract_lyric_candidates
+    doc = extract_music_lyric_candidates(song, source_kind="music", **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ai-video-editor\aive\music_lyrics.py", line 307, in extract_music_lyric_candidates
+    raise MusicLyricsUnavailable("optional local lyrics unavailable: existing LOCAL model directory required; no downloads or installs")
+aive.music_lyrics.MusicLyricsUnavailable: optional local lyrics unavailable: existing LOCAL model directory required; no downloads or installs

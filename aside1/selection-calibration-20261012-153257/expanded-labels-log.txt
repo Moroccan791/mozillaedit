@@ -1,0 +1,23 @@
+decoded label train-head max 0.9652268886566162
+decoded label train-tree max 0.9838235974311829
+decoded label train-multi max 0.9981155395507812
+decoded label held-kill-92 max 1.0000001192092896
+decoded label held-kill-104 max 0.9999955892562866
+decoded label held-kill-188 max 0.9870792031288147
+decoded label held-kill-339 max 0.5836827754974365
+decoded label held-kill-414 max 0.705266535282135
+decoded label held-kill-467 max 0.962358295917511
+decoded label held-kill-501 max 0.734086811542511
+decoded label held-kill-516 max 0.6086429357528687
+decoded label negative-miss max 0.6365469098091125
+decoded label negative-ability max 0.9602943062782288
+decoded label negative-menu max 0.7841136455535889
+decoded label negative-health max 0.5992170572280884
+decoded label negative-walk max 0.588858962059021
+threshold 0.68 TP FP FN TN 5 0 6 5
+threshold 0.72 TP FP FN TN 5 0 6 5
+threshold 0.75 TP FP FN TN 5 0 6 5
+threshold 0.78 TP FP FN TN 5 0 6 5
+threshold 0.8 TP FP FN TN 5 0 6 5
+threshold 0.82 TP FP FN TN 5 0 6 5
+threshold 0.85 TP FP FN TN 5 0 6 5

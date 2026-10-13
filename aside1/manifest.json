@@ -1,0 +1,1025 @@
+{
+  "verified": "byte-for-byte",
+  "files": [
+    {
+      "path": "E:/aside/skill/ai-video-editor/references/valorant-impact-style.md",
+      "bytes": 14775
+    },
+    {
+      "path": "E:/aside/skill/ai-video-editor/SKILL.md",
+      "bytes": 9887
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-10s.png",
+      "bytes": 533744
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-15s.png",
+      "bytes": 508711
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-20s.png",
+      "bytes": 575858
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-25s.png",
+      "bytes": 577417
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-30s.png",
+      "bytes": 479646
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-5s.png",
+      "bytes": 543057
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-close-17.2.png",
+      "bytes": 283622
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-close-17.5.png",
+      "bytes": 372274
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-close-17.8.png",
+      "bytes": 359250
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-close-18.2.png",
+      "bytes": 373429
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-close-18.5.png",
+      "bytes": 522429
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-close-18.8.png",
+      "bytes": 565152
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-close-19.2.png",
+      "bytes": 517734
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-close-19.5.png",
+      "bytes": 525853
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-close-19.8.png",
+      "bytes": 515905
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-close-20.2.png",
+      "bytes": 571855
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-close-23.5.png",
+      "bytes": 421261
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-close-23.8.png",
+      "bytes": 480288
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-close-24.2.png",
+      "bytes": 477887
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-close-24.5.png",
+      "bytes": 496842
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-detail-1.png",
+      "bytes": 47704
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-detail-12.png",
+      "bytes": 472848
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-detail-14.png",
+      "bytes": 493465
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-detail-16.png",
+      "bytes": 483984
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-detail-17.png",
+      "bytes": 302145
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-detail-18.png",
+      "bytes": 375231
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-detail-19.png",
+      "bytes": 515956
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-detail-2.png",
+      "bytes": 43402
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-detail-20.png",
+      "bytes": 578322
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-detail-22.png",
+      "bytes": 504106
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-detail-24.png",
+      "bytes": 420754
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-detail-27.png",
+      "bytes": 590326
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-detail-29.png",
+      "bytes": 494245
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-detail-3.png",
+      "bytes": 394414
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-detail-32.png",
+      "bytes": 691890
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-detail-34.png",
+      "bytes": 696324
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-detail-35.png",
+      "bytes": 696071
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-detail-7.png",
+      "bytes": 515883
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-detail-9.png",
+      "bytes": 454702
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-frame-0.png",
+      "bytes": 29024
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-frame-10.png",
+      "bytes": 532796
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-frame-15.png",
+      "bytes": 505709
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-frame-20.png",
+      "bytes": 505221
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-frame-25.png",
+      "bytes": 476828
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-frame-30.png",
+      "bytes": 98639
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-frame-5.png",
+      "bytes": 545387
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-impact-10.2.png",
+      "bytes": 353496
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-impact-10.4.png",
+      "bytes": 525763
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-impact-10.6.png",
+      "bytes": 535347
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-impact-10.png",
+      "bytes": 539131
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-impact-8.8.png",
+      "bytes": 400725
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-impact-9.2.png",
+      "bytes": 470963
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-impact-9.4.png",
+      "bytes": 447703
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-impact-9.6.png",
+      "bytes": 452064
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-impact-9.8.png",
+      "bytes": 538687
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-impact-9.png",
+      "bytes": 466069
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-opening.png",
+      "bytes": 34635
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-proof-1.5.png",
+      "bytes": 49379
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-proof-17.6.png",
+      "bytes": 415149
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-proof-18.1.png",
+      "bytes": 238922
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-proof-19.9.png",
+      "bytes": 544353
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-proof-24.png",
+      "bytes": 420192
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-proof-27.5.png",
+      "bytes": 533907
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/espresso-proof-32.png",
+      "bytes": 692204
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-0.5.png",
+      "bytes": 414471
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-00.png",
+      "bytes": 12727
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-03.png",
+      "bytes": 529246
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-06.png",
+      "bytes": 344876
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-09.png",
+      "bytes": 552079
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-1.png",
+      "bytes": 501425
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-12.png",
+      "bytes": 515909
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-15.png",
+      "bytes": 603203
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-16.png",
+      "bytes": 109173
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-17.png",
+      "bytes": 305362
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-18.png",
+      "bytes": 236131
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-2.png",
+      "bytes": 529534
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-21.png",
+      "bytes": 188160
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-22.png",
+      "bytes": 160932
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-23.png",
+      "bytes": 569498
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-24.png",
+      "bytes": 603188
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-26.8.png",
+      "bytes": 606080
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-27.2.png",
+      "bytes": 535504
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-27.png",
+      "bytes": 600472
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-28.png",
+      "bytes": 487116
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-30.png",
+      "bytes": 621327
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-33.png",
+      "bytes": 603273
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-36.png",
+      "bytes": 442380
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-39.png",
+      "bytes": 509674
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-42.png",
+      "bytes": 595250
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-45.png",
+      "bytes": 488751
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-48.png",
+      "bytes": 470758
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-50.png",
+      "bytes": 258884
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-check-0.25.png",
+      "bytes": 210502
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-check-0.5.png",
+      "bytes": 358397
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-check-0.75.png",
+      "bytes": 437721
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-check-0.png",
+      "bytes": 26507
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-check-44.png",
+      "bytes": 496681
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-check-46.png",
+      "bytes": 589972
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-check-47.png",
+      "bytes": 556250
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-detail-16.6.png",
+      "bytes": 42359
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-detail-16.7.png",
+      "bytes": 284023
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-detail-16.8.png",
+      "bytes": 303762
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-detail-16.9.png",
+      "bytes": 299114
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-detail-17.0.png",
+      "bytes": 304986
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-detail-17.1.png",
+      "bytes": 305724
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-detail-17.2.png",
+      "bytes": 334157
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-detail-27.0.png",
+      "bytes": 607937
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-detail-27.1.png",
+      "bytes": 606893
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-detail-27.3.png",
+      "bytes": 474861
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-detail-27.4.png",
+      "bytes": 517568
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-detail-27.5.png",
+      "bytes": 554488
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/nj-detail-27.6.png",
+      "bytes": 576482
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/repl-display-36x8maKtD5zKOZV7.png",
+      "bytes": 533744
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/repl-display-Anij0u6He96Gr6vZ.png",
+      "bytes": 34635
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/repl-display-iRngPBcYgibSxREa.png",
+      "bytes": 479646
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/repl-display-SgBRYHQofh53huMY.png",
+      "bytes": 577417
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/repl-display-taX6rDg7b7zAhmhH.png",
+      "bytes": 543057
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/repl-display-ud8UDkO6nNh1G1OC.png",
+      "bytes": 508711
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/repl-display-WtQECGh3UlhAdw8v.png",
+      "bytes": 1166932
+    },
+    {
+      "path": "E:/aside/evidence/espresso-new-jeans/repl-display-xWGsRP45fVnAP3pp.png",
+      "bytes": 575858
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/allnight-0.png",
+      "bytes": 4260
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/allnight-10.png",
+      "bytes": 49540
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/allnight-15.png",
+      "bytes": 40806
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/allnight-20.png",
+      "bytes": 45314
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/allnight-5.png",
+      "bytes": 46008
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/allnight-final-gameplay.png",
+      "bytes": 42414
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/allnight-paused-all-0.png",
+      "bytes": 30620
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/allnight-paused-all-1.png",
+      "bytes": 36462
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/allnight-paused-text-0.png",
+      "bytes": 35526
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/allnight-paused-text-1.png",
+      "bytes": 49468
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/allnight-paused-text-2.png",
+      "bytes": 45336
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/allnight-paused-transition-0.png",
+      "bytes": 49616
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/allnight-paused-transition-1.png",
+      "bytes": 41056
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/allnight-single-verified.png",
+      "bytes": 44792
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/allnight-step-0.png",
+      "bytes": 36436
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/allnight-step-1.png",
+      "bytes": 27776
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/allnight-step-2.png",
+      "bytes": 51494
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/allnight-step-3.png",
+      "bytes": 59146
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/apt-0.png",
+      "bytes": 3644
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/apt-10.png",
+      "bytes": 30934
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/apt-15.png",
+      "bytes": 41692
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/apt-20.png",
+      "bytes": 56826
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/apt-25.png",
+      "bytes": 36680
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/apt-30.png",
+      "bytes": 40542
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/apt-35.png",
+      "bytes": 38360
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/apt-40-step.png",
+      "bytes": 39632
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/apt-40.png",
+      "bytes": 40314
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/apt-45.png",
+      "bytes": 37894
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/apt-5.png",
+      "bytes": 37174
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/apt-50.png",
+      "bytes": 35042
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/apt-55.png",
+      "bytes": 81482
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-1c2VlaABUKYucB7d.webp",
+      "bytes": 3656
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-21nNsiJ93h0VHXVM.webp",
+      "bytes": 49540
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-5F1FecvQLo6lLHGb.webp",
+      "bytes": 38864
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-5pHhMQIPmdYkL09r.webp",
+      "bytes": 40774
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-73Xa1zpH9i5JxA5v.webp",
+      "bytes": 35390
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-7ElSii7fxL7E32aB.webp",
+      "bytes": 41692
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-7ZW4Dm24YkAqhOK4.webp",
+      "bytes": 40456
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-9PbdEUETyHhiV3ba.webp",
+      "bytes": 49616
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-9Vw0sFury3Xs9zck.webp",
+      "bytes": 41056
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-9X79XQEH5kPfmZmZ.webp",
+      "bytes": 20862
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-aay8AU0v91uZNGBu.webp",
+      "bytes": 45336
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-b6u1tOmVedWs9f60.webp",
+      "bytes": 31394
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-CKjOBkqMFjg1J1w9.webp",
+      "bytes": 36436
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-CLE6Kic8S4IexXmw.webp",
+      "bytes": 3644
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-CmCWO1vMwrXfqvbg.webp",
+      "bytes": 39632
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-D1wcrBL0Nr1jsrFJ.webp",
+      "bytes": 38360
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-d5ysuAEwWoiVzCnS.webp",
+      "bytes": 38244
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-D9EyT6JMsD8MerOu.webp",
+      "bytes": 40542
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-DF9U7KP5Ot2VZhW1.webp",
+      "bytes": 37170
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-dkoDoaUygWG4THDl.webp",
+      "bytes": 42414
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-EdPFqGwuND6Xlj2l.webp",
+      "bytes": 44792
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-FragyYrFxYvytKpk.webp",
+      "bytes": 36680
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-HNPr9TLd5rnW8QQs.webp",
+      "bytes": 56826
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-idUlpb959O8WWvVk.webp",
+      "bytes": 46008
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-jhmI4Pf8V8wmBWjn.webp",
+      "bytes": 35188
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-jxw3C7ZDPvtlxfGh.webp",
+      "bytes": 35042
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-K4SayL5hBhwUsRvf.webp",
+      "bytes": 36462
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-KM9OvNpE4S98LhCP.webp",
+      "bytes": 45314
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-NG67eghYyS3EGohq.webp",
+      "bytes": 66920
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-ntEVRYAFv2Z4StOS.webp",
+      "bytes": 37894
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-O0WFUlQXn2sOe84i.webp",
+      "bytes": 59146
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-Ok2iObS8MtBhus6P.webp",
+      "bytes": 27776
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-popvLxv24GMP9t75.webp",
+      "bytes": 30620
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-QJgwFERb80aTWvxZ.webp",
+      "bytes": 4260
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-rUZHkjZMhxSFNkZV.webp",
+      "bytes": 35526
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-u3kanDaJwizPKQOl.webp",
+      "bytes": 81482
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-u9ATBZtrmOtMq0ce.webp",
+      "bytes": 30934
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-uDHql2xD6aS9Oq0y.webp",
+      "bytes": 56826
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-vxDgCFitIYp0C2c9.webp",
+      "bytes": 40806
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-vXJCOzb0Ha3H90GS.webp",
+      "bytes": 41798
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-WKjJSTiq6IRK4kw8.webp",
+      "bytes": 49468
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-WunHnK2FITt3WMos.webp",
+      "bytes": 51494
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-xALHqaJqKdafACUI.webp",
+      "bytes": 37174
+    },
+    {
+      "path": "E:/aside/evidence/apt-all-night/repl-display-Yg9xIL1sMGkKskKB.webp",
+      "bytes": 40314
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/burn-00.png",
+      "bytes": 21273
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/burn-05.png",
+      "bytes": 430036
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/burn-10.png",
+      "bytes": 312754
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/burn-15.png",
+      "bytes": 351100
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/burn-20.png",
+      "bytes": 541455
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/burn-25.png",
+      "bytes": 292247
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/burn-29.png",
+      "bytes": 18209
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/burn-detail110.png",
+      "bytes": 390471
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/burn-detail112.png",
+      "bytes": 351949
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/burn-detail114.png",
+      "bytes": 362533
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/burn-proof-11.png",
+      "bytes": 391524
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/burn-step0.png",
+      "bytes": 283219
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/burn-step1.png",
+      "bytes": 393894
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/burn-step2.png",
+      "bytes": 109307
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/burn-step3.png",
+      "bytes": 455784
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/repl-display-2RX7jKcSuWXKkIEA.webp",
+      "bytes": 53674
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/repl-display-Bi4b4xrAgACdy3mK.webp",
+      "bytes": 27704
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/repl-display-cpTbGFH2c7AuWGUy.webp",
+      "bytes": 16502
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/repl-display-fPqkKvoi7D6XwZRL.webp",
+      "bytes": 31270
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/repl-display-gtE6r0hjQ52Gq2kR.webp",
+      "bytes": 30926
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/repl-display-Gygv4j7M9SFq91mf.png",
+      "bytes": 490554
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/repl-display-i0zRjZkNS4FlNr7O.webp",
+      "bytes": 34722
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/repl-display-iPd5zEgrkNdiIvyd.webp",
+      "bytes": 11144
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/repl-display-jaQ36YVRdbIt8Z9v.webp",
+      "bytes": 31602
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/repl-display-LJjrOhdCkD5OYBPy.webp",
+      "bytes": 30236
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/repl-display-LXxKfRBjIX5PVVxK.webp",
+      "bytes": 27618
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/repl-display-mnBUcb4vcMx4mE25.webp",
+      "bytes": 6482
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/repl-display-O5Evjy3dfFpVjCAS.webp",
+      "bytes": 3476
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/repl-display-PeKafR6huIaDZCzB.webp",
+      "bytes": 39418
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/repl-display-pnYPNq4rtGFCWEEl.webp",
+      "bytes": 30972
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/repl-display-QvORvroZuQs32nmc.webp",
+      "bytes": 39394
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/repl-display-RKdsxzg2iWg6du7g.webp",
+      "bytes": 32372
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/repl-display-wlkP1LQFQqY2Izen.webp",
+      "bytes": 31138
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/repl-display-XCGl9D5aKjqr4sMq.webp",
+      "bytes": 38606
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/repl-display-y2FIQKwyXPHEMAhx.webp",
+      "bytes": 44948
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/repl-result-VMOKfkpdl3uDqON0.txt",
+      "bytes": 42637
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/timeless-00.png",
+      "bytes": 176949
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/timeless-05.png",
+      "bytes": 363703
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/timeless-10.png",
+      "bytes": 424608
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/timeless-15.png",
+      "bytes": 541516
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/timeless-20.png",
+      "bytes": 507155
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/timeless-25.png",
+      "bytes": 673552
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/timeless-30.png",
+      "bytes": 438631
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/timeless-35.png",
+      "bytes": 526582
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/timeless-40.png",
+      "bytes": 75358
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/timeless-45.png",
+      "bytes": 251236
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/timeless-48.png",
+      "bytes": 238915
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/timeless-impact0.png",
+      "bytes": 417195
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/timeless-impact1.png",
+      "bytes": 479376
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/timeless-impact2.png",
+      "bytes": 528715
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/timeless-impact3.png",
+      "bytes": 520264
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/timeless-opening.png",
+      "bytes": 39851
+    },
+    {
+      "path": "E:/aside/evidence/timeless-burn/timeless-proof-20p1.png",
+      "bytes": 575808
+    },
+    {
+      "path": "E:/aside/source/AI Video Editor Skill by Luv Sankhla.md",
+      "bytes": 5935
+    },
+    {
+      "path": "E:/aside/scratch-unvalidated/mp4_parse.js",
+      "bytes": 2520
+    },
+    {
+      "path": "E:/aside/scratch-unvalidated/mp4_run.js",
+      "bytes": 101
+    },
+    {
+      "path": "E:/aside/scratch-unvalidated/analyze_mp4.js",
+      "bytes": 3486
+    },
+    {
+      "path": "E:/aside/scratch-unvalidated/analyze_all.js",
+      "bytes": 3900
+    }
+  ]
+}

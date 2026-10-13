@@ -1,0 +1,38 @@
+{
+  "schema_version": "povkills/v1",
+  "events": [
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "source_audio_event": 221.612,
+      "source_visual_event": 221.6667,
+      "source_duration": 505.034014,
+      "confidence": 1.0,
+      "confirmed": true,
+      "confirmation": "POV firing/ammo and skull-emblem frame review plus high-frequency waveform attack; full-track librosa local-threshold onsets near tracked beats",
+      "confidence_kind": "manual_calibration_label_not_probability"
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "source_audio_event": 234.469,
+      "source_visual_event": 234.5,
+      "source_duration": 505.034014,
+      "confidence": 1.0,
+      "confirmed": true,
+      "confirmation": "POV firing/ammo and skull-emblem frame review plus high-frequency waveform attack; full-track librosa local-threshold onsets near tracked beats",
+      "confidence_kind": "manual_calibration_label_not_probability"
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "source_audio_event": 9.646,
+      "source_visual_event": 9.733333333333333,
+      "source_duration": 530.041905,
+      "confidence": 1.0,
+      "confirmed": true,
+      "confirmation": "historical manual preview firing/outcome review + production first-emblem timing; renderer calibration only",
+      "confidence_kind": "manual_calibration_label_not_probability"
+    }
+  ],
+  "limitations": [
+    "Historical manual calibration, not automatic selection."
+  ]
+}

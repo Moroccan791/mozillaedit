@@ -1,0 +1,10 @@
+[
+  "ffprobe",
+  "-v",
+  "error",
+  "-show_streams",
+  "-show_format",
+  "-of",
+  "json",
+  "E:\\aside\\reflections-fresh-20261012\\fresh-renders\\encounters-v0001\\clip-002-h264_qsv.mp4"
+]

@@ -1,0 +1,20 @@
+[
+  "ffmpeg",
+  "-hide_banner",
+  "-loglevel",
+  "error",
+  "-nostdin",
+  "-n",
+  "-threads",
+  "1",
+  "-f",
+  "concat",
+  "-safe",
+  "0",
+  "-i",
+  "E:\\aside\\system-lock-20261012\\preview-jobs\\job-v0001\\renders\\encounters-v0001\\game.ffconcat",
+  "-vn",
+  "-c:a",
+  "copy",
+  "E:\\aside\\system-lock-20261012\\preview-jobs\\job-v0001\\renders\\encounters-v0001\\game-stem.wav"
+]

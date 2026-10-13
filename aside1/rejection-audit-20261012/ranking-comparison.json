@@ -1,0 +1,66 @@
+{
+  "old": [
+    {
+      "label": "1v9-1",
+      "music": 18.2102,
+      "strength": 0.3741
+    },
+    {
+      "label": "1v9-2",
+      "music": 23.4347,
+      "strength": 0.2408
+    },
+    {
+      "label": "1v9-3",
+      "music": 27.2022,
+      "strength": 0.3697
+    },
+    {
+      "label": "reyna-1",
+      "music": 31.0799,
+      "strength": 0.3041
+    },
+    {
+      "label": "reyna-2",
+      "music": 34.1507,
+      "strength": 0.3177
+    },
+    {
+      "label": "reyna-4",
+      "music": 37.5234,
+      "strength": 0.4237
+    }
+  ],
+  "diagnostic_new": [
+    {
+      "label": "1v9-2",
+      "music": 18.2102,
+      "strength": 0.3741
+    },
+    {
+      "label": "1v9-3",
+      "music": 21.0199,
+      "strength": 0.2661
+    },
+    {
+      "label": "1v9-1",
+      "music": 25.2865,
+      "strength": 0.3553
+    },
+    {
+      "label": "reyna-1",
+      "music": 28.816,
+      "strength": 0.3326
+    },
+    {
+      "label": "reyna-4",
+      "music": 32.357,
+      "strength": 0.4157
+    },
+    {
+      "label": "reyna-2",
+      "music": 35.7878,
+      "strength": 0.2961
+    }
+  ]
+}

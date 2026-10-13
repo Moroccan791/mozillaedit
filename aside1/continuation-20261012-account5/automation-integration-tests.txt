@@ -1,0 +1,11 @@
+test_candidate_export_status_quality_and_optional_lyrics (test_automation_runner.AutomationTests.test_candidate_export_status_quality_and_optional_lyrics) ... ok
+test_designed_lyrics_are_explicit_and_bound_to_selected_song (test_automation_runner.AutomationTests.test_designed_lyrics_are_explicit_and_bound_to_selected_song) ... ok
+test_failures_keep_report (test_automation_runner.AutomationTests.test_failures_keep_report) ... ok
+test_invalid_configuration (test_automation_runner.AutomationTests.test_invalid_configuration) ... ok
+test_no_four_windows_blocks_without_render (test_automation_runner.AutomationTests.test_no_four_windows_blocks_without_render) ... ok
+test_plan_only_unreviewed_readiness_and_versioning (test_automation_runner.AutomationTests.test_plan_only_unreviewed_readiness_and_versioning) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 5.756s
+
+OK

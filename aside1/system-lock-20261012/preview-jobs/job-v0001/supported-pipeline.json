@@ -1,0 +1,14 @@
+{
+  "schema_version": "supported-pipeline/v1",
+  "pipeline": "existing-authored-system/v1",
+  "runner": "aive.automation_runner.run_automation",
+  "candidate_preview": true,
+  "fallback_allowed": false,
+  "requested_style": "authored-footage",
+  "finished_montage": false,
+  "perceptual_approval": false,
+  "status": "rendered-candidate-preview",
+  "output": "E:\\aside\\system-lock-20261012\\preview-jobs\\job-v0001\\renders\\encounters-v0001\\encounters.mp4",
+  "verified_renderer_manifest": "E:\\aside\\system-lock-20261012\\preview-jobs\\job-v0001\\renders\\encounters-v0001\\render-manifest.json",
+  "renderer_style_verified": true
+}

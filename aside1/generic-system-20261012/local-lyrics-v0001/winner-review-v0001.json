@@ -1,0 +1,577 @@
+{
+  "additions": [],
+  "alignment_verified": false,
+  "audio_sha256": "fee64bb4540fb6a2f0c391718c024512bc75e0cdfdb8d1b88da1cf773a7eb3c8",
+  "candidate_sha256": "a969c188ec188f1969f3c3a235260d7cbadde813f061e78098fbdb03c40b866e",
+  "coverage": [],
+  "coverage_clock": "selected_music_first_decoded_sample",
+  "decode": {
+    "channels": 1,
+    "clock": "selected_music_first_decoded_sample",
+    "duration": 79.2265,
+    "method": "ffmpeg sample-zero mono pcm_s16le",
+    "pcm_sha256": "e3bd5e5a652cd2af81e67b68733c07e39d0734cfeb377f7a5efe5d0ad2913bc9",
+    "possibly_truncated": false,
+    "prefix_limit_seconds": 600.0,
+    "sample_count": 1267624,
+    "sample_rate": 16000,
+    "start": 0.0
+  },
+  "entries": [
+    {
+      "candidate_index": 0,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 1.8,
+        "start": 0.0,
+        "text": "I"
+      }
+    },
+    {
+      "candidate_index": 1,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 2.7,
+        "start": 1.8,
+        "text": "apologize"
+      }
+    },
+    {
+      "candidate_index": 2,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 5.5,
+        "start": 2.7,
+        "text": "if"
+      }
+    },
+    {
+      "candidate_index": 3,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 5.62,
+        "start": 5.5,
+        "text": "it"
+      }
+    },
+    {
+      "candidate_index": 4,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 5.88,
+        "start": 5.62,
+        "text": "makes"
+      }
+    },
+    {
+      "candidate_index": 5,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 6.14,
+        "start": 5.88,
+        "text": "you"
+      }
+    },
+    {
+      "candidate_index": 6,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 6.68,
+        "start": 6.14,
+        "text": "feel"
+      }
+    },
+    {
+      "candidate_index": 7,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 7.9,
+        "start": 6.68,
+        "text": "bad"
+      }
+    },
+    {
+      "candidate_index": 8,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 9.36,
+        "start": 7.9,
+        "text": "Seeing"
+      }
+    },
+    {
+      "candidate_index": 9,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 9.74,
+        "start": 9.36,
+        "text": "me"
+      }
+    },
+    {
+      "candidate_index": 10,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 10.14,
+        "start": 9.74,
+        "text": "so"
+      }
+    },
+    {
+      "candidate_index": 11,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 11.04,
+        "start": 10.14,
+        "text": "tense,"
+      }
+    },
+    {
+      "candidate_index": 12,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 12.8,
+        "start": 11.04,
+        "text": "no"
+      }
+    },
+    {
+      "candidate_index": 13,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 13.4,
+        "start": 12.8,
+        "text": "self"
+      }
+    },
+    {
+      "candidate_index": 14,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 14.26,
+        "start": 13.4,
+        "text": "-confidence"
+      }
+    },
+    {
+      "candidate_index": 15,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 15.46,
+        "start": 14.26,
+        "text": "Let"
+      }
+    },
+    {
+      "candidate_index": 16,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 15.66,
+        "start": 15.46,
+        "text": "you"
+      }
+    },
+    {
+      "candidate_index": 17,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 16.04,
+        "start": 15.66,
+        "text": "see"
+      }
+    },
+    {
+      "candidate_index": 18,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 16.72,
+        "start": 16.04,
+        "text": "the"
+      }
+    },
+    {
+      "candidate_index": 19,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 17.06,
+        "start": 16.72,
+        "text": "winner"
+      }
+    },
+    {
+      "candidate_index": 20,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 17.86,
+        "start": 17.06,
+        "text": "takes"
+      }
+    },
+    {
+      "candidate_index": 21,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 18.62,
+        "start": 17.86,
+        "text": "it"
+      }
+    },
+    {
+      "candidate_index": 22,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 20.88,
+        "start": 18.62,
+        "text": "all"
+      }
+    },
+    {
+      "candidate_index": 23,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 24.26,
+        "start": 22.900000000000002,
+        "text": "The"
+      }
+    },
+    {
+      "candidate_index": 24,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 24.54,
+        "start": 24.26,
+        "text": "winner"
+      }
+    },
+    {
+      "candidate_index": 25,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 25.8,
+        "start": 24.54,
+        "text": "takes"
+      }
+    },
+    {
+      "candidate_index": 26,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 26.3,
+        "start": 25.8,
+        "text": "it"
+      }
+    },
+    {
+      "candidate_index": 27,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 30.08,
+        "start": 26.3,
+        "text": "all"
+      }
+    },
+    {
+      "candidate_index": 28,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 31.62,
+        "start": 30.94,
+        "text": "The"
+      }
+    },
+    {
+      "candidate_index": 29,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 31.94,
+        "start": 31.62,
+        "text": "game"
+      }
+    },
+    {
+      "candidate_index": 30,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 32.26,
+        "start": 31.94,
+        "text": "is"
+      }
+    },
+    {
+      "candidate_index": 31,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 32.86,
+        "start": 32.26,
+        "text": "on"
+      }
+    },
+    {
+      "candidate_index": 32,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 33.12,
+        "start": 32.86,
+        "text": "the"
+      }
+    },
+    {
+      "candidate_index": 33,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 33.8,
+        "start": 33.12,
+        "text": "ground"
+      }
+    },
+    {
+      "candidate_index": 34,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 35.44,
+        "start": 33.8,
+        "text": "A"
+      }
+    },
+    {
+      "candidate_index": 35,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 35.62,
+        "start": 35.44,
+        "text": "lover"
+      }
+    },
+    {
+      "candidate_index": 36,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 36.24,
+        "start": 35.62,
+        "text": "or"
+      }
+    },
+    {
+      "candidate_index": 37,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 37.28,
+        "start": 36.24,
+        "text": "a"
+      }
+    },
+    {
+      "candidate_index": 38,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 38.24,
+        "start": 37.28,
+        "text": "friend"
+      }
+    },
+    {
+      "candidate_index": 39,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 39.12,
+        "start": 38.24,
+        "text": "A"
+      }
+    },
+    {
+      "candidate_index": 40,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 39.38,
+        "start": 39.12,
+        "text": "big"
+      }
+    },
+    {
+      "candidate_index": 41,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 39.76,
+        "start": 39.38,
+        "text": "team"
+      }
+    },
+    {
+      "candidate_index": 42,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 40.48,
+        "start": 39.76,
+        "text": "of"
+      }
+    },
+    {
+      "candidate_index": 43,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 41.32,
+        "start": 40.48,
+        "text": "small"
+      }
+    },
+    {
+      "candidate_index": 44,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 42.88,
+        "start": 41.32,
+        "text": "The"
+      }
+    },
+    {
+      "candidate_index": 45,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 43.12,
+        "start": 42.88,
+        "text": "winner"
+      }
+    },
+    {
+      "candidate_index": 46,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 43.64,
+        "start": 43.12,
+        "text": "takes"
+      }
+    },
+    {
+      "candidate_index": 47,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 44.58,
+        "start": 43.64,
+        "text": "it"
+      }
+    },
+    {
+      "candidate_index": 48,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 46.4,
+        "start": 44.58,
+        "text": "all"
+      }
+    },
+    {
+      "candidate_index": 49,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 63.86,
+        "start": 62.46,
+        "text": "The"
+      }
+    },
+    {
+      "candidate_index": 50,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 64.48,
+        "start": 63.86,
+        "text": "winner"
+      }
+    },
+    {
+      "candidate_index": 51,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 66.54,
+        "start": 64.48,
+        "text": "takes"
+      }
+    },
+    {
+      "candidate_index": 52,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 68.98,
+        "start": 66.54,
+        "text": "it"
+      }
+    },
+    {
+      "candidate_index": 53,
+      "correction": null,
+      "disposition": "pending",
+      "original": {
+        "end": 70.14,
+        "start": 68.98,
+        "text": "all"
+      }
+    }
+  ],
+  "limitations": [
+    "Candidate transcription is UNVERIFIED; inspect the exact selected music independently.",
+    "Coverage is limited to the decoded sample-zero prefix, possibly truncated, not the whole song.",
+    "Reviewer, method, corrections and completion claims are supplied, not authenticated.",
+    "This handoff and audit never create or verify a lyric-track or promote alignment."
+  ],
+  "method": null,
+  "reviewer": null,
+  "schema": "music-lyric-review/v1",
+  "source": {
+    "bytes": 1177418,
+    "kind": "selected_music",
+    "path": "E:\\audio\\The Winner Takes It All but it’s the best part (Meryl Streep).mp3"
+  },
+  "status": "PENDING"
+}

@@ -1,0 +1,27 @@
+<!doctype html>
+<!--
+  Host for agent visual replies (```visual blocks). A manifest sandbox page, so it has an opaque
+  origin and its own CSP: the page's inline scripts and CDN libraries may run, but it never reaches
+  extension APIs or the app's storage. The chat posts the page here and it replaces this document.
+  Iframes built from srcdoc/blob/data would inherit the extension CSP and block every script.
+-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      html {
+        background: transparent;
+      }
+    </style>
+    <script>
+      window.addEventListener('message', function (event) {
+        var data = event.data;
+        if (event.source !== window.parent || !data || data.type !== 'aside-visual-document') return;
+        if (typeof data.html !== 'string') return;
+        document.open();
+        document.write(data.html);
+        document.close();
+      });
+    </script>
+  </head>
+</html>

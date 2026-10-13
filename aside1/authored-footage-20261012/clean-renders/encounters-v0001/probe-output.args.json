@@ -1,0 +1,10 @@
+[
+  "ffprobe",
+  "-v",
+  "error",
+  "-show_streams",
+  "-show_format",
+  "-of",
+  "json",
+  "E:\\aside\\authored-footage-20261012\\clean-renders\\encounters-v0001\\encounters.mp4"
+]

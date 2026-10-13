@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "E:\ai-video-editor\aive\automation_runner.py", line 68, in run_automation
+    t=time.perf_counter();hits=build_hit_map(config.song,config.music_start,config.duration)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ai-video-editor\aive\hit_map.py", line 87, in build_hit_map
+    raise RuntimeError('FFmpeg bounded decode failed')
+RuntimeError: FFmpeg bounded decode failed

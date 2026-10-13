@@ -1,0 +1,122 @@
+{
+  "schema_version": "encounters/v1",
+  "requested_duration": 12.0,
+  "duration": 9.531799999999997,
+  "music_start": 16.254,
+  "music_end": 25.7858,
+  "music_continuous": true,
+  "gaps": [],
+  "warnings": [
+    "shorter than requested by 2.468s; no filler or reuse"
+  ],
+  "omitted_encounters": [],
+  "timeline": [
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "source_start": 219.6558,
+      "source_end": 222.43640000000002,
+      "output_start": 0.0,
+      "output_end": 2.7805999999999997,
+      "music_start": 16.254,
+      "music_end": 19.0346,
+      "speed": 1.0,
+      "anchor": {
+        "source_audio_event": 221.612,
+        "source_visual_event": 221.6667,
+        "output_time": 1.956199999999999,
+        "music_time": 18.2102
+      },
+      "events": [
+        {
+          "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+          "source_audio_event": 221.612,
+          "source_visual_event": 221.6667,
+          "confidence": 1.0,
+          "confirmed": true,
+          "source_duration": 505.034014,
+          "audio_offset": 1.9561999999999955,
+          "visual_offset": 2.0108999999999924,
+          "output_audio_event": 1.9561999999999955,
+          "output_visual_event": 2.0108999999999924
+        }
+      ],
+      "kill_count": 1,
+      "confidence": 1.0,
+      "section": "mid",
+      "warnings": []
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "source_start": 232.4837,
+      "source_end": 235.5197,
+      "output_start": 2.7805999999999997,
+      "output_end": 5.8165999999999976,
+      "music_start": 19.0346,
+      "music_end": 22.0706,
+      "speed": 1.0,
+      "anchor": {
+        "source_audio_event": 234.469,
+        "source_visual_event": 234.5,
+        "output_time": 4.7658999999999985,
+        "music_time": 21.0199
+      },
+      "events": [
+        {
+          "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+          "source_audio_event": 234.469,
+          "source_visual_event": 234.5,
+          "confidence": 1.0,
+          "confirmed": true,
+          "source_duration": 505.034014,
+          "audio_offset": 1.9852999999999952,
+          "visual_offset": 2.016300000000001,
+          "output_audio_event": 4.765899999999988,
+          "output_visual_event": 4.796899999999994
+        }
+      ],
+      "kill_count": 1,
+      "confidence": 1.0,
+      "section": "mid",
+      "warnings": []
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "source_start": 6.969899999999999,
+      "source_end": 10.685099999999998,
+      "output_start": 5.8165999999999976,
+      "output_end": 9.531799999999997,
+      "music_start": 22.0706,
+      "music_end": 25.7858,
+      "speed": 1.0,
+      "anchor": {
+        "source_audio_event": 9.646,
+        "source_visual_event": 9.733333333333333,
+        "output_time": 8.4927,
+        "music_time": 24.7467
+      },
+      "events": [
+        {
+          "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+          "source_audio_event": 9.646,
+          "source_visual_event": 9.733333333333333,
+          "confidence": 1.0,
+          "confirmed": true,
+          "source_duration": 530.041905,
+          "audio_offset": 2.6761000000000017,
+          "visual_offset": 2.7634333333333334,
+          "output_audio_event": 8.4927,
+          "output_visual_event": 8.580033333333331
+        }
+      ],
+      "kill_count": 1,
+      "confidence": 1.0,
+      "section": "peak",
+      "warnings": []
+    }
+  ],
+  "music": "E:\\audio\\YTDown.com_YouTube_Media_MpoZ0NVXswY_Let-the-world-burn-Audio-Edit_009_128k.mp3",
+  "calibration_only": true,
+  "limitations": [
+    "Manual labels reused for renderer integration; not an automatic detector result. No effects or lyrics."
+  ]
+}

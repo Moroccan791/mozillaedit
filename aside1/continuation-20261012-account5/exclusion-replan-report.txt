@@ -1,0 +1,53 @@
+{
+  "schema_version": "observed-exclusion-replan/v1",
+  "mode": "plan-only",
+  "rendered": false,
+  "automatic_pov_confirmation": false,
+  "retained": 23,
+  "rejected": 9,
+  "new_rejections": [
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "start": 0.9175,
+      "end": 2.815,
+      "reason": "fresh observed exclusion",
+      "evidence": [
+        {
+          "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+          "start": 1.515,
+          "end": 2.41,
+          "reason": "Inspected knife/ability handling; no visible new gunshot or POV kill at selected candidates",
+          "evidence": "E:/aside/continuation-20261012-account5/source-attack-00.jpg and source-attack-01.jpg; 30fps neighborhoods",
+          "reviewer": "Aside account5 decoded-frame inspection 2026-10-12"
+        }
+      ]
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "start": 266.7025,
+      "end": 268.1675,
+      "reason": "fresh observed exclusion",
+      "evidence": [
+        {
+          "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+          "start": 267.5,
+          "end": 268.2,
+          "reason": "Inspected CLUTCH post-round knife handling and scoreboard/round transition, not a new POV-kill anchor",
+          "evidence": "E:/aside/continuation-20261012-account5/source-attack-03.jpg; 30fps neighborhood",
+          "reviewer": "Aside account5 decoded-frame inspection 2026-10-12"
+        }
+      ]
+    }
+  ],
+  "duration": 8.048999999999978,
+  "rhythm_summary": {
+    "matched": 6,
+    "total": 7,
+    "semantic_sync": "unverified",
+    "beam_width": 24
+  },
+  "limitations": [
+    "Replanning is not new semantic gameplay acceptance.",
+    "Previously numeric-screened windows can still contain abilities, menus, false transients or unresolved fights."
+  ]
+}

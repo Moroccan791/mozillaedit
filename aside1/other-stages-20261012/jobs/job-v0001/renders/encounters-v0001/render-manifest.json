@@ -1,0 +1,3083 @@
+{
+  "schema_version": "encounter-render/v1",
+  "job_dir": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001",
+  "manifest_path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\render-manifest.json",
+  "output": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\encounters.mp4",
+  "game_stem": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\game-stem.wav",
+  "music_stem": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\music-stem.wav",
+  "style": "restrained-impact",
+  "motion_audio_granularity_seconds": 0.1,
+  "motion_limitations": [
+    "Audio outside protected windows uses <=100ms constant-atempo slices with exact absolute sample endpoints and pad/trim; waveform and within-slice timing are approximate.",
+    "Protected windows bypass atempo; a boundary can differ by one sample from source rounding.",
+    "Video uses eased timestamp remapping then CFR frame selection, no interpolation.",
+    "Restrained experiment, not a production aesthetic claim."
+  ],
+  "video_concat": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\video.ffconcat",
+  "game_concat": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\game.ffconcat",
+  "config": {
+    "width": 1280,
+    "height": 720,
+    "fps": 60,
+    "sample_rate": 48000,
+    "encoder": "h264_qsv",
+    "fallback_encoder": null,
+    "quality": 21,
+    "preset": "veryfast",
+    "music_gain_db": -7.0,
+    "game_gain_db": -8.0,
+    "max_duration": 120.0,
+    "max_clip_duration": 30.0,
+    "max_clips": 64,
+    "max_source_duration": 86400.0,
+    "timeout": 600.0,
+    "ffmpeg": "ffmpeg",
+    "ffprobe": "ffprobe",
+    "style": "restrained-impact"
+  },
+  "plan_duration": 23.527599999999996,
+  "video_duration": 23.533333333333335,
+  "audio_duration": 23.527604166666666,
+  "frame_count": 1412,
+  "sample_count": 1129325,
+  "music_start_sample": 780192,
+  "music_source": "E:\\audio\\YTDown.com_YouTube_Media_MpoZ0NVXswY_Let-the-world-burn-Audio-Edit_009_128k.mp3",
+  "music_time_origin": "decoded sample zero after FFmpeg codec skip/encoder-delay handling",
+  "chunks": [
+    {
+      "source_start": 219.6558,
+      "source_end": 224.2011,
+      "output_start": 0.0,
+      "output_end": 4.5452999999999975,
+      "music_start": 16.254,
+      "music_end": 20.7993,
+      "speed": 1.0,
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "index": 0,
+      "frame_start": 0,
+      "frame_end": 273,
+      "frame_count": 273,
+      "sample_start": 0,
+      "sample_end": 218174,
+      "sample_count": 218174,
+      "source_sample_start": 10543478,
+      "video_phase_seconds": 0.0,
+      "events": [
+        {
+          "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+          "source_audio_event": 221.612,
+          "source_visual_event": 221.6667,
+          "confidence": 1.0,
+          "confirmed": true,
+          "source_duration": 505.034014,
+          "encounter_start": 220.0,
+          "encounter_end": 223.0,
+          "confirmation": "POV firing/ammo and skull-emblem frame review plus high-frequency waveform attack; full-track librosa local-threshold onsets near tracked beats",
+          "confidence_kind": "manual_calibration_label_not_probability",
+          "label_id": "1v9-1",
+          "context_review": "Assistant inspected 4fps full-frame contact sheet spanning five seconds. Bounds preserve sampled local setup/outcome, not exhaustive match/kill labeling.",
+          "audio_offset": 1.9561999999999955,
+          "visual_offset": 2.0108999999999924,
+          "output_audio_event": 1.9561999999999955,
+          "output_visual_event": 2.0108999999999924,
+          "predicted_audio_event": 1.9561999999999955,
+          "predicted_visual_event": 2.0108999999999924
+        }
+      ],
+      "time_map": {
+        "duration": 4.5452999999999975,
+        "protected": [
+          [
+            1.7761999999999956,
+            2.1908999999999925
+          ]
+        ],
+        "gaps": [
+          [
+            0.0,
+            1.7761999999999956
+          ],
+          [
+            2.1908999999999925,
+            4.5452999999999975
+          ]
+        ],
+        "anchors": [
+          0.0,
+          1.9561999999999955,
+          2.0108999999999924,
+          4.5452999999999975
+        ],
+        "strength": 0.06,
+        "min_speed": 0.75,
+        "max_speed": 1.35,
+        "direction": "source_local_seconds_to_output_local_seconds",
+        "curve": "t + strength*gap_length*64*u^3*(1-u)^3; C2 identity at gap edges",
+        "playback_speed_bounds": [
+          0.8291351286586903,
+          1.2595664462156133
+        ]
+      },
+      "audio_segments": [
+        {
+          "source_start_sample": 10543478,
+          "source_end_sample": 10548215,
+          "output_start_sample": 0,
+          "output_end_sample": 4784,
+          "count": 4784,
+          "speed": 0.990175585284281,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10548215,
+          "source_end_sample": 10552951,
+          "output_start_sample": 4784,
+          "output_end_sample": 9788,
+          "count": 5004,
+          "speed": 0.9464428457234213,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10552951,
+          "source_end_sample": 10557688,
+          "output_start_sample": 9788,
+          "output_end_sample": 15087,
+          "count": 5299,
+          "speed": 0.8939422532553312,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10557688,
+          "source_end_sample": 10562425,
+          "output_start_sample": 15087,
+          "output_end_sample": 20637,
+          "count": 5550,
+          "speed": 0.8535135135135136,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10562425,
+          "source_end_sample": 10567161,
+          "output_start_sample": 20637,
+          "output_end_sample": 26326,
+          "count": 5689,
+          "speed": 0.8324837405519423,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10567161,
+          "source_end_sample": 10571898,
+          "output_start_sample": 26326,
+          "output_end_sample": 32012,
+          "count": 5686,
+          "speed": 0.8330988392543088,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10571898,
+          "source_end_sample": 10576634,
+          "output_start_sample": 32012,
+          "output_end_sample": 37550,
+          "count": 5538,
+          "speed": 0.8551823763091368,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10576634,
+          "source_end_sample": 10581371,
+          "output_start_sample": 37550,
+          "output_end_sample": 42821,
+          "count": 5271,
+          "speed": 0.8986909504837791,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10581371,
+          "source_end_sample": 10586107,
+          "output_start_sample": 42821,
+          "output_end_sample": 47744,
+          "count": 4923,
+          "speed": 0.962015031484867,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10586107,
+          "source_end_sample": 10590844,
+          "output_start_sample": 47744,
+          "output_end_sample": 52294,
+          "count": 4550,
+          "speed": 1.0410989010989011,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10590844,
+          "source_end_sample": 10595580,
+          "output_start_sample": 52294,
+          "output_end_sample": 56496,
+          "count": 4202,
+          "speed": 1.1270823417420277,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10595580,
+          "source_end_sample": 10600317,
+          "output_start_sample": 56496,
+          "output_end_sample": 60431,
+          "count": 3935,
+          "speed": 1.2038119440914867,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10600317,
+          "source_end_sample": 10605053,
+          "output_start_sample": 60431,
+          "output_end_sample": 64218,
+          "count": 3787,
+          "speed": 1.250594137839979,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10605053,
+          "source_end_sample": 10609790,
+          "output_start_sample": 64218,
+          "output_end_sample": 68002,
+          "count": 3784,
+          "speed": 1.2518498942917549,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10609790,
+          "source_end_sample": 10614526,
+          "output_start_sample": 68002,
+          "output_end_sample": 71925,
+          "count": 3923,
+          "speed": 1.2072393576344633,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10614526,
+          "source_end_sample": 10619263,
+          "output_start_sample": 71925,
+          "output_end_sample": 76100,
+          "count": 4175,
+          "speed": 1.1346107784431139,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10619263,
+          "source_end_sample": 10623999,
+          "output_start_sample": 76100,
+          "output_end_sample": 80568,
+          "count": 4468,
+          "speed": 1.0599820948970458,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10623999,
+          "source_end_sample": 10628736,
+          "output_start_sample": 80568,
+          "output_end_sample": 85258,
+          "count": 4690,
+          "speed": 1.0100213219616205,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10628736,
+          "source_end_sample": 10648642,
+          "output_start_sample": 85258,
+          "output_end_sample": 105163,
+          "count": 19905,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 10648642,
+          "source_end_sample": 10653350,
+          "output_start_sample": 105163,
+          "output_end_sample": 109900,
+          "count": 4737,
+          "speed": 0.9938779818450496,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10653350,
+          "source_end_sample": 10658059,
+          "output_start_sample": 109900,
+          "output_end_sample": 114774,
+          "count": 4874,
+          "speed": 0.9661469019286008,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10658059,
+          "source_end_sample": 10662768,
+          "output_start_sample": 114774,
+          "output_end_sample": 119857,
+          "count": 5083,
+          "speed": 0.9264214046822743,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10662768,
+          "source_end_sample": 10667477,
+          "output_start_sample": 119857,
+          "output_end_sample": 125161,
+          "count": 5304,
+          "speed": 0.8878205128205128,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10667477,
+          "source_end_sample": 10672186,
+          "output_start_sample": 125161,
+          "output_end_sample": 130654,
+          "count": 5493,
+          "speed": 0.8572728927726196,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10672186,
+          "source_end_sample": 10676894,
+          "output_start_sample": 130654,
+          "output_end_sample": 136277,
+          "count": 5623,
+          "speed": 0.8372754757247021,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10676894,
+          "source_end_sample": 10681603,
+          "output_start_sample": 136277,
+          "output_end_sample": 141952,
+          "count": 5675,
+          "speed": 0.8297797356828194,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10681603,
+          "source_end_sample": 10686312,
+          "output_start_sample": 141952,
+          "output_end_sample": 147596,
+          "count": 5644,
+          "speed": 0.8343373493975904,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10686312,
+          "source_end_sample": 10691021,
+          "output_start_sample": 147596,
+          "output_end_sample": 153130,
+          "count": 5534,
+          "speed": 0.8509215757137695,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10691021,
+          "source_end_sample": 10695730,
+          "output_start_sample": 153130,
+          "output_end_sample": 158482,
+          "count": 5352,
+          "speed": 0.8798579970104634,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10695730,
+          "source_end_sample": 10700438,
+          "output_start_sample": 158482,
+          "output_end_sample": 163600,
+          "count": 5118,
+          "speed": 0.9198905822586948,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10700438,
+          "source_end_sample": 10705147,
+          "output_start_sample": 163600,
+          "output_end_sample": 168449,
+          "count": 4849,
+          "speed": 0.9711280676428129,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10705147,
+          "source_end_sample": 10709856,
+          "output_start_sample": 168449,
+          "output_end_sample": 173018,
+          "count": 4569,
+          "speed": 1.0306412781790326,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10709856,
+          "source_end_sample": 10714565,
+          "output_start_sample": 173018,
+          "output_end_sample": 177318,
+          "count": 4300,
+          "speed": 1.0951162790697675,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10714565,
+          "source_end_sample": 10719274,
+          "output_start_sample": 177318,
+          "output_end_sample": 181382,
+          "count": 4064,
+          "speed": 1.15871062992126,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10719274,
+          "source_end_sample": 10723982,
+          "output_start_sample": 181382,
+          "output_end_sample": 185266,
+          "count": 3884,
+          "speed": 1.212152420185376,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10723982,
+          "source_end_sample": 10728691,
+          "output_start_sample": 185266,
+          "output_end_sample": 189040,
+          "count": 3774,
+          "speed": 1.2477477477477477,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10728691,
+          "source_end_sample": 10733400,
+          "output_start_sample": 189040,
+          "output_end_sample": 192782,
+          "count": 3742,
+          "speed": 1.2584179583110635,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10733400,
+          "source_end_sample": 10738109,
+          "output_start_sample": 192782,
+          "output_end_sample": 196577,
+          "count": 3795,
+          "speed": 1.2408432147562583,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10738109,
+          "source_end_sample": 10742818,
+          "output_start_sample": 196577,
+          "output_end_sample": 200502,
+          "count": 3925,
+          "speed": 1.1997452229299364,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10742818,
+          "source_end_sample": 10747526,
+          "output_start_sample": 200502,
+          "output_end_sample": 204616,
+          "count": 4114,
+          "speed": 1.1443850267379678,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10747526,
+          "source_end_sample": 10752235,
+          "output_start_sample": 204616,
+          "output_end_sample": 208950,
+          "count": 4334,
+          "speed": 1.0865251499769266,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10752235,
+          "source_end_sample": 10756944,
+          "output_start_sample": 208950,
+          "output_end_sample": 213493,
+          "count": 4543,
+          "speed": 1.0365397314549858,
+          "identity": false
+        },
+        {
+          "source_start_sample": 10756944,
+          "source_end_sample": 10761653,
+          "output_start_sample": 213493,
+          "output_end_sample": 218174,
+          "count": 4681,
+          "speed": 1.0059816278572955,
+          "identity": false
+        }
+      ],
+      "effect_envelopes": [
+        {
+          "center": 1.9561999999999955,
+          "zoom_peak": 1.035,
+          "zoom_half_width": 0.22,
+          "brightness_peak": 0.045,
+          "brightness_half_width": 0.08,
+          "curve": "raised_cosine_squared",
+          "clip_local": true
+        }
+      ],
+      "video": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\clip-000-h264_qsv.mp4",
+      "game_audio": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\game-000.wav",
+      "encoder": "h264_qsv",
+      "source_audio_end_rounding_seconds": -1.6666666653009088e-05
+    },
+    {
+      "source_start": 231.8336,
+      "source_end": 235.76355170068027,
+      "output_start": 4.5452999999999975,
+      "output_end": 8.475251700680271,
+      "music_start": 20.7993,
+      "music_end": 24.729251700680273,
+      "speed": 1.0,
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "index": 1,
+      "frame_start": 273,
+      "frame_end": 509,
+      "frame_count": 236,
+      "sample_start": 218174,
+      "sample_end": 406812,
+      "sample_count": 188638,
+      "source_sample_start": 11128013,
+      "video_phase_seconds": -0.004700000000002369,
+      "events": [
+        {
+          "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+          "source_audio_event": 234.469,
+          "source_visual_event": 234.5,
+          "confidence": 1.0,
+          "confirmed": true,
+          "source_duration": 505.034014,
+          "encounter_start": 233.0,
+          "encounter_end": 235.65,
+          "confirmation": "POV firing/ammo and skull-emblem frame review plus high-frequency waveform attack; full-track librosa local-threshold onsets near tracked beats",
+          "confidence_kind": "manual_calibration_label_not_probability",
+          "label_id": "1v9-2",
+          "context_review": "Assistant inspected 4fps full-frame contact sheet spanning five seconds. Bounds preserve sampled local setup/outcome, not exhaustive match/kill labeling.",
+          "audio_offset": 2.635400000000004,
+          "visual_offset": 2.66640000000001,
+          "output_audio_event": 7.180700000000002,
+          "output_visual_event": 7.2117000000000075,
+          "predicted_audio_event": 7.180700000000002,
+          "predicted_visual_event": 7.2117000000000075
+        }
+      ],
+      "time_map": {
+        "duration": 3.9299517006802773,
+        "protected": [
+          [
+            2.455400000000004,
+            2.8464000000000103
+          ]
+        ],
+        "gaps": [
+          [
+            0.0,
+            2.455400000000004
+          ],
+          [
+            2.8464000000000103,
+            3.9299517006802773
+          ]
+        ],
+        "anchors": [
+          0.0,
+          2.635400000000004,
+          2.66640000000001,
+          3.9299517006802773
+        ],
+        "strength": 0.06,
+        "min_speed": 0.75,
+        "max_speed": 1.35,
+        "direction": "source_local_seconds_to_output_local_seconds",
+        "curve": "t + strength*gap_length*64*u^3*(1-u)^3; C2 identity at gap edges",
+        "playback_speed_bounds": [
+          0.8291351286586903,
+          1.2595664462156133
+        ]
+      },
+      "audio_segments": [
+        {
+          "source_start_sample": 11128013,
+          "source_end_sample": 11132727,
+          "output_start_sample": 0,
+          "output_end_sample": 4740,
+          "count": 4740,
+          "speed": 0.9945147679324895,
+          "identity": false
+        },
+        {
+          "source_start_sample": 11132727,
+          "source_end_sample": 11137442,
+          "output_start_sample": 4740,
+          "output_end_sample": 9610,
+          "count": 4870,
+          "speed": 0.9681724845995893,
+          "identity": false
+        },
+        {
+          "source_start_sample": 11137442,
+          "source_end_sample": 11142156,
+          "output_start_sample": 9610,
+          "output_end_sample": 14676,
+          "count": 5066,
+          "speed": 0.9305171733122779,
+          "identity": false
+        },
+        {
+          "source_start_sample": 11142156,
+          "source_end_sample": 11146870,
+          "output_start_sample": 14676,
+          "output_end_sample": 19957,
+          "count": 5281,
+          "speed": 0.8926339708388563,
+          "identity": false
+        },
+        {
+          "source_start_sample": 11146870,
+          "source_end_sample": 11151585,
+          "output_start_sample": 19957,
+          "output_end_sample": 25426,
+          "count": 5469,
+          "speed": 0.8621320168220882,
+          "identity": false
+        },
+        {
+          "source_start_sample": 11151585,
+          "source_end_sample": 11156299,
+          "output_start_sample": 25426,
+          "output_end_sample": 31033,
+          "count": 5607,
+          "speed": 0.8407347957909755,
+          "identity": false
+        },
+        {
+          "source_start_sample": 11156299,
+          "source_end_sample": 11161013,
+          "output_start_sample": 31033,
+          "output_end_sample": 36709,
+          "count": 5676,
+          "speed": 0.8305144467935166,
+          "identity": false
+        },
+        {
+          "source_start_sample": 11161013,
+          "source_end_sample": 11165728,
+          "output_start_sample": 36709,
+          "output_end_sample": 42378,
+          "count": 5669,
+          "speed": 0.8317163520903158,
+          "identity": false
+        },
+        {
+          "source_start_sample": 11165728,
+          "source_end_sample": 11170442,
+          "output_start_sample": 42378,
+          "output_end_sample": 47965,
+          "count": 5587,
+          "speed": 0.843744406658314,
+          "identity": false
+        },
+        {
+          "source_start_sample": 11170442,
+          "source_end_sample": 11175156,
+          "output_start_sample": 47965,
+          "output_end_sample": 53401,
+          "count": 5436,
+          "speed": 0.8671817512877116,
+          "identity": false
+        },
+        {
+          "source_start_sample": 11175156,
+          "source_end_sample": 11179871,
+          "output_start_sample": 53401,
+          "output_end_sample": 58629,
+          "count": 5228,
+          "speed": 0.9018745218056619,
+          "identity": false
+        },
+        {
+          "source_start_sample": 11179871,
+          "source_end_sample": 11184585,
+          "output_start_sample": 58629,
+          "output_end_sample": 63610,
+          "count": 4981,
+          "speed": 0.9463963059626581,
+          "identity": false
+        },
+        {
+          "source_start_sample": 11184585,
+          "source_end_sample": 11189300,
+          "output_start_sample": 63610,
+          "output_end_sample": 68325,
+          "count": 4715,
+          "speed": 1.0,
+          "identity": false
+        },
+        {
+          "source_start_sample": 11189300,
+          "source_end_sample": 11194014,
+          "output_start_sample": 68325,
+          "output_end_sample": 72772,
+          "count": 4447,
+          "speed": 1.0600404767258826,
+          "identity": false
+        },
+        {
+          "source_start_sample": 11194014,
+          "source_end_sample": 11198728,
+          "output_start_sample": 72772,
+          "output_end_sample": 76972,
+          "count": 4200,
+          "speed": 1.1223809523809525,
+          "identity": false
+        },
+        {
+          "source_start_sample": 11198728,
+          "source_end_sample": 11203443,
+          "output_start_sample": 76972,
+          "output_end_sample": 80966,
+          "count": 3994,
+          "speed": 1.1805207811717577,
+          "identity": false
+        },
+        {
+          "source_start_sample": 11203443,
+          "source_end_sample": 11208157,
+          "output_start_sample": 80966,
+          "output_end_sample": 84808,
+          "count": 3842,
+          "speed": 1.2269651223321187,
+          "identity": false
+        },
+        {
+          "source_start_sample": 11208157,
+          "source_end_sample": 11212871,
+          "output_start_sample": 84808,
+          "output_end_sample": 88567,
+          "count": 3759,
+          "speed": 1.2540569300345836,
+          "identity": false
+        },
+        {
+          "source_start_sample": 11212871,
+          "source_end_sample": 11217586,
+          "output_start_sample": 88567,
+          "output_end_sample": 92320,
+          "count": 3753,
+          "speed": 1.25632827071676,
+          "identity": false
+        },
+        {
+          "source_start_sample": 11217586,
+          "source_end_sample": 11222300,
+          "output_start_sample": 92320,
+          "output_end_sample": 96142,
+          "count": 3822,
+          "speed": 1.2333856619570904,
+          "identity": false
+        },
+        {
+          "source_start_sample": 11222300,
+          "source_end_sample": 11227015,
+          "output_start_sample": 96142,
+          "output_end_sample": 100101,
+          "count": 3959,
+          "speed": 1.1909573124526396,
+          "identity": false
+        },
+        {
+          "source_start_sample": 11227015,
+          "source_end_sample": 11231729,
+          "output_start_sample": 100101,
+          "output_end_sample": 104249,
+          "count": 4148,
+          "speed": 1.1364513018322082,
+          "identity": false
+        },
+        {
+          "source_start_sample": 11231729,
+          "source_end_sample": 11236443,
+          "output_start_sample": 104249,
+          "output_end_sample": 108611,
+          "count": 4362,
+          "speed": 1.080696928014672,
+          "identity": false
+        },
+        {
+          "source_start_sample": 11236443,
+          "source_end_sample": 11241158,
+          "output_start_sample": 108611,
+          "output_end_sample": 113171,
+          "count": 4560,
+          "speed": 1.0339912280701755,
+          "identity": false
+        },
+        {
+          "source_start_sample": 11241158,
+          "source_end_sample": 11245872,
+          "output_start_sample": 113171,
+          "output_end_sample": 117860,
+          "count": 4689,
+          "speed": 1.0053316272126254,
+          "identity": false
+        },
+        {
+          "source_start_sample": 11245872,
+          "source_end_sample": 11264640,
+          "output_start_sample": 117860,
+          "output_end_sample": 136628,
+          "count": 18768,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 11264640,
+          "source_end_sample": 11269368,
+          "output_start_sample": 136628,
+          "output_end_sample": 141469,
+          "count": 4841,
+          "speed": 0.9766577153480686,
+          "identity": false
+        },
+        {
+          "source_start_sample": 11269368,
+          "source_end_sample": 11274096,
+          "output_start_sample": 141469,
+          "output_end_sample": 146742,
+          "count": 5273,
+          "speed": 0.8966432770718756,
+          "identity": false
+        },
+        {
+          "source_start_sample": 11274096,
+          "source_end_sample": 11278825,
+          "output_start_sample": 146742,
+          "output_end_sample": 152371,
+          "count": 5629,
+          "speed": 0.84011369692663,
+          "identity": false
+        },
+        {
+          "source_start_sample": 11278825,
+          "source_end_sample": 11283553,
+          "output_start_sample": 152371,
+          "output_end_sample": 158015,
+          "count": 5644,
+          "speed": 0.8377037562012757,
+          "identity": false
+        },
+        {
+          "source_start_sample": 11283553,
+          "source_end_sample": 11288281,
+          "output_start_sample": 158015,
+          "output_end_sample": 163313,
+          "count": 5298,
+          "speed": 0.8924122310305775,
+          "identity": false
+        },
+        {
+          "source_start_sample": 11288281,
+          "source_end_sample": 11293009,
+          "output_start_sample": 163313,
+          "output_end_sample": 168041,
+          "count": 4728,
+          "speed": 1.0,
+          "identity": false
+        },
+        {
+          "source_start_sample": 11293009,
+          "source_end_sample": 11297738,
+          "output_start_sample": 168041,
+          "output_end_sample": 172200,
+          "count": 4159,
+          "speed": 1.137052176003847,
+          "identity": false
+        },
+        {
+          "source_start_sample": 11297738,
+          "source_end_sample": 11302466,
+          "output_start_sample": 172200,
+          "output_end_sample": 176012,
+          "count": 3812,
+          "speed": 1.2402938090241342,
+          "identity": false
+        },
+        {
+          "source_start_sample": 11302466,
+          "source_end_sample": 11307194,
+          "output_start_sample": 176012,
+          "output_end_sample": 179839,
+          "count": 3827,
+          "speed": 1.2354324536190227,
+          "identity": false
+        },
+        {
+          "source_start_sample": 11307194,
+          "source_end_sample": 11311922,
+          "output_start_sample": 179839,
+          "output_end_sample": 184023,
+          "count": 4184,
+          "speed": 1.130019120458891,
+          "identity": false
+        },
+        {
+          "source_start_sample": 11311922,
+          "source_end_sample": 11316650,
+          "output_start_sample": 184023,
+          "output_end_sample": 188638,
+          "count": 4615,
+          "speed": 1.0244853737811483,
+          "identity": false
+        }
+      ],
+      "effect_envelopes": [
+        {
+          "center": 2.635400000000004,
+          "zoom_peak": 1.035,
+          "zoom_half_width": 0.22,
+          "brightness_peak": 0.045,
+          "brightness_half_width": 0.08,
+          "curve": "raised_cosine_squared",
+          "clip_local": true
+        }
+      ],
+      "video": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\clip-001-h264_qsv.mp4",
+      "game_audio": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\game-001.wav",
+      "encoder": "h264_qsv",
+      "source_audio_end_rounding_seconds": 1.0799319738907798e-05
+    },
+    {
+      "source_start": 263.2303517006803,
+      "source_end": 267.7931,
+      "output_start": 8.475251700680271,
+      "output_end": 13.038,
+      "music_start": 24.729251700680273,
+      "music_end": 29.292,
+      "speed": 1.0,
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "index": 2,
+      "frame_start": 509,
+      "frame_end": 782,
+      "frame_count": 273,
+      "sample_start": 406812,
+      "sample_end": 625824,
+      "sample_count": 219012,
+      "source_sample_start": 12635057,
+      "video_phase_seconds": -0.008081632653061277,
+      "events": [
+        {
+          "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+          "source_audio_event": 265.7033,
+          "source_visual_event": 265.7333,
+          "confidence": 1.0,
+          "confirmed": true,
+          "source_duration": 505.034014,
+          "encounter_start": 264.4,
+          "encounter_end": 267.05,
+          "confirmation": "POV firing/ammo and skull-emblem frame review plus high-frequency waveform attack; full-track librosa local-threshold onsets near tracked beats",
+          "confidence_kind": "manual_calibration_label_not_probability",
+          "label_id": "1v9-3",
+          "context_review": "Assistant inspected 4fps full-frame contact sheet spanning five seconds. Bounds preserve sampled local setup/outcome, not exhaustive match/kill labeling.",
+          "audio_offset": 2.4729482993197394,
+          "visual_offset": 2.502948299319712,
+          "output_audio_event": 10.948199999999986,
+          "output_visual_event": 10.978199999999958,
+          "predicted_audio_event": 10.948199999999986,
+          "predicted_visual_event": 10.978199999999958
+        }
+      ],
+      "time_map": {
+        "duration": 4.562748299319708,
+        "protected": [
+          [
+            2.292948299319739,
+            2.6829482993197122
+          ]
+        ],
+        "gaps": [
+          [
+            0.0,
+            2.292948299319739
+          ],
+          [
+            2.6829482993197122,
+            4.562748299319708
+          ]
+        ],
+        "anchors": [
+          0.0,
+          2.4729482993197394,
+          2.502948299319712,
+          4.562748299319708
+        ],
+        "strength": 0.06,
+        "min_speed": 0.75,
+        "max_speed": 1.35,
+        "direction": "source_local_seconds_to_output_local_seconds",
+        "curve": "t + strength*gap_length*64*u^3*(1-u)^3; C2 identity at gap edges",
+        "playback_speed_bounds": [
+          0.8291351286586903,
+          1.2595664462156133
+        ]
+      },
+      "audio_segments": [
+        {
+          "source_start_sample": 12635057,
+          "source_end_sample": 12639842,
+          "output_start_sample": 0,
+          "output_end_sample": 4816,
+          "count": 4816,
+          "speed": 0.9935631229235881,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12639842,
+          "source_end_sample": 12644627,
+          "output_start_sample": 4816,
+          "output_end_sample": 9782,
+          "count": 4966,
+          "speed": 0.9635521546516311,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12644627,
+          "source_end_sample": 12649413,
+          "output_start_sample": 9782,
+          "output_end_sample": 14973,
+          "count": 5191,
+          "speed": 0.9219803506068195,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12649413,
+          "source_end_sample": 12654198,
+          "output_start_sample": 14973,
+          "output_end_sample": 20394,
+          "count": 5421,
+          "speed": 0.8826784726065302,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12654198,
+          "source_end_sample": 12658983,
+          "output_start_sample": 20394,
+          "output_end_sample": 26008,
+          "count": 5614,
+          "speed": 0.8523334520840755,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12658983,
+          "source_end_sample": 12663769,
+          "output_start_sample": 26008,
+          "output_end_sample": 31741,
+          "count": 5733,
+          "speed": 0.8348159776731205,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12663769,
+          "source_end_sample": 12668554,
+          "output_start_sample": 31741,
+          "output_end_sample": 37508,
+          "count": 5767,
+          "speed": 0.8297208253858158,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12668554,
+          "source_end_sample": 12673339,
+          "output_start_sample": 37508,
+          "output_end_sample": 43216,
+          "count": 5708,
+          "speed": 0.8382971268395235,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12673339,
+          "source_end_sample": 12678124,
+          "output_start_sample": 43216,
+          "output_end_sample": 48779,
+          "count": 5563,
+          "speed": 0.8601474024806759,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12678124,
+          "source_end_sample": 12682910,
+          "output_start_sample": 48779,
+          "output_end_sample": 54125,
+          "count": 5346,
+          "speed": 0.8952487841376731,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12682910,
+          "source_end_sample": 12687695,
+          "output_start_sample": 54125,
+          "output_end_sample": 59205,
+          "count": 5080,
+          "speed": 0.9419291338582677,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12687695,
+          "source_end_sample": 12692480,
+          "output_start_sample": 59205,
+          "output_end_sample": 63990,
+          "count": 4785,
+          "speed": 1.0,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12692480,
+          "source_end_sample": 12697266,
+          "output_start_sample": 63990,
+          "output_end_sample": 68481,
+          "count": 4491,
+          "speed": 1.0656869294143843,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12697266,
+          "source_end_sample": 12702051,
+          "output_start_sample": 68481,
+          "output_end_sample": 72705,
+          "count": 4224,
+          "speed": 1.1328125,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12702051,
+          "source_end_sample": 12706836,
+          "output_start_sample": 72705,
+          "output_end_sample": 76713,
+          "count": 4008,
+          "speed": 1.1938622754491017,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12706836,
+          "source_end_sample": 12711621,
+          "output_start_sample": 76713,
+          "output_end_sample": 80576,
+          "count": 3863,
+          "speed": 1.2386746052290964,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12711621,
+          "source_end_sample": 12716407,
+          "output_start_sample": 80576,
+          "output_end_sample": 84380,
+          "count": 3804,
+          "speed": 1.258149316508938,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12716407,
+          "source_end_sample": 12721192,
+          "output_start_sample": 84380,
+          "output_end_sample": 88216,
+          "count": 3836,
+          "speed": 1.247393117831074,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12721192,
+          "source_end_sample": 12725977,
+          "output_start_sample": 88216,
+          "output_end_sample": 92174,
+          "count": 3958,
+          "speed": 1.208943911066195,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12725977,
+          "source_end_sample": 12730763,
+          "output_start_sample": 92174,
+          "output_end_sample": 96322,
+          "count": 4148,
+          "speed": 1.1538090646094503,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12730763,
+          "source_end_sample": 12735548,
+          "output_start_sample": 96322,
+          "output_end_sample": 100703,
+          "count": 4381,
+          "speed": 1.092216388952294,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12735548,
+          "source_end_sample": 12740333,
+          "output_start_sample": 100703,
+          "output_end_sample": 105307,
+          "count": 4604,
+          "speed": 1.0393136403127714,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12740333,
+          "source_end_sample": 12745118,
+          "output_start_sample": 105307,
+          "output_end_sample": 110062,
+          "count": 4755,
+          "speed": 1.0063091482649842,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12745118,
+          "source_end_sample": 12763838,
+          "output_start_sample": 110062,
+          "output_end_sample": 128782,
+          "count": 18720,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 12763838,
+          "source_end_sample": 12768587,
+          "output_start_sample": 128782,
+          "output_end_sample": 133574,
+          "count": 4792,
+          "speed": 0.9910267111853088,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12768587,
+          "source_end_sample": 12773336,
+          "output_start_sample": 133574,
+          "output_end_sample": 138569,
+          "count": 4995,
+          "speed": 0.9507507507507508,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12773336,
+          "source_end_sample": 12778085,
+          "output_start_sample": 138569,
+          "output_end_sample": 143843,
+          "count": 5274,
+          "speed": 0.9004550625711035,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12778085,
+          "source_end_sample": 12782834,
+          "output_start_sample": 143843,
+          "output_end_sample": 149368,
+          "count": 5525,
+          "speed": 0.8595475113122172,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12782834,
+          "source_end_sample": 12787583,
+          "output_start_sample": 149368,
+          "output_end_sample": 155053,
+          "count": 5685,
+          "speed": 0.8353562005277045,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12787583,
+          "source_end_sample": 12792332,
+          "output_start_sample": 155053,
+          "output_end_sample": 160770,
+          "count": 5717,
+          "speed": 0.8306804267972713,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12792332,
+          "source_end_sample": 12797081,
+          "output_start_sample": 160770,
+          "output_end_sample": 166390,
+          "count": 5620,
+          "speed": 0.8450177935943061,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12797081,
+          "source_end_sample": 12801830,
+          "output_start_sample": 166390,
+          "output_end_sample": 171792,
+          "count": 5402,
+          "speed": 0.8791188448722695,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12801830,
+          "source_end_sample": 12806579,
+          "output_start_sample": 171792,
+          "output_end_sample": 176891,
+          "count": 5099,
+          "speed": 0.9313590900176505,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12806579,
+          "source_end_sample": 12811328,
+          "output_start_sample": 176891,
+          "output_end_sample": 181640,
+          "count": 4749,
+          "speed": 1.0,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12811328,
+          "source_end_sample": 12816077,
+          "output_start_sample": 181640,
+          "output_end_sample": 186039,
+          "count": 4399,
+          "speed": 1.079563537167538,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12816077,
+          "source_end_sample": 12820826,
+          "output_start_sample": 186039,
+          "output_end_sample": 190134,
+          "count": 4095,
+          "speed": 1.1597069597069598,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12820826,
+          "source_end_sample": 12825575,
+          "output_start_sample": 190134,
+          "output_end_sample": 194013,
+          "count": 3879,
+          "speed": 1.2242846094354216,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12825575,
+          "source_end_sample": 12830324,
+          "output_start_sample": 194013,
+          "output_end_sample": 197793,
+          "count": 3780,
+          "speed": 1.2563492063492063,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12830324,
+          "source_end_sample": 12835073,
+          "output_start_sample": 197793,
+          "output_end_sample": 201607,
+          "count": 3814,
+          "speed": 1.2451494493969586,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12835073,
+          "source_end_sample": 12839822,
+          "output_start_sample": 201607,
+          "output_end_sample": 205580,
+          "count": 3973,
+          "speed": 1.1953183991945633,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12839822,
+          "source_end_sample": 12844571,
+          "output_start_sample": 205580,
+          "output_end_sample": 209804,
+          "count": 4224,
+          "speed": 1.1242897727272727,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12844571,
+          "source_end_sample": 12849320,
+          "output_start_sample": 209804,
+          "output_end_sample": 214306,
+          "count": 4502,
+          "speed": 1.0548645046645935,
+          "identity": false
+        },
+        {
+          "source_start_sample": 12849320,
+          "source_end_sample": 12854069,
+          "output_start_sample": 214306,
+          "output_end_sample": 219012,
+          "count": 4706,
+          "speed": 1.0091372715682108,
+          "identity": false
+        }
+      ],
+      "effect_envelopes": [
+        {
+          "center": 2.4729482993197394,
+          "zoom_peak": 1.035,
+          "zoom_half_width": 0.22,
+          "brightness_peak": 0.045,
+          "brightness_half_width": 0.08,
+          "curve": "raised_cosine_squared",
+          "clip_local": true
+        }
+      ],
+      "video": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\clip-002-h264_qsv.mp4",
+      "game_audio": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\game-002.wav",
+      "encoder": "h264_qsv",
+      "source_audio_end_rounding_seconds": 4.1666667129902635e-06
+    },
+    {
+      "source_start": 7.858100000000004,
+      "source_end": 10.911496825396824,
+      "output_start": 13.038,
+      "output_end": 16.091396825396824,
+      "music_start": 29.292,
+      "music_end": 32.345396825396826,
+      "speed": 1.0,
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "index": 3,
+      "frame_start": 782,
+      "frame_end": 965,
+      "frame_count": 183,
+      "sample_start": 625824,
+      "sample_end": 772387,
+      "sample_count": 146563,
+      "source_sample_start": 377189,
+      "video_phase_seconds": 0.004666666666667041,
+      "events": [
+        {
+          "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+          "source_audio_event": 9.646,
+          "source_visual_event": 9.733333333333333,
+          "confidence": 1.0,
+          "confirmed": true,
+          "source_duration": 530.041905,
+          "encounter_start": 8.4,
+          "encounter_end": 10.9,
+          "confirmation": "Historical manual POV shot/outcome preview review plus production temporal first-emblem observation; not automatic profile certification",
+          "confidence_kind": "manual_calibration_label_not_probability",
+          "label_id": "reyna-1",
+          "context_review": "Assistant inspected 4fps full-frame contact sheet spanning five seconds. Bounds preserve sampled local setup/outcome, not exhaustive match/kill labeling.",
+          "audio_offset": 1.787899999999997,
+          "visual_offset": 1.8752333333333286,
+          "output_audio_event": 14.825899999999997,
+          "output_visual_event": 14.913233333333327,
+          "predicted_audio_event": 14.825899999999997,
+          "predicted_visual_event": 14.913233333333327
+        }
+      ],
+      "time_map": {
+        "duration": 3.0533968253968204,
+        "protected": [
+          [
+            1.607899999999997,
+            2.055233333333329
+          ]
+        ],
+        "gaps": [
+          [
+            0.0,
+            1.607899999999997
+          ],
+          [
+            2.055233333333329,
+            3.0533968253968204
+          ]
+        ],
+        "anchors": [
+          0.0,
+          1.787899999999997,
+          1.8752333333333286,
+          3.0533968253968204
+        ],
+        "strength": 0.06,
+        "min_speed": 0.75,
+        "max_speed": 1.35,
+        "direction": "source_local_seconds_to_output_local_seconds",
+        "curve": "t + strength*gap_length*64*u^3*(1-u)^3; C2 identity at gap edges",
+        "playback_speed_bounds": [
+          0.8291351286586903,
+          1.2595664462156133
+        ]
+      },
+      "audio_segments": [
+        {
+          "source_start_sample": 377189,
+          "source_end_sample": 381729,
+          "output_start_sample": 0,
+          "output_end_sample": 4590,
+          "count": 4590,
+          "speed": 0.9891067538126361,
+          "identity": false
+        },
+        {
+          "source_start_sample": 381729,
+          "source_end_sample": 386269,
+          "output_start_sample": 4590,
+          "output_end_sample": 9411,
+          "count": 4821,
+          "speed": 0.9417133374818503,
+          "identity": false
+        },
+        {
+          "source_start_sample": 386269,
+          "source_end_sample": 390809,
+          "output_start_sample": 9411,
+          "output_end_sample": 14530,
+          "count": 5119,
+          "speed": 0.8868919710881031,
+          "identity": false
+        },
+        {
+          "source_start_sample": 390809,
+          "source_end_sample": 395349,
+          "output_start_sample": 14530,
+          "output_end_sample": 19886,
+          "count": 5356,
+          "speed": 0.847647498132935,
+          "identity": false
+        },
+        {
+          "source_start_sample": 395349,
+          "source_end_sample": 399889,
+          "output_start_sample": 19886,
+          "output_end_sample": 25352,
+          "count": 5466,
+          "speed": 0.8305890962312477,
+          "identity": false
+        },
+        {
+          "source_start_sample": 399889,
+          "source_end_sample": 404429,
+          "output_start_sample": 25352,
+          "output_end_sample": 30770,
+          "count": 5418,
+          "speed": 0.8379475821336286,
+          "identity": false
+        },
+        {
+          "source_start_sample": 404429,
+          "source_end_sample": 408968,
+          "output_start_sample": 30770,
+          "output_end_sample": 35991,
+          "count": 5221,
+          "speed": 0.8693736832024517,
+          "identity": false
+        },
+        {
+          "source_start_sample": 408968,
+          "source_end_sample": 413508,
+          "output_start_sample": 35991,
+          "output_end_sample": 40902,
+          "count": 4911,
+          "speed": 0.924455304418652,
+          "identity": false
+        },
+        {
+          "source_start_sample": 413508,
+          "source_end_sample": 418048,
+          "output_start_sample": 40902,
+          "output_end_sample": 45442,
+          "count": 4540,
+          "speed": 1.0,
+          "identity": false
+        },
+        {
+          "source_start_sample": 418048,
+          "source_end_sample": 422588,
+          "output_start_sample": 45442,
+          "output_end_sample": 49611,
+          "count": 4169,
+          "speed": 1.088990165507316,
+          "identity": false
+        },
+        {
+          "source_start_sample": 422588,
+          "source_end_sample": 427128,
+          "output_start_sample": 49611,
+          "output_end_sample": 53469,
+          "count": 3858,
+          "speed": 1.1767755313634007,
+          "identity": false
+        },
+        {
+          "source_start_sample": 427128,
+          "source_end_sample": 431668,
+          "output_start_sample": 53469,
+          "output_end_sample": 57132,
+          "count": 3663,
+          "speed": 1.2394212394212394,
+          "identity": false
+        },
+        {
+          "source_start_sample": 431668,
+          "source_end_sample": 436208,
+          "output_start_sample": 57132,
+          "output_end_sample": 60746,
+          "count": 3614,
+          "speed": 1.2562257885998893,
+          "identity": false
+        },
+        {
+          "source_start_sample": 436208,
+          "source_end_sample": 440748,
+          "output_start_sample": 60746,
+          "output_end_sample": 64469,
+          "count": 3723,
+          "speed": 1.2194466827827022,
+          "identity": false
+        },
+        {
+          "source_start_sample": 440748,
+          "source_end_sample": 445288,
+          "output_start_sample": 64469,
+          "output_end_sample": 68431,
+          "count": 3962,
+          "speed": 1.1458859162039374,
+          "identity": false
+        },
+        {
+          "source_start_sample": 445288,
+          "source_end_sample": 449828,
+          "output_start_sample": 68431,
+          "output_end_sample": 72690,
+          "count": 4259,
+          "speed": 1.065977929091336,
+          "identity": false
+        },
+        {
+          "source_start_sample": 449828,
+          "source_end_sample": 454368,
+          "output_start_sample": 72690,
+          "output_end_sample": 77179,
+          "count": 4489,
+          "speed": 1.0113611049231455,
+          "identity": false
+        },
+        {
+          "source_start_sample": 454368,
+          "source_end_sample": 475840,
+          "output_start_sample": 77179,
+          "output_end_sample": 98651,
+          "count": 21472,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 475840,
+          "source_end_sample": 480631,
+          "output_start_sample": 98651,
+          "output_end_sample": 103577,
+          "count": 4926,
+          "speed": 0.9725943970767357,
+          "identity": false
+        },
+        {
+          "source_start_sample": 480631,
+          "source_end_sample": 485422,
+          "output_start_sample": 103577,
+          "output_end_sample": 108987,
+          "count": 5410,
+          "speed": 0.8855822550831793,
+          "identity": false
+        },
+        {
+          "source_start_sample": 485422,
+          "source_end_sample": 490214,
+          "output_start_sample": 108987,
+          "output_end_sample": 114729,
+          "count": 5742,
+          "speed": 0.8345524207593173,
+          "identity": false
+        },
+        {
+          "source_start_sample": 490214,
+          "source_end_sample": 495005,
+          "output_start_sample": 114729,
+          "output_end_sample": 120359,
+          "count": 5630,
+          "speed": 0.8509769094138544,
+          "identity": false
+        },
+        {
+          "source_start_sample": 495005,
+          "source_end_sample": 499796,
+          "output_start_sample": 120359,
+          "output_end_sample": 125482,
+          "count": 5123,
+          "speed": 0.9351942221354675,
+          "identity": false
+        },
+        {
+          "source_start_sample": 499796,
+          "source_end_sample": 504587,
+          "output_start_sample": 125482,
+          "output_end_sample": 129942,
+          "count": 4460,
+          "speed": 1.0742152466367714,
+          "identity": false
+        },
+        {
+          "source_start_sample": 504587,
+          "source_end_sample": 509378,
+          "output_start_sample": 129942,
+          "output_end_sample": 133893,
+          "count": 3951,
+          "speed": 1.2126044039483674,
+          "identity": false
+        },
+        {
+          "source_start_sample": 509378,
+          "source_end_sample": 514169,
+          "output_start_sample": 133893,
+          "output_end_sample": 137734,
+          "count": 3841,
+          "speed": 1.247331424108305,
+          "identity": false
+        },
+        {
+          "source_start_sample": 514169,
+          "source_end_sample": 518961,
+          "output_start_sample": 137734,
+          "output_end_sample": 141906,
+          "count": 4172,
+          "speed": 1.1486097794822627,
+          "identity": false
+        },
+        {
+          "source_start_sample": 518961,
+          "source_end_sample": 523752,
+          "output_start_sample": 141906,
+          "output_end_sample": 146563,
+          "count": 4657,
+          "speed": 1.028773888769594,
+          "identity": false
+        }
+      ],
+      "effect_envelopes": [
+        {
+          "center": 1.787899999999997,
+          "zoom_peak": 1.035,
+          "zoom_half_width": 0.22,
+          "brightness_peak": 0.045,
+          "brightness_half_width": 0.08,
+          "curve": "raised_cosine_squared",
+          "clip_local": true
+        }
+      ],
+      "video": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\clip-003-h264_qsv.mp4",
+      "game_audio": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\game-003.wav",
+      "encoder": "h264_qsv",
+      "source_audio_end_rounding_seconds": 3.1746031758927984e-06
+    },
+    {
+      "source_start": 90.45269682539683,
+      "source_end": 94.34200000000001,
+      "output_start": 16.091396825396824,
+      "output_end": 19.980699999999995,
+      "music_start": 32.345396825396826,
+      "music_end": 36.2347,
+      "speed": 1.0,
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "index": 4,
+      "frame_start": 965,
+      "frame_end": 1199,
+      "frame_count": 234,
+      "sample_start": 772387,
+      "sample_end": 959074,
+      "sample_count": 186687,
+      "source_sample_start": 4341729,
+      "video_phase_seconds": 0.008063492063492106,
+      "events": [
+        {
+          "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+          "source_audio_event": 92.258,
+          "source_visual_event": 92.33333333333333,
+          "confidence": 1.0,
+          "confirmed": true,
+          "source_duration": 530.041905,
+          "encounter_start": 91.1,
+          "encounter_end": 94.25,
+          "confirmation": "Historical manual POV shot/outcome preview review plus production temporal first-emblem observation; not automatic profile certification",
+          "confidence_kind": "manual_calibration_label_not_probability",
+          "label_id": "reyna-2",
+          "context_review": "Assistant inspected 4fps full-frame contact sheet spanning five seconds. Bounds preserve sampled local setup/outcome, not exhaustive match/kill labeling.",
+          "audio_offset": 1.8053031746031678,
+          "visual_offset": 1.8806365079365008,
+          "output_audio_event": 17.896699999999996,
+          "output_visual_event": 17.97203333333333,
+          "predicted_audio_event": 17.896699999999996,
+          "predicted_visual_event": 17.97203333333333
+        }
+      ],
+      "time_map": {
+        "duration": 3.889303174603185,
+        "protected": [
+          [
+            1.6253031746031679,
+            2.060636507936501
+          ]
+        ],
+        "gaps": [
+          [
+            0.0,
+            1.6253031746031679
+          ],
+          [
+            2.060636507936501,
+            3.889303174603185
+          ]
+        ],
+        "anchors": [
+          0.0,
+          1.8053031746031678,
+          1.8806365079365008,
+          3.889303174603185
+        ],
+        "strength": 0.06,
+        "min_speed": 0.75,
+        "max_speed": 1.35,
+        "direction": "source_local_seconds_to_output_local_seconds",
+        "curve": "t + strength*gap_length*64*u^3*(1-u)^3; C2 identity at gap edges",
+        "playback_speed_bounds": [
+          0.8291351286586903,
+          1.2595664462156133
+        ]
+      },
+      "audio_segments": [
+        {
+          "source_start_sample": 4341729,
+          "source_end_sample": 4346319,
+          "output_start_sample": 0,
+          "output_end_sample": 4640,
+          "count": 4640,
+          "speed": 0.9892241379310345,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4346319,
+          "source_end_sample": 4350908,
+          "output_start_sample": 4640,
+          "output_end_sample": 9513,
+          "count": 4873,
+          "speed": 0.9417196798686641,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4350908,
+          "source_end_sample": 4355497,
+          "output_start_sample": 9513,
+          "output_end_sample": 14687,
+          "count": 5174,
+          "speed": 0.8869346733668342,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4355497,
+          "source_end_sample": 4360086,
+          "output_start_sample": 14687,
+          "output_end_sample": 20102,
+          "count": 5415,
+          "speed": 0.847460757156048,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4360086,
+          "source_end_sample": 4364675,
+          "output_start_sample": 20102,
+          "output_end_sample": 25626,
+          "count": 5524,
+          "speed": 0.8307385952208545,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4364675,
+          "source_end_sample": 4369264,
+          "output_start_sample": 25626,
+          "output_end_sample": 31103,
+          "count": 5477,
+          "speed": 0.8378674456819427,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4369264,
+          "source_end_sample": 4373853,
+          "output_start_sample": 31103,
+          "output_end_sample": 36381,
+          "count": 5278,
+          "speed": 0.8694581280788177,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4373853,
+          "source_end_sample": 4378442,
+          "output_start_sample": 36381,
+          "output_end_sample": 41345,
+          "count": 4964,
+          "speed": 0.9244560838033844,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4378442,
+          "source_end_sample": 4383031,
+          "output_start_sample": 41345,
+          "output_end_sample": 45934,
+          "count": 4589,
+          "speed": 1.0,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4383031,
+          "source_end_sample": 4387620,
+          "output_start_sample": 45934,
+          "output_end_sample": 50148,
+          "count": 4214,
+          "speed": 1.0889890840056953,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4387620,
+          "source_end_sample": 4392209,
+          "output_start_sample": 50148,
+          "output_end_sample": 54048,
+          "count": 3900,
+          "speed": 1.1766666666666667,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4392209,
+          "source_end_sample": 4396799,
+          "output_start_sample": 54048,
+          "output_end_sample": 57750,
+          "count": 3702,
+          "speed": 1.239870340356564,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4396799,
+          "source_end_sample": 4401388,
+          "output_start_sample": 57750,
+          "output_end_sample": 61403,
+          "count": 3653,
+          "speed": 1.2562277580071175,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4401388,
+          "source_end_sample": 4405977,
+          "output_start_sample": 61403,
+          "output_end_sample": 65167,
+          "count": 3764,
+          "speed": 1.219181721572795,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4405977,
+          "source_end_sample": 4410566,
+          "output_start_sample": 65167,
+          "output_end_sample": 69172,
+          "count": 4005,
+          "speed": 1.1458177278401998,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4410566,
+          "source_end_sample": 4415155,
+          "output_start_sample": 69172,
+          "output_end_sample": 73476,
+          "count": 4304,
+          "speed": 1.066217472118959,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4415155,
+          "source_end_sample": 4419744,
+          "output_start_sample": 73476,
+          "output_end_sample": 78015,
+          "count": 4539,
+          "speed": 1.011015642211941,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4419744,
+          "source_end_sample": 4440640,
+          "output_start_sample": 78015,
+          "output_end_sample": 98911,
+          "count": 20896,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 4440640,
+          "source_end_sample": 4445260,
+          "output_start_sample": 98911,
+          "output_end_sample": 103572,
+          "count": 4661,
+          "speed": 0.9912036043767432,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4445260,
+          "source_end_sample": 4449880,
+          "output_start_sample": 103572,
+          "output_end_sample": 108432,
+          "count": 4860,
+          "speed": 0.9506172839506173,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4449880,
+          "source_end_sample": 4454499,
+          "output_start_sample": 108432,
+          "output_end_sample": 113562,
+          "count": 5130,
+          "speed": 0.9003898635477583,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4454499,
+          "source_end_sample": 4459119,
+          "output_start_sample": 113562,
+          "output_end_sample": 118937,
+          "count": 5375,
+          "speed": 0.8595348837209302,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4459119,
+          "source_end_sample": 4463739,
+          "output_start_sample": 118937,
+          "output_end_sample": 124467,
+          "count": 5530,
+          "speed": 0.8354430379746836,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4463739,
+          "source_end_sample": 4468359,
+          "output_start_sample": 124467,
+          "output_end_sample": 130029,
+          "count": 5562,
+          "speed": 0.8306364617044228,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4468359,
+          "source_end_sample": 4472979,
+          "output_start_sample": 130029,
+          "output_end_sample": 135496,
+          "count": 5467,
+          "speed": 0.8450704225352113,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4472979,
+          "source_end_sample": 4477598,
+          "output_start_sample": 135496,
+          "output_end_sample": 140751,
+          "count": 5255,
+          "speed": 0.8789724072312084,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4477598,
+          "source_end_sample": 4482218,
+          "output_start_sample": 140751,
+          "output_end_sample": 145712,
+          "count": 4961,
+          "speed": 0.9312638580931264,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4482218,
+          "source_end_sample": 4486838,
+          "output_start_sample": 145712,
+          "output_end_sample": 150331,
+          "count": 4619,
+          "speed": 1.0002164970772895,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4486838,
+          "source_end_sample": 4491458,
+          "output_start_sample": 150331,
+          "output_end_sample": 154611,
+          "count": 4280,
+          "speed": 1.0794392523364487,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4491458,
+          "source_end_sample": 4496077,
+          "output_start_sample": 154611,
+          "output_end_sample": 158594,
+          "count": 3983,
+          "speed": 1.1596786341953302,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4496077,
+          "source_end_sample": 4500697,
+          "output_start_sample": 158594,
+          "output_end_sample": 162368,
+          "count": 3774,
+          "speed": 1.2241653418124006,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4500697,
+          "source_end_sample": 4505317,
+          "output_start_sample": 162368,
+          "output_end_sample": 166045,
+          "count": 3677,
+          "speed": 1.2564590698939353,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4505317,
+          "source_end_sample": 4509937,
+          "output_start_sample": 166045,
+          "output_end_sample": 169755,
+          "count": 3710,
+          "speed": 1.2452830188679245,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4509937,
+          "source_end_sample": 4514557,
+          "output_start_sample": 169755,
+          "output_end_sample": 173620,
+          "count": 3865,
+          "speed": 1.1953428201811125,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4514557,
+          "source_end_sample": 4519176,
+          "output_start_sample": 173620,
+          "output_end_sample": 177729,
+          "count": 4109,
+          "speed": 1.1241177902165977,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4519176,
+          "source_end_sample": 4523796,
+          "output_start_sample": 177729,
+          "output_end_sample": 182109,
+          "count": 4380,
+          "speed": 1.0547945205479452,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4523796,
+          "source_end_sample": 4528416,
+          "output_start_sample": 182109,
+          "output_end_sample": 186687,
+          "count": 4578,
+          "speed": 1.0091743119266054,
+          "identity": false
+        }
+      ],
+      "effect_envelopes": [
+        {
+          "center": 1.8053031746031678,
+          "zoom_peak": 1.035,
+          "zoom_half_width": 0.22,
+          "brightness_peak": 0.045,
+          "brightness_half_width": 0.08,
+          "curve": "raised_cosine_squared",
+          "clip_local": true
+        }
+      ],
+      "video": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\clip-004-h264_qsv.mp4",
+      "game_audio": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\game-004.wav",
+      "encoder": "h264_qsv",
+      "source_audio_end_rounding_seconds": -1.4210854715202004e-14
+    },
+    {
+      "source_start": 186.7393,
+      "source_end": 190.28619999999998,
+      "output_start": 19.980699999999995,
+      "output_end": 23.527599999999996,
+      "music_start": 36.2347,
+      "music_end": 39.7816,
+      "speed": 1.0,
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "index": 5,
+      "frame_start": 1199,
+      "frame_end": 1412,
+      "frame_count": 213,
+      "sample_start": 959074,
+      "sample_end": 1129325,
+      "sample_count": 170251,
+      "source_sample_start": 8963486,
+      "video_phase_seconds": -0.0026333333333390385,
+      "events": [
+        {
+          "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+          "source_audio_event": 188.028,
+          "source_visual_event": 188.13333333333333,
+          "confidence": 1.0,
+          "confirmed": true,
+          "source_duration": 530.041905,
+          "encounter_start": 186.9,
+          "encounter_end": 189.45,
+          "confirmation": "Historical manual POV shot/outcome preview review plus production temporal first-emblem observation; not automatic profile certification",
+          "confidence_kind": "manual_calibration_label_not_probability",
+          "label_id": "reyna-4",
+          "context_review": "Assistant inspected 4fps full-frame contact sheet spanning five seconds. Bounds preserve sampled local setup/outcome, not exhaustive match/kill labeling.",
+          "audio_offset": 1.2887000000000057,
+          "visual_offset": 1.39403333333334,
+          "output_audio_event": 21.26939999999999,
+          "output_visual_event": 21.374733333333324,
+          "predicted_audio_event": 21.26939999999999,
+          "predicted_visual_event": 21.374733333333324
+        }
+      ],
+      "time_map": {
+        "duration": 3.5468999999999937,
+        "protected": [
+          [
+            1.1087000000000058,
+            1.5740333333333398
+          ]
+        ],
+        "gaps": [
+          [
+            0.0,
+            1.1087000000000058
+          ],
+          [
+            1.5740333333333398,
+            3.5468999999999937
+          ]
+        ],
+        "anchors": [
+          0.0,
+          1.2887000000000057,
+          1.39403333333334,
+          3.5468999999999937
+        ],
+        "strength": 0.06,
+        "min_speed": 0.75,
+        "max_speed": 1.35,
+        "direction": "source_local_seconds_to_output_local_seconds",
+        "curve": "t + strength*gap_length*64*u^3*(1-u)^3; C2 identity at gap edges",
+        "playback_speed_bounds": [
+          0.8291351286586903,
+          1.2595664462156133
+        ]
+      },
+      "audio_segments": [
+        {
+          "source_start_sample": 8963486,
+          "source_end_sample": 8967921,
+          "output_start_sample": 0,
+          "output_end_sample": 4525,
+          "count": 4525,
+          "speed": 0.980110497237569,
+          "identity": false
+        },
+        {
+          "source_start_sample": 8967921,
+          "source_end_sample": 8972356,
+          "output_start_sample": 4525,
+          "output_end_sample": 9417,
+          "count": 4892,
+          "speed": 0.9065821749795585,
+          "identity": false
+        },
+        {
+          "source_start_sample": 8972356,
+          "source_end_sample": 8976791,
+          "output_start_sample": 9417,
+          "output_end_sample": 14651,
+          "count": 5234,
+          "speed": 0.8473442873519297,
+          "identity": false
+        },
+        {
+          "source_start_sample": 8976791,
+          "source_end_sample": 8981226,
+          "output_start_sample": 14651,
+          "output_end_sample": 19981,
+          "count": 5330,
+          "speed": 0.8320825515947468,
+          "identity": false
+        },
+        {
+          "source_start_sample": 8981226,
+          "source_end_sample": 8985660,
+          "output_start_sample": 19981,
+          "output_end_sample": 25108,
+          "count": 5127,
+          "speed": 0.8648332358104155,
+          "identity": false
+        },
+        {
+          "source_start_sample": 8985660,
+          "source_end_sample": 8990095,
+          "output_start_sample": 25108,
+          "output_end_sample": 29801,
+          "count": 4693,
+          "speed": 0.9450245045812913,
+          "identity": false
+        },
+        {
+          "source_start_sample": 8990095,
+          "source_end_sample": 8994530,
+          "output_start_sample": 29801,
+          "output_end_sample": 33977,
+          "count": 4176,
+          "speed": 1.0620210727969348,
+          "identity": false
+        },
+        {
+          "source_start_sample": 8994530,
+          "source_end_sample": 8998965,
+          "output_start_sample": 33977,
+          "output_end_sample": 37721,
+          "count": 3744,
+          "speed": 1.1845619658119657,
+          "identity": false
+        },
+        {
+          "source_start_sample": 8998965,
+          "source_end_sample": 9003400,
+          "output_start_sample": 37721,
+          "output_end_sample": 41260,
+          "count": 3539,
+          "speed": 1.2531788640859,
+          "identity": false
+        },
+        {
+          "source_start_sample": 9003400,
+          "source_end_sample": 9007834,
+          "output_start_sample": 41260,
+          "output_end_sample": 44895,
+          "count": 3635,
+          "speed": 1.2198074277854196,
+          "identity": false
+        },
+        {
+          "source_start_sample": 9007834,
+          "source_end_sample": 9012269,
+          "output_start_sample": 44895,
+          "output_end_sample": 48873,
+          "count": 3978,
+          "speed": 1.1148818501759679,
+          "identity": false
+        },
+        {
+          "source_start_sample": 9012269,
+          "source_end_sample": 9016704,
+          "output_start_sample": 48873,
+          "output_end_sample": 53217,
+          "count": 4344,
+          "speed": 1.0209484346224678,
+          "identity": false
+        },
+        {
+          "source_start_sample": 9016704,
+          "source_end_sample": 9039040,
+          "output_start_sample": 53217,
+          "output_end_sample": 75553,
+          "count": 22336,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 9039040,
+          "source_end_sample": 9043775,
+          "output_start_sample": 75553,
+          "output_end_sample": 80327,
+          "count": 4774,
+          "speed": 0.991830749895266,
+          "identity": false
+        },
+        {
+          "source_start_sample": 9043775,
+          "source_end_sample": 9048510,
+          "output_start_sample": 80327,
+          "output_end_sample": 85288,
+          "count": 4961,
+          "speed": 0.9544446684136263,
+          "identity": false
+        },
+        {
+          "source_start_sample": 9048510,
+          "source_end_sample": 9053245,
+          "output_start_sample": 85288,
+          "output_end_sample": 90512,
+          "count": 5224,
+          "speed": 0.9063935681470138,
+          "identity": false
+        },
+        {
+          "source_start_sample": 9053245,
+          "source_end_sample": 9057980,
+          "output_start_sample": 90512,
+          "output_end_sample": 95982,
+          "count": 5470,
+          "speed": 0.8656307129798904,
+          "identity": false
+        },
+        {
+          "source_start_sample": 9057980,
+          "source_end_sample": 9062714,
+          "output_start_sample": 95982,
+          "output_end_sample": 101625,
+          "count": 5643,
+          "speed": 0.8389154704944178,
+          "identity": false
+        },
+        {
+          "source_start_sample": 9062714,
+          "source_end_sample": 9067449,
+          "output_start_sample": 101625,
+          "output_end_sample": 107330,
+          "count": 5705,
+          "speed": 0.8299737072743207,
+          "identity": false
+        },
+        {
+          "source_start_sample": 9067449,
+          "source_end_sample": 9072184,
+          "output_start_sample": 107330,
+          "output_end_sample": 112979,
+          "count": 5649,
+          "speed": 0.8382014515843512,
+          "identity": false
+        },
+        {
+          "source_start_sample": 9072184,
+          "source_end_sample": 9076919,
+          "output_start_sample": 112979,
+          "output_end_sample": 118459,
+          "count": 5480,
+          "speed": 0.8640510948905109,
+          "identity": false
+        },
+        {
+          "source_start_sample": 9076919,
+          "source_end_sample": 9081654,
+          "output_start_sample": 118459,
+          "output_end_sample": 123680,
+          "count": 5221,
+          "speed": 0.9069143842175829,
+          "identity": false
+        },
+        {
+          "source_start_sample": 9081654,
+          "source_end_sample": 9086389,
+          "output_start_sample": 123680,
+          "output_end_sample": 128584,
+          "count": 4904,
+          "speed": 0.9655383360522023,
+          "identity": false
+        },
+        {
+          "source_start_sample": 9086389,
+          "source_end_sample": 9091124,
+          "output_start_sample": 128584,
+          "output_end_sample": 133150,
+          "count": 4566,
+          "speed": 1.0370127025843188,
+          "identity": false
+        },
+        {
+          "source_start_sample": 9091124,
+          "source_end_sample": 9095859,
+          "output_start_sample": 133150,
+          "output_end_sample": 137399,
+          "count": 4249,
+          "speed": 1.1143798540833136,
+          "identity": false
+        },
+        {
+          "source_start_sample": 9095859,
+          "source_end_sample": 9100593,
+          "output_start_sample": 137399,
+          "output_end_sample": 141388,
+          "count": 3989,
+          "speed": 1.1867635998997241,
+          "identity": false
+        },
+        {
+          "source_start_sample": 9100593,
+          "source_end_sample": 9105328,
+          "output_start_sample": 141388,
+          "output_end_sample": 145209,
+          "count": 3821,
+          "speed": 1.2392043967547763,
+          "identity": false
+        },
+        {
+          "source_start_sample": 9105328,
+          "source_end_sample": 9110063,
+          "output_start_sample": 145209,
+          "output_end_sample": 148973,
+          "count": 3764,
+          "speed": 1.257970244420829,
+          "identity": false
+        },
+        {
+          "source_start_sample": 9110063,
+          "source_end_sample": 9114798,
+          "output_start_sample": 148973,
+          "output_end_sample": 152801,
+          "count": 3828,
+          "speed": 1.2369383490073145,
+          "identity": false
+        },
+        {
+          "source_start_sample": 9114798,
+          "source_end_sample": 9119533,
+          "output_start_sample": 152801,
+          "output_end_sample": 156800,
+          "count": 3999,
+          "speed": 1.1840460115028757,
+          "identity": false
+        },
+        {
+          "source_start_sample": 9119533,
+          "source_end_sample": 9124268,
+          "output_start_sample": 156800,
+          "output_end_sample": 161046,
+          "count": 4246,
+          "speed": 1.1151672162034856,
+          "identity": false
+        },
+        {
+          "source_start_sample": 9124268,
+          "source_end_sample": 9129003,
+          "output_start_sample": 161046,
+          "output_end_sample": 165555,
+          "count": 4509,
+          "speed": 1.0501219782656908,
+          "identity": false
+        },
+        {
+          "source_start_sample": 9129003,
+          "source_end_sample": 9133738,
+          "output_start_sample": 165555,
+          "output_end_sample": 170251,
+          "count": 4696,
+          "speed": 1.008304940374787,
+          "identity": false
+        }
+      ],
+      "effect_envelopes": [
+        {
+          "center": 1.2887000000000057,
+          "zoom_peak": 1.035,
+          "zoom_half_width": 0.22,
+          "brightness_peak": 0.045,
+          "brightness_half_width": 0.08,
+          "curve": "raised_cosine_squared",
+          "clip_local": true
+        }
+      ],
+      "video": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\clip-005-h264_qsv.mp4",
+      "game_audio": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\game-005.wav",
+      "encoder": "h264_qsv",
+      "source_audio_end_rounding_seconds": -1.2499999968440534e-05
+    }
+  ],
+  "source_metadata": {
+    "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "profile": "Main",
+          "codec_type": "video",
+          "codec_tag_string": "avc1",
+          "codec_tag": "0x31637661",
+          "mime_codec_string": "avc1.4d4020",
+          "width": 1280,
+          "height": 720,
+          "coded_width": 1280,
+          "coded_height": 720,
+          "has_b_frames": 1,
+          "sample_aspect_ratio": "1:1",
+          "display_aspect_ratio": "16:9",
+          "pix_fmt": "yuv420p",
+          "level": 32,
+          "color_range": "tv",
+          "color_space": "bt709",
+          "color_transfer": "bt709",
+          "color_primaries": "bt709",
+          "chroma_location": "left",
+          "field_order": "progressive",
+          "is_avc": "true",
+          "nal_length_size": "4",
+          "id": "0x1",
+          "r_frame_rate": "60/1",
+          "avg_frame_rate": "60/1",
+          "time_base": "1/15360",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 7756288,
+          "duration": "504.966667",
+          "bit_rate": "3328616",
+          "bits_per_raw_sample": "8",
+          "nb_frames": "30298",
+          "extradata_size": 43,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "ISO Media file produced by Google Inc."
+          }
+        },
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "codec_long_name": "AAC (Advanced Audio Coding)",
+          "profile": "LC",
+          "codec_type": "audio",
+          "codec_tag_string": "mp4a",
+          "codec_tag": "0x6134706d",
+          "mime_codec_string": "mp4a.40.2",
+          "sample_fmt": "fltp",
+          "sample_rate": "44100",
+          "channels": 2,
+          "channel_layout": "stereo",
+          "bits_per_sample": 0,
+          "initial_padding": 0,
+          "id": "0x2",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "time_base": "1/44100",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 22272000,
+          "duration": "505.034014",
+          "bit_rate": "127999",
+          "nb_frames": "21750",
+          "extradata_size": 16,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "ISO Media file produced by Google Inc."
+          }
+        }
+      ],
+      "format": {
+        "filename": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+        "nb_streams": 2,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.000000",
+        "duration": "505.034014",
+        "size": "218971338",
+        "bit_rate": "3468619",
+        "probe_score": 100,
+        "tags": {
+          "major_brand": "isom",
+          "minor_version": "512",
+          "compatible_brands": "isomiso2avc1mp41",
+          "encoder": "Lavf62.3.100"
+        }
+      }
+    },
+    "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "profile": "Main",
+          "codec_type": "video",
+          "codec_tag_string": "avc1",
+          "codec_tag": "0x31637661",
+          "mime_codec_string": "avc1.4d4020",
+          "width": 1280,
+          "height": 720,
+          "coded_width": 1280,
+          "coded_height": 720,
+          "has_b_frames": 1,
+          "sample_aspect_ratio": "1:1",
+          "display_aspect_ratio": "16:9",
+          "pix_fmt": "yuv420p",
+          "level": 32,
+          "color_range": "tv",
+          "color_space": "bt709",
+          "color_transfer": "bt709",
+          "color_primaries": "bt709",
+          "chroma_location": "left",
+          "field_order": "progressive",
+          "is_avc": "true",
+          "nal_length_size": "4",
+          "id": "0x1",
+          "r_frame_rate": "60/1",
+          "avg_frame_rate": "60/1",
+          "time_base": "1/15360",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 8140544,
+          "duration": "529.983333",
+          "bit_rate": "3299057",
+          "bits_per_raw_sample": "8",
+          "nb_frames": "31799",
+          "extradata_size": 43,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "ISO Media file produced by Google Inc."
+          }
+        },
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "codec_long_name": "AAC (Advanced Audio Coding)",
+          "profile": "LC",
+          "codec_type": "audio",
+          "codec_tag_string": "mp4a",
+          "codec_tag": "0x6134706d",
+          "mime_codec_string": "mp4a.40.2",
+          "sample_fmt": "fltp",
+          "sample_rate": "44100",
+          "channels": 2,
+          "channel_layout": "stereo",
+          "bits_per_sample": 0,
+          "initial_padding": 0,
+          "id": "0x2",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "time_base": "1/44100",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 23374848,
+          "duration": "530.041905",
+          "bit_rate": "128002",
+          "nb_frames": "22827",
+          "extradata_size": 16,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "ISO Media file produced by Google Inc."
+          }
+        }
+      ],
+      "format": {
+        "filename": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+        "nb_streams": 2,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.000000",
+        "duration": "530.041905",
+        "size": "227860412",
+        "bit_rate": "3439130",
+        "probe_score": 100,
+        "tags": {
+          "major_brand": "isom",
+          "minor_version": "512",
+          "compatible_brands": "isomiso2avc1mp41",
+          "encoder": "Lavf62.3.100"
+        }
+      }
+    }
+  },
+  "music_metadata": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "mp3",
+        "codec_long_name": "MP3 (MPEG audio layer 3)",
+        "codec_type": "audio",
+        "codec_tag_string": "[0][0][0][0]",
+        "codec_tag": "0x0000",
+        "mime_codec_string": "mp4a.40.34",
+        "sample_fmt": "fltp",
+        "sample_rate": "44100",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/14112000",
+        "start_pts": 353600,
+        "start_time": "0.025057",
+        "duration_ts": 1145241600,
+        "duration": "81.153741",
+        "bit_rate": "164129",
+        "disposition": {
+          "default": 0,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "encoder": "Lavc62.28"
+        }
+      }
+    ],
+    "format": {
+      "filename": "E:\\audio\\YTDown.com_YouTube_Media_MpoZ0NVXswY_Let-the-world-burn-Audio-Edit_009_128k.mp3",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mp3",
+      "format_long_name": "MP2/3 (MPEG audio layer 2/3)",
+      "start_time": "0.025057",
+      "duration": "81.153741",
+      "size": "1665817",
+      "bit_rate": "164213",
+      "probe_score": 52,
+      "tags": {
+        "major_brand": "dash",
+        "minor_version": "0",
+        "compatible_brands": "iso6mp41",
+        "encoder": "Lavf62.12.100"
+      }
+    }
+  },
+  "output_metadata": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.640020",
+        "width": 1280,
+        "height": 720,
+        "coded_width": 1280,
+        "coded_height": 720,
+        "has_b_frames": 1,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "16:9",
+        "pix_fmt": "yuv420p",
+        "level": 32,
+        "color_range": "tv",
+        "color_space": "bt709",
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "60/1",
+        "avg_frame_rate": "60/1",
+        "time_base": "1/15360",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 361472,
+        "duration": "23.533333",
+        "bit_rate": "6780870",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "1412",
+        "extradata_size": 48,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "ISO Media file produced by Google Inc.",
+          "encoder": "Lavc63.1.101 h264_qsv"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "mime_codec_string": "mp4a.40.2",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 1024,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 1129325,
+        "duration": "23.527604",
+        "bit_rate": "193078",
+        "nb_frames": "1104",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler"
+        }
+      }
+    ],
+    "format": {
+      "filename": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\encounters.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "23.533333",
+      "size": "20550749",
+      "bit_rate": "6986090",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf63.1.101"
+      }
+    }
+  },
+  "warnings": [
+    "Not unattended-ready: real decoded event/video/audio QA is still required.",
+    "Final video is globally rounded to frames; audio retains sample-precision plan timing.",
+    "Source video and game audio retimed together, endpoints and supplied events fixed; music untouched.",
+    "Constant-gain mix can clip; PCM stems are retained for independent timing QA."
+  ]
+}

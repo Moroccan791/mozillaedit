@@ -1,0 +1,1011 @@
+{
+  "schema_version": "visual-gate/v1",
+  "rejected": [
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "start": 332.7875,
+      "end": 333.82,
+      "window_id": "window-014",
+      "status": "reject",
+      "metrics": [],
+      "reason": "supplied observed exclusion",
+      "exclusions": [
+        {
+          "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+          "start": 332.42995833333333,
+          "end": 333.82,
+          "reason": "Ordinary rifle handling without independently confirmed firing",
+          "evidence": "Decoded source-derived automatic-candidate-sheet.jpg row 2 at annotated output anchor and +/-0.15s; sampled rejection only, not exhaustive source labeling",
+          "reviewer": "Aside assistant visual frame review"
+        }
+      ]
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "start": 411.855,
+      "end": 412.965,
+      "window_id": "window-015",
+      "status": "reject",
+      "metrics": [],
+      "reason": "supplied observed exclusion",
+      "exclusions": [
+        {
+          "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+          "start": 411.673,
+          "end": 412.965,
+          "reason": "Post-round WON knife handling",
+          "evidence": "Decoded source-derived automatic-candidate-sheet.jpg row 5 at annotated output anchor and +/-0.15s; sampled rejection only, not exhaustive source labeling",
+          "reviewer": "Aside assistant visual frame review"
+        }
+      ]
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "start": 499.3425,
+      "end": 500.385,
+      "window_id": "window-016",
+      "status": "reject",
+      "metrics": [],
+      "reason": "supplied observed exclusion",
+      "exclusions": [
+        {
+          "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+          "start": 499.118,
+          "end": 500.385,
+          "reason": "Black source segment",
+          "evidence": "Decoded source-derived automatic-candidate-sheet.jpg row 3 at annotated output anchor and +/-0.15s; sampled rejection only, not exhaustive source labeling",
+          "reviewer": "Aside assistant visual frame review"
+        }
+      ]
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "start": 18.322499999999998,
+      "end": 19.4,
+      "window_id": "window-002",
+      "status": "reject",
+      "metrics": [],
+      "reason": "supplied observed exclusion",
+      "exclusions": [
+        {
+          "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+          "start": 18.038041666666675,
+          "end": 19.4,
+          "reason": "Creator subscriber graphic covering gameplay",
+          "evidence": "Decoded source-derived automatic-candidate-sheet.jpg row 1 at annotated output anchor and +/-0.15s; sampled rejection only, not exhaustive source labeling",
+          "reviewer": "Aside assistant visual frame review"
+        }
+      ]
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "start": 124.3725,
+      "end": 125.465,
+      "window_id": "window-006",
+      "status": "reject",
+      "metrics": [],
+      "reason": "supplied observed exclusion",
+      "exclusions": [
+        {
+          "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+          "start": 124.08999999999999,
+          "end": 125.465,
+          "reason": "Ability/weapon animation without independently confirmed POV firing",
+          "evidence": "Decoded source-derived automatic-candidate-sheet.jpg row 4 at annotated output anchor and +/-0.15s; sampled rejection only, not exhaustive source labeling",
+          "reviewer": "Aside assistant visual frame review"
+        }
+      ]
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "start": 195.7125,
+      "end": 196.775,
+      "window_id": "window-007",
+      "status": "reject",
+      "metrics": [],
+      "reason": "supplied observed exclusion",
+      "exclusions": [
+        {
+          "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+          "start": 195.422,
+          "end": 196.775,
+          "reason": "Post-round WON weapon/knife handling, not selected impact",
+          "evidence": "Decoded source-derived automatic-candidate-sheet.jpg row 0 at annotated output anchor and +/-0.15s; sampled rejection only, not exhaustive source labeling",
+          "reviewer": "Aside assistant visual frame review"
+        }
+      ]
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "start": 525.5425,
+      "end": 526.5225,
+      "window_id": "window-016",
+      "status": "reject",
+      "metrics": [
+        {
+          "time": 525.75,
+          "mean": 0.0,
+          "std": 0.0,
+          "black_fraction": 1.0,
+          "white_fraction": 0.0
+        },
+        {
+          "time": 525.9,
+          "mean": 0.0,
+          "std": 0.0,
+          "black_fraction": 1.0,
+          "white_fraction": 0.0
+        },
+        {
+          "time": 526.05,
+          "mean": 0.0,
+          "std": 0.0,
+          "black_fraction": 1.0,
+          "white_fraction": 0.0
+        }
+      ],
+      "center_frame_differences": [
+        0.0,
+        0.0
+      ],
+      "reason": "near-black sampled frame"
+    }
+  ],
+  "retained": [
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "start": 0.9175,
+      "end": 2.815,
+      "window_id": "window-001",
+      "status": "unreviewed",
+      "metrics": [
+        {
+          "time": 1.5650000000000002,
+          "mean": 134.81159722222222,
+          "std": 36.841222631026795,
+          "black_fraction": 0.0,
+          "white_fraction": 0.01125
+        },
+        {
+          "time": 1.715,
+          "mean": 140.713125,
+          "std": 45.9399335480695,
+          "black_fraction": 0.0,
+          "white_fraction": 0.05645833333333333
+        },
+        {
+          "time": 1.865,
+          "mean": 136.46805555555557,
+          "std": 37.12002052796999,
+          "black_fraction": 0.0,
+          "white_fraction": 0.026944444444444444
+        }
+      ],
+      "center_frame_differences": [
+        20.885757575757577,
+        26.871060606060606
+      ]
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "start": 8.325,
+      "end": 9.1425,
+      "window_id": "window-002",
+      "status": "unreviewed",
+      "metrics": [
+        {
+          "time": 8.674999999999999,
+          "mean": 71.68902777777778,
+          "std": 36.210884515406654,
+          "black_fraction": 0.03673611111111111,
+          "white_fraction": 0.0
+        },
+        {
+          "time": 8.825,
+          "mean": 71.46138888888889,
+          "std": 36.2950204460901,
+          "black_fraction": 0.03798611111111111,
+          "white_fraction": 0.0
+        },
+        {
+          "time": 8.975,
+          "mean": 71.14972222222222,
+          "std": 35.72839790124246,
+          "black_fraction": 0.035416666666666666,
+          "white_fraction": 0.0
+        }
+      ],
+      "center_frame_differences": [
+        4.1021212121212125,
+        5.2706060606060605
+      ]
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "start": 118.41749999999999,
+      "end": 120.5775,
+      "window_id": "window-003",
+      "status": "unreviewed",
+      "metrics": [
+        {
+          "time": 120.24499999999999,
+          "mean": 98.101875,
+          "std": 40.23103379006943,
+          "black_fraction": 0.022083333333333333,
+          "white_fraction": 0.0
+        },
+        {
+          "time": 120.395,
+          "mean": 97.61715277777778,
+          "std": 40.42451501398066,
+          "black_fraction": 0.020972222222222222,
+          "white_fraction": 0.0
+        },
+        {
+          "time": 120.545,
+          "mean": 96.46256944444444,
+          "std": 41.52347213134277,
+          "black_fraction": 0.028055555555555556,
+          "white_fraction": 0.0
+        }
+      ],
+      "center_frame_differences": [
+        9.977575757575758,
+        8.684090909090909
+      ]
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "start": 120.5775,
+      "end": 120.99000000000001,
+      "window_id": "window-004",
+      "status": "unreviewed",
+      "metrics": [
+        {
+          "time": 120.60499999999999,
+          "mean": 98.62722222222222,
+          "std": 41.417824370882684,
+          "black_fraction": 0.029027777777777777,
+          "white_fraction": 0.0
+        },
+        {
+          "time": 120.755,
+          "mean": 99.81833333333333,
+          "std": 42.36687873668402,
+          "black_fraction": 0.02423611111111111,
+          "white_fraction": 0.0
+        },
+        {
+          "time": 120.905,
+          "mean": 102.45951388888889,
+          "std": 40.16417038975197,
+          "black_fraction": 0.016527777777777777,
+          "white_fraction": 0.0
+        }
+      ],
+      "center_frame_differences": [
+        17.55621212121212,
+        10.338181818181818
+      ]
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "start": 121.44,
+      "end": 122.015,
+      "window_id": "window-005",
+      "status": "unreviewed",
+      "metrics": [
+        {
+          "time": 121.49,
+          "mean": 97.43826388888888,
+          "std": 41.2346108638972,
+          "black_fraction": 0.027291666666666665,
+          "white_fraction": 0.0
+        },
+        {
+          "time": 121.64,
+          "mean": 100.22395833333333,
+          "std": 41.816062781589316,
+          "black_fraction": 0.026041666666666668,
+          "white_fraction": 0.0
+        },
+        {
+          "time": 121.79,
+          "mean": 100.5261111111111,
+          "std": 42.02305599164039,
+          "black_fraction": 0.02361111111111111,
+          "white_fraction": 0.0
+        }
+      ],
+      "center_frame_differences": [
+        17.23848484848485,
+        13.761969696969697
+      ]
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "start": 126.8425,
+      "end": 129.005,
+      "window_id": "window-006",
+      "status": "unreviewed",
+      "metrics": [
+        {
+          "time": 127.315,
+          "mean": 69.11958333333334,
+          "std": 33.52839600570355,
+          "black_fraction": 0.006388888888888889,
+          "white_fraction": 0.0
+        },
+        {
+          "time": 127.465,
+          "mean": 71.7213888888889,
+          "std": 34.54711176646061,
+          "black_fraction": 0.007013888888888889,
+          "white_fraction": 0.0
+        },
+        {
+          "time": 127.61500000000001,
+          "mean": 89.53736111111111,
+          "std": 34.728566431247906,
+          "black_fraction": 0.00375,
+          "white_fraction": 0.0
+        }
+      ],
+      "center_frame_differences": [
+        25.71651515151515,
+        44.47469696969697
+      ]
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "start": 151.475,
+      "end": 152.805,
+      "window_id": "window-007",
+      "status": "unreviewed",
+      "metrics": [
+        {
+          "time": 151.795,
+          "mean": 74.25,
+          "std": 39.32204287108638,
+          "black_fraction": 0.0001388888888888889,
+          "white_fraction": 0.0
+        },
+        {
+          "time": 151.945,
+          "mean": 73.88270833333333,
+          "std": 39.12076822550676,
+          "black_fraction": 0.00020833333333333335,
+          "white_fraction": 0.0
+        },
+        {
+          "time": 152.095,
+          "mean": 73.39597222222223,
+          "std": 38.417612213950136,
+          "black_fraction": 0.0001388888888888889,
+          "white_fraction": 0.0
+        }
+      ],
+      "center_frame_differences": [
+        2.2415151515151517,
+        2.480909090909091
+      ]
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "start": 212.32,
+      "end": 213.72500000000002,
+      "window_id": "window-008",
+      "status": "unreviewed",
+      "metrics": [
+        {
+          "time": 212.65,
+          "mean": 84.35291666666667,
+          "std": 41.9756067369788,
+          "black_fraction": 0.0024305555555555556,
+          "white_fraction": 0.0
+        },
+        {
+          "time": 212.8,
+          "mean": 83.86951388888889,
+          "std": 41.73878743030977,
+          "black_fraction": 0.002916666666666667,
+          "white_fraction": 0.0
+        },
+        {
+          "time": 212.95000000000002,
+          "mean": 79.12229166666667,
+          "std": 39.333126451058156,
+          "black_fraction": 0.012291666666666666,
+          "white_fraction": 0.0
+        }
+      ],
+      "center_frame_differences": [
+        5.745909090909091,
+        17.05409090909091
+      ]
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "start": 266.7025,
+      "end": 268.1675,
+      "window_id": "window-009",
+      "status": "unreviewed",
+      "metrics": [
+        {
+          "time": 267.55,
+          "mean": 79.93465277777777,
+          "std": 32.17902127623063,
+          "black_fraction": 0.002013888888888889,
+          "white_fraction": 0.0004861111111111111
+        },
+        {
+          "time": 267.7,
+          "mean": 80.08631944444444,
+          "std": 32.07618286652644,
+          "black_fraction": 0.002361111111111111,
+          "white_fraction": 0.0004861111111111111
+        },
+        {
+          "time": 267.84999999999997,
+          "mean": 80.36006944444445,
+          "std": 30.923633581519272,
+          "black_fraction": 0.00125,
+          "white_fraction": 0.0004861111111111111
+        }
+      ],
+      "center_frame_differences": [
+        2.855,
+        3.9004545454545454
+      ]
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "start": 269.8575,
+      "end": 271.9125,
+      "window_id": "window-010",
+      "status": "unreviewed",
+      "metrics": [
+        {
+          "time": 270.08500000000004,
+          "mean": 65.59944444444444,
+          "std": 30.98891109417156,
+          "black_fraction": 0.008541666666666666,
+          "white_fraction": 0.00034722222222222224
+        },
+        {
+          "time": 270.235,
+          "mean": 60.88319444444444,
+          "std": 25.908393016248876,
+          "black_fraction": 0.009305555555555555,
+          "white_fraction": 0.0
+        },
+        {
+          "time": 270.385,
+          "mean": 61.013888888888886,
+          "std": 28.894914035150983,
+          "black_fraction": 0.008680555555555556,
+          "white_fraction": 0.0001388888888888889
+        }
+      ],
+      "center_frame_differences": [
+        12.389242424242424,
+        11.00030303030303
+      ]
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "start": 306.32,
+      "end": 307.84749999999997,
+      "window_id": "window-011",
+      "status": "unreviewed",
+      "metrics": [
+        {
+          "time": 306.97,
+          "mean": 92.83104166666666,
+          "std": 37.09552975874044,
+          "black_fraction": 0.0004166666666666667,
+          "white_fraction": 0.0001388888888888889
+        },
+        {
+          "time": 307.12,
+          "mean": 93.4425,
+          "std": 37.383580759695384,
+          "black_fraction": 0.0008333333333333334,
+          "white_fraction": 6.944444444444444e-05
+        },
+        {
+          "time": 307.27,
+          "mean": 92.2929861111111,
+          "std": 37.597117660279736,
+          "black_fraction": 0.0004861111111111111,
+          "white_fraction": 6.944444444444444e-05
+        }
+      ],
+      "center_frame_differences": [
+        4.71439393939394,
+        14.01060606060606
+      ]
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "start": 307.84749999999997,
+      "end": 309.05499999999995,
+      "window_id": "window-012",
+      "status": "unreviewed",
+      "metrics": [
+        {
+          "time": 308.42,
+          "mean": 82.89708333333333,
+          "std": 37.17240938210534,
+          "black_fraction": 0.004583333333333333,
+          "white_fraction": 0.0
+        },
+        {
+          "time": 308.57,
+          "mean": 82.78986111111111,
+          "std": 36.89571275128256,
+          "black_fraction": 0.005277777777777778,
+          "white_fraction": 6.944444444444444e-05
+        },
+        {
+          "time": 308.71999999999997,
+          "mean": 78.89152777777778,
+          "std": 36.39492540022739,
+          "black_fraction": 0.0028472222222222223,
+          "white_fraction": 6.944444444444444e-05
+        }
+      ],
+      "center_frame_differences": [
+        22.58621212121212,
+        20.726363636363637
+      ]
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "start": 315.59749999999997,
+      "end": 316.49,
+      "window_id": "window-013",
+      "status": "unreviewed",
+      "metrics": [
+        {
+          "time": 315.725,
+          "mean": 111.72895833333334,
+          "std": 46.10069377970885,
+          "black_fraction": 0.004652777777777777,
+          "white_fraction": 0.0
+        },
+        {
+          "time": 315.875,
+          "mean": 109.98027777777777,
+          "std": 46.780207411664975,
+          "black_fraction": 0.004097222222222223,
+          "white_fraction": 0.0
+        },
+        {
+          "time": 316.025,
+          "mean": 114.82069444444444,
+          "std": 47.498360375981775,
+          "black_fraction": 0.0,
+          "white_fraction": 0.0
+        }
+      ],
+      "center_frame_differences": [
+        33.87318181818182,
+        49.21939393939394
+      ]
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "start": 1.46,
+      "end": 3.95,
+      "window_id": "window-001",
+      "status": "unreviewed",
+      "metrics": [
+        {
+          "time": 3.545,
+          "mean": 67.69875,
+          "std": 39.030622928865455,
+          "black_fraction": 0.03895833333333333,
+          "white_fraction": 0.0
+        },
+        {
+          "time": 3.695,
+          "mean": 52.17881944444444,
+          "std": 34.94556733527253,
+          "black_fraction": 0.06902777777777777,
+          "white_fraction": 0.0
+        },
+        {
+          "time": 3.8449999999999998,
+          "mean": 52.351875,
+          "std": 36.80686648025727,
+          "black_fraction": 0.063125,
+          "white_fraction": 0.0
+        }
+      ],
+      "center_frame_differences": [
+        25.04090909090909,
+        28.68439393939394
+      ]
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "start": 48.8225,
+      "end": 50.395,
+      "window_id": "window-003",
+      "status": "unreviewed",
+      "metrics": [
+        {
+          "time": 49.34,
+          "mean": 91.6175,
+          "std": 43.88005367381251,
+          "black_fraction": 0.0005555555555555556,
+          "white_fraction": 0.0
+        },
+        {
+          "time": 49.49,
+          "mean": 83.87069444444444,
+          "std": 41.34193730430763,
+          "black_fraction": 0.0004166666666666667,
+          "white_fraction": 0.0
+        },
+        {
+          "time": 49.64,
+          "mean": 84.44215277777778,
+          "std": 41.81209438705761,
+          "black_fraction": 0.0,
+          "white_fraction": 0.0
+        }
+      ],
+      "center_frame_differences": [
+        13.70530303030303,
+        15.339848484848485
+      ]
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "start": 60.4075,
+      "end": 62.2825,
+      "window_id": "window-004",
+      "status": "unreviewed",
+      "metrics": [
+        {
+          "time": 61.13,
+          "mean": 66.85229166666667,
+          "std": 23.96092714129581,
+          "black_fraction": 0.0025694444444444445,
+          "white_fraction": 0.0
+        },
+        {
+          "time": 61.28,
+          "mean": 67.38868055555555,
+          "std": 23.951315718514405,
+          "black_fraction": 0.001736111111111111,
+          "white_fraction": 0.0
+        },
+        {
+          "time": 61.43,
+          "mean": 67.171875,
+          "std": 23.990978642118733,
+          "black_fraction": 0.0025694444444444445,
+          "white_fraction": 0.0
+        }
+      ],
+      "center_frame_differences": [
+        5.866818181818182,
+        8.17530303030303
+      ]
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "start": 65.1,
+      "end": 66.3125,
+      "window_id": "window-005",
+      "status": "unreviewed",
+      "metrics": [
+        {
+          "time": 65.50999999999999,
+          "mean": 82.509375,
+          "std": 39.64450951054379,
+          "black_fraction": 0.0077777777777777776,
+          "white_fraction": 0.0
+        },
+        {
+          "time": 65.66,
+          "mean": 75.72875,
+          "std": 35.25064469219362,
+          "black_fraction": 0.017222222222222222,
+          "white_fraction": 0.0
+        },
+        {
+          "time": 65.81,
+          "mean": 79.46541666666667,
+          "std": 33.548860281912376,
+          "black_fraction": 0.0028472222222222223,
+          "white_fraction": 0.0001388888888888889
+        }
+      ],
+      "center_frame_differences": [
+        16.802272727272726,
+        18.492727272727272
+      ]
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "start": 218.725,
+      "end": 220.165,
+      "window_id": "window-008",
+      "status": "unreviewed",
+      "metrics": [
+        {
+          "time": 219.095,
+          "mean": 82.236875,
+          "std": 43.80899436709997,
+          "black_fraction": 0.005,
+          "white_fraction": 0.00034722222222222224
+        },
+        {
+          "time": 219.245,
+          "mean": 82.38291666666667,
+          "std": 44.04856741703475,
+          "black_fraction": 0.0035416666666666665,
+          "white_fraction": 0.00020833333333333335
+        },
+        {
+          "time": 219.395,
+          "mean": 82.19770833333334,
+          "std": 43.47833602015603,
+          "black_fraction": 0.0031944444444444446,
+          "white_fraction": 0.00020833333333333335
+        }
+      ],
+      "center_frame_differences": [
+        16.13030303030303,
+        22.576212121212123
+      ]
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "start": 254.3625,
+      "end": 256.045,
+      "window_id": "window-009",
+      "status": "unreviewed",
+      "metrics": [
+        {
+          "time": 254.805,
+          "mean": 88.93743055555555,
+          "std": 27.91487634175966,
+          "black_fraction": 0.0008333333333333334,
+          "white_fraction": 0.0
+        },
+        {
+          "time": 254.955,
+          "mean": 87.92333333333333,
+          "std": 29.83497360481487,
+          "black_fraction": 0.0015277777777777779,
+          "white_fraction": 0.0
+        },
+        {
+          "time": 255.10500000000002,
+          "mean": 89.23416666666667,
+          "std": 30.933041923465737,
+          "black_fraction": 0.0002777777777777778,
+          "white_fraction": 0.0
+        }
+      ],
+      "center_frame_differences": [
+        12.933181818181819,
+        35.24666666666667
+      ]
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "start": 296.7875,
+      "end": 297.91499999999996,
+      "window_id": "window-010",
+      "status": "unreviewed",
+      "metrics": [
+        {
+          "time": 297.06,
+          "mean": 81.94145833333333,
+          "std": 42.22209766468972,
+          "black_fraction": 0.0043055555555555555,
+          "white_fraction": 0.0
+        },
+        {
+          "time": 297.21,
+          "mean": 85.95604166666666,
+          "std": 45.31415125295896,
+          "black_fraction": 0.002361111111111111,
+          "white_fraction": 0.0
+        },
+        {
+          "time": 297.35999999999996,
+          "mean": 88.0875,
+          "std": 44.216168603489635,
+          "black_fraction": 0.0036805555555555554,
+          "white_fraction": 0.0
+        }
+      ],
+      "center_frame_differences": [
+        37.80439393939394,
+        22.416666666666668
+      ]
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "start": 327.73,
+      "end": 329.3375,
+      "window_id": "window-011",
+      "status": "unreviewed",
+      "metrics": [
+        {
+          "time": 328.605,
+          "mean": 81.16645833333334,
+          "std": 27.22987024004945,
+          "black_fraction": 0.004166666666666667,
+          "white_fraction": 0.0
+        },
+        {
+          "time": 328.755,
+          "mean": 84.40131944444444,
+          "std": 34.510901835235906,
+          "black_fraction": 0.01597222222222222,
+          "white_fraction": 0.0
+        },
+        {
+          "time": 328.905,
+          "mean": 87.3020138888889,
+          "std": 36.870892936627556,
+          "black_fraction": 0.008541666666666666,
+          "white_fraction": 0.0
+        }
+      ],
+      "center_frame_differences": [
+        20.86378787878788,
+        20.368939393939392
+      ]
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "start": 343.76,
+      "end": 344.5575,
+      "window_id": "window-012",
+      "status": "unreviewed",
+      "metrics": [
+        {
+          "time": 344.095,
+          "mean": 88.33298611111111,
+          "std": 38.18741096697861,
+          "black_fraction": 0.0021527777777777778,
+          "white_fraction": 0.0
+        },
+        {
+          "time": 344.245,
+          "mean": 71.14013888888888,
+          "std": 38.33073831770932,
+          "black_fraction": 0.0757638888888889,
+          "white_fraction": 0.0
+        },
+        {
+          "time": 344.395,
+          "mean": 86.35,
+          "std": 28.419359598696097,
+          "black_fraction": 0.0020833333333333333,
+          "white_fraction": 0.0
+        }
+      ],
+      "center_frame_differences": [
+        35.998333333333335,
+        36.71848484848485
+      ]
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "start": 360.655,
+      "end": 362.48749999999995,
+      "window_id": "window-013",
+      "status": "unreviewed",
+      "metrics": [
+        {
+          "time": 360.82500000000005,
+          "mean": 104.79763888888888,
+          "std": 33.57234965104202,
+          "black_fraction": 0.0013194444444444445,
+          "white_fraction": 0.0
+        },
+        {
+          "time": 360.975,
+          "mean": 93.38631944444444,
+          "std": 24.65058584064168,
+          "black_fraction": 0.001875,
+          "white_fraction": 0.0
+        },
+        {
+          "time": 361.125,
+          "mean": 102.29263888888889,
+          "std": 13.52109159928537,
+          "black_fraction": 0.0,
+          "white_fraction": 0.0
+        }
+      ],
+      "center_frame_differences": [
+        30.632575757575758,
+        15.881363636363636
+      ]
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "start": 431.87750000000005,
+      "end": 434.4425,
+      "window_id": "window-014",
+      "status": "unreviewed",
+      "metrics": [
+        {
+          "time": 433.95000000000005,
+          "mean": 60.31722222222222,
+          "std": 29.2047666972278,
+          "black_fraction": 0.012986111111111111,
+          "white_fraction": 6.944444444444444e-05
+        },
+        {
+          "time": 434.1,
+          "mean": 60.08173611111111,
+          "std": 29.300866024124545,
+          "black_fraction": 0.012638888888888889,
+          "white_fraction": 6.944444444444444e-05
+        },
+        {
+          "time": 434.25,
+          "mean": 59.75076388888889,
+          "std": 29.541144202710946,
+          "black_fraction": 0.012847222222222222,
+          "white_fraction": 6.944444444444444e-05
+        }
+      ],
+      "center_frame_differences": [
+        4.673787878787879,
+        7.332121212121212
+      ]
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "start": 508.14,
+      "end": 508.51,
+      "window_id": "window-015",
+      "status": "unreviewed",
+      "metrics": [
+        {
+          "time": 508.20500000000004,
+          "mean": 80.08743055555556,
+          "std": 29.422276288707955,
+          "black_fraction": 0.002361111111111111,
+          "white_fraction": 6.944444444444444e-05
+        },
+        {
+          "time": 508.355,
+          "mean": 63.61986111111111,
+          "std": 49.02094869636676,
+          "black_fraction": 0.03375,
+          "white_fraction": 0.025208333333333333
+        },
+        {
+          "time": 508.505,
+          "mean": 63.822430555555556,
+          "std": 49.05585319797515,
+          "black_fraction": 0.034444444444444444,
+          "white_fraction": 0.025208333333333333
+        }
+      ],
+      "center_frame_differences": [
+        33.63106060606061,
+        2.1377272727272727
+      ]
+    }
+  ],
+  "limitations": [
+    "Sparse source frames; not complete fight, muzzle/ammo, OCR, actor, kill or taste confirmation.",
+    "Moving promotional overlays, abilities and post-round handling may pass numeric screening.",
+    "Supplied rejection metadata is an audit trail, not authentication of review claims."
+  ]
+}

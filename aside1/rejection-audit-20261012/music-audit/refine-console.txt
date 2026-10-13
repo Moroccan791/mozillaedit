@@ -1,0 +1,31 @@
+1v9-1 18.2102 beat 208.9 associated 18.184 rank 8 perc-rank 8 cache-rank 1
+low30_180 attack10/20/50 [-37.0, -33.0, -24.0] rmsrise -21.0
+mid180_800 attack10/20/50 [-58.0, -56.0, -50.0] rmsrise -46.0
+upper800_3000 attack10/20/50 [-11.0, -8.0, -5.0] rmsrise -5.0
+high3000_12000 attack10/20/50 [-65.0, -60.0, -51.0] rmsrise -46.0
+1v9-2 23.4347 beat 145.1 associated 23.412 rank 1 perc-rank 4 cache-rank 1
+low30_180 attack10/20/50 [-10.0, -7.0, -5.0] rmsrise -3.0
+mid180_800 attack10/20/50 [-56.0, -53.0, -41.0] rmsrise -35.0
+upper800_3000 attack10/20/50 [-87.0, -86.0, -71.0] rmsrise -65.0
+high3000_12000 attack10/20/50 [-60.0, -58.0, -41.0] rmsrise -36.0
+1v9-3 27.2022 beat -5.8 associated 27.18 rank 1 perc-rank 1 cache-rank 1
+low30_180 attack10/20/50 [-54.0, -51.0, -50.0] rmsrise -48.0
+mid180_800 attack10/20/50 [-32.0, -32.0, -18.0] rmsrise -12.0
+upper800_3000 attack10/20/50 [-30.0, -24.0, -22.0] rmsrise -19.0
+high3000_12000 attack10/20/50 [-25.0, -24.0, -22.0] rmsrise -21.0
+reyna-1 31.0799 beat -5.8 associated 31.056 rank 1 perc-rank 6 cache-rank 1
+low30_180 attack10/20/50 [-30.0, -29.0, -23.0] rmsrise -17.0
+mid180_800 attack10/20/50 [-32.0, -31.0, -22.0] rmsrise -19.0
+upper800_3000 attack10/20/50 [-18.0, -18.0, -13.0] rmsrise 0.0
+high3000_12000 attack10/20/50 [-81.0, -78.0, -71.0] rmsrise -68.0
+reyna-2 34.1507 beat -11.7 associated 34.192 rank 12 perc-rank 13 cache-rank 2
+low30_180 attack10/20/50 [-48.0, -48.0, -47.0] rmsrise -44.0
+mid180_800 attack10/20/50 [7.0, 9.0, 13.0] rmsrise 14.0
+upper800_3000 attack10/20/50 [-10.0, -10.0, -8.0] rmsrise -3.0
+high3000_12000 attack10/20/50 [-47.0, -46.0, -35.0] rmsrise -29.0
+reyna-4 37.5234 beat -11.7 associated 37.501999999999995 rank 1 perc-rank 1 cache-rank 1
+low30_180 attack10/20/50 [-68.0, -68.0, -67.0] rmsrise -65.0
+mid180_800 attack10/20/50 [-33.0, -32.0, -19.0] rmsrise -17.0
+upper800_3000 attack10/20/50 [-21.0, -21.0, -19.0] rmsrise -18.0
+high3000_12000 attack10/20/50 [-25.0, -22.0, -21.0] rmsrise -19.0
+Calibration [{'signal': 'noise_burst', 'known_attack': 1.0, 'envelope_peak': 1.0042630385487528, 'peak_lateness_ms': 4.263038548752762}, {'signal': 'bass_attack', 'known_attack': 1.0, 'envelope_peak': 1.0100680272108844, 'peak_lateness_ms': 10.0680272108844}]

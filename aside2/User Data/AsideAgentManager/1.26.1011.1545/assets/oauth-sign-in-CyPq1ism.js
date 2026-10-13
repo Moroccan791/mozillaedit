@@ -1,0 +1,3 @@
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{};e._posthogReleaseId=e._posthogReleaseId||"01a129b7-2369-0000-b6af-fe63822fbcec";var n=(new e.Error).stack;n&&(e._posthogChunkIds=e._posthogChunkIds||{},e._posthogChunkIds[n]="0bfed32f-a246-5aa1-b06a-8ba54f091e8c")}catch(e){}}();var l=()=>null;export{l as t};
+
+//# chunkId=0bfed32f-a246-5aa1-b06a-8ba54f091e8c

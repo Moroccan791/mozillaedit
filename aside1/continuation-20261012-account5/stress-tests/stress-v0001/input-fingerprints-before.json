@@ -1,0 +1,62 @@
+[
+  {
+    "path": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+    "bytes": 218971338,
+    "mtime_ns": 1791719274110435100,
+    "sha256": "27d3dad941c3b1f0d16583e1c531b04871dffd798ed113c745b0a07f6be4e3ae"
+  },
+  {
+    "path": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+    "bytes": 227860412,
+    "mtime_ns": 1791719579171113400,
+    "sha256": "0b9b25f52445297f5c854ca0deccb8a896971e907689a62f61cb40e2cece214b"
+  },
+  {
+    "path": "E:\\raw clips val\\YTDown.com_YouTube_Media_iufseng8xEs_Ranked-but-I-m-Overheating-Non-Stop_002_720p.mp4",
+    "bytes": 213554114,
+    "mtime_ns": 1791719686101425600,
+    "sha256": "2f7ef267728a9d4835243e68214cb310bd37619de47d0e70fed397a6bbb17179"
+  },
+  {
+    "path": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+    "bytes": 218971338,
+    "mtime_ns": 1791719274110435100,
+    "sha256": "27d3dad941c3b1f0d16583e1c531b04871dffd798ed113c745b0a07f6be4e3ae"
+  },
+  {
+    "path": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+    "bytes": 227860412,
+    "mtime_ns": 1791719579171113400,
+    "sha256": "0b9b25f52445297f5c854ca0deccb8a896971e907689a62f61cb40e2cece214b"
+  },
+  {
+    "path": "E:\\audio\\YTDown.com_YouTube_Media_MpoZ0NVXswY_Let-the-world-burn-Audio-Edit_009_128k.mp3",
+    "bytes": 1665817,
+    "mtime_ns": 1791721168066852700,
+    "sha256": "7903d3100912c08cfe7e35e050e2f80d576c64697d977b1dc26a2978e372c13d"
+  },
+  {
+    "path": "E:\\aside\\automation-20261012\\jobs\\job-v0004\\timeline.json",
+    "bytes": 14980,
+    "mtime_ns": 1791810359403953100,
+    "sha256": "9951c226ad042e680ee124e12906c57f8f9e5df9fdbea1d19a74042544c612f8"
+  },
+  {
+    "path": "E:\\aside\\automation-20261012\\jobs\\job-v0004\\job-report.json",
+    "bytes": 21278,
+    "mtime_ns": 1791810379584706700,
+    "sha256": "323b8be09297f865e34c646c4c8dd157235f4795e6a4cd03b42ad8d96bd15660"
+  },
+  {
+    "path": "E:\\ai-video-editor\\aive\\encounter_render.py",
+    "bytes": 28145,
+    "mtime_ns": 1791807801742735700,
+    "sha256": "96f8a2368c045e74ed5bcbe5829c539f79c95a22728c44bf797fb11a4ff5b3e3"
+  },
+  {
+    "path": "E:\\ai-video-editor\\tests\\test_encounter_render.py",
+    "bytes": 10430,
+    "mtime_ns": 1791799447177079400,
+    "sha256": "ec5b6f87949ca478ed19d0dfadafe2c6b7adf0660b26bcfb305a054f0c06320b"
+  }
+]

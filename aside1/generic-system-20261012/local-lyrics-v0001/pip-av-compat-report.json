@@ -1,0 +1,77 @@
+{
+  "version": "1",
+  "pip_version": "25.0.1",
+  "install": [
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/15/74/6f8e38a3b0aea5f28e72813672ff45b64615f2c69e6a4a558718c95edb9f/av-15.1.0-cp312-cp312-win_amd64.whl",
+        "archive_info": {
+          "hash": "sha256=d5921aa45f4c1f8c1a8d8185eb347e02aa4c3071278a2e2dd56368d54433d643",
+          "hashes": {
+            "sha256": "d5921aa45f4c1f8c1a8d8185eb347e02aa4c3071278a2e2dd56368d54433d643"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "av",
+        "version": "15.1.0",
+        "dynamic": [
+          "license-file"
+        ],
+        "summary": "Pythonic bindings for FFmpeg's libraries.",
+        "description": "PyAV\r\n====\r\n\r\nPyAV is a Pythonic binding for the [FFmpeg][ffmpeg] libraries. We aim to provide all of the power and control of the underlying library, but manage the gritty details as much as possible.\r\n\r\n---\r\n\r\n[![GitHub Test Status][github-tests-badge]][github-tests] [![Documentation][docs-badge]][docs] [![Python Package Index][pypi-badge]][pypi] [![Conda Forge][conda-badge]][conda]\r\n\r\nPyAV is for direct and precise access to your media via containers, streams, packets, codecs, and frames. It exposes a few transformations of that data, and helps you get your data to/from other packages (e.g. Numpy and Pillow).\r\n\r\nThis power does come with some responsibility as working with media is horrendously complicated and PyAV can't abstract it away or make all the best decisions for you. If the `ffmpeg` command does the job without you bending over backwards, PyAV is likely going to be more of a hindrance than a help.\r\n\r\nBut where you can't work without it, PyAV is a critical tool.\r\n\r\n\r\nInstallation\r\n------------\r\n\r\nBinary wheels are provided on [PyPI][pypi] for Linux, MacOS and Windows linked against the latest stable version of ffmpeg. You can install these wheels by running:\r\n\r\n```bash\r\npip install av\r\n```\r\n\r\nAnother way of installing PyAV is via [conda-forge][conda-forge]:\r\n\r\n```bash\r\nconda install av -c conda-forge\r\n```\r\n\r\nSee the [Conda install][conda-install] docs to get started with (mini)Conda.\r\n\r\n\r\nAlternative installation methods\r\n--------------------------------\r\n\r\nDue to the complexity of the dependencies, PyAV is not always the easiest Python package to install from source. If you want to use your existing ffmpeg (must be the correct major version), the source version of PyAV is on [PyPI][pypi]:\r\n\r\n> [!WARNING]\r\n> You must be in a posix env, and have the correct version of ffmpeg installed on your system.\r\n\r\n```bash\r\npip install av --no-binary av\r\n```\r\n\r\n\r\nInstalling From Source\r\n----------------------\r\n\r\nHere's how to build PyAV from source. You must use [MSYS2](https://www.msys2.org/) when using Windows.\r\n\r\n```bash\r\ngit clone https://github.com/PyAV-Org/PyAV.git\r\ncd PyAV\r\nsource scripts/activate.sh\r\n\r\n# Build ffmpeg from source. You can skip this step\r\n# if ffmpeg is already installed.\r\n./scripts/build-deps\r\n\r\n# Build PyAV\r\nmake\r\n\r\n# Testing\r\nmake test\r\n\r\n# Install globally\r\ndeactivate\r\npip install .\r\n```\r\n\r\n---\r\n\r\nHave fun, [read the docs][docs], [come chat with us][discuss], and good luck!\r\n\r\n\r\n\r\n[conda-badge]: https://img.shields.io/conda/vn/conda-forge/av.svg?colorB=CCB39A\r\n[conda]: https://anaconda.org/conda-forge/av\r\n[docs-badge]: https://img.shields.io/badge/docs-on%20pyav.basswood--io.com-blue.svg\r\n[docs]: https://pyav.basswood-io.com\r\n[pypi-badge]: https://img.shields.io/pypi/v/av.svg?colorB=CCB39A\r\n[pypi]: https://pypi.org/project/av\r\n[discuss]: https://github.com/PyAV-Org/PyAV/discussions\r\n\r\n[github-tests-badge]: https://github.com/PyAV-Org/PyAV/workflows/tests/badge.svg\r\n[github-tests]: https://github.com/PyAV-Org/PyAV/actions?workflow=tests\r\n[github]: https://github.com/PyAV-Org/PyAV\r\n\r\n[ffmpeg]: https://ffmpeg.org/\r\n[conda-forge]: https://conda-forge.github.io/\r\n[conda-install]: https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html\r\n",
+        "description_content_type": "text/markdown",
+        "author_email": "WyattBlue <wyattblue@auto-editor.com>, Jeremy Lainé <jeremy.laine@m4x.org>",
+        "license_expression": "BSD-3-Clause",
+        "license_file": [
+          "LICENSE.txt",
+          "AUTHORS.py",
+          "AUTHORS.rst"
+        ],
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Developers",
+          "Natural Language :: English",
+          "Operating System :: MacOS :: MacOS X",
+          "Operating System :: POSIX",
+          "Operating System :: Unix",
+          "Operating System :: Microsoft :: Windows",
+          "Programming Language :: Cython",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Topic :: Software Development :: Libraries :: Python Modules",
+          "Topic :: Multimedia :: Sound/Audio",
+          "Topic :: Multimedia :: Sound/Audio :: Conversion",
+          "Topic :: Multimedia :: Video",
+          "Topic :: Multimedia :: Video :: Conversion"
+        ],
+        "requires_python": ">=3.9",
+        "project_url": [
+          "Bug Tracker, https://github.com/PyAV-Org/PyAV/discussions/new?category=4-bugs",
+          "Source Code, https://github.com/PyAV-Org/PyAV",
+          "homepage, https://pyav.basswood-io.com"
+        ]
+      }
+    }
+  ],
+  "environment": {
+    "implementation_name": "cpython",
+    "implementation_version": "3.12.10",
+    "os_name": "nt",
+    "platform_machine": "AMD64",
+    "platform_release": "10",
+    "platform_system": "Windows",
+    "platform_version": "10.0.19045",
+    "python_full_version": "3.12.10",
+    "platform_python_implementation": "CPython",
+    "python_version": "3.12",
+    "sys_platform": "win32"
+  }
+}

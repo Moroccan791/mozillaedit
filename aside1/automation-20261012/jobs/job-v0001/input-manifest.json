@@ -1,0 +1,16 @@
+{
+  "song": "E:\\audio\\YTDown.com_YouTube_Media_MpoZ0NVXswY_Let-the-world-burn-Audio-Edit_009_128k_words.json",
+  "song_sha256": "76dace4cbf38e38cbacfe8d6b1715760b914fb6ab56d1525b7fa3ff43c43a93c",
+  "clips": [
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "size": 218971338,
+      "mtime_ns": 1791719274110435100
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "size": 227860412,
+      "mtime_ns": 1791719579171113400
+    }
+  ]
+}

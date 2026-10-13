@@ -1,0 +1,27 @@
+{
+  "schema_version": "encounters/v1",
+  "mode": "candidate-preview",
+  "requested_duration": 12.0,
+  "duration": 0.0,
+  "music_start": 25.0,
+  "music_end": 25.0,
+  "music_continuous": true,
+  "gaps": [],
+  "timeline": [],
+  "rhythm_assignments": [],
+  "rhythm_summary": {
+    "matched": 0,
+    "total": 0,
+    "semantic_sync": "unverified",
+    "beam_width": 24
+  },
+  "warnings": [
+    "Candidate preview only: audio transients are not confirmed POV shots/kills; musical suitability and phrase are unreviewed.",
+    "All selected candidate attacks retain 1x timing; unmatched attacks are explicitly reported, not forced onto beats.",
+    "Window outcome/completeness unknown; source-authored effects may already exist.",
+    "shorter than requested by 12.000s; no filler or reuse"
+  ],
+  "omitted_encounters": [],
+  "review_status": "unreviewed",
+  "music": "E:\\audio\\YTDown.com_YouTube_Media_MpoZ0NVXswY_Let-the-world-burn-Audio-Edit_009_128k.mp3"
+}

@@ -6,36 +6,27 @@ __pycache__/
 *.pyc
 *.pyo
 
-# Browser profiles, automation snapshots & cache
-aside1/
-aside2/
-aside3/
-aside4/
-aside5/
-aside6/
-aside7/
-aside8/
-aside9/
-aside10/
-x/
-y/
-**/User Data/
-**/aside_component_crx_cache/
+# Browser binaries & disposable caches (allows all session data, agent managers, local storage, indexeddb)
 **/AsideDaemon/
+**/aside_component_crx_cache/
+**/component_crx_cache/
+**/extensions_crx_cache/
+**/Crashpad/
+**/ShaderCache/
+**/GPUPersistentCache/
 *.exe
 *.dll
 
-# Raw video downloads & zip archives
+# Large raw video downloads & archives (>100MB)
 raw/
 *.zip
 **/proof-input/
 
-# AI models & rendered video outputs
-models/
-**/models/
+# AI binary model weights & large rendered video outputs
 *.bin
 output/
 **/output/
+**/cache/
 
 # Logs and temp files
 *.log

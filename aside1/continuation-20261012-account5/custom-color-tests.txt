@@ -1,0 +1,17 @@
+test_clipped_boundary_is_omitted_not_retimed (test_lyric_design.LyricDesignTests.test_clipped_boundary_is_omitted_not_retimed) ... ok
+test_color_overrides_preserve_guards_and_select_specific_moments (test_lyric_design.LyricDesignTests.test_color_overrides_preserve_guards_and_select_specific_moments) ... ok
+test_custom_colors_reject_injection_malformed_and_unknown_ids (test_lyric_design.LyricDesignTests.test_custom_colors_reject_injection_malformed_and_unknown_ids) ... ok
+test_custom_maroon_and_hex_colors_render_correct_ass_channels (test_lyric_design.LyricDesignTests.test_custom_maroon_and_hex_colors_render_correct_ass_channels) ... ok
+test_echo_and_italic_are_generated_controlled_tags (test_lyric_design.LyricDesignTests.test_echo_and_italic_are_generated_controlled_tags) ... ok
+test_no_unvalidated_track_or_gameplay_audio_lineage (test_lyric_design.LyricDesignTests.test_no_unvalidated_track_or_gameplay_audio_lineage) ... ok
+test_protected_gameplay_boxes_and_impact_collision (test_lyric_design.LyricDesignTests.test_protected_gameplay_boxes_and_impact_collision) ... ok
+test_selected_words_only_and_music_clock (test_lyric_design.LyricDesignTests.test_selected_words_only_and_music_clock) ... ok
+test_serif_fails_closed_without_bundled_font (test_lyric_design.LyricDesignTests.test_serif_fails_closed_without_bundled_font) ... ok
+test_strict_json_schema_and_injection (test_lyric_design.LyricDesignTests.test_strict_json_schema_and_injection) ... ok
+test_text_box_overflow_missing_glyph_and_long_phrase (test_lyric_design.LyricDesignTests.test_text_box_overflow_missing_glyph_and_long_phrase) ... ok
+test_tiny_event_omitted_and_animation_bounded_by_lifetime (test_lyric_design.LyricDesignTests.test_tiny_event_omitted_and_animation_bounded_by_lifetime) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.696s
+
+OK

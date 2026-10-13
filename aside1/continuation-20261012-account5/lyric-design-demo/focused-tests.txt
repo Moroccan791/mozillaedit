@@ -1,0 +1,28 @@
+test_clipped_boundary_is_omitted_not_retimed (tests.test_lyric_design.LyricDesignTests.test_clipped_boundary_is_omitted_not_retimed) ... ok
+test_echo_and_italic_are_generated_controlled_tags (tests.test_lyric_design.LyricDesignTests.test_echo_and_italic_are_generated_controlled_tags) ... ok
+test_no_unvalidated_track_or_gameplay_audio_lineage (tests.test_lyric_design.LyricDesignTests.test_no_unvalidated_track_or_gameplay_audio_lineage) ... ok
+test_protected_gameplay_boxes_and_impact_collision (tests.test_lyric_design.LyricDesignTests.test_protected_gameplay_boxes_and_impact_collision) ... ok
+test_selected_words_only_and_music_clock (tests.test_lyric_design.LyricDesignTests.test_selected_words_only_and_music_clock) ... ok
+test_serif_fails_closed_without_bundled_font (tests.test_lyric_design.LyricDesignTests.test_serif_fails_closed_without_bundled_font) ... ok
+test_strict_json_schema_and_injection (tests.test_lyric_design.LyricDesignTests.test_strict_json_schema_and_injection) ... ok
+test_text_box_overflow_missing_glyph_and_long_phrase (tests.test_lyric_design.LyricDesignTests.test_text_box_overflow_missing_glyph_and_long_phrase) ... ok
+test_tiny_event_omitted_and_animation_bounded_by_lifetime (tests.test_lyric_design.LyricDesignTests.test_tiny_event_omitted_and_animation_bounded_by_lifetime) ... ok
+test_ass_injection_and_line_breaks_are_rejected (tests.test_lyric_track.LyricTrackTests.test_ass_injection_and_line_breaks_are_rejected) ... ok
+test_excerpt_bad_options (tests.test_lyric_track.LyricTrackTests.test_excerpt_bad_options) ... ok
+test_finite_sorted_positive_within_decoded_duration (tests.test_lyric_track.LyricTrackTests.test_finite_sorted_positive_within_decoded_duration) ... ok
+test_font_discovery_and_ass_centisecond_carry (tests.test_lyric_track.LyricTrackTests.test_font_discovery_and_ass_centisecond_carry) ... ok
+test_hash_requires_actual_audio (tests.test_lyric_track.LyricTrackTests.test_hash_requires_actual_audio) ... ok
+test_json_path (tests.test_lyric_track.LyricTrackTests.test_json_path) ... ok
+test_no_automatic_big_words_and_collision_guard (tests.test_lyric_track.LyricTrackTests.test_no_automatic_big_words_and_collision_guard) ... ok
+test_optional_disabled_reason_and_no_mutation (tests.test_lyric_track.LyricTrackTests.test_optional_disabled_reason_and_no_mutation) ... ok
+test_partial_boundaries_skipped_and_absolute_song_clock (tests.test_lyric_track.LyricTrackTests.test_partial_boundaries_skipped_and_absolute_song_clock) ... ok
+test_real_decoded_duration (tests.test_lyric_track.LyricTrackTests.test_real_decoded_duration) ... ok
+test_real_ffmpeg_ass_renders_text (tests.test_lyric_track.LyricTrackTests.test_real_ffmpeg_ass_renders_text) ... ok
+test_render_refuses_unloaded_track (tests.test_lyric_track.LyricTrackTests.test_render_refuses_unloaded_track) ... ok
+test_schema_and_provenance_fail_closed (tests.test_lyric_track.LyricTrackTests.test_schema_and_provenance_fail_closed) ... ok
+test_touching_words_and_zero_start_are_valid (tests.test_lyric_track.LyricTrackTests.test_touching_words_and_zero_start_are_valid) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 2.556s
+
+OK

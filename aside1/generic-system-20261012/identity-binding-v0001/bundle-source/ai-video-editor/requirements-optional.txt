@@ -1,0 +1,2 @@
+# Optional local word-level transcription.
+faster-whisper>=1.0.0 ; python_version >= "3.9"

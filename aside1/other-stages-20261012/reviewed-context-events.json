@@ -1,0 +1,93 @@
+{
+  "schema_version": "povkills/v1",
+  "events": [
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "source_audio_event": 221.612,
+      "source_visual_event": 221.6667,
+      "source_duration": 505.034014,
+      "confidence": 1,
+      "confidence_kind": "manual_calibration_label_not_probability",
+      "confirmed": true,
+      "confirmation": "POV firing/ammo and skull-emblem frame review plus high-frequency waveform attack; full-track librosa local-threshold onsets near tracked beats",
+      "encounter_start": 220,
+      "encounter_end": 223,
+      "context_review": "Assistant inspected 4fps full-frame contact sheet spanning five seconds. Bounds preserve sampled local setup/outcome, not exhaustive match/kill labeling.",
+      "label_id": "1v9-1"
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "source_audio_event": 234.469,
+      "source_visual_event": 234.5,
+      "source_duration": 505.034014,
+      "confidence": 1,
+      "confidence_kind": "manual_calibration_label_not_probability",
+      "confirmed": true,
+      "confirmation": "POV firing/ammo and skull-emblem frame review plus high-frequency waveform attack; full-track librosa local-threshold onsets near tracked beats",
+      "encounter_start": 233,
+      "encounter_end": 235.65,
+      "context_review": "Assistant inspected 4fps full-frame contact sheet spanning five seconds. Bounds preserve sampled local setup/outcome, not exhaustive match/kill labeling.",
+      "label_id": "1v9-2"
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "source_audio_event": 265.7033,
+      "source_visual_event": 265.7333,
+      "source_duration": 505.034014,
+      "confidence": 1,
+      "confidence_kind": "manual_calibration_label_not_probability",
+      "confirmed": true,
+      "confirmation": "POV firing/ammo and skull-emblem frame review plus high-frequency waveform attack; full-track librosa local-threshold onsets near tracked beats",
+      "encounter_start": 264.4,
+      "encounter_end": 267.05,
+      "context_review": "Assistant inspected 4fps full-frame contact sheet spanning five seconds. Bounds preserve sampled local setup/outcome, not exhaustive match/kill labeling.",
+      "label_id": "1v9-3"
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "source_audio_event": 9.646,
+      "source_visual_event": 9.733333333333333,
+      "source_duration": 530.041905,
+      "confidence": 1,
+      "confidence_kind": "manual_calibration_label_not_probability",
+      "confirmed": true,
+      "confirmation": "Historical manual POV shot/outcome preview review plus production temporal first-emblem observation; not automatic profile certification",
+      "encounter_start": 8.4,
+      "encounter_end": 10.9,
+      "context_review": "Assistant inspected 4fps full-frame contact sheet spanning five seconds. Bounds preserve sampled local setup/outcome, not exhaustive match/kill labeling.",
+      "label_id": "reyna-1"
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "source_audio_event": 92.258,
+      "source_visual_event": 92.33333333333333,
+      "source_duration": 530.041905,
+      "confidence": 1,
+      "confidence_kind": "manual_calibration_label_not_probability",
+      "confirmed": true,
+      "confirmation": "Historical manual POV shot/outcome preview review plus production temporal first-emblem observation; not automatic profile certification",
+      "encounter_start": 91.1,
+      "encounter_end": 94.25,
+      "context_review": "Assistant inspected 4fps full-frame contact sheet spanning five seconds. Bounds preserve sampled local setup/outcome, not exhaustive match/kill labeling.",
+      "label_id": "reyna-2"
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "source_audio_event": 188.028,
+      "source_visual_event": 188.13333333333333,
+      "source_duration": 530.041905,
+      "confidence": 1,
+      "confidence_kind": "manual_calibration_label_not_probability",
+      "confirmed": true,
+      "confirmation": "Historical manual POV shot/outcome preview review plus production temporal first-emblem observation; not automatic profile certification",
+      "encounter_start": 186.9,
+      "encounter_end": 189.45,
+      "context_review": "Assistant inspected 4fps full-frame contact sheet spanning five seconds. Bounds preserve sampled local setup/outcome, not exhaustive match/kill labeling.",
+      "label_id": "reyna-4"
+    }
+  ],
+  "limitations": [
+    "Manual selection; automatic detector remains unfinished.",
+    "Window boundaries reviewed from temporal samples, not every frame or audio heard."
+  ]
+}

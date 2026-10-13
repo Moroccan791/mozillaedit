@@ -1,0 +1,116 @@
+{
+  "schema": "lyric-design/v1",
+  "enabled": true,
+  "source": {
+    "music_source": "E:\\aside\\continuation-20261012-account5\\lyric-design-demo\\synthetic-selected-audio.wav",
+    "audio_sha256": "95c7cb40336aa5a49fcc0405f803807116be8c1694c6b74f0f8447062d0d4120"
+  },
+  "excerpt": {
+    "music_start_sample": 48000,
+    "sample_rate": 48000,
+    "sample_count": 288000,
+    "output_start": 0
+  },
+  "canvas": {
+    "width": 1280,
+    "height": 720,
+    "mode": "diagnostic"
+  },
+  "moments": [
+    {
+      "id": "shape",
+      "word_indices": [
+        0
+      ],
+      "role": "giant_word",
+      "font_family": "Bebas Neue",
+      "palette": {
+        "primary": "#800000",
+        "accent": "#D44D65"
+      },
+      "box": [
+        0.03,
+        0.04,
+        0.94,
+        0.84
+      ],
+      "size": 0.4,
+      "opacity": 0.7,
+      "animation": {
+        "entrance_ms": 160,
+        "exit_ms": 140,
+        "from_scale": 1.12,
+        "echo_offset": [
+          0,
+          0
+        ],
+        "glow": 0.006
+      }
+    },
+    {
+      "id": "light",
+      "word_indices": [
+        1
+      ],
+      "role": "accent_echo",
+      "font_family": "Bebas Neue",
+      "palette": {
+        "primary": "#800000",
+        "accent": "#D44D65"
+      },
+      "box": [
+        0.07,
+        0.04,
+        0.9,
+        0.84
+      ],
+      "size": 0.33,
+      "opacity": 0.86,
+      "animation": {
+        "entrance_ms": 160,
+        "exit_ms": 140,
+        "from_scale": 1.12,
+        "echo_offset": [
+          0.018,
+          0.012
+        ],
+        "glow": 0.006
+      }
+    },
+    {
+      "id": "quiet",
+      "word_indices": [
+        2,
+        3
+      ],
+      "role": "quiet_italic",
+      "font_family": "Oswald",
+      "palette": {
+        "primary": "#800000",
+        "accent": "#D44D65"
+      },
+      "box": [
+        0.1,
+        0.65,
+        0.8,
+        0.26
+      ],
+      "size": 0.046,
+      "opacity": 0.9,
+      "animation": {
+        "entrance_ms": 160,
+        "exit_ms": 140,
+        "from_scale": 1.12,
+        "echo_offset": [
+          0,
+          0
+        ],
+        "glow": 0.002
+      }
+    }
+  ],
+  "visual_impacts": [],
+  "protected_zones": [],
+  "allow_impact_collision": false,
+  "allow_protected_overlap": false
+}

@@ -1,0 +1,921 @@
+{
+  "status": "all_snapshot_and_archive_entry_hashes_verified",
+  "files": 152,
+  "bundle": "E:\\aside\\generic-system-20261012\\local-lyrics-v0001\\AI-CONTINUATION-BUNDLE.zip",
+  "bundle_bytes": 521207,
+  "bundle_sha256": "484d78930b8cd943b333da35f8a31bb0d78fba6c69caa2ec59b57b8744f5d06a",
+  "entries": [
+    {
+      "source": "E:\\ai-video-editor\\aive\\accent_audit.py",
+      "snapshot": "ai-video-editor\\aive\\accent_audit.py",
+      "bytes": 13126,
+      "sha256": "a7bbe433ae55c26422f1675292a9eb05a182712fb9a48d5028d5c6a59a5d7f18"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\acoustic_cache.py",
+      "snapshot": "ai-video-editor\\aive\\acoustic_cache.py",
+      "bytes": 16942,
+      "sha256": "e483c6f26440726dbcbeaa239a38edeafbb7f56867a80cb8d665d27e14ec784a"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\analyze.py",
+      "snapshot": "ai-video-editor\\aive\\analyze.py",
+      "bytes": 5102,
+      "sha256": "2df0d0d098496b1e70a85e8f3584881a4c9909bde475701c86df4267866d6464"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\attack_qa.py",
+      "snapshot": "ai-video-editor\\aive\\attack_qa.py",
+      "bytes": 24175,
+      "sha256": "eebcbaebb3960af0faf1d315a2c49b8bca10379f84b15daa00340ea95839bf06"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\audio.py",
+      "snapshot": "ai-video-editor\\aive\\audio.py",
+      "bytes": 1565,
+      "sha256": "050cd87c6445c16c7912fc8c16ec0e128615fe2401d0b6cb43245dbe19e3ab1d"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\authored_footage.py",
+      "snapshot": "ai-video-editor\\aive\\authored_footage.py",
+      "bytes": 14187,
+      "sha256": "67e658c1bde0a23f748db498adcdf69a9331936419d402a8ba9e7103ac2a0d4b"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\automation_runner.py",
+      "snapshot": "ai-video-editor\\aive\\automation_runner.py",
+      "bytes": 9786,
+      "sha256": "79e3faf963131f8661d9de1effb836136b711c23b5ec76ddaaa2e2e2f73c3b9f"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\beats.py",
+      "snapshot": "ai-video-editor\\aive\\beats.py",
+      "bytes": 9944,
+      "sha256": "3a0c0188f3c1849b797fee7a98bc19aca414092e24c4c9fd3cb2e8a91325e35b"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\cache.py",
+      "snapshot": "ai-video-editor\\aive\\cache.py",
+      "bytes": 769,
+      "sha256": "2650fca5e4876e82949ba189d3ff62a3b4d253772b81c3cc8571afafe2e307df"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\calibration_report.py",
+      "snapshot": "ai-video-editor\\aive\\calibration_report.py",
+      "bytes": 16974,
+      "sha256": "88528833f58eaa727ec8acb2a0557b278be7332017f717c30a59689f75a48a23"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\captions.py",
+      "snapshot": "ai-video-editor\\aive\\captions.py",
+      "bytes": 5599,
+      "sha256": "71440d22d85ae12a67a57336b7d405fabced114b208e3b6506d8df374189a9ea"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\closure_qa.py",
+      "snapshot": "ai-video-editor\\aive\\closure_qa.py",
+      "bytes": 19317,
+      "sha256": "6e4658aaab5dbdf57c432e85cec6329de62245a654c4369bec575ad44a9e05ed"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\conductor.py",
+      "snapshot": "ai-video-editor\\aive\\conductor.py",
+      "bytes": 11275,
+      "sha256": "bca9428a6263cda9e4c5bf679c969b98465f3db63540620e54cf4f673751ac3e"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\daily_runner.py",
+      "snapshot": "ai-video-editor\\aive\\daily_runner.py",
+      "bytes": 28479,
+      "sha256": "958370c304e3c39b86db7332c2636acbc9e07e80567acd409d7e328f47a48927"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\encounters.py",
+      "snapshot": "ai-video-editor\\aive\\encounters.py",
+      "bytes": 27249,
+      "sha256": "a35b9cdcbfeb848bca9154984c3e2b1644d02bdb4348109e5ecd8a85c3f01ca2"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\encounter_qa.py",
+      "snapshot": "ai-video-editor\\aive\\encounter_qa.py",
+      "bytes": 30734,
+      "sha256": "09b1e2584d551815fabfc8b6df5559e221114338988d5bf759164817e9c94079"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\encounter_render.py",
+      "snapshot": "ai-video-editor\\aive\\encounter_render.py",
+      "bytes": 35423,
+      "sha256": "73b2f972b5b817134ae5ae472380d1ff022c423a41c049adfc3d469bc0a8348a"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\encounter_text.py",
+      "snapshot": "ai-video-editor\\aive\\encounter_text.py",
+      "bytes": 13809,
+      "sha256": "aea837073a67b258563b20ddc05894e0413205c21fe2dd14c4fdd39cd7758aa7"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\events.py",
+      "snapshot": "ai-video-editor\\aive\\events.py",
+      "bytes": 3683,
+      "sha256": "24cd20d61518e7b84d47b0647c219bea3ea44ce6b900849ec79ae905c4d413a9"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\event_io.py",
+      "snapshot": "ai-video-editor\\aive\\event_io.py",
+      "bytes": 3153,
+      "sha256": "ac52409bc2843487862de1d4af07dc4377f2fe91042b44bf110e6a4a0494050e"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\export.py",
+      "snapshot": "ai-video-editor\\aive\\export.py",
+      "bytes": 3317,
+      "sha256": "0191fd36b013ec0a3867826500b5108927f57efd9da7e742e5cd8e700b4c3a10"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\ffprobe.py",
+      "snapshot": "ai-video-editor\\aive\\ffprobe.py",
+      "bytes": 2609,
+      "sha256": "8bd9ae98f6b8801f7fc7859c1b0770c8ed590b6754d4d5081a3117d3e1405d7e"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\firing_map.py",
+      "snapshot": "ai-video-editor\\aive\\firing_map.py",
+      "bytes": 21353,
+      "sha256": "b42a48272c0a2f400d2f41350d82ba6e7fb916b73228e1fe01c9e7b9e76e2ae1"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\gameplay_gate.py",
+      "snapshot": "ai-video-editor\\aive\\gameplay_gate.py",
+      "bytes": 13957,
+      "sha256": "c1b6209c0d49aa670b28774ed7d6b63cd17289d82b72249f0cd081cd7baded68"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\grade.py",
+      "snapshot": "ai-video-editor\\aive\\grade.py",
+      "bytes": 1788,
+      "sha256": "afa70b3fff5d2386ae395f983daef13ed451cea9e11d3ccef33cd0b54db73e22"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\graph.py",
+      "snapshot": "ai-video-editor\\aive\\graph.py",
+      "bytes": 19575,
+      "sha256": "825359911c1ecc4d5785519532ff76668d83bce47ef34ffcb681c3ce1668122f"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\hit_map.py",
+      "snapshot": "ai-video-editor\\aive\\hit_map.py",
+      "bytes": 12299,
+      "sha256": "f0974d8ae6924c439175794a7324b45aff981f7aa2c6ac34a5ab2b15254fadd7"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\impact_motion.py",
+      "snapshot": "ai-video-editor\\aive\\impact_motion.py",
+      "bytes": 8282,
+      "sha256": "42329b2c041c05d8bcbf43ddd3a2389c90013a32d8b93c11f497cb9e6dcec75f"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\killfeed.py",
+      "snapshot": "ai-video-editor\\aive\\killfeed.py",
+      "bytes": 6305,
+      "sha256": "0882d6054f45e1895cd61daac0bcc064577f6043d2bc7aa973715537ecb64de9"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\llm.py",
+      "snapshot": "ai-video-editor\\aive\\llm.py",
+      "bytes": 2821,
+      "sha256": "98415df5b3168ad497dac2be17400fe7211dd7a39185358d639f19006f8643ee"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\local_authored_planner.py",
+      "snapshot": "ai-video-editor\\aive\\local_authored_planner.py",
+      "bytes": 25970,
+      "sha256": "340994c3185cdc15a31becb62167eca279a1445539092b6076d917b8da89d66b"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\local_preview_runner.py",
+      "snapshot": "ai-video-editor\\aive\\local_preview_runner.py",
+      "bytes": 10814,
+      "sha256": "1ad869f220c0a5922586b1947b6a8b8a80b246a795282ddc34f77f375ec71e90"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\lyric_design.py",
+      "snapshot": "ai-video-editor\\aive\\lyric_design.py",
+      "bytes": 20727,
+      "sha256": "bb3b82c3bddabb684f7ebe8be212234ebc9a31aa888c712fdc0808e5c333d72d"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\lyric_track.py",
+      "snapshot": "ai-video-editor\\aive\\lyric_track.py",
+      "bytes": 16045,
+      "sha256": "e1858e7b8126fb5fd5df3253a25e7c2c66e3d0b1a900f4723d113c99621d53ec"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\lyric_workflow.py",
+      "snapshot": "ai-video-editor\\aive\\lyric_workflow.py",
+      "bytes": 18852,
+      "sha256": "6f11f2e939d3611919029b01000f301dbf6601c5136c721fdf06022340352285"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\multishot_map.py",
+      "snapshot": "ai-video-editor\\aive\\multishot_map.py",
+      "bytes": 16826,
+      "sha256": "40745cd7758d86254305652bef55f0ff1bce350504bff12057c82377fcb036e6"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\music.py",
+      "snapshot": "ai-video-editor\\aive\\music.py",
+      "bytes": 8190,
+      "sha256": "48bd0d0c255f489233617e6ec90ac2db11f414f5a61fca94fc503f1950a5df72"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\music_lyrics.py",
+      "snapshot": "ai-video-editor\\aive\\music_lyrics.py",
+      "bytes": 17192,
+      "sha256": "ab3c24289d8b351eb5cd9613bae1d69eda90e89df87f20632cbdceafc37ac913"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\planner.py",
+      "snapshot": "ai-video-editor\\aive\\planner.py",
+      "bytes": 19183,
+      "sha256": "48dbb5ccdab9f10ee092d596284e5ff62124fe96f093006ffc43b776bbca7b27"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\povkills.py",
+      "snapshot": "ai-video-editor\\aive\\povkills.py",
+      "bytes": 20396,
+      "sha256": "cc2a9d46b37deb7e0c9e46b547d70d4d361db9042c96415a1425c733cfee07de"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\project.py",
+      "snapshot": "ai-video-editor\\aive\\project.py",
+      "bytes": 4735,
+      "sha256": "6bc3afa5670b7320708838a72feecd70ade03743a25b79f7d3047b8b3c5d2ba1"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\qa.py",
+      "snapshot": "ai-video-editor\\aive\\qa.py",
+      "bytes": 5193,
+      "sha256": "bec9e6647d05d103f708228f9688618f6ab5c53cfe2063459d573bdc6a8ae9ef"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\rc.py",
+      "snapshot": "ai-video-editor\\aive\\rc.py",
+      "bytes": 2416,
+      "sha256": "1a6e7d107ae393ed3c58c2d5a624fcd1523e3d7579e091baa995c0cc1c0e58da"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\render.py",
+      "snapshot": "ai-video-editor\\aive\\render.py",
+      "bytes": 2355,
+      "sha256": "214e4c97c0cd9d25bc5c30af78d07648c8466674aca904038aadfa28fa0663fe"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\render_chunked.py",
+      "snapshot": "ai-video-editor\\aive\\render_chunked.py",
+      "bytes": 2331,
+      "sha256": "ee30854eb926ceaf3db85af8a25ff0569b1e736ba510712992afa493cf7fe248"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\render_chunked2.py",
+      "snapshot": "ai-video-editor\\aive\\render_chunked2.py",
+      "bytes": 2382,
+      "sha256": "40b7b5c733da156128404726fdb25ca1a19fe0a183724a83db17d6d33040cc91"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\render_chunked3.py",
+      "snapshot": "ai-video-editor\\aive\\render_chunked3.py",
+      "bytes": 2389,
+      "sha256": "5f93e7f4ed28ace5e4a6725b2eb95230043c4bc9feffacf23bb07de22afec8fc"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\rhythm_planner.py",
+      "snapshot": "ai-video-editor\\aive\\rhythm_planner.py",
+      "bytes": 16662,
+      "sha256": "8596bb41db8d038419d56b093e9bed0d96b7348ab060fca7821828cc08c83978"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\roughcut.py",
+      "snapshot": "ai-video-editor\\aive\\roughcut.py",
+      "bytes": 3854,
+      "sha256": "c144ddcc0ddf2ac5ba599c89068c2420bff15cbe87d29ccd554e0f0a275664c9"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\shell.py",
+      "snapshot": "ai-video-editor\\aive\\shell.py",
+      "bytes": 2353,
+      "sha256": "38828dfee97807cab91a95a0ac14ed336f6a2dd617c9e32680f16d1f97180ca3"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\shots.py",
+      "snapshot": "ai-video-editor\\aive\\shots.py",
+      "bytes": 3687,
+      "sha256": "5eb38fb34b3cb549cc5fa74889775c88c649a3fefdeec256b46761876ae348d5"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\supported_pipeline.py",
+      "snapshot": "ai-video-editor\\aive\\supported_pipeline.py",
+      "bytes": 6307,
+      "sha256": "181268712ca627f30426380d6e5ba2ebe1ff8751759efea14b0b5642ae15aaa0"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\system.py",
+      "snapshot": "ai-video-editor\\aive\\system.py",
+      "bytes": 3074,
+      "sha256": "a637e7c03160de39715453598b3d0201b7a9ecff1b946c965a0eecf82e79ca91"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\text.py",
+      "snapshot": "ai-video-editor\\aive\\text.py",
+      "bytes": 5794,
+      "sha256": "bf978d72928439d71a57d2aaf42dfb23c0cc8a68be24ba4b777d01c93a1fbf38"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\transcribe.py",
+      "snapshot": "ai-video-editor\\aive\\transcribe.py",
+      "bytes": 2190,
+      "sha256": "433b36f3cd3fdcb38a374dac46b3f164ddfe95128f1dadac2422534bd5ce5faf"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\visual_gate.py",
+      "snapshot": "ai-video-editor\\aive\\visual_gate.py",
+      "bytes": 5674,
+      "sha256": "ba3ffe4deaad2a6b87b1a2acd15d432f17777531ec9f548a126364fab0579ae9"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\__init__.py",
+      "snapshot": "ai-video-editor\\aive\\__init__.py",
+      "bytes": 210,
+      "sha256": "7b5547aad49ba2ba81ffb9acbd794febfdf1a8ae9bba57b6a4422462937ca36a"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\fixtures\\local_beam_unconfirmed.json",
+      "snapshot": "ai-video-editor\\tests\\fixtures\\local_beam_unconfirmed.json",
+      "bytes": 131556,
+      "sha256": "0c1730b161ac8e6070de880fa5d803d0d13554fcba29126d17e6ce8c6b5da9fa"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_accent_audit.py",
+      "snapshot": "ai-video-editor\\tests\\test_accent_audit.py",
+      "bytes": 8374,
+      "sha256": "d6cbd56b09337848cab93827a68c960aa26a66d81559a88373b4366cbb2b00cd"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_acoustic_cache.py",
+      "snapshot": "ai-video-editor\\tests\\test_acoustic_cache.py",
+      "bytes": 11780,
+      "sha256": "b9974a0beb525b5b146bf73f911a784410f9b990cc8263c716b4347323662c8f"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_analysis_cache.py",
+      "snapshot": "ai-video-editor\\tests\\test_analysis_cache.py",
+      "bytes": 1317,
+      "sha256": "f86d4256abe2209b86ac63481dfc03f6e81a679a90a23c22929bf70970e5faac"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_attack_qa.py",
+      "snapshot": "ai-video-editor\\tests\\test_attack_qa.py",
+      "bytes": 15544,
+      "sha256": "190de4a27d5aeafaf5a245d8b994b965d75987563b83a313a8b323030677a35f"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_authored_footage.py",
+      "snapshot": "ai-video-editor\\tests\\test_authored_footage.py",
+      "bytes": 9196,
+      "sha256": "39c2c9e122e54098cd3e4141178bf7fdd87ec15e7b4435a82b46b0f1bd14b1a2"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_authored_long.py",
+      "snapshot": "ai-video-editor\\tests\\test_authored_long.py",
+      "bytes": 14119,
+      "sha256": "909c647f0b8f699f33d8ebe66a8c676cca62af5106a9d5d5b943afbdf6cef2ec"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_automation_runner.py",
+      "snapshot": "ai-video-editor\\tests\\test_automation_runner.py",
+      "bytes": 5878,
+      "sha256": "794355edc2cd326cb03788fdb5daeaefd0a3d8a5026a0f7bd2836e6ae905ef0f"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_beats.py",
+      "snapshot": "ai-video-editor\\tests\\test_beats.py",
+      "bytes": 3250,
+      "sha256": "38c13b86bd178c42be0f0a81c0f21da78554ade806ff461b4854ed44c8f3128d"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_calibration_report.py",
+      "snapshot": "ai-video-editor\\tests\\test_calibration_report.py",
+      "bytes": 11811,
+      "sha256": "89e3259fa2f4b1e2d0a9f3b71d70fb83128f4ecab3a61acf3b44ac1bb03a2875"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_closure_qa.py",
+      "snapshot": "ai-video-editor\\tests\\test_closure_qa.py",
+      "bytes": 12577,
+      "sha256": "a1c8ec28653ca0b59d19130f4ce19423d26ccae973783b7ac35af12e7f88e115"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_daily_authored.py",
+      "snapshot": "ai-video-editor\\tests\\test_daily_authored.py",
+      "bytes": 16443,
+      "sha256": "2913b88fc8d8ff3edc9d42b34f95f1a24e2f881c2a3a4d6d347d29f3335e470f"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_daily_runner.py",
+      "snapshot": "ai-video-editor\\tests\\test_daily_runner.py",
+      "bytes": 16198,
+      "sha256": "9c3bcb2834f90dce798e216b71a1f20df5afbd2165d560c0bea98681741d2291"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_encounters.py",
+      "snapshot": "ai-video-editor\\tests\\test_encounters.py",
+      "bytes": 9694,
+      "sha256": "c82fdc4f9d4ae37da183bdf4cc8ccbbd5c12bbf235f314a44e9799e7b785887e"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_encounter_phrases.py",
+      "snapshot": "ai-video-editor\\tests\\test_encounter_phrases.py",
+      "bytes": 17320,
+      "sha256": "fc7ee42123366f9b6a091d7cc142f0e6b8135d2918bbbe15d06bdbc41e8b0fc0"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_encounter_qa.py",
+      "snapshot": "ai-video-editor\\tests\\test_encounter_qa.py",
+      "bytes": 13262,
+      "sha256": "58783678402b0da60129d1648db76bb1e110f2375cdea2da5a5defc47823292e"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_encounter_render.py",
+      "snapshot": "ai-video-editor\\tests\\test_encounter_render.py",
+      "bytes": 10430,
+      "sha256": "ec5b6f87949ca478ed19d0dfadafe2c6b7adf0660b26bcfb305a054f0c06320b"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_encounter_text.py",
+      "snapshot": "ai-video-editor\\tests\\test_encounter_text.py",
+      "bytes": 12052,
+      "sha256": "90f8b36ae0df105362e594778bb3af0676a3c2aedd511c9c60a99592a57cae37"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_event_interface.py",
+      "snapshot": "ai-video-editor\\tests\\test_event_interface.py",
+      "bytes": 2240,
+      "sha256": "a1102ecb5f10f661ac46bcf147c520c95cc6f9836c777d2ddc1920abda4f9a99"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_event_io.py",
+      "snapshot": "ai-video-editor\\tests\\test_event_io.py",
+      "bytes": 3330,
+      "sha256": "dec3b9337c61124628773069a793719e51319c05e9ce8a6b8fea01867ce9b452"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_firing_map.py",
+      "snapshot": "ai-video-editor\\tests\\test_firing_map.py",
+      "bytes": 14175,
+      "sha256": "0f59cd39b3b28fa266a8e21211f32593ba15b9fe88d7c3fced792fdd246b71a1"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_gameplay_gate.py",
+      "snapshot": "ai-video-editor\\tests\\test_gameplay_gate.py",
+      "bytes": 17287,
+      "sha256": "43150f5efd1412ff922706babd0c452f91aba9c380e3a78a58060ad67b8e84cc"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_graph_timing.py",
+      "snapshot": "ai-video-editor\\tests\\test_graph_timing.py",
+      "bytes": 1103,
+      "sha256": "3334fd903ab108cd064184bf6e8a0ffef333b4c03a1af2e1092c28043d173d11"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_hit_map.py",
+      "snapshot": "ai-video-editor\\tests\\test_hit_map.py",
+      "bytes": 10208,
+      "sha256": "72cbcf9d13c18e0a05cd11d2221a7a63e79eee286cd63ff06abc66f71a35546a"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_impact_motion.py",
+      "snapshot": "ai-video-editor\\tests\\test_impact_motion.py",
+      "bytes": 8583,
+      "sha256": "ddf1d70ed4e837bff6551a41e1d0e76d63c44d6a86cfe5152665726c7aadd1d9"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_killfeed.py",
+      "snapshot": "ai-video-editor\\tests\\test_killfeed.py",
+      "bytes": 1166,
+      "sha256": "f58199cac098eab06612dfceda6574b61782ed0254ec345c107b1b0f19e6209b"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_legacy_alignment_validation.py",
+      "snapshot": "ai-video-editor\\tests\\test_legacy_alignment_validation.py",
+      "bytes": 11109,
+      "sha256": "85c750894e4d3982860691233ee72f4449af0242c6c44b4b97246727becadf0a"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_local_authored_planner.py",
+      "snapshot": "ai-video-editor\\tests\\test_local_authored_planner.py",
+      "bytes": 20584,
+      "sha256": "54d355836bf733871fe07e0a36851b64b522a29ec83fde29a00aef209ae38313"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_local_lyrics_integration.py",
+      "snapshot": "ai-video-editor\\tests\\test_local_lyrics_integration.py",
+      "bytes": 6384,
+      "sha256": "8c79d35d7f6a6703a386cc4dfaa427b6ba4f51a9a20e141dcb7c8001dc29b232"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_local_preview_runner.py",
+      "snapshot": "ai-video-editor\\tests\\test_local_preview_runner.py",
+      "bytes": 3062,
+      "sha256": "52597c746b63f2badcccf12f572fe31cb54cb30adda302f9681c4168e1e3577c"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_lyric_decode_bounds.py",
+      "snapshot": "ai-video-editor\\tests\\test_lyric_decode_bounds.py",
+      "bytes": 3067,
+      "sha256": "8aa482b4c04d7d423e22f4be0889f401cf4da9cef1a299b63595d71d8639de6e"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_lyric_design.py",
+      "snapshot": "ai-video-editor\\tests\\test_lyric_design.py",
+      "bytes": 11808,
+      "sha256": "289ab70d4aa329bc8fea1a9df9e4f17da25da967c8ddcd7364ff4f51cc961568"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_lyric_track.py",
+      "snapshot": "ai-video-editor\\tests\\test_lyric_track.py",
+      "bytes": 10955,
+      "sha256": "812710d0b2d1611cfed73d2c7be62ecd275a71ca74f7b2496ecbd89bc27602e0"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_lyric_workflow.py",
+      "snapshot": "ai-video-editor\\tests\\test_lyric_workflow.py",
+      "bytes": 21161,
+      "sha256": "e0a99930f028d94753124eb3ff460ef35a6f0a72177b372447ce0fe29cd0b14f"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_multishot_map.py",
+      "snapshot": "ai-video-editor\\tests\\test_multishot_map.py",
+      "bytes": 14287,
+      "sha256": "89e23b0d30a0823cd2e762108987c7c230b2602de4c0cebabc470980a252cb66"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_multishot_render.py",
+      "snapshot": "ai-video-editor\\tests\\test_multishot_render.py",
+      "bytes": 9201,
+      "sha256": "dffe35a0594d05b2f2e908f60f88cd1d63e804ee9f13a706c7afd438b703773d"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_music_lyrics.py",
+      "snapshot": "ai-video-editor\\tests\\test_music_lyrics.py",
+      "bytes": 14053,
+      "sha256": "f387644eb5648e8ffceca5124440d99ba4b49d82455f61bcc9c9aa17a3cc81e4"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_planner_timing.py",
+      "snapshot": "ai-video-editor\\tests\\test_planner_timing.py",
+      "bytes": 9776,
+      "sha256": "ab5d6ab11cfacf1a5e4c46f93fb0c8506c9e06914d1a393629992ce15fe38c79"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_povkills.py",
+      "snapshot": "ai-video-editor\\tests\\test_povkills.py",
+      "bytes": 10683,
+      "sha256": "132c1ddbe354c7477ce40e4902f376387b60322d04fb6b2c973fa687553fa5d2"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_rhythm_planner.py",
+      "snapshot": "ai-video-editor\\tests\\test_rhythm_planner.py",
+      "bytes": 7153,
+      "sha256": "fc7ebc7fb0900987fb573318bfc03ed3baf8cf2dbafd269cdd4d6ca3d84c2f49"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_supported_pipeline.py",
+      "snapshot": "ai-video-editor\\tests\\test_supported_pipeline.py",
+      "bytes": 4386,
+      "sha256": "3d21b84053d5303036994201ab66987ee91cc46596df16be67c5e0ebdc1dbcb2"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_visual_gate.py",
+      "snapshot": "ai-video-editor\\tests\\test_visual_gate.py",
+      "bytes": 2422,
+      "sha256": "058505ac5226ad2f9ec79ade08b45984a746a6e8368c06b0815f1d62465904d8"
+    },
+    {
+      "source": "E:\\ai-video-editor\\edit.py",
+      "snapshot": "ai-video-editor\\edit.py",
+      "bytes": 35675,
+      "sha256": "c00883048bedb3f7eae0878ceeba7c57bbfccec95f0b09d82dd86c967db5b717"
+    },
+    {
+      "source": "E:\\ai-video-editor\\AGENTS.md",
+      "snapshot": "ai-video-editor\\AGENTS.md",
+      "bytes": 3490,
+      "sha256": "2e7016113c9f16336dc1a0defefddd966d6e32eafc325b3a821dc12e6aa54106"
+    },
+    {
+      "source": "E:\\ai-video-editor\\README.md",
+      "snapshot": "ai-video-editor\\README.md",
+      "bytes": 21587,
+      "sha256": "0ef4459d948cabb9067c7a1f3299cda8fde16cb9bf68d43c9c605946b4bccac8"
+    },
+    {
+      "source": "E:\\ai-video-editor\\MUSIC-LYRICS.md",
+      "snapshot": "ai-video-editor\\MUSIC-LYRICS.md",
+      "bytes": 8698,
+      "sha256": "6e53909ed468a56ee014481b1d4b258d1d97dced2b5318929a51625bc62b4cc1"
+    },
+    {
+      "source": "E:\\ai-video-editor\\MULTISHOT-MAP.md",
+      "snapshot": "ai-video-editor\\MULTISHOT-MAP.md",
+      "bytes": 9397,
+      "sha256": "261b4c0a6388c6f33f58025bec9b112dc692b272164e38b671eba5129feb8ea6"
+    },
+    {
+      "source": "E:\\ai-video-editor\\CLOSURE-QA.md",
+      "snapshot": "ai-video-editor\\CLOSURE-QA.md",
+      "bytes": 4271,
+      "sha256": "a1047c4402a20a191a5db36e2afc6f217accce102201dff0dc139c3b54cf4d37"
+    },
+    {
+      "source": "E:\\ai-video-editor\\requirements.txt",
+      "snapshot": "ai-video-editor\\requirements.txt",
+      "bytes": 171,
+      "sha256": "68b227c40ca6c4e25fd8b2a197206d1ffcd916e4fa9cd4361dc56a2d4160e6a7"
+    },
+    {
+      "source": "E:\\ai-video-editor\\requirements-optional.txt",
+      "snapshot": "ai-video-editor\\requirements-optional.txt",
+      "bytes": 351,
+      "sha256": "8e597dc7bc0f6e393a9650bf726b444fe23889c16f5512a8ffb1303c70395dc3"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\media_identity.py",
+      "snapshot": "ai-video-editor\\aive\\media_identity.py",
+      "bytes": 4634,
+      "sha256": "58722da7d57e2346969c85d6f1b00716c10330de69a63f34d5483112daf8ee4b"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_media_identity.py",
+      "snapshot": "ai-video-editor\\tests\\test_media_identity.py",
+      "bytes": 14344,
+      "sha256": "1add5fbe53351edd640e518879ade8dab2e21f8796427f2f3534dffcb9c75ba0"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_render_media_identity.py",
+      "snapshot": "ai-video-editor\\tests\\test_render_media_identity.py",
+      "bytes": 8746,
+      "sha256": "ecdca5274a1339e96b12cc7c8e5a2203b742cf888ec013dd9f1d192626bb5a72"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_attack_identity.py",
+      "snapshot": "ai-video-editor\\tests\\test_attack_identity.py",
+      "bytes": 6776,
+      "sha256": "8b4b32027cc93c4fc063d6043418878921d8a144cc2c6305a846d0d2f1c6becf"
+    },
+    {
+      "source": "E:\\ai-video-editor\\ATTACK-CALIBRATION.md",
+      "snapshot": "ai-video-editor\\ATTACK-CALIBRATION.md",
+      "bytes": 4886,
+      "sha256": "68dd81b18c48836bd8c8f6f34e024bd6856fa57a00c56f6af79b9ccb481b013c"
+    },
+    {
+      "source": "E:\\ai-video-editor\\aive\\lyric_review.py",
+      "snapshot": "ai-video-editor\\aive\\lyric_review.py",
+      "bytes": 14361,
+      "sha256": "14d720e9d72d6def8448dca9979139b59b79f68d65a6dc04664cc1f1a9e9624a"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_lyric_review.py",
+      "snapshot": "ai-video-editor\\tests\\test_lyric_review.py",
+      "bytes": 13394,
+      "sha256": "b6b40212c32e37545b06e9773a39988a96580147d4ff395f7ef3bfb39bed7e1b"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_lyric_review_cli.py",
+      "snapshot": "ai-video-editor\\tests\\test_lyric_review_cli.py",
+      "bytes": 2267,
+      "sha256": "fa790c84efb5f6db1a115483ea2fe16d7af816e814ac4e1aa988c3b1943f726c"
+    },
+    {
+      "source": "E:\\ai-video-editor\\tests\\test_optional_lyrics_runtime.py",
+      "snapshot": "ai-video-editor\\tests\\test_optional_lyrics_runtime.py",
+      "bytes": 1140,
+      "sha256": "c7fc683af33aab92ce80187ccc242394447ca68c021c8b2e730b45c5bdb088d7"
+    },
+    {
+      "source": "E:\\ai-video-editor\\LYRIC-REVIEW.md",
+      "snapshot": "ai-video-editor\\LYRIC-REVIEW.md",
+      "bytes": 3813,
+      "sha256": "6bf77e54d61a3319ae3083513551f91328af9af301c50248e59849291352c96c"
+    },
+    {
+      "source": "E:\\aside\\AI-CONTINUE-HERE.md",
+      "snapshot": "AI-CONTINUE-HERE.md",
+      "bytes": 13837,
+      "sha256": "eb36275b1692edba9e6389273b473d0c02bb4bd6c1add779e747b89fdfac84ba"
+    },
+    {
+      "source": "E:\\aside\\generic-system-20261012\\local-lyrics-v0001\\RESULTS.md",
+      "snapshot": "evidence\\RESULTS.md",
+      "bytes": 2458,
+      "sha256": "234361012cc2ba304491e042d7d5c83cee4639420ea7f85a1949d23447ee944c"
+    },
+    {
+      "source": "E:\\aside\\generic-system-20261012\\local-lyrics-v0001\\SETUP.md",
+      "snapshot": "evidence\\SETUP.md",
+      "bytes": 2579,
+      "sha256": "4bd43261f32212a04ecab51730277dad438ec09f785e3c329e389d17ab9bbfe8"
+    },
+    {
+      "source": "E:\\aside\\generic-system-20261012\\local-lyrics-v0001\\REUSABLE-SKILL.md",
+      "snapshot": "evidence\\REUSABLE-SKILL.md",
+      "bytes": 2960,
+      "sha256": "863a78227ae3c4ea28537ed096243aae00ce193affcc9eeb9c04f96a8bce7d1c"
+    },
+    {
+      "source": "E:\\aside\\generic-system-20261012\\local-lyrics-v0001\\full-tests.log",
+      "snapshot": "evidence\\full-tests.log",
+      "bytes": 73097,
+      "sha256": "492f159ff9640aa2792805fc752b69df5b671b756e89d611f5c4e766302fccbc"
+    },
+    {
+      "source": "E:\\aside\\generic-system-20261012\\local-lyrics-v0001\\focused-tests.log",
+      "snapshot": "evidence\\focused-tests.log",
+      "bytes": 4723,
+      "sha256": "073f92e8813b47bbc19e005e2e5dacba3a0e918f764f8d1b9085744684d14858"
+    },
+    {
+      "source": "E:\\aside\\generic-system-20261012\\local-lyrics-v0001\\pip-check.log",
+      "snapshot": "evidence\\pip-check.log",
+      "bytes": 31,
+      "sha256": "672aec65a45bed50e70229c70934a7eebf0462595c459b83023027645d57cccf"
+    },
+    {
+      "source": "E:\\aside\\generic-system-20261012\\local-lyrics-v0001\\pip-install-report.json",
+      "snapshot": "evidence\\pip-install-report.json",
+      "bytes": 243571,
+      "sha256": "5aeb63e314bb299a160040fe711e05d65823e3413142371973d53c8dc96144ed"
+    },
+    {
+      "source": "E:\\aside\\generic-system-20261012\\local-lyrics-v0001\\pip-av-compat-report.json",
+      "snapshot": "evidence\\pip-av-compat-report.json",
+      "bytes": 6294,
+      "sha256": "d3d8252be6ae6ec1d5408f14807d6dc8e22e4a7272f32e7b59ed0f7d7b84be93"
+    },
+    {
+      "source": "E:\\aside\\generic-system-20261012\\local-lyrics-v0001\\packages-before.txt",
+      "snapshot": "evidence\\packages-before.txt",
+      "bytes": 461,
+      "sha256": "3c1e198264befaa5a927c9c0d13950ce010d19d84492791702716e9c20a38a51"
+    },
+    {
+      "source": "E:\\aside\\generic-system-20261012\\local-lyrics-v0001\\packages-after.txt",
+      "snapshot": "evidence\\packages-after.txt",
+      "bytes": 815,
+      "sha256": "0d24965d9947d5a66467f0342683d7b46afbeb341b3c57bdfcc0b9ee26816200"
+    },
+    {
+      "source": "E:\\aside\\generic-system-20261012\\local-lyrics-v0001\\packages-compatible.txt",
+      "snapshot": "evidence\\packages-compatible.txt",
+      "bytes": 815,
+      "sha256": "4d53745cd75641ccb44704106fee760a48dddea832384c96f88800b63b244019"
+    },
+    {
+      "source": "E:\\aside\\generic-system-20261012\\local-lyrics-v0001\\model-manifest.json",
+      "snapshot": "evidence\\model-manifest.json",
+      "bytes": 2380,
+      "sha256": "f88a93518a7bfe6258a52bf3ad3a62f43e358a47aef1c026e698386cb3a60fc3"
+    },
+    {
+      "source": "E:\\aside\\generic-system-20261012\\local-lyrics-v0001\\proof-summary.json",
+      "snapshot": "evidence\\proof-summary.json",
+      "bytes": 1854,
+      "sha256": "6975cf82bfa2f72b03af29e988c5983863e2dcc1200cdc8931abd8d0b608531f"
+    },
+    {
+      "source": "E:\\aside\\generic-system-20261012\\local-lyrics-v0001\\download_model.ps1",
+      "snapshot": "evidence\\download_model.ps1",
+      "bytes": 2213,
+      "sha256": "eb52f74061f78999d6820b8a1abe51768c995f62c3ab2282f30d1ddeda52bbab"
+    },
+    {
+      "source": "E:\\aside\\generic-system-20261012\\local-lyrics-v0001\\build_bundle.ps1",
+      "snapshot": "evidence\\build_bundle.ps1",
+      "bytes": 4094,
+      "sha256": "3517244b6bb55326c063b425ddb0dc0048b6d4f0e0276db3b8e564a42b71499f"
+    },
+    {
+      "source": "E:\\aside\\generic-system-20261012\\local-lyrics-v0001\\reflections-candidates-v0001.json",
+      "snapshot": "evidence\\reflections-candidates-v0001.json",
+      "bytes": 6162,
+      "sha256": "5d3b1da3199ac71c2e996c9e634448c0c9288b7e0dc8f7e5a5a258bf46efc9b8"
+    },
+    {
+      "source": "E:\\aside\\generic-system-20261012\\local-lyrics-v0001\\winner-candidates-v0001.json",
+      "snapshot": "evidence\\winner-candidates-v0001.json",
+      "bytes": 9311,
+      "sha256": "5aa6bd3b8ee1f928ac707ba6d0981e35bc7d1a26045703158263ee0fc8c8e50f"
+    },
+    {
+      "source": "E:\\aside\\generic-system-20261012\\local-lyrics-v0001\\reflections-review-v0001.json",
+      "snapshot": "evidence\\reflections-review-v0001.json",
+      "bytes": 7988,
+      "sha256": "82d8f6aed4403bf9d63557cb6be390a370877ee6ffe45d1fb0f654e6e04a1cf4"
+    },
+    {
+      "source": "E:\\aside\\generic-system-20261012\\local-lyrics-v0001\\winner-review-v0001.json",
+      "snapshot": "evidence\\winner-review-v0001.json",
+      "bytes": 12535,
+      "sha256": "061882b16a0da44090c8b1292730916840df88332a0e5f5909df640f3384bdd9"
+    },
+    {
+      "source": "E:\\aside\\generic-system-20261012\\local-lyrics-v0001\\reflections-review-audit.json",
+      "snapshot": "evidence\\reflections-review-audit.json",
+      "bytes": 835,
+      "sha256": "d0f9e040d3cc2ad529d1557a7ce8e8f6d76de064e03f1a6ae9d4d65a923e470f"
+    },
+    {
+      "source": "E:\\aside\\generic-system-20261012\\local-lyrics-v0001\\winner-review-audit.json",
+      "snapshot": "evidence\\winner-review-audit.json",
+      "bytes": 835,
+      "sha256": "401d352f0f51dbed9d8680af564ffd813cea7b692dfb31b3f630602f3e256451"
+    },
+    {
+      "source": "E:\\aside\\generic-system-20261012\\local-lyrics-v0001\\reflections-runtime-v0002.json",
+      "snapshot": "evidence\\reflections-runtime-v0002.json",
+      "bytes": 76,
+      "sha256": "a3cdff8c1acc2113f3753ed1cee86194d45c2963da68fcec4acd1f3e0f7fcc0d"
+    },
+    {
+      "source": "E:\\aside\\generic-system-20261012\\local-lyrics-v0001\\winner-runtime.json",
+      "snapshot": "evidence\\winner-runtime.json",
+      "bytes": 71,
+      "sha256": "c26f2baf899e1ffccec22d422fab56ea41ddb0e73e1b11313150d39189f9fa40"
+    },
+    {
+      "source": "E:\\aside\\generic-system-20261012\\local-lyrics-v0001\\let-the-world-burn-runtime-v0002.json",
+      "snapshot": "evidence\\let-the-world-burn-runtime-v0002.json",
+      "bytes": 83,
+      "sha256": "cefdc830e6b05c0c8703566e9af9e753bd13066eb349a032a0538362612465ac"
+    },
+    {
+      "source": "E:\\aside\\generic-system-20261012\\local-lyrics-v0001\\dracula-runtime.json",
+      "snapshot": "evidence\\dracula-runtime.json",
+      "bytes": 72,
+      "sha256": "44961d22eca2f1cb7195f41424eb71a19eab52d0818f1c26d811266ea3a75a73"
+    },
+    {
+      "source": "E:\\aside\\generic-system-20261012\\local-lyrics-v0001\\reflections-extract.log",
+      "snapshot": "evidence\\reflections-extract.log",
+      "bytes": 73,
+      "sha256": "653485a2fe482665d49f988c20b547d14276151bfc4b7578ca4f0e13f2b84471"
+    },
+    {
+      "source": "E:\\aside\\generic-system-20261012\\local-lyrics-v0001\\let-the-world-burn-extract.log",
+      "snapshot": "evidence\\let-the-world-burn-extract.log",
+      "bytes": 73,
+      "sha256": "653485a2fe482665d49f988c20b547d14276151bfc4b7578ca4f0e13f2b84471"
+    },
+    {
+      "source": "E:\\aside\\generic-system-20261012\\local-lyrics-v0001\\reflections-extract-v0002.log",
+      "snapshot": "evidence\\reflections-extract-v0002.log",
+      "bytes": 247,
+      "sha256": "0bfca51c43ef1c240f5de0ce4c1dbb2127a30e053cc62bcf6ba4f9011ac57d77"
+    },
+    {
+      "source": "E:\\aside\\generic-system-20261012\\local-lyrics-v0001\\let-the-world-burn-extract-v0002.log",
+      "snapshot": "evidence\\let-the-world-burn-extract-v0002.log",
+      "bytes": 61,
+      "sha256": "7c0ca3969b8e3a0a32af54c8f54c458f1523360148195af6da624991b1798ec4"
+    },
+    {
+      "source": "E:\\aside\\generic-system-20261012\\local-lyrics-v0001\\dracula-extract.log",
+      "snapshot": "evidence\\dracula-extract.log",
+      "bytes": 61,
+      "sha256": "7c0ca3969b8e3a0a32af54c8f54c458f1523360148195af6da624991b1798ec4"
+    },
+    {
+      "source": "E:\\aside\\generic-system-20261012\\local-lyrics-v0001\\winner-extract.log",
+      "snapshot": "evidence\\winner-extract.log",
+      "bytes": 242,
+      "sha256": "3cd979b789283dd232eb281e740b4db1a45d43101de7c872ba9b774b5261e7b7"
+    },
+    {
+      "source": "E:\\aside\\generic-system-20261012\\local-lyrics-v0001\\model-download.log",
+      "snapshot": "evidence\\model-download.log",
+      "bytes": 227,
+      "sha256": "a436313a4cd84a70e6c63b673c3ca6dabd745db920fddf25eee1640c8a2fedb2"
+    },
+    {
+      "source": "E:\\aside\\generic-system-20261012\\local-lyrics-v0001\\av-compat-install.log",
+      "snapshot": "evidence\\av-compat-install.log",
+      "bytes": 605,
+      "sha256": "a142f01b252eedd89c43c06106b9fde21794ae624297cd6cdf7a8f8c69b1ef76"
+    },
+    {
+      "source": "E:\\aside\\generic-system-20261012\\local-lyrics-v0001\\install.log",
+      "snapshot": "evidence\\install.log",
+      "bytes": 5405,
+      "sha256": "abdfae2401073ef4403f246bd6f5aecb292e18bf456c0fc2f2ccd5b2d4fef3a3"
+    }
+  ]
+}

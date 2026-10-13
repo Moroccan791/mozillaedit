@@ -1,0 +1,10 @@
+[
+  "ffprobe",
+  "-v",
+  "error",
+  "-show_streams",
+  "-show_format",
+  "-of",
+  "json",
+  "E:\\aside\\system-lock-20261012\\original-plan-renders\\encounters-v0001\\encounters.mp4"
+]

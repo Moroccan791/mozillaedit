@@ -1,0 +1,25 @@
+{
+  "audio_sha256": "5e7d309bc950393c2138be9df1a4ccfa7d314018f17f626c58f2acb742988a8d",
+  "provenance": {
+    "alignment_verified": true,
+    "method": "Synthetic structural words on generated tone; explicitly NOT actual singing or independent vocal verification"
+  },
+  "schema": "lyric-track/v1",
+  "words": [
+    {
+      "end": 2.65,
+      "start": 2.25,
+      "text": "LOCAL"
+    },
+    {
+      "end": 6.15,
+      "start": 5.75,
+      "text": "SYSTEM"
+    },
+    {
+      "end": 9.65,
+      "start": 9.25,
+      "text": "PROOF"
+    }
+  ]
+}

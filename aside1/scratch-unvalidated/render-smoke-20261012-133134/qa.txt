@@ -1,0 +1,10 @@
+QA: E:\aside\scratch-unvalidated\render-smoke-20261012-133134\sync-proof.mp4
+----------------------------------------
+[PASS] decode
+[PASS] pix_fmt universal  -- pix_fmt=yuv420p
+[PASS] streams  -- video=True audio=True
+[PASS] a/v duration sync  -- video=10.00s audio=10.00s
+----------------------------------------
+RESULT: OK
+
+Audio/visual event-to-beat alignment NOT VERIFIED. Inspect using timing.json.

@@ -1,0 +1,46 @@
+{
+  "status": "real 10-second sync proof rendered and passed automated checks",
+  "date": "2026-10-12",
+  "job": "E:\\aside\\sync-proof\\run-f3b0Iv",
+  "output": "E:\\aside\\sync-proof\\run-f3b0Iv\\sync-proof.mp4",
+  "desktop_copy": "C:\\Users\\Junayed\\Desktop\\AI-Editor-Sync-Proof-10s.mp4",
+  "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+  "music": "E:\\audio\\Dracula (Slowed Best Part) - Tame Impala & JENNIE [Edit Audio].mp3",
+  "music_start": 19.923,
+  "duration": 10.0,
+  "fps": 60,
+  "effects": "none; clean timing-only render",
+  "lyrics": "disabled intentionally",
+  "source_events": [
+    {"source_t": 221.1, "visual_evidence": "POV kill-feed row: Me to Chamber"},
+    {"source_t": 232.0667, "visual_evidence": "POV kill-feed row: Me to Clove"},
+    {"source_t": 265.6833, "visual_evidence": "POV kill-feed row: Me to Chamber"}
+  ],
+  "music_onsets": [
+    {"music_t": 22.8484, "output_t": 2.9254, "spectral_flux": 0.961},
+    {"music_t": 25.4259, "output_t": 5.5029, "spectral_flux": 1.0},
+    {"music_t": 29.4893, "output_t": 9.5663, "spectral_flux": 0.607}
+  ],
+  "checks": {
+    "decode": "PASS",
+    "pixel_format": "PASS: yuv420p",
+    "audio_video_streams": "PASS",
+    "audio_video_duration_sync": "PASS: 10.00s each",
+    "event_frame_correlation": [
+      {"score": 0.999, "offset_frames": -1},
+      {"score": 1.0, "offset_frames": 0},
+      {"score": 1.0, "offset_frames": -1}
+    ],
+    "music_window_correlation": [
+      {"score": 0.45, "offset_frames": 0},
+      {"score": 0.903, "offset_frames": 0},
+      {"score": 0.45, "offset_frames": 0}
+    ],
+    "overall": "PASS"
+  },
+  "limitations": [
+    "This validates a 1x, no-effects proof only; it does not validate ramps or effects.",
+    "Source event times were selected by frame review of POV kill-feed entries; this is not a validation set for the automatic detector.",
+    "Music onsets were chosen from local spectral-flux peaks and then matched in the rendered audio; aesthetic suitability is not automatically guaranteed."
+  ]
+}

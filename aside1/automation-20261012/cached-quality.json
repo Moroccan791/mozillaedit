@@ -1,0 +1,216 @@
+{
+  "schema_version": "encounter-qa/v1",
+  "status": "warn",
+  "ok": true,
+  "components": {
+    "musical_sync": {
+      "status": "warn",
+      "detail": "Not verified: independent firing-attack labels and strong musical-hit validation are required; zero source/stem offset is render fidelity only."
+    },
+    "structural": {
+      "status": "pass",
+      "sample_path": "E:\\aside\\automation-20261012\\cached-proof-renders\\encounters-v0001\\encounters.mp4",
+      "checks": [
+        {
+          "name": "decode",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "pix_fmt universal",
+          "ok": true,
+          "detail": "pix_fmt=yuv420p"
+        },
+        {
+          "name": "streams",
+          "ok": true,
+          "detail": "video=True audio=True"
+        },
+        {
+          "name": "a/v duration sync",
+          "ok": true,
+          "detail": "video=8.03s audio=8.04s"
+        }
+      ],
+      "detail": "existing qa.verify structural battery"
+    },
+    "duplicate_ranges": {
+      "status": "pass",
+      "overlaps": [],
+      "detail": "independent same-source overlapping-range check (adjacent ranges allowed)"
+    },
+    "loudness": {
+      "status": "pass",
+      "sample_path": "E:\\aside\\automation-20261012\\cached-proof-renders\\encounters-v0001\\encounters.mp4",
+      "measurements": {
+        "input_i": -11.17,
+        "input_tp": -4.07,
+        "input_lra": 1.3,
+        "input_thresh": -21.17
+      },
+      "possible_true_peak_clipping": false,
+      "detail": "input true peak >0 dBTP is clipping risk; loudness outside -30..-9 LUFS is review only"
+    },
+    "visual_heuristics": {
+      "status": "warn",
+      "unavailable_samples": [],
+      "black_samples": [
+        {
+          "path": "E:\\aside\\automation-20261012\\cached-proof-renders\\encounters-v0001\\encounters.mp4",
+          "time": 4.303090909090908,
+          "mean_luma": 0.0,
+          "std_luma": 0.0
+        },
+        {
+          "path": "E:\\aside\\automation-20261012\\cached-proof-renders\\encounters-v0001\\encounters.mp4",
+          "time": 5.020272727272727,
+          "mean_luma": 0.0,
+          "std_luma": 0.0
+        }
+      ],
+      "white_samples": [],
+      "possible_freeze": false,
+      "possible_flashes": [],
+      "sampled_frames": [
+        {
+          "path": "E:\\aside\\automation-20261012\\cached-proof-renders\\encounters-v0001\\encounters.mp4",
+          "time": 0.0,
+          "mean_luma": 125.84413580246914,
+          "std_luma": 54.63184171517042
+        },
+        {
+          "path": "E:\\aside\\automation-20261012\\cached-proof-renders\\encounters-v0001\\encounters.mp4",
+          "time": 0.7171818181818181,
+          "mean_luma": 104.0258487654321,
+          "std_luma": 49.70033762698587
+        },
+        {
+          "path": "E:\\aside\\automation-20261012\\cached-proof-renders\\encounters-v0001\\encounters.mp4",
+          "time": 1.4343636363636363,
+          "mean_luma": 57.83082561728395,
+          "std_luma": 31.503057593577832
+        },
+        {
+          "path": "E:\\aside\\automation-20261012\\cached-proof-renders\\encounters-v0001\\encounters.mp4",
+          "time": 2.151545454545454,
+          "mean_luma": 49.54378858024691,
+          "std_luma": 28.723209672985096
+        },
+        {
+          "path": "E:\\aside\\automation-20261012\\cached-proof-renders\\encounters-v0001\\encounters.mp4",
+          "time": 2.8687272727272726,
+          "mean_luma": 46.62885802469136,
+          "std_luma": 30.64360395760765
+        },
+        {
+          "path": "E:\\aside\\automation-20261012\\cached-proof-renders\\encounters-v0001\\encounters.mp4",
+          "time": 3.585909090909091,
+          "mean_luma": 50.170524691358025,
+          "std_luma": 35.678669385326224
+        },
+        {
+          "path": "E:\\aside\\automation-20261012\\cached-proof-renders\\encounters-v0001\\encounters.mp4",
+          "time": 4.303090909090908,
+          "mean_luma": 0.0,
+          "std_luma": 0.0
+        },
+        {
+          "path": "E:\\aside\\automation-20261012\\cached-proof-renders\\encounters-v0001\\encounters.mp4",
+          "time": 5.020272727272727,
+          "mean_luma": 0.0,
+          "std_luma": 0.0
+        },
+        {
+          "path": "E:\\aside\\automation-20261012\\cached-proof-renders\\encounters-v0001\\encounters.mp4",
+          "time": 5.737454545454545,
+          "mean_luma": 81.91878858024691,
+          "std_luma": 44.023332254518415
+        },
+        {
+          "path": "E:\\aside\\automation-20261012\\cached-proof-renders\\encounters-v0001\\encounters.mp4",
+          "time": 6.4546363636363635,
+          "mean_luma": 51.91358024691358,
+          "std_luma": 27.84506878605888
+        },
+        {
+          "path": "E:\\aside\\automation-20261012\\cached-proof-renders\\encounters-v0001\\encounters.mp4",
+          "time": 7.171818181818182,
+          "mean_luma": 109.39332561728395,
+          "std_luma": 33.89815165154123
+        },
+        {
+          "path": "E:\\aside\\automation-20261012\\cached-proof-renders\\encounters-v0001\\encounters.mp4",
+          "time": 7.888999999999999,
+          "mean_luma": 37.46778549382716,
+          "std_luma": 11.01880600075989
+        }
+      ],
+      "adjacent_mean_abs_differences": [
+        33.66280864197531,
+        59.96045524691358,
+        25.09567901234568,
+        37.707368827160494,
+        20.046682098765434,
+        50.170524691358025,
+        0.0,
+        81.91878858024691,
+        45.0306712962963,
+        61.70273919753087,
+        71.98418209876543
+      ],
+      "detail": "sparse black/white/flash/freeze heuristic, NOT taste, semantics or photosensitivity certification"
+    },
+    "event_anchors": {
+      "status": "warn",
+      "detail": "no event anchors; no synchronization claim"
+    }
+  },
+  "issues": [
+    {
+      "component": "musical_sync",
+      "status": "warn",
+      "detail": "Not verified: independent firing-attack labels and strong musical-hit validation are required; zero source/stem offset is render fidelity only."
+    },
+    {
+      "component": "visual_heuristics",
+      "status": "warn",
+      "detail": "sparse black/white/flash/freeze heuristic, NOT taste, semantics or photosensitivity certification"
+    },
+    {
+      "component": "event_anchors",
+      "status": "warn",
+      "detail": "no event anchors; no synchronization claim"
+    }
+  ],
+  "anchors": [],
+  "limitations": [
+    "Does not verify detector correctness, event semantics or artistic taste.",
+    "Sparse sampled frames cannot exclude all flashes/freezes or certify photosensitivity safety.",
+    "Correlation cannot identify timing in silent, static or repetitive references.",
+    "Decode limits or missing anchors yield warnings, not verified synchronization.",
+    "Source/stem waveform matching verifies clock preservation, NOT that chosen events are gunshots or chosen song times are perceptually strong hits."
+  ],
+  "output": "E:\\aside\\automation-20261012\\cached-proof-renders\\encounters-v0001\\encounters.mp4",
+  "evidence_scope": {
+    "render_clock_fidelity": "source/stem/final-mix correlations and decoded visual matches",
+    "gunshot_to_musical_hit": "not established by copying planned clocks",
+    "artistic_quality": "not certified"
+  },
+  "decode_cache": {
+    "files": 0,
+    "decodes": 0,
+    "bytes_written": 0,
+    "sample_rate": 16000,
+    "storage": "temporary disk memmap",
+    "max_seconds": 3600.0,
+    "max_bytes_per_file": 536870912,
+    "max_total_bytes": 2147483648,
+    "origin": "decoded PCM sample zero"
+  },
+  "benchmark": {
+    "elapsed_seconds": 2.3909999999959837,
+    "process_peak_rss": 107044864,
+    "peak_rss_unit": "bytes",
+    "memory_note": "process-lifetime peak, not QA-only delta; excludes FFmpeg children; disk PCM bytes separate"
+  }
+}

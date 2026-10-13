@@ -1,0 +1,10 @@
+[
+  "ffprobe",
+  "-v",
+  "error",
+  "-show_streams",
+  "-show_format",
+  "-of",
+  "json",
+  "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002\\renders\\encounters-v0001\\clip-000-libx264.mp4"
+]

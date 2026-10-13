@@ -1,0 +1,10 @@
+[
+  "ffprobe",
+  "-v",
+  "error",
+  "-show_streams",
+  "-show_format",
+  "-of",
+  "json",
+  "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-a\\renders\\encounters-v0001\\clip-009-libx264.mp4"
+]

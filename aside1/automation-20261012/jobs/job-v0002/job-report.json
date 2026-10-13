@@ -1,0 +1,34 @@
+{
+  "schema_version": "automation-job/v1",
+  "job_dir": "E:\\aside\\automation-20261012\\jobs\\job-v0002",
+  "mode": "candidate-preview",
+  "status": "blocked",
+  "output": null,
+  "stages": {
+    "music_seconds": 16.57924859999912,
+    "firing_seconds": 4.405038700002478,
+    "planning_seconds": 0.026942799995595124
+  },
+  "readiness": {
+    "automatic_candidate_analysis": true,
+    "automatic_pov_confirmation": false,
+    "reviewed_music_suitability": false,
+    "reviewed_fight_completeness": false,
+    "perceptual_listening": false,
+    "unattended_ready": false
+  },
+  "limitations": [
+    "Automatic candidates are audio transients, not confirmed shots or kills.",
+    "Music hits are acoustic candidates, not certified percussion, bar phase or musical taste.",
+    "Generated roles and fades do not certify fight outcome, reference-level polish or listening.",
+    "No source retiming: difficult burst rhythm stays unmatched; strict confirmation runner retained."
+  ],
+  "rhythm_summary": {
+    "matched": 0,
+    "total": 0,
+    "semantic_sync": "unverified",
+    "beam_width": 24
+  },
+  "blocked_reason": "Fewer than four intact, bounded windows fit measured acoustic candidates. No filler or event confirmation invented.",
+  "elapsed_seconds": 23.42
+}

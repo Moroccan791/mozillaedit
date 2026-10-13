@@ -1,0 +1,8 @@
+QA: E:\aside\reflections-fresh-20261012\fresh-renders\encounters-v0001\encounters.mp4
+----------------------------------------
+[PASS] decode
+[PASS] pix_fmt universal  -- pix_fmt=yuv420p
+[PASS] streams  -- video=True audio=True
+[PASS] a/v duration sync  -- video=34.82s audio=34.82s
+----------------------------------------
+RESULT: OK

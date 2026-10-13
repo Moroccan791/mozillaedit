@@ -1,0 +1,192 @@
+{
+  "schema_version": "comparison/v1",
+  "same_timeline": true,
+  "plan_file": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\timeline.json",
+  "clean_output": "E:\\aside\\other-stages-20261012\\resume-comparison-20261012\\clean-renders\\encounters-v0001\\encounters.mp4",
+  "styled_output": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\encounters.mp4",
+  "planned_duration": 23.527599999999996,
+  "frames": 1412,
+  "clean_render_seconds": 29.086,
+  "elapsed_seconds": 106.204,
+  "clean": {
+    "status": "pass",
+    "issues": [],
+    "check_counts": {
+      "pass": 28,
+      "warn": 0,
+      "fail": 0
+    },
+    "audio_shifts_ms": {
+      "anchor_0_0_game_stem": 0.0,
+      "anchor_0_0_music_stem": 0.0,
+      "anchor_0_0_final_mix": 0.0,
+      "anchor_1_0_game_stem": 0.0,
+      "anchor_1_0_music_stem": 0.0,
+      "anchor_1_0_final_mix": 0.0,
+      "anchor_2_0_game_stem": 0.0,
+      "anchor_2_0_music_stem": 0.0,
+      "anchor_2_0_final_mix": 0.0,
+      "anchor_3_0_game_stem": 0.0,
+      "anchor_3_0_music_stem": 0.0,
+      "anchor_3_0_final_mix": 0.0,
+      "anchor_4_0_game_stem": 0.0,
+      "anchor_4_0_music_stem": 0.0,
+      "anchor_4_0_final_mix": 0.0,
+      "anchor_5_0_game_stem": 0.0,
+      "anchor_5_0_music_stem": 0.0,
+      "anchor_5_0_final_mix": 0.0
+    },
+    "visual": {
+      "anchor_0_0_visual": {
+        "status": "pass",
+        "shift_frames": 1,
+        "correlation": 0.9997159063001745,
+        "style_present": false
+      },
+      "anchor_1_0_visual": {
+        "status": "pass",
+        "shift_frames": 0,
+        "correlation": 0.9997016831016176,
+        "style_present": false
+      },
+      "anchor_2_0_visual": {
+        "status": "pass",
+        "shift_frames": 0,
+        "correlation": 0.9998974084983271,
+        "style_present": false
+      },
+      "anchor_3_0_visual": {
+        "status": "pass",
+        "shift_frames": 0,
+        "correlation": 0.9997711297651583,
+        "style_present": false
+      },
+      "anchor_4_0_visual": {
+        "status": "pass",
+        "shift_frames": -1,
+        "correlation": 0.999920461196763,
+        "style_present": false
+      },
+      "anchor_5_0_visual": {
+        "status": "pass",
+        "shift_frames": -1,
+        "correlation": 0.9997119276205807,
+        "style_present": false
+      }
+    },
+    "loudness": {
+      "status": "pass",
+      "sample_path": "E:\\aside\\other-stages-20261012\\resume-comparison-20261012\\clean-renders\\encounters-v0001\\encounters.mp4",
+      "measurements": {
+        "input_i": -11.89,
+        "input_tp": -2.95,
+        "input_lra": 11.6,
+        "input_thresh": -22.54
+      },
+      "possible_true_peak_clipping": false,
+      "detail": "input true peak >0 dBTP is clipping risk; loudness outside -30..-9 LUFS is review only"
+    },
+    "benchmark": {
+      "elapsed_seconds": 32.81200000000172,
+      "process_peak_rss": 44793856,
+      "peak_rss_unit": "bytes",
+      "memory_note": "process-lifetime peak, not QA-only delta; excludes FFmpeg children; disk PCM bytes separate"
+    }
+  },
+  "styled": {
+    "status": "warn",
+    "issues": [
+      {
+        "component": "anchor_0_0_visual",
+        "status": "warn",
+        "detail": "visual similarity warning only; style/crops/overlays can mask matching"
+      }
+    ],
+    "check_counts": {
+      "pass": 27,
+      "warn": 1,
+      "fail": 0
+    },
+    "audio_shifts_ms": {
+      "anchor_0_0_game_stem": 0.0,
+      "anchor_0_0_music_stem": 0.0,
+      "anchor_0_0_final_mix": 0.0,
+      "anchor_1_0_game_stem": 0.0,
+      "anchor_1_0_music_stem": 0.0,
+      "anchor_1_0_final_mix": 0.0,
+      "anchor_2_0_game_stem": 0.0,
+      "anchor_2_0_music_stem": 0.0,
+      "anchor_2_0_final_mix": 0.0,
+      "anchor_3_0_game_stem": 0.0,
+      "anchor_3_0_music_stem": 0.0,
+      "anchor_3_0_final_mix": 0.0,
+      "anchor_4_0_game_stem": 0.0,
+      "anchor_4_0_music_stem": 0.0,
+      "anchor_4_0_final_mix": 0.0,
+      "anchor_5_0_game_stem": 0.0,
+      "anchor_5_0_music_stem": 0.0,
+      "anchor_5_0_final_mix": 0.0
+    },
+    "visual": {
+      "anchor_0_0_visual": {
+        "status": "warn",
+        "shift_frames": 2,
+        "correlation": 0.7892758043919961,
+        "style_present": true
+      },
+      "anchor_1_0_visual": {
+        "status": "pass",
+        "shift_frames": 0,
+        "correlation": 0.9088359228029498,
+        "style_present": true
+      },
+      "anchor_2_0_visual": {
+        "status": "pass",
+        "shift_frames": 0,
+        "correlation": 0.9427580458929701,
+        "style_present": true
+      },
+      "anchor_3_0_visual": {
+        "status": "pass",
+        "shift_frames": 1,
+        "correlation": 0.944495778140996,
+        "style_present": true
+      },
+      "anchor_4_0_visual": {
+        "status": "pass",
+        "shift_frames": -1,
+        "correlation": 0.9785117632879642,
+        "style_present": true
+      },
+      "anchor_5_0_visual": {
+        "status": "pass",
+        "shift_frames": -1,
+        "correlation": 0.9218459364626892,
+        "style_present": true
+      }
+    },
+    "loudness": {
+      "status": "pass",
+      "sample_path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\encounters.mp4",
+      "measurements": {
+        "input_i": -11.78,
+        "input_tp": -2.62,
+        "input_lra": 11.6,
+        "input_thresh": -22.54
+      },
+      "possible_true_peak_clipping": false,
+      "detail": "input true peak >0 dBTP is clipping risk; loudness outside -30..-9 LUFS is review only"
+    },
+    "benchmark": {
+      "elapsed_seconds": 44.23500000000058,
+      "process_peak_rss": 45191168,
+      "peak_rss_unit": "bytes",
+      "memory_note": "process-lifetime peak, not QA-only delta; excludes FFmpeg children; disk PCM bytes separate"
+    }
+  },
+  "limitations": [
+    "Reviewed historical point events and sampled manual context, not automatic selection.",
+    "Numerical QA and sampled frames do not establish listening taste or reference-level cinematics.",
+    "Process peak memory excludes FFmpeg children; no whole-laptop benchmark."
+  ]
+}

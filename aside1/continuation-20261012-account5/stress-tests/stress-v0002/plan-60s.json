@@ -1,0 +1,149 @@
+{
+  "schema_version": "encounters/v1",
+  "mode": "render-stability-diagnostic",
+  "requested_duration": 60.0,
+  "duration": 60.0,
+  "music_start": 10.0,
+  "music_end": 70.0,
+  "music_continuous": true,
+  "gaps": [],
+  "timeline": [
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "source_start": 125.0,
+      "source_end": 130.0,
+      "output_start": 0.0,
+      "output_end": 5.0,
+      "music_start": 10.0,
+      "music_end": 15.0,
+      "speed": 1.0,
+      "events": []
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "source_start": 132.0,
+      "source_end": 137.0,
+      "output_start": 5.0,
+      "output_end": 10.0,
+      "music_start": 15.0,
+      "music_end": 20.0,
+      "speed": 1.0,
+      "events": []
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_iufseng8xEs_Ranked-but-I-m-Overheating-Non-Stop_002_720p.mp4",
+      "source_start": 139.0,
+      "source_end": 144.0,
+      "output_start": 10.0,
+      "output_end": 15.0,
+      "music_start": 20.0,
+      "music_end": 25.0,
+      "speed": 1.0,
+      "events": []
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "source_start": 180.0,
+      "source_end": 185.0,
+      "output_start": 15.0,
+      "output_end": 20.0,
+      "music_start": 25.0,
+      "music_end": 30.0,
+      "speed": 1.0,
+      "events": []
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "source_start": 187.0,
+      "source_end": 192.0,
+      "output_start": 20.0,
+      "output_end": 25.0,
+      "music_start": 30.0,
+      "music_end": 35.0,
+      "speed": 1.0,
+      "events": []
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_iufseng8xEs_Ranked-but-I-m-Overheating-Non-Stop_002_720p.mp4",
+      "source_start": 194.0,
+      "source_end": 199.0,
+      "output_start": 25.0,
+      "output_end": 30.0,
+      "music_start": 35.0,
+      "music_end": 40.0,
+      "speed": 1.0,
+      "events": []
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "source_start": 235.0,
+      "source_end": 240.0,
+      "output_start": 30.0,
+      "output_end": 35.0,
+      "music_start": 40.0,
+      "music_end": 45.0,
+      "speed": 1.0,
+      "events": []
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "source_start": 242.0,
+      "source_end": 247.0,
+      "output_start": 35.0,
+      "output_end": 40.0,
+      "music_start": 45.0,
+      "music_end": 50.0,
+      "speed": 1.0,
+      "events": []
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_iufseng8xEs_Ranked-but-I-m-Overheating-Non-Stop_002_720p.mp4",
+      "source_start": 249.0,
+      "source_end": 254.0,
+      "output_start": 40.0,
+      "output_end": 45.0,
+      "music_start": 50.0,
+      "music_end": 55.0,
+      "speed": 1.0,
+      "events": []
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "source_start": 290.0,
+      "source_end": 295.0,
+      "output_start": 45.0,
+      "output_end": 50.0,
+      "music_start": 55.0,
+      "music_end": 60.0,
+      "speed": 1.0,
+      "events": []
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "source_start": 297.0,
+      "source_end": 302.0,
+      "output_start": 50.0,
+      "output_end": 55.0,
+      "music_start": 60.0,
+      "music_end": 65.0,
+      "speed": 1.0,
+      "events": []
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_iufseng8xEs_Ranked-but-I-m-Overheating-Non-Stop_002_720p.mp4",
+      "source_start": 304.0,
+      "source_end": 309.0,
+      "output_start": 55.0,
+      "output_end": 60.0,
+      "music_start": 65.0,
+      "music_end": 70.0,
+      "speed": 1.0,
+      "events": []
+    }
+  ],
+  "events": [],
+  "rhythm_assignments": [],
+  "warnings": [
+    "Diagnostic ranges only, not reviewed gameplay events or musical alignment."
+  ]
+}

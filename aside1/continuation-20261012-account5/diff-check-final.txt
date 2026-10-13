@@ -1,0 +1,11 @@
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'aive/captions.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'aive/conductor.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'aive/grade.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'aive/project.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'aive/render.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'aive/roughcut.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'aive/shots.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'aive/system.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'edit.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'requirements.txt', LF will be replaced by CRLF the next time Git touches it

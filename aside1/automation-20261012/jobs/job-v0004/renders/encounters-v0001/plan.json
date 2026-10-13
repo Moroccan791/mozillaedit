@@ -1,0 +1,452 @@
+{
+  "schema_version": "encounters/v1",
+  "mode": "candidate-preview",
+  "requested_duration": 12.0,
+  "duration": 8.071499999999988,
+  "music_start": 25.0,
+  "music_end": 33.071499999999986,
+  "music_continuous": true,
+  "gaps": [],
+  "timeline": [
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "source_start": 0.8170000000000004,
+      "source_end": 2.815,
+      "output_start": 0.0,
+      "output_end": 1.9979999999999996,
+      "music_start": 25.0,
+      "music_end": 26.998,
+      "speed": 1.0,
+      "events": [],
+      "candidate_events": [
+        {
+          "id": "candidate-00003",
+          "time": 1.715,
+          "source_start": 1.71,
+          "source_end": 1.725,
+          "attack_interval": [
+            1.71,
+            1.725
+          ],
+          "confirmed": false,
+          "type": "audio_transient",
+          "instrument": "unknown",
+          "origin": "unknown",
+          "strength": 0.38283872250449047,
+          "uncertainty": {
+            "timing_seconds": 0.005,
+            "identity": "unknown",
+            "note": "Attack interval estimate; not a confirmed shot or kill."
+          },
+          "evidence": {
+            "method": "multiband-energy-rise/v1",
+            "band_count": 2,
+            "local_salience": 9.681992829474499,
+            "score": 6.203220073334495
+          },
+          "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+          "source_audio_event": 1.715,
+          "output_audio_event": 0.8979999999999997
+        },
+        {
+          "id": "candidate-00004",
+          "time": 1.91,
+          "source_start": 1.905,
+          "source_end": 1.92,
+          "attack_interval": [
+            1.905,
+            1.92
+          ],
+          "confirmed": false,
+          "type": "audio_transient",
+          "instrument": "unknown",
+          "origin": "unknown",
+          "strength": 0.15579336628907342,
+          "uncertainty": {
+            "timing_seconds": 0.005,
+            "identity": "unknown",
+            "note": "Attack interval estimate; not a confirmed shot or kill."
+          },
+          "evidence": {
+            "method": "multiband-energy-rise/v1",
+            "band_count": 3,
+            "local_salience": 2.699923156399503,
+            "score": 1.8454411522951883
+          },
+          "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+          "source_audio_event": 1.91,
+          "output_audio_event": 1.0929999999999995
+        }
+      ],
+      "candidate_window_id": 0,
+      "context_provenance": {
+        "kind": "unreviewed_candidate_window",
+        "start": 0.9175,
+        "end": 2.815,
+        "outcome": "unknown"
+      }
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "source_start": 59.808,
+      "source_end": 62.2825,
+      "output_start": 1.9979999999999996,
+      "output_end": 4.472499999999998,
+      "music_start": 26.998,
+      "music_end": 29.4725,
+      "speed": 1.0,
+      "events": [],
+      "candidate_events": [
+        {
+          "id": "candidate-00225",
+          "time": 61.28,
+          "source_start": 61.275,
+          "source_end": 61.29,
+          "attack_interval": [
+            61.275,
+            61.29
+          ],
+          "confirmed": false,
+          "type": "audio_transient",
+          "instrument": "unknown",
+          "origin": "unknown",
+          "strength": 0.2571787175877364,
+          "uncertainty": {
+            "timing_seconds": 0.005,
+            "identity": "unknown",
+            "note": "Attack interval estimate; not a confirmed shot or kill."
+          },
+          "evidence": {
+            "method": "multiband-energy-rise/v1",
+            "band_count": 3,
+            "local_salience": 4.087725798511378,
+            "score": 3.4621883308534906
+          },
+          "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+          "source_audio_event": 61.28,
+          "output_audio_event": 3.469999999999999
+        }
+      ],
+      "candidate_window_id": 12,
+      "context_provenance": {
+        "kind": "unreviewed_candidate_window",
+        "start": 60.4075,
+        "end": 62.2825,
+        "outcome": "unknown"
+      }
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "source_start": 266.1155,
+      "source_end": 268.1675,
+      "output_start": 4.472499999999998,
+      "output_end": 6.524500000000019,
+      "music_start": 29.472499999999997,
+      "music_end": 31.524500000000018,
+      "speed": 1.0,
+      "events": [],
+      "candidate_events": [
+        {
+          "id": "candidate-01032",
+          "time": 267.7,
+          "source_start": 267.695,
+          "source_end": 267.71,
+          "attack_interval": [
+            267.695,
+            267.71
+          ],
+          "confirmed": false,
+          "type": "audio_transient",
+          "instrument": "unknown",
+          "origin": "unknown",
+          "strength": 0.1750632895535107,
+          "uncertainty": {
+            "timing_seconds": 0.005,
+            "identity": "unknown",
+            "note": "Attack interval estimate; not a confirmed shot or kill."
+          },
+          "evidence": {
+            "method": "multiband-energy-rise/v1",
+            "band_count": 3,
+            "local_salience": 3.5166362733369723,
+            "score": 2.1221420666169566
+          },
+          "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+          "source_audio_event": 267.7,
+          "output_audio_event": 6.057000000000016
+        }
+      ],
+      "candidate_window_id": 7,
+      "context_provenance": {
+        "kind": "unreviewed_candidate_window",
+        "start": 266.7025,
+        "end": 268.1675,
+        "outcome": "unknown"
+      }
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "source_start": 306.3005,
+      "source_end": 307.84749999999997,
+      "output_start": 6.524500000000019,
+      "output_end": 8.071499999999988,
+      "music_start": 31.524500000000018,
+      "music_end": 33.071499999999986,
+      "speed": 1.0,
+      "events": [],
+      "candidate_events": [
+        {
+          "id": "candidate-01196",
+          "time": 307.12,
+          "source_start": 307.115,
+          "source_end": 307.13,
+          "attack_interval": [
+            307.115,
+            307.13
+          ],
+          "confirmed": false,
+          "type": "audio_transient",
+          "instrument": "unknown",
+          "origin": "unknown",
+          "strength": 0.15791248315344897,
+          "uncertainty": {
+            "timing_seconds": 0.005,
+            "identity": "unknown",
+            "note": "Attack interval estimate; not a confirmed shot or kill."
+          },
+          "evidence": {
+            "method": "multiband-energy-rise/v1",
+            "band_count": 2,
+            "local_salience": 3.093953742313576,
+            "score": 1.8752502559923885
+          },
+          "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+          "source_audio_event": 307.12,
+          "output_audio_event": 7.344000000000051
+        }
+      ],
+      "candidate_window_id": 8,
+      "context_provenance": {
+        "kind": "unreviewed_candidate_window",
+        "start": 306.32,
+        "end": 307.84749999999997,
+        "outcome": "unknown"
+      }
+    }
+  ],
+  "rhythm_assignments": [
+    {
+      "event_id": "candidate-00003",
+      "source_time": 1.715,
+      "output_time": 0.8979999999999997,
+      "source_interval": [
+        1.71,
+        1.725
+      ],
+      "matched": true,
+      "event_status": "candidate",
+      "semantic_sync": "unverified",
+      "music_hit_id": "hit-002",
+      "music_time": 25.898,
+      "music_interval": [
+        25.892,
+        25.904
+      ],
+      "planned_error_ms": 0.0,
+      "hit_review_status": "unreviewed",
+      "clip_index": 0
+    },
+    {
+      "event_id": "candidate-00004",
+      "source_time": 1.91,
+      "output_time": 1.0929999999999995,
+      "source_interval": [
+        1.905,
+        1.92
+      ],
+      "matched": true,
+      "event_status": "candidate",
+      "semantic_sync": "unverified",
+      "music_hit_id": "hit-004",
+      "music_time": 26.094958333333334,
+      "music_interval": [
+        26.089958333333332,
+        26.101958333333332
+      ],
+      "planned_error_ms": -1.9583333333343944,
+      "hit_review_status": "unreviewed",
+      "clip_index": 0
+    },
+    {
+      "event_id": "candidate-00225",
+      "source_time": 61.28,
+      "output_time": 3.469999999999999,
+      "source_interval": [
+        61.275,
+        61.29
+      ],
+      "matched": true,
+      "event_status": "candidate",
+      "semantic_sync": "unverified",
+      "music_hit_id": "hit-010",
+      "music_time": 28.47,
+      "music_interval": [
+        28.451999999999998,
+        28.48
+      ],
+      "planned_error_ms": 0.0,
+      "hit_review_status": "unreviewed",
+      "clip_index": 1
+    },
+    {
+      "event_id": "candidate-01032",
+      "source_time": 267.7,
+      "output_time": 6.057000000000016,
+      "source_interval": [
+        267.695,
+        267.71
+      ],
+      "matched": true,
+      "event_status": "candidate",
+      "semantic_sync": "unverified",
+      "music_hit_id": "hit-018",
+      "music_time": 31.057000000000002,
+      "music_interval": [
+        31.056,
+        31.060000000000002
+      ],
+      "planned_error_ms": 1.4210854715202004e-11,
+      "hit_review_status": "unreviewed",
+      "clip_index": 2
+    },
+    {
+      "event_id": "candidate-01196",
+      "source_time": 307.12,
+      "output_time": 7.344000000000051,
+      "source_interval": [
+        307.115,
+        307.13
+      ],
+      "matched": true,
+      "event_status": "candidate",
+      "semantic_sync": "unverified",
+      "music_hit_id": "hit-020",
+      "music_time": 32.344,
+      "music_interval": [
+        32.34,
+        32.35
+      ],
+      "planned_error_ms": 4.973799150320701e-11,
+      "hit_review_status": "unreviewed",
+      "clip_index": 3
+    }
+  ],
+  "rhythm_summary": {
+    "matched": 5,
+    "total": 5,
+    "semantic_sync": "unverified",
+    "beam_width": 24
+  },
+  "warnings": [
+    "Candidate preview only: audio transients are not confirmed POV shots/kills; musical suitability and phrase are unreviewed.",
+    "All selected candidate attacks retain 1x timing; unmatched attacks are explicitly reported, not forced onto beats.",
+    "Window outcome/completeness unknown; source-authored effects may already exist.",
+    "shorter than requested by 3.929s; no filler or reuse"
+  ],
+  "omitted_encounters": [
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "start": 118.41749999999999,
+      "end": 120.5775,
+      "reason": "event count outside1..8; intact omission, no burst truncation"
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "start": 269.8575,
+      "end": 271.9125,
+      "reason": "event count outside1..8; intact omission, no burst truncation"
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "start": 1.46,
+      "end": 3.95,
+      "reason": "event count outside1..8; intact omission, no burst truncation"
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "start": 327.73,
+      "end": 329.3375,
+      "reason": "event count outside1..8; intact omission, no burst truncation"
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "start": 360.655,
+      "end": 362.48749999999995,
+      "reason": "event count outside1..8; intact omission, no burst truncation"
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "start": 431.87750000000005,
+      "end": 434.4425,
+      "reason": "event count outside1..8; intact omission, no burst truncation"
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "start": 508.14,
+      "end": 508.51,
+      "reason": "window length outside proof bounds"
+    }
+  ],
+  "review_status": "unreviewed",
+  "candidate_selection_scope": {
+    "eligible_windows": 18,
+    "explicitly_omitted_windows": 7,
+    "acoustic_hit_count": 27,
+    "original_eligible_hit_count": 29,
+    "policy": "All root candidates in selected source ranges are retained; dense windows omitted intact."
+  },
+  "music": "E:\\audio\\YTDown.com_YouTube_Media_MpoZ0NVXswY_Let-the-world-burn-Audio-Edit_009_128k.mp3",
+  "authored_design": {
+    "schema_version": "authored-footage/v1",
+    "shots": [
+      {
+        "role": "setup",
+        "composition": "full"
+      },
+      {
+        "role": "impact",
+        "composition": "full"
+      },
+      {
+        "role": "contrast",
+        "composition": "inset"
+      },
+      {
+        "role": "payoff",
+        "composition": "full"
+      }
+    ],
+    "bridges": [
+      {
+        "boundary": 1,
+        "direction": "left",
+        "frames": 12
+      },
+      {
+        "boundary": 2,
+        "direction": "right",
+        "frames": 12
+      },
+      {
+        "boundary": 3,
+        "direction": "left",
+        "frames": 12
+      }
+    ],
+    "ending": {
+      "fade_frames": 24
+    }
+  },
+  "authored_role_scope": "Generated render roles, not reviewed gameplay semantics or approved composition.",
+  "candidate_protection": "Bridge/fade windows exclude every supplied candidate attack interval with 0.18s margin; identity remains unreviewed."
+}

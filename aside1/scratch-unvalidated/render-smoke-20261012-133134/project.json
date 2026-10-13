@@ -1,0 +1,59 @@
+{
+  "name": "aside_sync_proof",
+  "source": "E:\\aside\\scratch-unvalidated\\render-smoke-20261012-133134\\synthetic-game.mp4",
+  "music": "E:\\aside\\scratch-unvalidated\\render-smoke-20261012-133134\\synthetic-music.wav",
+  "music_start": 0,
+  "music_gain_db": -6,
+  "target_lufs": -14,
+  "platform": "youtube",
+  "aspect": "source",
+  "fps": 60,
+  "grade": "none",
+  "vibe": "clean",
+  "transition": {},
+  "audio_mode": "mix",
+  "sfx": false,
+  "captions_mode": "off",
+  "title": {
+    "enabled": false
+  },
+  "outro": {
+    "enabled": false
+  },
+  "overlays": [],
+  "segments": [
+    {
+      "label": "synthetic-event-1",
+      "motion": "none",
+      "speed": 1,
+      "start": 1,
+      "flash": false,
+      "ramp_out": 0,
+      "end": 4,
+      "ramp_in": 0,
+      "ramp_hold": 0
+    },
+    {
+      "label": "synthetic-event-2",
+      "motion": "none",
+      "speed": 1,
+      "start": 4,
+      "flash": false,
+      "ramp_out": 0,
+      "end": 7,
+      "ramp_in": 0,
+      "ramp_hold": 0
+    },
+    {
+      "label": "synthetic-event-3",
+      "motion": "none",
+      "speed": 1,
+      "start": 7,
+      "flash": false,
+      "ramp_out": 0,
+      "end": 11,
+      "ramp_in": 0,
+      "ramp_hold": 0
+    }
+  ]
+}

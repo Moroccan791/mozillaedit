@@ -1,0 +1,603 @@
+{
+  "schema_version": "daily-job/v1",
+  "job_dir": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001",
+  "status": "rendered",
+  "output": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\encounters.mp4",
+  "style": "restrained-impact",
+  "stages": {
+    "selection_seconds": 0.005561199999647215,
+    "music_analysis_seconds": 41.40322300000116,
+    "planning_seconds": 0.013531600001442712,
+    "render_seconds": 96.8903954999987,
+    "qa_seconds": 38.667195199999696
+  },
+  "limitations": [
+    "Not unattended-ready. Automatic selection is limited to explicitly calibrated sources.",
+    "Numerical QA does not certify fight completeness, listening taste or cinematic quality.",
+    "Lyrics stay disabled unless a separately verified lyric track is explicitly supplied to the typography tool."
+  ],
+  "selection": {
+    "files": 1,
+    "observations": 6,
+    "eligible": 6,
+    "unconfirmed": 0,
+    "missing_audio": 0,
+    "mode": "reviewed-event-files",
+    "automatic_selection": false
+  },
+  "planned_duration": 23.527599999999996,
+  "warnings": [
+    "shorter than requested by 6.472s; no filler or reuse"
+  ],
+  "render_manifest": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\render-manifest.json",
+  "quality": {
+    "schema_version": "encounter-qa/v1",
+    "status": "warn",
+    "ok": true,
+    "components": {
+      "structural": {
+        "status": "pass",
+        "sample_path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\encounters.mp4",
+        "checks": [
+          {
+            "name": "decode",
+            "ok": true,
+            "detail": ""
+          },
+          {
+            "name": "pix_fmt universal",
+            "ok": true,
+            "detail": "pix_fmt=yuv420p"
+          },
+          {
+            "name": "streams",
+            "ok": true,
+            "detail": "video=True audio=True"
+          },
+          {
+            "name": "a/v duration sync",
+            "ok": true,
+            "detail": "video=23.53s audio=23.53s"
+          }
+        ],
+        "detail": "existing qa.verify structural battery"
+      },
+      "duplicate_ranges": {
+        "status": "pass",
+        "overlaps": [],
+        "detail": "independent same-source overlapping-range check (adjacent ranges allowed)"
+      },
+      "loudness": {
+        "status": "pass",
+        "sample_path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\encounters.mp4",
+        "measurements": {
+          "input_i": -11.78,
+          "input_tp": -2.62,
+          "input_lra": 11.6,
+          "input_thresh": -22.54
+        },
+        "possible_true_peak_clipping": false,
+        "detail": "input true peak >0 dBTP is clipping risk; loudness outside -30..-9 LUFS is review only"
+      },
+      "visual_heuristics": {
+        "status": "pass",
+        "unavailable_samples": [],
+        "black_samples": [],
+        "white_samples": [],
+        "possible_freeze": false,
+        "possible_flashes": [],
+        "sampled_frames": [
+          {
+            "path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\encounters.mp4",
+            "time": 0.0,
+            "mean_luma": 107.3954475308642,
+            "std_luma": 28.63809182451056
+          },
+          {
+            "path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\encounters.mp4",
+            "time": 2.1252367424242427,
+            "mean_luma": 89.83777006172839,
+            "std_luma": 36.17451315672598
+          },
+          {
+            "path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\encounters.mp4",
+            "time": 4.250473484848485,
+            "mean_luma": 100.10648148148148,
+            "std_luma": 34.43646643220057
+          },
+          {
+            "path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\encounters.mp4",
+            "time": 6.375710227272728,
+            "mean_luma": 97.89506172839506,
+            "std_luma": 41.18960438707916
+          },
+          {
+            "path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\encounters.mp4",
+            "time": 8.50094696969697,
+            "mean_luma": 112.78858024691358,
+            "std_luma": 36.91447793640911
+          },
+          {
+            "path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\encounters.mp4",
+            "time": 10.626183712121213,
+            "mean_luma": 101.31481481481481,
+            "std_luma": 48.0809065723345
+          },
+          {
+            "path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\encounters.mp4",
+            "time": 12.751420454545457,
+            "mean_luma": 81.39158950617283,
+            "std_luma": 30.365701446291702
+          },
+          {
+            "path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\encounters.mp4",
+            "time": 14.876657196969699,
+            "mean_luma": 72.48611111111111,
+            "std_luma": 35.47220862698774
+          },
+          {
+            "path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\encounters.mp4",
+            "time": 17.00189393939394,
+            "mean_luma": 120.90895061728395,
+            "std_luma": 66.8185091170642
+          },
+          {
+            "path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\encounters.mp4",
+            "time": 19.127130681818183,
+            "mean_luma": 134.4891975308642,
+            "std_luma": 59.750021622790605
+          },
+          {
+            "path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\encounters.mp4",
+            "time": 21.252367424242426,
+            "mean_luma": 116.91898148148148,
+            "std_luma": 40.97380875511686
+          },
+          {
+            "path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\encounters.mp4",
+            "time": 23.377604166666668,
+            "mean_luma": 79.7457561728395,
+            "std_luma": 42.10564339557541
+          }
+        ],
+        "adjacent_mean_abs_differences": [
+          34.52835648148148,
+          38.217399691358025,
+          43.65817901234568,
+          45.81172839506173,
+          33.44675925925926,
+          41.62538580246913,
+          32.08256172839506,
+          65.52662037037037,
+          43.41358024691358,
+          65.82445987654322,
+          51.010802469135804
+        ],
+        "detail": "sparse black/white/flash/freeze heuristic, NOT taste, semantics or photosensitivity certification"
+      },
+      "anchor_0_0_game_stem": {
+        "status": "pass",
+        "correlation": 0.9934195063554134,
+        "shift_ms": 0.0,
+        "ambiguous": false,
+        "search_ms": 30,
+        "tolerance_ms": 5.0,
+        "reference_path": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+        "sample_path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\game-stem.wav",
+        "reference_time": 221.612,
+        "output_time": 1.9561999999999955,
+        "detail": "positive shift means the output is late; correlation is waveform evidence only"
+      },
+      "anchor_0_0_music_stem": {
+        "status": "pass",
+        "correlation": 0.9999999988112995,
+        "shift_ms": 0.0,
+        "ambiguous": false,
+        "search_ms": 30,
+        "tolerance_ms": 5.0,
+        "reference_path": "E:\\audio\\YTDown.com_YouTube_Media_MpoZ0NVXswY_Let-the-world-burn-Audio-Edit_009_128k.mp3",
+        "sample_path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\music-stem.wav",
+        "reference_time": 18.210199999999997,
+        "output_time": 1.9561999999999955,
+        "detail": "positive shift means the output is late; correlation is waveform evidence only"
+      },
+      "anchor_0_0_visual": {
+        "status": "warn",
+        "correlation": 0.7892758043919961,
+        "shift_frames": 2,
+        "sample_path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\encounters.mp4",
+        "reference_path": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+        "output_time": 2.0108999999999924,
+        "source_time": 221.6667,
+        "style_present": true,
+        "masking_sensitive": true,
+        "detail": "visual similarity warning only; style/crops/overlays can mask matching"
+      },
+      "anchor_0_0_final_mix": {
+        "status": "pass",
+        "correlation": 0.9946963643298791,
+        "shift_ms": 0.0,
+        "fitted_gains": [
+          0.39334528910412647,
+          0.4390134832335927
+        ],
+        "sample_path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\encounters.mp4",
+        "reference_paths": [
+          "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+          "E:\\audio\\YTDown.com_YouTube_Media_MpoZ0NVXswY_Let-the-world-burn-Audio-Edit_009_128k.mp3"
+        ],
+        "detail": "optional fitted mix evidence; compression, ducking and masking can lower score"
+      },
+      "anchor_1_0_game_stem": {
+        "status": "pass",
+        "correlation": 0.9858578743004855,
+        "shift_ms": 0.0,
+        "ambiguous": false,
+        "search_ms": 30,
+        "tolerance_ms": 5.0,
+        "reference_path": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+        "sample_path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\game-stem.wav",
+        "reference_time": 234.469,
+        "output_time": 7.180700000000002,
+        "detail": "positive shift means the output is late; correlation is waveform evidence only"
+      },
+      "anchor_1_0_music_stem": {
+        "status": "pass",
+        "correlation": 0.9999999986525763,
+        "shift_ms": 0.0,
+        "ambiguous": false,
+        "search_ms": 30,
+        "tolerance_ms": 5.0,
+        "reference_path": "E:\\audio\\YTDown.com_YouTube_Media_MpoZ0NVXswY_Let-the-world-burn-Audio-Edit_009_128k.mp3",
+        "sample_path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\music-stem.wav",
+        "reference_time": 23.434700000000003,
+        "output_time": 7.180700000000002,
+        "detail": "positive shift means the output is late; correlation is waveform evidence only"
+      },
+      "anchor_1_0_visual": {
+        "status": "pass",
+        "correlation": 0.9088359228029498,
+        "shift_frames": 0,
+        "sample_path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\encounters.mp4",
+        "reference_path": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+        "output_time": 7.2117000000000075,
+        "source_time": 234.5,
+        "style_present": true,
+        "masking_sensitive": true,
+        "detail": "visual similarity warning only; style/crops/overlays can mask matching"
+      },
+      "anchor_1_0_final_mix": {
+        "status": "pass",
+        "correlation": 0.9872742995858969,
+        "shift_ms": 0.0,
+        "fitted_gains": [
+          0.38914366112074655,
+          0.4425239977186109
+        ],
+        "sample_path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\encounters.mp4",
+        "reference_paths": [
+          "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+          "E:\\audio\\YTDown.com_YouTube_Media_MpoZ0NVXswY_Let-the-world-burn-Audio-Edit_009_128k.mp3"
+        ],
+        "detail": "optional fitted mix evidence; compression, ducking and masking can lower score"
+      },
+      "anchor_2_0_game_stem": {
+        "status": "pass",
+        "correlation": 0.9714872459721625,
+        "shift_ms": 0.0,
+        "ambiguous": false,
+        "search_ms": 30,
+        "tolerance_ms": 5.0,
+        "reference_path": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+        "sample_path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\game-stem.wav",
+        "reference_time": 265.7033,
+        "output_time": 10.948199999999986,
+        "detail": "positive shift means the output is late; correlation is waveform evidence only"
+      },
+      "anchor_2_0_music_stem": {
+        "status": "pass",
+        "correlation": 0.9999213778197256,
+        "shift_ms": 0.0,
+        "ambiguous": false,
+        "search_ms": 30,
+        "tolerance_ms": 5.0,
+        "reference_path": "E:\\audio\\YTDown.com_YouTube_Media_MpoZ0NVXswY_Let-the-world-burn-Audio-Edit_009_128k.mp3",
+        "sample_path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\music-stem.wav",
+        "reference_time": 27.202199999999987,
+        "output_time": 10.948199999999986,
+        "detail": "positive shift means the output is late; correlation is waveform evidence only"
+      },
+      "anchor_2_0_visual": {
+        "status": "pass",
+        "correlation": 0.9427580458929701,
+        "shift_frames": 0,
+        "sample_path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\encounters.mp4",
+        "reference_path": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+        "output_time": 10.978199999999958,
+        "source_time": 265.7333,
+        "style_present": true,
+        "masking_sensitive": true,
+        "detail": "visual similarity warning only; style/crops/overlays can mask matching"
+      },
+      "anchor_2_0_final_mix": {
+        "status": "pass",
+        "correlation": 0.9907737422673173,
+        "shift_ms": 0.0,
+        "fitted_gains": [
+          0.38050775083773314,
+          0.43570178685892674
+        ],
+        "sample_path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\encounters.mp4",
+        "reference_paths": [
+          "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+          "E:\\audio\\YTDown.com_YouTube_Media_MpoZ0NVXswY_Let-the-world-burn-Audio-Edit_009_128k.mp3"
+        ],
+        "detail": "optional fitted mix evidence; compression, ducking and masking can lower score"
+      },
+      "anchor_3_0_game_stem": {
+        "status": "pass",
+        "correlation": 0.9892560642036559,
+        "shift_ms": 0.0,
+        "ambiguous": false,
+        "search_ms": 30,
+        "tolerance_ms": 5.0,
+        "reference_path": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+        "sample_path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\game-stem.wav",
+        "reference_time": 9.646,
+        "output_time": 14.825899999999997,
+        "detail": "positive shift means the output is late; correlation is waveform evidence only"
+      },
+      "anchor_3_0_music_stem": {
+        "status": "pass",
+        "correlation": 0.9999507520683413,
+        "shift_ms": 0.0,
+        "ambiguous": false,
+        "search_ms": 30,
+        "tolerance_ms": 5.0,
+        "reference_path": "E:\\audio\\YTDown.com_YouTube_Media_MpoZ0NVXswY_Let-the-world-burn-Audio-Edit_009_128k.mp3",
+        "sample_path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\music-stem.wav",
+        "reference_time": 31.0799,
+        "output_time": 14.825899999999997,
+        "detail": "positive shift means the output is late; correlation is waveform evidence only"
+      },
+      "anchor_3_0_visual": {
+        "status": "pass",
+        "correlation": 0.944495778140996,
+        "shift_frames": 1,
+        "sample_path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\encounters.mp4",
+        "reference_path": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+        "output_time": 14.913233333333327,
+        "source_time": 9.733333333333333,
+        "style_present": true,
+        "masking_sensitive": true,
+        "detail": "visual similarity warning only; style/crops/overlays can mask matching"
+      },
+      "anchor_3_0_final_mix": {
+        "status": "pass",
+        "correlation": 0.9948297194306159,
+        "shift_ms": 0.0,
+        "fitted_gains": [
+          0.3855585803725295,
+          0.4383790129971933
+        ],
+        "sample_path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\encounters.mp4",
+        "reference_paths": [
+          "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+          "E:\\audio\\YTDown.com_YouTube_Media_MpoZ0NVXswY_Let-the-world-burn-Audio-Edit_009_128k.mp3"
+        ],
+        "detail": "optional fitted mix evidence; compression, ducking and masking can lower score"
+      },
+      "anchor_4_0_game_stem": {
+        "status": "pass",
+        "correlation": 0.9816940038448294,
+        "shift_ms": 0.0,
+        "ambiguous": false,
+        "search_ms": 30,
+        "tolerance_ms": 5.0,
+        "reference_path": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+        "sample_path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\game-stem.wav",
+        "reference_time": 92.258,
+        "output_time": 17.896699999999996,
+        "detail": "positive shift means the output is late; correlation is waveform evidence only"
+      },
+      "anchor_4_0_music_stem": {
+        "status": "pass",
+        "correlation": 0.9999908088321617,
+        "shift_ms": 0.0,
+        "ambiguous": false,
+        "search_ms": 30,
+        "tolerance_ms": 5.0,
+        "reference_path": "E:\\audio\\YTDown.com_YouTube_Media_MpoZ0NVXswY_Let-the-world-burn-Audio-Edit_009_128k.mp3",
+        "sample_path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\music-stem.wav",
+        "reference_time": 34.1507,
+        "output_time": 17.896699999999996,
+        "detail": "positive shift means the output is late; correlation is waveform evidence only"
+      },
+      "anchor_4_0_visual": {
+        "status": "pass",
+        "correlation": 0.9785117632879642,
+        "shift_frames": -1,
+        "sample_path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\encounters.mp4",
+        "reference_path": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+        "output_time": 17.97203333333333,
+        "source_time": 92.33333333333333,
+        "style_present": true,
+        "masking_sensitive": true,
+        "detail": "visual similarity warning only; style/crops/overlays can mask matching"
+      },
+      "anchor_4_0_final_mix": {
+        "status": "pass",
+        "correlation": 0.9937996976584418,
+        "shift_ms": 0.0,
+        "fitted_gains": [
+          0.38509763718847645,
+          0.43794576230328663
+        ],
+        "sample_path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\encounters.mp4",
+        "reference_paths": [
+          "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+          "E:\\audio\\YTDown.com_YouTube_Media_MpoZ0NVXswY_Let-the-world-burn-Audio-Edit_009_128k.mp3"
+        ],
+        "detail": "optional fitted mix evidence; compression, ducking and masking can lower score"
+      },
+      "anchor_5_0_game_stem": {
+        "status": "pass",
+        "correlation": 0.9877522244404103,
+        "shift_ms": 0.0,
+        "ambiguous": false,
+        "search_ms": 30,
+        "tolerance_ms": 5.0,
+        "reference_path": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+        "sample_path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\game-stem.wav",
+        "reference_time": 188.028,
+        "output_time": 21.26939999999999,
+        "detail": "positive shift means the output is late; correlation is waveform evidence only"
+      },
+      "anchor_5_0_music_stem": {
+        "status": "pass",
+        "correlation": 0.9999577150416322,
+        "shift_ms": 0.0,
+        "ambiguous": false,
+        "search_ms": 30,
+        "tolerance_ms": 5.0,
+        "reference_path": "E:\\audio\\YTDown.com_YouTube_Media_MpoZ0NVXswY_Let-the-world-burn-Audio-Edit_009_128k.mp3",
+        "sample_path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\music-stem.wav",
+        "reference_time": 37.523399999999995,
+        "output_time": 21.26939999999999,
+        "detail": "positive shift means the output is late; correlation is waveform evidence only"
+      },
+      "anchor_5_0_visual": {
+        "status": "pass",
+        "correlation": 0.9218459364626892,
+        "shift_frames": -1,
+        "sample_path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\encounters.mp4",
+        "reference_path": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+        "output_time": 21.374733333333324,
+        "source_time": 188.13333333333333,
+        "style_present": true,
+        "masking_sensitive": true,
+        "detail": "visual similarity warning only; style/crops/overlays can mask matching"
+      },
+      "anchor_5_0_final_mix": {
+        "status": "pass",
+        "correlation": 0.9944375840321643,
+        "shift_ms": 0.0,
+        "fitted_gains": [
+          0.3868401090105098,
+          0.4369875748333318
+        ],
+        "sample_path": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\encounters.mp4",
+        "reference_paths": [
+          "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+          "E:\\audio\\YTDown.com_YouTube_Media_MpoZ0NVXswY_Let-the-world-burn-Audio-Edit_009_128k.mp3"
+        ],
+        "detail": "optional fitted mix evidence; compression, ducking and masking can lower score"
+      }
+    },
+    "issues": [
+      {
+        "component": "anchor_0_0_visual",
+        "status": "warn",
+        "detail": "visual similarity warning only; style/crops/overlays can mask matching"
+      }
+    ],
+    "anchors": [
+      {
+        "chunk": 0,
+        "event": 0,
+        "source_path": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+        "source_audio_time": 221.612,
+        "output_audio_time": 1.9561999999999955,
+        "source_visual_time": 221.6667,
+        "output_visual_time": 2.0108999999999924,
+        "music_time": 18.210199999999997
+      },
+      {
+        "chunk": 1,
+        "event": 0,
+        "source_path": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+        "source_audio_time": 234.469,
+        "output_audio_time": 7.180700000000002,
+        "source_visual_time": 234.5,
+        "output_visual_time": 7.2117000000000075,
+        "music_time": 23.434700000000003
+      },
+      {
+        "chunk": 2,
+        "event": 0,
+        "source_path": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+        "source_audio_time": 265.7033,
+        "output_audio_time": 10.948199999999986,
+        "source_visual_time": 265.7333,
+        "output_visual_time": 10.978199999999958,
+        "music_time": 27.202199999999987
+      },
+      {
+        "chunk": 3,
+        "event": 0,
+        "source_path": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+        "source_audio_time": 9.646,
+        "output_audio_time": 14.825899999999997,
+        "source_visual_time": 9.733333333333333,
+        "output_visual_time": 14.913233333333327,
+        "music_time": 31.0799
+      },
+      {
+        "chunk": 4,
+        "event": 0,
+        "source_path": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+        "source_audio_time": 92.258,
+        "output_audio_time": 17.896699999999996,
+        "source_visual_time": 92.33333333333333,
+        "output_visual_time": 17.97203333333333,
+        "music_time": 34.1507
+      },
+      {
+        "chunk": 5,
+        "event": 0,
+        "source_path": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+        "source_audio_time": 188.028,
+        "output_audio_time": 21.26939999999999,
+        "source_visual_time": 188.13333333333333,
+        "output_visual_time": 21.374733333333324,
+        "music_time": 37.523399999999995
+      }
+    ],
+    "limitations": [
+      "Does not verify detector correctness, event semantics or artistic taste.",
+      "Sparse sampled frames cannot exclude all flashes/freezes or certify photosensitivity safety.",
+      "Correlation cannot identify timing in silent, static or repetitive references.",
+      "Decode limits or missing anchors yield warnings, not verified synchronization."
+    ],
+    "output": "E:\\aside\\other-stages-20261012\\jobs\\job-v0001\\renders\\encounters-v0001\\encounters.mp4",
+    "decode_cache": {
+      "files": 6,
+      "decodes": 6,
+      "bytes_written": 71225832,
+      "sample_rate": 16000,
+      "storage": "temporary disk memmap",
+      "max_seconds": 3600.0,
+      "max_bytes_per_file": 536870912,
+      "max_total_bytes": 2147483648,
+      "origin": "decoded PCM sample zero"
+    },
+    "benchmark": {
+      "elapsed_seconds": 38.65699999999924,
+      "process_peak_rss": 1110507520,
+      "peak_rss_unit": "bytes",
+      "memory_note": "process-lifetime peak, not QA-only delta; excludes FFmpeg children; disk PCM bytes separate"
+    }
+  },
+  "elapsed_seconds": 183.561,
+  "benchmarks": {
+    "elapsed_seconds": 183.561,
+    "stage_seconds": {
+      "selection_seconds": 0.005561199999647215,
+      "music_analysis_seconds": 41.40322300000116,
+      "planning_seconds": 0.013531600001442712,
+      "render_seconds": 96.8903954999987,
+      "qa_seconds": 38.667195199999696
+    },
+    "peak_memory": "not measured by this in-process runner; do not infer laptop capacity from one job"
+  }
+}

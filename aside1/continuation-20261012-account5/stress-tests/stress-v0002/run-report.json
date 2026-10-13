@@ -1,0 +1,284 @@
+{
+  "schema_version": "render-stability/v1",
+  "scope": "Diagnostic clean hard-cut render stability only. No event semantics or musical alignment claims.",
+  "run_dir": "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002",
+  "python": "E:\\ai-video-editor\\.venv\\Scripts\\python.exe",
+  "environment_cleared": [
+    "PYTHONHOME",
+    "PYTHONPATH",
+    "PIP_PREFIX",
+    "VIRTUAL_ENV"
+  ],
+  "runs": [
+    {
+      "duration_seconds": 30,
+      "render_wall_seconds": 76.56199999999808,
+      "output": "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002\\renders\\encounters-v0001\\encounters.mp4",
+      "manifest": "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002\\renders\\encounters-v0001\\render-manifest.json",
+      "frame_count": 1800,
+      "cfr_all_frame_intervals_exact": true,
+      "video_duration_exact_seconds": "30",
+      "container_duration_seconds": "30.000000",
+      "audio_duration_seconds": "30.000000",
+      "expected_sample_count": 1440000,
+      "retained_stems": [
+        {
+          "path": "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002\\renders\\encounters-v0001\\game-stem.wav",
+          "expected_samples": 1440000,
+          "actual_samples": 1440000,
+          "sample_rate": 48000,
+          "channels": 2,
+          "sample_width_bytes": 2
+        },
+        {
+          "path": "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002\\renders\\encounters-v0001\\music-stem.wav",
+          "expected_samples": 1440000,
+          "actual_samples": 1440000,
+          "sample_rate": 48000,
+          "channels": 2,
+          "sample_width_bytes": 2
+        },
+        {
+          "path": "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002\\renders\\encounters-v0001\\game-000.wav",
+          "expected_samples": 240000,
+          "actual_samples": 240000,
+          "sample_rate": 48000,
+          "channels": 2,
+          "sample_width_bytes": 2
+        },
+        {
+          "path": "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002\\renders\\encounters-v0001\\game-001.wav",
+          "expected_samples": 240000,
+          "actual_samples": 240000,
+          "sample_rate": 48000,
+          "channels": 2,
+          "sample_width_bytes": 2
+        },
+        {
+          "path": "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002\\renders\\encounters-v0001\\game-002.wav",
+          "expected_samples": 240000,
+          "actual_samples": 240000,
+          "sample_rate": 48000,
+          "channels": 2,
+          "sample_width_bytes": 2
+        },
+        {
+          "path": "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002\\renders\\encounters-v0001\\game-003.wav",
+          "expected_samples": 240000,
+          "actual_samples": 240000,
+          "sample_rate": 48000,
+          "channels": 2,
+          "sample_width_bytes": 2
+        },
+        {
+          "path": "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002\\renders\\encounters-v0001\\game-004.wav",
+          "expected_samples": 240000,
+          "actual_samples": 240000,
+          "sample_rate": 48000,
+          "channels": 2,
+          "sample_width_bytes": 2
+        },
+        {
+          "path": "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002\\renders\\encounters-v0001\\game-005.wav",
+          "expected_samples": 240000,
+          "actual_samples": 240000,
+          "sample_rate": 48000,
+          "channels": 2,
+          "sample_width_bytes": 2
+        }
+      ],
+      "full_decode": {
+        "returncode": 0,
+        "elapsed_seconds": 8.719000000004598
+      },
+      "source_count": 3,
+      "clip_count": 6,
+      "music_excerpt": [
+        10,
+        40
+      ],
+      "status": "pass"
+    },
+    {
+      "duration_seconds": 60,
+      "render_wall_seconds": 158.28199999999924,
+      "output": "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002\\renders\\encounters-v0002\\encounters.mp4",
+      "manifest": "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002\\renders\\encounters-v0002\\render-manifest.json",
+      "frame_count": 3600,
+      "cfr_all_frame_intervals_exact": true,
+      "video_duration_exact_seconds": "60",
+      "container_duration_seconds": "60.000000",
+      "audio_duration_seconds": "60.000000",
+      "expected_sample_count": 2880000,
+      "retained_stems": [
+        {
+          "path": "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002\\renders\\encounters-v0002\\game-stem.wav",
+          "expected_samples": 2880000,
+          "actual_samples": 2880000,
+          "sample_rate": 48000,
+          "channels": 2,
+          "sample_width_bytes": 2
+        },
+        {
+          "path": "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002\\renders\\encounters-v0002\\music-stem.wav",
+          "expected_samples": 2880000,
+          "actual_samples": 2880000,
+          "sample_rate": 48000,
+          "channels": 2,
+          "sample_width_bytes": 2
+        },
+        {
+          "path": "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002\\renders\\encounters-v0002\\game-000.wav",
+          "expected_samples": 240000,
+          "actual_samples": 240000,
+          "sample_rate": 48000,
+          "channels": 2,
+          "sample_width_bytes": 2
+        },
+        {
+          "path": "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002\\renders\\encounters-v0002\\game-001.wav",
+          "expected_samples": 240000,
+          "actual_samples": 240000,
+          "sample_rate": 48000,
+          "channels": 2,
+          "sample_width_bytes": 2
+        },
+        {
+          "path": "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002\\renders\\encounters-v0002\\game-002.wav",
+          "expected_samples": 240000,
+          "actual_samples": 240000,
+          "sample_rate": 48000,
+          "channels": 2,
+          "sample_width_bytes": 2
+        },
+        {
+          "path": "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002\\renders\\encounters-v0002\\game-003.wav",
+          "expected_samples": 240000,
+          "actual_samples": 240000,
+          "sample_rate": 48000,
+          "channels": 2,
+          "sample_width_bytes": 2
+        },
+        {
+          "path": "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002\\renders\\encounters-v0002\\game-004.wav",
+          "expected_samples": 240000,
+          "actual_samples": 240000,
+          "sample_rate": 48000,
+          "channels": 2,
+          "sample_width_bytes": 2
+        },
+        {
+          "path": "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002\\renders\\encounters-v0002\\game-005.wav",
+          "expected_samples": 240000,
+          "actual_samples": 240000,
+          "sample_rate": 48000,
+          "channels": 2,
+          "sample_width_bytes": 2
+        },
+        {
+          "path": "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002\\renders\\encounters-v0002\\game-006.wav",
+          "expected_samples": 240000,
+          "actual_samples": 240000,
+          "sample_rate": 48000,
+          "channels": 2,
+          "sample_width_bytes": 2
+        },
+        {
+          "path": "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002\\renders\\encounters-v0002\\game-007.wav",
+          "expected_samples": 240000,
+          "actual_samples": 240000,
+          "sample_rate": 48000,
+          "channels": 2,
+          "sample_width_bytes": 2
+        },
+        {
+          "path": "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002\\renders\\encounters-v0002\\game-008.wav",
+          "expected_samples": 240000,
+          "actual_samples": 240000,
+          "sample_rate": 48000,
+          "channels": 2,
+          "sample_width_bytes": 2
+        },
+        {
+          "path": "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002\\renders\\encounters-v0002\\game-009.wav",
+          "expected_samples": 240000,
+          "actual_samples": 240000,
+          "sample_rate": 48000,
+          "channels": 2,
+          "sample_width_bytes": 2
+        },
+        {
+          "path": "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002\\renders\\encounters-v0002\\game-010.wav",
+          "expected_samples": 240000,
+          "actual_samples": 240000,
+          "sample_rate": 48000,
+          "channels": 2,
+          "sample_width_bytes": 2
+        },
+        {
+          "path": "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002\\renders\\encounters-v0002\\game-011.wav",
+          "expected_samples": 240000,
+          "actual_samples": 240000,
+          "sample_rate": 48000,
+          "channels": 2,
+          "sample_width_bytes": 2
+        }
+      ],
+      "full_decode": {
+        "returncode": 0,
+        "elapsed_seconds": 13.125
+      },
+      "source_count": 3,
+      "clip_count": 12,
+      "music_excerpt": [
+        10,
+        70
+      ],
+      "status": "pass"
+    }
+  ],
+  "limitations": [
+    "Not a full laptop benchmark. Memory, when available, is sampled process RSS only, not exact lifetime peak or total system memory.",
+    "60 seconds is a continuous song excerpt, not whole-song unless the source itself is 60 seconds.",
+    "No confirmed kills, no authored composition or musical alignment; events are empty. Source-authored effects may remain."
+  ],
+  "source_scope": "3 actual raw files; first two basenames match the exact historical timeline proof inputs.",
+  "historical_job_status": "rendered-candidate-preview",
+  "source_mapping": [
+    {
+      "historical_proof": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "actual_raw": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4"
+    },
+    {
+      "historical_proof": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "actual_raw": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4"
+    }
+  ],
+  "config": {
+    "width": 1280,
+    "height": 720,
+    "fps": 60,
+    "sample_rate": 48000,
+    "encoder": "libx264",
+    "fallback_encoder": null,
+    "quality": 21,
+    "preset": "veryfast",
+    "music_gain_db": -6.0,
+    "game_gain_db": 0.0,
+    "max_duration": 180.0,
+    "max_clip_duration": 30.0,
+    "max_clips": 64,
+    "max_source_duration": 86400.0,
+    "timeout": 300.0,
+    "ffmpeg": "ffmpeg",
+    "ffprobe": "ffprobe",
+    "style": "clean"
+  },
+  "config_note": "Default engine max_duration is 120s. Explicit 180s is accepted by existing positive finite validation; actual test plans remain 30s and 60s. Every subprocess timeout <=300s.",
+  "music_source": "E:\\audio\\YTDown.com_YouTube_Media_MpoZ0NVXswY_Let-the-world-burn-Audio-Edit_009_128k.mp3",
+  "music_source_duration_seconds": 81.153741,
+  "memory_method": "Unavailable: psutil not installed. No memory benchmark claimed.",
+  "original_inputs_untouched": true,
+  "total_wall_elapsed_seconds": 350.8899999999994,
+  "status": "pass"
+}

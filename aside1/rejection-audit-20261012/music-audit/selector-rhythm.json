@@ -1,0 +1,1006 @@
+{
+  "selector_same_group_replay_approximate_rounded_profile": [
+    {
+      "label": "1v9-1",
+      "ranked_candidates": [
+        {
+          "time": 18.2102,
+          "strength": 0.3741,
+          "phrase_fit": true,
+          "end": 20.7993,
+          "score": 0.90655
+        },
+        {
+          "time": 18.5005,
+          "strength": 0.2547,
+          "phrase_fit": true,
+          "end": 20.7993,
+          "score": 0.86135
+        },
+        {
+          "time": 18.2683,
+          "strength": 0.2708,
+          "phrase_fit": true,
+          "end": 20.7993,
+          "score": 0.8549
+        },
+        {
+          "time": 18.6166,
+          "strength": 0.2154,
+          "phrase_fit": true,
+          "end": 20.7993,
+          "score": 0.8417
+        },
+        {
+          "time": 18.1754,
+          "strength": 0.2389,
+          "phrase_fit": true,
+          "end": 20.7993,
+          "score": 0.8389500000000001
+        },
+        {
+          "time": 18.8198,
+          "strength": 0.1959,
+          "phrase_fit": true,
+          "end": 20.7993,
+          "score": 0.83195
+        },
+        {
+          "time": 18.7211,
+          "strength": 0.1957,
+          "phrase_fit": true,
+          "end": 20.7993,
+          "score": 0.83185
+        },
+        {
+          "time": 17.9839,
+          "strength": 0.2192,
+          "phrase_fit": true,
+          "end": 20.7993,
+          "score": 0.8291000000000001
+        },
+        {
+          "time": 18.3786,
+          "strength": 0.2161,
+          "phrase_fit": true,
+          "end": 20.7993,
+          "score": 0.82755
+        },
+        {
+          "time": 19.1274,
+          "strength": 0.1965,
+          "phrase_fit": true,
+          "end": 20.7993,
+          "score": 0.81775
+        },
+        {
+          "time": 19.2726,
+          "strength": 0.1961,
+          "phrase_fit": true,
+          "end": 20.7993,
+          "score": 0.81755
+        },
+        {
+          "time": 19.0346,
+          "strength": 0.1925,
+          "phrase_fit": true,
+          "end": 20.7993,
+          "score": 0.81575
+        },
+        {
+          "time": 18.9243,
+          "strength": 0.187,
+          "phrase_fit": true,
+          "end": 20.7993,
+          "score": 0.8130000000000001
+        },
+        {
+          "time": 17.8852,
+          "strength": 0.1745,
+          "phrase_fit": false,
+          "end": 19.4583,
+          "score": 0.8067500000000001
+        }
+      ]
+    },
+    {
+      "label": "1v9-2",
+      "ranked_candidates": [
+        {
+          "time": 23.4347,
+          "strength": 0.2408,
+          "phrase_fit": true,
+          "end": 24.729,
+          "score": 0.8399
+        },
+        {
+          "time": 23.6669,
+          "strength": 0.2279,
+          "phrase_fit": true,
+          "end": 25.7858,
+          "score": 0.83345
+        },
+        {
+          "time": 23.7482,
+          "strength": 0.2274,
+          "phrase_fit": true,
+          "end": 25.7858,
+          "score": 0.8332
+        },
+        {
+          "time": 23.3477,
+          "strength": 0.2114,
+          "phrase_fit": true,
+          "end": 24.729,
+          "score": 0.8252
+        },
+        {
+          "time": 23.3941,
+          "strength": 0.2079,
+          "phrase_fit": true,
+          "end": 24.729,
+          "score": 0.82345
+        },
+        {
+          "time": 23.1503,
+          "strength": 0.2014,
+          "phrase_fit": true,
+          "end": 24.729,
+          "score": 0.8202
+        },
+        {
+          "time": 23.516,
+          "strength": 0.1964,
+          "phrase_fit": true,
+          "end": 24.729,
+          "score": 0.8177
+        },
+        {
+          "time": 22.4305,
+          "strength": 0.1949,
+          "phrase_fit": true,
+          "end": 24.0559,
+          "score": 0.8169500000000001
+        },
+        {
+          "time": 22.9761,
+          "strength": 0.1898,
+          "phrase_fit": true,
+          "end": 24.729,
+          "score": 0.8169
+        },
+        {
+          "time": 23.2954,
+          "strength": 0.1856,
+          "phrase_fit": true,
+          "end": 24.729,
+          "score": 0.8123
+        },
+        {
+          "time": 22.535,
+          "strength": 0.1791,
+          "phrase_fit": true,
+          "end": 24.0559,
+          "score": 0.81155
+        },
+        {
+          "time": 22.7614,
+          "strength": 0.1705,
+          "phrase_fit": true,
+          "end": 24.0559,
+          "score": 0.80725
+        },
+        {
+          "time": 22.6046,
+          "strength": 0.1629,
+          "phrase_fit": true,
+          "end": 24.0559,
+          "score": 0.80345
+        },
+        {
+          "time": 22.6569,
+          "strength": 0.1594,
+          "phrase_fit": true,
+          "end": 24.0559,
+          "score": 0.8017
+        }
+      ]
+    },
+    {
+      "label": "1v9-3",
+      "ranked_candidates": [
+        {
+          "time": 27.2022,
+          "strength": 0.3697,
+          "phrase_fit": true,
+          "end": 29.292,
+          "score": 1.1433499999999999
+        },
+        {
+          "time": 26.0644,
+          "strength": 0.2255,
+          "phrase_fit": true,
+          "end": 27.5853,
+          "score": 1.1127500000000001
+        },
+        {
+          "time": 26.8829,
+          "strength": 0.2392,
+          "phrase_fit": true,
+          "end": 29.292,
+          "score": 1.1071
+        },
+        {
+          "time": 26.1631,
+          "strength": 0.2048,
+          "phrase_fit": true,
+          "end": 27.5853,
+          "score": 1.1024
+        },
+        {
+          "time": 27.1615,
+          "strength": 0.2814,
+          "phrase_fit": true,
+          "end": 29.292,
+          "score": 1.0992000000000002
+        },
+        {
+          "time": 26.5752,
+          "strength": 0.2185,
+          "phrase_fit": true,
+          "end": 29.292,
+          "score": 1.09675
+        },
+        {
+          "time": 26.8074,
+          "strength": 0.2055,
+          "phrase_fit": true,
+          "end": 29.292,
+          "score": 1.09025
+        },
+        {
+          "time": 26.6855,
+          "strength": 0.1986,
+          "phrase_fit": true,
+          "end": 29.292,
+          "score": 1.0868
+        },
+        {
+          "time": 27.0803,
+          "strength": 0.2304,
+          "phrase_fit": true,
+          "end": 29.292,
+          "score": 1.0737
+        },
+        {
+          "time": 27.3763,
+          "strength": 0.1982,
+          "phrase_fit": true,
+          "end": 29.292,
+          "score": 1.0575999999999999
+        },
+        {
+          "time": 26.2502,
+          "strength": 0.2,
+          "phrase_fit": false,
+          "end": 28.0149,
+          "score": 1.1
+        }
+      ]
+    },
+    {
+      "label": "reyna-1",
+      "ranked_candidates": [
+        {
+          "time": 31.0799,
+          "strength": 0.3041,
+          "phrase_fit": true,
+          "end": 32.345,
+          "score": 1.1005500000000001
+        },
+        {
+          "time": 31.5385,
+          "strength": 0.2666,
+          "phrase_fit": true,
+          "end": 32.8272,
+          "score": 1.0933
+        },
+        {
+          "time": 31.1728,
+          "strength": 0.2375,
+          "phrase_fit": true,
+          "end": 32.8272,
+          "score": 1.07875
+        },
+        {
+          "time": 31.225,
+          "strength": 0.2316,
+          "phrase_fit": true,
+          "end": 32.8272,
+          "score": 1.0758
+        },
+        {
+          "time": 31.0451,
+          "strength": 0.2537,
+          "phrase_fit": true,
+          "end": 32.345,
+          "score": 1.07535
+        },
+        {
+          "time": 30.9116,
+          "strength": 0.2478,
+          "phrase_fit": true,
+          "end": 32.345,
+          "score": 1.0724
+        },
+        {
+          "time": 30.7722,
+          "strength": 0.2407,
+          "phrase_fit": true,
+          "end": 32.345,
+          "score": 1.0688499999999999
+        },
+        {
+          "time": 30.6503,
+          "strength": 0.2396,
+          "phrase_fit": true,
+          "end": 32.345,
+          "score": 1.0683
+        },
+        {
+          "time": 31.2947,
+          "strength": 0.1757,
+          "phrase_fit": true,
+          "end": 32.8272,
+          "score": 1.04785
+        },
+        {
+          "time": 31.3411,
+          "strength": 0.1744,
+          "phrase_fit": true,
+          "end": 32.8272,
+          "score": 1.0472
+        }
+      ]
+    },
+    {
+      "label": "reyna-2",
+      "ranked_candidates": [
+        {
+          "time": 34.1507,
+          "strength": 0.3177,
+          "phrase_fit": true,
+          "end": 36.2347,
+          "score": 1.11885
+        },
+        {
+          "time": 34.9344,
+          "strength": 0.3305,
+          "phrase_fit": true,
+          "end": 37.9646,
+          "score": 1.11375
+        },
+        {
+          "time": 33.7386,
+          "strength": 0.2898,
+          "phrase_fit": true,
+          "end": 36.2347,
+          "score": 1.1049
+        },
+        {
+          "time": 33.9882,
+          "strength": 0.2787,
+          "phrase_fit": true,
+          "end": 36.2347,
+          "score": 1.09935
+        },
+        {
+          "time": 34.6268,
+          "strength": 0.2933,
+          "phrase_fit": true,
+          "end": 37.9646,
+          "score": 1.09415
+        },
+        {
+          "time": 33.6573,
+          "strength": 0.2816,
+          "phrase_fit": true,
+          "end": 36.2347,
+          "score": 1.0883
+        },
+        {
+          "time": 34.5629,
+          "strength": 0.2626,
+          "phrase_fit": true,
+          "end": 37.9646,
+          "score": 1.0788
+        },
+        {
+          "time": 34.7719,
+          "strength": 0.2464,
+          "phrase_fit": true,
+          "end": 37.9646,
+          "score": 1.0716999999999999
+        },
+        {
+          "time": 33.6167,
+          "strength": 0.2477,
+          "phrase_fit": true,
+          "end": 36.2347,
+          "score": 1.07135
+        },
+        {
+          "time": 33.9244,
+          "strength": 0.2152,
+          "phrase_fit": true,
+          "end": 36.2347,
+          "score": 1.0676
+        },
+        {
+          "time": 34.3888,
+          "strength": 0.2893,
+          "phrase_fit": false,
+          "end": 36.6759,
+          "score": 1.09215
+        }
+      ]
+    },
+    {
+      "label": "reyna-4",
+      "ranked_candidates": [
+        {
+          "time": 37.5234,
+          "strength": 0.4237,
+          "phrase_fit": true,
+          "end": 39.7816,
+          "score": 1.16885
+        },
+        {
+          "time": 37.953,
+          "strength": 0.3368,
+          "phrase_fit": true,
+          "end": 39.7816,
+          "score": 1.1159
+        },
+        {
+          "time": 38.1736,
+          "strength": 0.2927,
+          "phrase_fit": true,
+          "end": 39.7816,
+          "score": 1.09385
+        },
+        {
+          "time": 38.4871,
+          "strength": 0.2607,
+          "phrase_fit": true,
+          "end": 41.407,
+          "score": 1.08135
+        },
+        {
+          "time": 37.4132,
+          "strength": 0.2438,
+          "phrase_fit": true,
+          "end": 39.7816,
+          "score": 1.0789
+        },
+        {
+          "time": 38.609,
+          "strength": 0.2551,
+          "phrase_fit": true,
+          "end": 41.407,
+          "score": 1.0785500000000001
+        },
+        {
+          "time": 38.8005,
+          "strength": 0.2373,
+          "phrase_fit": true,
+          "end": 41.407,
+          "score": 1.06965
+        },
+        {
+          "time": 37.6454,
+          "strength": 0.2194,
+          "phrase_fit": true,
+          "end": 39.7816,
+          "score": 1.0667
+        },
+        {
+          "time": 37.8427,
+          "strength": 0.2034,
+          "phrase_fit": true,
+          "end": 39.7816,
+          "score": 1.0492
+        },
+        {
+          "time": 38.3884,
+          "strength": 0.2636,
+          "phrase_fit": false,
+          "end": 40.1183,
+          "score": 1.0828
+        }
+      ]
+    }
+  ],
+  "independent_lowmid_percussive_rhythm": [
+    {
+      "interval": [
+        16,
+        24.5
+      ],
+      "best_autocorrelation_period": 0.62,
+      "tempo": 96.7741935483871,
+      "autocorrelation": 0.07095767557621002,
+      "phase": 16.31800000000039,
+      "peak_list": [
+        {
+          "time": 16.91,
+          "strength": 0.47251373529434204
+        },
+        {
+          "time": 17.96,
+          "strength": 0.696345865726471
+        },
+        {
+          "time": 18.18,
+          "strength": 0.6188036203384399
+        },
+        {
+          "time": 18.64,
+          "strength": 0.48373153805732727
+        },
+        {
+          "time": 19.259999999999998,
+          "strength": 0.42010951042175293
+        },
+        {
+          "time": 19.43,
+          "strength": 0.6697643995285034
+        },
+        {
+          "time": 20.29,
+          "strength": 0.5937825441360474
+        },
+        {
+          "time": 21.32,
+          "strength": 0.572486937046051
+        },
+        {
+          "time": 21.43,
+          "strength": 0.5521580576896667
+        },
+        {
+          "time": 22.509999999999998,
+          "strength": 0.40251779556274414
+        },
+        {
+          "time": 22.64,
+          "strength": 0.3953651785850525
+        },
+        {
+          "time": 22.85,
+          "strength": 0.4262517988681793
+        },
+        {
+          "time": 23.5,
+          "strength": 0.44754189252853394
+        },
+        {
+          "time": 23.715,
+          "strength": 0.40948694944381714
+        }
+      ],
+      "targets": [
+        {
+          "label": "1v9-1",
+          "target": 18.2102,
+          "nearest_fixed_percussive_grid": 18.17800000000039,
+          "distance_ms": 32.199999999608764
+        },
+        {
+          "label": "1v9-2",
+          "target": 23.4347,
+          "nearest_fixed_percussive_grid": 23.1380000000004,
+          "distance_ms": 296.69999999959987
+        }
+      ]
+    },
+    {
+      "interval": [
+        25,
+        39.8
+      ],
+      "best_autocorrelation_period": 0.645,
+      "tempo": 93.02325581395348,
+      "autocorrelation": 0.15972796082496643,
+      "phase": 25.5720000000007,
+      "peak_list": [
+        {
+          "time": 25.035,
+          "strength": 0.8957539200782776
+        },
+        {
+          "time": 25.27,
+          "strength": 7.452361583709717
+        },
+        {
+          "time": 25.380000000000003,
+          "strength": 1.3152601718902588
+        },
+        {
+          "time": 25.6,
+          "strength": 0.9549973607063293
+        },
+        {
+          "time": 25.795,
+          "strength": 7.374669551849365
+        },
+        {
+          "time": 25.92,
+          "strength": 2.7986185550689697
+        },
+        {
+          "time": 26.12,
+          "strength": 2.621058940887451
+        },
+        {
+          "time": 26.27,
+          "strength": 2.2182419300079346
+        },
+        {
+          "time": 26.380000000000003,
+          "strength": 2.5852181911468506
+        },
+        {
+          "time": 26.59,
+          "strength": 2.2990834712982178
+        },
+        {
+          "time": 26.725,
+          "strength": 2.038243293762207
+        },
+        {
+          "time": 26.86,
+          "strength": 4.161026954650879
+        },
+        {
+          "time": 27.009999999999998,
+          "strength": 2.2214982509613037
+        },
+        {
+          "time": 27.195,
+          "strength": 3.3553411960601807
+        },
+        {
+          "time": 27.345,
+          "strength": 3.6781506538391113
+        },
+        {
+          "time": 27.55,
+          "strength": 3.949364423751831
+        },
+        {
+          "time": 27.775,
+          "strength": 2.282543659210205
+        },
+        {
+          "time": 28.02,
+          "strength": 1.4626586437225342
+        },
+        {
+          "time": 28.15,
+          "strength": 6.196591377258301
+        },
+        {
+          "time": 28.34,
+          "strength": 1.354591727256775
+        },
+        {
+          "time": 28.475,
+          "strength": 6.570181846618652
+        },
+        {
+          "time": 28.6,
+          "strength": 1.3878092765808105
+        },
+        {
+          "time": 28.795,
+          "strength": 6.134388446807861
+        },
+        {
+          "time": 29.015,
+          "strength": 1.1199218034744263
+        },
+        {
+          "time": 29.125,
+          "strength": 1.680167317390442
+        },
+        {
+          "time": 29.259999999999998,
+          "strength": 1.2075814008712769
+        },
+        {
+          "time": 29.439999999999998,
+          "strength": 4.772850513458252
+        },
+        {
+          "time": 29.61,
+          "strength": 1.7732046842575073
+        },
+        {
+          "time": 29.755000000000003,
+          "strength": 2.487220048904419
+        },
+        {
+          "time": 29.935000000000002,
+          "strength": 2.0246782302856445
+        },
+        {
+          "time": 30.095,
+          "strength": 1.404649019241333
+        },
+        {
+          "time": 30.29,
+          "strength": 1.8950331211090088
+        },
+        {
+          "time": 30.44,
+          "strength": 2.166987419128418
+        },
+        {
+          "time": 30.615000000000002,
+          "strength": 3.4504101276397705
+        },
+        {
+          "time": 30.735,
+          "strength": 1.8151953220367432
+        },
+        {
+          "time": 30.895,
+          "strength": 2.043596029281616
+        },
+        {
+          "time": 31.055,
+          "strength": 5.787161350250244
+        },
+        {
+          "time": 31.25,
+          "strength": 1.8241655826568604
+        },
+        {
+          "time": 31.39,
+          "strength": 1.0058374404907227
+        },
+        {
+          "time": 31.505,
+          "strength": 1.3242310285568237
+        },
+        {
+          "time": 31.735,
+          "strength": 1.578712821006775
+        },
+        {
+          "time": 31.875,
+          "strength": 1.2407426834106445
+        },
+        {
+          "time": 32.019999999999996,
+          "strength": 6.783888816833496
+        },
+        {
+          "time": 32.150000000000006,
+          "strength": 1.3902093172073364
+        },
+        {
+          "time": 32.35,
+          "strength": 5.892218112945557
+        },
+        {
+          "time": 32.480000000000004,
+          "strength": 1.8770184516906738
+        },
+        {
+          "time": 32.61,
+          "strength": 1.597610354423523
+        },
+        {
+          "time": 32.84,
+          "strength": 3.436659574508667
+        },
+        {
+          "time": 33.010000000000005,
+          "strength": 6.419707298278809
+        },
+        {
+          "time": 33.19,
+          "strength": 1.0359450578689575
+        },
+        {
+          "time": 33.315,
+          "strength": 4.886225700378418
+        },
+        {
+          "time": 33.465,
+          "strength": 2.7745537757873535
+        },
+        {
+          "time": 33.629999999999995,
+          "strength": 4.486811637878418
+        },
+        {
+          "time": 33.835,
+          "strength": 1.1593756675720215
+        },
+        {
+          "time": 33.955,
+          "strength": 4.244845390319824
+        },
+        {
+          "time": 34.195,
+          "strength": 1.2406185865402222
+        },
+        {
+          "time": 34.33,
+          "strength": 1.9647656679153442
+        },
+        {
+          "time": 34.6,
+          "strength": 8.097848892211914
+        },
+        {
+          "time": 34.82,
+          "strength": 1.5423331260681152
+        },
+        {
+          "time": 34.975,
+          "strength": 1.872487187385559
+        },
+        {
+          "time": 35.125,
+          "strength": 1.854325294494629
+        },
+        {
+          "time": 35.305,
+          "strength": 1.4835615158081055
+        },
+        {
+          "time": 35.415,
+          "strength": 2.106184959411621
+        },
+        {
+          "time": 35.57,
+          "strength": 3.381491184234619
+        },
+        {
+          "time": 35.760000000000005,
+          "strength": 1.7073339223861694
+        },
+        {
+          "time": 35.97,
+          "strength": 1.4591633081436157
+        },
+        {
+          "time": 36.095,
+          "strength": 1.6692159175872803
+        },
+        {
+          "time": 36.205,
+          "strength": 5.047420978546143
+        },
+        {
+          "time": 36.32,
+          "strength": 2.0551252365112305
+        },
+        {
+          "time": 36.445,
+          "strength": 4.347476959228516
+        },
+        {
+          "time": 36.58,
+          "strength": 3.1373798847198486
+        },
+        {
+          "time": 36.84,
+          "strength": 2.8125767707824707
+        },
+        {
+          "time": 37.015,
+          "strength": 1.5325148105621338
+        },
+        {
+          "time": 37.18,
+          "strength": 7.686892509460449
+        },
+        {
+          "time": 37.355000000000004,
+          "strength": 1.6144020557403564
+        },
+        {
+          "time": 37.515,
+          "strength": 5.217532634735107
+        },
+        {
+          "time": 37.68,
+          "strength": 2.3469808101654053
+        },
+        {
+          "time": 37.79,
+          "strength": 1.2344082593917847
+        },
+        {
+          "time": 37.93,
+          "strength": 2.524747610092163
+        },
+        {
+          "time": 38.1,
+          "strength": 2.641584634780884
+        },
+        {
+          "time": 38.28,
+          "strength": 1.2213536500930786
+        },
+        {
+          "time": 38.47,
+          "strength": 5.242800235748291
+        },
+        {
+          "time": 38.605000000000004,
+          "strength": 1.7128182649612427
+        },
+        {
+          "time": 38.795,
+          "strength": 5.672172546386719
+        },
+        {
+          "time": 38.995000000000005,
+          "strength": 1.2673953771591187
+        },
+        {
+          "time": 39.120000000000005,
+          "strength": 5.783121585845947
+        },
+        {
+          "time": 39.24,
+          "strength": 1.425405502319336
+        },
+        {
+          "time": 39.44,
+          "strength": 2.261314868927002
+        },
+        {
+          "time": 39.625,
+          "strength": 1.727248191833496
+        },
+        {
+          "time": 39.760000000000005,
+          "strength": 5.56035852432251
+        }
+      ],
+      "targets": [
+        {
+          "label": "1v9-3",
+          "target": 27.2022,
+          "nearest_fixed_percussive_grid": 27.507000000000698,
+          "distance_ms": -304.8000000006965
+        },
+        {
+          "label": "reyna-1",
+          "target": 31.0799,
+          "nearest_fixed_percussive_grid": 31.377000000000695,
+          "distance_ms": -297.1000000006967
+        },
+        {
+          "label": "reyna-2",
+          "target": 34.1507,
+          "nearest_fixed_percussive_grid": 33.95700000000069,
+          "distance_ms": 193.69999999931053
+        },
+        {
+          "label": "reyna-4",
+          "target": 37.5234,
+          "nearest_fixed_percussive_grid": 37.827000000000695,
+          "distance_ms": -303.6000000006922
+        }
+      ]
+    }
+  ]
+}

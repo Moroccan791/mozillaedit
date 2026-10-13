@@ -1,0 +1,10 @@
+[
+  "ffprobe",
+  "-v",
+  "error",
+  "-show_streams",
+  "-show_format",
+  "-of",
+  "json",
+  "E:\\aside\\continuation-20261012-account5\\lyric-design-integration\\text-v0001\\encounters-text.mp4"
+]

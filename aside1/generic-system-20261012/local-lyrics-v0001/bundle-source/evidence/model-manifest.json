@@ -1,0 +1,58 @@
+{
+  "schema": "local-model-setup/v1",
+  "status": "downloaded_verified_not_lyric_accuracy",
+  "repository": "Systran/faster-whisper-small.en",
+  "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f",
+  "license": "MIT (model card)",
+  "path": "E:\\ai-video-editor\\models\\faster-whisper-small.en-d1d751a5",
+  "download_seconds": 114.5754561,
+  "files": [
+    {
+      "file": "README.md",
+      "size_bytes": 1330,
+      "sha256": "c87ff776137c2ecb30ee3b324b4cf5f38abf9423464613641ee45430bf580851",
+      "published_sha256": null,
+      "url": "https://huggingface.co/Systran/faster-whisper-small.en/resolve/d1d751a5f8271d482d14ca55d9e2deeebbae577f/README.md"
+    },
+    {
+      "file": "config.json",
+      "size_bytes": 2657,
+      "sha256": "666a9605530ac1f61fa8177f3702b4dacec9966749e42610839fcc32661d5fae",
+      "published_sha256": null,
+      "url": "https://huggingface.co/Systran/faster-whisper-small.en/resolve/d1d751a5f8271d482d14ca55d9e2deeebbae577f/config.json"
+    },
+    {
+      "file": "model.bin",
+      "size_bytes": 483545366,
+      "sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+      "published_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+      "url": "https://huggingface.co/Systran/faster-whisper-small.en/resolve/d1d751a5f8271d482d14ca55d9e2deeebbae577f/model.bin"
+    },
+    {
+      "file": "tokenizer.json",
+      "size_bytes": 2128466,
+      "sha256": "929c5252409436dce1b38a75d1abbcb5e132d170d8e324e4e04ed915fa2d22df",
+      "published_sha256": null,
+      "url": "https://huggingface.co/Systran/faster-whisper-small.en/resolve/d1d751a5f8271d482d14ca55d9e2deeebbae577f/tokenizer.json"
+    },
+    {
+      "file": "vocabulary.txt",
+      "size_bytes": 422309,
+      "sha256": "ff77588746d3a2595d32ab5b69ffd7b95ce2441ac57533cb66fc3eb575a115cf",
+      "published_sha256": null,
+      "url": "https://huggingface.co/Systran/faster-whisper-small.en/resolve/d1d751a5f8271d482d14ca55d9e2deeebbae577f/vocabulary.txt"
+    }
+  ],
+  "inference": {
+    "num_workers": 1,
+    "compute_type": "int8",
+    "device": "cpu",
+    "cpu_threads": 2,
+    "local_files_only": true
+  },
+  "limitations": [
+    "Singing accuracy unverified",
+    "Downloaded weights checked against published LFS SHA256",
+    "All inference local; no audio upload"
+  ]
+}

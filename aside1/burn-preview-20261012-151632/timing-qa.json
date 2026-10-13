@@ -1,0 +1,156 @@
+{
+  "events": [
+    {
+      "event": 1,
+      "output_event": 0.9055,
+      "game_corr": 1.0,
+      "game_offset_ms": 0,
+      "mix_corr": 0.999,
+      "mix_offset_ms": 0,
+      "gains": [
+        1.113473653793335,
+        0.314750999212265
+      ],
+      "frame_corr": 0.914,
+      "frame_offset": 0,
+      "ok": true
+    },
+    {
+      "event": 2,
+      "output_event": 4.1331,
+      "game_corr": 0.983,
+      "game_offset_ms": 0,
+      "mix_corr": 0.982,
+      "mix_offset_ms": 0,
+      "gains": [
+        1.1043916940689087,
+        0.3667684495449066
+      ],
+      "frame_corr": 0.928,
+      "frame_offset": 1,
+      "ok": true
+    },
+    {
+      "event": 3,
+      "output_event": 8.5855,
+      "game_corr": 0.999,
+      "game_offset_ms": 0,
+      "mix_corr": 0.993,
+      "mix_offset_ms": 0,
+      "gains": [
+        1.0094386339187622,
+        0.3555968105792999
+      ],
+      "frame_corr": 0.956,
+      "frame_offset": 0,
+      "ok": true
+    },
+    {
+      "event": 4,
+      "output_event": 10.9482,
+      "game_corr": 0.993,
+      "game_offset_ms": 0,
+      "mix_corr": 0.984,
+      "mix_offset_ms": 0,
+      "gains": [
+        0.7993569374084473,
+        0.2512260973453522
+      ],
+      "frame_corr": 0.999,
+      "frame_offset": 0,
+      "ok": true
+    },
+    {
+      "event": 5,
+      "output_event": 14.019,
+      "game_corr": 0.999,
+      "game_offset_ms": 0,
+      "mix_corr": 0.989,
+      "mix_offset_ms": 0,
+      "gains": [
+        0.7559358477592468,
+        0.24240097403526306
+      ],
+      "frame_corr": 0.968,
+      "frame_offset": 0,
+      "ok": true
+    },
+    {
+      "event": 6,
+      "output_event": 18.6804,
+      "game_corr": 0.992,
+      "game_offset_ms": 0,
+      "mix_corr": 0.991,
+      "mix_offset_ms": 0,
+      "gains": [
+        0.705956757068634,
+        0.1632901281118393
+      ],
+      "frame_corr": 0.998,
+      "frame_offset": 0,
+      "ok": true
+    },
+    {
+      "event": 7,
+      "output_event": 21.2694,
+      "game_corr": 0.993,
+      "game_offset_ms": 0,
+      "mix_corr": 0.992,
+      "mix_offset_ms": 0,
+      "gains": [
+        0.6766440868377686,
+        0.34235912561416626
+      ],
+      "frame_corr": 0.998,
+      "frame_offset": 0,
+      "ok": true
+    },
+    {
+      "event": 8,
+      "output_event": 26.4243,
+      "game_corr": 1.0,
+      "game_offset_ms": 0,
+      "mix_corr": 0.993,
+      "mix_offset_ms": 0,
+      "gains": [
+        0.6848049759864807,
+        0.26593098044395447
+      ],
+      "frame_corr": 0.999,
+      "frame_offset": 0,
+      "ok": true
+    },
+    {
+      "event": 9,
+      "output_event": 29.0191,
+      "game_corr": 0.972,
+      "game_offset_ms": 0,
+      "mix_corr": 0.984,
+      "mix_offset_ms": 0,
+      "gains": [
+        0.6547704935073853,
+        0.3065500855445862
+      ],
+      "frame_corr": 0.948,
+      "frame_offset": 0,
+      "ok": true
+    },
+    {
+      "event": 10,
+      "output_event": 32.8968,
+      "game_corr": 0.999,
+      "game_offset_ms": 0,
+      "mix_corr": 0.99,
+      "mix_offset_ms": 0,
+      "gains": [
+        0.6540359854698181,
+        0.26703494787216187
+      ],
+      "frame_corr": 0.998,
+      "frame_offset": 0,
+      "ok": true
+    }
+  ],
+  "all_pass": true,
+  "caveats": "Numerical waveform/frame reference checks; not perceptual audio judgment or automated kill certification"
+}

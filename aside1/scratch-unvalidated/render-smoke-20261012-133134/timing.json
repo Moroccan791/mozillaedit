@@ -1,0 +1,22 @@
+{
+  "status": "synthetic renderer smoke test; not gameplay evidence",
+  "duration": 10,
+  "fps": 60,
+  "events": [
+    {
+      "output_event": 1,
+      "music_event": 1,
+      "source_event": 2
+    },
+    {
+      "output_event": 4,
+      "music_event": 4,
+      "source_event": 5
+    },
+    {
+      "output_event": 7,
+      "music_event": 7,
+      "source_event": 8
+    }
+  ]
+}

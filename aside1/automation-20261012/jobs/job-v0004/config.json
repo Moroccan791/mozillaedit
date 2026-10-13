@@ -1,0 +1,19 @@
+{
+  "song": "E:\\audio\\YTDown.com_YouTube_Media_MpoZ0NVXswY_Let-the-world-burn-Audio-Edit_009_128k.mp3",
+  "clip_folder": "E:\\aside\\automation-20261012\\proof-input",
+  "output_root": "E:\\aside\\automation-20261012\\jobs",
+  "music_start": 25.0,
+  "duration": 12.0,
+  "encoder": "h264_qsv",
+  "width": 640,
+  "height": 360,
+  "fps": 60,
+  "game_gain_db": -8.0,
+  "music_gain_db": -7.0,
+  "max_clips": 4,
+  "max_source_seconds": 600.0,
+  "plan_only": false,
+  "lyric_track": null,
+  "visual_screen": true,
+  "exclusions_file": "E:\\aside\\automation-20261012\\observed-exclusions.json"
+}

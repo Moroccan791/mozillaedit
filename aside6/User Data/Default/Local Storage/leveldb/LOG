@@ -1,0 +1,11 @@
+2026/10/12-19:16:05.094 880 Creating DB C:\Users\Junayed\AppData\Local\Aside\User Data\Default\Local Storage\leveldb since it was missing.
+2026/10/12-19:16:08.069 880 Reusing MANIFEST C:\Users\Junayed\AppData\Local\Aside\User Data\Default\Local Storage\leveldb/MANIFEST-000001
+2026/10/12-19:28:13.659 227c Level-0 table #5: started
+2026/10/12-19:28:13.712 227c Level-0 table #5: 33221 bytes OK
+2026/10/12-19:28:13.723 227c Delete type=0 #3
+2026/10/12-19:35:13.654 227c Level-0 table #7: started
+2026/10/12-19:35:13.669 227c Level-0 table #7: 32126 bytes OK
+2026/10/12-19:35:13.673 227c Delete type=0 #4
+2026/10/12-19:42:13.663 227c Level-0 table #9: started
+2026/10/12-19:42:13.670 227c Level-0 table #9: 31724 bytes OK
+2026/10/12-19:42:13.672 227c Delete type=0 #6

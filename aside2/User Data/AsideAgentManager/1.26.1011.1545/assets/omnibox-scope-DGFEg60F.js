@@ -1,0 +1,3 @@
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{};e._posthogReleaseId=e._posthogReleaseId||"01a129b7-2369-0000-b6af-fe63822fbcec";var n=(new e.Error).stack;n&&(e._posthogChunkIds=e._posthogChunkIds||{},e._posthogChunkIds[n]="de6110be-4216-541b-a267-469fd350fdd1")}catch(e){}}();import{t}from"./bookmark-CUu7j-ct.js";import{t as a}from"./dossier-4odVfvT5.js";import{t as m}from"./history-DY48-T8b.js";import{t as s}from"./sparkle-BpEeK1DA.js";var r={bookmark:t,gemini:s,history:m,tabs:a},p=o=>Object.hasOwn(r,o)?r[o]:null;export{p as t};
+
+//# chunkId=de6110be-4216-541b-a267-469fd350fdd1

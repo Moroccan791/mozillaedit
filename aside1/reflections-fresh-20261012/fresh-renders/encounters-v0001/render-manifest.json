@@ -1,0 +1,947 @@
+{
+  "schema_version": "encounter-render/v1",
+  "job_dir": "E:\\aside\\reflections-fresh-20261012\\fresh-renders\\encounters-v0001",
+  "manifest_path": "E:\\aside\\reflections-fresh-20261012\\fresh-renders\\encounters-v0001\\render-manifest.json",
+  "output": "E:\\aside\\reflections-fresh-20261012\\fresh-renders\\encounters-v0001\\encounters.mp4",
+  "game_stem": "E:\\aside\\reflections-fresh-20261012\\fresh-renders\\encounters-v0001\\game-stem.wav",
+  "music_stem": "E:\\aside\\reflections-fresh-20261012\\fresh-renders\\encounters-v0001\\music-stem.wav",
+  "style": "authored-footage",
+  "authored_design": {
+    "schema_version": "authored-footage/v2",
+    "shots": [
+      {
+        "role": "setup",
+        "composition": "full"
+      },
+      {
+        "role": "impact",
+        "composition": "full"
+      },
+      {
+        "role": "impact",
+        "composition": "full"
+      },
+      {
+        "role": "impact",
+        "composition": "full"
+      },
+      {
+        "role": "impact",
+        "composition": "full"
+      },
+      {
+        "role": "impact",
+        "composition": "full"
+      },
+      {
+        "role": "contrast",
+        "composition": "inset"
+      },
+      {
+        "role": "impact",
+        "composition": "full"
+      },
+      {
+        "role": "impact",
+        "composition": "full"
+      },
+      {
+        "role": "payoff",
+        "composition": "full"
+      }
+    ],
+    "bridges": [
+      {
+        "boundary": 5,
+        "direction": "left",
+        "frames": 3
+      }
+    ],
+    "ending": {
+      "fade_frames": 2
+    },
+    "impacts": [
+      {
+        "clip_index": 0,
+        "output_time": 3.3220000000000027,
+        "frames": 6,
+        "strength": 0.2833789964871907
+      },
+      {
+        "clip_index": 1,
+        "output_time": 6.216000000000008,
+        "frames": 6,
+        "strength": 0.25025355162256613
+      },
+      {
+        "clip_index": 2,
+        "output_time": 9.513000000000034,
+        "frames": 6,
+        "strength": 0.26680989768254754
+      },
+      {
+        "clip_index": 3,
+        "output_time": 11.914000000000001,
+        "frames": 6,
+        "strength": 0.21824040373203538
+      },
+      {
+        "clip_index": 4,
+        "output_time": 15.408000000000015,
+        "frames": 6,
+        "strength": 0.23205688034714692
+      },
+      {
+        "clip_index": 5,
+        "output_time": 19.01800000000003,
+        "frames": 6,
+        "strength": 0.16696587166439988
+      },
+      {
+        "clip_index": 6,
+        "output_time": 22.52095833333334,
+        "frames": 6,
+        "strength": 0.15901027534353934
+      },
+      {
+        "clip_index": 7,
+        "output_time": 26.033999999999992,
+        "frames": 6,
+        "strength": 0.14272371775007447
+      },
+      {
+        "clip_index": 8,
+        "output_time": 31.021958333333316,
+        "frames": 6,
+        "strength": 0.12501070976893772
+      },
+      {
+        "clip_index": 9,
+        "output_time": 32.89299999999997,
+        "frames": 6,
+        "strength": 0.13144256531995457
+      }
+    ]
+  },
+  "authored_limitations": [
+    "Paired directional edge reframing/smear across unchanged hard cuts, not an overlapping wipe or crossfade.",
+    "Inset duplicates the same decoded footage, not an unseen camera angle or isolated subject.",
+    "1x video and unchanged PCM/music clocks; no attack or aesthetic certification.",
+    "Only supplied anchors are protected; unknown burst attacks and unresolved fight bounds require independent review."
+  ],
+  "motion_audio_granularity_seconds": null,
+  "motion_limitations": [],
+  "multishot_limitations": [],
+  "video_concat": "E:\\aside\\reflections-fresh-20261012\\fresh-renders\\encounters-v0001\\video.ffconcat",
+  "game_concat": "E:\\aside\\reflections-fresh-20261012\\fresh-renders\\encounters-v0001\\game.ffconcat",
+  "config": {
+    "width": 1280,
+    "height": 720,
+    "fps": 60,
+    "sample_rate": 48000,
+    "encoder": "h264_qsv",
+    "fallback_encoder": null,
+    "quality": 21,
+    "preset": "veryfast",
+    "music_gain_db": -7.0,
+    "game_gain_db": -8.0,
+    "max_duration": 120.0,
+    "max_clip_duration": 30.0,
+    "max_clips": 64,
+    "max_source_duration": 86400.0,
+    "timeout": 600.0,
+    "ffmpeg": "ffmpeg",
+    "ffprobe": "ffprobe",
+    "style": "authored-footage"
+  },
+  "plan_duration": 34.82195833333333,
+  "video_duration": 34.81666666666667,
+  "audio_duration": 34.821958333333335,
+  "frame_count": 2089,
+  "sample_count": 1671454,
+  "music_start_sample": 384000,
+  "music_source": "E:\\audio\\Reflections (slowed) - The Neighbourhood [Edit Audio].mp3",
+  "music_time_origin": "decoded sample zero after FFmpeg codec skip/encoder-delay handling",
+  "chunks": [
+    {
+      "source_start": 382.358,
+      "source_end": 386.48,
+      "output_start": 0.0,
+      "output_end": 4.121999999999999,
+      "music_start": 8.0,
+      "music_end": 12.122,
+      "speed": 1.0,
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_j59f0UqxcIs_90-aim-10-brain-immortal-2_002_720p.mp4",
+      "index": 0,
+      "frame_start": 0,
+      "frame_end": 247,
+      "frame_count": 247,
+      "sample_start": 0,
+      "sample_end": 197856,
+      "sample_count": 197856,
+      "source_sample_start": 18353184,
+      "source_sample_end": 18551040,
+      "video_phase_seconds": 0.0,
+      "events": [],
+      "authored_shot": {
+        "role": "setup",
+        "composition": "full"
+      },
+      "authored_edges": [],
+      "authored_impacts": [
+        {
+          "clip_index": 0,
+          "output_time": 3.3220000000000027,
+          "frames": 6,
+          "strength": 0.2833789964871907,
+          "start_frame": 197,
+          "end_frame": 202,
+          "center_frame": 199
+        }
+      ],
+      "video": "E:\\aside\\reflections-fresh-20261012\\fresh-renders\\encounters-v0001\\clip-000-h264_qsv.mp4",
+      "game_audio": "E:\\aside\\reflections-fresh-20261012\\fresh-renders\\encounters-v0001\\game-000.wav",
+      "encoder": "h264_qsv",
+      "source_audio_end_rounding_seconds": 0.0
+    },
+    {
+      "source_start": 420.991,
+      "source_end": 424.241,
+      "output_start": 4.121999999999999,
+      "output_end": 7.371999999999999,
+      "music_start": 12.122,
+      "music_end": 15.372,
+      "speed": 1.0,
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_j59f0UqxcIs_90-aim-10-brain-immortal-2_002_720p.mp4",
+      "index": 1,
+      "frame_start": 247,
+      "frame_end": 442,
+      "frame_count": 195,
+      "sample_start": 197856,
+      "sample_end": 353856,
+      "sample_count": 156000,
+      "source_sample_start": 20207568,
+      "source_sample_end": 20363568,
+      "video_phase_seconds": 0.005333333333332746,
+      "events": [],
+      "authored_shot": {
+        "role": "impact",
+        "composition": "full"
+      },
+      "authored_edges": [],
+      "authored_impacts": [
+        {
+          "clip_index": 1,
+          "output_time": 6.216000000000008,
+          "frames": 6,
+          "strength": 0.25025355162256613,
+          "start_frame": 124,
+          "end_frame": 129,
+          "center_frame": 126
+        }
+      ],
+      "video": "E:\\aside\\reflections-fresh-20261012\\fresh-renders\\encounters-v0001\\clip-001-h264_qsv.mp4",
+      "game_audio": "E:\\aside\\reflections-fresh-20261012\\fresh-renders\\encounters-v0001\\game-001.wav",
+      "encoder": "h264_qsv",
+      "source_audio_end_rounding_seconds": 0.0
+    },
+    {
+      "source_start": 428.57399999999996,
+      "source_end": 431.82399999999996,
+      "output_start": 7.371999999999999,
+      "output_end": 10.622,
+      "music_start": 15.372,
+      "music_end": 18.622,
+      "speed": 1.0,
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_j59f0UqxcIs_90-aim-10-brain-immortal-2_002_720p.mp4",
+      "index": 2,
+      "frame_start": 442,
+      "frame_end": 637,
+      "frame_count": 195,
+      "sample_start": 353856,
+      "sample_end": 509856,
+      "sample_count": 156000,
+      "source_sample_start": 20571552,
+      "source_sample_end": 20727552,
+      "video_phase_seconds": 0.005333333333332746,
+      "events": [],
+      "authored_shot": {
+        "role": "impact",
+        "composition": "full"
+      },
+      "authored_edges": [],
+      "authored_impacts": [
+        {
+          "clip_index": 2,
+          "output_time": 9.513000000000034,
+          "frames": 6,
+          "strength": 0.26680989768254754,
+          "start_frame": 127,
+          "end_frame": 132,
+          "center_frame": 129
+        }
+      ],
+      "video": "E:\\aside\\reflections-fresh-20261012\\fresh-renders\\encounters-v0001\\clip-002-h264_qsv.mp4",
+      "game_audio": "E:\\aside\\reflections-fresh-20261012\\fresh-renders\\encounters-v0001\\game-002.wav",
+      "encoder": "h264_qsv",
+      "source_audio_end_rounding_seconds": 5.684341886080802e-14
+    },
+    {
+      "source_start": 47.937999999999995,
+      "source_end": 51.437999999999995,
+      "output_start": 10.622,
+      "output_end": 14.122,
+      "music_start": 18.622,
+      "music_end": 22.122,
+      "speed": 1.0,
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_j59f0UqxcIs_90-aim-10-brain-immortal-2_002_720p.mp4",
+      "index": 3,
+      "frame_start": 637,
+      "frame_end": 847,
+      "frame_count": 210,
+      "sample_start": 509856,
+      "sample_end": 677856,
+      "sample_count": 168000,
+      "source_sample_start": 2301024,
+      "source_sample_end": 2469024,
+      "video_phase_seconds": 0.005333333333332746,
+      "events": [],
+      "authored_shot": {
+        "role": "impact",
+        "composition": "full"
+      },
+      "authored_edges": [],
+      "authored_impacts": [
+        {
+          "clip_index": 3,
+          "output_time": 11.914000000000001,
+          "frames": 6,
+          "strength": 0.21824040373203538,
+          "start_frame": 76,
+          "end_frame": 81,
+          "center_frame": 78
+        }
+      ],
+      "video": "E:\\aside\\reflections-fresh-20261012\\fresh-renders\\encounters-v0001\\clip-003-h264_qsv.mp4",
+      "game_audio": "E:\\aside\\reflections-fresh-20261012\\fresh-renders\\encounters-v0001\\game-003.wav",
+      "encoder": "h264_qsv",
+      "source_audio_end_rounding_seconds": 7.105427357601002e-15
+    },
+    {
+      "source_start": 298.794,
+      "source_end": 302.294,
+      "output_start": 14.122,
+      "output_end": 17.622,
+      "music_start": 22.122,
+      "music_end": 25.622,
+      "speed": 1.0,
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_j59f0UqxcIs_90-aim-10-brain-immortal-2_002_720p.mp4",
+      "index": 4,
+      "frame_start": 847,
+      "frame_end": 1057,
+      "frame_count": 210,
+      "sample_start": 677856,
+      "sample_end": 845856,
+      "sample_count": 168000,
+      "source_sample_start": 14342112,
+      "source_sample_end": 14510112,
+      "video_phase_seconds": 0.005333333333332746,
+      "events": [],
+      "authored_shot": {
+        "role": "impact",
+        "composition": "full"
+      },
+      "authored_edges": [
+        {
+          "side": "out",
+          "frames": 3,
+          "direction": "left",
+          "boundary": 5
+        }
+      ],
+      "authored_impacts": [
+        {
+          "clip_index": 4,
+          "output_time": 15.408000000000015,
+          "frames": 6,
+          "strength": 0.23205688034714692,
+          "start_frame": 75,
+          "end_frame": 80,
+          "center_frame": 77
+        }
+      ],
+      "video": "E:\\aside\\reflections-fresh-20261012\\fresh-renders\\encounters-v0001\\clip-004-h264_qsv.mp4",
+      "game_audio": "E:\\aside\\reflections-fresh-20261012\\fresh-renders\\encounters-v0001\\game-004.wav",
+      "encoder": "h264_qsv",
+      "source_audio_end_rounding_seconds": 0.0
+    },
+    {
+      "source_start": 342.679,
+      "source_end": 346.179,
+      "output_start": 17.622,
+      "output_end": 21.122,
+      "music_start": 25.622,
+      "music_end": 29.122,
+      "speed": 1.0,
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_j59f0UqxcIs_90-aim-10-brain-immortal-2_002_720p.mp4",
+      "index": 5,
+      "frame_start": 1057,
+      "frame_end": 1267,
+      "frame_count": 210,
+      "sample_start": 845856,
+      "sample_end": 1013856,
+      "sample_count": 168000,
+      "source_sample_start": 16448592,
+      "source_sample_end": 16616592,
+      "video_phase_seconds": 0.005333333333332746,
+      "events": [],
+      "authored_shot": {
+        "role": "impact",
+        "composition": "full"
+      },
+      "authored_edges": [
+        {
+          "side": "in",
+          "frames": 3,
+          "direction": "left",
+          "boundary": 5
+        }
+      ],
+      "authored_impacts": [
+        {
+          "clip_index": 5,
+          "output_time": 19.01800000000003,
+          "frames": 6,
+          "strength": 0.16696587166439988,
+          "start_frame": 82,
+          "end_frame": 87,
+          "center_frame": 84
+        }
+      ],
+      "video": "E:\\aside\\reflections-fresh-20261012\\fresh-renders\\encounters-v0001\\clip-005-h264_qsv.mp4",
+      "game_audio": "E:\\aside\\reflections-fresh-20261012\\fresh-renders\\encounters-v0001\\game-005.wav",
+      "encoder": "h264_qsv",
+      "source_audio_end_rounding_seconds": 0.0
+    },
+    {
+      "source_start": 417.2660416666667,
+      "source_end": 420.5160416666667,
+      "output_start": 21.122,
+      "output_end": 24.372,
+      "music_start": 29.122,
+      "music_end": 32.372,
+      "speed": 1.0,
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_j59f0UqxcIs_90-aim-10-brain-immortal-2_002_720p.mp4",
+      "index": 6,
+      "frame_start": 1267,
+      "frame_end": 1462,
+      "frame_count": 195,
+      "sample_start": 1013856,
+      "sample_end": 1169856,
+      "sample_count": 156000,
+      "source_sample_start": 20028770,
+      "source_sample_end": 20184770,
+      "video_phase_seconds": 0.005333333333332746,
+      "events": [],
+      "authored_shot": {
+        "role": "contrast",
+        "composition": "inset"
+      },
+      "authored_edges": [],
+      "authored_impacts": [
+        {
+          "clip_index": 6,
+          "output_time": 22.52095833333334,
+          "frames": 6,
+          "strength": 0.15901027534353934,
+          "start_frame": 82,
+          "end_frame": 87,
+          "center_frame": 84
+        }
+      ],
+      "video": "E:\\aside\\reflections-fresh-20261012\\fresh-renders\\encounters-v0001\\clip-006-h264_qsv.mp4",
+      "game_audio": "E:\\aside\\reflections-fresh-20261012\\fresh-renders\\encounters-v0001\\game-006.wav",
+      "encoder": "h264_qsv",
+      "source_audio_end_rounding_seconds": 0.0
+    },
+    {
+      "source_start": 399.223,
+      "source_end": 402.723,
+      "output_start": 24.372,
+      "output_end": 27.872,
+      "music_start": 32.372,
+      "music_end": 35.872,
+      "speed": 1.0,
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_j59f0UqxcIs_90-aim-10-brain-immortal-2_002_720p.mp4",
+      "index": 7,
+      "frame_start": 1462,
+      "frame_end": 1672,
+      "frame_count": 210,
+      "sample_start": 1169856,
+      "sample_end": 1337856,
+      "sample_count": 168000,
+      "source_sample_start": 19162704,
+      "source_sample_end": 19330704,
+      "video_phase_seconds": 0.005333333333332746,
+      "events": [],
+      "authored_shot": {
+        "role": "impact",
+        "composition": "full"
+      },
+      "authored_edges": [],
+      "authored_impacts": [
+        {
+          "clip_index": 7,
+          "output_time": 26.033999999999992,
+          "frames": 6,
+          "strength": 0.14272371775007447,
+          "start_frame": 98,
+          "end_frame": 103,
+          "center_frame": 100
+        }
+      ],
+      "video": "E:\\aside\\reflections-fresh-20261012\\fresh-renders\\encounters-v0001\\clip-007-h264_qsv.mp4",
+      "game_audio": "E:\\aside\\reflections-fresh-20261012\\fresh-renders\\encounters-v0001\\game-007.wav",
+      "encoder": "h264_qsv",
+      "source_audio_end_rounding_seconds": 0.0
+    },
+    {
+      "source_start": 282.5700416666667,
+      "source_end": 286.52000000000004,
+      "output_start": 27.872,
+      "output_end": 31.82195833333333,
+      "music_start": 35.872,
+      "music_end": 39.82195833333333,
+      "speed": 1.0,
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_j59f0UqxcIs_90-aim-10-brain-immortal-2_002_720p.mp4",
+      "index": 8,
+      "frame_start": 1672,
+      "frame_end": 1909,
+      "frame_count": 237,
+      "sample_start": 1337856,
+      "sample_end": 1527454,
+      "sample_count": 189598,
+      "source_sample_start": 13563362,
+      "source_sample_end": 13752960,
+      "video_phase_seconds": 0.005333333333332746,
+      "events": [],
+      "authored_shot": {
+        "role": "impact",
+        "composition": "full"
+      },
+      "authored_edges": [],
+      "authored_impacts": [
+        {
+          "clip_index": 8,
+          "output_time": 31.021958333333316,
+          "frames": 6,
+          "strength": 0.12501070976893772,
+          "start_frame": 187,
+          "end_frame": 192,
+          "center_frame": 189
+        }
+      ],
+      "video": "E:\\aside\\reflections-fresh-20261012\\fresh-renders\\encounters-v0001\\clip-008-h264_qsv.mp4",
+      "game_audio": "E:\\aside\\reflections-fresh-20261012\\fresh-renders\\encounters-v0001\\game-008.wav",
+      "encoder": "h264_qsv",
+      "source_audio_end_rounding_seconds": -5.684341886080802e-14
+    },
+    {
+      "source_start": 287.00395833333334,
+      "source_end": 290.00395833333334,
+      "output_start": 31.82195833333333,
+      "output_end": 34.82195833333333,
+      "music_start": 39.82195833333333,
+      "music_end": 42.82195833333333,
+      "speed": 1.0,
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_j59f0UqxcIs_90-aim-10-brain-immortal-2_002_720p.mp4",
+      "index": 9,
+      "frame_start": 1909,
+      "frame_end": 2089,
+      "frame_count": 180,
+      "sample_start": 1527454,
+      "sample_end": 1671454,
+      "sample_count": 144000,
+      "source_sample_start": 13776190,
+      "source_sample_end": 13920190,
+      "video_phase_seconds": 0.005291666666664696,
+      "events": [],
+      "authored_shot": {
+        "role": "payoff",
+        "composition": "full"
+      },
+      "authored_edges": [],
+      "authored_fade_frames": 2,
+      "authored_impacts": [
+        {
+          "clip_index": 9,
+          "output_time": 32.89299999999997,
+          "frames": 6,
+          "strength": 0.13144256531995457,
+          "start_frame": 63,
+          "end_frame": 68,
+          "center_frame": 65
+        }
+      ],
+      "video": "E:\\aside\\reflections-fresh-20261012\\fresh-renders\\encounters-v0001\\clip-009-h264_qsv.mp4",
+      "game_audio": "E:\\aside\\reflections-fresh-20261012\\fresh-renders\\encounters-v0001\\game-009.wav",
+      "encoder": "h264_qsv",
+      "source_audio_end_rounding_seconds": 0.0
+    }
+  ],
+  "source_metadata": {
+    "E:\\raw clips val\\YTDown.com_YouTube_Media_j59f0UqxcIs_90-aim-10-brain-immortal-2_002_720p.mp4": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "profile": "Main",
+          "codec_type": "video",
+          "codec_tag_string": "avc1",
+          "codec_tag": "0x31637661",
+          "mime_codec_string": "avc1.4d4020",
+          "width": 1280,
+          "height": 720,
+          "coded_width": 1280,
+          "coded_height": 720,
+          "has_b_frames": 1,
+          "sample_aspect_ratio": "1:1",
+          "display_aspect_ratio": "16:9",
+          "pix_fmt": "yuv420p",
+          "level": 32,
+          "color_range": "tv",
+          "color_space": "bt709",
+          "color_transfer": "bt709",
+          "color_primaries": "bt709",
+          "chroma_location": "left",
+          "field_order": "progressive",
+          "is_avc": "true",
+          "nal_length_size": "4",
+          "id": "0x1",
+          "r_frame_rate": "60/1",
+          "avg_frame_rate": "60/1",
+          "time_base": "1/15360",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 7833088,
+          "duration": "509.966667",
+          "bit_rate": "3197582",
+          "bits_per_raw_sample": "8",
+          "nb_frames": "30598",
+          "extradata_size": 43,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "ISO Media file produced by Google Inc."
+          }
+        },
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "codec_long_name": "AAC (Advanced Audio Coding)",
+          "profile": "LC",
+          "codec_type": "audio",
+          "codec_tag_string": "mp4a",
+          "codec_tag": "0x6134706d",
+          "mime_codec_string": "mp4a.40.2",
+          "sample_fmt": "fltp",
+          "sample_rate": "44100",
+          "channels": 2,
+          "channel_layout": "stereo",
+          "bits_per_sample": 0,
+          "initial_padding": 0,
+          "id": "0x2",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "time_base": "1/44100",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 22492160,
+          "duration": "510.026304",
+          "bit_rate": "127999",
+          "nb_frames": "21965",
+          "extradata_size": 16,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "ISO Media file produced by Google Inc."
+          }
+        }
+      ],
+      "format": {
+        "filename": "E:\\raw clips val\\YTDown.com_YouTube_Media_j59f0UqxcIs_90-aim-10-brain-immortal-2_002_720p.mp4",
+        "nb_streams": 2,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.000000",
+        "duration": "510.026304",
+        "size": "212786134",
+        "bit_rate": "3337649",
+        "probe_score": 100,
+        "tags": {
+          "major_brand": "isom",
+          "minor_version": "512",
+          "compatible_brands": "isomiso2avc1mp41",
+          "encoder": "Lavf62.3.100"
+        }
+      }
+    }
+  },
+  "music_metadata": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "mp3",
+        "codec_long_name": "MP3 (MPEG audio layer 3)",
+        "codec_type": "audio",
+        "codec_tag_string": "[0][0][0][0]",
+        "codec_tag": "0x0000",
+        "mime_codec_string": "mp4a.40.34",
+        "sample_fmt": "fltp",
+        "sample_rate": "44100",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/14112000",
+        "start_pts": 353600,
+        "start_time": "0.025057",
+        "duration_ts": 639959040,
+        "duration": "45.348571",
+        "bit_rate": "112232",
+        "disposition": {
+          "default": 0,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "encoder": "Lavc60.31"
+        }
+      }
+    ],
+    "format": {
+      "filename": "E:\\audio\\Reflections (slowed) - The Neighbourhood [Edit Audio].mp3",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mp3",
+      "format_long_name": "MP2/3 (MPEG audio layer 2/3)",
+      "start_time": "0.025057",
+      "duration": "45.348571",
+      "size": "636703",
+      "bit_rate": "112321",
+      "probe_score": 52,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2mp41",
+        "encoder": "Lavf60.16.100"
+      }
+    }
+  },
+  "output_metadata": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.640020",
+        "width": 1280,
+        "height": 720,
+        "coded_width": 1280,
+        "coded_height": 720,
+        "has_b_frames": 1,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "16:9",
+        "pix_fmt": "yuv420p",
+        "level": 32,
+        "color_range": "tv",
+        "color_space": "bt709",
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "60/1",
+        "avg_frame_rate": "60/1",
+        "time_base": "1/15360",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 534784,
+        "duration": "34.816667",
+        "bit_rate": "6258072",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "2089",
+        "extradata_size": 48,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "encoder": "Lavc63.1.101 h264_qsv"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "mime_codec_string": "mp4a.40.2",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 1024,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 1671454,
+        "duration": "34.821958",
+        "bit_rate": "194207",
+        "nb_frames": "1634",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler"
+        }
+      }
+    ],
+    "format": {
+      "filename": "E:\\aside\\reflections-fresh-20261012\\fresh-renders\\encounters-v0001\\encounters.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "34.821958",
+      "size": "28133116",
+      "bit_rate": "6463304",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf63.1.101"
+      }
+    }
+  },
+  "warnings": [
+    "Not unattended-ready: real decoded event/video/audio QA is still required.",
+    "Final video is globally rounded to frames; audio retains sample-precision plan timing.",
+    "At most two edge frames may be cloned for CFR rounding, never source speed changed.",
+    "Constant-gain mix can clip; PCM stems are retained for independent timing QA."
+  ]
+}

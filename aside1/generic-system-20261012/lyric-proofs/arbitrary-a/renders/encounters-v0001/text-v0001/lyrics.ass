@@ -1,0 +1,16 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 320
+PlayResY: 180
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Design,Bebas Neue,30,&H00FFFFFF,&H00FFFFFF,&H00000000,&HFF000000,0,0,0,0,100,100,0,0,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.25,0:00:00.65,Design,accent-0,0,0,0,,{\an5\pos(115.200,24.300)\fnBebas Neue\fs9.900\i0\b0\fscx100.000\fscy100.000\1c&HFFFFD6&\3c&HFFFFD6&\alpha&H33&\bord0.600\shad0\blur0.300\fad(0,0)\fscx100\fscy100\clip(13,10,217,38)}LOCAL
+Dialogue: 2,0:00:03.75,0:00:04.15,Design,accent-1,0,0,0,,{\an5\pos(115.200,24.300)\fnBebas Neue\fs9.900\i0\b0\fscx100.000\fscy100.000\1c&HFFFFD6&\3c&HFFFFD6&\alpha&H33&\bord0.600\shad0\blur0.300\fad(0,0)\fscx100\fscy100\clip(13,10,217,38)}SYSTEM
+Dialogue: 2,0:00:07.25,0:00:07.65,Design,accent-2,0,0,0,,{\an5\pos(115.200,24.300)\fnBebas Neue\fs9.900\i0\b0\fscx100.000\fscy100.000\1c&HFFFFD6&\3c&HFFFFD6&\alpha&H33&\bord0.600\shad0\blur0.300\fad(0,0)\fscx100\fscy100\clip(13,10,217,38)}PROOF

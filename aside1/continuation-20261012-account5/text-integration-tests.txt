@@ -1,0 +1,17 @@
+test_decoded_duration_rejection_never_burns (test_encounter_text.EncounterTextRenderTests.test_decoded_duration_rejection_never_burns) ... ok
+test_design_rejects_song_clock_canvas_mismatch_before_subprocess (test_encounter_text.EncounterTextRenderTests.test_design_rejects_song_clock_canvas_mismatch_before_subprocess) ... ok
+test_graph_path_rejects_filter_and_quote_syntax (test_encounter_text.EncounterTextRenderTests.test_graph_path_rejects_filter_and_quote_syntax) ... ok
+test_identity_rejected_before_any_subprocess (test_encounter_text.EncounterTextRenderTests.test_identity_rejected_before_any_subprocess) ... ok
+test_music_manifest_identity_and_config_bounds (test_encounter_text.EncounterTextRenderTests.test_music_manifest_identity_and_config_bounds) ... ok
+test_unverified_missing_legacy_unsafe_and_bad_times_before_subprocess (test_encounter_text.EncounterTextRenderTests.test_unverified_missing_legacy_unsafe_and_bad_times_before_subprocess) ... ok
+test_verified_render_decoded_text_exact_frames_pcm_and_original (test_encounter_text.EncounterTextRenderTests.test_verified_render_decoded_text_exact_frames_pcm_and_original) ... ok
+test_design_rejects_song_clock_canvas_mismatch_before_subprocess (test_encounter_text.EncounterTextValidationTests.test_design_rejects_song_clock_canvas_mismatch_before_subprocess) ... ok
+test_graph_path_rejects_filter_and_quote_syntax (test_encounter_text.EncounterTextValidationTests.test_graph_path_rejects_filter_and_quote_syntax) ... ok
+test_identity_rejected_before_any_subprocess (test_encounter_text.EncounterTextValidationTests.test_identity_rejected_before_any_subprocess) ... ok
+test_music_manifest_identity_and_config_bounds (test_encounter_text.EncounterTextValidationTests.test_music_manifest_identity_and_config_bounds) ... ok
+test_unverified_missing_legacy_unsafe_and_bad_times_before_subprocess (test_encounter_text.EncounterTextValidationTests.test_unverified_missing_legacy_unsafe_and_bad_times_before_subprocess) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 4.182s
+
+OK

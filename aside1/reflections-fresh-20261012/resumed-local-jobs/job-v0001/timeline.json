@@ -1,0 +1,99 @@
+{
+  "schema_version": "encounters/v1",
+  "mode": "candidate-preview",
+  "confirmed": false,
+  "review_status": "unreviewed",
+  "status": "blocked",
+  "requested_duration": 35.0,
+  "duration": 0.0,
+  "music_start": 8.0,
+  "music_end": 8.0,
+  "music_continuous": true,
+  "gaps": [],
+  "timeline": [],
+  "rhythm_assignments": [],
+  "omitted_encounters": [
+    {
+      "icon_index": 1,
+      "reason": "no existing audio association"
+    },
+    {
+      "icon_index": 2,
+      "reason": "no existing audio association"
+    },
+    {
+      "icon_index": 3,
+      "reason": "no existing audio association"
+    },
+    {
+      "icon_index": 4,
+      "reason": "no existing audio association"
+    },
+    {
+      "icon_index": 5,
+      "reason": "no existing audio association"
+    },
+    {
+      "icon_index": 9,
+      "reason": "no existing audio association"
+    },
+    {
+      "icon_index": 16,
+      "reason": "no existing audio association"
+    }
+  ],
+  "warnings": [
+    "Explicit unverified local candidate diagnostic, not a reviewed montage or certified sync.",
+    "Template cosine is not probability; local profile and gameplay/outcomes are uncalibrated.",
+    "Context inferred locally only; scene cuts, fight closure and song suitability remain unverified."
+  ],
+  "authored_role_scope": "Generated video design roles only, not reviewed gameplay semantics.",
+  "candidate_protection": "Every root attack retained; bridge/fade exclude all intervals with >=0.18s margin.",
+  "local_selection_evidence": {
+    "schema_version": "local-selection/v1",
+    "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_j59f0UqxcIs_90-aim-10-brain-immortal-2_002_720p.mp4",
+    "profile_status": "uncalibrated",
+    "confirmed": false,
+    "review_status": "unreviewed",
+    "song_sha256": "25c7bc6d077cd96d752c32cc493cc72f354607596a1dc8b4288f682e0e304396",
+    "measured_excerpts": [
+      {
+        "start": 8.0,
+        "end": 18.0
+      },
+      {
+        "start": 18.0,
+        "end": 28.0
+      },
+      {
+        "start": 28.0,
+        "end": 38.0
+      },
+      {
+        "start": 38.0,
+        "end": 43.0
+      }
+    ],
+    "refined_hit_count": 68,
+    "original_eligible_hit_count": 99,
+    "confidence_kind": "template_cosine_not_probability",
+    "no_source_retiming": true,
+    "policy": "Existing associated audio only; full root candidates, no truncation, reuse, outcome claims or filler.",
+    "max_beam_options": 1024,
+    "context_nominal_pre": 1.3,
+    "context_nominal_post": 1.7,
+    "max_clip_seconds": 5.0,
+    "max_neutral_tail_seconds": 4.0,
+    "beam_width": 24,
+    "eligible_associated_roots": 10,
+    "planning_depth_reached": 10,
+    "scene_cut_status": "unknown",
+    "last_beam_durations": [
+      34.593,
+      34.822,
+      35.0
+    ]
+  },
+  "blocked_reason": "No anchor-safe 30..requested-second 10..20-shot plan fits existing evidence; no forced fallback",
+  "music": "E:\\audio\\Reflections (slowed) - The Neighbourhood [Edit Audio].mp3"
+}

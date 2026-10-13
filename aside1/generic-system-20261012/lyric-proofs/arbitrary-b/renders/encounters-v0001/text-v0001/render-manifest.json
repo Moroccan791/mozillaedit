@@ -1,0 +1,1190 @@
+{
+  "schema_version": "encounter-render/v1",
+  "job_dir": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\renders\\encounters-v0001",
+  "manifest_path": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\renders\\encounters-v0001\\text-v0001\\render-manifest.json",
+  "output": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\renders\\encounters-v0001\\text-v0001\\encounters-text.mp4",
+  "game_stem": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\renders\\encounters-v0001\\game-stem.wav",
+  "music_stem": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\renders\\encounters-v0001\\music-stem.wav",
+  "style": "authored-footage",
+  "authored_design": {
+    "schema_version": "authored-footage/v2",
+    "shots": [
+      {
+        "role": "setup",
+        "composition": "full"
+      },
+      {
+        "role": "impact",
+        "composition": "full"
+      },
+      {
+        "role": "contrast",
+        "composition": "inset"
+      },
+      {
+        "role": "impact",
+        "composition": "full"
+      },
+      {
+        "role": "impact",
+        "composition": "full"
+      },
+      {
+        "role": "contrast",
+        "composition": "inset"
+      },
+      {
+        "role": "impact",
+        "composition": "full"
+      },
+      {
+        "role": "impact",
+        "composition": "full"
+      },
+      {
+        "role": "contrast",
+        "composition": "inset"
+      },
+      {
+        "role": "payoff",
+        "composition": "full"
+      }
+    ],
+    "bridges": [
+      {
+        "boundary": 2,
+        "direction": "right",
+        "frames": 8
+      },
+      {
+        "boundary": 8,
+        "direction": "left",
+        "frames": 8
+      }
+    ],
+    "ending": {
+      "fade_frames": 12
+    },
+    "impacts": [
+      {
+        "clip_index": 1,
+        "output_time": 4.7,
+        "frames": 8,
+        "strength": 0.8
+      },
+      {
+        "clip_index": 4,
+        "output_time": 15.2,
+        "frames": 8,
+        "strength": 0.8
+      },
+      {
+        "clip_index": 9,
+        "output_time": 32.7,
+        "frames": 8,
+        "strength": 0.8
+      }
+    ]
+  },
+  "authored_limitations": [
+    "Paired directional edge reframing/smear across unchanged hard cuts, not an overlapping wipe or crossfade.",
+    "Inset duplicates the same decoded footage, not an unseen camera angle or isolated subject.",
+    "1x video and unchanged PCM/music clocks; no attack or aesthetic certification.",
+    "Only supplied anchors are protected; unknown burst attacks and unresolved fight bounds require independent review."
+  ],
+  "motion_audio_granularity_seconds": null,
+  "motion_limitations": [],
+  "multishot_limitations": [],
+  "video_concat": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\renders\\encounters-v0001\\video.ffconcat",
+  "game_concat": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\renders\\encounters-v0001\\game.ffconcat",
+  "config": {
+    "width": 320,
+    "height": 180,
+    "fps": 30,
+    "sample_rate": 48000,
+    "encoder": "libx264",
+    "fallback_encoder": null,
+    "quality": 25,
+    "preset": "ultrafast",
+    "music_gain_db": -6.0,
+    "game_gain_db": 0.0,
+    "max_duration": 120.0,
+    "max_clip_duration": 30.0,
+    "max_clips": 64,
+    "max_source_duration": 86400.0,
+    "timeout": 600.0,
+    "ffmpeg": "ffmpeg",
+    "ffprobe": "ffprobe",
+    "style": "authored-footage"
+  },
+  "plan_duration": 35.0,
+  "video_duration": 35.0,
+  "audio_duration": 35.0,
+  "frame_count": 1050,
+  "sample_count": 1680000,
+  "music_start_sample": 252000,
+  "music_source": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\synthetic-music.wav",
+  "music_time_origin": "decoded sample zero after FFmpeg codec skip/encoder-delay handling",
+  "chunks": [
+    {
+      "source_start": 0.113,
+      "source_end": 3.613,
+      "output_start": 0.0,
+      "output_end": 3.5,
+      "music_start": 5.25,
+      "music_end": 8.75,
+      "speed": 1.0,
+      "source": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\synthetic-source.mkv",
+      "index": 0,
+      "frame_start": 0,
+      "frame_end": 105,
+      "frame_count": 105,
+      "sample_start": 0,
+      "sample_end": 168000,
+      "sample_count": 168000,
+      "source_sample_start": 5424,
+      "source_sample_end": 173424,
+      "video_phase_seconds": 0.0,
+      "events": [],
+      "authored_shot": {
+        "role": "setup",
+        "composition": "full"
+      },
+      "authored_edges": [],
+      "authored_impacts": [],
+      "video": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\renders\\encounters-v0001\\clip-000-libx264.mp4",
+      "game_audio": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\renders\\encounters-v0001\\game-000.wav",
+      "encoder": "libx264",
+      "source_audio_end_rounding_seconds": 0.0
+    },
+    {
+      "source_start": 4.113,
+      "source_end": 7.613,
+      "output_start": 3.5,
+      "output_end": 7.0,
+      "music_start": 8.75,
+      "music_end": 12.25,
+      "speed": 1.0,
+      "source": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\synthetic-source.mkv",
+      "index": 1,
+      "frame_start": 105,
+      "frame_end": 210,
+      "frame_count": 105,
+      "sample_start": 168000,
+      "sample_end": 336000,
+      "sample_count": 168000,
+      "source_sample_start": 197424,
+      "source_sample_end": 365424,
+      "video_phase_seconds": 0.0,
+      "events": [],
+      "authored_shot": {
+        "role": "impact",
+        "composition": "full"
+      },
+      "authored_edges": [
+        {
+          "side": "out",
+          "frames": 8,
+          "direction": "right",
+          "boundary": 2
+        }
+      ],
+      "authored_impacts": [
+        {
+          "clip_index": 1,
+          "output_time": 4.7,
+          "frames": 8,
+          "strength": 0.8,
+          "start_frame": 33,
+          "end_frame": 40,
+          "center_frame": 36
+        }
+      ],
+      "video": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\renders\\encounters-v0001\\clip-001-libx264.mp4",
+      "game_audio": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\renders\\encounters-v0001\\game-001.wav",
+      "encoder": "libx264",
+      "source_audio_end_rounding_seconds": 0.0
+    },
+    {
+      "source_start": 8.113,
+      "source_end": 11.613,
+      "output_start": 7.0,
+      "output_end": 10.5,
+      "music_start": 12.25,
+      "music_end": 15.75,
+      "speed": 1.0,
+      "source": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\synthetic-source.mkv",
+      "index": 2,
+      "frame_start": 210,
+      "frame_end": 315,
+      "frame_count": 105,
+      "sample_start": 336000,
+      "sample_end": 504000,
+      "sample_count": 168000,
+      "source_sample_start": 389424,
+      "source_sample_end": 557424,
+      "video_phase_seconds": 0.0,
+      "events": [],
+      "authored_shot": {
+        "role": "contrast",
+        "composition": "inset"
+      },
+      "authored_edges": [
+        {
+          "side": "in",
+          "frames": 8,
+          "direction": "right",
+          "boundary": 2
+        }
+      ],
+      "authored_impacts": [],
+      "video": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\renders\\encounters-v0001\\clip-002-libx264.mp4",
+      "game_audio": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\renders\\encounters-v0001\\game-002.wav",
+      "encoder": "libx264",
+      "source_audio_end_rounding_seconds": 0.0
+    },
+    {
+      "source_start": 12.113,
+      "source_end": 15.613,
+      "output_start": 10.5,
+      "output_end": 14.0,
+      "music_start": 15.75,
+      "music_end": 19.25,
+      "speed": 1.0,
+      "source": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\synthetic-source.mkv",
+      "index": 3,
+      "frame_start": 315,
+      "frame_end": 420,
+      "frame_count": 105,
+      "sample_start": 504000,
+      "sample_end": 672000,
+      "sample_count": 168000,
+      "source_sample_start": 581424,
+      "source_sample_end": 749424,
+      "video_phase_seconds": 0.0,
+      "events": [],
+      "authored_shot": {
+        "role": "impact",
+        "composition": "full"
+      },
+      "authored_edges": [],
+      "authored_impacts": [],
+      "video": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\renders\\encounters-v0001\\clip-003-libx264.mp4",
+      "game_audio": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\renders\\encounters-v0001\\game-003.wav",
+      "encoder": "libx264",
+      "source_audio_end_rounding_seconds": 0.0
+    },
+    {
+      "source_start": 16.113,
+      "source_end": 19.613,
+      "output_start": 14.0,
+      "output_end": 17.5,
+      "music_start": 19.25,
+      "music_end": 22.75,
+      "speed": 1.0,
+      "source": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\synthetic-source.mkv",
+      "index": 4,
+      "frame_start": 420,
+      "frame_end": 525,
+      "frame_count": 105,
+      "sample_start": 672000,
+      "sample_end": 840000,
+      "sample_count": 168000,
+      "source_sample_start": 773424,
+      "source_sample_end": 941424,
+      "video_phase_seconds": 0.0,
+      "events": [],
+      "authored_shot": {
+        "role": "impact",
+        "composition": "full"
+      },
+      "authored_edges": [],
+      "authored_impacts": [
+        {
+          "clip_index": 4,
+          "output_time": 15.2,
+          "frames": 8,
+          "strength": 0.8,
+          "start_frame": 33,
+          "end_frame": 40,
+          "center_frame": 36
+        }
+      ],
+      "video": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\renders\\encounters-v0001\\clip-004-libx264.mp4",
+      "game_audio": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\renders\\encounters-v0001\\game-004.wav",
+      "encoder": "libx264",
+      "source_audio_end_rounding_seconds": 0.0
+    },
+    {
+      "source_start": 20.113,
+      "source_end": 23.613,
+      "output_start": 17.5,
+      "output_end": 21.0,
+      "music_start": 22.75,
+      "music_end": 26.25,
+      "speed": 1.0,
+      "source": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\synthetic-source.mkv",
+      "index": 5,
+      "frame_start": 525,
+      "frame_end": 630,
+      "frame_count": 105,
+      "sample_start": 840000,
+      "sample_end": 1008000,
+      "sample_count": 168000,
+      "source_sample_start": 965424,
+      "source_sample_end": 1133424,
+      "video_phase_seconds": 0.0,
+      "events": [],
+      "authored_shot": {
+        "role": "contrast",
+        "composition": "inset"
+      },
+      "authored_edges": [],
+      "authored_impacts": [],
+      "video": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\renders\\encounters-v0001\\clip-005-libx264.mp4",
+      "game_audio": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\renders\\encounters-v0001\\game-005.wav",
+      "encoder": "libx264",
+      "source_audio_end_rounding_seconds": 0.0
+    },
+    {
+      "source_start": 24.113,
+      "source_end": 27.613,
+      "output_start": 21.0,
+      "output_end": 24.5,
+      "music_start": 26.25,
+      "music_end": 29.75,
+      "speed": 1.0,
+      "source": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\synthetic-source.mkv",
+      "index": 6,
+      "frame_start": 630,
+      "frame_end": 735,
+      "frame_count": 105,
+      "sample_start": 1008000,
+      "sample_end": 1176000,
+      "sample_count": 168000,
+      "source_sample_start": 1157424,
+      "source_sample_end": 1325424,
+      "video_phase_seconds": 0.0,
+      "events": [],
+      "authored_shot": {
+        "role": "impact",
+        "composition": "full"
+      },
+      "authored_edges": [],
+      "authored_impacts": [],
+      "video": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\renders\\encounters-v0001\\clip-006-libx264.mp4",
+      "game_audio": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\renders\\encounters-v0001\\game-006.wav",
+      "encoder": "libx264",
+      "source_audio_end_rounding_seconds": 0.0
+    },
+    {
+      "source_start": 28.113,
+      "source_end": 31.613,
+      "output_start": 24.5,
+      "output_end": 28.0,
+      "music_start": 29.75,
+      "music_end": 33.25,
+      "speed": 1.0,
+      "source": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\synthetic-source.mkv",
+      "index": 7,
+      "frame_start": 735,
+      "frame_end": 840,
+      "frame_count": 105,
+      "sample_start": 1176000,
+      "sample_end": 1344000,
+      "sample_count": 168000,
+      "source_sample_start": 1349424,
+      "source_sample_end": 1517424,
+      "video_phase_seconds": 0.0,
+      "events": [],
+      "authored_shot": {
+        "role": "impact",
+        "composition": "full"
+      },
+      "authored_edges": [
+        {
+          "side": "out",
+          "frames": 8,
+          "direction": "left",
+          "boundary": 8
+        }
+      ],
+      "authored_impacts": [],
+      "video": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\renders\\encounters-v0001\\clip-007-libx264.mp4",
+      "game_audio": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\renders\\encounters-v0001\\game-007.wav",
+      "encoder": "libx264",
+      "source_audio_end_rounding_seconds": 0.0
+    },
+    {
+      "source_start": 32.113,
+      "source_end": 35.613,
+      "output_start": 28.0,
+      "output_end": 31.5,
+      "music_start": 33.25,
+      "music_end": 36.75,
+      "speed": 1.0,
+      "source": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\synthetic-source.mkv",
+      "index": 8,
+      "frame_start": 840,
+      "frame_end": 945,
+      "frame_count": 105,
+      "sample_start": 1344000,
+      "sample_end": 1512000,
+      "sample_count": 168000,
+      "source_sample_start": 1541424,
+      "source_sample_end": 1709424,
+      "video_phase_seconds": 0.0,
+      "events": [],
+      "authored_shot": {
+        "role": "contrast",
+        "composition": "inset"
+      },
+      "authored_edges": [
+        {
+          "side": "in",
+          "frames": 8,
+          "direction": "left",
+          "boundary": 8
+        }
+      ],
+      "authored_impacts": [],
+      "video": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\renders\\encounters-v0001\\clip-008-libx264.mp4",
+      "game_audio": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\renders\\encounters-v0001\\game-008.wav",
+      "encoder": "libx264",
+      "source_audio_end_rounding_seconds": 0.0
+    },
+    {
+      "source_start": 36.113,
+      "source_end": 39.613,
+      "output_start": 31.5,
+      "output_end": 35.0,
+      "music_start": 36.75,
+      "music_end": 40.25,
+      "speed": 1.0,
+      "source": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\synthetic-source.mkv",
+      "index": 9,
+      "frame_start": 945,
+      "frame_end": 1050,
+      "frame_count": 105,
+      "sample_start": 1512000,
+      "sample_end": 1680000,
+      "sample_count": 168000,
+      "source_sample_start": 1733424,
+      "source_sample_end": 1901424,
+      "video_phase_seconds": 0.0,
+      "events": [],
+      "authored_shot": {
+        "role": "payoff",
+        "composition": "full"
+      },
+      "authored_edges": [],
+      "authored_fade_frames": 12,
+      "authored_impacts": [
+        {
+          "clip_index": 9,
+          "output_time": 32.7,
+          "frames": 8,
+          "strength": 0.8,
+          "start_frame": 33,
+          "end_frame": 40,
+          "center_frame": 36
+        }
+      ],
+      "video": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\renders\\encounters-v0001\\clip-009-libx264.mp4",
+      "game_audio": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\renders\\encounters-v0001\\game-009.wav",
+      "encoder": "libx264",
+      "source_audio_end_rounding_seconds": 0.0
+    }
+  ],
+  "source_metadata": {
+    "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\synthetic-source.mkv": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "ffv1",
+          "codec_long_name": "FFmpeg video codec #1",
+          "codec_type": "video",
+          "codec_tag_string": "[0][0][0][0]",
+          "codec_tag": "0x0000",
+          "width": 320,
+          "height": 180,
+          "coded_width": 320,
+          "coded_height": 180,
+          "has_b_frames": 0,
+          "sample_aspect_ratio": "1:1",
+          "display_aspect_ratio": "16:9",
+          "pix_fmt": "yuv420p",
+          "level": -99,
+          "color_range": "tv",
+          "field_order": "progressive",
+          "r_frame_rate": "30/1",
+          "avg_frame_rate": "30/1",
+          "time_base": "1/1000",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "bits_per_raw_sample": "8",
+          "extradata_size": 42,
+          "disposition": {
+            "default": 0,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "ENCODER": "Lavc63.1.101 ffv1",
+            "DURATION": "00:00:50.000000000"
+          }
+        },
+        {
+          "index": 1,
+          "codec_name": "pcm_s16le",
+          "codec_long_name": "PCM signed 16-bit little-endian",
+          "codec_type": "audio",
+          "codec_tag_string": "[0][0][0][0]",
+          "codec_tag": "0x0000",
+          "sample_fmt": "s16",
+          "sample_rate": "48000",
+          "channels": 1,
+          "bits_per_sample": 16,
+          "initial_padding": 0,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "time_base": "1/1000",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "bit_rate": "768000",
+          "disposition": {
+            "default": 0,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "ENCODER": "Lavc63.1.101 pcm_s16le",
+            "DURATION": "00:00:50.000000000"
+          }
+        }
+      ],
+      "format": {
+        "filename": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\synthetic-source.mkv",
+        "nb_streams": 2,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "matroska,webm",
+        "format_long_name": "Matroska / WebM",
+        "start_time": "0.000000",
+        "duration": "50.000000",
+        "size": "15021418",
+        "bit_rate": "2403426",
+        "probe_score": 100,
+        "tags": {
+          "ENCODER": "Lavf63.1.101"
+        }
+      }
+    }
+  },
+  "music_metadata": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "pcm_s16le",
+        "codec_long_name": "PCM signed 16-bit little-endian",
+        "codec_type": "audio",
+        "codec_tag_string": "[1][0][0][0]",
+        "codec_tag": "0x0001",
+        "sample_fmt": "s16",
+        "sample_rate": "48000",
+        "channels": 2,
+        "bits_per_sample": 16,
+        "initial_padding": 0,
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "duration_ts": 2160000,
+        "duration": "45.000000",
+        "bit_rate": "1536000",
+        "disposition": {
+          "default": 0,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        }
+      }
+    ],
+    "format": {
+      "filename": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\synthetic-music.wav",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "wav",
+      "format_long_name": "WAV / WAVE (Waveform Audio)",
+      "duration": "45.000000",
+      "size": "8640078",
+      "bit_rate": "1536013",
+      "probe_score": 99,
+      "tags": {
+        "encoder": "Lavf63.1.101"
+      }
+    }
+  },
+  "output_metadata": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "Constrained Baseline",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.42c00d",
+        "width": 320,
+        "height": 180,
+        "coded_width": 320,
+        "coded_height": 180,
+        "has_b_frames": 0,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "16:9",
+        "pix_fmt": "yuv420p",
+        "level": 13,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "time_base": "1/15360",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 537600,
+        "duration": "35.000000",
+        "bit_rate": "606794",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "1050",
+        "extradata_size": 38,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "encoder": "Lavc63.1.101 libx264"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "mime_codec_string": "mp4a.40.2",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 1024,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 1680000,
+        "duration": "35.000000",
+        "bit_rate": "192043",
+        "nb_frames": "1642",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler"
+        }
+      }
+    ],
+    "format": {
+      "filename": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\renders\\encounters-v0001\\text-v0001\\encounters-text.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "35.000000",
+      "size": "3527045",
+      "bit_rate": "806181",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf63.1.101"
+      }
+    }
+  },
+  "warnings": [
+    "Not unattended-ready: real decoded event/video/audio QA is still required.",
+    "Final video is globally rounded to frames; audio retains sample-precision plan timing.",
+    "At most two edge frames may be cloned for CFR rounding, never source speed changed.",
+    "Constant-gain mix can clip; PCM stems are retained for independent timing QA."
+  ],
+  "typography_audit": {
+    "schema": "encounter-text/v1",
+    "enabled": true,
+    "original_output": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\renders\\encounters-v0001\\encounters.mp4",
+    "original_output_sha256": "9a753070d6e16f061f3f27e03a180635c327bc402ddd42eb5c39dccae0df5bcb",
+    "ass_path": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\renders\\encounters-v0001\\text-v0001\\lyrics.ass",
+    "graph_path": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\renders\\encounters-v0001\\text-v0001\\lyrics.filter.txt",
+    "track_path": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\lyrics-prepared-v0001\\verified-track.json",
+    "track_sha256": "49bedc2ed391cc711dff1e9f529a7fbbddacc2b8f73bb06e33e922ec60a10cbc",
+    "audio_sha256": "d810a9234995002fc46c1b4ee466aaebd55ec69ac0effa498eec72c4723ddb70",
+    "provenance": {
+      "alignment_verified": true,
+      "method": "Synthetic structural words on generated tone; explicitly NOT actual singing or independent vocal verification"
+    },
+    "music_start": 5.25,
+    "excerpt_duration": 35.0,
+    "fonts": [
+      {
+        "family": "Bebas Neue",
+        "file": "E:\\fonts\\Bebas_Neue\\BebasNeue-Regular.ttf",
+        "license": "E:\\fonts\\Bebas_Neue\\OFL.txt"
+      },
+      {
+        "family": "Bebas Neue",
+        "file": "E:\\fonts\\BebasNeue-Regular.ttf",
+        "license": "E:\\fonts\\OFL.txt"
+      },
+      {
+        "family": "Oswald",
+        "file": "E:\\fonts\\Oswald\\Oswald-VariableFont_wght.ttf",
+        "license": "E:\\fonts\\Oswald\\OFL.txt"
+      },
+      {
+        "family": "Oswald",
+        "file": "E:\\fonts\\Oswald\\static\\Oswald-Bold.ttf",
+        "license": "E:\\fonts\\Oswald\\OFL.txt"
+      },
+      {
+        "family": "Oswald",
+        "file": "E:\\fonts\\Oswald\\static\\Oswald-ExtraLight.ttf",
+        "license": "E:\\fonts\\Oswald\\OFL.txt"
+      },
+      {
+        "family": "Oswald",
+        "file": "E:\\fonts\\Oswald\\static\\Oswald-Light.ttf",
+        "license": "E:\\fonts\\Oswald\\OFL.txt"
+      },
+      {
+        "family": "Oswald",
+        "file": "E:\\fonts\\Oswald\\static\\Oswald-Medium.ttf",
+        "license": "E:\\fonts\\Oswald\\OFL.txt"
+      },
+      {
+        "family": "Oswald",
+        "file": "E:\\fonts\\Oswald\\static\\Oswald-Regular.ttf",
+        "license": "E:\\fonts\\Oswald\\OFL.txt"
+      },
+      {
+        "family": "Oswald",
+        "file": "E:\\fonts\\Oswald\\static\\Oswald-SemiBold.ttf",
+        "license": "E:\\fonts\\Oswald\\OFL.txt"
+      }
+    ],
+    "audio_mode": "copy",
+    "frame_count": 1050,
+    "fps": "30",
+    "video_duration": 35.0,
+    "roles": [
+      "giant_word"
+    ],
+    "design_path": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\lyrics-prepared-v0001\\lyric-design.json",
+    "design_sha256": "1a50af472a8e2b64444a009e404bb44a2c3c414097e431cfd3a2c58eee45b3f4",
+    "design_audit": {
+      "schema": "lyric-design/v1",
+      "enabled": true,
+      "source": {
+        "audio_sha256": "d810a9234995002fc46c1b4ee466aaebd55ec69ac0effa498eec72c4723ddb70",
+        "music_source": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\synthetic-music.wav"
+      },
+      "alignment_method_assertion": "Synthetic structural words on generated tone; explicitly NOT actual singing or independent vocal verification",
+      "excerpt": {
+        "music_start_sample": 252000,
+        "output_start": 0,
+        "sample_count": 1680000,
+        "sample_rate": 48000
+      },
+      "canvas": {
+        "height": 180,
+        "mode": "gameplay",
+        "width": 320
+      },
+      "protected_zones": [
+        [
+          0.3,
+          0.25,
+          0.4,
+          0.5
+        ],
+        [
+          0.74,
+          0,
+          0.26,
+          0.25
+        ],
+        [
+          0,
+          0.82,
+          1,
+          0.18
+        ]
+      ],
+      "allow_protected_overlap": false,
+      "allow_impact_collision": false,
+      "visual_impacts": [
+        1.19,
+        1.2,
+        1.24,
+        1.26,
+        4.6,
+        4.69,
+        4.7,
+        4.74,
+        4.740000000000001,
+        4.760000000000001,
+        4.833333333333333,
+        8.189999999999998,
+        8.2,
+        8.239999999999998,
+        8.259999999999998,
+        11.689999999999998,
+        11.7,
+        11.739999999999998,
+        11.759999999999998,
+        15.1,
+        15.189999999999998,
+        15.2,
+        15.239999999999998,
+        15.259999999999998,
+        15.333333333333334,
+        18.689999999999998,
+        18.7,
+        18.700000000000003,
+        18.739999999999995,
+        18.74,
+        18.759999999999998,
+        22.189999999999998,
+        22.2,
+        22.200000000000003,
+        22.239999999999995,
+        22.24,
+        22.259999999999998,
+        25.689999999999998,
+        25.7,
+        25.700000000000003,
+        25.739999999999995,
+        25.74,
+        25.759999999999998,
+        29.190000000000005,
+        29.2,
+        29.200000000000003,
+        29.24,
+        29.240000000000002,
+        29.260000000000005,
+        32.6,
+        32.69,
+        32.7,
+        32.74,
+        32.74000000000001,
+        32.760000000000005,
+        32.833333333333336
+      ],
+      "moments": [
+        {
+          "id": "accent-0",
+          "role": "giant_word",
+          "original_word_indices": [
+            0
+          ],
+          "text": "LOCAL",
+          "source_times": [
+            [
+              5.5,
+              5.9
+            ]
+          ],
+          "box": [
+            0.04,
+            0.055,
+            0.64,
+            0.16
+          ],
+          "design": {
+            "animation": {
+              "echo_offset": [
+                0,
+                0
+              ],
+              "entrance_ms": 0,
+              "exit_ms": 0,
+              "from_scale": 1,
+              "glow": 0
+            },
+            "box": [
+              0.04,
+              0.055,
+              0.64,
+              0.16
+            ],
+            "font_family": "Bebas Neue",
+            "id": "accent-0",
+            "opacity": 0.8,
+            "palette": "ice",
+            "role": "giant_word",
+            "size": 0.055,
+            "word_indices": [
+              0
+            ]
+          },
+          "resolved_colors": {
+            "primary": "#D6FFFF",
+            "accent": "#48D9DF"
+          },
+          "font": {
+            "family": "Bebas Neue",
+            "file": "E:\\fonts\\BebasNeue-Regular.ttf",
+            "license": "E:\\fonts\\OFL.txt"
+          },
+          "status": "rendered",
+          "reason": null,
+          "output_centiseconds": [
+            25,
+            65
+          ]
+        },
+        {
+          "id": "accent-1",
+          "role": "giant_word",
+          "original_word_indices": [
+            1
+          ],
+          "text": "SYSTEM",
+          "source_times": [
+            [
+              9.0,
+              9.4
+            ]
+          ],
+          "box": [
+            0.04,
+            0.055,
+            0.64,
+            0.16
+          ],
+          "design": {
+            "animation": {
+              "echo_offset": [
+                0,
+                0
+              ],
+              "entrance_ms": 0,
+              "exit_ms": 0,
+              "from_scale": 1,
+              "glow": 0
+            },
+            "box": [
+              0.04,
+              0.055,
+              0.64,
+              0.16
+            ],
+            "font_family": "Bebas Neue",
+            "id": "accent-1",
+            "opacity": 0.8,
+            "palette": "ice",
+            "role": "giant_word",
+            "size": 0.055,
+            "word_indices": [
+              1
+            ]
+          },
+          "resolved_colors": {
+            "primary": "#D6FFFF",
+            "accent": "#48D9DF"
+          },
+          "font": {
+            "family": "Bebas Neue",
+            "file": "E:\\fonts\\BebasNeue-Regular.ttf",
+            "license": "E:\\fonts\\OFL.txt"
+          },
+          "status": "rendered",
+          "reason": null,
+          "output_centiseconds": [
+            375,
+            415
+          ]
+        },
+        {
+          "id": "accent-2",
+          "role": "giant_word",
+          "original_word_indices": [
+            2
+          ],
+          "text": "PROOF",
+          "source_times": [
+            [
+              12.5,
+              12.9
+            ]
+          ],
+          "box": [
+            0.04,
+            0.055,
+            0.64,
+            0.16
+          ],
+          "design": {
+            "animation": {
+              "echo_offset": [
+                0,
+                0
+              ],
+              "entrance_ms": 0,
+              "exit_ms": 0,
+              "from_scale": 1,
+              "glow": 0
+            },
+            "box": [
+              0.04,
+              0.055,
+              0.64,
+              0.16
+            ],
+            "font_family": "Bebas Neue",
+            "id": "accent-2",
+            "opacity": 0.8,
+            "palette": "ice",
+            "role": "giant_word",
+            "size": 0.055,
+            "word_indices": [
+              2
+            ]
+          },
+          "resolved_colors": {
+            "primary": "#D6FFFF",
+            "accent": "#48D9DF"
+          },
+          "font": {
+            "family": "Bebas Neue",
+            "file": "E:\\fonts\\BebasNeue-Regular.ttf",
+            "license": "E:\\fonts\\OFL.txt"
+          },
+          "status": "rendered",
+          "reason": null,
+          "output_centiseconds": [
+            725,
+            765
+          ]
+        }
+      ],
+      "limitations": [
+        "No independent sung-word or vocal alignment verification.",
+        "Sample rate/excerpt lineage is a caller assertion; no mixed audio verification.",
+        "Conservative TTF ink bounds plus hard ASS rectangle clips, not gameplay semantic occlusion proof.",
+        "No automatic captions; no renderer integration or audio processing."
+      ]
+    },
+    "limitations": [
+      "Lyric metadata alignment verification is a supplied assertion, not truth or independent listening verification.",
+      "Manifest music_source linkage is supplied metadata, not independent proof of the mixed audio provenance.",
+      "Partial boundary words omitted; ASS times quantized inward to centiseconds.",
+      "Video is re-encoded for text; original mixed audio is stream copied; no aesthetic certification."
+    ]
+  }
+}

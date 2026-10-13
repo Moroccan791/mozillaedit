@@ -1,0 +1,8 @@
+QA: E:\aside\burn-preview-20261012-151632\Let-The-World-Burn-35s-preview.mp4
+----------------------------------------
+[PASS] decode
+[PASS] pix_fmt universal  -- pix_fmt=yuv420p
+[PASS] streams  -- video=True audio=True
+[PASS] a/v duration sync  -- video=35.00s audio=35.00s
+----------------------------------------
+RESULT: OK

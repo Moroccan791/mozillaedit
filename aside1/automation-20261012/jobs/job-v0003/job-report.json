@@ -1,0 +1,40 @@
+{
+  "schema_version": "automation-job/v1",
+  "job_dir": "E:\\aside\\automation-20261012\\jobs\\job-v0003",
+  "mode": "candidate-preview",
+  "status": "planned-candidate-preview",
+  "output": null,
+  "stages": {
+    "music_seconds": 14.122569999999541,
+    "firing_seconds": 3.976956500002416,
+    "planning_seconds": 1.1462860999963596
+  },
+  "readiness": {
+    "automatic_candidate_analysis": true,
+    "automatic_pov_confirmation": false,
+    "reviewed_music_suitability": false,
+    "reviewed_fight_completeness": false,
+    "perceptual_listening": false,
+    "unattended_ready": false
+  },
+  "limitations": [
+    "Automatic candidates are audio transients, not confirmed shots or kills.",
+    "Music hits are acoustic candidates, not certified percussion, bar phase or musical taste.",
+    "Generated roles and fades do not certify fight outcome, reference-level polish or listening.",
+    "No source retiming: difficult burst rhythm stays unmatched; strict confirmation runner retained."
+  ],
+  "rhythm_summary": {
+    "matched": 4,
+    "total": 4,
+    "semantic_sync": "unverified",
+    "beam_width": 24
+  },
+  "planned_duration": 5.21700000000002,
+  "warnings": [
+    "Candidate preview only: audio transients are not confirmed POV shots/kills; musical suitability and phrase are unreviewed.",
+    "All selected candidate attacks retain 1x timing; unmatched attacks are explicitly reported, not forced onto beats.",
+    "Window outcome/completeness unknown; source-authored effects may already exist.",
+    "shorter than requested by 6.783s; no filler or reuse"
+  ],
+  "elapsed_seconds": 21.092
+}

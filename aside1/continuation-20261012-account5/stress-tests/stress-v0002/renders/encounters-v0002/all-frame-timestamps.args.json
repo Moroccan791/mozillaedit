@@ -1,0 +1,13 @@
+[
+  "ffprobe",
+  "-v",
+  "error",
+  "-select_streams",
+  "v:0",
+  "-show_frames",
+  "-show_entries",
+  "frame=best_effort_timestamp",
+  "-of",
+  "json",
+  "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002\\renders\\encounters-v0002\\encounters.mp4"
+]

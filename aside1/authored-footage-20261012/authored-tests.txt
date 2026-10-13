@@ -1,0 +1,11 @@
+test_real_composition_bridge_fade_exact_frames_and_identical_stems (test_authored_footage.AuthoredFFmpegTests.test_real_composition_bridge_fade_exact_frames_and_identical_stems) ... ok
+test_bounded_proof_duration_and_bridge_size (test_authored_footage.AuthoredValidationTests.test_bounded_proof_duration_and_bridge_size) ... ok
+test_exact_rows_audio_events_and_filter_counts (test_authored_footage.AuthoredValidationTests.test_exact_rows_audio_events_and_filter_counts) ... ok
+test_explicit_opt_in_and_missing_design_rejected (test_authored_footage.AuthoredValidationTests.test_explicit_opt_in_and_missing_design_rejected) ... ok
+test_malformed_design_fails_before_subprocess (test_authored_footage.AuthoredValidationTests.test_malformed_design_fails_before_subprocess) ... ok
+test_protected_events_and_edge_fade_overlap_rejected (test_authored_footage.AuthoredValidationTests.test_protected_events_and_edge_fade_overlap_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 8.232s
+
+OK

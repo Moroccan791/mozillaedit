@@ -1,0 +1,22 @@
+test_actual_shift_overrides_zero_planned_error (test_attack_qa.StemTests.test_actual_shift_overrides_zero_planned_error) ... ok
+test_each_assignment_measured_independently (test_attack_qa.StemTests.test_each_assignment_measured_independently) ... ok
+test_missing_stem_and_small_aggregate_budget_warn (test_attack_qa.StemTests.test_missing_stem_and_small_aggregate_budget_warn) ... ok
+test_silent_and_ambiguous_cannot_pass (test_attack_qa.StemTests.test_silent_and_ambiguous_cannot_pass) ... ok
+test_two_decoded_stems_aligned_but_semantics_unverified (test_attack_qa.StemTests.test_two_decoded_stems_aligned_but_semantics_unverified) ... ok
+test_unmatched_remains_warn_and_keeps_game_measurement (test_attack_qa.StemTests.test_unmatched_remains_warn_and_keeps_game_measurement) ... ok
+test_bounds_before_decode_and_json_safe (test_attack_qa.UnitTests.test_bounds_before_decode_and_json_safe) ... ok
+test_decode_budget_and_timeout (test_attack_qa.UnitTests.test_decode_budget_and_timeout) ... ok
+test_event_identity_is_clip_specific_not_source_path (test_attack_qa.UnitTests.test_event_identity_is_clip_specific_not_source_path) ... ok
+test_heuristic_range_covers_controlled_impulse_and_burst_phases (test_attack_qa.UnitTests.test_heuristic_range_covers_controlled_impulse_and_burst_phases) ... ok
+test_impulse_and_opposite_phase_stereo (test_attack_qa.UnitTests.test_impulse_and_opposite_phase_stereo) ... ok
+test_independent_shift_not_supplied_clock (test_attack_qa.UnitTests.test_independent_shift_not_supplied_clock) ... ok
+test_layered_noise_rejections_explain_sustained_baseline (test_attack_qa.UnitTests.test_layered_noise_rejections_explain_sustained_baseline) ... ok
+test_per_band_change_is_descriptive_and_gain_invariant (test_attack_qa.UnitTests.test_per_band_change_is_descriptive_and_gain_invariant) ... ok
+test_rejected_peak_diagnostics_and_no_decision_change (test_attack_qa.UnitTests.test_rejected_peak_diagnostics_and_no_decision_change) ... ok
+test_silent_multiple_attacks_and_continuous_noise_abstain (test_attack_qa.UnitTests.test_silent_multiple_attacks_and_continuous_noise_abstain) ... ok
+test_uncertainty_interval_not_only_point_estimate_controls_pass (test_attack_qa.UnitTests.test_uncertainty_interval_not_only_point_estimate_controls_pass) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 1.418s
+
+OK

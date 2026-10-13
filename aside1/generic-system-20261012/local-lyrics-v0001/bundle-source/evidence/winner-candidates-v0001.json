@@ -1,0 +1,488 @@
+{
+  "schema": "music-lyric-candidates/v1",
+  "status": "UNVERIFIED",
+  "audio_sha256": "fee64bb4540fb6a2f0c391718c024512bc75e0cdfdb8d1b88da1cf773a7eb3c8",
+  "source": {
+    "path": "E:\\audio\\The Winner Takes It All but it’s the best part (Meryl Streep).mp3",
+    "kind": "selected_music",
+    "bytes": 1177418
+  },
+  "decode": {
+    "method": "ffmpeg sample-zero mono pcm_s16le",
+    "clock": "selected_music_first_decoded_sample",
+    "start": 0.0,
+    "sample_rate": 16000,
+    "channels": 1,
+    "sample_count": 1267624,
+    "duration": 79.2265,
+    "pcm_sha256": "e3bd5e5a652cd2af81e67b68733c07e39d0734cfeb377f7a5efe5d0ad2913bc9",
+    "prefix_limit_seconds": 600.0,
+    "possibly_truncated": false
+  },
+  "words": [
+    {
+      "text": "I",
+      "start": 0.0,
+      "end": 1.8,
+      "gap_before": 0.0
+    },
+    {
+      "text": "apologize",
+      "start": 1.8,
+      "end": 2.7,
+      "gap_before": 0.0
+    },
+    {
+      "text": "if",
+      "start": 2.7,
+      "end": 5.5,
+      "gap_before": 0.0
+    },
+    {
+      "text": "it",
+      "start": 5.5,
+      "end": 5.62,
+      "gap_before": 0.0
+    },
+    {
+      "text": "makes",
+      "start": 5.62,
+      "end": 5.88,
+      "gap_before": 0.0
+    },
+    {
+      "text": "you",
+      "start": 5.88,
+      "end": 6.14,
+      "gap_before": 0.0
+    },
+    {
+      "text": "feel",
+      "start": 6.14,
+      "end": 6.68,
+      "gap_before": 0.0
+    },
+    {
+      "text": "bad",
+      "start": 6.68,
+      "end": 7.9,
+      "gap_before": 0.0
+    },
+    {
+      "text": "Seeing",
+      "start": 7.9,
+      "end": 9.36,
+      "gap_before": 0.0
+    },
+    {
+      "text": "me",
+      "start": 9.36,
+      "end": 9.74,
+      "gap_before": 0.0
+    },
+    {
+      "text": "so",
+      "start": 9.74,
+      "end": 10.14,
+      "gap_before": 0.0
+    },
+    {
+      "text": "tense,",
+      "start": 10.14,
+      "end": 11.04,
+      "gap_before": 0.0
+    },
+    {
+      "text": "no",
+      "start": 11.04,
+      "end": 12.8,
+      "gap_before": 0.0
+    },
+    {
+      "text": "self",
+      "start": 12.8,
+      "end": 13.4,
+      "gap_before": 0.0
+    },
+    {
+      "text": "-confidence",
+      "start": 13.4,
+      "end": 14.26,
+      "gap_before": 0.0
+    },
+    {
+      "text": "Let",
+      "start": 14.26,
+      "end": 15.46,
+      "gap_before": 0.0
+    },
+    {
+      "text": "you",
+      "start": 15.46,
+      "end": 15.66,
+      "gap_before": 0.0
+    },
+    {
+      "text": "see",
+      "start": 15.66,
+      "end": 16.04,
+      "gap_before": 0.0
+    },
+    {
+      "text": "the",
+      "start": 16.04,
+      "end": 16.72,
+      "gap_before": 0.0
+    },
+    {
+      "text": "winner",
+      "start": 16.72,
+      "end": 17.06,
+      "gap_before": 0.0
+    },
+    {
+      "text": "takes",
+      "start": 17.06,
+      "end": 17.86,
+      "gap_before": 0.0
+    },
+    {
+      "text": "it",
+      "start": 17.86,
+      "end": 18.62,
+      "gap_before": 0.0
+    },
+    {
+      "text": "all",
+      "start": 18.62,
+      "end": 20.88,
+      "gap_before": 0.0
+    },
+    {
+      "text": "The",
+      "start": 22.900000000000002,
+      "end": 24.26,
+      "gap_before": 2.020000000000003
+    },
+    {
+      "text": "winner",
+      "start": 24.26,
+      "end": 24.54,
+      "gap_before": 0.0
+    },
+    {
+      "text": "takes",
+      "start": 24.54,
+      "end": 25.8,
+      "gap_before": 0.0
+    },
+    {
+      "text": "it",
+      "start": 25.8,
+      "end": 26.3,
+      "gap_before": 0.0
+    },
+    {
+      "text": "all",
+      "start": 26.3,
+      "end": 30.08,
+      "gap_before": 0.0
+    },
+    {
+      "text": "The",
+      "start": 30.94,
+      "end": 31.62,
+      "gap_before": 0.860000000000003
+    },
+    {
+      "text": "game",
+      "start": 31.62,
+      "end": 31.94,
+      "gap_before": 0.0
+    },
+    {
+      "text": "is",
+      "start": 31.94,
+      "end": 32.26,
+      "gap_before": 0.0
+    },
+    {
+      "text": "on",
+      "start": 32.26,
+      "end": 32.86,
+      "gap_before": 0.0
+    },
+    {
+      "text": "the",
+      "start": 32.86,
+      "end": 33.12,
+      "gap_before": 0.0
+    },
+    {
+      "text": "ground",
+      "start": 33.12,
+      "end": 33.8,
+      "gap_before": 0.0
+    },
+    {
+      "text": "A",
+      "start": 33.8,
+      "end": 35.44,
+      "gap_before": 0.0
+    },
+    {
+      "text": "lover",
+      "start": 35.44,
+      "end": 35.62,
+      "gap_before": 0.0
+    },
+    {
+      "text": "or",
+      "start": 35.62,
+      "end": 36.24,
+      "gap_before": 0.0
+    },
+    {
+      "text": "a",
+      "start": 36.24,
+      "end": 37.28,
+      "gap_before": 0.0
+    },
+    {
+      "text": "friend",
+      "start": 37.28,
+      "end": 38.24,
+      "gap_before": 0.0
+    },
+    {
+      "text": "A",
+      "start": 38.24,
+      "end": 39.12,
+      "gap_before": 0.0
+    },
+    {
+      "text": "big",
+      "start": 39.12,
+      "end": 39.38,
+      "gap_before": 0.0
+    },
+    {
+      "text": "team",
+      "start": 39.38,
+      "end": 39.76,
+      "gap_before": 0.0
+    },
+    {
+      "text": "of",
+      "start": 39.76,
+      "end": 40.48,
+      "gap_before": 0.0
+    },
+    {
+      "text": "small",
+      "start": 40.48,
+      "end": 41.32,
+      "gap_before": 0.0
+    },
+    {
+      "text": "The",
+      "start": 41.32,
+      "end": 42.88,
+      "gap_before": 0.0
+    },
+    {
+      "text": "winner",
+      "start": 42.88,
+      "end": 43.12,
+      "gap_before": 0.0
+    },
+    {
+      "text": "takes",
+      "start": 43.12,
+      "end": 43.64,
+      "gap_before": 0.0
+    },
+    {
+      "text": "it",
+      "start": 43.64,
+      "end": 44.58,
+      "gap_before": 0.0
+    },
+    {
+      "text": "all",
+      "start": 44.58,
+      "end": 46.4,
+      "gap_before": 0.0
+    },
+    {
+      "text": "The",
+      "start": 62.46,
+      "end": 63.86,
+      "gap_before": 16.060000000000002
+    },
+    {
+      "text": "winner",
+      "start": 63.86,
+      "end": 64.48,
+      "gap_before": 0.0
+    },
+    {
+      "text": "takes",
+      "start": 64.48,
+      "end": 66.54,
+      "gap_before": 0.0
+    },
+    {
+      "text": "it",
+      "start": 66.54,
+      "end": 68.98,
+      "gap_before": 0.0
+    },
+    {
+      "text": "all",
+      "start": 68.98,
+      "end": 70.14,
+      "gap_before": 0.0
+    }
+  ],
+  "provenance": {
+    "alignment_verified": false,
+    "method": "optional LOCAL word transcription",
+    "provider": "faster_whisper_local",
+    "model_directory": "E:\\ai-video-editor\\models\\faster-whisper-small.en-d1d751a5",
+    "language": "en"
+  },
+  "warnings": [
+    "Singing transcription is unreliable; these are NOT verified lyrics.",
+    "Listen against this exact hashed music and sample-zero clock before acceptance.",
+    "No gameplay transcription, automatic alignment assertion, or accepted LyricTrack."
+  ],
+  "line_candidates": [
+    {
+      "text": "I apologize if it makes you feel",
+      "start": 0.0,
+      "end": 6.68,
+      "word_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "text": "bad Seeing me so tense, no self",
+      "start": 6.68,
+      "end": 13.4,
+      "word_indices": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "text": "-confidence Let you see the winner takes",
+      "start": 13.4,
+      "end": 17.86,
+      "word_indices": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "text": "it all",
+      "start": 17.86,
+      "end": 20.88,
+      "word_indices": [
+        21,
+        22
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "text": "The winner takes it all",
+      "start": 22.900000000000002,
+      "end": 30.08,
+      "word_indices": [
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "text": "The game is on the ground A",
+      "start": 30.94,
+      "end": 35.44,
+      "word_indices": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "text": "lover or a friend A big team",
+      "start": 35.44,
+      "end": 39.76,
+      "word_indices": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "text": "of small The winner takes it all",
+      "start": 39.76,
+      "end": 46.4,
+      "word_indices": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "text": "The winner takes it all",
+      "start": 62.46,
+      "end": 70.14,
+      "word_indices": [
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "status": "UNVERIFIED"
+    }
+  ]
+}

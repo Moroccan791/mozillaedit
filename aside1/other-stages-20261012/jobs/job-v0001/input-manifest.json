@@ -1,0 +1,47 @@
+{
+  "song": "E:\\audio\\YTDown.com_YouTube_Media_MpoZ0NVXswY_Let-the-world-burn-Audio-Edit_009_128k.mp3",
+  "song_sha256": "7903d3100912c08cfe7e35e050e2f80d576c64697d977b1dc26a2978e372c13d",
+  "clips": [
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "size": 218971338,
+      "mtime_ns": 1791719274110435100
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_56-Wg-oTX6M_Champions-2026-Bundle-ASMR_002_720p.mp4",
+      "size": 201921686,
+      "mtime_ns": 1791719664575430500
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_iufseng8xEs_Ranked-but-I-m-Overheating-Non-Stop_002_720p.mp4",
+      "size": 213554114,
+      "mtime_ns": 1791719686101425600
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_j59f0UqxcIs_90-aim-10-brain-immortal-2_002_720p.mp4",
+      "size": 212786134,
+      "mtime_ns": 1791719657750525900
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "size": 227860412,
+      "mtime_ns": 1791719579171113400
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_z0ALKJiFRDU_Warden-is-Simply-Overpowered_002_720p.mp4",
+      "size": 205354591,
+      "mtime_ns": 1791719581639135500
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_Z210dNkaapY_Your-aim-is-just-fkn-amazing-man_002_720p.mp4",
+      "size": 161826858,
+      "mtime_ns": 1791719566066412900
+    }
+  ],
+  "event_files": [
+    {
+      "path": "E:\\aside\\other-stages-20261012\\reviewed-context-events.json",
+      "sha256": "02bc99babe023125af25d08fbbe6041e5cd1157fc44644275153dd4369b36bcb"
+    }
+  ]
+}

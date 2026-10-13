@@ -1,0 +1,8 @@
+QA: E:\aside\system-lock-20261012\original-plan-renders\encounters-v0001\encounters.mp4
+----------------------------------------
+[PASS] decode
+[PASS] pix_fmt universal  -- pix_fmt=yuv420p
+[PASS] streams  -- video=True audio=True
+[PASS] a/v duration sync  -- video=8.00s audio=8.00s
+----------------------------------------
+RESULT: OK

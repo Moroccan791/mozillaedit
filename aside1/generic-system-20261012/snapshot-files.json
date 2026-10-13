@@ -1,0 +1,572 @@
+[
+  {
+    "source": "E:\\ai-video-editor\\aive\\accent_audit.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\accent_audit.py",
+    "bytes": 13126
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\acoustic_cache.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\acoustic_cache.py",
+    "bytes": 16942
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\analyze.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\analyze.py",
+    "bytes": 5102
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\attack_qa.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\attack_qa.py",
+    "bytes": 19013
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\audio.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\audio.py",
+    "bytes": 1565
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\authored_footage.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\authored_footage.py",
+    "bytes": 14187
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\automation_runner.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\automation_runner.py",
+    "bytes": 9786
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\beats.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\beats.py",
+    "bytes": 9944
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\cache.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\cache.py",
+    "bytes": 769
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\calibration_report.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\calibration_report.py",
+    "bytes": 15201
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\captions.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\captions.py",
+    "bytes": 5599
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\closure_qa.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\closure_qa.py",
+    "bytes": 19317
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\conductor.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\conductor.py",
+    "bytes": 11275
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\daily_runner.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\daily_runner.py",
+    "bytes": 28479
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\encounters.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\encounters.py",
+    "bytes": 27249
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\encounter_qa.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\encounter_qa.py",
+    "bytes": 30734
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\encounter_render.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\encounter_render.py",
+    "bytes": 34479
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\encounter_text.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\encounter_text.py",
+    "bytes": 13809
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\events.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\events.py",
+    "bytes": 3683
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\event_io.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\event_io.py",
+    "bytes": 3153
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\export.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\export.py",
+    "bytes": 3317
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\ffprobe.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\ffprobe.py",
+    "bytes": 2609
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\firing_map.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\firing_map.py",
+    "bytes": 21353
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\gameplay_gate.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\gameplay_gate.py",
+    "bytes": 13957
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\grade.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\grade.py",
+    "bytes": 1788
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\graph.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\graph.py",
+    "bytes": 19575
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\hit_map.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\hit_map.py",
+    "bytes": 12299
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\impact_motion.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\impact_motion.py",
+    "bytes": 8282
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\killfeed.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\killfeed.py",
+    "bytes": 6305
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\llm.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\llm.py",
+    "bytes": 2821
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\local_authored_planner.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\local_authored_planner.py",
+    "bytes": 25970
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\local_preview_runner.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\local_preview_runner.py",
+    "bytes": 10814
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\lyric_design.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\lyric_design.py",
+    "bytes": 20727
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\lyric_track.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\lyric_track.py",
+    "bytes": 16045
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\lyric_workflow.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\lyric_workflow.py",
+    "bytes": 18852
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\multishot_map.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\multishot_map.py",
+    "bytes": 16826
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\music.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\music.py",
+    "bytes": 8190
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\music_lyrics.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\music_lyrics.py",
+    "bytes": 17192
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\planner.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\planner.py",
+    "bytes": 19183
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\povkills.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\povkills.py",
+    "bytes": 20396
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\project.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\project.py",
+    "bytes": 4735
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\qa.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\qa.py",
+    "bytes": 5193
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\rc.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\rc.py",
+    "bytes": 2416
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\render.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\render.py",
+    "bytes": 2355
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\render_chunked.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\render_chunked.py",
+    "bytes": 2331
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\render_chunked2.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\render_chunked2.py",
+    "bytes": 2382
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\render_chunked3.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\render_chunked3.py",
+    "bytes": 2389
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\rhythm_planner.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\rhythm_planner.py",
+    "bytes": 16662
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\roughcut.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\roughcut.py",
+    "bytes": 3854
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\shell.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\shell.py",
+    "bytes": 2353
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\shots.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\shots.py",
+    "bytes": 3687
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\supported_pipeline.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\supported_pipeline.py",
+    "bytes": 6307
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\system.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\system.py",
+    "bytes": 3074
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\text.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\text.py",
+    "bytes": 5794
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\transcribe.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\transcribe.py",
+    "bytes": 2190
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\visual_gate.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\visual_gate.py",
+    "bytes": 5674
+  },
+  {
+    "source": "E:\\ai-video-editor\\aive\\__init__.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\aive\\__init__.py",
+    "bytes": 210
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\fixtures\\local_beam_unconfirmed.json",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\fixtures\\local_beam_unconfirmed.json",
+    "bytes": 131556
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_accent_audit.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_accent_audit.py",
+    "bytes": 8374
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_acoustic_cache.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_acoustic_cache.py",
+    "bytes": 11780
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_analysis_cache.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_analysis_cache.py",
+    "bytes": 1317
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_attack_qa.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_attack_qa.py",
+    "bytes": 14751
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_authored_footage.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_authored_footage.py",
+    "bytes": 9196
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_authored_long.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_authored_long.py",
+    "bytes": 14119
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_automation_runner.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_automation_runner.py",
+    "bytes": 5878
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_beats.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_beats.py",
+    "bytes": 3250
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_calibration_report.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_calibration_report.py",
+    "bytes": 9464
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_closure_qa.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_closure_qa.py",
+    "bytes": 12577
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_daily_authored.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_daily_authored.py",
+    "bytes": 16443
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_daily_runner.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_daily_runner.py",
+    "bytes": 16198
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_encounters.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_encounters.py",
+    "bytes": 9694
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_encounter_phrases.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_encounter_phrases.py",
+    "bytes": 17320
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_encounter_qa.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_encounter_qa.py",
+    "bytes": 13262
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_encounter_render.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_encounter_render.py",
+    "bytes": 10430
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_encounter_text.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_encounter_text.py",
+    "bytes": 12052
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_event_interface.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_event_interface.py",
+    "bytes": 2240
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_event_io.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_event_io.py",
+    "bytes": 3330
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_firing_map.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_firing_map.py",
+    "bytes": 14175
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_gameplay_gate.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_gameplay_gate.py",
+    "bytes": 17287
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_graph_timing.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_graph_timing.py",
+    "bytes": 1103
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_hit_map.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_hit_map.py",
+    "bytes": 10208
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_impact_motion.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_impact_motion.py",
+    "bytes": 8583
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_killfeed.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_killfeed.py",
+    "bytes": 1166
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_legacy_alignment_validation.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_legacy_alignment_validation.py",
+    "bytes": 11109
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_local_authored_planner.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_local_authored_planner.py",
+    "bytes": 20584
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_local_lyrics_integration.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_local_lyrics_integration.py",
+    "bytes": 6384
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_local_preview_runner.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_local_preview_runner.py",
+    "bytes": 3062
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_lyric_decode_bounds.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_lyric_decode_bounds.py",
+    "bytes": 3067
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_lyric_design.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_lyric_design.py",
+    "bytes": 11808
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_lyric_track.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_lyric_track.py",
+    "bytes": 10955
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_lyric_workflow.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_lyric_workflow.py",
+    "bytes": 21161
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_multishot_map.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_multishot_map.py",
+    "bytes": 14287
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_multishot_render.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_multishot_render.py",
+    "bytes": 9201
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_music_lyrics.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_music_lyrics.py",
+    "bytes": 14053
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_planner_timing.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_planner_timing.py",
+    "bytes": 9776
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_povkills.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_povkills.py",
+    "bytes": 10683
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_rhythm_planner.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_rhythm_planner.py",
+    "bytes": 7153
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_supported_pipeline.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_supported_pipeline.py",
+    "bytes": 4386
+  },
+  {
+    "source": "E:\\ai-video-editor\\tests\\test_visual_gate.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\tests\\test_visual_gate.py",
+    "bytes": 2422
+  },
+  {
+    "source": "E:\\ai-video-editor\\edit.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\edit.py",
+    "bytes": 33456
+  },
+  {
+    "source": "E:\\ai-video-editor\\AGENTS.md",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\AGENTS.md",
+    "bytes": 2816
+  },
+  {
+    "source": "E:\\ai-video-editor\\README.md",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\README.md",
+    "bytes": 21000
+  },
+  {
+    "source": "E:\\ai-video-editor\\MUSIC-LYRICS.md",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\MUSIC-LYRICS.md",
+    "bytes": 7744
+  },
+  {
+    "source": "E:\\ai-video-editor\\MULTISHOT-MAP.md",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\MULTISHOT-MAP.md",
+    "bytes": 9397
+  },
+  {
+    "source": "E:\\ai-video-editor\\CLOSURE-QA.md",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\CLOSURE-QA.md",
+    "bytes": 4271
+  },
+  {
+    "source": "E:\\ai-video-editor\\requirements.txt",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\requirements.txt",
+    "bytes": 171
+  },
+  {
+    "source": "E:\\ai-video-editor\\requirements-optional.txt",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\ai-video-editor\\requirements-optional.txt",
+    "bytes": 91
+  },
+  {
+    "source": "E:\\aside\\AI-CONTINUE-HERE.md",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\handoff\\AI-CONTINUE-HERE.md",
+    "bytes": 9564
+  },
+  {
+    "source": "E:\\aside\\generic-system-20261012\\REUSABLE-SKILL.md",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\handoff\\REUSABLE-SKILL.md",
+    "bytes": 2308
+  },
+  {
+    "source": "E:\\aside\\generic-system-20261012\\full-tests.log",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\handoff\\full-tests.log",
+    "bytes": 65451
+  },
+  {
+    "source": "E:\\aside\\generic-system-20261012\\focused-tests.log",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\handoff\\focused-tests.log",
+    "bytes": 8699
+  },
+  {
+    "source": "E:\\aside\\generic-system-20261012\\lyric-proofs\\proof-summary.json",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\handoff\\proof-summary.json",
+    "bytes": 1144
+  },
+  {
+    "source": "E:\\aside\\generic-system-20261012\\saved-v2-calibration-report.json",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\handoff\\saved-v2-calibration-report.json",
+    "bytes": 2390
+  },
+  {
+    "source": "E:\\aside\\generic-system-20261012\\run_lyrics_proof.py",
+    "snapshot": "E:\\aside\\generic-system-20261012\\bundle-source\\handoff\\run_lyrics_proof.py",
+    "bytes": 3847
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "full_decode_returncode": 0,
+  "decode_stderr": "",
+  "frame_count": 2090,
+  "duration": 34.833333333333336,
+  "style": "authored-footage",
+  "clips": 10,
+  "all_assignments_unconfirmed": true,
+  "music_reference_returncode": 0,
+  "music_pcm_identical": true,
+  "music_sha256": "04b7851a0c127240014378514fc609e2fb9b08a2464c497ba5333e614d4b95db"
+}

@@ -1,0 +1,17 @@
+preview-1 template-derived detected True
+preview-2 template-derived detected True
+preview-3 template-derived detected False
+preview-4 template-derived detected True
+preview-5 template-derived detected True
+preview-6 held-out detected False
+preview-7 held-out detected False
+preview-8 held-out detected False
+preview-9 held-out detected False
+preview-10 held-out detected False
+{
+  "visual_observation_count": 24,
+  "confirmed_count": 0,
+  "held_out_hits": 0,
+  "held_out_reference_count": 5,
+  "elapsed_seconds": 2.987
+}

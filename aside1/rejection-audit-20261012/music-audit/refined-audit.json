@@ -1,0 +1,1037 @@
+{
+  "calibration": [
+    {
+      "signal": "noise_burst",
+      "known_attack": 1.0,
+      "envelope_peak": 1.0042630385487528,
+      "peak_lateness_ms": 4.263038548752762
+    },
+    {
+      "signal": "bass_attack",
+      "known_attack": 1.0,
+      "envelope_peak": 1.0100680272108844,
+      "peak_lateness_ms": 10.0680272108844
+    }
+  ],
+  "targets": [
+    {
+      "label": "1v9-1",
+      "target": 18.2102,
+      "cached_strength_rank_in_context_candidate_interval": 1,
+      "context_candidate_interval": [
+        17.865999999999985,
+        19.365999999999985
+      ],
+      "cached_candidates": [
+        {
+          "time": 17.8852,
+          "strength": 0.1745
+        },
+        {
+          "time": 17.9839,
+          "strength": 0.2192
+        },
+        {
+          "time": 18.1754,
+          "strength": 0.2389
+        },
+        {
+          "time": 18.2102,
+          "strength": 0.3741
+        },
+        {
+          "time": 18.2683,
+          "strength": 0.2708
+        },
+        {
+          "time": 18.3786,
+          "strength": 0.2161
+        },
+        {
+          "time": 18.5005,
+          "strength": 0.2547
+        },
+        {
+          "time": 18.6166,
+          "strength": 0.2154
+        },
+        {
+          "time": 18.7211,
+          "strength": 0.1957
+        },
+        {
+          "time": 18.8198,
+          "strength": 0.1959
+        },
+        {
+          "time": 18.9243,
+          "strength": 0.187
+        },
+        {
+          "time": 19.0346,
+          "strength": 0.1925
+        },
+        {
+          "time": 19.1274,
+          "strength": 0.1965
+        },
+        {
+          "time": 19.2726,
+          "strength": 0.1961
+        }
+      ],
+      "attack_band_metrics": {
+        "low30_180": {
+          "max_8ms_rise_time": 18.1892,
+          "attack_start_thresholds": {
+            "0.1": 18.173199999999998,
+            "0.2": 18.1772,
+            "0.5": 18.1862
+          },
+          "rise_from_trough_ratio": 5.280074150615621,
+          "rms_max_time": 18.1892,
+          "rms_max": 0.07397287311666692
+        },
+        "mid180_800": {
+          "max_8ms_rise_time": 18.164199999999997,
+          "attack_start_thresholds": {
+            "0.1": 18.1522,
+            "0.2": 18.1542,
+            "0.5": 18.1602
+          },
+          "rise_from_trough_ratio": 1.8803509408780494,
+          "rms_max_time": 18.1712,
+          "rms_max": 0.12169309060210212
+        },
+        "upper800_3000": {
+          "max_8ms_rise_time": 18.205199999999998,
+          "attack_start_thresholds": {
+            "0.1": 18.199199999999998,
+            "0.2": 18.202199999999998,
+            "0.5": 18.205199999999998
+          },
+          "rise_from_trough_ratio": 1.9182352510068208,
+          "rms_max_time": 18.2162,
+          "rms_max": 0.05720343092230959
+        },
+        "high3000_12000": {
+          "max_8ms_rise_time": 18.164199999999997,
+          "attack_start_thresholds": {
+            "0.1": 18.1452,
+            "0.2": 18.150199999999998,
+            "0.5": 18.1592
+          },
+          "rise_from_trough_ratio": 1.9766492370438542,
+          "rms_max_time": 18.1692,
+          "rms_max": 0.01776601287174948
+        }
+      },
+      "merged_associated_event": {
+        "peak_time": 18.184,
+        "delta_to_target_ms": -26.199999999999335,
+        "composite": 0.7803828120231628,
+        "percussive_composite": 0.26347556710243225,
+        "flux_band_normalized": {
+          "low30_180": 1.2388172149658203,
+          "mid180_800": 0.5689719319343567,
+          "upper800_3000": 0.6205244660377502,
+          "high3000_12000": 0.6932176947593689
+        },
+        "percussive_flux_share": 0.7303450107574463,
+        "energy_percussive_share_by_band": {
+          "low30_180": 0.4117852449417114,
+          "mid180_800": 0.24902476370334625,
+          "upper800_3000": 0.27530086040496826,
+          "high3000_12000": 0.17337094247341156
+        },
+        "attack_rises": {
+          "low30_180": {
+            "start20": 18.184,
+            "baseline": 0.015505313567326698,
+            "peak_rms": 0.07557500270844554,
+            "rise_ratio": 4.8741357196945385
+          },
+          "mid180_800": {
+            "start20": null,
+            "baseline": 0.0825695758501341,
+            "peak_rms": 0.09923722125006763,
+            "rise_ratio": 1.2018618265519962
+          },
+          "upper800_3000": {
+            "start20": null,
+            "baseline": 0.05591090716326992,
+            "peak_rms": 0.04837208900593422,
+            "rise_ratio": 0.8651637302863615
+          },
+          "high3000_12000": {
+            "start20": 18.158,
+            "baseline": 0.011102746200545409,
+            "peak_rms": 0.01779100756898753,
+            "rise_ratio": 1.6023970327729522
+          }
+        },
+        "rank_pm1s": 11,
+        "merged_rank": 8
+      },
+      "percussive_rank_pm1s": 8,
+      "merged_event_count_pm1s": 16,
+      "top3_merged_percussive": [
+        {
+          "time": 18.637999999999998,
+          "percussive": 0.5930829048156738,
+          "composite": 1.1339120864868164
+        },
+        {
+          "time": 17.964,
+          "percussive": 0.28579607605934143,
+          "composite": 0.717674970626831
+        },
+        {
+          "time": 18.794,
+          "percussive": 0.2846912145614624,
+          "composite": 1.0888975858688354
+        }
+      ]
+    },
+    {
+      "label": "1v9-2",
+      "target": 23.4347,
+      "cached_strength_rank_in_context_candidate_interval": 1,
+      "context_candidate_interval": [
+        22.268299999999982,
+        23.768299999999982
+      ],
+      "cached_candidates": [
+        {
+          "time": 22.4305,
+          "strength": 0.1949
+        },
+        {
+          "time": 22.535,
+          "strength": 0.1791
+        },
+        {
+          "time": 22.6046,
+          "strength": 0.1629
+        },
+        {
+          "time": 22.6569,
+          "strength": 0.1594
+        },
+        {
+          "time": 22.7614,
+          "strength": 0.1705
+        },
+        {
+          "time": 22.9761,
+          "strength": 0.1898
+        },
+        {
+          "time": 23.1503,
+          "strength": 0.2014
+        },
+        {
+          "time": 23.2954,
+          "strength": 0.1856
+        },
+        {
+          "time": 23.3477,
+          "strength": 0.2114
+        },
+        {
+          "time": 23.3941,
+          "strength": 0.2079
+        },
+        {
+          "time": 23.4347,
+          "strength": 0.2408
+        },
+        {
+          "time": 23.516,
+          "strength": 0.1964
+        },
+        {
+          "time": 23.6669,
+          "strength": 0.2279
+        },
+        {
+          "time": 23.7482,
+          "strength": 0.2274
+        }
+      ],
+      "attack_band_metrics": {
+        "low30_180": {
+          "max_8ms_rise_time": 23.4317,
+          "attack_start_thresholds": {
+            "0.1": 23.424699999999998,
+            "0.2": 23.427699999999998,
+            "0.5": 23.429699999999997
+          },
+          "rise_from_trough_ratio": 10.418490690010007,
+          "rms_max_time": 23.4317,
+          "rms_max": 0.16238402632432064
+        },
+        "mid180_800": {
+          "max_8ms_rise_time": 23.3997,
+          "attack_start_thresholds": {
+            "0.1": 23.3787,
+            "0.2": 23.3817,
+            "0.5": 23.3937
+          },
+          "rise_from_trough_ratio": 4.26655646866017,
+          "rms_max_time": 23.3997,
+          "rms_max": 0.15017825131064724
+        },
+        "upper800_3000": {
+          "max_8ms_rise_time": 23.369699999999998,
+          "attack_start_thresholds": {
+            "0.1": 23.3477,
+            "0.2": 23.348699999999997,
+            "0.5": 23.363699999999998
+          },
+          "rise_from_trough_ratio": 3.0261157818786306,
+          "rms_max_time": 23.369699999999998,
+          "rms_max": 0.06227870571985886
+        },
+        "high3000_12000": {
+          "max_8ms_rise_time": 23.398699999999998,
+          "attack_start_thresholds": {
+            "0.1": 23.374699999999997,
+            "0.2": 23.3767,
+            "0.5": 23.3937
+          },
+          "rise_from_trough_ratio": 1.9675597058781404,
+          "rms_max_time": 23.398699999999998,
+          "rms_max": 0.019907117877241493
+        }
+      },
+      "merged_associated_event": {
+        "peak_time": 23.412,
+        "delta_to_target_ms": -22.700000000000387,
+        "composite": 1.03782057762146,
+        "percussive_composite": 0.24327880144119263,
+        "flux_band_normalized": {
+          "low30_180": 1.5988036394119263,
+          "mid180_800": 0.9757596254348755,
+          "upper800_3000": 0.7993435263633728,
+          "high3000_12000": 0.7773755788803101
+        },
+        "percussive_flux_share": 0.5409403443336487,
+        "energy_percussive_share_by_band": {
+          "low30_180": 0.2757225036621094,
+          "mid180_800": 0.17123949527740479,
+          "upper800_3000": 0.2591472268104553,
+          "high3000_12000": 0.3080592751502991
+        },
+        "attack_rises": {
+          "low30_180": {
+            "start20": 23.41,
+            "baseline": 0.042011783633318485,
+            "peak_rms": 0.10410763137361694,
+            "rise_ratio": 2.4780578772802624
+          },
+          "mid180_800": {
+            "start20": 23.394,
+            "baseline": 0.05753676925863013,
+            "peak_rms": 0.132616707483967,
+            "rise_ratio": 2.3049036153827926
+          },
+          "upper800_3000": {
+            "start20": null,
+            "baseline": 0.03879971089648933,
+            "peak_rms": 0.04706113114595235,
+            "rise_ratio": 1.2129247888029393
+          },
+          "high3000_12000": {
+            "start20": 23.412,
+            "baseline": 0.010753491644408704,
+            "peak_rms": 0.01614707905518218,
+            "rise_ratio": 1.5015661505699234
+          }
+        },
+        "rank_pm1s": 1,
+        "merged_rank": 1
+      },
+      "percussive_rank_pm1s": 4,
+      "merged_event_count_pm1s": 15,
+      "top3_merged_percussive": [
+        {
+          "time": 22.778,
+          "percussive": 0.32841554284095764,
+          "composite": 0.8876800537109375
+        },
+        {
+          "time": 23.5,
+          "percussive": 0.2738172113895416,
+          "composite": 0.8880246877670288
+        },
+        {
+          "time": 22.509999999999998,
+          "percussive": 0.2593610882759094,
+          "composite": 0.9783727526664734
+        }
+      ]
+    },
+    {
+      "label": "1v9-3",
+      "target": 27.2022,
+      "cached_strength_rank_in_context_candidate_interval": 1,
+      "context_candidate_interval": [
+        26.0325517006803,
+        27.5325517006803
+      ],
+      "cached_candidates": [
+        {
+          "time": 26.0644,
+          "strength": 0.2255
+        },
+        {
+          "time": 26.1631,
+          "strength": 0.2048
+        },
+        {
+          "time": 26.2502,
+          "strength": 0.2
+        },
+        {
+          "time": 26.5752,
+          "strength": 0.2185
+        },
+        {
+          "time": 26.6855,
+          "strength": 0.1986
+        },
+        {
+          "time": 26.8074,
+          "strength": 0.2055
+        },
+        {
+          "time": 26.8829,
+          "strength": 0.2392
+        },
+        {
+          "time": 27.0803,
+          "strength": 0.2304
+        },
+        {
+          "time": 27.1615,
+          "strength": 0.2814
+        },
+        {
+          "time": 27.2022,
+          "strength": 0.3697
+        },
+        {
+          "time": 27.3763,
+          "strength": 0.1982
+        }
+      ],
+      "attack_band_metrics": {
+        "low30_180": {
+          "max_8ms_rise_time": 27.1542,
+          "attack_start_thresholds": {
+            "0.1": 27.1482,
+            "0.2": 27.1512,
+            "0.5": 27.1522
+          },
+          "rise_from_trough_ratio": 8.148596238548507,
+          "rms_max_time": 27.1552,
+          "rms_max": 0.6719446676475975
+        },
+        "mid180_800": {
+          "max_8ms_rise_time": 27.1902,
+          "attack_start_thresholds": {
+            "0.1": 27.1702,
+            "0.2": 27.1702,
+            "0.5": 27.1842
+          },
+          "rise_from_trough_ratio": 2.212258509370756,
+          "rms_max_time": 27.1912,
+          "rms_max": 0.40637118099500974
+        },
+        "upper800_3000": {
+          "max_8ms_rise_time": 27.1832,
+          "attack_start_thresholds": {
+            "0.1": 27.1722,
+            "0.2": 27.1782,
+            "0.5": 27.1802
+          },
+          "rise_from_trough_ratio": 3.384062824282481,
+          "rms_max_time": 27.1832,
+          "rms_max": 0.4058390150034582
+        },
+        "high3000_12000": {
+          "max_8ms_rise_time": 27.1812,
+          "attack_start_thresholds": {
+            "0.1": 27.1772,
+            "0.2": 27.1782,
+            "0.5": 27.1802
+          },
+          "rise_from_trough_ratio": 2.4396394313423615,
+          "rms_max_time": 27.1812,
+          "rms_max": 0.3293310188505342
+        }
+      },
+      "merged_associated_event": {
+        "peak_time": 27.18,
+        "delta_to_target_ms": -22.200000000001552,
+        "composite": 1.3695439100265503,
+        "percussive_composite": 0.7240794897079468,
+        "flux_band_normalized": {
+          "low30_180": 0.03523853421211243,
+          "mid180_800": 0.3412227928638458,
+          "upper800_3000": 2.730530261993408,
+          "high3000_12000": 2.3711841106414795
+        },
+        "percussive_flux_share": 0.3521825969219208,
+        "energy_percussive_share_by_band": {
+          "low30_180": 0.04714161902666092,
+          "mid180_800": 0.42108383774757385,
+          "upper800_3000": 0.7071211338043213,
+          "high3000_12000": 0.6903873682022095
+        },
+        "attack_rises": {
+          "low30_180": {
+            "start20": 27.174,
+            "baseline": 0.3275868275138796,
+            "peak_rms": 0.42953814568780446,
+            "rise_ratio": 1.3112192237592157
+          },
+          "mid180_800": {
+            "start20": 27.172,
+            "baseline": 0.16335096780551694,
+            "peak_rms": 0.38868243598443936,
+            "rise_ratio": 2.37943148549214
+          },
+          "upper800_3000": {
+            "start20": 27.18,
+            "baseline": 0.1550236668407368,
+            "peak_rms": 0.3612164332892502,
+            "rise_ratio": 2.330072824674022
+          },
+          "high3000_12000": {
+            "start20": 27.176000000000002,
+            "baseline": 0.10633032214513712,
+            "peak_rms": 0.3224074022756333,
+            "rise_ratio": 3.032130400512908
+          }
+        },
+        "rank_pm1s": 1,
+        "merged_rank": 1
+      },
+      "percussive_rank_pm1s": 1,
+      "merged_event_count_pm1s": 16,
+      "top3_merged_percussive": [
+        {
+          "time": 27.18,
+          "percussive": 0.7240794897079468,
+          "composite": 1.3695439100265503
+        },
+        {
+          "time": 26.858,
+          "percussive": 0.4973430037498474,
+          "composite": 1.093285083770752
+        },
+        {
+          "time": 28.15,
+          "percussive": 0.46735063195228577,
+          "composite": 1.0804133415222168
+        }
+      ]
+    },
+    {
+      "label": "reyna-1",
+      "target": 31.0799,
+      "cached_strength_rank_in_context_candidate_interval": 1,
+      "context_candidate_interval": [
+        30.538000000000004,
+        32.038000000000004
+      ],
+      "cached_candidates": [
+        {
+          "time": 30.6503,
+          "strength": 0.2396
+        },
+        {
+          "time": 30.7722,
+          "strength": 0.2407
+        },
+        {
+          "time": 30.9116,
+          "strength": 0.2478
+        },
+        {
+          "time": 31.0451,
+          "strength": 0.2537
+        },
+        {
+          "time": 31.0799,
+          "strength": 0.3041
+        },
+        {
+          "time": 31.1728,
+          "strength": 0.2375
+        },
+        {
+          "time": 31.225,
+          "strength": 0.2316
+        },
+        {
+          "time": 31.2947,
+          "strength": 0.1757
+        },
+        {
+          "time": 31.3411,
+          "strength": 0.1744
+        },
+        {
+          "time": 31.5385,
+          "strength": 0.2666
+        }
+      ],
+      "attack_band_metrics": {
+        "low30_180": {
+          "max_8ms_rise_time": 31.062899999999996,
+          "attack_start_thresholds": {
+            "0.1": 31.049899999999997,
+            "0.2": 31.0509,
+            "0.5": 31.0569
+          },
+          "rise_from_trough_ratio": 3.5893930525617774,
+          "rms_max_time": 31.066899999999997,
+          "rms_max": 0.8183028732044638
+        },
+        "mid180_800": {
+          "max_8ms_rise_time": 31.060899999999997,
+          "attack_start_thresholds": {
+            "0.1": 31.0479,
+            "0.2": 31.048899999999996,
+            "0.5": 31.057899999999997
+          },
+          "rise_from_trough_ratio": 4.344251529755398,
+          "rms_max_time": 31.060899999999997,
+          "rms_max": 0.5211987758965988
+        },
+        "upper800_3000": {
+          "max_8ms_rise_time": 31.0799,
+          "attack_start_thresholds": {
+            "0.1": 31.061899999999998,
+            "0.2": 31.061899999999998,
+            "0.5": 31.066899999999997
+          },
+          "rise_from_trough_ratio": 2.5056260573278775,
+          "rms_max_time": 31.080899999999996,
+          "rms_max": 0.2740115389155571
+        },
+        "high3000_12000": {
+          "max_8ms_rise_time": 31.011899999999997,
+          "attack_start_thresholds": {
+            "0.1": 30.998899999999995,
+            "0.2": 31.001899999999996,
+            "0.5": 31.008899999999997
+          },
+          "rise_from_trough_ratio": 1.736690536867014,
+          "rms_max_time": 31.017899999999997,
+          "rms_max": 0.23072620511438055
+        }
+      },
+      "merged_associated_event": {
+        "peak_time": 31.056,
+        "delta_to_target_ms": -23.89999999999759,
+        "composite": 1.2942399978637695,
+        "percussive_composite": 0.2707863450050354,
+        "flux_band_normalized": {
+          "low30_180": 2.046708345413208,
+          "mid180_800": 1.9993458986282349,
+          "upper800_3000": 0.6489715576171875,
+          "high3000_12000": 0.4819340407848358
+        },
+        "percussive_flux_share": 0.18770821392536163,
+        "energy_percussive_share_by_band": {
+          "low30_180": 0.04213017225265503,
+          "mid180_800": 0.4184092879295349,
+          "upper800_3000": 0.5548043251037598,
+          "high3000_12000": 0.5755130648612976
+        },
+        "attack_rises": {
+          "low30_180": {
+            "start20": 31.056,
+            "baseline": 0.260576096705968,
+            "peak_rms": 0.8516531275311272,
+            "rise_ratio": 3.2683470905194256
+          },
+          "mid180_800": {
+            "start20": 31.056,
+            "baseline": 0.22327391370194066,
+            "peak_rms": 0.49508251630887606,
+            "rise_ratio": 2.2173773375405097
+          },
+          "upper800_3000": {
+            "start20": 31.04,
+            "baseline": 0.19616170100574792,
+            "peak_rms": 0.31480080552445605,
+            "rise_ratio": 1.60480258841978
+          },
+          "high3000_12000": {
+            "start20": null,
+            "baseline": 0.16638720070574628,
+            "peak_rms": 0.15590946523272692,
+            "rise_ratio": 0.9370279959665518
+          }
+        },
+        "rank_pm1s": 1,
+        "merged_rank": 1
+      },
+      "percussive_rank_pm1s": 6,
+      "merged_event_count_pm1s": 16,
+      "top3_merged_percussive": [
+        {
+          "time": 30.618,
+          "percussive": 0.5276564359664917,
+          "composite": 0.966482937335968
+        },
+        {
+          "time": 32.022,
+          "percussive": 0.3806822896003723,
+          "composite": 1.0655573606491089
+        },
+        {
+          "time": 30.358,
+          "percussive": 0.34869733452796936,
+          "composite": 0.7934433221817017
+        }
+      ]
+    },
+    {
+      "label": "reyna-2",
+      "target": 34.1507,
+      "cached_strength_rank_in_context_candidate_interval": 2,
+      "context_candidate_interval": [
+        33.503396825396834,
+        35.003396825396834
+      ],
+      "cached_candidates": [
+        {
+          "time": 33.6167,
+          "strength": 0.2477
+        },
+        {
+          "time": 33.6573,
+          "strength": 0.2816
+        },
+        {
+          "time": 33.7386,
+          "strength": 0.2898
+        },
+        {
+          "time": 33.9244,
+          "strength": 0.2152
+        },
+        {
+          "time": 33.9882,
+          "strength": 0.2787
+        },
+        {
+          "time": 34.1507,
+          "strength": 0.3177
+        },
+        {
+          "time": 34.3888,
+          "strength": 0.2893
+        },
+        {
+          "time": 34.5629,
+          "strength": 0.2626
+        },
+        {
+          "time": 34.6268,
+          "strength": 0.2933
+        },
+        {
+          "time": 34.7719,
+          "strength": 0.2464
+        },
+        {
+          "time": 34.9344,
+          "strength": 0.3305
+        }
+      ],
+      "attack_band_metrics": {
+        "low30_180": {
+          "max_8ms_rise_time": 34.1067,
+          "attack_start_thresholds": {
+            "0.1": 34.1027,
+            "0.2": 34.1027,
+            "0.5": 34.103699999999996
+          },
+          "rise_from_trough_ratio": 12.949151645150863,
+          "rms_max_time": 34.1067,
+          "rms_max": 0.27082907600885525
+        },
+        "mid180_800": {
+          "max_8ms_rise_time": 34.164699999999996,
+          "attack_start_thresholds": {
+            "0.1": 34.1577,
+            "0.2": 34.1597,
+            "0.5": 34.1637
+          },
+          "rise_from_trough_ratio": 2.106905056949565,
+          "rms_max_time": 34.1667,
+          "rms_max": 0.35820065989113464
+        },
+        "upper800_3000": {
+          "max_8ms_rise_time": 34.1477,
+          "attack_start_thresholds": {
+            "0.1": 34.1407,
+            "0.2": 34.1407,
+            "0.5": 34.1427
+          },
+          "rise_from_trough_ratio": 1.9529083242629157,
+          "rms_max_time": 34.1477,
+          "rms_max": 0.2679377170206504
+        },
+        "high3000_12000": {
+          "max_8ms_rise_time": 34.1217,
+          "attack_start_thresholds": {
+            "0.1": 34.103699999999996,
+            "0.2": 34.1047,
+            "0.5": 34.1157
+          },
+          "rise_from_trough_ratio": 2.6301468490385163,
+          "rms_max_time": 34.1217,
+          "rms_max": 0.18788970877189
+        }
+      },
+      "merged_associated_event": {
+        "peak_time": 34.192,
+        "delta_to_target_ms": 41.29999999999967,
+        "composite": 0.7162781357765198,
+        "percussive_composite": 0.1480836272239685,
+        "flux_band_normalized": {
+          "low30_180": 0.8985747694969177,
+          "mid180_800": 0.9556744694709778,
+          "upper800_3000": 0.43888184428215027,
+          "high3000_12000": 0.5719813704490662
+        },
+        "percussive_flux_share": 0.35624009370803833,
+        "energy_percussive_share_by_band": {
+          "low30_180": 0.10954749584197998,
+          "mid180_800": 0.2810322642326355,
+          "upper800_3000": 0.18890957534313202,
+          "high3000_12000": 0.20653241872787476
+        },
+        "attack_rises": {
+          "low30_180": {
+            "start20": 34.192,
+            "baseline": 0.12366447171992417,
+            "peak_rms": 0.38832450719706013,
+            "rise_ratio": 3.1401460887925756
+          },
+          "mid180_800": {
+            "start20": 34.192,
+            "baseline": 0.24338371104323978,
+            "peak_rms": 0.32964800088685686,
+            "rise_ratio": 1.3544374004016104
+          },
+          "upper800_3000": {
+            "start20": 34.192,
+            "baseline": 0.1807032007399863,
+            "peak_rms": 0.2645392170395669,
+            "rise_ratio": 1.4639431728647032
+          },
+          "high3000_12000": {
+            "start20": null,
+            "baseline": 0.1616220575504157,
+            "peak_rms": 0.1726808665132582,
+            "rise_ratio": 1.068423884272878
+          }
+        },
+        "rank_pm1s": 19,
+        "merged_rank": 12
+      },
+      "percussive_rank_pm1s": 13,
+      "merged_event_count_pm1s": 15,
+      "top3_merged_percussive": [
+        {
+          "time": 34.922,
+          "percussive": 0.7336779832839966,
+          "composite": 1.4346492290496826
+        },
+        {
+          "time": 34.604,
+          "percussive": 0.6060516238212585,
+          "composite": 1.262264609336853
+        },
+        {
+          "time": 33.312,
+          "percussive": 0.510033130645752,
+          "composite": 1.0028165578842163
+        }
+      ]
+    },
+    {
+      "label": "reyna-4",
+      "target": 37.5234,
+      "cached_strength_rank_in_context_candidate_interval": 1,
+      "context_candidate_interval": [
+        37.36269999999999,
+        38.86269999999999
+      ],
+      "cached_candidates": [
+        {
+          "time": 37.4132,
+          "strength": 0.2438
+        },
+        {
+          "time": 37.5234,
+          "strength": 0.4237
+        },
+        {
+          "time": 37.6454,
+          "strength": 0.2194
+        },
+        {
+          "time": 37.8427,
+          "strength": 0.2034
+        },
+        {
+          "time": 37.953,
+          "strength": 0.3368
+        },
+        {
+          "time": 38.1736,
+          "strength": 0.2927
+        },
+        {
+          "time": 38.3884,
+          "strength": 0.2636
+        },
+        {
+          "time": 38.4871,
+          "strength": 0.2607
+        },
+        {
+          "time": 38.609,
+          "strength": 0.2551
+        },
+        {
+          "time": 38.8005,
+          "strength": 0.2373
+        }
+      ],
+      "attack_band_metrics": {
+        "low30_180": {
+          "max_8ms_rise_time": 37.4584,
+          "attack_start_thresholds": {
+            "0.1": 37.4554,
+            "0.2": 37.4554,
+            "0.5": 37.4564
+          },
+          "rise_from_trough_ratio": 3.0594817562128647,
+          "rms_max_time": 37.4664,
+          "rms_max": 0.6036862191316127
+        },
+        "mid180_800": {
+          "max_8ms_rise_time": 37.5064,
+          "attack_start_thresholds": {
+            "0.1": 37.4904,
+            "0.2": 37.4914,
+            "0.5": 37.504400000000004
+          },
+          "rise_from_trough_ratio": 3.684082464104202,
+          "rms_max_time": 37.5124,
+          "rms_max": 0.43460166922941973
+        },
+        "upper800_3000": {
+          "max_8ms_rise_time": 37.5054,
+          "attack_start_thresholds": {
+            "0.1": 37.5024,
+            "0.2": 37.5024,
+            "0.5": 37.504400000000004
+          },
+          "rise_from_trough_ratio": 2.3502581474453277,
+          "rms_max_time": 37.5084,
+          "rms_max": 0.3758955599251794
+        },
+        "high3000_12000": {
+          "max_8ms_rise_time": 37.504400000000004,
+          "attack_start_thresholds": {
+            "0.1": 37.498400000000004,
+            "0.2": 37.501400000000004,
+            "0.5": 37.5024
+          },
+          "rise_from_trough_ratio": 4.2594632665636665,
+          "rms_max_time": 37.5064,
+          "rms_max": 0.4132776928371174
+        }
+      },
+      "merged_associated_event": {
+        "peak_time": 37.501999999999995,
+        "delta_to_target_ms": -21.40000000000697,
+        "composite": 1.752373456954956,
+        "percussive_composite": 1.2109125852584839,
+        "flux_band_normalized": {
+          "low30_180": 0.06976817548274994,
+          "mid180_800": 1.108960747718811,
+          "upper800_3000": 2.125150680541992,
+          "high3000_12000": 3.7056143283843994
+        },
+        "percussive_flux_share": 0.867050290107727,
+        "energy_percussive_share_by_band": {
+          "low30_180": 0.1485893279314041,
+          "mid180_800": 0.4437371492385864,
+          "upper800_3000": 0.605531632900238,
+          "high3000_12000": 0.8209696412086487
+        },
+        "attack_rises": {
+          "low30_180": {
+            "start20": 37.501999999999995,
+            "baseline": 0.2636935084156443,
+            "peak_rms": 0.34584772247414375,
+            "rise_ratio": 1.3115519018681838
+          },
+          "mid180_800": {
+            "start20": 37.501999999999995,
+            "baseline": 0.1811368521115726,
+            "peak_rms": 0.3769373159656144,
+            "rise_ratio": 2.080953221663343
+          },
+          "upper800_3000": {
+            "start20": 37.501999999999995,
+            "baseline": 0.1673416906668757,
+            "peak_rms": 0.35364567980673794,
+            "rise_ratio": 2.113314849367819
+          },
+          "high3000_12000": {
+            "start20": 37.501999999999995,
+            "baseline": 0.09984492787034718,
+            "peak_rms": 0.3931651906675358,
+            "rise_ratio": 3.9377582722493374
+          }
+        },
+        "rank_pm1s": 1,
+        "merged_rank": 1
+      },
+      "percussive_rank_pm1s": 1,
+      "merged_event_count_pm1s": 17,
+      "top3_merged_percussive": [
+        {
+          "time": 37.501999999999995,
+          "percussive": 1.2109125852584839,
+          "composite": 1.752373456954956
+        },
+        {
+          "time": 37.182,
+          "percussive": 0.5694152116775513,
+          "composite": 1.005639672279358
+        },
+        {
+          "time": 36.596000000000004,
+          "percussive": 0.45659372210502625,
+          "composite": 0.9162670969963074
+        }
+      ]
+    }
+  ],
+  "warning": "Threshold attack times are sensitivity estimates; low-band carrier oscillation can make multiple apparent rises. HPSS percussive ranks are instrument-agnostic proxies."
+}

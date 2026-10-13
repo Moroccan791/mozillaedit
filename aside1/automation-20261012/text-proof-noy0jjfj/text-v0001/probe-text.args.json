@@ -1,0 +1,10 @@
+[
+  "ffprobe",
+  "-v",
+  "error",
+  "-show_streams",
+  "-show_format",
+  "-of",
+  "json",
+  "E:\\aside\\automation-20261012\\text-proof-noy0jjfj\\text-v0001\\encounters-text.mp4"
+]

@@ -1,0 +1,3 @@
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{};e._posthogReleaseId=e._posthogReleaseId||"01a129b7-2369-0000-b6af-fe63822fbcec";var n=(new e.Error).stack;n&&(e._posthogChunkIds=e._posthogChunkIds||{},e._posthogChunkIds[n]="90001eb3-862f-5b98-b68f-c0ac0a7255d7")}catch(e){}}();import{r}from"./error-tracking-LEa1PmKw.js";var e=r;export{e as errorComponent};
+
+//# chunkId=90001eb3-862f-5b98-b68f-c0ac0a7255d7

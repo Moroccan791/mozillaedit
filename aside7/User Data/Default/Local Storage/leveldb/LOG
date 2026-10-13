@@ -1,0 +1,9 @@
+2026/10/12-20:22:41.585 1b64 Reusing MANIFEST C:\Users\Junayed\AppData\Local\Aside\User Data\Default\Local Storage\leveldb/MANIFEST-000001
+2026/10/12-20:22:41.715 1b64 Recovering log #3
+2026/10/12-20:22:43.721 1b64 Reusing old log C:\Users\Junayed\AppData\Local\Aside\User Data\Default\Local Storage\leveldb/000003.log 
+2026/10/12-20:32:43.783 2214 Level-0 table #5: started
+2026/10/12-20:32:43.798 2214 Level-0 table #5: 29976 bytes OK
+2026/10/12-20:32:43.801 2214 Delete type=0 #3
+2026/10/12-20:50:10.519 2214 Level-0 table #7: started
+2026/10/12-20:50:10.525 2214 Level-0 table #7: 30775 bytes OK
+2026/10/12-20:50:10.530 2214 Delete type=0 #4

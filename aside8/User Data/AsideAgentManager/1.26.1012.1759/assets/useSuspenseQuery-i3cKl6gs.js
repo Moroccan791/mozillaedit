@@ -1,0 +1,3 @@
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{};e._posthogReleaseId=e._posthogReleaseId||"01a12f58-5a54-0000-eb8b-48c4a59b8d81";var n=(new e.Error).stack;n&&(e._posthogChunkIds=e._posthogChunkIds||{},e._posthogChunkIds[n]="a8f6a206-c4e5-59ae-8b25-aaf690ae1e87")}catch(e){}}();import{G as s,K as u,et as t}from"./relative-time-B4mNACaL.js";function o(e,r){return s({...e,enabled:!0,suspense:!0,throwOnError:u,placeholderData:void 0},t,r)}export{o as t};
+
+//# chunkId=a8f6a206-c4e5-59ae-8b25-aaf690ae1e87

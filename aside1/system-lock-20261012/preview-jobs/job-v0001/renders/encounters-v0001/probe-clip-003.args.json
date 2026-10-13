@@ -1,0 +1,10 @@
+[
+  "ffprobe",
+  "-v",
+  "error",
+  "-show_streams",
+  "-show_format",
+  "-of",
+  "json",
+  "E:\\aside\\system-lock-20261012\\preview-jobs\\job-v0001\\renders\\encounters-v0001\\clip-003-h264_qsv.mp4"
+]

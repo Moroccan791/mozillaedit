@@ -1,0 +1,59 @@
+{
+  "name": "aside_sync_proof",
+  "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+  "music": "E:\\audio\\Dracula (Slowed Best Part) - Tame Impala & JENNIE [Edit Audio].mp3",
+  "music_start": 19.923,
+  "music_gain_db": -6,
+  "target_lufs": -14,
+  "platform": "youtube",
+  "aspect": "source",
+  "fps": 60,
+  "grade": "none",
+  "vibe": "clean",
+  "transition": {},
+  "audio_mode": "mix",
+  "sfx": false,
+  "captions_mode": "off",
+  "title": {
+    "enabled": false
+  },
+  "outro": {
+    "enabled": false
+  },
+  "overlays": [],
+  "segments": [
+    {
+      "start": 218.1746,
+      "end": 222.3889,
+      "speed": 1,
+      "label": "confirmed-event-1",
+      "motion": "none",
+      "flash": false,
+      "ramp_in": 0,
+      "ramp_out": 0,
+      "ramp_hold": 0
+    },
+    {
+      "start": 230.7781,
+      "end": 234.0984,
+      "speed": 1,
+      "label": "confirmed-event-2",
+      "motion": "none",
+      "flash": false,
+      "ramp_in": 0,
+      "ramp_out": 0,
+      "ramp_hold": 0
+    },
+    {
+      "start": 263.6516,
+      "end": 266.117,
+      "speed": 1,
+      "label": "confirmed-event-3",
+      "motion": "none",
+      "flash": false,
+      "ramp_in": 0,
+      "ramp_out": 0,
+      "ramp_hold": 0
+    }
+  ]
+}

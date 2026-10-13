@@ -1,0 +1,62 @@
+{
+  "schema_version": "encounters/v1",
+  "duration": 8.0,
+  "requested_duration": 8.0,
+  "music_start": 25.0,
+  "music_end": 33.0,
+  "music_continuous": true,
+  "gaps": [],
+  "timeline": [
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "source_start": 220.8,
+      "source_end": 222.8,
+      "output_start": 0,
+      "output_end": 2,
+      "music_start": 25,
+      "music_end": 27,
+      "speed": 1.0,
+      "events": []
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "source_start": 233.5,
+      "source_end": 235.5,
+      "output_start": 2,
+      "output_end": 4,
+      "music_start": 27,
+      "music_end": 29,
+      "speed": 1.0,
+      "events": []
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "source_start": 8.8,
+      "source_end": 10.8,
+      "output_start": 4,
+      "output_end": 6,
+      "music_start": 29,
+      "music_end": 31,
+      "speed": 1.0,
+      "events": []
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "source_start": 91.5,
+      "source_end": 93.5,
+      "output_start": 6,
+      "output_end": 8,
+      "music_start": 31,
+      "music_end": 33,
+      "speed": 1.0,
+      "events": []
+    }
+  ],
+  "music": "E:\\audio\\YTDown.com_YouTube_Media_MpoZ0NVXswY_Let-the-world-burn-Audio-Edit_009_128k.mp3",
+  "diagnostic_only": true,
+  "diagnostic_limitations": [
+    "Source snippets not reviewed as complete/resolved fights.",
+    "Song excerpt not approved; no shot/accent assignment or musical-sync claim.",
+    "Shot roles describe render treatment only, not independently established semantic scene roles."
+  ]
+}

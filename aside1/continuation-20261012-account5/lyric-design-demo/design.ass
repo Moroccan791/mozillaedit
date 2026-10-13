@@ -1,0 +1,20 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Design,Bebas Neue,30,&H00FFFFFF,&H00FFFFFF,&H00000000,&HFF000000,0,0,0,0,100,100,0,0,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.20,0:00:01.60,Design,shape,0,0,0,,{\an5\pos(640.000,331.200)\fnBebas Neue\fs288.000\i0\b0\fscx112.000\fscy112.000\1c&HDFD948&\3c&HDFD948&\alpha&H8C&\bord1.000\shad0\blur4.320\fad(160,140)\t(0,160,\fscx100\fscy100)\clip(39,29,1241,633)}SHAPE
+Dialogue: 2,0:00:00.20,0:00:01.60,Design,shape,0,0,0,,{\an5\pos(640.000,331.200)\fnBebas Neue\fs288.000\i0\b0\fscx112.000\fscy112.000\1c&HFFFFD6&\3c&HFFFFD6&\alpha&H4D&\bord0.600\shad0\blur0.300\fad(160,140)\t(0,160,\fscx100\fscy100)\clip(39,29,1241,633)}SHAPE
+Dialogue: 0,0:00:01.90,0:00:03.40,Design,light,0,0,0,,{\an5\pos(688.640,339.840)\fnBebas Neue\fs237.600\i0\b0\fscx112.000\fscy112.000\1c&HFF85A9&\3c&HFF85A9&\alpha&HA0&\bord0.000\shad0\blur1.000\fad(160,140)\t(0,160,\fscx100\fscy100)\clip(90,29,1241,633)}LIGHT
+Dialogue: 1,0:00:01.90,0:00:03.40,Design,light,0,0,0,,{\an5\pos(665.600,331.200)\fnBebas Neue\fs237.600\i0\b0\fscx112.000\fscy112.000\1c&HFF85A9&\3c&HFF85A9&\alpha&H8C&\bord1.000\shad0\blur4.320\fad(160,140)\t(0,160,\fscx100\fscy100)\clip(90,29,1241,633)}LIGHT
+Dialogue: 2,0:00:01.90,0:00:03.40,Design,light,0,0,0,,{\an5\pos(665.600,331.200)\fnBebas Neue\fs237.600\i0\b0\fscx112.000\fscy112.000\1c&HFFE8F3&\3c&HFFE8F3&\alpha&H24&\bord0.600\shad0\blur0.300\fad(160,140)\t(0,160,\fscx100\fscy100)\clip(90,29,1241,633)}LIGHT
+Dialogue: 1,0:00:03.70,0:00:05.40,Design,quiet,0,0,0,,{\an5\pos(640.000,561.600)\fnOswald\fs33.120\i1\b0\fscx112.000\fscy112.000\1c&HB5C1C9&\3c&HB5C1C9&\alpha&H8C&\bord1.000\shad0\blur1.440\fad(160,140)\t(0,160,\fscx100\fscy100)\clip(128,468,1152,655)}quiet form
+Dialogue: 2,0:00:03.70,0:00:05.40,Design,quiet,0,0,0,,{\an5\pos(640.000,561.600)\fnOswald\fs33.120\i1\b0\fscx112.000\fscy112.000\1c&HE8EFF2&\3c&HE8EFF2&\alpha&H19&\bord0.600\shad0\blur0.300\fad(160,140)\t(0,160,\fscx100\fscy100)\clip(128,468,1152,655)}quiet form

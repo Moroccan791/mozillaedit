@@ -1,0 +1,1293 @@
+{
+  "scope": "16 selected labeled windows on one source; template-training positives included, held windows explicitly identified; not full-source accuracy or cross-game certification",
+  "thresholds": [
+    {
+      "threshold": 0.68,
+      "tp": 5,
+      "fp": 0,
+      "fn": 6,
+      "tn": 5,
+      "precision": 1.0,
+      "recall": 0.45454545454545453,
+      "records": [
+        {
+          "label": "train-head",
+          "split": "train",
+          "expected_count": 1,
+          "observed_count": 1,
+          "max_score": 0.9652,
+          "events": [
+            {
+              "t": 9.6,
+              "score": 0.7327396273612976,
+              "index": 15,
+              "peak_index": 16,
+              "persistence": 2,
+              "confirmed_at": 9.666666666666666
+            }
+          ]
+        },
+        {
+          "label": "train-tree",
+          "split": "train",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 0.9838,
+          "events": []
+        },
+        {
+          "label": "train-multi",
+          "split": "train",
+          "expected_count": 1,
+          "observed_count": 1,
+          "max_score": 0.9981,
+          "events": [
+            {
+              "t": 262.6666666666667,
+              "score": 0.9006087779998779,
+              "index": 16,
+              "peak_index": 17,
+              "persistence": 2,
+              "confirmed_at": 262.73333333333335
+            }
+          ]
+        },
+        {
+          "label": "held-kill-92",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 1,
+          "max_score": 1.0,
+          "events": [
+            {
+              "t": 92.25,
+              "score": 0.7925906777381897,
+              "index": 15,
+              "peak_index": 16,
+              "persistence": 2,
+              "confirmed_at": 92.31666666666666
+            }
+          ]
+        },
+        {
+          "label": "held-kill-104",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 1.0,
+          "events": []
+        },
+        {
+          "label": "held-kill-188",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 1,
+          "max_score": 0.9871,
+          "events": [
+            {
+              "t": 188.13333333333333,
+              "score": 0.9128937721252441,
+              "index": 17,
+              "peak_index": 18,
+              "persistence": 2,
+              "confirmed_at": 188.2
+            }
+          ]
+        },
+        {
+          "label": "held-kill-339",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 0.5837,
+          "events": []
+        },
+        {
+          "label": "held-kill-414",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 0.7053,
+          "events": []
+        },
+        {
+          "label": "held-kill-467",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 1,
+          "max_score": 0.9624,
+          "events": [
+            {
+              "t": 467.29999999999995,
+              "score": 0.8341395854949951,
+              "index": 6,
+              "peak_index": 6,
+              "persistence": 2,
+              "confirmed_at": 467.3666666666666
+            }
+          ]
+        },
+        {
+          "label": "held-kill-501",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 0.7341,
+          "events": []
+        },
+        {
+          "label": "held-kill-516",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 0.6086,
+          "events": []
+        },
+        {
+          "label": "negative-miss",
+          "split": "held",
+          "expected_count": 0,
+          "observed_count": 0,
+          "max_score": 0.6365,
+          "events": []
+        },
+        {
+          "label": "negative-ability",
+          "split": "held",
+          "expected_count": 0,
+          "observed_count": 0,
+          "max_score": 0.9603,
+          "events": []
+        },
+        {
+          "label": "negative-menu",
+          "split": "held",
+          "expected_count": 0,
+          "observed_count": 0,
+          "max_score": 0.7841,
+          "events": []
+        },
+        {
+          "label": "negative-health",
+          "split": "held",
+          "expected_count": 0,
+          "observed_count": 0,
+          "max_score": 0.5992,
+          "events": []
+        },
+        {
+          "label": "negative-walk",
+          "split": "held",
+          "expected_count": 0,
+          "observed_count": 0,
+          "max_score": 0.5889,
+          "events": []
+        }
+      ]
+    },
+    {
+      "threshold": 0.72,
+      "tp": 5,
+      "fp": 0,
+      "fn": 6,
+      "tn": 5,
+      "precision": 1.0,
+      "recall": 0.45454545454545453,
+      "records": [
+        {
+          "label": "train-head",
+          "split": "train",
+          "expected_count": 1,
+          "observed_count": 1,
+          "max_score": 0.9652,
+          "events": [
+            {
+              "t": 9.666666666666666,
+              "score": 0.8260051012039185,
+              "index": 16,
+              "peak_index": 17,
+              "persistence": 2,
+              "confirmed_at": 9.733333333333333
+            }
+          ]
+        },
+        {
+          "label": "train-tree",
+          "split": "train",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 0.9838,
+          "events": []
+        },
+        {
+          "label": "train-multi",
+          "split": "train",
+          "expected_count": 1,
+          "observed_count": 1,
+          "max_score": 0.9981,
+          "events": [
+            {
+              "t": 262.6666666666667,
+              "score": 0.9006087779998779,
+              "index": 16,
+              "peak_index": 17,
+              "persistence": 2,
+              "confirmed_at": 262.73333333333335
+            }
+          ]
+        },
+        {
+          "label": "held-kill-92",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 1,
+          "max_score": 1.0,
+          "events": [
+            {
+              "t": 92.31666666666666,
+              "score": 0.9532654881477356,
+              "index": 16,
+              "peak_index": 17,
+              "persistence": 2,
+              "confirmed_at": 92.38333333333334
+            }
+          ]
+        },
+        {
+          "label": "held-kill-104",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 1.0,
+          "events": []
+        },
+        {
+          "label": "held-kill-188",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 1,
+          "max_score": 0.9871,
+          "events": [
+            {
+              "t": 188.13333333333333,
+              "score": 0.9128937721252441,
+              "index": 17,
+              "peak_index": 18,
+              "persistence": 2,
+              "confirmed_at": 188.2
+            }
+          ]
+        },
+        {
+          "label": "held-kill-339",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 0.5837,
+          "events": []
+        },
+        {
+          "label": "held-kill-414",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 0.7053,
+          "events": []
+        },
+        {
+          "label": "held-kill-467",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 1,
+          "max_score": 0.9624,
+          "events": [
+            {
+              "t": 467.29999999999995,
+              "score": 0.8341395854949951,
+              "index": 6,
+              "peak_index": 6,
+              "persistence": 2,
+              "confirmed_at": 467.3666666666666
+            }
+          ]
+        },
+        {
+          "label": "held-kill-501",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 0.7341,
+          "events": []
+        },
+        {
+          "label": "held-kill-516",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 0.6086,
+          "events": []
+        },
+        {
+          "label": "negative-miss",
+          "split": "held",
+          "expected_count": 0,
+          "observed_count": 0,
+          "max_score": 0.6365,
+          "events": []
+        },
+        {
+          "label": "negative-ability",
+          "split": "held",
+          "expected_count": 0,
+          "observed_count": 0,
+          "max_score": 0.9603,
+          "events": []
+        },
+        {
+          "label": "negative-menu",
+          "split": "held",
+          "expected_count": 0,
+          "observed_count": 0,
+          "max_score": 0.7841,
+          "events": []
+        },
+        {
+          "label": "negative-health",
+          "split": "held",
+          "expected_count": 0,
+          "observed_count": 0,
+          "max_score": 0.5992,
+          "events": []
+        },
+        {
+          "label": "negative-walk",
+          "split": "held",
+          "expected_count": 0,
+          "observed_count": 0,
+          "max_score": 0.5889,
+          "events": []
+        }
+      ]
+    },
+    {
+      "threshold": 0.75,
+      "tp": 5,
+      "fp": 0,
+      "fn": 6,
+      "tn": 5,
+      "precision": 1.0,
+      "recall": 0.45454545454545453,
+      "records": [
+        {
+          "label": "train-head",
+          "split": "train",
+          "expected_count": 1,
+          "observed_count": 1,
+          "max_score": 0.9652,
+          "events": [
+            {
+              "t": 9.733333333333333,
+              "score": 0.9652268886566162,
+              "index": 17,
+              "peak_index": 18,
+              "persistence": 2,
+              "confirmed_at": 9.799999999999999
+            }
+          ]
+        },
+        {
+          "label": "train-tree",
+          "split": "train",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 0.9838,
+          "events": []
+        },
+        {
+          "label": "train-multi",
+          "split": "train",
+          "expected_count": 1,
+          "observed_count": 1,
+          "max_score": 0.9981,
+          "events": [
+            {
+              "t": 262.6666666666667,
+              "score": 0.9006087779998779,
+              "index": 16,
+              "peak_index": 17,
+              "persistence": 2,
+              "confirmed_at": 262.73333333333335
+            }
+          ]
+        },
+        {
+          "label": "held-kill-92",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 1,
+          "max_score": 1.0,
+          "events": [
+            {
+              "t": 92.31666666666666,
+              "score": 0.9532654881477356,
+              "index": 16,
+              "peak_index": 17,
+              "persistence": 2,
+              "confirmed_at": 92.38333333333334
+            }
+          ]
+        },
+        {
+          "label": "held-kill-104",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 1.0,
+          "events": []
+        },
+        {
+          "label": "held-kill-188",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 1,
+          "max_score": 0.9871,
+          "events": [
+            {
+              "t": 188.13333333333333,
+              "score": 0.9128937721252441,
+              "index": 17,
+              "peak_index": 18,
+              "persistence": 2,
+              "confirmed_at": 188.2
+            }
+          ]
+        },
+        {
+          "label": "held-kill-339",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 0.5837,
+          "events": []
+        },
+        {
+          "label": "held-kill-414",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 0.7053,
+          "events": []
+        },
+        {
+          "label": "held-kill-467",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 1,
+          "max_score": 0.9624,
+          "events": [
+            {
+              "t": 467.29999999999995,
+              "score": 0.8341395854949951,
+              "index": 6,
+              "peak_index": 6,
+              "persistence": 2,
+              "confirmed_at": 467.3666666666666
+            }
+          ]
+        },
+        {
+          "label": "held-kill-501",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 0.7341,
+          "events": []
+        },
+        {
+          "label": "held-kill-516",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 0.6086,
+          "events": []
+        },
+        {
+          "label": "negative-miss",
+          "split": "held",
+          "expected_count": 0,
+          "observed_count": 0,
+          "max_score": 0.6365,
+          "events": []
+        },
+        {
+          "label": "negative-ability",
+          "split": "held",
+          "expected_count": 0,
+          "observed_count": 0,
+          "max_score": 0.9603,
+          "events": []
+        },
+        {
+          "label": "negative-menu",
+          "split": "held",
+          "expected_count": 0,
+          "observed_count": 0,
+          "max_score": 0.7841,
+          "events": []
+        },
+        {
+          "label": "negative-health",
+          "split": "held",
+          "expected_count": 0,
+          "observed_count": 0,
+          "max_score": 0.5992,
+          "events": []
+        },
+        {
+          "label": "negative-walk",
+          "split": "held",
+          "expected_count": 0,
+          "observed_count": 0,
+          "max_score": 0.5889,
+          "events": []
+        }
+      ]
+    },
+    {
+      "threshold": 0.78,
+      "tp": 5,
+      "fp": 0,
+      "fn": 6,
+      "tn": 5,
+      "precision": 1.0,
+      "recall": 0.45454545454545453,
+      "records": [
+        {
+          "label": "train-head",
+          "split": "train",
+          "expected_count": 1,
+          "observed_count": 1,
+          "max_score": 0.9652,
+          "events": [
+            {
+              "t": 9.733333333333333,
+              "score": 0.9652268886566162,
+              "index": 17,
+              "peak_index": 18,
+              "persistence": 2,
+              "confirmed_at": 9.799999999999999
+            }
+          ]
+        },
+        {
+          "label": "train-tree",
+          "split": "train",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 0.9838,
+          "events": []
+        },
+        {
+          "label": "train-multi",
+          "split": "train",
+          "expected_count": 1,
+          "observed_count": 1,
+          "max_score": 0.9981,
+          "events": [
+            {
+              "t": 262.73333333333335,
+              "score": 0.9981155395507812,
+              "index": 17,
+              "peak_index": 18,
+              "persistence": 2,
+              "confirmed_at": 262.8
+            }
+          ]
+        },
+        {
+          "label": "held-kill-92",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 1,
+          "max_score": 1.0,
+          "events": [
+            {
+              "t": 92.31666666666666,
+              "score": 0.9532654881477356,
+              "index": 16,
+              "peak_index": 17,
+              "persistence": 2,
+              "confirmed_at": 92.38333333333334
+            }
+          ]
+        },
+        {
+          "label": "held-kill-104",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 1.0,
+          "events": []
+        },
+        {
+          "label": "held-kill-188",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 1,
+          "max_score": 0.9871,
+          "events": [
+            {
+              "t": 188.13333333333333,
+              "score": 0.9128937721252441,
+              "index": 17,
+              "peak_index": 18,
+              "persistence": 2,
+              "confirmed_at": 188.2
+            }
+          ]
+        },
+        {
+          "label": "held-kill-339",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 0.5837,
+          "events": []
+        },
+        {
+          "label": "held-kill-414",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 0.7053,
+          "events": []
+        },
+        {
+          "label": "held-kill-467",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 1,
+          "max_score": 0.9624,
+          "events": [
+            {
+              "t": 467.29999999999995,
+              "score": 0.8341395854949951,
+              "index": 6,
+              "peak_index": 6,
+              "persistence": 2,
+              "confirmed_at": 467.3666666666666
+            }
+          ]
+        },
+        {
+          "label": "held-kill-501",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 0.7341,
+          "events": []
+        },
+        {
+          "label": "held-kill-516",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 0.6086,
+          "events": []
+        },
+        {
+          "label": "negative-miss",
+          "split": "held",
+          "expected_count": 0,
+          "observed_count": 0,
+          "max_score": 0.6365,
+          "events": []
+        },
+        {
+          "label": "negative-ability",
+          "split": "held",
+          "expected_count": 0,
+          "observed_count": 0,
+          "max_score": 0.9603,
+          "events": []
+        },
+        {
+          "label": "negative-menu",
+          "split": "held",
+          "expected_count": 0,
+          "observed_count": 0,
+          "max_score": 0.7841,
+          "events": []
+        },
+        {
+          "label": "negative-health",
+          "split": "held",
+          "expected_count": 0,
+          "observed_count": 0,
+          "max_score": 0.5992,
+          "events": []
+        },
+        {
+          "label": "negative-walk",
+          "split": "held",
+          "expected_count": 0,
+          "observed_count": 0,
+          "max_score": 0.5889,
+          "events": []
+        }
+      ]
+    },
+    {
+      "threshold": 0.8,
+      "tp": 5,
+      "fp": 0,
+      "fn": 6,
+      "tn": 5,
+      "precision": 1.0,
+      "recall": 0.45454545454545453,
+      "records": [
+        {
+          "label": "train-head",
+          "split": "train",
+          "expected_count": 1,
+          "observed_count": 1,
+          "max_score": 0.9652,
+          "events": [
+            {
+              "t": 9.733333333333333,
+              "score": 0.9652268886566162,
+              "index": 17,
+              "peak_index": 18,
+              "persistence": 2,
+              "confirmed_at": 9.799999999999999
+            }
+          ]
+        },
+        {
+          "label": "train-tree",
+          "split": "train",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 0.9838,
+          "events": []
+        },
+        {
+          "label": "train-multi",
+          "split": "train",
+          "expected_count": 1,
+          "observed_count": 1,
+          "max_score": 0.9981,
+          "events": [
+            {
+              "t": 262.73333333333335,
+              "score": 0.9981155395507812,
+              "index": 17,
+              "peak_index": 18,
+              "persistence": 2,
+              "confirmed_at": 262.8
+            }
+          ]
+        },
+        {
+          "label": "held-kill-92",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 1,
+          "max_score": 1.0,
+          "events": [
+            {
+              "t": 92.38333333333334,
+              "score": 1.0000001192092896,
+              "index": 17,
+              "peak_index": 18,
+              "persistence": 2,
+              "confirmed_at": 92.45
+            }
+          ]
+        },
+        {
+          "label": "held-kill-104",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 1.0,
+          "events": []
+        },
+        {
+          "label": "held-kill-188",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 1,
+          "max_score": 0.9871,
+          "events": [
+            {
+              "t": 188.13333333333333,
+              "score": 0.9128937721252441,
+              "index": 17,
+              "peak_index": 18,
+              "persistence": 2,
+              "confirmed_at": 188.2
+            }
+          ]
+        },
+        {
+          "label": "held-kill-339",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 0.5837,
+          "events": []
+        },
+        {
+          "label": "held-kill-414",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 0.7053,
+          "events": []
+        },
+        {
+          "label": "held-kill-467",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 1,
+          "max_score": 0.9624,
+          "events": [
+            {
+              "t": 467.29999999999995,
+              "score": 0.8341395854949951,
+              "index": 6,
+              "peak_index": 6,
+              "persistence": 2,
+              "confirmed_at": 467.3666666666666
+            }
+          ]
+        },
+        {
+          "label": "held-kill-501",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 0.7341,
+          "events": []
+        },
+        {
+          "label": "held-kill-516",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 0.6086,
+          "events": []
+        },
+        {
+          "label": "negative-miss",
+          "split": "held",
+          "expected_count": 0,
+          "observed_count": 0,
+          "max_score": 0.6365,
+          "events": []
+        },
+        {
+          "label": "negative-ability",
+          "split": "held",
+          "expected_count": 0,
+          "observed_count": 0,
+          "max_score": 0.9603,
+          "events": []
+        },
+        {
+          "label": "negative-menu",
+          "split": "held",
+          "expected_count": 0,
+          "observed_count": 0,
+          "max_score": 0.7841,
+          "events": []
+        },
+        {
+          "label": "negative-health",
+          "split": "held",
+          "expected_count": 0,
+          "observed_count": 0,
+          "max_score": 0.5992,
+          "events": []
+        },
+        {
+          "label": "negative-walk",
+          "split": "held",
+          "expected_count": 0,
+          "observed_count": 0,
+          "max_score": 0.5889,
+          "events": []
+        }
+      ]
+    },
+    {
+      "threshold": 0.82,
+      "tp": 5,
+      "fp": 0,
+      "fn": 6,
+      "tn": 5,
+      "precision": 1.0,
+      "recall": 0.45454545454545453,
+      "records": [
+        {
+          "label": "train-head",
+          "split": "train",
+          "expected_count": 1,
+          "observed_count": 1,
+          "max_score": 0.9652,
+          "events": [
+            {
+              "t": 9.733333333333333,
+              "score": 0.9652268886566162,
+              "index": 17,
+              "peak_index": 18,
+              "persistence": 2,
+              "confirmed_at": 9.799999999999999
+            }
+          ]
+        },
+        {
+          "label": "train-tree",
+          "split": "train",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 0.9838,
+          "events": []
+        },
+        {
+          "label": "train-multi",
+          "split": "train",
+          "expected_count": 1,
+          "observed_count": 1,
+          "max_score": 0.9981,
+          "events": [
+            {
+              "t": 262.73333333333335,
+              "score": 0.9981155395507812,
+              "index": 17,
+              "peak_index": 18,
+              "persistence": 2,
+              "confirmed_at": 262.8
+            }
+          ]
+        },
+        {
+          "label": "held-kill-92",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 1,
+          "max_score": 1.0,
+          "events": [
+            {
+              "t": 92.38333333333334,
+              "score": 1.0000001192092896,
+              "index": 17,
+              "peak_index": 18,
+              "persistence": 2,
+              "confirmed_at": 92.45
+            }
+          ]
+        },
+        {
+          "label": "held-kill-104",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 1.0,
+          "events": []
+        },
+        {
+          "label": "held-kill-188",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 1,
+          "max_score": 0.9871,
+          "events": [
+            {
+              "t": 188.13333333333333,
+              "score": 0.9128937721252441,
+              "index": 17,
+              "peak_index": 18,
+              "persistence": 2,
+              "confirmed_at": 188.2
+            }
+          ]
+        },
+        {
+          "label": "held-kill-339",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 0.5837,
+          "events": []
+        },
+        {
+          "label": "held-kill-414",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 0.7053,
+          "events": []
+        },
+        {
+          "label": "held-kill-467",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 1,
+          "max_score": 0.9624,
+          "events": [
+            {
+              "t": 467.29999999999995,
+              "score": 0.8341395854949951,
+              "index": 6,
+              "peak_index": 6,
+              "persistence": 2,
+              "confirmed_at": 467.43333333333334
+            }
+          ]
+        },
+        {
+          "label": "held-kill-501",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 0.7341,
+          "events": []
+        },
+        {
+          "label": "held-kill-516",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 0.6086,
+          "events": []
+        },
+        {
+          "label": "negative-miss",
+          "split": "held",
+          "expected_count": 0,
+          "observed_count": 0,
+          "max_score": 0.6365,
+          "events": []
+        },
+        {
+          "label": "negative-ability",
+          "split": "held",
+          "expected_count": 0,
+          "observed_count": 0,
+          "max_score": 0.9603,
+          "events": []
+        },
+        {
+          "label": "negative-menu",
+          "split": "held",
+          "expected_count": 0,
+          "observed_count": 0,
+          "max_score": 0.7841,
+          "events": []
+        },
+        {
+          "label": "negative-health",
+          "split": "held",
+          "expected_count": 0,
+          "observed_count": 0,
+          "max_score": 0.5992,
+          "events": []
+        },
+        {
+          "label": "negative-walk",
+          "split": "held",
+          "expected_count": 0,
+          "observed_count": 0,
+          "max_score": 0.5889,
+          "events": []
+        }
+      ]
+    },
+    {
+      "threshold": 0.85,
+      "tp": 5,
+      "fp": 0,
+      "fn": 6,
+      "tn": 5,
+      "precision": 1.0,
+      "recall": 0.45454545454545453,
+      "records": [
+        {
+          "label": "train-head",
+          "split": "train",
+          "expected_count": 1,
+          "observed_count": 1,
+          "max_score": 0.9652,
+          "events": [
+            {
+              "t": 9.799999999999999,
+              "score": 0.9652268886566162,
+              "index": 18,
+              "peak_index": 18,
+              "persistence": 2,
+              "confirmed_at": 9.933333333333334
+            }
+          ]
+        },
+        {
+          "label": "train-tree",
+          "split": "train",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 0.9838,
+          "events": []
+        },
+        {
+          "label": "train-multi",
+          "split": "train",
+          "expected_count": 1,
+          "observed_count": 1,
+          "max_score": 0.9981,
+          "events": [
+            {
+              "t": 262.73333333333335,
+              "score": 0.9981155395507812,
+              "index": 17,
+              "peak_index": 18,
+              "persistence": 2,
+              "confirmed_at": 262.8
+            }
+          ]
+        },
+        {
+          "label": "held-kill-92",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 1,
+          "max_score": 1.0,
+          "events": [
+            {
+              "t": 92.38333333333334,
+              "score": 1.0000001192092896,
+              "index": 17,
+              "peak_index": 18,
+              "persistence": 2,
+              "confirmed_at": 92.45
+            }
+          ]
+        },
+        {
+          "label": "held-kill-104",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 1.0,
+          "events": []
+        },
+        {
+          "label": "held-kill-188",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 1,
+          "max_score": 0.9871,
+          "events": [
+            {
+              "t": 188.13333333333333,
+              "score": 0.9128937721252441,
+              "index": 17,
+              "peak_index": 18,
+              "persistence": 2,
+              "confirmed_at": 188.2
+            }
+          ]
+        },
+        {
+          "label": "held-kill-339",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 0.5837,
+          "events": []
+        },
+        {
+          "label": "held-kill-414",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 0.7053,
+          "events": []
+        },
+        {
+          "label": "held-kill-467",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 1,
+          "max_score": 0.9624,
+          "events": [
+            {
+              "t": 467.5,
+              "score": 0.9045338034629822,
+              "index": 9,
+              "peak_index": 12,
+              "persistence": 2,
+              "confirmed_at": 467.7
+            }
+          ]
+        },
+        {
+          "label": "held-kill-501",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 0.7341,
+          "events": []
+        },
+        {
+          "label": "held-kill-516",
+          "split": "held",
+          "expected_count": 1,
+          "observed_count": 0,
+          "max_score": 0.6086,
+          "events": []
+        },
+        {
+          "label": "negative-miss",
+          "split": "held",
+          "expected_count": 0,
+          "observed_count": 0,
+          "max_score": 0.6365,
+          "events": []
+        },
+        {
+          "label": "negative-ability",
+          "split": "held",
+          "expected_count": 0,
+          "observed_count": 0,
+          "max_score": 0.9603,
+          "events": []
+        },
+        {
+          "label": "negative-menu",
+          "split": "held",
+          "expected_count": 0,
+          "observed_count": 0,
+          "max_score": 0.7841,
+          "events": []
+        },
+        {
+          "label": "negative-health",
+          "split": "held",
+          "expected_count": 0,
+          "observed_count": 0,
+          "max_score": 0.5992,
+          "events": []
+        },
+        {
+          "label": "negative-walk",
+          "split": "held",
+          "expected_count": 0,
+          "observed_count": 0,
+          "max_score": 0.5889,
+          "events": []
+        }
+      ]
+    }
+  ]
+}

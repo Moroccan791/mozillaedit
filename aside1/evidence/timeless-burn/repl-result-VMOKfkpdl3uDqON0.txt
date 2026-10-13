@@ -1,0 +1,1129 @@
+# note: interactive (clickable / focusable) elements only.
+# note: hidden elements are shown.
+- title: "Let The World Burn 🔥| Valorant Montage - YouTube" [url=https://www.youtube.com/watch?v=YJWDatNCoCM]
+- generic [hidden]:
+  - generic [hidden]:
+    - generic [hidden]:
+      - generic [hidden]:
+        - generic [hidden]:
+          - heading [ref=e66] [level=1] [hidden]
+          - generic [ref=e67] [hidden]
+- banner:
+  - generic [hidden]:
+    - button "Back" [ref=e68] [hidden]
+  - button "Guide" [ref=e69]
+  - link "YouTube Home" [ref=e79]
+  - text: "BD"
+  - button "Skip navigation" [ref=e80]
+  - search:
+    - button [ref=e71] [hidden]
+    - combobox "Search" [ref=e81] [placeholder="Search"]
+    - button "Search" [ref=e73]
+    - listbox [ref=e74] [hidden]
+  - generic [hidden]:
+    - button "Search" [ref=e75] [hidden]
+  - button "Search with your voice" [ref=e82]
+  - tooltip "tooltip"
+  - link [ref=e83]:
+    - button "Settings" [ref=e84]
+  - link "Sign in" [ref=e85]
+- navigation [hidden]:
+  - generic [hidden]:
+    - generic [hidden]:
+      - generic [hidden]:
+        - generic [hidden]:
+          - generic [hidden]:
+            - button [ref=e76] [hidden]
+          - generic [hidden]:
+            - link [ref=e77] [hidden]
+- main:
+  - generic [hidden]:
+    - generic [hidden]:
+      - link [ref=e86] [hidden]
+  - canvas [ref=e87] [size=1484x1113]
+  - canvas [ref=e88] [size=1484x1113]
+  - link [ref=e89] [hidden]
+  - complementary:
+    - generic [hidden]:
+      - link [ref=e1] [hidden]
+      - generic [hidden]:
+        - generic [hidden]:
+          - generic [hidden]:
+            - link [ref=e2] [hidden]
+    - generic [hidden]:
+      - generic [hidden]:
+        - link "Let The World Burn 🔥| Valorant Montage" [ref=e90] [hidden]
+        - generic [hidden]:
+          - link [ref=e91] [hidden]
+    - button [ref=e5] [hidden]
+    - generic [hidden]:
+      - generic [ref=e6] [hidden]:
+        - generic [hidden]:
+          - link [ref=e7] [hidden]:
+            - button [ref=e8] [hidden]
+            - button [ref=e9] [hidden]
+    - generic [hidden]:
+      - button "Play" [ref=e16] [hidden]
+    - generic [hidden]:
+      - button [ref=e92] [hidden]
+    - generic [hidden]:
+      - link [ref=e17] [hidden]
+    - button [ref=e18] [hidden]
+    - button [ref=e19] [hidden]
+    - generic [ref=e20] [hidden]:
+      - generic [hidden]:
+        - button "Show cards" [ref=e21] [hidden]
+        - button "Close" [ref=e22] [hidden]
+    - button [ref=e23] [hidden]:
+      - dialog [hidden]:
+        - button "Close" [ref=e24] [hidden]
+    - button [ref=e25] [hidden]:
+      - dialog [hidden]:
+        - generic [hidden]:
+          - generic [hidden]:
+            - link [ref=e26] [hidden]
+            - button "Close" [ref=e27] [hidden]
+    - generic [hidden]:
+      - button [ref=e28] [hidden]:
+        - generic [hidden]:
+          - button [ref=e29] [hidden]
+    - generic [hidden]:
+      - button [ref=e30] [hidden]:
+        - generic [hidden]:
+          - button [ref=e31] [hidden]
+    - generic [hidden]:
+      - generic [ref=e32] [hidden]:
+        - generic [hidden]:
+          - button [ref=e33] [hidden]
+          - link [ref=e34] [hidden]:
+            - button [ref=e35] [hidden]
+    - button "Channel watermark" [ref=e93]
+    - generic [hidden]:
+      - generic [hidden]:
+        - generic [hidden]:
+          - generic [hidden]:
+            - generic [hidden]:
+              - button "like this video along with 1,429 other people" [ref=e94] [hidden]
+        - generic [hidden]:
+          - generic [hidden]:
+            - generic [hidden]:
+              - button "Dislike this video" [ref=e95] [hidden]
+        - generic [hidden]:
+          - generic [hidden]:
+            - button "Comments" [ref=e96] [hidden]
+        - generic [hidden]:
+          - button "Share" [ref=e97] [hidden]
+        - generic [hidden]:
+          - button "More actions" [ref=e98] [hidden]
+    - dialog [hidden]:
+      - generic [hidden]:
+        - generic [hidden]:
+          - button "Cancel" [ref=e36] [hidden]
+          - button "Confirm" [ref=e37] [hidden]
+    - generic [hidden]:
+      - generic [hidden]:
+        - generic [hidden]:
+          - link [ref=e99] [hidden]
+        - generic [hidden]:
+          - button "Cancel autoplay" [ref=e100] [hidden]: "Cancel"
+          - button "Play next video" [ref=e101] [hidden]: "Play Now"
+    - generic [hidden]:
+      - button [ref=e102] [hidden]
+      - button [ref=e103] [hidden]
+    - dialog [hidden]:
+      - generic [hidden]:
+        - link "Share link" [ref=e38] [hidden]
+        - label [hidden]:
+          - checkbox "Include playlist" [ref=e39] [hidden] [checked]
+          - text: "Include playlist"
+      - button "Close" [ref=e40] [hidden]
+    - generic [hidden]:
+      - generic [ref=e41] [hidden]
+      - generic [ref=e42] [hidden]
+    - generic [hidden]:
+      - generic [ref=e104] [hidden]:
+        - slider "Seek slider" [ref=e43] [hidden]
+        - generic [hidden]:
+          - generic [hidden]:
+            - generic [hidden]:
+              - slider "Click or scroll the panel for the precise seeking." [ref=e44] [hidden]
+            - button [ref=e45] [hidden]
+            - button [ref=e46] [hidden]
+      - generic [hidden]:
+        - generic [hidden]:
+          - button "Pause (k)" [ref=e47] [hidden]
+          - button [ref=e48] [hidden] [disabled]
+          - button [ref=e49] [hidden]
+          - generic [hidden]:
+            - generic [hidden]:
+              - button "Mute (m)" [ref=e50] [hidden]
+            - slider "Volume" [ref=e51] [hidden]
+          - generic [ref=e52] [hidden]:
+            - generic [hidden]:
+              - button "0 Minutes 0 Seconds of 0 Minutes 30 Seconds" [ref=e105] [hidden]
+              - button [ref=e54] [hidden]: "Live"
+          - generic [hidden]:
+            - button "View chapter" [ref=e55] [hidden] [disabled]
+          - generic [hidden]:
+            - button "View key moments" [ref=e56] [hidden] [disabled]
+        - generic [hidden]:
+          - generic [hidden]:
+            - button [ref=e57] [hidden]
+            - button "Autoplay is off" [ref=e106] [hidden]
+            - button "Subtitles/closed captions unavailable" [ref=e59] [hidden]
+            - button "Settings" [ref=e60] [hidden]
+          - generic [hidden]:
+            - button "Theater mode (t)" [ref=e61] [hidden]
+            - button [ref=e62] [hidden]
+            - button "Full screen (f)" [ref=e63] [hidden]
+          - button [ref=e64] [hidden]
+    - generic [hidden]:
+      - generic [hidden]:
+        - button [ref=e65] [hidden]
+      - generic [hidden]:
+        - generic [hidden]:
+          - link "Rover 🚗 (Valorant Montage) 2 minutes, 7 seconds" [ref=e107] [hidden]
+          - link "LET THE WORLD BURN | Valorant Edit 38 seconds" [ref=e108] [hidden]
+          - link "How I made my MOST WATCHED VALORANT EDIT [Tutorial] *Editing Pack In Description* 8 minutes, 37 seco" [ref=e109] [hidden]
+          - link "Valorant LET THE WORLD BURN 2 minutes, 42 seconds" [ref=e110] [hidden]
+          - link "Cleanest edit you'll ever see |Valorant Montage💘 50 seconds" [ref=e111] [hidden]
+          - link "𝐂𝐨𝐧𝐟𝐞𝐬𝐬 𝐘𝐨𝐮𝐫 𝐋𝐨𝐯𝐞 🖤 - VALORANT [Edit/Montage] 41 seconds" [ref=e112] [hidden]
+          - link "Habits 💊 (Rocket League SSL Montage) 3 minutes, 33 seconds" [ref=e113] [hidden]
+          - link "Bauklotze | Eren Yeager 🐺 Valorant Montage 31 seconds" [ref=e114] [hidden]
+          - link "Bring Me to Life x My Hero Academia | Valorant Montage 30 seconds" [ref=e115] [hidden]
+          - link "If The Sun Burns Out Tonight ft. Grabbitz, Oli Sykes, Courtney LaPlante // VALORANT Champions 2026 3" [ref=e116] [hidden]
+          - link "STEP BACK - Valorant Montage 2 minutes, 5 seconds" [ref=e117] [hidden]
+          - link "Valorant TikTok Edit GUIDE in CapCut 3 minutes, 37 seconds" [ref=e118] [hidden]
+  - heading "Let The World Burn 🔥| Valorant Montage" [level=1]
+  - link "Seili" [ref=e119]
+  - link "Seili" [ref=e120]
+  - text: "371 subscribers"
+  - button "Subscribe to Seili." [ref=e121]: "Subscribe"
+  - generic [hidden]:
+    - generic [hidden]:
+      - generic [hidden]:
+        - button [ref=e122] [hidden]
+  - generic [ref=e123] [scrollable]:
+    - button "like this video along with 1,429 other people" [ref=e124]: "1.4K"
+    - button "Dislike this video" [ref=e125]
+    - button "Share" [ref=e126]
+    - button "Download" [ref=e127]
+    - tooltip "tooltip"
+    - button "Save to playlist" [ref=e128]: "Save"
+    - generic [hidden]:
+      - button "More actions" [ref=e129] [hidden]
+    - button "More actions" [ref=e130]
+  - generic [ref=e131]:
+    - text: "48K views   11mo ago"
+    - tooltip "tooltip"
+    - text: "Let The World Burn 🔥| Valorant Montage\n\n•  Instagram :   / seili_lmn"
+    - text: "…"
+    - button [ref=e132] [hidden]: "more"
+    - button "more" [ref=e133]
+    - generic [hidden]:
+      - generic [hidden]:
+        - generic [hidden]:
+          - generic [hidden]:
+            - generic [hidden]:
+              - generic [hidden]:
+                - generic [hidden]:
+                  - generic [hidden]:
+                    - generic [hidden]:
+                      - group "Valorant" [ref=e134] [hidden]:
+                        - link [ref=e135] [hidden]
+              - generic [hidden]:
+                - link "Gaming" [ref=e136] [hidden]
+          - generic [hidden]:
+            - link [ref=e137] [hidden]
+            - generic [hidden]:
+              - generic [hidden]:
+                - generic [hidden]:
+                  - generic [hidden]:
+                    - generic [hidden]:
+                      - link "Videos" [ref=e138] [hidden]
+                  - generic [hidden]:
+                    - generic [hidden]:
+                      - link "About" [ref=e139] [hidden]
+    - button [ref=e140] [hidden]: "Show less"
+  - generic [hidden]:
+    - generic [hidden]:
+      - generic [hidden]:
+        - generic [hidden]:
+          - generic [hidden]:
+            - link [ref=e141] [hidden]
+            - generic [hidden]:
+              - generic [hidden]:
+                - generic [hidden]:
+                  - generic [hidden]:
+                    - generic [hidden]:
+                      - generic [hidden]:
+                        - generic [hidden]:
+                          - generic [hidden]:
+                            - generic [hidden]:
+                              - generic [hidden]:
+                                - generic [hidden]:
+                                  - generic [hidden]:
+                                    - button "like this video along with 1,429 other people" [ref=e142] [hidden]
+                              - generic [hidden]:
+                                - generic [hidden]:
+                                  - generic [hidden]:
+                                    - button "Dislike this video" [ref=e143] [hidden]
+                      - generic [hidden]:
+                        - generic [hidden]:
+                          - button "Share" [ref=e144] [hidden]
+                    - generic [hidden]:
+                      - generic [hidden]:
+                        - generic [hidden]:
+                          - generic [hidden]:
+                            - button "Download" [ref=e145] [hidden]
+                      - generic [hidden]:
+                        - generic [hidden]:
+                          - button "Save to playlist" [ref=e146] [hidden]
+                    - generic [hidden]:
+                      - button "More actions" [ref=e147] [hidden]
+                    - generic [hidden]:
+                      - button "More actions" [ref=e148] [hidden]
+  - heading [level=2]: "78  Comments"
+  - tooltip "tooltip"
+  - group:
+    - button "Sort comments" [ref=e150]: "Sort by"
+    - generic [hidden]:
+      - generic [hidden]:
+        - generic [hidden]:
+          - listbox [ref=e151] [hidden]:
+            - link [ref=e152] [hidden]:
+              - option [ref=e153] [hidden]
+            - link [ref=e154] [hidden]:
+              - option [ref=e155] [hidden]
+  - text: "Default profile photo"
+  - textbox [ref=e156]
+  - button "@crucifiedcheese" [ref=e157]
+  - heading [level=3]:
+    - link "@crucifiedcheese" [ref=e158]
+  - link "2 days ago" [ref=e159]
+  - text: "i actually smashed the sub button"
+  - button [ref=e160] [hidden]
+  - button [ref=e161] [hidden]
+  - generic [hidden]:
+    - button [ref=e162] [hidden]
+  - button "Like this comment along with 0 other people" [ref=e163]
+  - tooltip "tooltip"
+  - button "Dislike this comment" [ref=e164]
+  - tooltip "tooltip"
+  - button "Reply" [ref=e165]
+  - generic [hidden]:
+    - button [ref=e166] [hidden]
+  - generic [ref=e167] [hidden]
+  - button "@justprods2778" [ref=e168]
+  - heading [level=3]:
+    - link "@justprods2778" [ref=e169]
+  - link "7 months ago" [ref=e170]
+  - text: "the real power of skibidisigma69"
+  - link "0:22" [ref=e171]
+  - button [ref=e172] [hidden]
+  - button [ref=e173] [hidden]
+  - generic [hidden]:
+    - button [ref=e174] [hidden]
+  - button "Like this comment along with 11 other people" [ref=e175]
+  - tooltip "tooltip"
+  - text: "11"
+  - button "Dislike this comment" [ref=e176]
+  - tooltip "tooltip"
+  - button "Reply" [ref=e177]
+  - generic [hidden]:
+    - button [ref=e178] [hidden]
+  - generic [ref=e179] [hidden]
+  - button "@noklaaaaa" [ref=e180]
+  - heading [level=3]:
+    - link "@noklaaaaa" [ref=e181]
+  - link "2 weeks ago" [ref=e182]
+  - text: "underated shi deserves more than a million'"
+  - button [ref=e183] [hidden]
+  - button [ref=e184] [hidden]
+  - generic [hidden]:
+    - button [ref=e185] [hidden]
+  - button "Like this comment along with 0 other people" [ref=e186]
+  - tooltip "tooltip"
+  - button "Dislike this comment" [ref=e187]
+  - tooltip "tooltip"
+  - button "Reply" [ref=e188]
+  - generic [hidden]:
+    - button [ref=e189] [hidden]
+  - generic [ref=e190] [hidden]
+  - button "@prodigyraps" [ref=e191]
+  - heading [level=3]:
+    - link [ref=e192] [hidden]
+  - link "@prodigyraps" [ref=e193]
+  - link "3 weeks ago" [ref=e194]
+  - text: "nice editing bro"
+  - button [ref=e195] [hidden]
+  - button [ref=e196] [hidden]
+  - generic [hidden]:
+    - button [ref=e197] [hidden]
+  - button "Like this comment along with 0 other people" [ref=e198]
+  - tooltip "tooltip"
+  - button "Dislike this comment" [ref=e199]
+  - tooltip "tooltip"
+  - button "Reply" [ref=e200]
+  - generic [hidden]:
+    - button [ref=e201] [hidden]
+  - generic [ref=e202] [hidden]
+  - button "@SealZR6" [ref=e203]
+  - heading [level=3]:
+    - link "@SealZR6" [ref=e204]
+  - link "9 months ago" [ref=e205]
+  - text: "Please do more like anime references or like tokyo ghoul it's amazing man"
+  - button [ref=e206] [hidden]
+  - button [ref=e207] [hidden]
+  - generic [hidden]:
+    - button [ref=e208] [hidden]
+  - button "Like this comment along with 9 other people" [ref=e209]
+  - tooltip "tooltip"
+  - text: "9"
+  - button "Dislike this comment" [ref=e210]
+  - tooltip "tooltip"
+  - button "Reply" [ref=e211]
+  - generic [hidden]:
+    - button [ref=e212] [hidden]
+  - generic [ref=e213] [hidden]
+  - button "@hiKARi3769" [ref=e214]
+  - heading [level=3]:
+    - link "@hiKARi3769" [ref=e215]
+  - link "9 months ago" [ref=e216]
+  - text: "WTF"
+  - text: "I DID NOT EXPECT THAT..."
+  - button [ref=e217] [hidden]
+  - button [ref=e218] [hidden]
+  - generic [hidden]:
+    - button [ref=e219] [hidden]
+  - button "Like this comment along with 38 other people" [ref=e220]
+  - tooltip "tooltip"
+  - text: "38"
+  - button "Dislike this comment" [ref=e221]
+  - tooltip "tooltip"
+  - button "Reply" [ref=e222]
+  - generic [hidden]:
+    - button [ref=e223] [hidden]
+  - generic [hidden]:
+    - generic [hidden]:
+      - generic [hidden]:
+        - generic [hidden]:
+          - generic [hidden]:
+            - button "2 replies" [ref=e224] [hidden]
+      - generic [hidden]:
+        - generic [hidden]:
+          - generic [hidden]:
+            - button "Hide replies" [ref=e225] [hidden]
+  - button "2 replies" [ref=e226]
+  - button "@Jarnail_-23" [ref=e228]
+  - heading [level=3]:
+    - link "@Jarnail_-23" [ref=e229]
+  - link "5 months ago" [ref=e230]
+  - text: "I don't know what happened in the 30 seconds  crazy bro"
+  - button [ref=e231] [hidden]
+  - button [ref=e232] [hidden]
+  - generic [hidden]:
+    - button [ref=e233] [hidden]
+  - button "Like this comment along with 2 other people" [ref=e234]
+  - tooltip "tooltip"
+  - text: "2"
+  - button "Dislike this comment" [ref=e235]
+  - tooltip "tooltip"
+  - button "Reply" [ref=e236]
+  - generic [hidden]:
+    - button [ref=e237] [hidden]
+  - generic [ref=e238] [hidden]
+  - button "@Daily.stories127" [ref=e239]
+  - heading [level=3]:
+    - link "@Daily.stories127" [ref=e240]
+  - link "11 months ago (edited)" [ref=e241]
+  - text: "OMG WHAT IS THAT BRO U NEED LIKE 50 MIL SUBS FOR THAT"
+  - button [ref=e242] [hidden]
+  - button [ref=e243] [hidden]
+  - generic [hidden]:
+    - button [ref=e244] [hidden]
+  - button "Like this comment along with 2 other people" [ref=e245]
+  - tooltip "tooltip"
+  - text: "2"
+  - button "Dislike this comment" [ref=e246]
+  - tooltip "tooltip"
+  - button "Reply" [ref=e247]
+  - generic [hidden]:
+    - button [ref=e248] [hidden]
+  - generic [hidden]:
+    - generic [hidden]:
+      - generic [hidden]:
+        - generic [ref=e249] [hidden]
+        - generic [hidden]:
+          - generic [hidden]:
+            - button "1 reply" [ref=e250] [hidden]
+      - generic [hidden]:
+        - generic [ref=e251] [hidden]
+        - generic [hidden]:
+          - generic [hidden]:
+            - button "Hide replies" [ref=e252] [hidden]
+  - text: "·"
+  - button "1 reply" [ref=e254]
+  - button "@gamingwithsaransh3201" [ref=e256]
+  - heading [level=3]:
+    - link "@gamingwithsaransh3201" [ref=e257]
+  - link "6 months ago" [ref=e258]
+  - text: "what the helll ??? only this much views ???????????"
+  - button [ref=e259] [hidden]
+  - button [ref=e260] [hidden]
+  - generic [hidden]:
+    - button [ref=e261] [hidden]
+  - button "Like this comment along with 2 other people" [ref=e262]
+  - tooltip "tooltip"
+  - text: "2"
+  - button "Dislike this comment" [ref=e263]
+  - tooltip "tooltip"
+  - button "Reply" [ref=e264]
+  - generic [hidden]:
+    - button [ref=e265] [hidden]
+  - generic [ref=e266] [hidden]
+  - button "@editx.7799" [ref=e267]
+  - heading [level=3]:
+    - link "@editx.7799" [ref=e268]
+  - link "1 month ago" [ref=e269]
+  - text: "Ofc its \"let the world burn edit\" It gotta be badass"
+  - button [ref=e270] [hidden]
+  - button [ref=e271] [hidden]
+  - generic [hidden]:
+    - button [ref=e272] [hidden]
+  - button "Like this comment along with 0 other people" [ref=e273]
+  - tooltip "tooltip"
+  - button "Dislike this comment" [ref=e274]
+  - tooltip "tooltip"
+  - button "Reply" [ref=e275]
+  - generic [hidden]:
+    - button [ref=e276] [hidden]
+  - generic [ref=e277] [hidden]
+  - button "@clebp2391" [ref=e278]
+  - heading [level=3]:
+    - link "@clebp2391" [ref=e279]
+  - link "8 months ago" [ref=e280]
+  - text: "This video is so underrated!  I will be sharing this with my grandkids for sure!"
+  - button [ref=e281] [hidden]
+  - button [ref=e282] [hidden]
+  - generic [hidden]:
+    - button [ref=e283] [hidden]
+  - button "Like this comment along with 3 other people" [ref=e284]
+  - tooltip "tooltip"
+  - text: "3"
+  - button "Dislike this comment" [ref=e285]
+  - tooltip "tooltip"
+  - button "Reply" [ref=e286]
+  - generic [hidden]:
+    - button [ref=e287] [hidden]
+  - generic [ref=e288] [hidden]
+  - button "@ryanjoshii" [ref=e289]
+  - heading [level=3]:
+    - link "@ryanjoshii" [ref=e290]
+  - link "10 months ago" [ref=e291]
+  - text: "yooo how come this does not have views on god this is the only valo edit i felt was good on this particular song"
+  - button [ref=e292] [hidden]
+  - button [ref=e293] [hidden]
+  - generic [hidden]:
+    - button [ref=e294] [hidden]
+  - button "Like this comment along with 1 other person" [ref=e295]
+  - tooltip "tooltip"
+  - text: "1"
+  - button "Dislike this comment" [ref=e296]
+  - tooltip "tooltip"
+  - button "Reply" [ref=e297]
+  - generic [hidden]:
+    - button [ref=e298] [hidden]
+  - generic [hidden]:
+    - generic [hidden]:
+      - generic [hidden]:
+        - generic [ref=e299] [hidden]
+        - generic [hidden]:
+          - generic [hidden]:
+            - button "1 reply" [ref=e300] [hidden]
+      - generic [hidden]:
+        - generic [ref=e301] [hidden]
+        - generic [hidden]:
+          - generic [hidden]:
+            - button "Hide replies" [ref=e302] [hidden]
+  - text: "·"
+  - button "1 reply" [ref=e304]
+  - button "@Lavi037-Comments" [ref=e306]
+  - heading [level=3]:
+    - link "@Lavi037-Comments" [ref=e307]
+  - link "8 months ago" [ref=e308]
+  - text: "Don't judge a book by its fuckin' cover ya heard?"
+  - button [ref=e309] [hidden]
+  - button [ref=e310] [hidden]
+  - generic [hidden]:
+    - button [ref=e311] [hidden]
+  - button "Like this comment along with 1 other person" [ref=e312]
+  - tooltip "tooltip"
+  - text: "1"
+  - button "Dislike this comment" [ref=e313]
+  - tooltip "tooltip"
+  - button "Reply" [ref=e314]
+  - generic [hidden]:
+    - button [ref=e315] [hidden]
+  - generic [hidden]:
+    - generic [hidden]:
+      - generic [hidden]:
+        - generic [ref=e316] [hidden]
+        - generic [hidden]:
+          - generic [hidden]:
+            - button "1 reply" [ref=e317] [hidden]
+      - generic [hidden]:
+        - generic [ref=e318] [hidden]
+        - generic [hidden]:
+          - generic [hidden]:
+            - button "Hide replies" [ref=e319] [hidden]
+  - text: "·"
+  - button "1 reply" [ref=e321]
+  - button "@Firstholy" [ref=e323]
+  - heading [level=3]:
+    - link "@Firstholy" [ref=e324]
+  - link "6 months ago" [ref=e325]
+  - text: "ww"
+  - button [ref=e326] [hidden]
+  - button [ref=e327] [hidden]
+  - generic [hidden]:
+    - button [ref=e328] [hidden]
+  - button "Like this comment along with 0 other people" [ref=e329]
+  - tooltip "tooltip"
+  - button "Dislike this comment" [ref=e330]
+  - tooltip "tooltip"
+  - button "Reply" [ref=e331]
+  - generic [hidden]:
+    - button [ref=e332] [hidden]
+  - generic [ref=e333] [hidden]
+  - button "@noxy110" [ref=e334]
+  - heading [level=3]:
+    - link "@noxy110" [ref=e335]
+  - link "9 months ago" [ref=e336]
+  - text: "DAMNNNNNNN"
+  - button [ref=e337] [hidden]
+  - button [ref=e338] [hidden]
+  - generic [hidden]:
+    - button [ref=e339] [hidden]
+  - button "Like this comment along with 5 other people" [ref=e340]
+  - tooltip "tooltip"
+  - text: "5"
+  - button "Dislike this comment" [ref=e341]
+  - tooltip "tooltip"
+  - button "Reply" [ref=e342]
+  - generic [hidden]:
+    - button [ref=e343] [hidden]
+  - generic [ref=e344] [hidden]
+  - button "@CloudyHaven" [ref=e345]
+  - heading [level=3]:
+    - link "@CloudyHaven" [ref=e346]
+  - link "3 months ago" [ref=e347]
+  - text: "Holy PEAK!"
+  - button [ref=e348] [hidden]
+  - button [ref=e349] [hidden]
+  - generic [hidden]:
+    - button [ref=e350] [hidden]
+  - button "Like this comment along with 0 other people" [ref=e351]
+  - tooltip "tooltip"
+  - button "Dislike this comment" [ref=e352]
+  - tooltip "tooltip"
+  - button "Reply" [ref=e353]
+  - generic [hidden]:
+    - button [ref=e354] [hidden]
+  - generic [ref=e355] [hidden]
+  - button "@crackyycrimez" [ref=e356]
+  - heading [level=3]:
+    - link "@crackyycrimez" [ref=e357]
+  - link "8 months ago" [ref=e358]
+  - text: "crazy edit underrated asf"
+  - button [ref=e359] [hidden]
+  - button [ref=e360] [hidden]
+  - generic [hidden]:
+    - button [ref=e361] [hidden]
+  - button "Like this comment along with 2 other people" [ref=e362]
+  - tooltip "tooltip"
+  - text: "2"
+  - button "Dislike this comment" [ref=e363]
+  - tooltip "tooltip"
+  - button "Reply" [ref=e364]
+  - generic [hidden]:
+    - button [ref=e365] [hidden]
+  - generic [ref=e366] [hidden]
+  - button "@Xen0valt" [ref=e367]
+  - heading [level=3]:
+    - link "@Xen0valt" [ref=e368]
+  - link "10 months ago" [ref=e369]
+  - text: "just finished manga book 7 yesterday to see this master piece"
+  - button [ref=e370] [hidden]
+  - button [ref=e371] [hidden]
+  - generic [hidden]:
+    - button [ref=e372] [hidden]
+  - button "Like this comment along with 0 other people" [ref=e373]
+  - tooltip "tooltip"
+  - button "Dislike this comment" [ref=e374]
+  - tooltip "tooltip"
+  - button "Reply" [ref=e375]
+  - generic [hidden]:
+    - button [ref=e376] [hidden]
+  - generic [ref=e377] [hidden]
+  - button "@DaviBorge-n7o" [ref=e378]
+  - heading [level=3]:
+    - link "@DaviBorge-n7o" [ref=e379]
+  - link "8 months ago" [ref=e380]
+  - text: "HOLY FUCK"
+  - button [ref=e381] [hidden]
+  - button [ref=e382] [hidden]
+  - generic [hidden]:
+    - button [ref=e383] [hidden]
+  - button "Like this comment along with 1 other person" [ref=e384]
+  - tooltip "tooltip"
+  - text: "1"
+  - button "Dislike this comment" [ref=e385]
+  - tooltip "tooltip"
+  - button "Reply" [ref=e386]
+  - generic [hidden]:
+    - button [ref=e387] [hidden]
+  - generic [ref=e388] [hidden]
+  - button "@MIGHTY-nn6yj" [ref=e389]
+  - heading [level=3]:
+    - link "@MIGHTY-nn6yj" [ref=e390]
+  - link "5 months ago" [ref=e391]
+  - text: "crazyy bro!"
+  - button [ref=e392] [hidden]
+  - button [ref=e393] [hidden]
+  - generic [hidden]:
+    - button [ref=e394] [hidden]
+  - button "Like this comment along with 0 other people" [ref=e395]
+  - tooltip "tooltip"
+  - button "Dislike this comment" [ref=e396]
+  - tooltip "tooltip"
+  - button "Reply" [ref=e397]
+  - generic [hidden]:
+    - button [ref=e398] [hidden]
+  - generic [ref=e399] [hidden]
+  - generic [hidden]:
+    - generic [hidden]:
+      - generic [hidden]:
+        - generic [hidden]:
+          - generic [hidden]:
+            - generic [hidden]:
+              - generic [hidden]:
+                - group [hidden]:
+                  - generic [ref=e400] [hidden]:
+                    - button "Sort comments" [ref=e401] [hidden]
+                  - generic [hidden]:
+                    - generic [hidden]:
+                      - generic [hidden]:
+                        - listbox [ref=e402] [hidden]:
+                          - link [ref=e403] [hidden]:
+                            - option [ref=e404] [hidden]
+                          - link [ref=e405] [hidden]:
+                            - option [ref=e406] [hidden]
+          - generic [hidden]:
+            - generic [hidden]:
+              - generic [hidden]:
+                - button "Close" [ref=e407] [hidden]
+    - generic [hidden]:
+      - generic [hidden]:
+        - generic [hidden]:
+          - generic [hidden]:
+            - generic [hidden]:
+              - button [ref=e408] [hidden]
+  - generic [hidden]:
+    - generic [hidden]:
+      - generic [hidden]:
+        - generic [hidden]:
+          - generic [hidden]:
+            - generic [hidden]:
+              - generic [ref=e409] [hidden]
+          - generic [hidden]:
+            - generic [hidden]:
+              - button "My Ad Center" [ref=e410] [hidden]
+            - generic [hidden]:
+              - generic [hidden]:
+                - generic [hidden]:
+                  - button [ref=e411] [hidden]
+    - generic [hidden]:
+      - generic [hidden]:
+        - generic [hidden]:
+          - generic [hidden]:
+            - generic [hidden]:
+              - generic [hidden]:
+                - generic [ref=e412] [hidden]:
+                  - generic [hidden]:
+                    - generic [hidden]:
+                      - link [ref=e413] [hidden]
+                - generic [ref=e414] [hidden]:
+                  - generic [hidden]:
+                    - generic [hidden]:
+                      - link [ref=e415] [hidden]
+                - generic [ref=e416] [hidden]:
+                  - generic [hidden]:
+                    - generic [hidden]:
+                      - link [ref=e417] [hidden]
+                - generic [ref=e418] [hidden]:
+                  - generic [hidden]:
+                    - generic [hidden]:
+                      - link [ref=e419] [hidden]
+            - generic [hidden]:
+              - generic [hidden]:
+                - link "Shop now" [ref=e420] [hidden]
+  - generic [hidden]:
+    - generic [hidden]:
+      - generic [hidden]:
+        - generic [hidden]:
+          - generic [hidden]:
+            - generic [hidden]:
+              - button [ref=e421] [hidden]
+  - generic [hidden]:
+    - generic [hidden]:
+      - generic [hidden]:
+        - generic [hidden]:
+          - generic [hidden]:
+            - button "Close" [ref=e422] [hidden]
+        - generic [hidden]:
+          - generic [hidden]:
+            - generic [hidden]:
+              - button "Close" [ref=e423] [hidden]
+          - generic [hidden]:
+            - generic [hidden]:
+              - link [ref=e424] [hidden]
+          - generic [hidden]:
+            - generic [hidden]:
+              - generic [hidden]:
+                - generic [hidden]:
+                  - generic [hidden]:
+                    - generic [hidden]:
+                      - generic [hidden]:
+                        - link "https://www.tiktok.com/@wseili_?_r=1&..." [ref=e425] [hidden]
+                - button [ref=e426] [hidden]: "...more"
+              - button [ref=e427] [hidden]: "...more"
+              - button [ref=e428] [hidden]: "Show less"
+          - generic [hidden]:
+            - generic [hidden]:
+              - generic [hidden]:
+                - generic [hidden]:
+                  - generic [hidden]:
+                    - generic [ref=e429] [hidden]:
+                      - group "Valorant" [ref=e430] [hidden]:
+                        - link [ref=e431] [hidden]
+              - generic [hidden]:
+                - link "Gaming" [ref=e432] [hidden]
+          - generic [hidden]:
+            - link [ref=e433] [hidden]
+            - generic [hidden]:
+              - generic [ref=e434] [hidden]
+              - generic [hidden]:
+                - generic [hidden]:
+                  - generic [hidden]:
+                    - generic [hidden]:
+                      - link "Videos" [ref=e435] [hidden]
+                  - generic [hidden]:
+                    - generic [hidden]:
+                      - link "About" [ref=e436] [hidden]
+              - generic [ref=e437] [hidden]
+  - generic [hidden]:
+    - generic [hidden]:
+      - generic [hidden]:
+        - generic [hidden]:
+          - generic [hidden]:
+            - generic [hidden]:
+              - button "Collapse" [ref=e438] [hidden]
+  - generic [hidden]:
+    - generic [hidden]:
+      - generic [hidden]:
+        - button [ref=e439] [hidden]
+  - generic [ref=e440]:
+    - link [ref=e441] [hidden]:
+      - img "2 minutes, 7 seconds"
+    - generic [hidden]:
+      - generic [hidden]:
+        - generic [hidden]:
+          - button "Go to channel Seili" [ref=e442] [hidden]
+    - heading "Rover 🚗 (Valorant Montage)" [level=3]:
+      - link "Rover 🚗 (Valorant Montage) 2 minutes, 7 seconds" [ref=e443]: "Rover 🚗 (Valorant Montage)"
+    - group: "Seili"
+    - group: "1K 4y ago"
+    - generic [hidden]:
+      - generic [hidden]:
+        - button "More actions" [ref=e444] [hidden]
+  - generic [ref=e445]:
+    - link [ref=e446] [hidden]:
+      - img "38 seconds"
+    - generic [hidden]:
+      - generic [hidden]:
+        - generic [hidden]:
+          - button "Go to channel JOOZEFX" [ref=e447] [hidden]
+    - heading "LET THE WORLD BURN | Valorant Edit" [level=3]:
+      - link "LET THE WORLD BURN | Valorant Edit 38 seconds" [ref=e448]: "LET THE WORLD BURN | Valorant Edit"
+    - group: "JOOZEFX"
+    - group: "479 8mo ago"
+    - generic [hidden]:
+      - generic [hidden]:
+        - button "More actions" [ref=e449] [hidden]
+  - generic [ref=e450]:
+    - link [ref=e451] [hidden]:
+      - img "8 minutes, 37 seconds"
+    - generic [hidden]:
+      - generic [hidden]:
+        - generic [hidden]:
+          - button "Go to channel Kvartals" [ref=e452] [hidden]
+    - heading "How I made my MOST WATCHED VALORANT EDIT [Tutorial] *Editing Pack In Description*" [level=3]:
+      - link "How I made my MOST WATCHED VALORANT EDIT [Tutorial] *Editing Pack In Description* 8 minutes, 37 seco" [ref=e453]: "How I made my MOST WATCHED VALORANT EDIT [Tutorial] *Editing Pack In Description*"
+    - group: "Kvartals"
+    - group: "221K 2y ago"
+    - generic [hidden]:
+      - generic [hidden]:
+        - button "More actions" [ref=e454] [hidden]
+  - generic [ref=e455]:
+    - link [ref=e456] [hidden]:
+      - img "2 minutes, 42 seconds"
+    - generic [hidden]:
+      - generic [hidden]:
+        - generic [hidden]:
+          - button "Go to channel ClipsDoDamon" [ref=e457] [hidden]
+    - heading "Valorant LET THE WORLD BURN" [level=3]:
+      - link "Valorant LET THE WORLD BURN 2 minutes, 42 seconds" [ref=e458]: "Valorant LET THE WORLD BURN"
+    - group: "ClipsDoDamon"
+    - group: "68 9d ago"
+    - generic [hidden]:
+      - generic [hidden]:
+        - button "More actions" [ref=e459] [hidden]
+  - generic [ref=e460]:
+    - link [ref=e461] [hidden]:
+      - img "50 seconds"
+    - generic [hidden]:
+      - generic [hidden]:
+        - generic [hidden]:
+          - button "Go to channel Vini" [ref=e462] [hidden]
+    - heading "Cleanest edit you'll ever see |Valorant Montage💘" [level=3]:
+      - link "Cleanest edit you'll ever see |Valorant Montage💘 50 seconds" [ref=e463]: "Cleanest edit you'll ever see |Valorant Montage💘"
+    - group: "Vini"
+    - group: "684 7mo ago"
+    - generic [hidden]:
+      - generic [hidden]:
+        - button "More actions" [ref=e464] [hidden]
+  - generic [ref=e465]:
+    - link [ref=e466] [hidden]:
+      - img "41 seconds"
+    - generic [hidden]:
+      - generic [hidden]:
+        - generic [hidden]:
+          - button "Go to channel 7Tech" [ref=e467] [hidden]
+    - heading "𝐂𝐨𝐧𝐟𝐞𝐬𝐬 𝐘𝐨𝐮𝐫 𝐋𝐨𝐯𝐞 🖤 - VALORANT [Edit/Montage]" [level=3]:
+      - link "𝐂𝐨𝐧𝐟𝐞𝐬𝐬 𝐘𝐨𝐮𝐫 𝐋𝐨𝐯𝐞 🖤 - VALORANT [Edit/Montage] 41 seconds" [ref=e468]: "𝐂𝐨𝐧𝐟𝐞𝐬𝐬 𝐘𝐨𝐮𝐫 𝐋𝐨𝐯𝐞 🖤 - VALORANT [Edit/Montage]"
+    - group: "7Tech"
+    - group: "115K 8mo ago"
+    - generic [hidden]:
+      - generic [hidden]:
+        - button "More actions" [ref=e469] [hidden]
+  - generic [ref=e470]:
+    - link [ref=e471] [hidden]:
+      - img "3 minutes, 33 seconds"
+    - generic [hidden]:
+      - generic [hidden]:
+        - generic [hidden]:
+          - button "Go to channel Vision" [ref=e472] [hidden]
+    - heading "Habits 💊 (Rocket League SSL Montage)" [level=3]:
+      - link "Habits 💊 (Rocket League SSL Montage) 3 minutes, 33 seconds" [ref=e473]: "Habits 💊 (Rocket League SSL Montage)"
+    - group: "Vision"
+    - group: "214K 2mo ago"
+    - generic [hidden]:
+      - generic [hidden]:
+        - button "More actions" [ref=e474] [hidden]
+  - generic [ref=e475]:
+    - link [ref=e476] [hidden]:
+      - img "31 seconds"
+    - generic [hidden]:
+      - generic [hidden]:
+        - generic [hidden]:
+          - button "Go to channel Seili" [ref=e477] [hidden]
+    - heading "Bauklotze | Eren Yeager 🐺 Valorant Montage" [level=3]:
+      - link "Bauklotze | Eren Yeager 🐺 Valorant Montage 31 seconds" [ref=e478]: "Bauklotze | Eren Yeager 🐺 Valorant Montage"
+    - group: "Seili"
+    - group: "367 3mo ago"
+    - generic [hidden]:
+      - generic [hidden]:
+        - button "More actions" [ref=e479] [hidden]
+  - generic [ref=e480]:
+    - link [ref=e481] [hidden]:
+      - img "30 seconds"
+    - generic [hidden]:
+      - generic [hidden]:
+        - generic [hidden]:
+          - button "Go to channel Seili" [ref=e482] [hidden]
+    - heading "Bring Me to Life x My Hero Academia | Valorant Montage" [level=3]:
+      - link "Bring Me to Life x My Hero Academia | Valorant Montage 30 seconds" [ref=e483]: "Bring Me to Life x My Hero Academia | Valorant Montage"
+    - group: "Seili"
+    - group: "506 3mo ago"
+    - generic [hidden]:
+      - generic [hidden]:
+        - button "More actions" [ref=e484] [hidden]
+  - generic [ref=e485]:
+    - link [ref=e486] [hidden]:
+      - img "3 minutes, 55 seconds"
+    - generic [hidden]:
+      - generic [hidden]:
+        - generic [hidden]:
+          - button "Go to channel VALORANT" [ref=e487] [hidden]
+    - heading "If The Sun Burns Out Tonight ft. Grabbitz, Oli Sykes, Courtney LaPlante // VALORANT Champions 2026" [level=3]:
+      - link "If The Sun Burns Out Tonight ft. Grabbitz, Oli Sykes, Courtney LaPlante // VALORANT Champions 2026 3" [ref=e488]: "If The Sun Burns Out Tonight ft. Grabbitz, Oli Sykes, Courtney LaPlante // VALORANT Champions 2026"
+    - group: "VALORANT"
+    - group: "11M 3w ago"
+    - generic [hidden]:
+      - generic [hidden]:
+        - button "More actions" [ref=e489] [hidden]
+  - generic [ref=e490]:
+    - link [ref=e491] [hidden]:
+      - img "2 minutes, 5 seconds"
+    - generic [hidden]:
+      - generic [hidden]:
+        - generic [hidden]:
+          - button "Go to channel Defect" [ref=e492] [hidden]
+    - heading "STEP BACK - Valorant Montage" [level=3]:
+      - link "STEP BACK - Valorant Montage 2 minutes, 5 seconds" [ref=e493]: "STEP BACK - Valorant Montage"
+    - group: "Defect"
+    - group: "361K 3y ago"
+    - generic [hidden]:
+      - generic [hidden]:
+        - button "More actions" [ref=e494] [hidden]
+  - generic [ref=e495]:
+    - link [ref=e496] [hidden]:
+      - img "3 minutes, 37 seconds"
+    - generic [hidden]:
+      - generic [hidden]:
+        - generic [hidden]:
+          - button "Go to channel lil yay" [ref=e497] [hidden]
+    - heading "Valorant TikTok Edit GUIDE in CapCut" [level=3]:
+      - link "Valorant TikTok Edit GUIDE in CapCut 3 minutes, 37 seconds" [ref=e498]: "Valorant TikTok Edit GUIDE in CapCut"
+    - group: "lil yay"
+    - group: "386K 2y ago"
+    - generic [hidden]:
+      - generic [hidden]:
+        - button "More actions" [ref=e499] [hidden]
+  - generic [ref=e500]:
+    - link [ref=e501] [hidden]:
+      - img "41 seconds"
+    - generic [hidden]:
+      - generic [hidden]:
+        - generic [hidden]:
+          - button "Go to channel MIST Phoenix" [ref=e502] [hidden]
+    - heading "Die for you ⚰️- Valorant 3D Edit [4K]" [level=3]:
+      - link "Die for you ⚰️- Valorant 3D Edit [4K] 41 seconds" [ref=e503]: "Die for you ⚰️- Valorant 3D Edit [4K]"
+    - group: "MIST Phoenix"
+    - group: "27K 2y ago"
+    - generic [hidden]:
+      - generic [hidden]:
+        - button "More actions" [ref=e504] [hidden]
+  - generic [ref=e505]:
+    - link [ref=e506] [hidden]:
+      - img "23 seconds"
+    - generic [hidden]:
+      - generic [hidden]:
+        - generic [hidden]:
+          - button "Go to channel SAYO" [ref=e507] [hidden]
+    - heading "Young Girl A [Valorant Edit]" [level=3]:
+      - link "Young Girl A [Valorant Edit] 23 seconds" [ref=e508]: "Young Girl A [Valorant Edit]"
+    - group: "SAYO"
+    - group: "921K 3y ago"
+    - generic [hidden]:
+      - generic [hidden]:
+        - button "More actions" [ref=e509] [hidden]
+  - generic [ref=e510]:
+    - link [ref=e511] [hidden]:
+      - img "33 seconds"
+    - generic [hidden]:
+      - generic [hidden]:
+        - generic [hidden]:
+          - button "Go to channel duckyy" [ref=e512] [hidden]
+    - heading "ME MYSELF AND I \ Valorant Montage" [level=3]:
+      - link "ME MYSELF AND I \ Valorant Montage 33 seconds" [ref=e513]: "ME MYSELF AND I \ Valorant Montage"
+    - group: "duckyy"
+    - group: "436 2w ago"
+    - generic [hidden]:
+      - generic [hidden]:
+        - button "More actions" [ref=e514] [hidden]
+  - generic [ref=e515]:
+    - link [ref=e516] [hidden]:
+      - img "2 minutes, 14 seconds"
+    - generic [hidden]:
+      - generic [hidden]:
+        - generic [hidden]:
+          - button "Go to channel tteuw" [ref=e517] [hidden]
+    - heading "Cold ❄️ (Valorant RADIANT Montage)" [level=3]:
+      - link "Cold ❄️ (Valorant RADIANT Montage) 2 minutes, 14 seconds" [ref=e518]: "Cold ❄️ (Valorant RADIANT Montage)"
+    - group: "tteuw"
+    - group: "3.1M 4y ago"
+    - generic [hidden]:
+      - generic [hidden]:
+        - button "More actions" [ref=e519] [hidden]
+  - generic [ref=e520]:
+    - link [ref=e521] [hidden]:
+      - img "33 seconds"
+    - generic [hidden]:
+      - generic [hidden]:
+        - generic [hidden]:
+          - button "Go to channel Q2" [ref=e522] [hidden]
+    - heading "COOOK PARDON - Valorant Edit" [level=3]:
+      - link "COOOK PARDON - Valorant Edit 33 seconds" [ref=e523]: "COOOK PARDON - Valorant Edit"
+    - group: "Q2"
+    - group: "14K 5mo ago"
+    - generic [hidden]:
+      - generic [hidden]:
+        - button "More actions" [ref=e524] [hidden]
+  - generic [ref=e525]:
+    - link [ref=e526] [hidden]:
+      - img "1 minute, 50 seconds"
+    - generic [hidden]:
+      - generic [hidden]:
+        - generic [hidden]:
+          - button "Go to channel Zishu" [ref=e527] [hidden]
+    - heading "APT. 💜🔥 (Valorant Montage)" [level=3]:
+      - link "APT. 💜🔥 (Valorant Montage) 1 minute, 50 seconds" [ref=e528]: "APT. 💜🔥 (Valorant Montage)"
+    - group: "Zishu"
+    - group: "156K 1y ago"
+    - generic [hidden]:
+      - generic [hidden]:
+        - button "More actions" [ref=e529] [hidden]
+  - generic [ref=e530]:
+    - link [ref=e531] [hidden]:
+      - img "1 minute, 17 seconds"
+    - generic [hidden]:
+      - generic [hidden]:
+        - generic [hidden]:
+          - button "Go to channel SohamHyper" [ref=e532] [hidden]
+    - heading "WITHOUT ME🤷‍♂ (VALORANT MONTAGE)" [level=3]:
+      - link "WITHOUT ME🤷‍♂ (VALORANT MONTAGE) 1 minute, 17 seconds" [ref=e533]: "WITHOUT ME🤷‍♂ (VALORANT  MONTAGE)"
+    - group: "SohamHyper"
+    - group: "232K 2y ago"
+    - generic [hidden]:
+      - generic [hidden]:
+        - button "More actions" [ref=e534] [hidden]
+  - generic [ref=e535]:
+    - link [ref=e536] [hidden]:
+      - img "48 seconds"
+    - generic [hidden]:
+      - generic [hidden]:
+        - generic [hidden]:
+          - button "Go to channel ThieX" [ref=e537] [hidden]
+    - heading "You broke my heart ⋆.˚✮💔🕊️✮˚.⋆ || Valorant Edit (4K Video)" [level=3]:
+      - link "You broke my heart ⋆.˚✮💔🕊️✮˚.⋆ || Valorant Edit (4K Video) 48 seconds" [ref=e538]: "You broke my heart ⋆.˚✮💔🕊️✮˚.⋆ || Valorant Edit (4K Video)"
+    - group: "ThieX"
+    - group: "8.2K 6mo ago"
+    - generic [hidden]:
+      - generic [hidden]:
+        - button "More actions" [ref=e539] [hidden]
+  - generic [hidden]:
+    - generic [hidden]:
+      - generic [hidden]:
+        - button "Show more" [ref=e540] [hidden]
+  - generic [hidden]:
+    - generic [hidden]:
+      - generic [hidden]:
+        - button [ref=e541] [hidden]
+- generic [hidden]:
+  - generic [hidden]:
+    - generic [hidden]:
+      - generic [hidden]:
+        - link [ref=e542] [hidden]
+- iframe [ref=e78] [hidden]

@@ -1,0 +1,2 @@
+Lyrics enabled: False
+missing schema lyric-track/v1; legacy lyrics remain disabled

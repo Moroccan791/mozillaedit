@@ -1,0 +1,424 @@
+{
+  "schema_version": "encounters/v1",
+  "requested_duration": 30.0,
+  "duration": 23.527599999999996,
+  "music_start": 16.254,
+  "music_end": 39.7816,
+  "music_continuous": true,
+  "gaps": [],
+  "warnings": [
+    "shorter than requested by 6.472s; no filler or reuse"
+  ],
+  "omitted_encounters": [],
+  "timeline": [
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "source_start": 219.6558,
+      "source_end": 224.2011,
+      "output_start": 0.0,
+      "output_end": 4.5452999999999975,
+      "music_start": 16.254,
+      "music_end": 20.7993,
+      "speed": 1.0,
+      "anchor": {
+        "source_audio_event": 221.612,
+        "source_visual_event": 221.6667,
+        "output_time": 1.956199999999999,
+        "music_time": 18.2102,
+        "provenance": {
+          "kind": "onset",
+          "strength": 0.3741
+        }
+      },
+      "events": [
+        {
+          "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+          "source_audio_event": 221.612,
+          "source_visual_event": 221.6667,
+          "confidence": 1.0,
+          "confirmed": true,
+          "source_duration": 505.034014,
+          "encounter_start": 220.0,
+          "encounter_end": 223.0,
+          "confirmation": "POV firing/ammo and skull-emblem frame review plus high-frequency waveform attack; full-track librosa local-threshold onsets near tracked beats",
+          "confidence_kind": "manual_calibration_label_not_probability",
+          "label_id": "1v9-1",
+          "context_review": "Assistant inspected 4fps full-frame contact sheet spanning five seconds. Bounds preserve sampled local setup/outcome, not exhaustive match/kill labeling.",
+          "audio_offset": 1.9561999999999955,
+          "visual_offset": 2.0108999999999924,
+          "output_audio_event": 1.9561999999999955,
+          "output_visual_event": 2.0108999999999924
+        }
+      ],
+      "kill_count": 1,
+      "confidence": 1.0,
+      "section": "mid",
+      "warnings": [],
+      "context_provenance": {
+        "kind": "manual",
+        "start": 220.0,
+        "end": 223.0
+      },
+      "phrase_fit_warnings": [],
+      "boundary_provenance": {
+        "music_start": {
+          "time": 16.254,
+          "kinds": [
+            "beat"
+          ]
+        },
+        "music_end": {
+          "time": 20.7993,
+          "kinds": [
+            "beat",
+            "downbeat"
+          ],
+          "phrase_aligned": true
+        }
+      }
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "source_start": 231.8336,
+      "source_end": 235.76355170068027,
+      "output_start": 4.5452999999999975,
+      "output_end": 8.475251700680271,
+      "music_start": 20.7993,
+      "music_end": 24.729251700680273,
+      "speed": 1.0,
+      "anchor": {
+        "source_audio_event": 234.469,
+        "source_visual_event": 234.5,
+        "output_time": 7.180699999999998,
+        "music_time": 23.4347,
+        "provenance": {
+          "kind": "onset",
+          "strength": 0.2408
+        }
+      },
+      "events": [
+        {
+          "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+          "source_audio_event": 234.469,
+          "source_visual_event": 234.5,
+          "confidence": 1.0,
+          "confirmed": true,
+          "source_duration": 505.034014,
+          "encounter_start": 233.0,
+          "encounter_end": 235.65,
+          "confirmation": "POV firing/ammo and skull-emblem frame review plus high-frequency waveform attack; full-track librosa local-threshold onsets near tracked beats",
+          "confidence_kind": "manual_calibration_label_not_probability",
+          "label_id": "1v9-2",
+          "context_review": "Assistant inspected 4fps full-frame contact sheet spanning five seconds. Bounds preserve sampled local setup/outcome, not exhaustive match/kill labeling.",
+          "audio_offset": 2.635400000000004,
+          "visual_offset": 2.66640000000001,
+          "output_audio_event": 7.180700000000002,
+          "output_visual_event": 7.2117000000000075
+        }
+      ],
+      "kill_count": 1,
+      "confidence": 1.0,
+      "section": "mid",
+      "warnings": [],
+      "context_provenance": {
+        "kind": "manual",
+        "start": 233.0,
+        "end": 235.65
+      },
+      "phrase_fit_warnings": [],
+      "boundary_provenance": {
+        "music_start": {
+          "time": 20.7993,
+          "kinds": [
+            "beat",
+            "downbeat"
+          ]
+        },
+        "music_end": {
+          "time": 24.729251700680273,
+          "kinds": [
+            "section_boundary"
+          ],
+          "phrase_aligned": true
+        }
+      }
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "source_start": 263.2303517006803,
+      "source_end": 267.7931,
+      "output_start": 8.475251700680271,
+      "output_end": 13.038,
+      "music_start": 24.729251700680273,
+      "music_end": 29.292,
+      "speed": 1.0,
+      "anchor": {
+        "source_audio_event": 265.7033,
+        "source_visual_event": 265.7333,
+        "output_time": 10.9482,
+        "music_time": 27.2022,
+        "provenance": {
+          "kind": "onset",
+          "strength": 0.3697
+        }
+      },
+      "events": [
+        {
+          "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+          "source_audio_event": 265.7033,
+          "source_visual_event": 265.7333,
+          "confidence": 1.0,
+          "confirmed": true,
+          "source_duration": 505.034014,
+          "encounter_start": 264.4,
+          "encounter_end": 267.05,
+          "confirmation": "POV firing/ammo and skull-emblem frame review plus high-frequency waveform attack; full-track librosa local-threshold onsets near tracked beats",
+          "confidence_kind": "manual_calibration_label_not_probability",
+          "label_id": "1v9-3",
+          "context_review": "Assistant inspected 4fps full-frame contact sheet spanning five seconds. Bounds preserve sampled local setup/outcome, not exhaustive match/kill labeling.",
+          "audio_offset": 2.4729482993197394,
+          "visual_offset": 2.502948299319712,
+          "output_audio_event": 10.948199999999986,
+          "output_visual_event": 10.978199999999958
+        }
+      ],
+      "kill_count": 1,
+      "confidence": 1.0,
+      "section": "peak",
+      "warnings": [],
+      "context_provenance": {
+        "kind": "manual",
+        "start": 264.4,
+        "end": 267.05
+      },
+      "phrase_fit_warnings": [],
+      "boundary_provenance": {
+        "music_start": {
+          "time": 24.729251700680273,
+          "kinds": [
+            "section_boundary"
+          ]
+        },
+        "music_end": {
+          "time": 29.292,
+          "kinds": [
+            "beat",
+            "downbeat"
+          ],
+          "phrase_aligned": true
+        }
+      }
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "source_start": 7.858100000000004,
+      "source_end": 10.911496825396824,
+      "output_start": 13.038,
+      "output_end": 16.091396825396824,
+      "music_start": 29.292,
+      "music_end": 32.345396825396826,
+      "speed": 1.0,
+      "anchor": {
+        "source_audio_event": 9.646,
+        "source_visual_event": 9.733333333333333,
+        "output_time": 14.825899999999997,
+        "music_time": 31.0799,
+        "provenance": {
+          "kind": "onset",
+          "strength": 0.3041
+        }
+      },
+      "events": [
+        {
+          "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+          "source_audio_event": 9.646,
+          "source_visual_event": 9.733333333333333,
+          "confidence": 1.0,
+          "confirmed": true,
+          "source_duration": 530.041905,
+          "encounter_start": 8.4,
+          "encounter_end": 10.9,
+          "confirmation": "Historical manual POV shot/outcome preview review plus production temporal first-emblem observation; not automatic profile certification",
+          "confidence_kind": "manual_calibration_label_not_probability",
+          "label_id": "reyna-1",
+          "context_review": "Assistant inspected 4fps full-frame contact sheet spanning five seconds. Bounds preserve sampled local setup/outcome, not exhaustive match/kill labeling.",
+          "audio_offset": 1.787899999999997,
+          "visual_offset": 1.8752333333333286,
+          "output_audio_event": 14.825899999999997,
+          "output_visual_event": 14.913233333333327
+        }
+      ],
+      "kill_count": 1,
+      "confidence": 1.0,
+      "section": "peak",
+      "warnings": [],
+      "context_provenance": {
+        "kind": "manual",
+        "start": 8.4,
+        "end": 10.9
+      },
+      "phrase_fit_warnings": [],
+      "boundary_provenance": {
+        "music_start": {
+          "time": 29.292,
+          "kinds": [
+            "beat",
+            "downbeat"
+          ]
+        },
+        "music_end": {
+          "time": 32.345396825396826,
+          "kinds": [
+            "section_boundary"
+          ],
+          "phrase_aligned": true
+        }
+      }
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "source_start": 90.45269682539683,
+      "source_end": 94.34200000000001,
+      "output_start": 16.091396825396824,
+      "output_end": 19.980699999999995,
+      "music_start": 32.345396825396826,
+      "music_end": 36.2347,
+      "speed": 1.0,
+      "anchor": {
+        "source_audio_event": 92.258,
+        "source_visual_event": 92.33333333333333,
+        "output_time": 17.8967,
+        "music_time": 34.1507,
+        "provenance": {
+          "kind": "onset",
+          "strength": 0.3177
+        }
+      },
+      "events": [
+        {
+          "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+          "source_audio_event": 92.258,
+          "source_visual_event": 92.33333333333333,
+          "confidence": 1.0,
+          "confirmed": true,
+          "source_duration": 530.041905,
+          "encounter_start": 91.1,
+          "encounter_end": 94.25,
+          "confirmation": "Historical manual POV shot/outcome preview review plus production temporal first-emblem observation; not automatic profile certification",
+          "confidence_kind": "manual_calibration_label_not_probability",
+          "label_id": "reyna-2",
+          "context_review": "Assistant inspected 4fps full-frame contact sheet spanning five seconds. Bounds preserve sampled local setup/outcome, not exhaustive match/kill labeling.",
+          "audio_offset": 1.8053031746031678,
+          "visual_offset": 1.8806365079365008,
+          "output_audio_event": 17.896699999999996,
+          "output_visual_event": 17.97203333333333
+        }
+      ],
+      "kill_count": 1,
+      "confidence": 1.0,
+      "section": "mid",
+      "warnings": [],
+      "context_provenance": {
+        "kind": "manual",
+        "start": 91.1,
+        "end": 94.25
+      },
+      "phrase_fit_warnings": [],
+      "boundary_provenance": {
+        "music_start": {
+          "time": 32.345396825396826,
+          "kinds": [
+            "section_boundary"
+          ]
+        },
+        "music_end": {
+          "time": 36.2347,
+          "kinds": [
+            "beat",
+            "downbeat"
+          ],
+          "phrase_aligned": true
+        }
+      }
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "source_start": 186.7393,
+      "source_end": 190.28619999999998,
+      "output_start": 19.980699999999995,
+      "output_end": 23.527599999999996,
+      "music_start": 36.2347,
+      "music_end": 39.7816,
+      "speed": 1.0,
+      "anchor": {
+        "source_audio_event": 188.028,
+        "source_visual_event": 188.13333333333333,
+        "output_time": 21.2694,
+        "music_time": 37.5234,
+        "provenance": {
+          "kind": "onset",
+          "strength": 0.4237
+        }
+      },
+      "events": [
+        {
+          "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+          "source_audio_event": 188.028,
+          "source_visual_event": 188.13333333333333,
+          "confidence": 1.0,
+          "confirmed": true,
+          "source_duration": 530.041905,
+          "encounter_start": 186.9,
+          "encounter_end": 189.45,
+          "confirmation": "Historical manual POV shot/outcome preview review plus production temporal first-emblem observation; not automatic profile certification",
+          "confidence_kind": "manual_calibration_label_not_probability",
+          "label_id": "reyna-4",
+          "context_review": "Assistant inspected 4fps full-frame contact sheet spanning five seconds. Bounds preserve sampled local setup/outcome, not exhaustive match/kill labeling.",
+          "audio_offset": 1.2887000000000057,
+          "visual_offset": 1.39403333333334,
+          "output_audio_event": 21.26939999999999,
+          "output_visual_event": 21.374733333333324
+        }
+      ],
+      "kill_count": 1,
+      "confidence": 1.0,
+      "section": "mid",
+      "warnings": [],
+      "context_provenance": {
+        "kind": "manual",
+        "start": 186.9,
+        "end": 189.45
+      },
+      "phrase_fit_warnings": [],
+      "boundary_provenance": {
+        "music_start": {
+          "time": 36.2347,
+          "kinds": [
+            "beat",
+            "downbeat"
+          ]
+        },
+        "music_end": {
+          "time": 39.7816,
+          "kinds": [
+            "beat",
+            "downbeat"
+          ],
+          "phrase_aligned": true
+        }
+      }
+    }
+  ],
+  "phrase_aware": true,
+  "phrase_fit_warnings": [],
+  "music": "E:\\audio\\YTDown.com_YouTube_Media_MpoZ0NVXswY_Let-the-world-burn-Audio-Edit_009_128k.mp3",
+  "selection_summary": {
+    "files": 1,
+    "observations": 6,
+    "eligible": 6,
+    "unconfirmed": 0,
+    "missing_audio": 0,
+    "mode": "reviewed-event-files",
+    "automatic_selection": false
+  }
+}

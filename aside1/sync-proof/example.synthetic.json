@@ -1,0 +1,16 @@
+{
+  "confirmed": false,
+  "source": "E:/REPLACE_WITH_ACTUAL_GAMEPLAY.mp4",
+  "music": "E:/REPLACE_WITH_ACTUAL_SONG.mp3",
+  "source_duration": 100,
+  "music_duration": 30,
+  "music_start": 5,
+  "duration": 10,
+  "fps": 60,
+  "minimum_context": 0.25,
+  "anchors": [
+    {"source_event": 10, "output_event": 1, "output_end": 3},
+    {"source_event": 20, "output_event": 4, "output_end": 6},
+    {"source_event": 30, "output_event": 7, "output_end": 10}
+  ]
+}

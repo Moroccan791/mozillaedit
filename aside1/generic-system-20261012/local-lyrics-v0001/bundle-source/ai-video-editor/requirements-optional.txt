@@ -1,0 +1,6 @@
+# Optional local word-level transcription.
+faster-whisper==1.2.1 ; python_version >= "3.9"
+# PyAV19 removed metadata_errors used by faster-whisper1.2.1.
+av==15.1.0 ; python_version >= "3.9"
+# Exact installed optional/transitive versions recorded in the versioned local
+# setup checkpoint packages-after.txt; inference loads a pinned LOCAL model only.

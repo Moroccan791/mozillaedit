@@ -1,0 +1,445 @@
+[
+  {
+    "schema_version": "accent-audit/v1",
+    "original_peak": 18.2102,
+    "acoustic_attack_time": 18.186166666666665,
+    "acoustic_attack_range": [
+      18.186166666666665,
+      18.186166666666665
+    ],
+    "delay_ms": 24.03333333333424,
+    "flux_peak_time": 18.186166666666665,
+    "local_rank": 16,
+    "local_peak_count": 36,
+    "local_relative_strength": 0.6784771062972955,
+    "percussive_score": 0.08270281747263286,
+    "classification": "harmonic_or_uncertain",
+    "accepted": false,
+    "rejection_reasons": [
+      "ambiguous_nearby_attack_cluster",
+      "insufficient_sharp_attack_bands",
+      "insufficient_coherent_bands",
+      "harmonic_or_uncertain_percussiveness"
+    ],
+    "harmonic_persistence": 0.8468123662745446,
+    "percussive_flux_share": 0.5398792021349046,
+    "attack_cluster_peak_count": 3,
+    "principal_peak_offset_ms": -24.03333333333424,
+    "context_range": [
+      17.2102,
+      19.2102
+    ],
+    "bands": [
+      {
+        "hz": [
+          30,
+          180
+        ],
+        "relative_flux": 0.7472492157694801,
+        "rms_rise_ratio": 3.308424443749272,
+        "attack_start_offset_ms": -24.03333333333424,
+        "material": true
+      },
+      {
+        "hz": [
+          180,
+          800
+        ],
+        "relative_flux": 0.39978662812033017,
+        "rms_rise_ratio": 1.069311541412277,
+        "attack_start_offset_ms": null,
+        "material": false
+      },
+      {
+        "hz": [
+          800,
+          3000
+        ],
+        "relative_flux": 0.39727620425948057,
+        "rms_rise_ratio": 0.8988091801756131,
+        "attack_start_offset_ms": null,
+        "material": false
+      },
+      {
+        "hz": [
+          3000,
+          10000
+        ],
+        "relative_flux": 0.3950074315168809,
+        "rms_rise_ratio": 1.2912811646417302,
+        "attack_start_offset_ms": null,
+        "material": false
+      }
+    ],
+    "heuristic": true,
+    "interpretation": "Acoustic heuristic; not drum identity, probability or musical-taste validation"
+  },
+  {
+    "schema_version": "accent-audit/v1",
+    "original_peak": 23.4347,
+    "acoustic_attack_time": 23.416666666666664,
+    "acoustic_attack_range": [
+      23.410666666666664,
+      23.422666666666665
+    ],
+    "delay_ms": 18.033333333334234,
+    "flux_peak_time": 23.412666666666667,
+    "local_rank": 2,
+    "local_peak_count": 34,
+    "local_relative_strength": 0.979072835796715,
+    "percussive_score": 0.02528225580728568,
+    "classification": "harmonic_or_uncertain",
+    "accepted": false,
+    "rejection_reasons": [
+      "ambiguous_nearby_attack_cluster",
+      "harmonic_or_uncertain_percussiveness"
+    ],
+    "harmonic_persistence": 0.9417277555838836,
+    "percussive_flux_share": 0.43386445915395916,
+    "attack_cluster_peak_count": 3,
+    "principal_peak_offset_ms": -22.033333333334237,
+    "context_range": [
+      22.4347,
+      24.4347
+    ],
+    "bands": [
+      {
+        "hz": [
+          30,
+          180
+        ],
+        "relative_flux": 0.7917262357644619,
+        "rms_rise_ratio": 2.7989865675224235,
+        "attack_start_offset_ms": -24.03333333333424,
+        "material": true
+      },
+      {
+        "hz": [
+          180,
+          800
+        ],
+        "relative_flux": 0.6041534071828683,
+        "rms_rise_ratio": 1.6115368609475826,
+        "attack_start_offset_ms": -16.033333333334234,
+        "material": true
+      },
+      {
+        "hz": [
+          800,
+          3000
+        ],
+        "relative_flux": 0.5776142082090887,
+        "rms_rise_ratio": 1.1182536827910166,
+        "attack_start_offset_ms": null,
+        "material": false
+      },
+      {
+        "hz": [
+          3000,
+          10000
+        ],
+        "relative_flux": 0.592449509607462,
+        "rms_rise_ratio": 1.5089548429803212,
+        "attack_start_offset_ms": -18.033333333334234,
+        "material": true
+      }
+    ],
+    "heuristic": true,
+    "interpretation": "Acoustic heuristic; not drum identity, probability or musical-taste validation"
+  },
+  {
+    "schema_version": "accent-audit/v1",
+    "original_peak": 27.2022,
+    "acoustic_attack_time": 27.18016666666667,
+    "acoustic_attack_range": [
+      27.178166666666666,
+      27.184166666666666
+    ],
+    "delay_ms": 22.033333333334237,
+    "flux_peak_time": 27.18016666666667,
+    "local_rank": 1,
+    "local_peak_count": 33,
+    "local_relative_strength": 1.0,
+    "percussive_score": 0.18643614836496972,
+    "classification": "harmonic_or_uncertain",
+    "accepted": false,
+    "rejection_reasons": [
+      "ambiguous_nearby_attack_cluster",
+      "harmonic_or_uncertain_percussiveness"
+    ],
+    "harmonic_persistence": 0.7738445698622007,
+    "percussive_flux_share": 0.8243717528753207,
+    "attack_cluster_peak_count": 2,
+    "principal_peak_offset_ms": -22.033333333334237,
+    "context_range": [
+      26.2022,
+      28.2022
+    ],
+    "bands": [
+      {
+        "hz": [
+          30,
+          180
+        ],
+        "relative_flux": 0.0068467638654154,
+        "rms_rise_ratio": 1.0618669211079568,
+        "attack_start_offset_ms": null,
+        "material": false
+      },
+      {
+        "hz": [
+          180,
+          800
+        ],
+        "relative_flux": 0.16723278798645871,
+        "rms_rise_ratio": 1.9713561356183855,
+        "attack_start_offset_ms": -18.033333333334234,
+        "material": true
+      },
+      {
+        "hz": [
+          800,
+          3000
+        ],
+        "relative_flux": 0.9999999999999805,
+        "rms_rise_ratio": 2.328060906211571,
+        "attack_start_offset_ms": -22.033333333334237,
+        "material": true
+      },
+      {
+        "hz": [
+          3000,
+          10000
+        ],
+        "relative_flux": 0.9700767559217089,
+        "rms_rise_ratio": 2.711461106274606,
+        "attack_start_offset_ms": -24.03333333333424,
+        "material": true
+      }
+    ],
+    "heuristic": true,
+    "interpretation": "Acoustic heuristic; not drum identity, probability or musical-taste validation"
+  },
+  {
+    "schema_version": "accent-audit/v1",
+    "original_peak": 31.0799,
+    "acoustic_attack_time": 31.056875,
+    "acoustic_attack_range": [
+      31.055875,
+      31.059875
+    ],
+    "delay_ms": 23.024999999996965,
+    "flux_peak_time": 31.055875,
+    "local_rank": 1,
+    "local_peak_count": 34,
+    "local_relative_strength": 1.0,
+    "percussive_score": 0.0045172875394091,
+    "classification": "harmonic_or_uncertain",
+    "accepted": false,
+    "rejection_reasons": [
+      "ambiguous_nearby_attack_cluster",
+      "harmonic_or_uncertain_percussiveness"
+    ],
+    "harmonic_persistence": 0.9911279153458972,
+    "percussive_flux_share": 0.5091573982356123,
+    "attack_cluster_peak_count": 3,
+    "principal_peak_offset_ms": -24.02499999999708,
+    "context_range": [
+      30.0799,
+      32.079899999999995
+    ],
+    "bands": [
+      {
+        "hz": [
+          30,
+          180
+        ],
+        "relative_flux": 0.9999999999999689,
+        "rms_rise_ratio": 3.1495322718775642,
+        "attack_start_offset_ms": -24.02499999999708,
+        "material": true
+      },
+      {
+        "hz": [
+          180,
+          800
+        ],
+        "relative_flux": 0.8748748731811816,
+        "rms_rise_ratio": 1.880222545364236,
+        "attack_start_offset_ms": -22.024999999997075,
+        "material": true
+      },
+      {
+        "hz": [
+          800,
+          3000
+        ],
+        "relative_flux": 0.40082248749584726,
+        "rms_rise_ratio": 1.3225208605037257,
+        "attack_start_offset_ms": null,
+        "material": false
+      },
+      {
+        "hz": [
+          3000,
+          10000
+        ],
+        "relative_flux": 0.45040877401679574,
+        "rms_rise_ratio": 0.8651206595987931,
+        "attack_start_offset_ms": null,
+        "material": false
+      }
+    ],
+    "heuristic": true,
+    "interpretation": "Acoustic heuristic; not drum identity, probability or musical-taste validation"
+  },
+  {
+    "schema_version": "accent-audit/v1",
+    "original_peak": 34.1507,
+    "acoustic_attack_time": 34.19266666666667,
+    "acoustic_attack_range": [
+      34.19266666666667,
+      34.196666666666665
+    ],
+    "delay_ms": -41.966666666665816,
+    "flux_peak_time": 34.19466666666666,
+    "local_rank": 17,
+    "local_peak_count": 36,
+    "local_relative_strength": 0.4753795450414834,
+    "percussive_score": 0.014714153905812303,
+    "classification": "harmonic_or_uncertain",
+    "accepted": false,
+    "rejection_reasons": [
+      "ambiguous_nearby_attack_cluster",
+      "insufficient_sharp_attack_bands",
+      "insufficient_coherent_bands",
+      "harmonic_or_uncertain_percussiveness",
+      "original_clock_outside_30ms_tolerance"
+    ],
+    "harmonic_persistence": 0.9726860303090956,
+    "percussive_flux_share": 0.5387043359981523,
+    "attack_cluster_peak_count": 3,
+    "principal_peak_offset_ms": 43.96666666666582,
+    "context_range": [
+      33.1507,
+      35.1507
+    ],
+    "bands": [
+      {
+        "hz": [
+          30,
+          180
+        ],
+        "relative_flux": 0.3417177433808964,
+        "rms_rise_ratio": 3.0370648157341966,
+        "attack_start_offset_ms": 41.966666666665816,
+        "material": true
+      },
+      {
+        "hz": [
+          180,
+          800
+        ],
+        "relative_flux": 0.42844171101063455,
+        "rms_rise_ratio": 1.4679338079054183,
+        "attack_start_offset_ms": null,
+        "material": false
+      },
+      {
+        "hz": [
+          800,
+          3000
+        ],
+        "relative_flux": 0.3420433366260209,
+        "rms_rise_ratio": 1.187560781757651,
+        "attack_start_offset_ms": null,
+        "material": false
+      },
+      {
+        "hz": [
+          3000,
+          10000
+        ],
+        "relative_flux": 0.18764737950983848,
+        "rms_rise_ratio": 1.0651292189161834,
+        "attack_start_offset_ms": null,
+        "material": false
+      }
+    ],
+    "heuristic": true,
+    "interpretation": "Acoustic heuristic; not drum identity, probability or musical-taste validation"
+  },
+  {
+    "schema_version": "accent-audit/v1",
+    "original_peak": 37.5234,
+    "acoustic_attack_time": 37.503375,
+    "acoustic_attack_range": [
+      37.501375,
+      37.513375
+    ],
+    "delay_ms": 20.025000000000624,
+    "flux_peak_time": 37.501375,
+    "local_rank": 1,
+    "local_peak_count": 32,
+    "local_relative_strength": 1.0,
+    "percussive_score": 0.13108182934499432,
+    "classification": "harmonic_or_uncertain",
+    "accepted": false,
+    "rejection_reasons": [
+      "ambiguous_nearby_attack_cluster",
+      "harmonic_or_uncertain_percussiveness"
+    ],
+    "harmonic_persistence": 0.8490203540574899,
+    "percussive_flux_share": 0.8682086153183028,
+    "attack_cluster_peak_count": 3,
+    "principal_peak_offset_ms": -22.025000000000627,
+    "context_range": [
+      36.5234,
+      38.5234
+    ],
+    "bands": [
+      {
+        "hz": [
+          30,
+          180
+        ],
+        "relative_flux": 0.04254779891889933,
+        "rms_rise_ratio": 1.2486553557210356,
+        "attack_start_offset_ms": null,
+        "material": false
+      },
+      {
+        "hz": [
+          180,
+          800
+        ],
+        "relative_flux": 0.5006281968023697,
+        "rms_rise_ratio": 2.0407769399650597,
+        "attack_start_offset_ms": -18.025000000000624,
+        "material": true
+      },
+      {
+        "hz": [
+          800,
+          3000
+        ],
+        "relative_flux": 0.8835663587921166,
+        "rms_rise_ratio": 1.9358387488832003,
+        "attack_start_offset_ms": -20.025000000000624,
+        "material": true
+      },
+      {
+        "hz": [
+          3000,
+          10000
+        ],
+        "relative_flux": 0.9999999999999905,
+        "rms_rise_ratio": 3.6488237280912004,
+        "attack_start_offset_ms": -22.025000000000627,
+        "material": true
+      }
+    ],
+    "heuristic": true,
+    "interpretation": "Acoustic heuristic; not drum identity, probability or musical-taste validation"
+  }
+]

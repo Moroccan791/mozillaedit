@@ -1,0 +1,294 @@
+{
+  "schema": "lyric-design/v1",
+  "enabled": true,
+  "source": {
+    "audio_sha256": "5e7d309bc950393c2138be9df1a4ccfa7d314018f17f626c58f2acb742988a8d",
+    "music_source": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-a\\synthetic-music.wav"
+  },
+  "alignment_method_assertion": "Synthetic structural words on generated tone; explicitly NOT actual singing or independent vocal verification",
+  "excerpt": {
+    "music_start_sample": 96000,
+    "output_start": 0,
+    "sample_count": 1680000,
+    "sample_rate": 48000
+  },
+  "canvas": {
+    "height": 180,
+    "mode": "gameplay",
+    "width": 320
+  },
+  "protected_zones": [
+    [
+      0.3,
+      0.25,
+      0.4,
+      0.5
+    ],
+    [
+      0.74,
+      0,
+      0.26,
+      0.25
+    ],
+    [
+      0,
+      0.82,
+      1,
+      0.18
+    ]
+  ],
+  "allow_protected_overlap": false,
+  "allow_impact_collision": false,
+  "visual_impacts": [
+    1.19,
+    1.2,
+    1.24,
+    1.26,
+    4.6,
+    4.69,
+    4.7,
+    4.74,
+    4.740000000000001,
+    4.760000000000001,
+    4.833333333333333,
+    8.189999999999998,
+    8.2,
+    8.239999999999998,
+    8.259999999999998,
+    11.689999999999998,
+    11.7,
+    11.739999999999998,
+    11.759999999999998,
+    15.1,
+    15.189999999999998,
+    15.2,
+    15.239999999999998,
+    15.259999999999998,
+    15.333333333333334,
+    18.689999999999998,
+    18.7,
+    18.700000000000003,
+    18.739999999999995,
+    18.74,
+    18.759999999999998,
+    22.189999999999998,
+    22.2,
+    22.200000000000003,
+    22.239999999999995,
+    22.24,
+    22.259999999999998,
+    25.689999999999998,
+    25.7,
+    25.700000000000003,
+    25.739999999999995,
+    25.74,
+    25.759999999999998,
+    29.190000000000005,
+    29.2,
+    29.200000000000003,
+    29.24,
+    29.240000000000002,
+    29.260000000000005,
+    32.6,
+    32.69,
+    32.7,
+    32.74,
+    32.74000000000001,
+    32.760000000000005,
+    32.833333333333336
+  ],
+  "moments": [
+    {
+      "id": "accent-0",
+      "role": "giant_word",
+      "original_word_indices": [
+        0
+      ],
+      "text": "LOCAL",
+      "source_times": [
+        [
+          2.25,
+          2.65
+        ]
+      ],
+      "box": [
+        0.04,
+        0.055,
+        0.64,
+        0.16
+      ],
+      "design": {
+        "animation": {
+          "echo_offset": [
+            0,
+            0
+          ],
+          "entrance_ms": 0,
+          "exit_ms": 0,
+          "from_scale": 1,
+          "glow": 0
+        },
+        "box": [
+          0.04,
+          0.055,
+          0.64,
+          0.16
+        ],
+        "font_family": "Bebas Neue",
+        "id": "accent-0",
+        "opacity": 0.8,
+        "palette": "ice",
+        "role": "giant_word",
+        "size": 0.055,
+        "word_indices": [
+          0
+        ]
+      },
+      "resolved_colors": {
+        "primary": "#D6FFFF",
+        "accent": "#48D9DF"
+      },
+      "font": {
+        "family": "Bebas Neue",
+        "file": "E:\\fonts\\BebasNeue-Regular.ttf",
+        "license": "E:\\fonts\\OFL.txt"
+      },
+      "status": "rendered",
+      "reason": null,
+      "output_centiseconds": [
+        25,
+        65
+      ]
+    },
+    {
+      "id": "accent-1",
+      "role": "giant_word",
+      "original_word_indices": [
+        1
+      ],
+      "text": "SYSTEM",
+      "source_times": [
+        [
+          5.75,
+          6.15
+        ]
+      ],
+      "box": [
+        0.04,
+        0.055,
+        0.64,
+        0.16
+      ],
+      "design": {
+        "animation": {
+          "echo_offset": [
+            0,
+            0
+          ],
+          "entrance_ms": 0,
+          "exit_ms": 0,
+          "from_scale": 1,
+          "glow": 0
+        },
+        "box": [
+          0.04,
+          0.055,
+          0.64,
+          0.16
+        ],
+        "font_family": "Bebas Neue",
+        "id": "accent-1",
+        "opacity": 0.8,
+        "palette": "ice",
+        "role": "giant_word",
+        "size": 0.055,
+        "word_indices": [
+          1
+        ]
+      },
+      "resolved_colors": {
+        "primary": "#D6FFFF",
+        "accent": "#48D9DF"
+      },
+      "font": {
+        "family": "Bebas Neue",
+        "file": "E:\\fonts\\BebasNeue-Regular.ttf",
+        "license": "E:\\fonts\\OFL.txt"
+      },
+      "status": "rendered",
+      "reason": null,
+      "output_centiseconds": [
+        375,
+        415
+      ]
+    },
+    {
+      "id": "accent-2",
+      "role": "giant_word",
+      "original_word_indices": [
+        2
+      ],
+      "text": "PROOF",
+      "source_times": [
+        [
+          9.25,
+          9.65
+        ]
+      ],
+      "box": [
+        0.04,
+        0.055,
+        0.64,
+        0.16
+      ],
+      "design": {
+        "animation": {
+          "echo_offset": [
+            0,
+            0
+          ],
+          "entrance_ms": 0,
+          "exit_ms": 0,
+          "from_scale": 1,
+          "glow": 0
+        },
+        "box": [
+          0.04,
+          0.055,
+          0.64,
+          0.16
+        ],
+        "font_family": "Bebas Neue",
+        "id": "accent-2",
+        "opacity": 0.8,
+        "palette": "ice",
+        "role": "giant_word",
+        "size": 0.055,
+        "word_indices": [
+          2
+        ]
+      },
+      "resolved_colors": {
+        "primary": "#D6FFFF",
+        "accent": "#48D9DF"
+      },
+      "font": {
+        "family": "Bebas Neue",
+        "file": "E:\\fonts\\BebasNeue-Regular.ttf",
+        "license": "E:\\fonts\\OFL.txt"
+      },
+      "status": "rendered",
+      "reason": null,
+      "output_centiseconds": [
+        725,
+        765
+      ]
+    }
+  ],
+  "limitations": [
+    "No independent sung-word or vocal alignment verification.",
+    "Sample rate/excerpt lineage is a caller assertion; no mixed audio verification.",
+    "Conservative TTF ink bounds plus hard ASS rectangle clips, not gameplay semantic occlusion proof.",
+    "No automatic captions; no renderer integration or audio processing."
+  ]
+}

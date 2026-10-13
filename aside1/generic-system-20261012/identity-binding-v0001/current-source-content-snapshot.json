@@ -1,0 +1,15 @@
+{
+  "status": "current_snapshot_only_not_old_render_binding",
+  "identities": {
+    "E:\\raw clips val\\YTDown.com_YouTube_Media_j59f0UqxcIs_90-aim-10-brain-immortal-2_002_720p.mp4": {
+      "schema": "file-content/v1",
+      "sha256": "2dfb09620553c410c706662ef45f38b4124f2808146af7ecd9391dcc9961261c",
+      "size_bytes": 212786134
+    },
+    "E:\\audio\\Reflections (slowed) - The Neighbourhood [Edit Audio].mp3": {
+      "schema": "file-content/v1",
+      "sha256": "25c7bc6d077cd96d752c32cc493cc72f354607596a1dc8b4288f682e0e304396",
+      "size_bytes": 636703
+    }
+  }
+}

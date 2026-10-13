@@ -1,0 +1,439 @@
+{
+  "schema_version": "encounters/v1",
+  "requested_duration": 30.0,
+  "duration": 21.710599999999996,
+  "music_start": 16.254,
+  "music_end": 37.9646,
+  "music_continuous": true,
+  "gaps": [],
+  "warnings": [
+    "shorter than requested by 8.289s; no filler or reuse",
+    "Diagnostic only: generic spectral onsets and historical shot labels not validated acoustic accents. Do not render this as a corrected final."
+  ],
+  "omitted_encounters": [],
+  "timeline": [
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "source_start": 232.5128,
+      "source_end": 235.71710000000002,
+      "output_start": 0.0,
+      "output_end": 3.2043,
+      "music_start": 16.254,
+      "music_end": 19.4583,
+      "speed": 1.0,
+      "anchor": {
+        "source_audio_event": 234.469,
+        "source_visual_event": 234.5,
+        "output_time": 1.956199999999999,
+        "music_time": 18.2102,
+        "provenance": {
+          "kind": "onset",
+          "strength": 0.3741
+        }
+      },
+      "events": [
+        {
+          "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+          "source_audio_event": 234.469,
+          "source_visual_event": 234.5,
+          "confidence": 1.0,
+          "confirmed": true,
+          "source_duration": 505.034014,
+          "encounter_start": 233.0,
+          "encounter_end": 235.65,
+          "confirmation": "POV firing/ammo and skull-emblem frame review plus high-frequency waveform attack; full-track librosa local-threshold onsets near tracked beats",
+          "confidence_kind": "manual_calibration_label_not_probability",
+          "label_id": "1v9-2",
+          "context_review": "Assistant inspected 4fps full-frame contact sheet spanning five seconds. Bounds preserve sampled local setup/outcome, not exhaustive match/kill labeling.",
+          "audio_offset": 1.9561999999999955,
+          "visual_offset": 1.9872000000000014,
+          "output_audio_event": 1.9561999999999955,
+          "output_visual_event": 1.9872000000000014
+        }
+      ],
+      "kill_count": 1,
+      "confidence": 1.0,
+      "section": "mid",
+      "warnings": [
+        "phrase-fit fallback: no supplied downbeat or section boundary fits scored intact-context candidates"
+      ],
+      "context_provenance": {
+        "kind": "manual",
+        "start": 233.0,
+        "end": 235.65
+      },
+      "phrase_fit_warnings": [
+        "phrase-fit fallback: no supplied downbeat or section boundary fits scored intact-context candidates"
+      ],
+      "boundary_provenance": {
+        "music_start": {
+          "time": 16.254,
+          "kinds": [
+            "beat"
+          ]
+        },
+        "music_end": {
+          "time": 19.4583,
+          "kinds": [
+            "beat"
+          ],
+          "phrase_aligned": false
+        }
+      }
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "source_start": 264.1417,
+      "source_end": 267.13710000000003,
+      "output_start": 3.2043,
+      "output_end": 6.1997,
+      "music_start": 19.4583,
+      "music_end": 22.4537,
+      "speed": 1.0,
+      "anchor": {
+        "source_audio_event": 265.7033,
+        "source_visual_event": 265.7333,
+        "output_time": 4.7658999999999985,
+        "music_time": 21.0199,
+        "provenance": {
+          "kind": "onset",
+          "strength": 0.2661
+        }
+      },
+      "events": [
+        {
+          "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+          "source_audio_event": 265.7033,
+          "source_visual_event": 265.7333,
+          "confidence": 1.0,
+          "confirmed": true,
+          "source_duration": 505.034014,
+          "encounter_start": 264.4,
+          "encounter_end": 267.05,
+          "confirmation": "POV firing/ammo and skull-emblem frame review plus high-frequency waveform attack; full-track librosa local-threshold onsets near tracked beats",
+          "confidence_kind": "manual_calibration_label_not_probability",
+          "label_id": "1v9-3",
+          "context_review": "Assistant inspected 4fps full-frame contact sheet spanning five seconds. Bounds preserve sampled local setup/outcome, not exhaustive match/kill labeling.",
+          "audio_offset": 1.5615999999999985,
+          "visual_offset": 1.5915999999999713,
+          "output_audio_event": 4.765899999999988,
+          "output_visual_event": 4.7958999999999605
+        }
+      ],
+      "kill_count": 1,
+      "confidence": 1.0,
+      "section": "mid",
+      "warnings": [
+        "phrase-fit fallback: no supplied downbeat or section boundary fits scored intact-context candidates"
+      ],
+      "context_provenance": {
+        "kind": "manual",
+        "start": 264.4,
+        "end": 267.05
+      },
+      "phrase_fit_warnings": [
+        "phrase-fit fallback: no supplied downbeat or section boundary fits scored intact-context candidates"
+      ],
+      "boundary_provenance": {
+        "music_start": {
+          "time": 19.4583,
+          "kinds": [
+            "beat"
+          ]
+        },
+        "music_end": {
+          "time": 22.4537,
+          "kinds": [
+            "beat"
+          ],
+          "phrase_aligned": false
+        }
+      }
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "source_start": 218.7792,
+      "source_end": 223.0226,
+      "output_start": 6.1997,
+      "output_end": 10.443099999999998,
+      "music_start": 22.4537,
+      "music_end": 26.6971,
+      "speed": 1.0,
+      "anchor": {
+        "source_audio_event": 221.612,
+        "source_visual_event": 221.6667,
+        "output_time": 9.032499999999999,
+        "music_time": 25.2865,
+        "provenance": {
+          "kind": "onset",
+          "strength": 0.3553
+        }
+      },
+      "events": [
+        {
+          "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+          "source_audio_event": 221.612,
+          "source_visual_event": 221.6667,
+          "confidence": 1.0,
+          "confirmed": true,
+          "source_duration": 505.034014,
+          "encounter_start": 220.0,
+          "encounter_end": 223.0,
+          "confirmation": "POV firing/ammo and skull-emblem frame review plus high-frequency waveform attack; full-track librosa local-threshold onsets near tracked beats",
+          "confidence_kind": "manual_calibration_label_not_probability",
+          "label_id": "1v9-1",
+          "context_review": "Assistant inspected 4fps full-frame contact sheet spanning five seconds. Bounds preserve sampled local setup/outcome, not exhaustive match/kill labeling.",
+          "audio_offset": 2.8327999999999918,
+          "visual_offset": 2.8874999999999886,
+          "output_audio_event": 9.032499999999999,
+          "output_visual_event": 9.087199999999996
+        }
+      ],
+      "kill_count": 1,
+      "confidence": 1.0,
+      "section": "peak",
+      "warnings": [
+        "phrase-fit fallback: no supplied downbeat or section boundary fits scored intact-context candidates"
+      ],
+      "context_provenance": {
+        "kind": "manual",
+        "start": 220.0,
+        "end": 223.0
+      },
+      "phrase_fit_warnings": [
+        "phrase-fit fallback: no supplied downbeat or section boundary fits scored intact-context candidates"
+      ],
+      "boundary_provenance": {
+        "music_start": {
+          "time": 22.4537,
+          "kinds": [
+            "beat"
+          ]
+        },
+        "music_end": {
+          "time": 26.6971,
+          "kinds": [
+            "beat"
+          ],
+          "phrase_aligned": false
+        }
+      }
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "source_start": 7.527100000000001,
+      "source_end": 11.0972,
+      "output_start": 10.443099999999998,
+      "output_end": 14.013199999999998,
+      "music_start": 26.6971,
+      "music_end": 30.2672,
+      "speed": 1.0,
+      "anchor": {
+        "source_audio_event": 9.646,
+        "source_visual_event": 9.733333333333333,
+        "output_time": 12.561999999999998,
+        "music_time": 28.816,
+        "provenance": {
+          "kind": "onset",
+          "strength": 0.3326
+        }
+      },
+      "events": [
+        {
+          "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+          "source_audio_event": 9.646,
+          "source_visual_event": 9.733333333333333,
+          "confidence": 1.0,
+          "confirmed": true,
+          "source_duration": 530.041905,
+          "encounter_start": 8.4,
+          "encounter_end": 10.9,
+          "confirmation": "Historical manual POV shot/outcome preview review plus production temporal first-emblem observation; not automatic profile certification",
+          "confidence_kind": "manual_calibration_label_not_probability",
+          "label_id": "reyna-1",
+          "context_review": "Assistant inspected 4fps full-frame contact sheet spanning five seconds. Bounds preserve sampled local setup/outcome, not exhaustive match/kill labeling.",
+          "audio_offset": 2.1189,
+          "visual_offset": 2.2062333333333317,
+          "output_audio_event": 12.561999999999998,
+          "output_visual_event": 12.649333333333328
+        }
+      ],
+      "kill_count": 1,
+      "confidence": 1.0,
+      "section": "peak",
+      "warnings": [
+        "phrase-fit fallback: no supplied downbeat or section boundary fits scored intact-context candidates"
+      ],
+      "context_provenance": {
+        "kind": "manual",
+        "start": 8.4,
+        "end": 10.9
+      },
+      "phrase_fit_warnings": [
+        "phrase-fit fallback: no supplied downbeat or section boundary fits scored intact-context candidates"
+      ],
+      "boundary_provenance": {
+        "music_start": {
+          "time": 26.6971,
+          "kinds": [
+            "beat"
+          ]
+        },
+        "music_end": {
+          "time": 30.2672,
+          "kinds": [
+            "beat"
+          ],
+          "phrase_aligned": false
+        }
+      }
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "source_start": 185.9382,
+      "source_end": 189.83339999999998,
+      "output_start": 14.013199999999998,
+      "output_end": 17.908399999999997,
+      "music_start": 30.2672,
+      "music_end": 34.1624,
+      "speed": 1.0,
+      "anchor": {
+        "source_audio_event": 188.028,
+        "source_visual_event": 188.13333333333333,
+        "output_time": 16.102999999999998,
+        "music_time": 32.357,
+        "provenance": {
+          "kind": "onset",
+          "strength": 0.4157
+        }
+      },
+      "events": [
+        {
+          "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+          "source_audio_event": 188.028,
+          "source_visual_event": 188.13333333333333,
+          "confidence": 1.0,
+          "confirmed": true,
+          "source_duration": 530.041905,
+          "encounter_start": 186.9,
+          "encounter_end": 189.45,
+          "confirmation": "Historical manual POV shot/outcome preview review plus production temporal first-emblem observation; not automatic profile certification",
+          "confidence_kind": "manual_calibration_label_not_probability",
+          "label_id": "reyna-4",
+          "context_review": "Assistant inspected 4fps full-frame contact sheet spanning five seconds. Bounds preserve sampled local setup/outcome, not exhaustive match/kill labeling.",
+          "audio_offset": 2.0897999999999968,
+          "visual_offset": 2.195133333333331,
+          "output_audio_event": 16.10300000000001,
+          "output_visual_event": 16.208333333333314
+        }
+      ],
+      "kill_count": 1,
+      "confidence": 1.0,
+      "section": "mid",
+      "warnings": [
+        "phrase-fit fallback: no supplied downbeat or section boundary fits scored intact-context candidates"
+      ],
+      "context_provenance": {
+        "kind": "manual",
+        "start": 186.9,
+        "end": 189.45
+      },
+      "phrase_fit_warnings": [
+        "phrase-fit fallback: no supplied downbeat or section boundary fits scored intact-context candidates"
+      ],
+      "boundary_provenance": {
+        "music_start": {
+          "time": 30.2672,
+          "kinds": [
+            "beat"
+          ]
+        },
+        "music_end": {
+          "time": 34.1624,
+          "kinds": [
+            "beat"
+          ],
+          "phrase_aligned": false
+        }
+      }
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "source_start": 90.6326,
+      "source_end": 94.4348,
+      "output_start": 17.908399999999997,
+      "output_end": 21.710599999999996,
+      "music_start": 34.1624,
+      "music_end": 37.9646,
+      "speed": 1.0,
+      "anchor": {
+        "source_audio_event": 92.258,
+        "source_visual_event": 92.33333333333333,
+        "output_time": 19.533799999999996,
+        "music_time": 35.7878,
+        "provenance": {
+          "kind": "onset",
+          "strength": 0.2961
+        }
+      },
+      "events": [
+        {
+          "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+          "source_audio_event": 92.258,
+          "source_visual_event": 92.33333333333333,
+          "confidence": 1.0,
+          "confirmed": true,
+          "source_duration": 530.041905,
+          "encounter_start": 91.1,
+          "encounter_end": 94.25,
+          "confirmation": "Historical manual POV shot/outcome preview review plus production temporal first-emblem observation; not automatic profile certification",
+          "confidence_kind": "manual_calibration_label_not_probability",
+          "label_id": "reyna-2",
+          "context_review": "Assistant inspected 4fps full-frame contact sheet spanning five seconds. Bounds preserve sampled local setup/outcome, not exhaustive match/kill labeling.",
+          "audio_offset": 1.625399999999999,
+          "visual_offset": 1.700733333333332,
+          "output_audio_event": 19.5338,
+          "output_visual_event": 19.609133333333332
+        }
+      ],
+      "kill_count": 1,
+      "confidence": 1.0,
+      "section": "mid",
+      "warnings": [
+        "phrase-fit fallback: no supplied downbeat or section boundary fits scored intact-context candidates"
+      ],
+      "context_provenance": {
+        "kind": "manual",
+        "start": 91.1,
+        "end": 94.25
+      },
+      "phrase_fit_warnings": [
+        "phrase-fit fallback: no supplied downbeat or section boundary fits scored intact-context candidates"
+      ],
+      "boundary_provenance": {
+        "music_start": {
+          "time": 34.1624,
+          "kinds": [
+            "beat"
+          ]
+        },
+        "music_end": {
+          "time": 37.9646,
+          "kinds": [
+            "beat"
+          ],
+          "phrase_aligned": false
+        }
+      }
+    }
+  ],
+  "phrase_aware": true,
+  "phrase_fit_warnings": [
+    "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4: phrase-fit fallback: no supplied downbeat or section boundary fits scored intact-context candidates",
+    "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4: phrase-fit fallback: no supplied downbeat or section boundary fits scored intact-context candidates",
+    "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4: phrase-fit fallback: no supplied downbeat or section boundary fits scored intact-context candidates",
+    "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4: phrase-fit fallback: no supplied downbeat or section boundary fits scored intact-context candidates",
+    "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4: phrase-fit fallback: no supplied downbeat or section boundary fits scored intact-context candidates",
+    "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4: phrase-fit fallback: no supplied downbeat or section boundary fits scored intact-context candidates"
+  ]
+}

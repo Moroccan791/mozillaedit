@@ -1,0 +1,55 @@
+{
+  "status": "read_only_evidence_checked_not_song_or_sync_certification",
+  "saved_artifacts_unchanged": true,
+  "saved_artifact_identities": {
+    "E:\\aside\\reflections-fresh-20261012\\resumed-local-jobs\\job-v0002\\renders\\encounters-v0001\\render-manifest.json": {
+      "schema": "file-content/v1",
+      "sha256": "899835591eed6729856d745b3ddc46cce2cbffd6f09bef079f6bd15ad4ba4274",
+      "size_bytes": 31397
+    },
+    "E:\\aside\\reflections-fresh-20261012\\resumed-local-jobs\\job-v0002\\renders\\encounters-v0001\\plan.json": {
+      "schema": "file-content/v1",
+      "sha256": "49f32e263410bef0579e3d5a19cb02d6d339057e2839905a0cfc0b6e5ad5840b",
+      "size_bytes": 202770
+    },
+    "E:\\aside\\reflections-fresh-20261012\\resumed-local-jobs\\job-v0002\\renders\\encounters-v0001\\encounters.mp4": {
+      "schema": "file-content/v1",
+      "sha256": "8d9aab124b95721e4af9b4c2b62f8965cc94322044287a7660e8e8b2c1f6b937",
+      "size_bytes": 28404628
+    },
+    "E:\\aside\\reflections-fresh-20261012\\resumed-local-jobs\\job-v0002\\renders\\encounters-v0001\\game-stem.wav": {
+      "schema": "file-content/v1",
+      "sha256": "6108bb966d6e88c76f052d561502fbcebb505d41aa99ca553365b5b104effaa8",
+      "size_bytes": 6688206
+    },
+    "E:\\aside\\reflections-fresh-20261012\\resumed-local-jobs\\job-v0002\\renders\\encounters-v0001\\music-stem.wav": {
+      "schema": "file-content/v1",
+      "sha256": "73f9aeaef3660b734e1370f7a37d08a29531668c618f755f4ffd948732f2f4dd",
+      "size_bytes": 6688206
+    }
+  },
+  "attack_assignments_identical_to_prior": true,
+  "attack_count": 10,
+  "attack_coverage": {
+    "game_attack": {
+      "measured": 5,
+      "ambiguous": 3,
+      "unmeasurable": 2,
+      "missing": 0
+    },
+    "music_attack": {
+      "measured": 0,
+      "ambiguous": 0,
+      "unmeasurable": 10,
+      "missing": 0
+    }
+  },
+  "stem_content_bound": [
+    "game",
+    "music"
+  ],
+  "old_render_source_binding": "unavailable",
+  "independent_labels": 0,
+  "metrics": [],
+  "musical_sync": "unverified"
+}

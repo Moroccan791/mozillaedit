@@ -1,0 +1,48 @@
+{
+  "status": "planned only; rendered audio/visual sync not verified",
+  "duration": 10,
+  "fps": 60,
+  "frame_ms": 16.666667,
+  "rules": [
+    "1x speed",
+    "no crossfades",
+    "no ramps",
+    "no visual effects",
+    "manual event/beat anchors"
+  ],
+  "events": [
+    {
+      "id": 1,
+      "source_event": 221.1,
+      "output_event": 2.9254,
+      "music_event": 22.8484,
+      "output_start": 0,
+      "output_end": 4.2143,
+      "predicted_event": 2.9254,
+      "planning_error_ms": 0,
+      "confirmation": "assistant frame review of POV kill-feed entries; music accents selected by local spectral-flux peaks"
+    },
+    {
+      "id": 2,
+      "source_event": 232.0667,
+      "output_event": 5.5029,
+      "music_event": 25.4259,
+      "output_start": 4.2143,
+      "output_end": 7.5346,
+      "predicted_event": 5.5029,
+      "planning_error_ms": 0,
+      "confirmation": "assistant frame review of POV kill-feed entries; music accents selected by local spectral-flux peaks"
+    },
+    {
+      "id": 3,
+      "source_event": 265.6833,
+      "output_event": 9.5663,
+      "music_event": 29.4893,
+      "output_start": 7.5346,
+      "output_end": 10,
+      "predicted_event": 9.5663,
+      "planning_error_ms": 0,
+      "confirmation": "assistant frame review of POV kill-feed entries; music accents selected by local spectral-flux peaks"
+    }
+  ]
+}

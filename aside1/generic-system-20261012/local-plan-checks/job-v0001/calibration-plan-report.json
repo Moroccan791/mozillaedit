@@ -1,0 +1,74 @@
+{
+  "schema_version": "calibration-report/v1",
+  "status": "unverified",
+  "musical_sync": "unverified",
+  "coverage": {
+    "sources": 1,
+    "firing": {
+      "total": 2099,
+      "supplied_confirmed": 0,
+      "candidate_or_unconfirmed": 2099,
+      "confirmation_interpretation": "supplied flag only; not independently validated"
+    },
+    "icons": {
+      "total": 17,
+      "supplied_confirmed": 0,
+      "candidate_or_unconfirmed": 17,
+      "confirmation_interpretation": "supplied flag only; not independently validated"
+    },
+    "music": {
+      "total": 128,
+      "supplied_confirmed": 0,
+      "candidate_or_unconfirmed": 128,
+      "confirmation_interpretation": "supplied flag only; not independently validated"
+    },
+    "attack": {
+      "game_attack": {
+        "measured": 0,
+        "ambiguous": 0,
+        "unmeasurable": 0,
+        "missing": 0
+      },
+      "music_attack": {
+        "measured": 0,
+        "ambiguous": 0,
+        "unmeasurable": 0,
+        "missing": 0
+      }
+    }
+  },
+  "omissions": {
+    "invalid_prediction_times": {},
+    "duplicate_music_candidates": 0,
+    "plan_assignments": 10,
+    "attack_assignments": 0,
+    "plan_assignments_without_attack": 10,
+    "attack_assignments_unbound": 0,
+    "duplicate_attack_assignment_indices": 0,
+    "omitted_encounters": 7,
+    "unknown_window_fight": 16,
+    "unknown_window_outcome": 16,
+    "unknown_clip_fight": 10,
+    "unknown_clip_outcome": 10,
+    "sources_without_scene_cut_review": 1,
+    "layered_music_unmeasurable_proxy": 0,
+    "independent_label_sets_supplied": 0,
+    "independent_label_sets_rejected": 0
+  },
+  "metrics": [],
+  "rejected_label_sets": [],
+  "tolerances_seconds": {
+    "firing": 0.05,
+    "icons": 0.15,
+    "music": 0.05,
+    "game_attack": 0.02,
+    "music_attack": 0.02
+  },
+  "limitations": [
+    "No detection, IO, confirmation, alignment_verified promotion or perceptual certification.",
+    "No labels means coverage only; heuristic measured attacks are not calibrated truth.",
+    "Unknown counts require explicit reviewed evidence, not inferred fight/outcome/cut semantics.",
+    "Layered music proxy counts sustained/rise rejection reasons, not verified instrumentation.",
+    "Independent-label origin and source identity are caller assertions, not authenticated here."
+  ]
+}

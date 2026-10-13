@@ -1,0 +1,247 @@
+{
+  "schema_version": "encounter-render/v1",
+  "job_dir": "E:\\aside\\automation-20261012\\text-proof-noy0jjfj",
+  "output": "E:\\aside\\automation-20261012\\text-proof-noy0jjfj\\text-v0002\\encounters-text.mp4",
+  "music_source": "E:\\aside\\automation-20261012\\text-proof-noy0jjfj\\music.wav",
+  "config": {
+    "width": 320,
+    "height": 180,
+    "fps": 30,
+    "sample_rate": 8000,
+    "encoder": "libx264",
+    "fallback_encoder": null,
+    "quality": 0,
+    "preset": "ultrafast",
+    "music_gain_db": -6.0,
+    "game_gain_db": 0.0,
+    "max_duration": 120.0,
+    "max_clip_duration": 30.0,
+    "max_clips": 64,
+    "max_source_duration": 86400.0,
+    "timeout": 600.0,
+    "ffmpeg": "ffmpeg",
+    "ffprobe": "ffprobe",
+    "style": "clean"
+  },
+  "frame_count": 60,
+  "video_duration": 2.0,
+  "plan_duration": 2.0,
+  "music_start_sample": 8000,
+  "authored_design": {
+    "unchanged": true
+  },
+  "output_metadata": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High 4:4:4 Predictive",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.f4000d",
+        "width": 320,
+        "height": 180,
+        "coded_width": 320,
+        "coded_height": 180,
+        "has_b_frames": 0,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "16:9",
+        "pix_fmt": "yuv420p",
+        "level": 13,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "time_base": "1/15360",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 30720,
+        "duration": "2.000000",
+        "bit_rate": "65588",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "60",
+        "extradata_size": 44,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "encoder": "Lavc63.1.101 libx264"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "mime_codec_string": "mp4a.40.2",
+        "sample_fmt": "fltp",
+        "sample_rate": "8000",
+        "channels": 1,
+        "channel_layout": "mono",
+        "bits_per_sample": 0,
+        "initial_padding": 1024,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/8000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 16000,
+        "duration": "2.000000",
+        "bit_rate": "26601",
+        "nb_frames": "17",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler"
+        }
+      }
+    ],
+    "format": {
+      "filename": "E:\\aside\\automation-20261012\\text-proof-noy0jjfj\\text-v0002\\encounters-text.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "2.000000",
+      "size": "25418",
+      "bit_rate": "101672",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf63.1.101"
+      }
+    }
+  },
+  "manifest_path": "E:\\aside\\automation-20261012\\text-proof-noy0jjfj\\text-v0002\\render-manifest.json",
+  "typography_audit": {
+    "schema": "encounter-text/v1",
+    "enabled": true,
+    "original_output": "E:\\aside\\automation-20261012\\text-proof-noy0jjfj\\encounters.mp4",
+    "original_output_sha256": "db64a04e10ffcada9174c343e88337817ef3a214eca779ce13c7603d9548d75b",
+    "ass_path": "E:\\aside\\automation-20261012\\text-proof-noy0jjfj\\text-v0002\\lyrics.ass",
+    "graph_path": "E:\\aside\\automation-20261012\\text-proof-noy0jjfj\\text-v0002\\lyrics.filter.txt",
+    "track_path": "E:\\aside\\automation-20261012\\text-proof-noy0jjfj\\track.json",
+    "track_sha256": "ee1ac7a1763232ec974ca49ab904b934a1fe94bcde1c8f566f8c226b383b6147",
+    "audio_sha256": "af3c5fa78b92a713a340e5c53fe2774a378c8ea539cd53f91d4139d160fb772e",
+    "provenance": {
+      "alignment_verified": true,
+      "method": "verified synthetic fixture, not a song"
+    },
+    "music_start": 1.0,
+    "excerpt_duration": 2.0,
+    "fonts": [
+      {
+        "family": "Bebas Neue",
+        "file": "E:\\fonts\\Bebas_Neue\\BebasNeue-Regular.ttf",
+        "license": "E:\\fonts\\Bebas_Neue\\OFL.txt"
+      },
+      {
+        "family": "Bebas Neue",
+        "file": "E:\\fonts\\BebasNeue-Regular.ttf",
+        "license": "E:\\fonts\\OFL.txt"
+      },
+      {
+        "family": "Oswald",
+        "file": "E:\\fonts\\Oswald\\Oswald-VariableFont_wght.ttf",
+        "license": "E:\\fonts\\Oswald\\OFL.txt"
+      },
+      {
+        "family": "Oswald",
+        "file": "E:\\fonts\\Oswald\\static\\Oswald-Bold.ttf",
+        "license": "E:\\fonts\\Oswald\\OFL.txt"
+      },
+      {
+        "family": "Oswald",
+        "file": "E:\\fonts\\Oswald\\static\\Oswald-ExtraLight.ttf",
+        "license": "E:\\fonts\\Oswald\\OFL.txt"
+      },
+      {
+        "family": "Oswald",
+        "file": "E:\\fonts\\Oswald\\static\\Oswald-Light.ttf",
+        "license": "E:\\fonts\\Oswald\\OFL.txt"
+      },
+      {
+        "family": "Oswald",
+        "file": "E:\\fonts\\Oswald\\static\\Oswald-Medium.ttf",
+        "license": "E:\\fonts\\Oswald\\OFL.txt"
+      },
+      {
+        "family": "Oswald",
+        "file": "E:\\fonts\\Oswald\\static\\Oswald-Regular.ttf",
+        "license": "E:\\fonts\\Oswald\\OFL.txt"
+      },
+      {
+        "family": "Oswald",
+        "file": "E:\\fonts\\Oswald\\static\\Oswald-SemiBold.ttf",
+        "license": "E:\\fonts\\Oswald\\OFL.txt"
+      }
+    ],
+    "audio_mode": "copy",
+    "frame_count": 60,
+    "fps": "30",
+    "video_duration": 2.0,
+    "roles": [
+      "Phrase"
+    ],
+    "limitations": [
+      "Lyric metadata alignment verification is a supplied assertion, not truth or independent listening verification.",
+      "Manifest music_source linkage is supplied metadata, not independent proof of the mixed audio provenance.",
+      "Partial boundary words omitted; ASS times quantized inward to centiseconds.",
+      "Video is re-encoded for text; original mixed audio is stream copied; no aesthetic certification."
+    ]
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "schema": "lyric-design/v1",
+  "enabled": true,
+  "source": {
+    "music_source": "E:\\aside\\continuation-20261012-account5\\lyric-design-demo\\synthetic-selected-audio.wav",
+    "audio_sha256": "95c7cb40336aa5a49fcc0405f803807116be8c1694c6b74f0f8447062d0d4120"
+  },
+  "alignment_method_assertion": "Synthetic diagnostic timing assertion. These words are NOT sung and NOT actual song lyrics.",
+  "excerpt": {
+    "music_start_sample": 48000,
+    "sample_rate": 48000,
+    "sample_count": 288000,
+    "output_start": 0
+  },
+  "canvas": {
+    "width": 1280,
+    "height": 720,
+    "mode": "diagnostic"
+  },
+  "protected_zones": [],
+  "allow_protected_overlap": false,
+  "allow_impact_collision": false,
+  "visual_impacts": [],
+  "moments": [
+    {
+      "id": "shape",
+      "role": "giant_word",
+      "original_word_indices": [
+        0
+      ],
+      "text": "SHAPE",
+      "source_times": [
+        [
+          1.2,
+          2.6
+        ]
+      ],
+      "box": [
+        0.03,
+        0.04,
+        0.94,
+        0.84
+      ],
+      "design": {
+        "id": "shape",
+        "word_indices": [
+          0
+        ],
+        "role": "giant_word",
+        "font_family": "Bebas Neue",
+        "palette": "ice",
+        "box": [
+          0.03,
+          0.04,
+          0.94,
+          0.84
+        ],
+        "size": 0.4,
+        "opacity": 0.7,
+        "animation": {
+          "entrance_ms": 160,
+          "exit_ms": 140,
+          "from_scale": 1.12,
+          "echo_offset": [
+            0,
+            0
+          ],
+          "glow": 0.006
+        }
+      },
+      "font": {
+        "family": "Bebas Neue",
+        "file": "E:\\fonts\\BebasNeue-Regular.ttf",
+        "license": "E:\\fonts\\OFL.txt"
+      },
+      "status": "rendered",
+      "reason": null,
+      "output_centiseconds": [
+        20,
+        160
+      ]
+    },
+    {
+      "id": "light",
+      "role": "accent_echo",
+      "original_word_indices": [
+        1
+      ],
+      "text": "LIGHT",
+      "source_times": [
+        [
+          2.9,
+          4.4
+        ]
+      ],
+      "box": [
+        0.07,
+        0.04,
+        0.9,
+        0.84
+      ],
+      "design": {
+        "id": "light",
+        "word_indices": [
+          1
+        ],
+        "role": "accent_echo",
+        "font_family": "Bebas Neue",
+        "palette": "violet",
+        "box": [
+          0.07,
+          0.04,
+          0.9,
+          0.84
+        ],
+        "size": 0.33,
+        "opacity": 0.86,
+        "animation": {
+          "entrance_ms": 160,
+          "exit_ms": 140,
+          "from_scale": 1.12,
+          "echo_offset": [
+            0.018,
+            0.012
+          ],
+          "glow": 0.006
+        }
+      },
+      "font": {
+        "family": "Bebas Neue",
+        "file": "E:\\fonts\\BebasNeue-Regular.ttf",
+        "license": "E:\\fonts\\OFL.txt"
+      },
+      "status": "rendered",
+      "reason": null,
+      "output_centiseconds": [
+        190,
+        340
+      ]
+    },
+    {
+      "id": "quiet",
+      "role": "quiet_italic",
+      "original_word_indices": [
+        2,
+        3
+      ],
+      "text": "quiet form",
+      "source_times": [
+        [
+          4.7,
+          5.3
+        ],
+        [
+          5.4,
+          6.4
+        ]
+      ],
+      "box": [
+        0.1,
+        0.65,
+        0.8,
+        0.26
+      ],
+      "design": {
+        "id": "quiet",
+        "word_indices": [
+          2,
+          3
+        ],
+        "role": "quiet_italic",
+        "font_family": "Oswald",
+        "palette": "paper",
+        "box": [
+          0.1,
+          0.65,
+          0.8,
+          0.26
+        ],
+        "size": 0.046,
+        "opacity": 0.9,
+        "animation": {
+          "entrance_ms": 160,
+          "exit_ms": 140,
+          "from_scale": 1.12,
+          "echo_offset": [
+            0,
+            0
+          ],
+          "glow": 0.002
+        }
+      },
+      "font": {
+        "family": "Oswald",
+        "file": "E:\\fonts\\Oswald\\static\\Oswald-Regular.ttf",
+        "license": "E:\\fonts\\Oswald\\OFL.txt"
+      },
+      "status": "rendered",
+      "reason": null,
+      "output_centiseconds": [
+        370,
+        540
+      ]
+    }
+  ],
+  "limitations": [
+    "No independent sung-word or vocal alignment verification.",
+    "Sample rate/excerpt lineage is a caller assertion; no mixed audio verification.",
+    "Conservative TTF ink bounds plus hard ASS rectangle clips, not gameplay semantic occlusion proof.",
+    "No automatic captions; no renderer integration or audio processing."
+  ]
+}

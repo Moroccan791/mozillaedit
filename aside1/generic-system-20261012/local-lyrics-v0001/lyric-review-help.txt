@@ -1,0 +1,14 @@
+usage: aive lyric-review [-h] --music MUSIC --candidates CANDIDATES
+                         [--review REVIEW] [--prefix-seconds PREFIX_SECONDS]
+                         --out OUT
+
+options:
+  -h, --help            show this help message and exit
+  --music MUSIC
+  --candidates CANDIDATES
+                        UNVERIFIED music-lyric-candidates/v1 JSON
+  --review REVIEW       audit existing edited review rather than prepare new
+                        handoff
+  --prefix-seconds PREFIX_SECONDS
+                        must match extraction prefix limit, <=600s
+  --out OUT             new pending review/audit JSON; never overwrite

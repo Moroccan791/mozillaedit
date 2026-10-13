@@ -1,0 +1,29 @@
+2026/10/12-18:07:55.716 104c Creating DB C:\Users\Junayed\AppData\Local\Aside\User Data\Default\Local Storage\leveldb since it was missing.
+2026/10/12-18:07:55.779 104c Reusing MANIFEST C:\Users\Junayed\AppData\Local\Aside\User Data\Default\Local Storage\leveldb/MANIFEST-000001
+2026/10/12-18:24:57.645 3a04 Level-0 table #5: started
+2026/10/12-18:24:57.672 3a04 Level-0 table #5: 27858 bytes OK
+2026/10/12-18:24:57.675 3a04 Delete type=0 #3
+2026/10/12-18:50:35.499 3a04 Level-0 table #7: started
+2026/10/12-18:50:35.508 3a04 Level-0 table #7: 29516 bytes OK
+2026/10/12-18:50:35.514 3a04 Delete type=0 #4
+2026/10/12-18:54:13.550 3a04 Level-0 table #9: started
+2026/10/12-18:54:13.558 3a04 Level-0 table #9: 25427 bytes OK
+2026/10/12-18:54:13.560 3a04 Delete type=0 #6
+2026/10/12-18:55:50.485 3a04 Level-0 table #11: started
+2026/10/12-18:55:50.492 3a04 Level-0 table #11: 25457 bytes OK
+2026/10/12-18:55:50.497 3a04 Delete type=0 #8
+2026/10/12-18:59:57.618 3a04 Level-0 table #13: started
+2026/10/12-18:59:57.634 3a04 Level-0 table #13: 26360 bytes OK
+2026/10/12-18:59:57.636 3a04 Delete type=0 #10
+2026/10/12-19:08:57.613 3a04 Level-0 table #15: started
+2026/10/12-19:08:57.624 3a04 Level-0 table #15: 27417 bytes OK
+2026/10/12-19:08:57.626 3a04 Delete type=0 #12
+2026/10/12-19:08:57.629 3a04 Compacting 4@0 + 1@1 files
+2026/10/12-19:08:57.658 3a04 Generated table #16@0: 2 keys, 1371 bytes
+2026/10/12-19:08:57.658 3a04 Compacted 4@0 + 1@1 files => 1371 bytes
+2026/10/12-19:08:57.659 3a04 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/10/12-19:08:57.662 3a04 Delete type=2 #7
+2026/10/12-19:08:57.662 3a04 Delete type=2 #9
+2026/10/12-19:08:57.662 3a04 Delete type=2 #11
+2026/10/12-19:08:57.662 3a04 Delete type=2 #13
+2026/10/12-19:08:57.662 3a04 Delete type=2 #15

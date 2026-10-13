@@ -1,0 +1,73 @@
+{
+  "status": "local_real_song_candidates_and_pending_reviews_not_verified_lyrics",
+  "songs": [
+    {
+      "name": "Reflections",
+      "duration": 45.3485625,
+      "words": 32,
+      "runtime": 26.3015886,
+      "status": "UNVERIFIED",
+      "audio_sha256": "25c7bc6d077cd96d752c32cc493cc72f354607596a1dc8b4288f682e0e304396",
+      "pcm_sha256": "927cbc830d213f2994ca77d461f196831b4ab3bd0683b835be66e6cebd5b2365",
+      "review_status": "PENDING",
+      "pending": [
+        "explicit decoded-prefix coverage missing",
+        "reviewer missing",
+        "method missing",
+        "original candidate dispositions remain pending"
+      ]
+    },
+    {
+      "name": "The Winner Takes It All",
+      "duration": 79.2265,
+      "words": 54,
+      "runtime": 27.9111446,
+      "status": "UNVERIFIED",
+      "audio_sha256": "fee64bb4540fb6a2f0c391718c024512bc75e0cdfdb8d1b88da1cf773a7eb3c8",
+      "pcm_sha256": "e3bd5e5a652cd2af81e67b68733c07e39d0734cfeb377f7a5efe5d0ad2913bc9",
+      "review_status": "PENDING",
+      "pending": [
+        "explicit decoded-prefix coverage missing",
+        "reviewer missing",
+        "method missing",
+        "original candidate dispositions remain pending"
+      ]
+    }
+  ],
+  "failed_songs": [
+    {
+      "name": "Let the World Burn",
+      "reason": "invalid positive word duration; no clamping/output",
+      "runtime": 13.0473001,
+      "precise_failure": {
+        "word_index": 1,
+        "start": 0.64,
+        "end": 0.64
+      }
+    },
+    {
+      "name": "Dracula",
+      "reason": "invalid positive word duration; no clamping/output",
+      "runtime": 13.6432169,
+      "precise_failure": {
+        "word_index": 3,
+        "start": 31.28,
+        "end": 31.28
+      }
+    }
+  ],
+  "alignment_verified": false,
+  "claims_authenticated": false,
+  "rendered_new_gameplay": false,
+  "limitations": [
+    "No independent listening or word correction performed",
+    "ASR words may be incorrect/hallucinated",
+    "Successful setup is not completed gameplay/music calibration",
+    "Historical preview untouched"
+  ],
+  "final_focused_tests": {
+    "count": 30,
+    "seconds": 10.934,
+    "status": "PASS"
+  }
+}

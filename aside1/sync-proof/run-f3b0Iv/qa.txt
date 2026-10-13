@@ -1,0 +1,18 @@
+QA: E:\aside\sync-proof\run-f3b0Iv\sync-proof.mp4
+----------------------------------------
+[PASS] decode
+[PASS] pix_fmt universal  -- pix_fmt=yuv420p
+[PASS] streams  -- video=True audio=True
+[PASS] a/v duration sync  -- video=10.00s audio=10.00s
+----------------------------------------
+RESULT: OK
+
+Timing evidence (decoded media, no visual inspection):
+[PASS] event 1 video frame correlation=0.999, offset=-1 frame(s)
+[PASS] event 1 music-audio correlation=0.450, offset=+0 frame(s)
+[PASS] event 2 video frame correlation=1.000, offset=+0 frame(s)
+[PASS] event 2 music-audio correlation=0.903, offset=+0 frame(s)
+[PASS] event 3 video frame correlation=1.000, offset=-1 frame(s)
+[PASS] event 3 music-audio correlation=0.450, offset=+0 frame(s)
+
+OVERALL: PASS

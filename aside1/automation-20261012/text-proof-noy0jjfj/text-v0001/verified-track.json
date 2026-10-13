@@ -1,0 +1,15 @@
+{
+  "schema": "lyric-track/v1",
+  "audio_sha256": "af3c5fa78b92a713a340e5c53fe2774a378c8ea539cd53f91d4139d160fb772e",
+  "provenance": {
+    "alignment_verified": true,
+    "method": "verified synthetic fixture, not a song"
+  },
+  "words": [
+    {
+      "text": "VERIFIED TEXT",
+      "start": 1.2,
+      "end": 2.8
+    }
+  ]
+}

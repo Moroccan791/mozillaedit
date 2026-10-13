@@ -1,0 +1,595 @@
+{
+  "audio_sha256": "d810a9234995002fc46c1b4ee466aaebd55ec69ac0effa498eec72c4723ddb70",
+  "audit": {
+    "alignment_verification": "supplied assertion only",
+    "design": {
+      "alignment_method_assertion": "Synthetic structural words on generated tone; explicitly NOT actual singing or independent vocal verification",
+      "allow_impact_collision": false,
+      "allow_protected_overlap": false,
+      "canvas": {
+        "height": 180,
+        "mode": "gameplay",
+        "width": 320
+      },
+      "enabled": true,
+      "excerpt": {
+        "music_start_sample": 252000,
+        "output_start": 0,
+        "sample_count": 1680000,
+        "sample_rate": 48000
+      },
+      "limitations": [
+        "No independent sung-word or vocal alignment verification.",
+        "Sample rate/excerpt lineage is a caller assertion; no mixed audio verification.",
+        "Conservative TTF ink bounds plus hard ASS rectangle clips, not gameplay semantic occlusion proof.",
+        "No automatic captions; no renderer integration or audio processing."
+      ],
+      "moments": [
+        {
+          "box": [
+            0.04,
+            0.055,
+            0.64,
+            0.16
+          ],
+          "design": {
+            "animation": {
+              "echo_offset": [
+                0,
+                0
+              ],
+              "entrance_ms": 0,
+              "exit_ms": 0,
+              "from_scale": 1,
+              "glow": 0
+            },
+            "box": [
+              0.04,
+              0.055,
+              0.64,
+              0.16
+            ],
+            "font_family": "Bebas Neue",
+            "id": "accent-0",
+            "opacity": 0.8,
+            "palette": "ice",
+            "role": "giant_word",
+            "size": 0.055,
+            "word_indices": [
+              0
+            ]
+          },
+          "font": {
+            "family": "Bebas Neue",
+            "file": "E:\\fonts\\BebasNeue-Regular.ttf",
+            "license": "E:\\fonts\\OFL.txt"
+          },
+          "id": "accent-0",
+          "original_word_indices": [
+            0
+          ],
+          "output_centiseconds": [
+            25,
+            65
+          ],
+          "reason": null,
+          "resolved_colors": {
+            "accent": "#48D9DF",
+            "primary": "#D6FFFF"
+          },
+          "role": "giant_word",
+          "source_times": [
+            [
+              5.5,
+              5.9
+            ]
+          ],
+          "status": "rendered",
+          "text": "LOCAL"
+        },
+        {
+          "box": [
+            0.04,
+            0.055,
+            0.64,
+            0.16
+          ],
+          "design": {
+            "animation": {
+              "echo_offset": [
+                0,
+                0
+              ],
+              "entrance_ms": 0,
+              "exit_ms": 0,
+              "from_scale": 1,
+              "glow": 0
+            },
+            "box": [
+              0.04,
+              0.055,
+              0.64,
+              0.16
+            ],
+            "font_family": "Bebas Neue",
+            "id": "accent-1",
+            "opacity": 0.8,
+            "palette": "ice",
+            "role": "giant_word",
+            "size": 0.055,
+            "word_indices": [
+              1
+            ]
+          },
+          "font": {
+            "family": "Bebas Neue",
+            "file": "E:\\fonts\\BebasNeue-Regular.ttf",
+            "license": "E:\\fonts\\OFL.txt"
+          },
+          "id": "accent-1",
+          "original_word_indices": [
+            1
+          ],
+          "output_centiseconds": [
+            375,
+            415
+          ],
+          "reason": null,
+          "resolved_colors": {
+            "accent": "#48D9DF",
+            "primary": "#D6FFFF"
+          },
+          "role": "giant_word",
+          "source_times": [
+            [
+              9.0,
+              9.4
+            ]
+          ],
+          "status": "rendered",
+          "text": "SYSTEM"
+        },
+        {
+          "box": [
+            0.04,
+            0.055,
+            0.64,
+            0.16
+          ],
+          "design": {
+            "animation": {
+              "echo_offset": [
+                0,
+                0
+              ],
+              "entrance_ms": 0,
+              "exit_ms": 0,
+              "from_scale": 1,
+              "glow": 0
+            },
+            "box": [
+              0.04,
+              0.055,
+              0.64,
+              0.16
+            ],
+            "font_family": "Bebas Neue",
+            "id": "accent-2",
+            "opacity": 0.8,
+            "palette": "ice",
+            "role": "giant_word",
+            "size": 0.055,
+            "word_indices": [
+              2
+            ]
+          },
+          "font": {
+            "family": "Bebas Neue",
+            "file": "E:\\fonts\\BebasNeue-Regular.ttf",
+            "license": "E:\\fonts\\OFL.txt"
+          },
+          "id": "accent-2",
+          "original_word_indices": [
+            2
+          ],
+          "output_centiseconds": [
+            725,
+            765
+          ],
+          "reason": null,
+          "resolved_colors": {
+            "accent": "#48D9DF",
+            "primary": "#D6FFFF"
+          },
+          "role": "giant_word",
+          "source_times": [
+            [
+              12.5,
+              12.9
+            ]
+          ],
+          "status": "rendered",
+          "text": "PROOF"
+        }
+      ],
+      "protected_zones": [
+        [
+          0.3,
+          0.25,
+          0.4,
+          0.5
+        ],
+        [
+          0.74,
+          0,
+          0.26,
+          0.25
+        ],
+        [
+          0,
+          0.82,
+          1,
+          0.18
+        ]
+      ],
+      "schema": "lyric-design/v1",
+      "source": {
+        "audio_sha256": "d810a9234995002fc46c1b4ee466aaebd55ec69ac0effa498eec72c4723ddb70",
+        "music_source": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\synthetic-music.wav"
+      },
+      "visual_impacts": [
+        1.19,
+        1.2,
+        1.24,
+        1.26,
+        4.6,
+        4.69,
+        4.7,
+        4.74,
+        4.740000000000001,
+        4.760000000000001,
+        4.833333333333333,
+        8.189999999999998,
+        8.2,
+        8.239999999999998,
+        8.259999999999998,
+        11.689999999999998,
+        11.7,
+        11.739999999999998,
+        11.759999999999998,
+        15.1,
+        15.189999999999998,
+        15.2,
+        15.239999999999998,
+        15.259999999999998,
+        15.333333333333334,
+        18.689999999999998,
+        18.7,
+        18.700000000000003,
+        18.739999999999995,
+        18.74,
+        18.759999999999998,
+        22.189999999999998,
+        22.2,
+        22.200000000000003,
+        22.239999999999995,
+        22.24,
+        22.259999999999998,
+        25.689999999999998,
+        25.7,
+        25.700000000000003,
+        25.739999999999995,
+        25.74,
+        25.759999999999998,
+        29.190000000000005,
+        29.2,
+        29.200000000000003,
+        29.24,
+        29.240000000000002,
+        29.260000000000005,
+        32.6,
+        32.69,
+        32.7,
+        32.74,
+        32.74000000000001,
+        32.760000000000005,
+        32.833333333333336
+      ]
+    },
+    "generated": true,
+    "perceptual_approval": false,
+    "plan_sha256": "1d5db56bb137f0e3f5cf63cca15525620830860efdd5a05b84ae9de9297ae173",
+    "protected_output_events": [
+      1.19,
+      1.2,
+      1.24,
+      1.26,
+      4.6,
+      4.69,
+      4.7,
+      4.74,
+      4.740000000000001,
+      4.760000000000001,
+      4.833333333333333,
+      8.189999999999998,
+      8.2,
+      8.239999999999998,
+      8.259999999999998,
+      11.689999999999998,
+      11.7,
+      11.739999999999998,
+      11.759999999999998,
+      15.1,
+      15.189999999999998,
+      15.2,
+      15.239999999999998,
+      15.259999999999998,
+      15.333333333333334,
+      18.689999999999998,
+      18.7,
+      18.700000000000003,
+      18.739999999999995,
+      18.74,
+      18.759999999999998,
+      22.189999999999998,
+      22.2,
+      22.200000000000003,
+      22.239999999999995,
+      22.24,
+      22.259999999999998,
+      25.689999999999998,
+      25.7,
+      25.700000000000003,
+      25.739999999999995,
+      25.74,
+      25.759999999999998,
+      29.190000000000005,
+      29.2,
+      29.200000000000003,
+      29.24,
+      29.240000000000002,
+      29.260000000000005,
+      32.6,
+      32.69,
+      32.7,
+      32.74,
+      32.74000000000001,
+      32.760000000000005,
+      32.833333333333336
+    ],
+    "status": "pass"
+  },
+  "authored_design": {
+    "bridges": [
+      {
+        "boundary": 2,
+        "direction": "right",
+        "frames": 8
+      },
+      {
+        "boundary": 8,
+        "direction": "left",
+        "frames": 8
+      }
+    ],
+    "ending": {
+      "fade_frames": 12
+    },
+    "impacts": [
+      {
+        "clip_index": 1,
+        "frames": 8,
+        "output_time": 4.7,
+        "strength": 0.8
+      },
+      {
+        "clip_index": 4,
+        "frames": 8,
+        "output_time": 15.2,
+        "strength": 0.8
+      },
+      {
+        "clip_index": 9,
+        "frames": 8,
+        "output_time": 32.7,
+        "strength": 0.8
+      }
+    ],
+    "schema_version": "authored-footage/v2",
+    "shots": [
+      {
+        "composition": "full",
+        "role": "setup"
+      },
+      {
+        "composition": "full",
+        "role": "impact"
+      },
+      {
+        "composition": "inset",
+        "role": "contrast"
+      },
+      {
+        "composition": "full",
+        "role": "impact"
+      },
+      {
+        "composition": "full",
+        "role": "impact"
+      },
+      {
+        "composition": "inset",
+        "role": "contrast"
+      },
+      {
+        "composition": "full",
+        "role": "impact"
+      },
+      {
+        "composition": "full",
+        "role": "impact"
+      },
+      {
+        "composition": "inset",
+        "role": "contrast"
+      },
+      {
+        "composition": "full",
+        "role": "payoff"
+      }
+    ]
+  },
+  "canvas": {
+    "height": 180,
+    "mode": "gameplay",
+    "width": 320
+  },
+  "config": {
+    "encoder": "libx264",
+    "fallback_encoder": null,
+    "ffmpeg": "ffmpeg",
+    "ffprobe": "ffprobe",
+    "fps": 30,
+    "game_gain_db": 0.0,
+    "height": 180,
+    "max_clip_duration": 30.0,
+    "max_clips": 64,
+    "max_duration": 120.0,
+    "max_source_duration": 86400.0,
+    "music_gain_db": -6.0,
+    "preset": "ultrafast",
+    "quality": 25,
+    "sample_rate": 48000,
+    "style": "authored-footage",
+    "timeout": 600.0,
+    "width": 320
+  },
+  "design_path": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\lyrics-prepared-v0001\\lyric-design.json",
+  "design_sha256": "1a50af472a8e2b64444a009e404bb44a2c3c414097e431cfd3a2c58eee45b3f4",
+  "excerpt": {
+    "music_start_sample": 252000,
+    "output_start": 0,
+    "sample_count": 1680000,
+    "sample_rate": 48000
+  },
+  "font_identity": [
+    {
+      "family": "Bebas Neue",
+      "file": "E:\\fonts\\Bebas_Neue\\BebasNeue-Regular.ttf",
+      "license": "E:\\fonts\\Bebas_Neue\\OFL.txt",
+      "license_sha256": "5dfb66367e86929261375e6a6cf14410136c3c394962f1a381f0a17cf4c7f81d",
+      "sha256": "830ea186acffc2316ed1a4e42319246ba3b46b04e33a211079249bf901193f04"
+    },
+    {
+      "family": "Bebas Neue",
+      "file": "E:\\fonts\\BebasNeue-Regular.ttf",
+      "license": "E:\\fonts\\OFL.txt",
+      "license_sha256": "5dfb66367e86929261375e6a6cf14410136c3c394962f1a381f0a17cf4c7f81d",
+      "sha256": "830ea186acffc2316ed1a4e42319246ba3b46b04e33a211079249bf901193f04"
+    },
+    {
+      "family": "Oswald",
+      "file": "E:\\fonts\\Oswald\\static\\Oswald-Bold.ttf",
+      "license": "E:\\fonts\\Oswald\\OFL.txt",
+      "license_sha256": "f55dcf1905ca45acef56f9e41183c20e66c12feba0ef137727358fe58f0dddc2",
+      "sha256": "21843a0ccca2e97030da1330961646510ed6e9b8bb39620974c1195b9803034a"
+    },
+    {
+      "family": "Oswald",
+      "file": "E:\\fonts\\Oswald\\static\\Oswald-ExtraLight.ttf",
+      "license": "E:\\fonts\\Oswald\\OFL.txt",
+      "license_sha256": "f55dcf1905ca45acef56f9e41183c20e66c12feba0ef137727358fe58f0dddc2",
+      "sha256": "f86a55a87173edf4887e852c70d5324cb77c8e5d03980bc67e7053f497f499e2"
+    },
+    {
+      "family": "Oswald",
+      "file": "E:\\fonts\\Oswald\\static\\Oswald-Light.ttf",
+      "license": "E:\\fonts\\Oswald\\OFL.txt",
+      "license_sha256": "f55dcf1905ca45acef56f9e41183c20e66c12feba0ef137727358fe58f0dddc2",
+      "sha256": "23b4578a6a0c36539ea0a78481ec662fd443e933b9fc768ebd8ce9e12b658b32"
+    },
+    {
+      "family": "Oswald",
+      "file": "E:\\fonts\\Oswald\\static\\Oswald-Medium.ttf",
+      "license": "E:\\fonts\\Oswald\\OFL.txt",
+      "license_sha256": "f55dcf1905ca45acef56f9e41183c20e66c12feba0ef137727358fe58f0dddc2",
+      "sha256": "d59f15623d7920a75bfc1fbe2e0099d17fd98931fae8c268e3d1777b78c7a30f"
+    },
+    {
+      "family": "Oswald",
+      "file": "E:\\fonts\\Oswald\\static\\Oswald-Regular.ttf",
+      "license": "E:\\fonts\\Oswald\\OFL.txt",
+      "license_sha256": "f55dcf1905ca45acef56f9e41183c20e66c12feba0ef137727358fe58f0dddc2",
+      "sha256": "147373bfe10a9b1e0eb649bcf6408566d0cb7334271845f24d4c224cca1c4412"
+    },
+    {
+      "family": "Oswald",
+      "file": "E:\\fonts\\Oswald\\static\\Oswald-SemiBold.ttf",
+      "license": "E:\\fonts\\Oswald\\OFL.txt",
+      "license_sha256": "f55dcf1905ca45acef56f9e41183c20e66c12feba0ef137727358fe58f0dddc2",
+      "sha256": "901c0d593fcb06080fd49d01262391254e472efd4e1d21734557e9ef869922d6"
+    }
+  ],
+  "fonts_root": "E:\\fonts",
+  "protected_impacts": [
+    1.19,
+    1.2,
+    1.24,
+    1.26,
+    4.6,
+    4.69,
+    4.7,
+    4.74,
+    4.740000000000001,
+    4.760000000000001,
+    4.833333333333333,
+    8.189999999999998,
+    8.2,
+    8.239999999999998,
+    8.259999999999998,
+    11.689999999999998,
+    11.7,
+    11.739999999999998,
+    11.759999999999998,
+    15.1,
+    15.189999999999998,
+    15.2,
+    15.239999999999998,
+    15.259999999999998,
+    15.333333333333334,
+    18.689999999999998,
+    18.7,
+    18.700000000000003,
+    18.739999999999995,
+    18.74,
+    18.759999999999998,
+    22.189999999999998,
+    22.2,
+    22.200000000000003,
+    22.239999999999995,
+    22.24,
+    22.259999999999998,
+    25.689999999999998,
+    25.7,
+    25.700000000000003,
+    25.739999999999995,
+    25.74,
+    25.759999999999998,
+    29.190000000000005,
+    29.2,
+    29.200000000000003,
+    29.24,
+    29.240000000000002,
+    29.260000000000005,
+    32.6,
+    32.69,
+    32.7,
+    32.74,
+    32.74000000000001,
+    32.760000000000005,
+    32.833333333333336
+  ],
+  "song": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\synthetic-music.wav",
+  "track_path": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\lyrics-prepared-v0001\\verified-track.json",
+  "track_sha256": "49bedc2ed391cc711dff1e9f529a7fbbddacc2b8f73bb06e33e922ec60a10cbc"
+}

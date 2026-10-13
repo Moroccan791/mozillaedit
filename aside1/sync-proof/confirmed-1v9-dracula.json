@@ -1,0 +1,29 @@
+{
+  "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+  "music": "E:\\audio\\Dracula (Slowed Best Part) - Tame Impala & JENNIE [Edit Audio].mp3",
+  "source_duration": 505.034014,
+  "music_duration": 76.347211,
+  "music_start": 19.923,
+  "duration": 10,
+  "fps": 60,
+  "minimum_context": 0.25,
+  "confirmed": true,
+  "confirmation_source": "assistant frame review of POV kill-feed entries; music accents selected by local spectral-flux peaks",
+  "anchors": [
+    {
+      "source_event": 221.1,
+      "output_event": 2.9254,
+      "output_end": 4.2143
+    },
+    {
+      "source_event": 232.0667,
+      "output_event": 5.5029,
+      "output_end": 7.5346
+    },
+    {
+      "source_event": 265.6833,
+      "output_event": 9.5663,
+      "output_end": 10
+    }
+  ]
+}

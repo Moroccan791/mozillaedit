@@ -1,0 +1,95 @@
+{
+  "status": "10 of 10 deterministic planner checks pass in the Node CLI; synthetic and real render adapter runs are now also recorded",
+  "runtime": "Node CLI and Python/FFmpeg adapter executed; see REAL-PROOF-RESULTS.json for the separate real-media timing check",
+  "media": "These listed planner cases use synthetic inputs; the separate 10-second real proof is recorded in REAL-PROOF-RESULTS.json",
+  "checks": [
+    {
+      "name": "Expected source ranges",
+      "passed": true
+    },
+    {
+      "name": "Music event offset",
+      "passed": true
+    },
+    {
+      "name": "Zero planned anchor error",
+      "passed": true
+    },
+    {
+      "name": "Ten second total",
+      "passed": true
+    },
+    {
+      "name": "Reject source overrun",
+      "passed": true
+    },
+    {
+      "name": "Reject music overrun",
+      "passed": true
+    },
+    {
+      "name": "Reject duplicate source windows",
+      "passed": true
+    },
+    {
+      "name": "Require pre/post context",
+      "passed": true
+    },
+    {
+      "name": "Validate output fps",
+      "passed": true
+    },
+    {
+      "name": "Require exact last boundary",
+      "passed": true
+    }
+  ],
+  "syntheticTiming": {
+    "status": "planned only; rendered audio/visual sync not verified",
+    "duration": 10,
+    "fps": 60,
+    "frame_ms": 16.666667,
+    "rules": [
+      "1x speed",
+      "no crossfades",
+      "no ramps",
+      "no visual effects",
+      "manual event/beat anchors"
+    ],
+    "events": [
+      {
+        "id": 1,
+        "source_event": 10,
+        "output_event": 1,
+        "music_event": 6,
+        "output_start": 0,
+        "output_end": 3,
+        "predicted_event": 1,
+        "planning_error_ms": 0,
+        "confirmation": "manual input; not verified by this tool"
+      },
+      {
+        "id": 2,
+        "source_event": 20,
+        "output_event": 4,
+        "music_event": 9,
+        "output_start": 3,
+        "output_end": 6,
+        "predicted_event": 4,
+        "planning_error_ms": 0,
+        "confirmation": "manual input; not verified by this tool"
+      },
+      {
+        "id": 3,
+        "source_event": 30,
+        "output_event": 7,
+        "music_event": 12,
+        "output_start": 6,
+        "output_end": 10,
+        "predicted_event": 7,
+        "planning_error_ms": 0,
+        "confirmation": "manual input; not verified by this tool"
+      }
+    ]
+  }
+}

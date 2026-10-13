@@ -1,0 +1,108 @@
+{
+  "manifest_version": 3,
+  "name": "Aside Vault",
+  "version": "1.26.1011.1545",
+  "description": "A secure, standalone password manager with autofill, 2FA, and passkey support",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAv5bFp2VSxFQsS+ZjZNIRWsL/wowXacewSIvimS2/MFN0xCQAgWE7nSHSBG6B+OECPYm6R185KVeKDzzUd45NXs+1/b/PL5Uqymr+qXQu/N7+IL6kqNPqeCrb8dYn+cgGQ1SPl8dhi1xqMdylFIshXLDsUBYqyJRCgsU0E1bC1PxwcbbnVABsUy6gmJa7o3mApneXYR+9ge6rDLMAKhhNEgi5KoX4T5DX0UW5gt5+AZW1yCdVUUtQeCa8Z+Z5Lb20YvdNcvVWR9lhlqbv3G3q9fH2ZlbEvNNy5TqzM236HUrgYh9zEuQgWTAsolgIyL2aKHrC8K82kg848VNHztmLJQIDAQAB",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png"
+    },
+    "default_title": "Aside Vault",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "alarms",
+    "clipboardWrite",
+    "contextMenus",
+    "notifications",
+    "offscreen",
+    "scripting",
+    "storage",
+    "tabs",
+    "unlimitedStorage",
+    "webNavigation",
+    "webRequest",
+    "privacy",
+    "at.studio.Aside.ext.private.account",
+    "at.studio.Aside.ext.private.adblock"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "iframe.html",
+        "icons/icon48.png",
+        "assets/*",
+        "fido2-page-script.js",
+        "autofill-page-script.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Y",
+        "mac": "Command+Shift+Y"
+      },
+      "description": "Open Aside Vault"
+    },
+    "autofill_login": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+L",
+        "mac": "Command+Shift+L"
+      },
+      "description": "Autofill login credentials"
+    },
+    "generate_password": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+G",
+        "mac": "Command+Shift+G"
+      },
+      "description": "Generate a new password"
+    },
+    "lock_vault": {
+      "description": "Lock the vault"
+    }
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
+  },
+  "externally_connectable": {
+    "ids": [
+      "fjdhphbdlfjogobdofoaagnlnkoibdge"
+    ]
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*",
+        "file:///*"
+      ],
+      "js": [
+        "content/content.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ]
+}

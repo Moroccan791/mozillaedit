@@ -1,0 +1,5 @@
+# Required for automatic beat, transient, and highlight analysis.
+# Manual-timeline rendering requires only Python stdlib + FFmpeg.
+numpy>=2.1
+scipy>=1.14
+librosa>=0.10.2

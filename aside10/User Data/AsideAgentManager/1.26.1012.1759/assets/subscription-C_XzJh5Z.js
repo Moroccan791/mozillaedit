@@ -1,0 +1,3 @@
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{};e._posthogReleaseId=e._posthogReleaseId||"01a12f58-5a54-0000-eb8b-48c4a59b8d81";var n=(new e.Error).stack;n&&(e._posthogChunkIds=e._posthogChunkIds||{},e._posthogChunkIds[n]="4e2503a3-0e3c-5d9e-b666-72bb7ac02446")}catch(e){}}();var n=["pro","max"],i=["pro","max"],s=["max"];function t(e,a){const r=e?.email?.toLowerCase();return r?.endsWith("@aside.com")||r?.endsWith("@at.studio")?!0:a.includes(e?.subscriptionPlan??"free")}function o(e,{experimentalEligible:a=!1}={}){return a?!0:t(e,s)}export{o as i,i as n,t as r,n as t};
+
+//# chunkId=4e2503a3-0e3c-5d9e-b666-72bb7ac02446

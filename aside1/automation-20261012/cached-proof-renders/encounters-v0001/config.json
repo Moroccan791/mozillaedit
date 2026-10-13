@@ -1,0 +1,20 @@
+{
+  "width": 640,
+  "height": 360,
+  "fps": 60,
+  "sample_rate": 48000,
+  "encoder": "h264_qsv",
+  "fallback_encoder": null,
+  "quality": 21,
+  "preset": "veryfast",
+  "music_gain_db": -7,
+  "game_gain_db": -8,
+  "max_duration": 120.0,
+  "max_clip_duration": 30.0,
+  "max_clips": 64,
+  "max_source_duration": 86400.0,
+  "timeout": 600.0,
+  "ffmpeg": "ffmpeg",
+  "ffprobe": "ffprobe",
+  "style": "authored-footage"
+}

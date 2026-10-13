@@ -1,0 +1,89 @@
+{
+  "duration_seconds": 30,
+  "render_wall_seconds": 76.56199999999808,
+  "output": "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002\\renders\\encounters-v0001\\encounters.mp4",
+  "manifest": "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002\\renders\\encounters-v0001\\render-manifest.json",
+  "frame_count": 1800,
+  "cfr_all_frame_intervals_exact": true,
+  "video_duration_exact_seconds": "30",
+  "container_duration_seconds": "30.000000",
+  "audio_duration_seconds": "30.000000",
+  "expected_sample_count": 1440000,
+  "retained_stems": [
+    {
+      "path": "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002\\renders\\encounters-v0001\\game-stem.wav",
+      "expected_samples": 1440000,
+      "actual_samples": 1440000,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sample_width_bytes": 2
+    },
+    {
+      "path": "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002\\renders\\encounters-v0001\\music-stem.wav",
+      "expected_samples": 1440000,
+      "actual_samples": 1440000,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sample_width_bytes": 2
+    },
+    {
+      "path": "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002\\renders\\encounters-v0001\\game-000.wav",
+      "expected_samples": 240000,
+      "actual_samples": 240000,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sample_width_bytes": 2
+    },
+    {
+      "path": "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002\\renders\\encounters-v0001\\game-001.wav",
+      "expected_samples": 240000,
+      "actual_samples": 240000,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sample_width_bytes": 2
+    },
+    {
+      "path": "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002\\renders\\encounters-v0001\\game-002.wav",
+      "expected_samples": 240000,
+      "actual_samples": 240000,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sample_width_bytes": 2
+    },
+    {
+      "path": "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002\\renders\\encounters-v0001\\game-003.wav",
+      "expected_samples": 240000,
+      "actual_samples": 240000,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sample_width_bytes": 2
+    },
+    {
+      "path": "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002\\renders\\encounters-v0001\\game-004.wav",
+      "expected_samples": 240000,
+      "actual_samples": 240000,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sample_width_bytes": 2
+    },
+    {
+      "path": "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002\\renders\\encounters-v0001\\game-005.wav",
+      "expected_samples": 240000,
+      "actual_samples": 240000,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sample_width_bytes": 2
+    }
+  ],
+  "full_decode": {
+    "returncode": 0,
+    "elapsed_seconds": 8.719000000004598
+  },
+  "source_count": 3,
+  "clip_count": 6,
+  "music_excerpt": [
+    10,
+    40
+  ],
+  "status": "pass"
+}

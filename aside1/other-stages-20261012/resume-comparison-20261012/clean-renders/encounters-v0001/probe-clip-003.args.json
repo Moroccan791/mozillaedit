@@ -1,0 +1,10 @@
+[
+  "ffprobe",
+  "-v",
+  "error",
+  "-show_streams",
+  "-show_format",
+  "-of",
+  "json",
+  "E:\\aside\\other-stages-20261012\\resume-comparison-20261012\\clean-renders\\encounters-v0001\\clip-003-h264_qsv.mp4"
+]

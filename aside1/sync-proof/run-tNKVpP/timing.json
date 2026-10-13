@@ -1,0 +1,253 @@
+{
+  "status": "planned only; rendered audio/visual sync not verified",
+  "duration": 10,
+  "fps": 60,
+  "frame_ms": 16.666667,
+  "rules": [
+    "1x speed",
+    "no crossfades",
+    "no ramps",
+    "no visual effects",
+    "audio transient anchored to onset",
+    "continuous half-beat cut-marker grid"
+  ],
+  "cut_markers": [
+    {
+      "music_t": 19.923,
+      "output_t": 0,
+      "kind": "excerpt_start"
+    },
+    {
+      "music_t": 19.9924,
+      "output_t": 0.0694,
+      "kind": "half_beat"
+    },
+    {
+      "music_t": 20.2884,
+      "output_t": 0.3654,
+      "kind": "half_beat"
+    },
+    {
+      "music_t": 20.5845,
+      "output_t": 0.6615,
+      "kind": "half_beat"
+    },
+    {
+      "music_t": 20.8661,
+      "output_t": 0.9431,
+      "kind": "half_beat"
+    },
+    {
+      "music_t": 21.1476,
+      "output_t": 1.2246,
+      "kind": "half_beat"
+    },
+    {
+      "music_t": 21.4408,
+      "output_t": 1.5178,
+      "kind": "half_beat"
+    },
+    {
+      "music_t": 21.7339,
+      "output_t": 1.8109,
+      "kind": "half_beat"
+    },
+    {
+      "music_t": 22.0241,
+      "output_t": 2.1011,
+      "kind": "half_beat"
+    },
+    {
+      "music_t": 22.3144,
+      "output_t": 2.3914,
+      "kind": "half_beat"
+    },
+    {
+      "music_t": 22.5988,
+      "output_t": 2.6758,
+      "kind": "half_beat"
+    },
+    {
+      "music_t": 22.8833,
+      "output_t": 2.9603,
+      "kind": "half_beat"
+    },
+    {
+      "music_t": 23.0981,
+      "output_t": 3.1751,
+      "kind": "half_beat"
+    },
+    {
+      "music_t": 23.3128,
+      "output_t": 3.3898,
+      "kind": "half_beat"
+    },
+    {
+      "music_t": 23.5857,
+      "output_t": 3.6627,
+      "kind": "half_beat"
+    },
+    {
+      "music_t": 23.8585,
+      "output_t": 3.9355,
+      "kind": "half_beat"
+    },
+    {
+      "music_t": 24.1023,
+      "output_t": 4.1793,
+      "kind": "half_beat"
+    },
+    {
+      "music_t": 24.3461,
+      "output_t": 4.4231,
+      "kind": "half_beat"
+    },
+    {
+      "music_t": 24.6247,
+      "output_t": 4.7017,
+      "kind": "half_beat"
+    },
+    {
+      "music_t": 24.9034,
+      "output_t": 4.9804,
+      "kind": "half_beat"
+    },
+    {
+      "music_t": 25.1821,
+      "output_t": 5.2591,
+      "kind": "half_beat"
+    },
+    {
+      "music_t": 25.4607,
+      "output_t": 5.5377,
+      "kind": "half_beat"
+    },
+    {
+      "music_t": 25.7597,
+      "output_t": 5.8367,
+      "kind": "half_beat"
+    },
+    {
+      "music_t": 26.0586,
+      "output_t": 6.1356,
+      "kind": "half_beat"
+    },
+    {
+      "music_t": 26.3488,
+      "output_t": 6.4258,
+      "kind": "half_beat"
+    },
+    {
+      "music_t": 26.6391,
+      "output_t": 6.7161,
+      "kind": "half_beat"
+    },
+    {
+      "music_t": 26.9293,
+      "output_t": 7.0063,
+      "kind": "half_beat"
+    },
+    {
+      "music_t": 27.2196,
+      "output_t": 7.2966,
+      "kind": "half_beat"
+    },
+    {
+      "music_t": 27.5128,
+      "output_t": 7.5898,
+      "kind": "half_beat"
+    },
+    {
+      "music_t": 27.8059,
+      "output_t": 7.8829,
+      "kind": "half_beat"
+    },
+    {
+      "music_t": 28.0962,
+      "output_t": 8.1732,
+      "kind": "half_beat"
+    },
+    {
+      "music_t": 28.3864,
+      "output_t": 8.4634,
+      "kind": "half_beat"
+    },
+    {
+      "music_t": 28.6737,
+      "output_t": 8.7507,
+      "kind": "half_beat"
+    },
+    {
+      "music_t": 28.9611,
+      "output_t": 9.0381,
+      "kind": "half_beat"
+    },
+    {
+      "music_t": 29.2368,
+      "output_t": 9.3138,
+      "kind": "half_beat"
+    },
+    {
+      "music_t": 29.5126,
+      "output_t": 9.5896,
+      "kind": "half_beat"
+    },
+    {
+      "music_t": 29.739,
+      "output_t": 9.816,
+      "kind": "half_beat"
+    },
+    {
+      "music_t": 29.923,
+      "output_t": 10,
+      "kind": "excerpt_end"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "source_event": 221.612,
+      "source_audio_event": 221.612,
+      "source_visual_event": 221.6667,
+      "output_event": 2.9429,
+      "predicted_audio_event": 2.9429,
+      "predicted_visual_event": 2.9976,
+      "music_event": 22.8659,
+      "output_start": 0,
+      "output_end": 4.183333,
+      "planning_error_ms": 0,
+      "visual_audio_offset_ms": 54.7,
+      "confirmation": "POV firing/ammo and skull-emblem frame review plus high-frequency waveform attack; full-track librosa local-threshold onsets near tracked beats"
+    },
+    {
+      "id": 2,
+      "source_event": 234.469,
+      "source_audio_event": 234.469,
+      "source_visual_event": 234.5,
+      "output_event": 5.5261,
+      "predicted_audio_event": 5.5261,
+      "predicted_visual_event": 5.5571,
+      "music_event": 25.4491,
+      "output_start": 4.183333,
+      "output_end": 7.583333,
+      "planning_error_ms": 0,
+      "visual_audio_offset_ms": 31,
+      "confirmation": "POV firing/ammo and skull-emblem frame review plus high-frequency waveform attack; full-track librosa local-threshold onsets near tracked beats"
+    },
+    {
+      "id": 3,
+      "source_event": 265.7033,
+      "source_audio_event": 265.7033,
+      "source_visual_event": 265.7333,
+      "output_event": 9.5721,
+      "predicted_audio_event": 9.5721,
+      "predicted_visual_event": 9.6021,
+      "music_event": 29.4951,
+      "output_start": 7.583333,
+      "output_end": 10,
+      "planning_error_ms": 0,
+      "visual_audio_offset_ms": 30,
+      "confirmation": "POV firing/ammo and skull-emblem frame review plus high-frequency waveform attack; full-track librosa local-threshold onsets near tracked beats"
+    }
+  ]
+}

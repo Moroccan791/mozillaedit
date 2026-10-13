@@ -1,0 +1,1 @@
+[0:v:0]ass=filename='E\:/aside/generic-system-20261012/lyric-proofs/arbitrary-b/renders/encounters-v0001/text-v0001/lyrics.ass':fontsdir='E\:/aside/generic-system-20261012/lyric-proofs/arbitrary-b/renders/encounters-v0001/text-v0001/fonts'[text]

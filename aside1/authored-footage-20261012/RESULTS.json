@@ -1,0 +1,99 @@
+{
+  "diagnostic_only": true,
+  "clean": "E:\\aside\\authored-footage-20261012\\clean-renders\\encounters-v0001\\encounters.mp4",
+  "authored": "E:\\aside\\authored-footage-20261012\\authored-renders\\encounters-v0001\\encounters.mp4",
+  "frame_count": 480,
+  "sample_count": 384000,
+  "stems": {
+    "game_stem": {
+      "clean_sha256": "0fef71701131edb5ce305ed7f4bc9bafda28a53f4e903e88ab226e23c6bb6a23",
+      "authored_sha256": "0fef71701131edb5ce305ed7f4bc9bafda28a53f4e903e88ab226e23c6bb6a23",
+      "identical": true
+    },
+    "music_stem": {
+      "clean_sha256": "6f7840322f490991c933b5ef4e593f320fda5c1846effcc0ced63bc95064e5bb",
+      "authored_sha256": "6f7840322f490991c933b5ef4e593f320fda5c1846effcc0ced63bc95064e5bb",
+      "identical": true
+    }
+  },
+  "qa_status": "warn",
+  "issues": [
+    {
+      "component": "musical_sync",
+      "status": "warn",
+      "detail": "Not verified: independent firing-attack labels and strong musical-hit validation are required; zero source/stem offset is render fidelity only."
+    },
+    {
+      "component": "event_anchors",
+      "status": "warn",
+      "detail": "no event anchors; no synchronization claim"
+    }
+  ],
+  "frames": [
+    {
+      "frame": 54,
+      "seconds": 0.9,
+      "mean_absolute_clean_difference": 11.180868055555555,
+      "authored_mean_rgb": 83.18232060185186
+    },
+    {
+      "frame": 227,
+      "seconds": 3.783333333333333,
+      "mean_absolute_clean_difference": 1.3828993055555556,
+      "authored_mean_rgb": 113.05983217592592
+    },
+    {
+      "frame": 239,
+      "seconds": 3.9833333333333334,
+      "mean_absolute_clean_difference": 21.413813657407406,
+      "authored_mean_rgb": 113.34853587962964
+    },
+    {
+      "frame": 240,
+      "seconds": 4.0,
+      "mean_absolute_clean_difference": 24.457042824074072,
+      "authored_mean_rgb": 66.17480324074074
+    },
+    {
+      "frame": 245,
+      "seconds": 4.083333333333333,
+      "mean_absolute_clean_difference": 25.222951388888887,
+      "authored_mean_rgb": 63.82219907407407
+    },
+    {
+      "frame": 294,
+      "seconds": 4.9,
+      "mean_absolute_clean_difference": 32.51679976851852,
+      "authored_mean_rgb": 54.19355902777778
+    },
+    {
+      "frame": 444,
+      "seconds": 7.4,
+      "mean_absolute_clean_difference": 0.0,
+      "authored_mean_rgb": 126.9338425925926
+    },
+    {
+      "frame": 462,
+      "seconds": 7.7,
+      "mean_absolute_clean_difference": 63.103657407407404,
+      "authored_mean_rgb": 57.58248263888889
+    },
+    {
+      "frame": 478,
+      "seconds": 7.966666666666667,
+      "mean_absolute_clean_difference": 141.4374363425926,
+      "authored_mean_rgb": 3.053935185185185
+    },
+    {
+      "frame": 479,
+      "seconds": 7.983333333333333,
+      "mean_absolute_clean_difference": 144.46402199074075,
+      "authored_mean_rgb": 0.0
+    }
+  ],
+  "limitations": [
+    "Source snippets not reviewed as complete/resolved fights.",
+    "Song excerpt not approved; no shot/accent assignment or musical-sync claim.",
+    "Shot roles describe render treatment only, not independently established semantic scene roles."
+  ]
+}

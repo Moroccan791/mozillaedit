@@ -1,0 +1,35 @@
+2026/10/12-22:01:39.179 1868 Creating DB C:\Users\Junayed\AppData\Local\Aside\User Data\Default\Local Storage\leveldb since it was missing.
+2026/10/12-22:01:39.291 1868 Reusing MANIFEST C:\Users\Junayed\AppData\Local\Aside\User Data\Default\Local Storage\leveldb/MANIFEST-000001
+2026/10/12-22:13:20.491 94c Level-0 table #5: started
+2026/10/12-22:13:20.504 94c Level-0 table #5: 33872 bytes OK
+2026/10/12-22:13:20.508 94c Delete type=0 #3
+2026/10/12-23:24:34.486 94c Level-0 table #7: started
+2026/10/12-23:24:34.495 94c Level-0 table #7: 31737 bytes OK
+2026/10/12-23:24:34.498 94c Delete type=0 #4
+2026/10/12-23:31:13.494 94c Level-0 table #9: started
+2026/10/12-23:31:13.500 94c Level-0 table #9: 28041 bytes OK
+2026/10/12-23:31:13.503 94c Delete type=0 #6
+2026/10/12-23:33:30.492 94c Level-0 table #11: started
+2026/10/12-23:33:30.506 94c Level-0 table #11: 28285 bytes OK
+2026/10/12-23:33:30.508 94c Delete type=0 #8
+2026/10/12-23:36:52.531 94c Level-0 table #13: started
+2026/10/12-23:36:52.537 94c Level-0 table #13: 24312 bytes OK
+2026/10/12-23:36:52.539 94c Delete type=0 #10
+2026/10/12-23:39:24.491 94c Level-0 table #15: started
+2026/10/12-23:39:24.498 94c Level-0 table #15: 28937 bytes OK
+2026/10/12-23:39:24.500 94c Delete type=0 #12
+2026/10/12-23:39:24.505 94c Compacting 4@0 + 1@1 files
+2026/10/12-23:39:24.527 94c Generated table #16@0: 2 keys, 2763 bytes
+2026/10/12-23:39:24.527 94c Compacted 4@0 + 1@1 files => 2763 bytes
+2026/10/12-23:39:24.527 94c compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/10/12-23:39:24.528 94c Delete type=2 #7
+2026/10/12-23:39:24.528 94c Delete type=2 #9
+2026/10/12-23:39:24.528 94c Delete type=2 #11
+2026/10/12-23:39:24.528 94c Delete type=2 #13
+2026/10/12-23:39:24.528 94c Delete type=2 #15
+2026/10/12-23:41:27.484 94c Level-0 table #18: started
+2026/10/12-23:41:27.492 94c Level-0 table #18: 29303 bytes OK
+2026/10/12-23:41:27.494 94c Delete type=0 #14
+2026/10/12-23:46:40.309 94c Level-0 table #20: started
+2026/10/12-23:46:40.318 94c Level-0 table #20: 29189 bytes OK
+2026/10/12-23:46:40.320 94c Delete type=0 #17

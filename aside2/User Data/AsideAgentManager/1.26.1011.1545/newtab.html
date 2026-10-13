@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="icon"
+      media="(prefers-color-scheme: light)"
+      href="/icons/favicon-light.png"
+    />
+    <link
+      rel="icon"
+      media="(prefers-color-scheme: dark)"
+      href="/icons/favicon-dark.png"
+    />
+    <title>New Tab</title>
+    <!--
+      ── First-frame omnibox ────────────────────────────────────────────────
+      Users type the instant a tab opens, so the omnibox must paint from this
+      document alone: the markup below is static, the styles are the subset of
+      globals.css it needs (tokens mirror packages/ui/src/styles/globals.css),
+      and `newtab-editor.ts` owns a permanent vanilla Tiptap editor in
+      #new-tab-editor. React mounts only in separate slots around it and
+      never replaces the editor, its document, or its selection.
+    -->
+    <style>:root{--background:#fff;--foreground:oklch(14.5% 0 0);--primary:oklch(14.5% 0 0/.95);--muted:oklch(14.5% 0 0/.05);--muted-foreground:oklch(14.5% 0 0/.55);--border-surface:oklch(14.5% 0 0/.1);--surface-primary:oklch(100% 0 0);--tabs-list:oklch(70.8% 0 0/.2);--shadow-tint:#0000000d;--web-content-background:#fffc;--font-sans:"Geist Variable", "Geist", sans-serif;--font-system:system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";--lightningcss-light:initial;--lightningcss-dark: ;color-scheme:light}.dark{--background:oklch(20.5% 0 0);--foreground:oklch(98.5% 0 0);--primary:oklch(98.5% 0 0/.85);--muted:oklch(98.5% 0 0/.15);--muted-foreground:oklch(98.5% 0 0/.55);--border-surface:oklch(98.5% 0 0/.15);--surface-primary:oklch(98.5% 0 0/.08);--tabs-list:oklch(20.5% 0 0/.4);--shadow-tint:#0000001a;--web-content-background:oklch(20.5% 0 0/.8);--lightningcss-light: ;--lightningcss-dark:initial;color-scheme:dark}html,body{overscroll-behavior:none;margin:0;overflow:hidden}body{background:var(--web-content-background);color:var(--foreground);font-family:var(--font-sans);-webkit-font-smoothing:antialiased;line-height:1.5}#new-tab-page{width:100%;height:100vh;display:flex;overflow:hidden}#new-tab-sidebar{z-index:20;flex-shrink:0;height:100%;position:relative}html[data-new-tab-sidebar] #new-tab-sidebar:empty{width:280px}#new-tab-content{flex-direction:column;flex-grow:1;justify-content:space-between;min-width:0;height:100%;display:flex;position:relative;overflow-y:auto}#new-tab-main{box-sizing:border-box;flex-direction:column;gap:3rem;width:100%;max-width:72rem;margin:0 auto;padding:10rem 2rem 5rem;display:flex}#new-tab-tasks:empty{display:none}#new-tab-brand{width:4rem;height:4rem;margin:0 auto 3rem;display:block}#new-tab-brand img,#new-tab-brand svg{width:100%;height:100%;display:block}#new-tab-brand .dark-only,#new-tab-brand .incognito-only,.dark #new-tab-brand .light-only,html[data-new-tab-incognito] #new-tab-brand img{display:none}html.dark:not([data-new-tab-incognito]) #new-tab-brand .dark-only{display:block}html[data-new-tab-incognito] #new-tab-brand .incognito-only{color:var(--muted);display:block}#new-tab-omnibox{box-sizing:border-box;width:100%;max-width:50rem;margin:0 auto;padding:0 1rem}#new-tab-omnibox-card{margin:0 1rem}#new-tab-search-results{margin:0 1rem;position:relative}#new-tab-react-omnibox{min-height:3rem}#new-tab-editor-overlay{pointer-events:none;position:absolute;inset:0}#new-tab-editor-overlay button{pointer-events:auto}html[data-new-tab-mode=ask] #new-tab-editor .tiptap{height:auto;max-height:7.5rem;overflow-y:auto}#new-tab-omnibox-card,#new-tab-omnibox-card *{box-sizing:border-box}#new-tab-omnibox-card{corner-shape:superellipse(1);background:var(--surface-primary);box-shadow:0 0 0 .5px var(--border-surface), 0 4px 6px -1px var(--shadow-tint), 0 2px 4px -2px var(--shadow-tint);border-radius:1.4rem;gap:.625rem;padding:.625rem;display:flex}#new-tab-omnibox-card[data-initializing],#new-tab-omnibox-card:focus-within{box-shadow:0 0 0 1px var(--border-surface), 0 20px 25px -5px var(--shadow-tint), 0 8px 10px -6px var(--shadow-tint)}@media (prefers-reduced-motion:no-preference){#new-tab-omnibox-card:not([data-initializing]){transition:box-shadow .15s cubic-bezier(.4,0,.2,1)}}#new-tab-search-scope{flex-shrink:0;align-items:center;display:flex}#new-tab-search-scope:empty{display:none}#new-tab-search-scope button{margin-right:0}#new-tab-editor-column{flex-grow:1;min-width:0;display:flex;position:relative}#new-tab-editor{flex-grow:1;align-items:center;min-width:0;min-height:2rem;display:flex;position:relative}#new-tab-editor[contenteditable],#new-tab-editor .tiptap{box-sizing:border-box;white-space:pre-wrap;word-break:break-word;outline:none;flex-grow:1;min-width:0;height:2rem;padding:.25rem .5rem;font-size:1rem;font-weight:500;line-height:1.5rem;display:block;overflow:hidden}html[data-new-tab-mode=search] #new-tab-editor[contenteditable],html[data-new-tab-mode=search] #new-tab-editor .tiptap{white-space:pre;word-break:normal}@media (width>=40rem){#new-tab-editor[contenteditable],#new-tab-editor .tiptap{padding-right:8rem}}#new-tab-editor .tiptap p{margin:0}#new-tab-editor .tiptap [data-type=mention]{font-size:inherit;line-height:inherit}#new-tab-editor[contenteditable]:empty:before,#new-tab-editor .tiptap p.is-editor-empty:first-child:before{content:attr(data-placeholder);float:left;height:0;color:var(--muted-foreground);pointer-events:none;user-select:none}html[data-new-tab-mode=ask] #new-tab-editor[contenteditable]:empty:before{content:attr(data-ask-placeholder)}#new-tab-tab-hint{pointer-events:none;user-select:none;align-items:center;gap:.25rem;transition:opacity .15s;display:flex;position:absolute;top:.375rem;right:0}#new-tab-editor:not([contenteditable]):not(:has(.is-editor-empty))~#new-tab-tab-hint,#new-tab-editor[contenteditable]:not(:empty)~#new-tab-tab-hint{opacity:0}#new-tab-tab-hint kbd{background:var(--muted);min-width:1.25rem;height:1.125rem;color:var(--primary);font-family:var(--font-system);text-box-trim:trim-both;border-radius:.375rem;justify-content:center;align-items:center;padding:0 .375rem;font-size:11px;font-weight:500;line-height:1.5;display:inline-flex}#new-tab-tab-hint span{color:var(--muted-foreground);text-box-trim:trim-both;font-size:.75rem;font-weight:500;line-height:1rem}@media (width<40rem){#new-tab-tab-hint{display:none}}#new-tab-react-mode-tabs:empty,#new-tab-mode-tabs[data-react-ready]{display:none}#new-tab-react-mode-tabs{flex-shrink:0}#new-tab-mode-tabs{corner-shape:superellipse(1.4);background:var(--tabs-list);box-sizing:border-box;border-radius:.7rem;flex-shrink:0;align-items:center;height:2rem;padding:3px;display:inline-flex;position:relative}#new-tab-mode-tabs button{z-index:10;corner-shape:superellipse(1.4);width:4rem;height:calc(100% - 1px);color:var(--muted-foreground);font:inherit;cursor:pointer;background:0 0;border:1px solid #0000;border-radius:.525rem;justify-content:center;align-items:center;padding:2px 6px;font-size:.875rem;font-weight:500;line-height:1.25rem;display:inline-flex;position:relative}#new-tab-mode-tabs button[data-active],html:not([data-new-tab-mode=ask]) #new-tab-mode-tabs:not(:has([data-active])) button[data-mode=search],html[data-new-tab-mode=ask] #new-tab-mode-tabs:not(:has([data-active])) button[data-mode=ask]{background:var(--surface-primary);color:var(--foreground);box-shadow:0 0 0 .5px var(--border-surface), 0 4px 6px -1px #0000001a, 0 2px 4px -2px #0000001a}@media (width<40rem){#new-tab-main{padding:4rem 1rem 5rem}#new-tab-brand{margin-bottom:2rem}}</style>
+    <!-- Resolve the stored theme before first paint (external: the extension CSP forbids inline scripts). -->
+    <script src="/newtab-theme.js"></script>
+    <script type="module" src="/assets/newtab-editor-DFeW7EpL.js"></script><script type="module" crossorigin src="/assets/newtab-CQG-8dAF.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/browser-color-scheme-Df5VSuPV.js">
+    <link rel="modulepreload" crossorigin href="/assets/modulepreload-polyfill-CWIbYaaI.js">
+    <link rel="modulepreload" crossorigin href="/assets/client-CkJ8L9YQ.js">
+    <link rel="modulepreload" crossorigin href="/assets/floating-ui.utils.dom-CfvwGagV.js">
+    <link rel="modulepreload" crossorigin href="/assets/useIsoLayoutEffect-CopknWmW.js">
+    <link rel="modulepreload" crossorigin href="/assets/preload-helper-WHe_eoSx.js">
+    <link rel="modulepreload" crossorigin href="/assets/DirectionContext-Czk8306g.js">
+    <link rel="modulepreload" crossorigin href="/assets/inertValue-B1lRYxuU.js">
+    <link rel="modulepreload" crossorigin href="/assets/floating-ui.utils-DSZk2iP4.js">
+    <link rel="modulepreload" crossorigin href="/assets/getCssDimensions-C9iEG1DQ.js">
+    <link rel="modulepreload" crossorigin href="/assets/useControlled-Bm9vgdZw.js">
+    <link rel="modulepreload" crossorigin href="/assets/useCompositeListItem-VN7JNumf.js">
+    <link rel="modulepreload" crossorigin href="/assets/useCompositeItem-oZrCcg_q.js">
+    <link rel="modulepreload" crossorigin href="/assets/CSPContext-CZOOio7o.js">
+    <link rel="modulepreload" crossorigin href="/assets/composite-BXw6r35X.js">
+    <link rel="modulepreload" crossorigin href="/assets/isElementDisabled-Cnv8iSwj.js">
+    <link rel="modulepreload" crossorigin href="/assets/CompositeRoot-lZX_c2Hq.js">
+    <link rel="modulepreload" crossorigin href="/assets/react-Da396Co4.js">
+    <link rel="modulepreload" crossorigin href="/assets/tabs-CBWQqmJJ.js">
+    <link rel="modulepreload" crossorigin href="/assets/extension-page-url-BH3pfT7h.js">
+    <link rel="modulepreload" crossorigin href="/assets/search-navigation-TWhZq3-H.js">
+    <link rel="modulepreload" crossorigin href="/assets/portal-BbmX7bEy.js">
+    <link rel="modulepreload" crossorigin href="/assets/favicon-Dpszfa2o.js">
+    <link rel="stylesheet" crossorigin href="/assets/globals-H9ijNde1.css" media="print" data-deferred>
+  </head>
+  <body data-theme="translucent">
+    <main id="new-tab-page">
+      <div id="new-tab-sidebar"></div>
+      <div id="new-tab-content">
+        <div id="new-tab-main">
+          <header id="new-tab-header">
+            <div id="new-tab-brand">
+              <img
+                class="light-only"
+                src="/icons/brand-embossed-light.svg"
+                alt=""
+              />
+              <img
+                class="dark-only"
+                src="/icons/brand-embossed-dark.svg"
+                alt=""
+              />
+              <!-- Static @at-inc/central-icons AnonymousIcon: keep the same node before and after React loads. -->
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                aria-hidden="true"
+                focusable="false"
+                class="incognito-only"
+              >
+                <path
+                  d="M19 17C19 15.8954 18.1046 15 17 15C15.9472 15 15.0836 15.8144 15.0059 16.8467C15.0021 16.8971 15 16.9483 15 17C15 18.1046 15.8954 19 17 19C18.1046 19 19 18.1046 19 17ZM15.3984 3C17.389 3.00017 19.0768 4.46415 19.3584 6.43457L19.8672 10H21C21.5523 10 22 10.4477 22 11C22 11.5523 21.5523 12 21 12H3C2.44772 12 2 11.5523 2 11C2 10.4477 2.44772 10 3 10H4.13281L4.64258 6.43457C4.92407 4.46407 6.61111 3.00016 8.60156 3H15.3984ZM8.60156 5C7.60653 5.00016 6.76296 5.73179 6.62207 6.7168L6.15332 10H17.8467L17.3779 6.7168C17.237 5.73176 16.3935 5.00017 15.3984 5H8.60156ZM5 17C5 18.1046 5.89542 19 7 19C8.10458 19 9 18.1046 9 17C9 16.9483 8.99794 16.8972 8.99414 16.8467C8.91644 15.8143 8.0529 15 7 15C5.89542 15 5 15.8954 5 17ZM21 17C21 19.2092 19.2092 21 17 21C14.8827 21 13.1503 19.3551 13.0098 17.2734C12.3878 16.9092 11.611 16.9096 10.9893 17.2744C10.8482 19.3556 9.11686 21 7 21C4.79088 21 3 19.2092 3 17C3 14.7908 4.79088 13 7 13C8.58264 13 9.94897 13.9194 10.5977 15.2529C11.4995 14.9159 12.4984 14.9156 13.4004 15.252C14.0491 13.9184 15.4174 13 17 13C19.2092 13 21 14.7908 21 17Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+            <div id="new-tab-omnibox">
+              <div
+                id="new-tab-omnibox-card"
+                data-initializing
+              >
+                <div id="new-tab-search-scope"></div>
+                <div id="new-tab-editor-column">
+                  <div
+                    id="new-tab-editor"
+                    contenteditable="plaintext-only"
+                    spellcheck="false"
+                    autofocus
+                    data-placeholder="Search or type a URL"
+                    data-ask-placeholder="Ask Aside a task, @ for context"
+                  ></div>
+                  <div id="new-tab-editor-overlay"></div>
+                  <div id="new-tab-tab-hint">
+                    <kbd>Tab</kbd>
+                    <span>to switch</span>
+                  </div>
+                </div>
+                <div id="new-tab-react-mode-tabs"></div>
+                <div
+                  id="new-tab-mode-tabs"
+                  role="tablist"
+                >
+                  <button
+                    type="button"
+                    role="tab"
+                    data-mode="search"
+                  >
+                    Search
+                  </button>
+                  <button
+                    type="button"
+                    role="tab"
+                    data-mode="ask"
+                  >
+                    Ask
+                  </button>
+                </div>
+              </div>
+              <div id="new-tab-search-results"></div>
+              <div id="new-tab-react-omnibox"></div>
+            </div>
+          </header>
+          <div id="new-tab-tasks"></div>
+        </div>
+      </div>
+    </main>
+    <div id="root"></div>
+    <!-- Build plugin preserves independent entries instead of Vite's merged HTML script. -->
+  </body>
+</html>

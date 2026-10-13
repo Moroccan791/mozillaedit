@@ -1,0 +1,30 @@
+{
+  "schema": "lyric-track/v1",
+  "audio_sha256": "95c7cb40336aa5a49fcc0405f803807116be8c1694c6b74f0f8447062d0d4120",
+  "provenance": {
+    "alignment_verified": true,
+    "method": "Synthetic diagnostic timing assertion. These words are NOT sung and NOT actual song lyrics."
+  },
+  "words": [
+    {
+      "text": "SHAPE",
+      "start": 1.2,
+      "end": 2.6
+    },
+    {
+      "text": "LIGHT",
+      "start": 2.9,
+      "end": 4.4
+    },
+    {
+      "text": "quiet",
+      "start": 4.7,
+      "end": 5.3
+    },
+    {
+      "text": "form",
+      "start": 5.4,
+      "end": 6.4
+    }
+  ]
+}

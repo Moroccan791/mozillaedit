@@ -1,0 +1,69 @@
+{
+  "schema_version": "visual-exclusions/v1",
+  "exclusions": [
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "start": 195.422,
+      "end": 196.775,
+      "reason": "Post-round WON weapon/knife handling, not selected impact",
+      "evidence": "Decoded source-derived automatic-candidate-sheet.jpg row 0 at annotated output anchor and +/-0.15s; sampled rejection only, not exhaustive source labeling",
+      "reviewer": "Aside assistant visual frame review"
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "start": 18.038041666666675,
+      "end": 19.4,
+      "reason": "Creator subscriber graphic covering gameplay",
+      "evidence": "Decoded source-derived automatic-candidate-sheet.jpg row 1 at annotated output anchor and +/-0.15s; sampled rejection only, not exhaustive source labeling",
+      "reviewer": "Aside assistant visual frame review"
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "start": 332.42995833333333,
+      "end": 333.82,
+      "reason": "Ordinary rifle handling without independently confirmed firing",
+      "evidence": "Decoded source-derived automatic-candidate-sheet.jpg row 2 at annotated output anchor and +/-0.15s; sampled rejection only, not exhaustive source labeling",
+      "reviewer": "Aside assistant visual frame review"
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "start": 499.118,
+      "end": 500.385,
+      "reason": "Black source segment",
+      "evidence": "Decoded source-derived automatic-candidate-sheet.jpg row 3 at annotated output anchor and +/-0.15s; sampled rejection only, not exhaustive source labeling",
+      "reviewer": "Aside assistant visual frame review"
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "start": 124.08999999999999,
+      "end": 125.465,
+      "reason": "Ability/weapon animation without independently confirmed POV firing",
+      "evidence": "Decoded source-derived automatic-candidate-sheet.jpg row 4 at annotated output anchor and +/-0.15s; sampled rejection only, not exhaustive source labeling",
+      "reviewer": "Aside assistant visual frame review"
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "start": 411.673,
+      "end": 412.965,
+      "reason": "Post-round WON knife handling",
+      "evidence": "Decoded source-derived automatic-candidate-sheet.jpg row 5 at annotated output anchor and +/-0.15s; sampled rejection only, not exhaustive source labeling",
+      "reviewer": "Aside assistant visual frame review"
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "start": 1.515,
+      "end": 2.41,
+      "reason": "Inspected knife/ability handling; no visible new gunshot or POV kill at selected candidates",
+      "evidence": "E:/aside/continuation-20261012-account5/source-attack-00.jpg and source-attack-01.jpg; 30fps neighborhoods",
+      "reviewer": "Aside account5 decoded-frame inspection 2026-10-12"
+    },
+    {
+      "source": "E:\\aside\\automation-20261012\\proof-input\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "start": 267.5,
+      "end": 268.2,
+      "reason": "Inspected CLUTCH post-round knife handling and scoreboard/round transition, not a new POV-kill anchor",
+      "evidence": "E:/aside/continuation-20261012-account5/source-attack-03.jpg; 30fps neighborhood",
+      "reviewer": "Aside account5 decoded-frame inspection 2026-10-12"
+    }
+  ]
+}

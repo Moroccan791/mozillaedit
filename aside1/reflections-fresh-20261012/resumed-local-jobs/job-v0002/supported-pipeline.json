@@ -1,0 +1,10 @@
+{
+  "pipeline": "existing-authored-system/v2",
+  "renderer_style": "authored-footage",
+  "runner": "aive.local_preview_runner",
+  "visual_ai_used": false,
+  "manual_source_windows": false,
+  "fallback_allowed": false,
+  "finished_montage": false,
+  "manifest": "E:\\aside\\reflections-fresh-20261012\\resumed-local-jobs\\job-v0002\\renders\\encounters-v0001\\render-manifest.json"
+}

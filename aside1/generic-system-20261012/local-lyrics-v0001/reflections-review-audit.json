@@ -1,0 +1,25 @@
+{
+  "schema": "music-lyric-review-audit/v1",
+  "status": "PENDING",
+  "alignment_verified": false,
+  "claims_authenticated": false,
+  "issues": [],
+  "pending": [
+    "explicit decoded-prefix coverage missing",
+    "reviewer missing",
+    "method missing",
+    "original candidate dispositions remain pending"
+  ],
+  "counts": {
+    "pending": 32,
+    "corrected": 0,
+    "rejected": 0,
+    "additions": 0
+  },
+  "limitations": [
+    "Candidate transcription is UNVERIFIED; inspect the exact selected music independently.",
+    "Coverage is limited to the decoded sample-zero prefix, possibly truncated, not the whole song.",
+    "Reviewer, method, corrections and completion claims are supplied, not authenticated.",
+    "This handoff and audit never create or verify a lyric-track or promote alignment."
+  ]
+}

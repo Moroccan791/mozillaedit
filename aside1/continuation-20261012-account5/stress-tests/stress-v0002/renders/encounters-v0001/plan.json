@@ -1,0 +1,83 @@
+{
+  "schema_version": "encounters/v1",
+  "mode": "render-stability-diagnostic",
+  "requested_duration": 30.0,
+  "duration": 30.0,
+  "music_start": 10.0,
+  "music_end": 40.0,
+  "music_continuous": true,
+  "gaps": [],
+  "timeline": [
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "source_start": 15.0,
+      "source_end": 20.0,
+      "output_start": 0.0,
+      "output_end": 5.0,
+      "music_start": 10.0,
+      "music_end": 15.0,
+      "speed": 1.0,
+      "events": []
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "source_start": 22.0,
+      "source_end": 27.0,
+      "output_start": 5.0,
+      "output_end": 10.0,
+      "music_start": 15.0,
+      "music_end": 20.0,
+      "speed": 1.0,
+      "events": []
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_iufseng8xEs_Ranked-but-I-m-Overheating-Non-Stop_002_720p.mp4",
+      "source_start": 29.0,
+      "source_end": 34.0,
+      "output_start": 10.0,
+      "output_end": 15.0,
+      "music_start": 20.0,
+      "music_end": 25.0,
+      "speed": 1.0,
+      "events": []
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+      "source_start": 70.0,
+      "source_end": 75.0,
+      "output_start": 15.0,
+      "output_end": 20.0,
+      "music_start": 25.0,
+      "music_end": 30.0,
+      "speed": 1.0,
+      "events": []
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+      "source_start": 77.0,
+      "source_end": 82.0,
+      "output_start": 20.0,
+      "output_end": 25.0,
+      "music_start": 30.0,
+      "music_end": 35.0,
+      "speed": 1.0,
+      "events": []
+    },
+    {
+      "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_iufseng8xEs_Ranked-but-I-m-Overheating-Non-Stop_002_720p.mp4",
+      "source_start": 84.0,
+      "source_end": 89.0,
+      "output_start": 25.0,
+      "output_end": 30.0,
+      "music_start": 35.0,
+      "music_end": 40.0,
+      "speed": 1.0,
+      "events": []
+    }
+  ],
+  "events": [],
+  "rhythm_assignments": [],
+  "warnings": [
+    "Diagnostic ranges only, not reviewed gameplay events or musical alignment."
+  ]
+}

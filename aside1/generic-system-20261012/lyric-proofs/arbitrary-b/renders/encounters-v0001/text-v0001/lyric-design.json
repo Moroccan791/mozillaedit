@@ -1,0 +1,163 @@
+{
+  "allow_impact_collision": false,
+  "allow_protected_overlap": false,
+  "canvas": {
+    "height": 180,
+    "mode": "gameplay",
+    "width": 320
+  },
+  "enabled": true,
+  "excerpt": {
+    "music_start_sample": 252000,
+    "output_start": 0,
+    "sample_count": 1680000,
+    "sample_rate": 48000
+  },
+  "moments": [
+    {
+      "animation": {
+        "echo_offset": [
+          0,
+          0
+        ],
+        "entrance_ms": 0,
+        "exit_ms": 0,
+        "from_scale": 1,
+        "glow": 0
+      },
+      "box": [
+        0.04,
+        0.055,
+        0.64,
+        0.16
+      ],
+      "font_family": "Bebas Neue",
+      "id": "accent-0",
+      "opacity": 0.8,
+      "palette": "ice",
+      "role": "giant_word",
+      "size": 0.055,
+      "word_indices": [
+        0
+      ]
+    },
+    {
+      "animation": {
+        "echo_offset": [
+          0,
+          0
+        ],
+        "entrance_ms": 0,
+        "exit_ms": 0,
+        "from_scale": 1,
+        "glow": 0
+      },
+      "box": [
+        0.04,
+        0.055,
+        0.64,
+        0.16
+      ],
+      "font_family": "Bebas Neue",
+      "id": "accent-1",
+      "opacity": 0.8,
+      "palette": "ice",
+      "role": "giant_word",
+      "size": 0.055,
+      "word_indices": [
+        1
+      ]
+    },
+    {
+      "animation": {
+        "echo_offset": [
+          0,
+          0
+        ],
+        "entrance_ms": 0,
+        "exit_ms": 0,
+        "from_scale": 1,
+        "glow": 0
+      },
+      "box": [
+        0.04,
+        0.055,
+        0.64,
+        0.16
+      ],
+      "font_family": "Bebas Neue",
+      "id": "accent-2",
+      "opacity": 0.8,
+      "palette": "ice",
+      "role": "giant_word",
+      "size": 0.055,
+      "word_indices": [
+        2
+      ]
+    }
+  ],
+  "protected_zones": [],
+  "schema": "lyric-design/v1",
+  "source": {
+    "audio_sha256": "d810a9234995002fc46c1b4ee466aaebd55ec69ac0effa498eec72c4723ddb70",
+    "music_source": "E:\\aside\\generic-system-20261012\\lyric-proofs\\arbitrary-b\\synthetic-music.wav"
+  },
+  "visual_impacts": [
+    1.19,
+    1.2,
+    1.24,
+    1.26,
+    4.6,
+    4.69,
+    4.7,
+    4.74,
+    4.740000000000001,
+    4.760000000000001,
+    4.833333333333333,
+    8.189999999999998,
+    8.2,
+    8.239999999999998,
+    8.259999999999998,
+    11.689999999999998,
+    11.7,
+    11.739999999999998,
+    11.759999999999998,
+    15.1,
+    15.189999999999998,
+    15.2,
+    15.239999999999998,
+    15.259999999999998,
+    15.333333333333334,
+    18.689999999999998,
+    18.7,
+    18.700000000000003,
+    18.739999999999995,
+    18.74,
+    18.759999999999998,
+    22.189999999999998,
+    22.2,
+    22.200000000000003,
+    22.239999999999995,
+    22.24,
+    22.259999999999998,
+    25.689999999999998,
+    25.7,
+    25.700000000000003,
+    25.739999999999995,
+    25.74,
+    25.759999999999998,
+    29.190000000000005,
+    29.2,
+    29.200000000000003,
+    29.24,
+    29.240000000000002,
+    29.260000000000005,
+    32.6,
+    32.69,
+    32.7,
+    32.74,
+    32.74000000000001,
+    32.760000000000005,
+    32.833333333333336
+  ]
+}

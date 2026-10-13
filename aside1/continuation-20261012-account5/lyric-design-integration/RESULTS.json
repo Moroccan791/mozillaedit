@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "synthetic": true,
+  "actual_song_lyrics": false,
+  "output": "E:\\aside\\continuation-20261012-account5\\lyric-design-integration\\text-v0001\\encounters-text.mp4",
+  "manifest": "E:\\aside\\continuation-20261012-account5\\lyric-design-integration\\text-v0001\\render-manifest.json",
+  "audio_pcm_identical": true,
+  "original_unchanged": true,
+  "frame_count": 180,
+  "roles": [
+    "accent_echo",
+    "giant_word",
+    "quiet_italic"
+  ],
+  "missing_gameplay_protection_rejected": true
+}

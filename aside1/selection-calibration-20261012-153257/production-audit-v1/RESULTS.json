@@ -1,0 +1,256 @@
+{
+  "scope": "Production full-source scan compared against 10 selected manually reviewed preview shot/outcome references. NOT exhaustive source labels, NOT full-source precision/recall. Template-derived examples excluded from held-out tally. No auto-calibration.",
+  "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+  "profile": "E:\\aside\\selection-calibration-20261012-153257\\reyna-expanded-profile.json",
+  "profile_calibrated": false,
+  "profile_sha256": "e9ad825c19107d42dd82bec1167d5757b81e918b18a789355a05b44760228774",
+  "audio_candidate_count": 1623,
+  "visual_observation_count": 24,
+  "confirmed_count": 0,
+  "elapsed_seconds": 2.987,
+  "rows": [
+    {
+      "label": "preview-1",
+      "source_audio_reference": 9.646,
+      "split": "template-derived",
+      "visual_match_window": [
+        -0.04,
+        0.5
+      ],
+      "detected": true,
+      "observation": {
+        "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+        "source_visual_event": 9.733333333333333,
+        "source_audio_event": 9.5752,
+        "confidence": 0.9652268886566162,
+        "confidence_kind": "template_cosine_not_probability",
+        "confirmed": false,
+        "status": "candidate",
+        "confirmation": "pov_icon_temporal:valorant-reyna-default-720p-calibration:povkills-v1+nearby_audio+uncalibrated",
+        "profile": "povkills-v1",
+        "evidence": {
+          "template": "skull-ring",
+          "score": 0.9652268886566162,
+          "persistence": 2,
+          "audio_delta": -0.1581333333333319,
+          "calibrated_profile": false,
+          "match_threshold": 0.78,
+          "reset_threshold": 0.55
+        },
+        "limitations": [
+          "Icon identity is profile-specific; no player-name OCR is performed.",
+          "Template cosine similarity is not a probability.",
+          "Missing nearby audio leaves visual detections uncertain.",
+          "ROI guards do not identify every scene cut.",
+          "Visual timing is quantized to the configured sample rate."
+        ]
+      },
+      "reference_method": "assistant sampled POV firing and skull/outcome frames; numerical local waveform refinement, not automatic kill certification",
+      "caveat": "The preview label confirms gameplay outcome, not the exact onset or presence of this ROI icon."
+    },
+    {
+      "label": "preview-2",
+      "source_audio_reference": 92.258,
+      "split": "template-derived",
+      "visual_match_window": [
+        -0.04,
+        0.5
+      ],
+      "detected": true,
+      "observation": {
+        "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+        "source_visual_event": 92.33333333333333,
+        "source_audio_event": 92.1905,
+        "confidence": 0.9135577082633972,
+        "confidence_kind": "template_cosine_not_probability",
+        "confirmed": false,
+        "status": "candidate",
+        "confirmation": "pov_icon_temporal:valorant-reyna-default-720p-calibration:povkills-v1+nearby_audio+uncalibrated",
+        "profile": "povkills-v1",
+        "evidence": {
+          "template": "skull-normal",
+          "score": 0.9135577082633972,
+          "persistence": 2,
+          "audio_delta": -0.14283333333332848,
+          "calibrated_profile": false,
+          "match_threshold": 0.8,
+          "reset_threshold": 0.55
+        },
+        "limitations": [
+          "Icon identity is profile-specific; no player-name OCR is performed.",
+          "Template cosine similarity is not a probability.",
+          "Missing nearby audio leaves visual detections uncertain.",
+          "ROI guards do not identify every scene cut.",
+          "Visual timing is quantized to the configured sample rate."
+        ]
+      },
+      "reference_method": "assistant sampled POV firing and skull/outcome frames; numerical local waveform refinement, not automatic kill certification",
+      "caveat": "The preview label confirms gameplay outcome, not the exact onset or presence of this ROI icon."
+    },
+    {
+      "label": "preview-3",
+      "source_audio_reference": 104.774,
+      "split": "template-derived",
+      "visual_match_window": [
+        -0.04,
+        0.5
+      ],
+      "detected": false,
+      "observation": null,
+      "reference_method": "assistant sampled POV firing and skull/outcome frames; numerical local waveform refinement, not automatic kill certification",
+      "caveat": "The preview label confirms gameplay outcome, not the exact onset or presence of this ROI icon."
+    },
+    {
+      "label": "preview-4",
+      "source_audio_reference": 188.028,
+      "split": "template-derived",
+      "visual_match_window": [
+        -0.04,
+        0.5
+      ],
+      "detected": true,
+      "observation": {
+        "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+        "source_visual_event": 188.13333333333333,
+        "source_audio_event": 188.0376,
+        "confidence": 0.9128937721252441,
+        "confidence_kind": "template_cosine_not_probability",
+        "confirmed": false,
+        "status": "candidate",
+        "confirmation": "pov_icon_temporal:valorant-reyna-default-720p-calibration:povkills-v1+nearby_audio+uncalibrated",
+        "profile": "povkills-v1",
+        "evidence": {
+          "template": "skull-large",
+          "score": 0.9128937721252441,
+          "persistence": 2,
+          "audio_delta": -0.09573333333332812,
+          "calibrated_profile": false,
+          "match_threshold": 0.8,
+          "reset_threshold": 0.55
+        },
+        "limitations": [
+          "Icon identity is profile-specific; no player-name OCR is performed.",
+          "Template cosine similarity is not a probability.",
+          "Missing nearby audio leaves visual detections uncertain.",
+          "ROI guards do not identify every scene cut.",
+          "Visual timing is quantized to the configured sample rate."
+        ]
+      },
+      "reference_method": "assistant sampled POV firing and skull/outcome frames; numerical local waveform refinement, not automatic kill certification",
+      "caveat": "The preview label confirms gameplay outcome, not the exact onset or presence of this ROI icon."
+    },
+    {
+      "label": "preview-5",
+      "source_audio_reference": 262.591,
+      "split": "template-derived",
+      "visual_match_window": [
+        -0.04,
+        0.5
+      ],
+      "detected": true,
+      "observation": {
+        "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_ObWy97A6INU_reyna-u-need-to-toggle-harder_002_720p.mp4",
+        "source_visual_event": 262.73333333333335,
+        "source_audio_event": 262.6062,
+        "confidence": 0.9981155395507812,
+        "confidence_kind": "template_cosine_not_probability",
+        "confirmed": false,
+        "status": "candidate",
+        "confirmation": "pov_icon_temporal:valorant-reyna-default-720p-calibration:povkills-v1+nearby_audio+uncalibrated",
+        "profile": "povkills-v1",
+        "evidence": {
+          "template": "skull-multi",
+          "score": 0.9981155395507812,
+          "persistence": 2,
+          "audio_delta": -0.1271333333333473,
+          "calibrated_profile": false,
+          "match_threshold": 0.78,
+          "reset_threshold": 0.55
+        },
+        "limitations": [
+          "Icon identity is profile-specific; no player-name OCR is performed.",
+          "Template cosine similarity is not a probability.",
+          "Missing nearby audio leaves visual detections uncertain.",
+          "ROI guards do not identify every scene cut.",
+          "Visual timing is quantized to the configured sample rate."
+        ]
+      },
+      "reference_method": "assistant sampled POV firing and skull/outcome frames; numerical local waveform refinement, not automatic kill certification",
+      "caveat": "The preview label confirms gameplay outcome, not the exact onset or presence of this ROI icon."
+    },
+    {
+      "label": "preview-6",
+      "source_audio_reference": 338.924,
+      "split": "held-out",
+      "visual_match_window": [
+        -0.04,
+        0.5
+      ],
+      "detected": false,
+      "observation": null,
+      "reference_method": "assistant sampled POV firing and skull/outcome frames; numerical local waveform refinement, not automatic kill certification",
+      "caveat": "The preview label confirms gameplay outcome, not the exact onset or presence of this ROI icon."
+    },
+    {
+      "label": "preview-7",
+      "source_audio_reference": 414.024,
+      "split": "held-out",
+      "visual_match_window": [
+        -0.04,
+        0.5
+      ],
+      "detected": false,
+      "observation": null,
+      "reference_method": "assistant sampled POV firing and skull/outcome frames; numerical local waveform refinement, not automatic kill certification",
+      "caveat": "The preview label confirms gameplay outcome, not the exact onset or presence of this ROI icon."
+    },
+    {
+      "label": "preview-8",
+      "source_audio_reference": 467.641,
+      "split": "held-out",
+      "visual_match_window": [
+        -0.04,
+        0.5
+      ],
+      "detected": false,
+      "observation": null,
+      "reference_method": "assistant sampled POV firing and skull/outcome frames; numerical local waveform refinement, not automatic kill certification",
+      "caveat": "The preview label confirms gameplay outcome, not the exact onset or presence of this ROI icon."
+    },
+    {
+      "label": "preview-9",
+      "source_audio_reference": 501.531,
+      "split": "held-out",
+      "visual_match_window": [
+        -0.04,
+        0.5
+      ],
+      "detected": false,
+      "observation": null,
+      "reference_method": "assistant sampled POV firing and skull/outcome frames; numerical local waveform refinement, not automatic kill certification",
+      "caveat": "The preview label confirms gameplay outcome, not the exact onset or presence of this ROI icon."
+    },
+    {
+      "label": "preview-10",
+      "source_audio_reference": 516.362,
+      "split": "held-out",
+      "visual_match_window": [
+        -0.04,
+        0.5
+      ],
+      "detected": false,
+      "observation": null,
+      "reference_method": "assistant sampled POV firing and skull/outcome frames; numerical local waveform refinement, not automatic kill certification",
+      "caveat": "The preview label confirms gameplay outcome, not the exact onset or presence of this ROI icon."
+    }
+  ],
+  "held_out_hits": 0,
+  "held_out_reference_count": 5,
+  "limitations": [
+    "Icon identity is profile-specific; no player-name OCR is performed.",
+    "Template cosine similarity is not a probability.",
+    "Missing nearby audio leaves visual detections uncertain.",
+    "ROI guards do not identify every scene cut.",
+    "Visual timing is quantized to the configured sample rate."
+  ]
+}

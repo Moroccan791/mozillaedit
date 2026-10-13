@@ -1,0 +1,71 @@
+2026/10/12-14:34:30.527 3908 Creating DB C:\Users\Junayed\AppData\Local\Aside\User Data\Default\Local Storage\leveldb since it was missing.
+2026/10/12-14:34:31.779 3908 Reusing MANIFEST C:\Users\Junayed\AppData\Local\Aside\User Data\Default\Local Storage\leveldb/MANIFEST-000001
+2026/10/12-14:45:39.494 33f8 Level-0 table #5: started
+2026/10/12-14:45:39.506 33f8 Level-0 table #5: 33463 bytes OK
+2026/10/12-14:45:39.509 33f8 Delete type=0 #3
+2026/10/12-14:49:38.183 33f8 Level-0 table #7: started
+2026/10/12-14:49:38.189 33f8 Level-0 table #7: 26344 bytes OK
+2026/10/12-14:49:38.194 33f8 Delete type=0 #4
+2026/10/12-14:53:38.175 33f8 Level-0 table #9: started
+2026/10/12-14:53:38.184 33f8 Level-0 table #9: 26847 bytes OK
+2026/10/12-14:53:38.324 33f8 Delete type=0 #6
+2026/10/12-14:57:38.175 33f8 Level-0 table #11: started
+2026/10/12-14:57:38.183 33f8 Level-0 table #11: 26746 bytes OK
+2026/10/12-14:57:38.185 33f8 Delete type=0 #8
+2026/10/12-15:01:38.267 33f8 Level-0 table #13: started
+2026/10/12-15:01:38.290 33f8 Level-0 table #13: 27045 bytes OK
+2026/10/12-15:01:38.298 33f8 Delete type=0 #10
+2026/10/12-15:05:38.177 33f8 Level-0 table #15: started
+2026/10/12-15:05:38.193 33f8 Level-0 table #15: 29456 bytes OK
+2026/10/12-15:05:38.195 33f8 Delete type=0 #12
+2026/10/12-15:05:38.326 33f8 Compacting 4@0 + 1@1 files
+2026/10/12-15:05:38.346 33f8 Generated table #16@0: 2 keys, 7328 bytes
+2026/10/12-15:05:38.346 33f8 Compacted 4@0 + 1@1 files => 7328 bytes
+2026/10/12-15:05:38.349 33f8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/10/12-15:05:38.351 33f8 Delete type=2 #7
+2026/10/12-15:05:38.351 33f8 Delete type=2 #9
+2026/10/12-15:05:38.351 33f8 Delete type=2 #11
+2026/10/12-15:05:38.351 33f8 Delete type=2 #13
+2026/10/12-15:05:38.351 33f8 Delete type=2 #15
+2026/10/12-15:09:38.176 33f8 Level-0 table #18: started
+2026/10/12-15:09:38.184 33f8 Level-0 table #18: 28858 bytes OK
+2026/10/12-15:09:38.187 33f8 Delete type=0 #14
+2026/10/12-15:13:38.220 33f8 Level-0 table #20: started
+2026/10/12-15:13:38.246 33f8 Level-0 table #20: 30886 bytes OK
+2026/10/12-15:13:38.247 33f8 Delete type=0 #17
+2026/10/12-15:19:38.179 33f8 Level-0 table #22: started
+2026/10/12-15:19:38.186 33f8 Level-0 table #22: 31865 bytes OK
+2026/10/12-15:19:38.189 33f8 Delete type=0 #19
+2026/10/12-15:23:38.183 33f8 Level-0 table #24: started
+2026/10/12-15:23:38.189 33f8 Level-0 table #24: 26892 bytes OK
+2026/10/12-15:23:38.192 33f8 Delete type=0 #21
+2026/10/12-15:23:38.229 33f8 Compacting 4@0 + 1@1 files
+2026/10/12-15:23:38.239 33f8 Generated table #25@0: 2 keys, 6660 bytes
+2026/10/12-15:23:38.239 33f8 Compacted 4@0 + 1@1 files => 6660 bytes
+2026/10/12-15:23:38.240 33f8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/10/12-15:23:38.241 33f8 Delete type=2 #16
+2026/10/12-15:23:38.241 33f8 Delete type=2 #18
+2026/10/12-15:23:38.241 33f8 Delete type=2 #20
+2026/10/12-15:23:38.241 33f8 Delete type=2 #22
+2026/10/12-15:23:38.241 33f8 Delete type=2 #24
+2026/10/12-15:27:38.192 33f8 Level-0 table #27: started
+2026/10/12-15:27:38.199 33f8 Level-0 table #27: 26539 bytes OK
+2026/10/12-15:27:38.201 33f8 Delete type=0 #23
+2026/10/12-15:31:38.180 33f8 Level-0 table #29: started
+2026/10/12-15:31:38.187 33f8 Level-0 table #29: 26038 bytes OK
+2026/10/12-15:31:38.189 33f8 Delete type=0 #26
+2026/10/12-15:35:38.183 3908 Level-0 table #31: started
+2026/10/12-15:35:38.189 3908 Level-0 table #31: 26152 bytes OK
+2026/10/12-15:35:38.191 3908 Delete type=0 #28
+2026/10/12-15:40:38.192 33f8 Level-0 table #33: started
+2026/10/12-15:40:38.208 33f8 Level-0 table #33: 32169 bytes OK
+2026/10/12-15:40:38.212 33f8 Delete type=0 #30
+2026/10/12-15:40:38.213 33f8 Compacting 4@0 + 1@1 files
+2026/10/12-15:40:38.231 33f8 Generated table #34@0: 2 keys, 6506 bytes
+2026/10/12-15:40:38.231 33f8 Compacted 4@0 + 1@1 files => 6506 bytes
+2026/10/12-15:40:38.232 33f8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/10/12-15:40:38.246 33f8 Delete type=2 #25
+2026/10/12-15:40:38.246 33f8 Delete type=2 #27
+2026/10/12-15:40:38.246 33f8 Delete type=2 #29
+2026/10/12-15:40:38.246 33f8 Delete type=2 #31
+2026/10/12-15:40:38.246 33f8 Delete type=2 #33

@@ -1,0 +1,3 @@
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{};e._posthogReleaseId=e._posthogReleaseId||"01a12f58-5a54-0000-eb8b-48c4a59b8d81";var n=(new e.Error).stack;n&&(e._posthogChunkIds=e._posthogChunkIds||{},e._posthogChunkIds[n]="eee92adf-8190-5781-b230-14681c6d50fb")}catch(e){}}();import{r as n}from"./chunk-35ZOQMXA-BWBy0Kll.js";import{I as e}from"./chunk-OHNBJXQ2-CRzGLrAo.js";var s=n((t,a)=>{let o;return a==="sandbox"&&(o=e("#i"+t)),(a==="sandbox"?e(o.nodes()[0].contentDocument.body):e("body")).select(`[id="${t}"]`)},"getDiagramElement");export{s as t};
+
+//# chunkId=eee92adf-8190-5781-b230-14681c6d50fb

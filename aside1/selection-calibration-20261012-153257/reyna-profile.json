@@ -1,0 +1,17 @@
+{
+  "version": "povkills-v1",
+  "name": "valorant-reyna-default-720p-calibration",
+  "calibrated_profile": false,
+  "calibrated_sources": [],
+  "roi": [0.45, 0.7333333333, 0.1, 0.1555555556],
+  "output_size": [96, 84],
+  "sample_hz": 15,
+  "templates": [
+    {"name": "skull-ring", "path": "reyna_head.npy", "threshold": 0.78, "representation": "gradient"},
+    {"name": "tree-ring", "path": "reyna_tree.npy", "threshold": 0.78, "representation": "gradient"},
+    {"name": "skull-multi", "path": "reyna_mid.npy", "threshold": 0.78, "representation": "gradient"}
+  ],
+  "temporal": {"reset_threshold": 0.55, "persistence": 2, "window_frames": 4, "reset_frames": 2, "refractory_seconds": 0.3},
+  "mask": {"center": [48, 36], "radii": [39, 35]},
+  "limitations": "Source-reviewed experimental profile; unsupported alternate icon placement/layout. Not validated until labeled tests complete. Match score is not a kill probability."
+}

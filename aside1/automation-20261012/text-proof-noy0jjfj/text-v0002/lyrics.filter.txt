@@ -1,0 +1,1 @@
+[0:v:0]ass=filename='E\:/aside/automation-20261012/text-proof-noy0jjfj/text-v0002/lyrics.ass':fontsdir='E\:/aside/automation-20261012/text-proof-noy0jjfj/text-v0002/fonts'[text]

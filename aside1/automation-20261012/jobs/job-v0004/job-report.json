@@ -1,0 +1,633 @@
+{
+  "schema_version": "automation-job/v1",
+  "job_dir": "E:\\aside\\automation-20261012\\jobs\\job-v0004",
+  "mode": "candidate-preview",
+  "status": "rendered-candidate-preview",
+  "output": "E:\\aside\\automation-20261012\\jobs\\job-v0004\\renders\\encounters-v0001\\encounters.mp4",
+  "stages": {
+    "music_seconds": 19.162508499997784,
+    "firing_seconds": 5.936150199995609,
+    "visual_screen_seconds": 48.105062899994664,
+    "planning_seconds": 2.2927120000022114,
+    "render_seconds": 17.40121010000439,
+    "qa_seconds": 2.7768981999979587
+  },
+  "readiness": {
+    "automatic_candidate_analysis": true,
+    "automatic_pov_confirmation": false,
+    "reviewed_music_suitability": false,
+    "reviewed_fight_completeness": false,
+    "perceptual_listening": false,
+    "unattended_ready": false
+  },
+  "limitations": [
+    "Automatic candidates are audio transients, not confirmed shots or kills.",
+    "Music hits are acoustic candidates, not certified percussion, bar phase or musical taste.",
+    "Generated roles and fades do not certify fight outcome, reference-level polish or listening.",
+    "No source retiming: difficult burst rhythm stays unmatched; strict confirmation runner retained."
+  ],
+  "visual_screen_summary": {
+    "retained": 25,
+    "rejected": 7,
+    "semantic_review": "unreviewed"
+  },
+  "rhythm_summary": {
+    "matched": 5,
+    "total": 5,
+    "semantic_sync": "unverified",
+    "beam_width": 24
+  },
+  "planned_duration": 8.071499999999988,
+  "warnings": [
+    "Candidate preview only: audio transients are not confirmed POV shots/kills; musical suitability and phrase are unreviewed.",
+    "All selected candidate attacks retain 1x timing; unmatched attacks are explicitly reported, not forced onto beats.",
+    "Window outcome/completeness unknown; source-authored effects may already exist.",
+    "shorter than requested by 3.929s; no filler or reuse"
+  ],
+  "render_manifest": "E:\\aside\\automation-20261012\\jobs\\job-v0004\\renders\\encounters-v0001\\render-manifest.json",
+  "quality": {
+    "schema_version": "encounter-qa/v1",
+    "status": "warn",
+    "ok": true,
+    "components": {
+      "musical_sync": {
+        "status": "warn",
+        "detail": "Not verified: independent firing-attack labels and strong musical-hit validation are required; zero source/stem offset is render fidelity only."
+      },
+      "structural": {
+        "status": "pass",
+        "sample_path": "E:\\aside\\automation-20261012\\jobs\\job-v0004\\renders\\encounters-v0001\\encounters.mp4",
+        "checks": [
+          {
+            "name": "decode",
+            "ok": true,
+            "detail": ""
+          },
+          {
+            "name": "pix_fmt universal",
+            "ok": true,
+            "detail": "pix_fmt=yuv420p"
+          },
+          {
+            "name": "streams",
+            "ok": true,
+            "detail": "video=True audio=True"
+          },
+          {
+            "name": "a/v duration sync",
+            "ok": true,
+            "detail": "video=8.07s audio=8.07s"
+          }
+        ],
+        "detail": "existing qa.verify structural battery"
+      },
+      "duplicate_ranges": {
+        "status": "pass",
+        "overlaps": [],
+        "detail": "independent same-source overlapping-range check (adjacent ranges allowed)"
+      },
+      "loudness": {
+        "status": "pass",
+        "sample_path": "E:\\aside\\automation-20261012\\jobs\\job-v0004\\renders\\encounters-v0001\\encounters.mp4",
+        "measurements": {
+          "input_i": -11.14,
+          "input_tp": -4.17,
+          "input_lra": 1.3,
+          "input_thresh": -21.14
+        },
+        "possible_true_peak_clipping": false,
+        "detail": "input true peak >0 dBTP is clipping risk; loudness outside -30..-9 LUFS is review only"
+      },
+      "visual_heuristics": {
+        "status": "pass",
+        "unavailable_samples": [],
+        "black_samples": [],
+        "white_samples": [],
+        "possible_freeze": false,
+        "possible_flashes": [],
+        "sampled_frames": [
+          {
+            "path": "E:\\aside\\automation-20261012\\jobs\\job-v0004\\renders\\encounters-v0001\\encounters.mp4",
+            "time": 0.0,
+            "mean_luma": 135.00019290123456,
+            "std_luma": 37.28871807039174
+          },
+          {
+            "path": "E:\\aside\\automation-20261012\\jobs\\job-v0004\\renders\\encounters-v0001\\encounters.mp4",
+            "time": 0.7201363636363637,
+            "mean_luma": 136.140625,
+            "std_luma": 38.531243546491005
+          },
+          {
+            "path": "E:\\aside\\automation-20261012\\jobs\\job-v0004\\renders\\encounters-v0001\\encounters.mp4",
+            "time": 1.4402727272727274,
+            "mean_luma": 156.05054012345678,
+            "std_luma": 38.48601026112446
+          },
+          {
+            "path": "E:\\aside\\automation-20261012\\jobs\\job-v0004\\renders\\encounters-v0001\\encounters.mp4",
+            "time": 2.160409090909091,
+            "mean_luma": 68.54552469135803,
+            "std_luma": 26.019532282854858
+          },
+          {
+            "path": "E:\\aside\\automation-20261012\\jobs\\job-v0004\\renders\\encounters-v0001\\encounters.mp4",
+            "time": 2.8805454545454547,
+            "mean_luma": 69.52874228395062,
+            "std_luma": 22.998455553182925
+          },
+          {
+            "path": "E:\\aside\\automation-20261012\\jobs\\job-v0004\\renders\\encounters-v0001\\encounters.mp4",
+            "time": 3.6006818181818185,
+            "mean_luma": 69.36284722222223,
+            "std_luma": 22.11871939687113
+          },
+          {
+            "path": "E:\\aside\\automation-20261012\\jobs\\job-v0004\\renders\\encounters-v0001\\encounters.mp4",
+            "time": 4.320818181818182,
+            "mean_luma": 68.38715277777777,
+            "std_luma": 19.18424105902054
+          },
+          {
+            "path": "E:\\aside\\automation-20261012\\jobs\\job-v0004\\renders\\encounters-v0001\\encounters.mp4",
+            "time": 5.040954545454546,
+            "mean_luma": 66.59953703703704,
+            "std_luma": 38.01871350987773
+          },
+          {
+            "path": "E:\\aside\\automation-20261012\\jobs\\job-v0004\\renders\\encounters-v0001\\encounters.mp4",
+            "time": 5.7610909090909095,
+            "mean_luma": 64.72472993827161,
+            "std_luma": 36.65650161502561
+          },
+          {
+            "path": "E:\\aside\\automation-20261012\\jobs\\job-v0004\\renders\\encounters-v0001\\encounters.mp4",
+            "time": 6.481227272727273,
+            "mean_luma": 70.8996913580247,
+            "std_luma": 31.114830629298392
+          },
+          {
+            "path": "E:\\aside\\automation-20261012\\jobs\\job-v0004\\renders\\encounters-v0001\\encounters.mp4",
+            "time": 7.201363636363637,
+            "mean_luma": 95.3227237654321,
+            "std_luma": 35.80052083800541
+          },
+          {
+            "path": "E:\\aside\\automation-20261012\\jobs\\job-v0004\\renders\\encounters-v0001\\encounters.mp4",
+            "time": 7.9215,
+            "mean_luma": 26.974729938271604,
+            "std_luma": 10.969230337710938
+          }
+        ],
+        "adjacent_mean_abs_differences": [
+          6.0625,
+          38.394868827160494,
+          90.02353395061728,
+          22.85590277777778,
+          12.919753086419753,
+          9.679783950617283,
+          34.3130787037037,
+          16.861689814814813,
+          24.902970679012345,
+          37.58429783950617,
+          68.4074074074074
+        ],
+        "detail": "sparse black/white/flash/freeze heuristic, NOT taste, semantics or photosensitivity certification"
+      },
+      "event_anchors": {
+        "status": "warn",
+        "detail": "no event anchors; no synchronization claim"
+      }
+    },
+    "issues": [
+      {
+        "component": "musical_sync",
+        "status": "warn",
+        "detail": "Not verified: independent firing-attack labels and strong musical-hit validation are required; zero source/stem offset is render fidelity only."
+      },
+      {
+        "component": "event_anchors",
+        "status": "warn",
+        "detail": "no event anchors; no synchronization claim"
+      }
+    ],
+    "anchors": [],
+    "limitations": [
+      "Does not verify detector correctness, event semantics or artistic taste.",
+      "Sparse sampled frames cannot exclude all flashes/freezes or certify photosensitivity safety.",
+      "Correlation cannot identify timing in silent, static or repetitive references.",
+      "Decode limits or missing anchors yield warnings, not verified synchronization.",
+      "Source/stem waveform matching verifies clock preservation, NOT that chosen events are gunshots or chosen song times are perceptually strong hits."
+    ],
+    "output": "E:\\aside\\automation-20261012\\jobs\\job-v0004\\renders\\encounters-v0001\\encounters.mp4",
+    "evidence_scope": {
+      "render_clock_fidelity": "source/stem/final-mix correlations and decoded visual matches",
+      "gunshot_to_musical_hit": "not established by copying planned clocks",
+      "artistic_quality": "not certified"
+    },
+    "decode_cache": {
+      "files": 0,
+      "decodes": 0,
+      "bytes_written": 0,
+      "sample_rate": 16000,
+      "storage": "temporary disk memmap",
+      "max_seconds": 3600.0,
+      "max_bytes_per_file": 536870912,
+      "max_total_bytes": 2147483648,
+      "origin": "decoded PCM sample zero"
+    },
+    "benchmark": {
+      "elapsed_seconds": 2.5469999999986612,
+      "process_peak_rss": 221581312,
+      "peak_rss_unit": "bytes",
+      "memory_note": "process-lifetime peak, not QA-only delta; excludes FFmpeg children; disk PCM bytes separate"
+    }
+  },
+  "attack_alignment": {
+    "schema_version": "attack-qa/v1",
+    "status": "warn",
+    "acoustic_alignment": "warn",
+    "musical_sync": "unverified",
+    "assignments": [
+      {
+        "assignment_index": 0,
+        "status": "warn",
+        "musical_sync": "unverified",
+        "game_attack": {
+          "status": "unmeasurable",
+          "expected_time": 0.8979999999999997,
+          "time": null,
+          "attack_range": null,
+          "candidates": [],
+          "method": "multiband-4ms-rms-slope",
+          "range_basis": "heuristic +/-4 ms localization; not calibrated confidence",
+          "bands_hz": [
+            [
+              1500,
+              5000
+            ],
+            [
+              5000,
+              10000
+            ]
+          ],
+          "detail": "no isolated salient attack within +/-50 ms"
+        },
+        "music_attack": {
+          "status": "unmeasurable",
+          "expected_time": 0.8979999999999997,
+          "time": null,
+          "attack_range": null,
+          "candidates": [],
+          "method": "multiband-4ms-rms-slope",
+          "range_basis": "heuristic +/-4 ms localization; not calibrated confidence",
+          "bands_hz": [
+            [
+              40,
+              250
+            ],
+            [
+              250,
+              1500
+            ],
+            [
+              1500,
+              6000
+            ]
+          ],
+          "detail": "no isolated salient attack within +/-50 ms"
+        },
+        "offset_ms": null,
+        "offset_range_ms": null,
+        "clip_index": 0,
+        "event_id": "candidate-00003",
+        "music_hit_id": "hit-002",
+        "candidate_attack_interval_source": [
+          1.71,
+          1.725
+        ],
+        "music_interval_source": [
+          25.892,
+          25.904
+        ],
+        "expected_game_time": 0.8979999999999997,
+        "matched": true,
+        "expected_music_time": 0.8979999999999997,
+        "detail": "independent attacks missing or ambiguous"
+      },
+      {
+        "assignment_index": 1,
+        "status": "warn",
+        "musical_sync": "unverified",
+        "game_attack": {
+          "status": "unmeasurable",
+          "expected_time": 1.0929999999999995,
+          "time": null,
+          "attack_range": null,
+          "candidates": [],
+          "method": "multiband-4ms-rms-slope",
+          "range_basis": "heuristic +/-4 ms localization; not calibrated confidence",
+          "bands_hz": [
+            [
+              1500,
+              5000
+            ],
+            [
+              5000,
+              10000
+            ]
+          ],
+          "detail": "no isolated salient attack within +/-50 ms"
+        },
+        "music_attack": {
+          "status": "unmeasurable",
+          "expected_time": 1.0949583333333344,
+          "time": null,
+          "attack_range": null,
+          "candidates": [],
+          "method": "multiband-4ms-rms-slope",
+          "range_basis": "heuristic +/-4 ms localization; not calibrated confidence",
+          "bands_hz": [
+            [
+              40,
+              250
+            ],
+            [
+              250,
+              1500
+            ],
+            [
+              1500,
+              6000
+            ]
+          ],
+          "detail": "no isolated salient attack within +/-50 ms"
+        },
+        "offset_ms": null,
+        "offset_range_ms": null,
+        "clip_index": 0,
+        "event_id": "candidate-00004",
+        "music_hit_id": "hit-004",
+        "candidate_attack_interval_source": [
+          1.905,
+          1.92
+        ],
+        "music_interval_source": [
+          26.089958333333332,
+          26.101958333333332
+        ],
+        "expected_game_time": 1.0929999999999995,
+        "matched": true,
+        "expected_music_time": 1.0949583333333344,
+        "detail": "independent attacks missing or ambiguous"
+      },
+      {
+        "assignment_index": 2,
+        "status": "warn",
+        "musical_sync": "unverified",
+        "game_attack": {
+          "status": "unmeasurable",
+          "expected_time": 3.469999999999999,
+          "time": null,
+          "attack_range": null,
+          "candidates": [],
+          "method": "multiband-4ms-rms-slope",
+          "range_basis": "heuristic +/-4 ms localization; not calibrated confidence",
+          "bands_hz": [
+            [
+              1500,
+              5000
+            ],
+            [
+              5000,
+              10000
+            ]
+          ],
+          "detail": "no isolated salient attack within +/-50 ms"
+        },
+        "music_attack": {
+          "status": "unmeasurable",
+          "expected_time": 3.469999999999999,
+          "time": null,
+          "attack_range": null,
+          "candidates": [],
+          "method": "multiband-4ms-rms-slope",
+          "range_basis": "heuristic +/-4 ms localization; not calibrated confidence",
+          "bands_hz": [
+            [
+              40,
+              250
+            ],
+            [
+              250,
+              1500
+            ],
+            [
+              1500,
+              6000
+            ]
+          ],
+          "detail": "no isolated salient attack within +/-50 ms"
+        },
+        "offset_ms": null,
+        "offset_range_ms": null,
+        "clip_index": 1,
+        "event_id": "candidate-00225",
+        "music_hit_id": "hit-010",
+        "candidate_attack_interval_source": [
+          61.275,
+          61.29
+        ],
+        "music_interval_source": [
+          28.451999999999998,
+          28.48
+        ],
+        "expected_game_time": 3.469999999999999,
+        "matched": true,
+        "expected_music_time": 3.469999999999999,
+        "detail": "independent attacks missing or ambiguous"
+      },
+      {
+        "assignment_index": 3,
+        "status": "warn",
+        "musical_sync": "unverified",
+        "game_attack": {
+          "status": "measured",
+          "expected_time": 6.057000000000016,
+          "time": 6.007958333333334,
+          "attack_range": [
+            6.003958333333334,
+            6.011958333333333
+          ],
+          "candidates": [
+            {
+              "time": 6.007958333333334,
+              "attack_range": [
+                6.003958333333334,
+                6.011958333333333
+              ],
+              "strength": 0.27032765253493063
+            }
+          ],
+          "method": "multiband-4ms-rms-slope",
+          "range_basis": "heuristic +/-4 ms localization; not calibrated confidence",
+          "bands_hz": [
+            [
+              1500,
+              5000
+            ],
+            [
+              5000,
+              10000
+            ]
+          ]
+        },
+        "music_attack": {
+          "status": "unmeasurable",
+          "expected_time": 6.057000000000002,
+          "time": null,
+          "attack_range": null,
+          "candidates": [],
+          "method": "multiband-4ms-rms-slope",
+          "range_basis": "heuristic +/-4 ms localization; not calibrated confidence",
+          "bands_hz": [
+            [
+              40,
+              250
+            ],
+            [
+              250,
+              1500
+            ],
+            [
+              1500,
+              6000
+            ]
+          ],
+          "detail": "no isolated salient attack within +/-50 ms"
+        },
+        "offset_ms": null,
+        "offset_range_ms": null,
+        "clip_index": 2,
+        "event_id": "candidate-01032",
+        "music_hit_id": "hit-018",
+        "candidate_attack_interval_source": [
+          267.695,
+          267.71
+        ],
+        "music_interval_source": [
+          31.056,
+          31.060000000000002
+        ],
+        "expected_game_time": 6.057000000000016,
+        "matched": true,
+        "expected_music_time": 6.057000000000002,
+        "detail": "independent attacks missing or ambiguous"
+      },
+      {
+        "assignment_index": 4,
+        "status": "warn",
+        "musical_sync": "unverified",
+        "game_attack": {
+          "status": "ambiguous",
+          "expected_time": 7.344000000000051,
+          "time": null,
+          "attack_range": null,
+          "candidates": [
+            {
+              "time": 7.303958333333333,
+              "attack_range": [
+                7.2999583333333335,
+                7.307958333333333
+              ],
+              "strength": 0.1722080565419829
+            },
+            {
+              "time": 7.356958333333333,
+              "attack_range": [
+                7.3529583333333335,
+                7.360958333333333
+              ],
+              "strength": 0.2576799869221066
+            }
+          ],
+          "method": "multiband-4ms-rms-slope",
+          "range_basis": "heuristic +/-4 ms localization; not calibrated confidence",
+          "bands_hz": [
+            [
+              1500,
+              5000
+            ],
+            [
+              5000,
+              10000
+            ]
+          ],
+          "detail": "multiple plausible attacks within +/-50 ms"
+        },
+        "music_attack": {
+          "status": "unmeasurable",
+          "expected_time": 7.344000000000001,
+          "time": null,
+          "attack_range": null,
+          "candidates": [],
+          "method": "multiband-4ms-rms-slope",
+          "range_basis": "heuristic +/-4 ms localization; not calibrated confidence",
+          "bands_hz": [
+            [
+              40,
+              250
+            ],
+            [
+              250,
+              1500
+            ],
+            [
+              1500,
+              6000
+            ]
+          ],
+          "detail": "no isolated salient attack within +/-50 ms"
+        },
+        "offset_ms": null,
+        "offset_range_ms": null,
+        "clip_index": 3,
+        "event_id": "candidate-01196",
+        "music_hit_id": "hit-020",
+        "candidate_attack_interval_source": [
+          307.115,
+          307.13
+        ],
+        "music_interval_source": [
+          32.34,
+          32.35
+        ],
+        "expected_game_time": 7.344000000000051,
+        "matched": true,
+        "expected_music_time": 7.344000000000001,
+        "detail": "independent attacks missing or ambiguous"
+      }
+    ],
+    "issues": [],
+    "final_mix": {
+      "status": "not_inspected"
+    },
+    "limitations": [
+      "Acoustic attack overlap is heuristic, not perceptual certification.",
+      "Candidate identity does not establish gunshot or strong musical-hit identity.",
+      "No reviewed semantic evidence is evaluated; musical sync is unverified.",
+      "Final mix audibility, masking, and artistic quality are not inspected."
+    ],
+    "decode": {
+      "sample_rate": 24000,
+      "origin": "PCM sample zero",
+      "bytes_written": 2858880,
+      "max_decode_bytes": 50331648,
+      "max_duration_seconds": 120.0,
+      "decoded_end": 7.445000000000051
+    },
+    "tolerance_ms": 12.0,
+    "offset_convention": "game minus music; positive means game attack is later"
+  },
+  "elapsed_seconds": 98.173
+}

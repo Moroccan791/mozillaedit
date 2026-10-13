@@ -1,0 +1,3 @@
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{};e._posthogReleaseId=e._posthogReleaseId||"01a12f58-5a54-0000-eb8b-48c4a59b8d81";var n=(new e.Error).stack;n&&(e._posthogChunkIds=e._posthogChunkIds||{},e._posthogChunkIds[n]="b9b45262-15cd-5aaf-8eab-f881d8c6d988")}catch(e){}}();import{M as r,S as e,r as s}from"./schemas-BYztJ-RG.js";var o=["1password","apple-passwords","bitwarden","dashlane","lastpass","nordpass","proton-pass"],a=s(o),p=e({connectionId:r(),provider:a}),d=a.exclude(["apple-passwords"]);export{p as n,o as t};
+
+//# chunkId=b9b45262-15cd-5aaf-8eab-f881d8c6d988

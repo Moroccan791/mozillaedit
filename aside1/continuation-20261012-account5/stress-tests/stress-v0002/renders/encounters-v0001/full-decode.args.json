@@ -1,0 +1,17 @@
+[
+  "ffmpeg",
+  "-hide_banner",
+  "-loglevel",
+  "error",
+  "-nostdin",
+  "-xerror",
+  "-i",
+  "E:\\aside\\continuation-20261012-account5\\stress-tests\\stress-v0002\\renders\\encounters-v0001\\encounters.mp4",
+  "-map",
+  "0:v:0",
+  "-map",
+  "0:a:0",
+  "-f",
+  "null",
+  "-"
+]

@@ -1,0 +1,132 @@
+{
+  "manifest_version": 3,
+  "name": "Aside Browsing Agent",
+  "version": "1.26.1012.1759",
+  "description": "Browsing agent for Aside browser",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqhv+iJq51KjdvWXOROTWwPgHEtYt3yabPtUyTnj3iT6vtqJw8LjxiA8Usq79PmKb77f8NANCbeupfrz0uaLIFkFTbgJnGasO3bBZQKvfPiThfhJsNGpNtYwdfTpoYK9Nitzr9TwJ0vgvbNIkp8kG/A1x3XpUrGMEeqpbep+XWLkWN3MgAsC3p1HpXLrVVOHyF45vZMqsmrjoXWJELlRLVZl2XVA+Yk+tZL1zoOoSL19y7L4pjM/N4ZmbfUO8hdC2dh7FhdJrPWR9lRaxoM8x3fngDPyX/BPFOzO4yDIB8La7KNiwrineyOpT8DBxkSK4GVm/oD6kPfaOGR2cZ92bRQIDAQAB",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "action": {
+    "default_title": "Aside Browsing Agent"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": [
+    "sidePanel",
+    "contextMenus",
+    "storage",
+    "activeTab",
+    "tabCapture",
+    "offscreen",
+    "debugger",
+    "downloads",
+    "favicon",
+    "history",
+    "bookmarks",
+    "topSites",
+    "browsingData",
+    "privacy",
+    "management",
+    "nativeMessaging",
+    "cookies",
+    "tabs",
+    "scripting",
+    "userScripts",
+    "webNavigation",
+    "sessions",
+    "tabGroups",
+    "alarms",
+    "notifications",
+    "at.studio.Aside.blink.expose-wv",
+    "at.studio.Aside.ext.private.account",
+    "at.studio.Aside.ext.private.adblock",
+    "at.studio.Aside.ext.private.browser-import",
+    "at.studio.Aside.ext.private.notification",
+    "at.studio.Aside.ext.private.omnibox",
+    "at.studio.Aside.ext.private.pref-get-set",
+    "at.studio.Aside.ext.private.capture-tab-without-userinteraction",
+    "at.studio.Aside.ext.private.launch-extension"
+  ],
+  "host_permissions": [
+    "<all_urls>",
+    "https://api.anthropic.com/*"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "iframe.html",
+        "tab-preview-player.html",
+        "tabsearch.html",
+        "react-grab-bridge.js",
+        "assets/*"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    },
+    {
+      "resources": [
+        "main.html"
+      ],
+      "matches": [
+        "https://api.aside.com/*",
+        "https://api.asidehq.com/*"
+      ]
+    }
+  ],
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Alt+Shift+B",
+        "mac": "Alt+Shift+B"
+      },
+      "description": "Open Aside sidepanel"
+    }
+  },
+  "externally_connectable": {
+    "ids": [
+      "clcdgiameigmljcbkkcbjiljinmfkncl"
+    ]
+  },
+  "sandbox": {
+    "pages": [
+      "visual-frame.html"
+    ]
+  },
+  "content_security_policy": {
+    "sandbox": "sandbox allow-scripts allow-forms allow-popups allow-modals; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; child-src 'self';",
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content/content.js"
+      ],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": [
+        "https://docs.google.com/document/*"
+      ],
+      "js": [
+        "content/google-docs-selection-bridge.js"
+      ],
+      "run_at": "document_idle",
+      "world": "MAIN"
+    }
+  ]
+}

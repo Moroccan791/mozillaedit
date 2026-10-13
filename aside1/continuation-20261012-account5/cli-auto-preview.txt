@@ -1,0 +1,34 @@
+usage: aive auto-preview [-h] --music MUSIC --clips CLIPS --output-root
+                         OUTPUT_ROOT [--music-start MUSIC_START]
+                         [--duration DURATION] [--encoder {libx264,h264_qsv}]
+                         [--width WIDTH] [--height HEIGHT] [--fps FPS]
+                         [--max-clips MAX_CLIPS]
+                         [--max-source-seconds MAX_SOURCE_SECONDS]
+                         [--plan-only] [--lyric-track LYRIC_TRACK]
+                         [--lyric-design LYRIC_DESIGN]
+                         [--exclusions EXCLUSIONS] [--no-visual-screen]
+
+options:
+  -h, --help            show this help message and exit
+  --music MUSIC
+  --clips CLIPS
+  --output-root OUTPUT_ROOT
+  --music-start MUSIC_START
+  --duration DURATION
+  --encoder {libx264,h264_qsv}
+  --width WIDTH
+  --height HEIGHT
+  --fps FPS
+  --max-clips MAX_CLIPS
+  --max-source-seconds MAX_SOURCE_SECONDS
+  --plan-only
+  --lyric-track LYRIC_TRACK
+                        verified words from selected music audio, never
+                        gameplay
+  --lyric-design LYRIC_DESIGN
+                        explicit lyric-design/v1 graphic moments; requires
+                        --lyric-track
+  --exclusions EXCLUSIONS
+                        observed visual-exclusions/v1 rejection file
+  --no-visual-screen    disable sparse image rejection for engineering tests
+                        only

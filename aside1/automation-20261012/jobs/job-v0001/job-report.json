@@ -1,0 +1,24 @@
+{
+  "schema_version": "automation-job/v1",
+  "job_dir": "E:\\aside\\automation-20261012\\jobs\\job-v0001",
+  "mode": "candidate-preview",
+  "status": "failed",
+  "output": null,
+  "stages": {},
+  "readiness": {
+    "automatic_candidate_analysis": true,
+    "automatic_pov_confirmation": false,
+    "reviewed_music_suitability": false,
+    "reviewed_fight_completeness": false,
+    "perceptual_listening": false,
+    "unattended_ready": false
+  },
+  "limitations": [
+    "Automatic candidates are audio transients, not confirmed shots or kills.",
+    "Music hits are acoustic candidates, not certified percussion, bar phase or musical taste.",
+    "Generated roles and fades do not certify fight outcome, reference-level polish or listening.",
+    "No source retiming: difficult burst rhythm stays unmatched; strict confirmation runner retained."
+  ],
+  "error": "FFmpeg bounded decode failed",
+  "elapsed_seconds": 2.084
+}
