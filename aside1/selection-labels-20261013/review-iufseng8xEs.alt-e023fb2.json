@@ -1,0 +1,234 @@
+{
+ "schema": "agent-visual-review/v1",
+ "provenance": "independent agent frame-level visual review of decoded source frames; audio candidates only used to locate windows; labels are visual observations, not audio inference",
+ "clips": {
+  "iufseng8xEs_Ranked-but-I-m-O": {
+   "windows": [
+    {
+     "w": 0,
+     "lo": -0.6,
+     "hi": 4.9,
+     "peak": 0.5,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "intro clip-start frames",
+      "no firing ammo 25",
+      "yellow-highlighted enemy closes to point-blank",
+      "purple flash 0:04.9"
+     ],
+     "notes": "live fight at end; resolution spot-check 0:04-0:08"
+    },
+    {
+     "w": 1,
+     "lo": 64.8,
+     "hi": 70.0,
+     "peak": 66.8,
+     "verdict": "probable_kill_verify",
+     "kill_times": [
+      70.0
+     ],
+     "setup": true,
+     "outcome": false,
+     "signals": [
+      "green flash 1:04.8-05.6",
+      "2 highlighted enemies 1:09.2",
+      "shots begin 25->23",
+      "possible emblem/FX at final frame"
+     ],
+     "notes": "fight peaks at window edge; resample 1:09-1:13",
+     "best_moment": 70.0
+    },
+    {
+     "w": 2,
+     "lo": 117.2,
+     "hi": 122.4,
+     "peak": 119.2,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "fleshy purple creature/ability fills view",
+      "shots at edge 25->22",
+      "no emblem/corpse"
+     ],
+     "notes": "ability-sound FP; spot-check 2:01-2:05 fight"
+    },
+    {
+     "w": 3,
+     "lo": 151.3,
+     "hi": 156.5,
+     "peak": 153.3,
+     "verdict": "good_kill_window",
+     "kill_times": [
+      156.1
+     ],
+     "setup": true,
+     "outcome": true,
+     "signals": [
+      "orange beam/round-banner context",
+      "9 rounds fired 25->16",
+      "kill emblem 2:36.1",
+      "multi-kill feed + rainbow edit arc"
+     ],
+     "notes": "montage-graded double",
+     "best_moment": 156.1
+    },
+    {
+     "w": 4,
+     "lo": 174.7,
+     "hi": 179.8,
+     "peak": 176.7,
+     "verdict": "good_kill_window",
+     "kill_times": [
+      174.2
+     ],
+     "setup": false,
+     "outcome": true,
+     "signals": [
+      "emblem + SPIKE CARRIER banner at start",
+      "corpse on stairs 2:56.7+",
+      "new enemies 2:59.1+, shots 8->6 at end"
+     ],
+     "notes": "shot ~2:53.5-54.5; 2nd fight opens at end spot-check 2:59-3:03",
+     "best_moment": 174.5
+    },
+    {
+     "w": 5,
+     "lo": 194.7,
+     "hi": 199.9,
+     "peak": 196.7,
+     "verdict": "probable_kill_verify",
+     "kill_times": [
+      193.5
+     ],
+     "setup": false,
+     "outcome": true,
+     "signals": [
+      "devour heal ticking 53->76",
+      "soul orb grab 3:17.5",
+      "killfeed banners",
+      "ammo constant 18 (no shots)"
+     ],
+     "notes": "kill pre-window; resample 3:12-3:16",
+     "best_moment": 194.5
+    },
+    {
+     "w": 6,
+     "lo": 214.4,
+     "hi": 219.6,
+     "peak": 216.4,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "scoreboard TAB overlay",
+      "knife flourish + source cut to new round",
+      "2.4s ability/inspect animation with floating shards"
+     ],
+     "notes": "UI + ability-sound FP"
+    },
+    {
+     "w": 7,
+     "lo": 260.3,
+     "hi": 265.5,
+     "peak": 262.7,
+     "verdict": "good_kill_window",
+     "kill_times": [
+      260.5
+     ],
+     "setup": true,
+     "outcome": true,
+     "signals": [
+      "red kill burst + emblem 4:20.3-21.5",
+      "killfeed multi-entries",
+      "pink capsule edit transition 4:21.9-22.7"
+     ],
+     "notes": "shot ~4:19.5-20.3; confirm in-window",
+     "best_moment": 260.5
+    },
+    {
+     "w": 8,
+     "lo": 303.7,
+     "hi": 308.9,
+     "peak": 305.0,
+     "verdict": "good_kill_window",
+     "kill_times": [
+      304.1,
+      308.5
+     ],
+     "setup": true,
+     "outcome": true,
+     "signals": [
+      "kill emblem 5:04.1",
+      "firing mid-window",
+      "kill burst + purple figure 5:08.5-08.9",
+      "pink wave grade throughout"
+     ],
+     "notes": "possibly 2 kills; resample under overlay",
+     "best_moment": 308.5
+    },
+    {
+     "w": 9,
+     "lo": 359.3,
+     "hi": 364.5,
+     "peak": 361.3,
+     "verdict": "good_kill_window",
+     "kill_times": [
+      362.1,
+      364.1
+     ],
+     "setup": true,
+     "outcome": true,
+     "signals": [
+      "tunnel enemy + muzzle flashes",
+      "Jett knife throws 6:02.1",
+      "kill emblem 6:02.5-03.3",
+      "kill burst 6:04.1",
+      "HP 82->75, ammo 20->10"
+     ],
+     "notes": "multi-phase knife round",
+     "best_moment": 364.1
+    },
+    {
+     "w": 10,
+     "lo": 421.4,
+     "hi": 426.6,
+     "peak": 423.4,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "Omen smoke dome fills view",
+      "passive aim, ammo 25 const",
+      "no enemy/confirm"
+     ],
+     "notes": "smoke-deploy sound FP"
+    },
+    {
+     "w": 11,
+     "lo": 455.5,
+     "hi": 460.7,
+     "peak": 457.5,
+     "verdict": "good_kill_window",
+     "kill_times": [
+      460.3
+     ],
+     "setup": true,
+     "outcome": true,
+     "signals": [
+      "sustained fire 25->9",
+      "kill emblem 7:40.3",
+      "killfeed banners",
+      "corpse 7:40.7",
+      "HP 100->82"
+     ],
+     "notes": "clean closing fight",
+     "best_moment": 460.3
+    }
+   ],
+   "summary": {
+    "exclude": 4,
+    "probable_kill_verify": 2,
+    "good_kill_window": 6
+   }
+  }
+ }
+}

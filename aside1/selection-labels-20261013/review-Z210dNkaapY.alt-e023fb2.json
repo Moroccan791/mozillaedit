@@ -1,0 +1,215 @@
+{
+ "schema": "agent-visual-review/v1",
+ "provenance": "independent agent frame-level visual review of decoded source frames; audio candidates only used to locate windows; labels are visual observations, not audio inference",
+ "clips": {
+  "Z210dNkaapY_Your-aim-is-just": {
+   "windows": [
+    {
+     "w": 0,
+     "lo": 24.1,
+     "hi": 29.3,
+     "peak": 26.1,
+     "verdict": "good_kill_window",
+     "kill_times": [
+      27.7
+     ],
+     "setup": true,
+     "outcome": true,
+     "signals": [
+      "enemy in street 26.9",
+      "11 rounds fired 30->19",
+      "red kill burst + emblem 27.7"
+     ],
+     "notes": "edit red hit-FX on kill",
+     "best_moment": 27.7
+    },
+    {
+     "w": 1,
+     "lo": 33.5,
+     "hi": 38.7,
+     "peak": 35.5,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "death-spectate/roster UI",
+      "subscribe CTA overlay 35.1-37.1",
+      "passive pistol after"
+     ],
+     "notes": "CTA sound FP"
+    },
+    {
+     "w": 2,
+     "lo": 99.1,
+     "hi": 104.3,
+     "peak": 101.1,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "red ink edit overlay covers left",
+      "no enemy/confirm",
+      "whip 1:43",
+      "source cut after"
+     ],
+     "notes": "spot-check 1:38-1:42 possible through-wall kill"
+    },
+    {
+     "w": 3,
+     "lo": 108.5,
+     "hi": 113.7,
+     "peak": 110.5,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "CLUTCH round-end banner",
+      "fist/celebration",
+      "death spectate + roster box 1:52+"
+     ],
+     "notes": "round-end + spectate FP"
+    },
+    {
+     "w": 4,
+     "lo": 115.1,
+     "hi": 120.3,
+     "peak": 117.1,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "death spectate roster/spawn views",
+      "new round 1:59.1 behind edit transition",
+      "no combat"
+     ],
+     "notes": "spectate FP"
+    },
+    {
+     "w": 5,
+     "lo": 272.9,
+     "hi": 278.1,
+     "peak": 274.9,
+     "verdict": "good_kill_window",
+     "kill_times": [
+      276.1
+     ],
+     "setup": true,
+     "outcome": true,
+     "signals": [
+      "distant enemy 4:34.5",
+      "fired ammo 12->8",
+      "kill emblem + banner 4:36.1",
+      "corpse + knife celebration 4:37.3"
+     ],
+     "notes": "clean long-range pick",
+     "best_moment": 276.1
+    },
+    {
+     "w": 6,
+     "lo": 280.0,
+     "hi": 285.2,
+     "peak": 282.0,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "sheriff shots 4:42 ammo 13->10",
+      "ability cast 4:43-44",
+      "2 live enemies at 4:44.4-45.2",
+      "no emblem/corpse"
+     ],
+     "notes": "fight ongoing; spot-check 4:44-4:52 for resolution"
+    },
+    {
+     "w": 7,
+     "lo": 292.5,
+     "hi": 297.7,
+     "peak": 294.5,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "gold sheriff inspect flourish",
+      "passive corridor walk",
+      "white/pink ability glows 4:56.9-57.7",
+      "no firing"
+     ],
+     "notes": "ambient/ability sound FP"
+    },
+    {
+     "w": 8,
+     "lo": 306.3,
+     "hi": 311.5,
+     "peak": 308.3,
+     "verdict": "good_kill_window",
+     "kill_times": [
+      309.1
+     ],
+     "setup": true,
+     "outcome": true,
+     "signals": [
+      "enemy contact + pink edit wash",
+      "fired 19->15",
+      "kill emblem 5:09.1",
+      "HP 100->87 trade",
+      "green ability FX after"
+     ],
+     "notes": "clean mid-fight kill",
+     "best_moment": 309.1
+    },
+    {
+     "w": 9,
+     "lo": 356.2,
+     "hi": 361.4,
+     "peak": 358.2,
+     "verdict": "good_kill_window",
+     "kill_times": [
+      355.5
+     ],
+     "setup": false,
+     "outcome": true,
+     "signals": [
+      "kill emblem + soul orb from kill ~5:55",
+      "2nd enemy engaged 6:00.2+",
+      "HP 100->70",
+      "firing 13->8 + killfeed banner"
+     ],
+     "notes": "kill shot pre-window ~355.5; 2nd fight resolution spot-check 6:00-6:05",
+     "best_moment": 356.5
+    },
+    {
+     "w": 10,
+     "lo": 400.9,
+     "hi": 406.1,
+     "peak": 402.9,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "lone corridor walk",
+      "ammo 13->12 (1 potshot)",
+      "no enemy/confirm"
+     ],
+     "notes": "ambient/teammate-fire FP"
+    },
+    {
+     "w": 11,
+     "lo": 417.9,
+     "hi": 419.5,
+     "peak": 419.9,
+     "verdict": "probable_kill_verify",
+     "kill_times": [
+      417.5
+     ],
+     "setup": false,
+     "outcome": true,
+     "signals": [
+      "WON banner + kill emblem",
+      "kill ~6:56-58 (sparse frames)",
+      "source cut to tunnel"
+     ],
+     "notes": "resample 6:55-6:59",
+     "best_moment": 417.5
+    }
+   ],
+   "summary": {
+    "good_kill_window": 4,
+    "exclude": 7,
+    "probable_kill_verify": 1
+   }
+  }
+ }
+}

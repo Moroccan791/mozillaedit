@@ -57,3 +57,12 @@ lead 98.5/102.7), w03 (CLUTCH kill 107.5), w06 (shot-no-kill edge 287),
 w09 (pre-window kill 355), w11 (WON-kill 416) -- reconcile during detector
 audit step: probable => audio peak is kill-ADJACENT (banner/devour/round-win
 sound), which povkills/killfeed SHOULD also learn to accept.
+
+## Parallel analyses (for detector-audit reconciliation)
+Canonical review-*.json files = session agreed pass. Independent passes kept:
+- review-Z210dNkaapY.alt-{bd40df6,d9538e8,e023fb2}.json — clip-4 alternates.
+- review-iufseng8xEs.alt-e023fb2.json — clip-5 alternate.
+e023fb2 vs canonical differs on 5 windows: clip4 w8/w9 kill-time offsets
+(309.1/355.5 vs 307.0/361.4), clip4 w11 probable-vs-exclude; clip5 w1
+probable-vs-exclude, w8 offsets (304.1/308.5 vs 301.5/306.5), w9 second
+kill 364.1. Dense resample during step-3 audit decides each.
