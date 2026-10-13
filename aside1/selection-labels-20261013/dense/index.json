@@ -1,0 +1,242 @@
+[
+ {
+  "tag": "2Ywo4r3D9DM",
+  "id": "d05",
+  "lo": 330.5,
+  "hi": 337.0,
+  "fps": 8.0,
+  "frames": 52,
+  "purpose": "canonical probable; kill~333; file lo/hi broken (210.8)",
+  "sheet": "dense/2Ywo4r3D9DM-d05.jpg"
+ },
+ {
+  "tag": "2Ywo4r3D9DM",
+  "id": "d06",
+  "lo": 258.0,
+  "hi": 267.5,
+  "fps": 7.578947368421052,
+  "frames": 72,
+  "purpose": "canonical probable; muzzle-flash kill~262.8",
+  "sheet": "dense/2Ywo4r3D9DM-d06.jpg"
+ },
+ {
+  "tag": "2Ywo4r3D9DM",
+  "id": "d08",
+  "lo": 287.2,
+  "hi": 296.7,
+  "fps": 7.578947368421052,
+  "frames": 72,
+  "purpose": "canonical probable; kill~292.5 red diamond",
+  "sheet": "dense/2Ywo4r3D9DM-d08.jpg"
+ },
+ {
+  "tag": "2Ywo4r3D9DM",
+  "id": "d09",
+  "lo": 311.9,
+  "hi": 321.4,
+  "fps": 7.578947368421052,
+  "frames": 72,
+  "purpose": "canonical probable; kill~318.5 emblem",
+  "sheet": "dense/2Ywo4r3D9DM-d09.jpg"
+ },
+ {
+  "tag": "56-Wg-oTX6M",
+  "id": "d00",
+  "lo": 47.4,
+  "hi": 56.9,
+  "fps": 7.578947368421052,
+  "frames": 72,
+  "purpose": "canonical probable; banner-edge kill~54.2",
+  "sheet": "dense/56-Wg-oTX6M-d00.jpg"
+ },
+ {
+  "tag": "56-Wg-oTX6M",
+  "id": "d10",
+  "lo": 413.5,
+  "hi": 423.5,
+  "fps": 7.2,
+  "frames": 72,
+  "purpose": "canonical probable; pre-window kill claim~416.5",
+  "sheet": "dense/56-Wg-oTX6M-d10.jpg"
+ },
+ {
+  "tag": "ObWy97A6INU",
+  "id": "d01",
+  "lo": 43.5,
+  "hi": 54.7,
+  "fps": 6.428571428571427,
+  "frames": 72,
+  "purpose": "canonical probable; pre-window kill~45.5 + transition",
+  "sheet": "dense/ObWy97A6INU-d01.jpg"
+ },
+ {
+  "tag": "ObWy97A6INU",
+  "id": "d07",
+  "lo": 340.3,
+  "hi": 349.5,
+  "fps": 7.826086956521749,
+  "frames": 72,
+  "purpose": "canonical probable; kill~341.5 AND scope shot~348",
+  "sheet": "dense/ObWy97A6INU-d07.jpg"
+ },
+ {
+  "tag": "ObWy97A6INU",
+  "id": "d08",
+  "lo": 355.0,
+  "hi": 366.2,
+  "fps": 6.428571428571435,
+  "frames": 72,
+  "purpose": "canonical probable; pre-window kill~358 (corpse+devour)",
+  "sheet": "dense/ObWy97A6INU-d08.jpg"
+ },
+ {
+  "tag": "ObWy97A6INU",
+  "id": "d11",
+  "lo": 504.4,
+  "hi": 513.6,
+  "fps": 7.8260869565217,
+  "frames": 72,
+  "purpose": "canonical probable; kill~505.5 aftermath",
+  "sheet": "dense/ObWy97A6INU-d11.jpg"
+ },
+ {
+  "tag": "iufseng8xEs",
+  "id": "d08",
+  "lo": 299.7,
+  "hi": 310.9,
+  "fps": 6.428571428571435,
+  "frames": 72,
+  "purpose": "DISPUTE: canon 301.5/306.5 vs e023fb2 304.1/308.5 vs alt 304.5",
+  "sheet": "dense/iufseng8xEs-d08.jpg"
+ },
+ {
+  "tag": "z0ALKJiFRDU",
+  "id": "d00",
+  "lo": 42.8,
+  "hi": 52.0,
+  "fps": 7.826086956521737,
+  "frames": 72,
+  "purpose": "canonical probable; kill~44.5",
+  "sheet": "dense/z0ALKJiFRDU-d00.jpg"
+ },
+ {
+  "tag": "z0ALKJiFRDU",
+  "id": "d08",
+  "lo": 354.9,
+  "hi": 364.1,
+  "fps": 7.8260869565217,
+  "frames": 72,
+  "purpose": "canonical probable; kill~358.9",
+  "sheet": "dense/z0ALKJiFRDU-d08.jpg"
+ },
+ {
+  "tag": "z0ALKJiFRDU",
+  "id": "d09",
+  "lo": 366.6,
+  "hi": 375.8,
+  "fps": 7.826086956521749,
+  "frames": 72,
+  "purpose": "canonical probable; kill~367.8",
+  "sheet": "dense/z0ALKJiFRDU-d09.jpg"
+ },
+ {
+  "tag": "z0ALKJiFRDU",
+  "id": "d11",
+  "lo": 448.3,
+  "hi": 457.5,
+  "fps": 7.826086956521749,
+  "frames": 72,
+  "purpose": "canonical probable; kill~449.8",
+  "sheet": "dense/z0ALKJiFRDU-d11.jpg"
+ },
+ {
+  "tag": "Z210dNkaapY",
+  "id": "d02",
+  "lo": 97.0,
+  "hi": 106.5,
+  "fps": 7.578947368421052,
+  "frames": 72,
+  "purpose": "DISPUTE: alt flags 97.5/102.7 probable vs canonical exclude",
+  "sheet": "dense/Z210dNkaapY-d02.jpg"
+ },
+ {
+  "tag": "Z210dNkaapY",
+  "id": "d03",
+  "lo": 105.0,
+  "hi": 115.5,
+  "fps": 6.857142857142857,
+  "frames": 72,
+  "purpose": "DISPUTE: CLUTCH kill 107.5?",
+  "sheet": "dense/Z210dNkaapY-d03.jpg"
+ },
+ {
+  "tag": "Z210dNkaapY",
+  "id": "d06",
+  "lo": 284.0,
+  "hi": 290.5,
+  "fps": 8.0,
+  "frames": 52,
+  "purpose": "DISPUTE: shot-no-kill edge 287",
+  "sheet": "dense/Z210dNkaapY-d06.jpg"
+ },
+ {
+  "tag": "Z210dNkaapY",
+  "id": "d08",
+  "lo": 301.5,
+  "hi": 310.0,
+  "fps": 8.0,
+  "frames": 68,
+  "purpose": "DISPUTE: alt probable 304.5 vs canonical good 307.0",
+  "sheet": "dense/Z210dNkaapY-d08.jpg"
+ },
+ {
+  "tag": "Z210dNkaapY",
+  "id": "d09",
+  "lo": 352.0,
+  "hi": 363.5,
+  "fps": 6.260869565217392,
+  "frames": 72,
+  "purpose": "DISPUTE: pre-window kill 355.5 vs canonical good 361.4",
+  "sheet": "dense/Z210dNkaapY-d09.jpg"
+ },
+ {
+  "tag": "Z210dNkaapY",
+  "id": "d11",
+  "lo": 414.0,
+  "hi": 421.0,
+  "fps": 8.0,
+  "frames": 48,
+  "purpose": "DISPUTE: WON-kill 416 vs canonical exclude",
+  "sheet": "dense/Z210dNkaapY-d11.jpg"
+ },
+ {
+  "tag": "iufseng8xEs",
+  "id": "d01",
+  "lo": 64.5,
+  "hi": 73.0,
+  "fps": 8.0,
+  "frames": 68,
+  "purpose": "DISPUTE: e023fb2 probable (edge kill~70) vs canonical exclude",
+  "sheet": "dense/iufseng8xEs-d01.jpg"
+ },
+ {
+  "tag": "iufseng8xEs",
+  "id": "d09",
+  "lo": 357.0,
+  "hi": 367.5,
+  "fps": 6.857142857142857,
+  "frames": 72,
+  "purpose": "DISPUTE: e023fb2 second kill 364.1",
+  "sheet": "dense/iufseng8xEs-d09.jpg"
+ },
+ {
+  "tag": "2Ywo4r3D9DM",
+  "id": "d05b",
+  "lo": 209.3,
+  "hi": 218.3,
+  "fps": 8.0,
+  "frames": 72,
+  "purpose": "CORRECTED bounds per window-report (w05=210.8-216.3 peak 212.8); kill_time 333.0 corrupt",
+  "sheet": "dense/2Ywo4r3D9DM-d05b.jpg"
+ }
+]
