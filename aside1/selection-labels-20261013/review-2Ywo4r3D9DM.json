@@ -1,38 +1,218 @@
 {
-  "schema": "agent-visual-review/v1",
-  "provenance": "independent agent frame-level visual review of decoded source frames; audio candidates only used to locate windows; labels are visual observations, not audio inference",
-  "clips": {
-    "2Ywo4r3D9DM_Ranked-but-it-s-a-1v9": {
-      "windows": [
-        {"w": 0, "lo": 4.8, "hi": 13.0, "peak": 8.8,
-         "verdict": "good_kill_window",
-         "kill_times": [7.6],
-         "setup": true, "outcome": true,
-         "signals": ["muzzle flash 6.8-7.6", "red kill-confirm banner", "center skull badge 7.6-9.6", "corpse on stairs by 11.6"],
-         "notes": "full firing->kill->aftermath visible", "best_moment": 7.6},
-        {"w": 1, "lo": 112.8, "hi": 118.3, "peak": 114.8,
-         "verdict": "exclude", "kill_times": [],
-         "signals": ["corridor rotation", "no banner/corpse/enemy contact"],
-         "notes": "repositioning only; distant spark at 1:55.6 inconclusive"},
-        {"w": 2, "lo": 117.8, "hi": 123.3, "peak": 119.8,
-         "verdict": "exclude", "kill_times": [],
-         "signals": ["rotation", "tail enters scoreboard"],
-         "notes": "overlaps w03"},
-        {"w": 3, "lo": 119.6, "hi": 125.1, "peak": 121.8,
-         "verdict": "exclude", "kill_times": [],
-         "signals": ["smoke burst 2:02.0", "dead-state red overlay", "scoreboard open 2:02.4+"],
-         "notes": "death + scoreboard; semantic false positive"},
-        {"w": 4, "lo": 125.5, "hi": 131.0, "peak": 127.5,
-         "verdict": "exclude", "kill_times": [],
-         "signals": ["scoreboard open 2:05.5-2:07.1", "knife out 2:07.5+", "weapon pickup", "ability UI frame 2:10.7"],
-         "notes": "scoreboard/knife/pickup; no kill"},
-        {"w": 5, "lo": 210.8, "hi": 216.3, "peak": 212.8,
-         "verdict": "probable_kill_verify",
-         "kill_times": [333.0],
-         "setup": true, "outcome": "partial",
-         "signals": ["Chamber ult scope (orange octagon)", "corpse + red decals in doorway 3:33.2-3:34.0", "center reward icon 3:33.6"],
-         "notes": "kill ~3:33 with Chamber Tour De Force; dense resample needed for exact shot time"}
-      ]
+ "schema": "agent-visual-review/v1",
+ "provenance": "independent agent frame-level visual review of decoded source frames; audio candidates only used to locate windows; labels are visual observations, not audio inference",
+ "clips": {
+  "2Ywo4r3D9DM_Ranked-but-it-s-a-1v9": {
+   "windows": [
+    {
+     "w": 0,
+     "lo": 4.8,
+     "hi": 13.0,
+     "peak": 8.8,
+     "verdict": "good_kill_window",
+     "kill_times": [
+      7.6
+     ],
+     "setup": true,
+     "outcome": true,
+     "signals": [
+      "muzzle flash 6.8-7.6",
+      "red kill-confirm banner",
+      "center skull badge 7.6-9.6",
+      "corpse on stairs by 11.6"
+     ],
+     "notes": "full firing->kill->aftermath visible",
+     "best_moment": 7.6
+    },
+    {
+     "w": 1,
+     "lo": 112.8,
+     "hi": 118.3,
+     "peak": 114.8,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "corridor rotation",
+      "no banner/corpse/enemy contact"
+     ],
+     "notes": "repositioning only; distant spark at 1:55.6 inconclusive"
+    },
+    {
+     "w": 2,
+     "lo": 117.8,
+     "hi": 123.3,
+     "peak": 119.8,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "rotation",
+      "tail enters scoreboard"
+     ],
+     "notes": "overlaps w03"
+    },
+    {
+     "w": 3,
+     "lo": 119.6,
+     "hi": 125.1,
+     "peak": 121.8,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "smoke burst 2:02.0",
+      "dead-state red overlay",
+      "scoreboard open 2:02.4+"
+     ],
+     "notes": "death + scoreboard; semantic false positive"
+    },
+    {
+     "w": 4,
+     "lo": 125.5,
+     "hi": 131.0,
+     "peak": 127.5,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "scoreboard open 2:05.5-2:07.1",
+      "knife out 2:07.5+",
+      "weapon pickup",
+      "ability UI frame 2:10.7"
+     ],
+     "notes": "scoreboard/knife/pickup; no kill"
+    },
+    {
+     "w": 5,
+     "lo": 210.8,
+     "hi": 216.3,
+     "peak": 212.8,
+     "verdict": "probable_kill_verify",
+     "kill_times": [
+      333.0
+     ],
+     "setup": true,
+     "outcome": "partial",
+     "signals": [
+      "Chamber ult scope (orange octagon)",
+      "corpse + red decals in doorway 3:33.2-3:34.0",
+      "center reward icon 3:33.6"
+     ],
+     "notes": "kill ~3:33 with Chamber Tour De Force; dense resample needed for exact shot time"
+    },
+    {
+     "w": 6,
+     "lo": 260.0,
+     "hi": 265.5,
+     "peak": 262.2,
+     "verdict": "probable_kill_verify",
+     "kill_times": [
+      262.8
+     ],
+     "setup": true,
+     "outcome": "partial",
+     "signals": [
+      "muzzle flash 4:21.6-4:23.2",
+      "wall scorch 4:23.2",
+      "red kill-diamond at crosshair 4:23.6-4:24.8"
+     ],
+     "notes": "enemy crossing behind wall edge; dense resample 4:21-4:25 needed",
+     "best_moment": 262.8
+    },
+    {
+     "w": 7,
+     "lo": 268.2,
+     "hi": 273.7,
+     "peak": 270.2,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "CLUTCH banner 4:28.2",
+      "BUY PHASE 4:28.6",
+      "barrier/round transition"
+     ],
+     "notes": "post-round + buy phase; semantic false positive"
+    },
+    {
+     "w": 8,
+     "lo": 289.2,
+     "hi": 294.7,
+     "peak": 291.2,
+     "verdict": "probable_kill_verify",
+     "kill_times": [
+      292.5
+     ],
+     "setup": true,
+     "outcome": true,
+     "signals": [
+      "flash/explosion 4:49.2",
+      "red tracer exchange 4:52.0",
+      "white kill-emblem at crosshair 4:52.0-4:53.6",
+      "blood splat 4:53.6",
+      "player damaged to 87 at 4:54.4"
+     ],
+     "notes": "combat push with kill confirm; resample 4:51-4:54",
+     "best_moment": 292.5
+    },
+    {
+     "w": 9,
+     "lo": 313.9,
+     "hi": 319.4,
+     "peak": 315.5,
+     "verdict": "probable_kill_verify",
+     "kill_times": [
+      318.5
+     ],
+     "setup": true,
+     "outcome": true,
+     "signals": [
+      "sustained fire ammo 25->18",
+      "enemy figure at 5:18.3",
+      "purple kill-emblem 5:18.7+",
+      "Reyna orb + pink wash context"
+     ],
+     "notes": "real fight window; resample 5:17.5-5:19",
+     "best_moment": 318.5
+    },
+    {
+     "w": 10,
+     "lo": 454.5,
+     "hi": 459.9,
+     "peak": 456.3,
+     "verdict": "good_kill_window",
+     "kill_times": [
+      457.0,
+      459.0
+     ],
+     "setup": true,
+     "outcome": true,
+     "signals": [
+      "corpse from prior kill 7:36.1",
+      "enemy engaged 7:36.9",
+      "firing ammo 25->18",
+      "red kill-emblem 7:38.9",
+      "ROUND WON banner 7:39.7"
+     ],
+     "notes": "complete fight w/ payoff; possible multi-kill; strongest candidate so far",
+     "best_moment": 458.9
+    },
+    {
+     "w": 11,
+     "lo": 469.6,
+     "hi": 475.1,
+     "peak": 471.0,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "ability cast + cyan projectile 7:50-7:52",
+      "distant potshots 7:54",
+      "no kill emblem/corpse"
+     ],
+     "notes": "ability/rotation; semantic false positive"
     }
+   ],
+   "summary": {
+    "good_kill_window": 2,
+    "exclude": 6,
+    "probable_kill_verify": 4
+   }
   }
+ }
 }
