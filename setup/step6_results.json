@@ -1,0 +1,31 @@
+{
+  "fps": 60.0,
+  "frames": 696,
+  "windows": [
+    {
+      "name": "Particles_1.mp4",
+      "start": 2.9,
+      "end": 3.6,
+      "mean_diff": 4.26,
+      "max_diff": 6.02
+    },
+    {
+      "name": "Orange_Ripple_Overlay.mp4",
+      "start": 5.8,
+      "end": 6.5,
+      "mean_diff": 3.04,
+      "max_diff": 9.88
+    },
+    {
+      "name": "Blue_Ripple_Overlay.mp4",
+      "start": 8.7,
+      "end": 9.4,
+      "mean_diff": 2.92,
+      "max_diff": 13.0
+    }
+  ],
+  "baseline": {
+    "mean_diff": 1.22,
+    "max_diff": 5.92
+  }
+}

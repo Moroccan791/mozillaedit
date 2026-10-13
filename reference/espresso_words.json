@@ -1,0 +1,465 @@
+{
+  "audio": "E:\\reference\\YTDown.com_YouTube_Media_Vp5ClXhplkU_Espresso-Valorant-Montage_002_720p.mp4",
+  "language": "en",
+  "text": "You can't sleep with me, I know that that means we're so Now you think about me and my old, is it just me, I guess so So you can't sleep with me, I know that that means we're so Would I've done that all, till I'm like Nintendo So you can't sleep with me, I know that that means we're so I can't relate, to just believe that we're beautiful",
+  "segments": [
+    {
+      "start": 8.62,
+      "end": 9.34,
+      "text": "You can't sleep with me, I know that that means we're so"
+    },
+    {
+      "start": 9.34,
+      "end": 14.32,
+      "text": "Now you think about me and my old, is it just me, I guess so"
+    },
+    {
+      "start": 15.0,
+      "end": 19.1,
+      "text": "So you can't sleep with me, I know that that means we're so"
+    },
+    {
+      "start": 19.1,
+      "end": 23.12,
+      "text": "Would I've done that all, till I'm like Nintendo"
+    },
+    {
+      "start": 24.0,
+      "end": 28.18,
+      "text": "So you can't sleep with me, I know that that means we're so"
+    },
+    {
+      "start": 28.18,
+      "end": 34.52,
+      "text": "I can't relate, to just believe that we're beautiful"
+    }
+  ],
+  "words": [
+    {
+      "start": 8.62,
+      "end": 9.34,
+      "word": "You",
+      "prob": 0.012
+    },
+    {
+      "start": 9.34,
+      "end": 9.34,
+      "word": "can't",
+      "prob": 0.506
+    },
+    {
+      "start": 9.34,
+      "end": 9.34,
+      "word": "sleep",
+      "prob": 0.452
+    },
+    {
+      "start": 9.34,
+      "end": 9.34,
+      "word": "with",
+      "prob": 0.165
+    },
+    {
+      "start": 9.34,
+      "end": 9.34,
+      "word": "me,",
+      "prob": 0.811
+    },
+    {
+      "start": 9.34,
+      "end": 9.34,
+      "word": "I",
+      "prob": 0.784
+    },
+    {
+      "start": 9.34,
+      "end": 9.34,
+      "word": "know",
+      "prob": 0.96
+    },
+    {
+      "start": 9.34,
+      "end": 9.34,
+      "word": "that",
+      "prob": 0.758
+    },
+    {
+      "start": 9.34,
+      "end": 9.34,
+      "word": "that",
+      "prob": 0.736
+    },
+    {
+      "start": 9.34,
+      "end": 9.34,
+      "word": "means",
+      "prob": 0.988
+    },
+    {
+      "start": 9.34,
+      "end": 9.34,
+      "word": "we're",
+      "prob": 0.603
+    },
+    {
+      "start": 9.34,
+      "end": 9.34,
+      "word": "so",
+      "prob": 0.86
+    },
+    {
+      "start": 9.34,
+      "end": 9.34,
+      "word": "Now",
+      "prob": 0.001
+    },
+    {
+      "start": 9.34,
+      "end": 9.62,
+      "word": "you",
+      "prob": 0.45
+    },
+    {
+      "start": 9.62,
+      "end": 10.0,
+      "word": "think",
+      "prob": 0.316
+    },
+    {
+      "start": 10.0,
+      "end": 10.72,
+      "word": "about",
+      "prob": 0.888
+    },
+    {
+      "start": 10.72,
+      "end": 11.2,
+      "word": "me",
+      "prob": 0.996
+    },
+    {
+      "start": 11.2,
+      "end": 11.58,
+      "word": "and",
+      "prob": 0.754
+    },
+    {
+      "start": 11.58,
+      "end": 12.02,
+      "word": "my",
+      "prob": 0.968
+    },
+    {
+      "start": 12.02,
+      "end": 12.52,
+      "word": "old,",
+      "prob": 0.431
+    },
+    {
+      "start": 12.58,
+      "end": 12.88,
+      "word": "is",
+      "prob": 0.312
+    },
+    {
+      "start": 12.88,
+      "end": 12.88,
+      "word": "it",
+      "prob": 0.966
+    },
+    {
+      "start": 12.88,
+      "end": 13.1,
+      "word": "just",
+      "prob": 0.389
+    },
+    {
+      "start": 13.1,
+      "end": 13.44,
+      "word": "me,",
+      "prob": 0.937
+    },
+    {
+      "start": 13.58,
+      "end": 13.7,
+      "word": "I",
+      "prob": 0.42
+    },
+    {
+      "start": 13.7,
+      "end": 13.9,
+      "word": "guess",
+      "prob": 0.943
+    },
+    {
+      "start": 13.9,
+      "end": 14.32,
+      "word": "so",
+      "prob": 0.579
+    },
+    {
+      "start": 14.7,
+      "end": 15.06,
+      "word": "So",
+      "prob": 0.219
+    },
+    {
+      "start": 15.06,
+      "end": 15.22,
+      "word": "you",
+      "prob": 0.9
+    },
+    {
+      "start": 15.22,
+      "end": 15.38,
+      "word": "can't",
+      "prob": 0.829
+    },
+    {
+      "start": 15.38,
+      "end": 15.74,
+      "word": "sleep",
+      "prob": 0.967
+    },
+    {
+      "start": 15.74,
+      "end": 16.2,
+      "word": "with",
+      "prob": 0.942
+    },
+    {
+      "start": 16.2,
+      "end": 16.36,
+      "word": "me,",
+      "prob": 0.999
+    },
+    {
+      "start": 16.44,
+      "end": 16.52,
+      "word": "I",
+      "prob": 0.983
+    },
+    {
+      "start": 16.52,
+      "end": 16.94,
+      "word": "know",
+      "prob": 0.998
+    },
+    {
+      "start": 16.94,
+      "end": 17.36,
+      "word": "that",
+      "prob": 0.967
+    },
+    {
+      "start": 17.36,
+      "end": 17.72,
+      "word": "that",
+      "prob": 0.964
+    },
+    {
+      "start": 17.72,
+      "end": 18.08,
+      "word": "means",
+      "prob": 0.993
+    },
+    {
+      "start": 18.08,
+      "end": 18.58,
+      "word": "we're",
+      "prob": 0.99
+    },
+    {
+      "start": 18.58,
+      "end": 19.1,
+      "word": "so",
+      "prob": 0.998
+    },
+    {
+      "start": 19.1,
+      "end": 19.68,
+      "word": "Would",
+      "prob": 0.591
+    },
+    {
+      "start": 19.68,
+      "end": 20.08,
+      "word": "I've",
+      "prob": 0.463
+    },
+    {
+      "start": 20.08,
+      "end": 20.58,
+      "word": "done",
+      "prob": 0.594
+    },
+    {
+      "start": 20.58,
+      "end": 21.04,
+      "word": "that",
+      "prob": 0.302
+    },
+    {
+      "start": 21.04,
+      "end": 21.52,
+      "word": "all,",
+      "prob": 0.171
+    },
+    {
+      "start": 21.8,
+      "end": 22.14,
+      "word": "till",
+      "prob": 0.278
+    },
+    {
+      "start": 22.14,
+      "end": 22.68,
+      "word": "I'm",
+      "prob": 0.582
+    },
+    {
+      "start": 22.68,
+      "end": 22.68,
+      "word": "like",
+      "prob": 0.251
+    },
+    {
+      "start": 22.68,
+      "end": 23.12,
+      "word": "Nintendo",
+      "prob": 0.101
+    },
+    {
+      "start": 23.8,
+      "end": 24.16,
+      "word": "So",
+      "prob": 0.47
+    },
+    {
+      "start": 24.16,
+      "end": 24.4,
+      "word": "you",
+      "prob": 0.996
+    },
+    {
+      "start": 24.4,
+      "end": 24.74,
+      "word": "can't",
+      "prob": 0.999
+    },
+    {
+      "start": 24.74,
+      "end": 25.0,
+      "word": "sleep",
+      "prob": 0.997
+    },
+    {
+      "start": 25.0,
+      "end": 25.38,
+      "word": "with",
+      "prob": 0.995
+    },
+    {
+      "start": 25.38,
+      "end": 25.58,
+      "word": "me,",
+      "prob": 1.0
+    },
+    {
+      "start": 25.76,
+      "end": 25.78,
+      "word": "I",
+      "prob": 0.996
+    },
+    {
+      "start": 25.78,
+      "end": 26.1,
+      "word": "know",
+      "prob": 0.999
+    },
+    {
+      "start": 26.1,
+      "end": 26.58,
+      "word": "that",
+      "prob": 0.952
+    },
+    {
+      "start": 26.58,
+      "end": 27.0,
+      "word": "that",
+      "prob": 0.971
+    },
+    {
+      "start": 27.0,
+      "end": 27.28,
+      "word": "means",
+      "prob": 0.993
+    },
+    {
+      "start": 27.28,
+      "end": 27.82,
+      "word": "we're",
+      "prob": 0.992
+    },
+    {
+      "start": 27.82,
+      "end": 28.18,
+      "word": "so",
+      "prob": 0.997
+    },
+    {
+      "start": 28.18,
+      "end": 29.16,
+      "word": "I",
+      "prob": 0.806
+    },
+    {
+      "start": 29.16,
+      "end": 29.68,
+      "word": "can't",
+      "prob": 0.611
+    },
+    {
+      "start": 29.68,
+      "end": 30.32,
+      "word": "relate,",
+      "prob": 0.979
+    },
+    {
+      "start": 31.02,
+      "end": 31.48,
+      "word": "to",
+      "prob": 0.535
+    },
+    {
+      "start": 31.48,
+      "end": 31.86,
+      "word": "just",
+      "prob": 0.18
+    },
+    {
+      "start": 31.86,
+      "end": 32.28,
+      "word": "believe",
+      "prob": 0.173
+    },
+    {
+      "start": 32.28,
+      "end": 33.04,
+      "word": "that",
+      "prob": 0.505
+    },
+    {
+      "start": 33.04,
+      "end": 34.18,
+      "word": "we're",
+      "prob": 0.261
+    },
+    {
+      "start": 34.18,
+      "end": 34.52,
+      "word": "beautiful",
+      "prob": 0.323
+    }
+  ]
+}

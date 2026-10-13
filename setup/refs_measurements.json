@@ -1,0 +1,90 @@
+{
+  "references": {
+    "YTDown.com_YouTube_Media_Vp5ClXhplkU_Espresso-Valorant-Montage_002_720p.mp4": {
+      "file": "YTDown.com_YouTube_Media_Vp5ClXhplkU_Espresso-Valorant-Montage_002_720p.mp4",
+      "duration": 35.92,
+      "fps": 60.0,
+      "bpm": 104.1,
+      "beat_len": 0.576,
+      "cuts": 33,
+      "cuts_per_sec": 0.92,
+      "cuts_per_beat": 0.53,
+      "transition": {
+        "effect_fraction": 0.36,
+        "hard_fraction": 0.64,
+        "blur_len_frames_mean": 3.2,
+        "blur_len_frames_max": 6
+      },
+      "effect_types": {
+        "hard": 21,
+        "blur": 9,
+        "flash": 3,
+        "bw": 0,
+        "invert": 0
+      },
+      "effects_per_beat": 0.19,
+      "effect_on_beat_pct": 42.0,
+      "effect_on_downbeat_pct": 25.0,
+      "cut_to_beat_ms_mean": 88.0,
+      "cut_to_beat_within40ms_pct": 33.0,
+      "colour_shift": {
+        "hue_deg_mean": 24.3,
+        "sat_mean": 23.3
+      },
+      "slowmo_longest_hold_frames": 80,
+      "slowmo_hold_fraction": 0.199,
+      "clip_start_to_shot_s": null,
+      "_note_clip_start_to_shot": "not measurable in references (no kill ground truth)"
+    },
+    "YTDown.com_YouTube_Media_YJWDatNCoCM_Let-The-World-Burn-Valorant-Montage_002_720p.mp4": {
+      "file": "YTDown.com_YouTube_Media_YJWDatNCoCM_Let-The-World-Burn-Valorant-Montage_002_720p.mp4",
+      "duration": 30.22,
+      "fps": 60.0,
+      "bpm": 98.5,
+      "beat_len": 0.609,
+      "cuts": 62,
+      "cuts_per_sec": 2.05,
+      "cuts_per_beat": 1.25,
+      "transition": {
+        "effect_fraction": 0.73,
+        "hard_fraction": 0.27,
+        "blur_len_frames_mean": 2.8,
+        "blur_len_frames_max": 5
+      },
+      "effect_types": {
+        "hard": 17,
+        "blur": 16,
+        "flash": 19,
+        "bw": 10,
+        "invert": 0
+      },
+      "effects_per_beat": 0.91,
+      "effect_on_beat_pct": 16.0,
+      "effect_on_downbeat_pct": 9.0,
+      "cut_to_beat_ms_mean": 158.0,
+      "cut_to_beat_within40ms_pct": 15.0,
+      "colour_shift": {
+        "hue_deg_mean": 37.1,
+        "sat_mean": 29.4
+      },
+      "slowmo_longest_hold_frames": 128,
+      "slowmo_hold_fraction": 0.137,
+      "clip_start_to_shot_s": null,
+      "_note_clip_start_to_shot": "not measurable in references (no kill ground truth)"
+    }
+  },
+  "aggregate": {
+    "n_files": 2,
+    "cuts_per_sec_mean": 1.48,
+    "effect_fraction_mean": 0.54,
+    "blur_len_frames_mean": 3.0,
+    "cut_to_beat_ms_mean": 123.0,
+    "hue_shift_deg_mean": null
+  },
+  "notes": [
+    "vision metrics from OpenCV frame analysis at 320px width",
+    "cut = robust frame-diff spike; effect = blur/flash/bw/invert near cut",
+    "cut->beat uses aive.beats grid (own detector, not librosa)",
+    "clip_start_to_shot not measurable without kill ground truth"
+  ]
+}

@@ -1,0 +1,5570 @@
+{
+  "note": "Captured unconfirmed numerical signals for beam-regression testing only. Not semantic/held-out calibration or full-source detection evidence. All roots intersecting reachable seed ranges retained; source paths replaced in test.",
+  "source_duration": 510.026304,
+  "candidate_events": [
+    {
+      "id": "candidate-00153",
+      "time": 45.25,
+      "attack_interval": [
+        45.245,
+        45.26
+      ],
+      "strength": 0.16969005723506622,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-00154",
+      "time": 45.525,
+      "attack_interval": [
+        45.52,
+        45.535
+      ],
+      "strength": 0.27526109637449303,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-00155",
+      "time": 46.06,
+      "attack_interval": [
+        46.055,
+        46.07
+      ],
+      "strength": 0.1997634881056139,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-00156",
+      "time": 46.14,
+      "attack_interval": [
+        46.135,
+        46.15
+      ],
+      "strength": 0.29337258630707813,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-00157",
+      "time": 46.335,
+      "attack_interval": [
+        46.33,
+        46.345
+      ],
+      "strength": 0.1629828782798762,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-00158",
+      "time": 46.625,
+      "attack_interval": [
+        46.62,
+        46.635
+      ],
+      "strength": 0.31667247683870964,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-00159",
+      "time": 46.895,
+      "attack_interval": [
+        46.89,
+        46.905
+      ],
+      "strength": 0.5037350315401486,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-00160",
+      "time": 47.205,
+      "attack_interval": [
+        47.2,
+        47.215
+      ],
+      "strength": 0.372289949691747,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-00161",
+      "time": 47.25,
+      "attack_interval": [
+        47.245,
+        47.26
+      ],
+      "strength": 0.14203723633856785,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-00162",
+      "time": 47.295,
+      "attack_interval": [
+        47.29,
+        47.305
+      ],
+      "strength": 0.20665229576619265,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-00163",
+      "time": 47.48,
+      "attack_interval": [
+        47.475,
+        47.49
+      ],
+      "strength": 0.1950689721215034,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-00164",
+      "time": 48.17,
+      "attack_interval": [
+        48.165,
+        48.18
+      ],
+      "strength": 0.24356865849847445,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-00165",
+      "time": 48.215,
+      "attack_interval": [
+        48.21,
+        48.225
+      ],
+      "strength": 0.18089156494646758,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-00166",
+      "time": 48.445,
+      "attack_interval": [
+        48.44,
+        48.455
+      ],
+      "strength": 0.37664691952320367,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-00167",
+      "time": 48.59,
+      "attack_interval": [
+        48.585,
+        48.6
+      ],
+      "strength": 0.17952908616382915,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-00168",
+      "time": 48.79,
+      "attack_interval": [
+        48.785,
+        48.8
+      ],
+      "strength": 0.26600092437151995,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-00169",
+      "time": 48.925,
+      "attack_interval": [
+        48.92,
+        48.935
+      ],
+      "strength": 0.22231396277387888,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-00170",
+      "time": 48.99,
+      "attack_interval": [
+        48.985,
+        49
+      ],
+      "strength": 0.1447617883302875,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-00171",
+      "time": 49.055,
+      "attack_interval": [
+        49.05,
+        49.065
+      ],
+      "strength": 0.273928765072893,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-00172",
+      "time": 49.23,
+      "attack_interval": [
+        49.225,
+        49.24
+      ],
+      "strength": 0.2242892274258771,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-00173",
+      "time": 49.465,
+      "attack_interval": [
+        49.46,
+        49.475
+      ],
+      "strength": 0.20134904085153976,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-00174",
+      "time": 49.77,
+      "attack_interval": [
+        49.765,
+        49.78
+      ],
+      "strength": 0.6885168834306366,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-00175",
+      "time": 49.93,
+      "attack_interval": [
+        49.925,
+        49.94
+      ],
+      "strength": 0.27638844502364124,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-00176",
+      "time": 49.985,
+      "attack_interval": [
+        49.98,
+        49.995
+      ],
+      "strength": 0.23277261354539897,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-00177",
+      "time": 50.35,
+      "attack_interval": [
+        50.345,
+        50.36
+      ],
+      "strength": 0.4299224810009145,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-00178",
+      "time": 50.45,
+      "attack_interval": [
+        50.445,
+        50.46
+      ],
+      "strength": 0.2315856068021249,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-00179",
+      "time": 50.56,
+      "attack_interval": [
+        50.555,
+        50.57
+      ],
+      "strength": 0.7642594643072422,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-00180",
+      "time": 50.63,
+      "attack_interval": [
+        50.625,
+        50.64
+      ],
+      "strength": 0.6216209744719062,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-00181",
+      "time": 50.745,
+      "attack_interval": [
+        50.74,
+        50.755
+      ],
+      "strength": 0.49653158134420605,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-00182",
+      "time": 50.84,
+      "attack_interval": [
+        50.835,
+        50.85
+      ],
+      "strength": 0.32707032377541306,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-00183",
+      "time": 51.115,
+      "attack_interval": [
+        51.11,
+        51.125
+      ],
+      "strength": 0.22604096286401762,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-00184",
+      "time": 51.175,
+      "attack_interval": [
+        51.17,
+        51.185
+      ],
+      "strength": 0.14395612498820068,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-00185",
+      "time": 51.225,
+      "attack_interval": [
+        51.22,
+        51.235
+      ],
+      "strength": 0.39350763757689255,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-00186",
+      "time": 51.295,
+      "attack_interval": [
+        51.29,
+        51.305
+      ],
+      "strength": 0.25866754010274845,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-00187",
+      "time": 51.39,
+      "attack_interval": [
+        51.385,
+        51.4
+      ],
+      "strength": 0.14253907192650284,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-00188",
+      "time": 51.605,
+      "attack_interval": [
+        51.6,
+        51.615
+      ],
+      "strength": 0.26099122991673873,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-00189",
+      "time": 51.685,
+      "attack_interval": [
+        51.68,
+        51.695
+      ],
+      "strength": 0.5193268380883387,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-00190",
+      "time": 51.975,
+      "attack_interval": [
+        51.97,
+        51.985
+      ],
+      "strength": 0.5957213285853746,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01151",
+      "time": 281.97,
+      "attack_interval": [
+        281.965,
+        281.98
+      ],
+      "strength": 0.232029879685125,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01152",
+      "time": 282.045,
+      "attack_interval": [
+        282.04,
+        282.055
+      ],
+      "strength": 0.23412807403857616,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01153",
+      "time": 282.14,
+      "attack_interval": [
+        282.135,
+        282.15
+      ],
+      "strength": 0.17952940049242133,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01154",
+      "time": 282.26,
+      "attack_interval": [
+        282.255,
+        282.27
+      ],
+      "strength": 0.1760935431733106,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01155",
+      "time": 282.505,
+      "attack_interval": [
+        282.5,
+        282.515
+      ],
+      "strength": 0.19440683815351054,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01156",
+      "time": 282.55,
+      "attack_interval": [
+        282.545,
+        282.56
+      ],
+      "strength": 0.16468838248712464,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01157",
+      "time": 282.775,
+      "attack_interval": [
+        282.77,
+        282.785
+      ],
+      "strength": 0.2778742226154166,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01158",
+      "time": 283.1,
+      "attack_interval": [
+        283.095,
+        283.11
+      ],
+      "strength": 0.19560393050158997,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01159",
+      "time": 283.42,
+      "attack_interval": [
+        283.415,
+        283.43
+      ],
+      "strength": 0.3617976450859488,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01160",
+      "time": 283.905,
+      "attack_interval": [
+        283.9,
+        283.915
+      ],
+      "strength": 0.6364069633676935,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01161",
+      "time": 283.97,
+      "attack_interval": [
+        283.965,
+        283.98
+      ],
+      "strength": 0.9090951052348788,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01162",
+      "time": 284.24,
+      "attack_interval": [
+        284.235,
+        284.25
+      ],
+      "strength": 0.5671197038716412,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01163",
+      "time": 284.34,
+      "attack_interval": [
+        284.335,
+        284.35
+      ],
+      "strength": 0.31341642996739727,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01164",
+      "time": 284.665,
+      "attack_interval": [
+        284.66,
+        284.675
+      ],
+      "strength": 0.2284143224422011,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01165",
+      "time": 284.76,
+      "attack_interval": [
+        284.755,
+        284.77
+      ],
+      "strength": 0.18227052460048512,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01166",
+      "time": 285.295,
+      "attack_interval": [
+        285.29,
+        285.305
+      ],
+      "strength": 0.3843706423983417,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01167",
+      "time": 285.47,
+      "attack_interval": [
+        285.465,
+        285.48
+      ],
+      "strength": 0.24685651578659945,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01168",
+      "time": 285.67,
+      "attack_interval": [
+        285.665,
+        285.68
+      ],
+      "strength": 0.2060716198846231,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01169",
+      "time": 285.72,
+      "attack_interval": [
+        285.715,
+        285.73
+      ],
+      "strength": 0.14670720724682582,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01170",
+      "time": 286.07,
+      "attack_interval": [
+        286.065,
+        286.08
+      ],
+      "strength": 0.1786747029329106,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01171",
+      "time": 286.265,
+      "attack_interval": [
+        286.26,
+        286.275
+      ],
+      "strength": 0.21793853053664602,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01172",
+      "time": 286.35,
+      "attack_interval": [
+        286.345,
+        286.36
+      ],
+      "strength": 0.22522299840040477,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01173",
+      "time": 286.78,
+      "attack_interval": [
+        286.775,
+        286.79
+      ],
+      "strength": 0.35533997176996657,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01174",
+      "time": 286.875,
+      "attack_interval": [
+        286.87,
+        286.885
+      ],
+      "strength": 0.32353677540586406,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01175",
+      "time": 287.175,
+      "attack_interval": [
+        287.17,
+        287.185
+      ],
+      "strength": 0.2967577470801093,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01176",
+      "time": 287.325,
+      "attack_interval": [
+        287.32,
+        287.335
+      ],
+      "strength": 0.36551555218961684,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01177",
+      "time": 287.43,
+      "attack_interval": [
+        287.425,
+        287.44
+      ],
+      "strength": 0.23149806195185574,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01178",
+      "time": 287.525,
+      "attack_interval": [
+        287.52,
+        287.535
+      ],
+      "strength": 0.22183612280366355,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01179",
+      "time": 287.785,
+      "attack_interval": [
+        287.78,
+        287.795
+      ],
+      "strength": 0.30888126700916946,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01180",
+      "time": 287.83,
+      "attack_interval": [
+        287.825,
+        287.84
+      ],
+      "strength": 0.16523121366928575,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01181",
+      "time": 288.075,
+      "attack_interval": [
+        288.07,
+        288.085
+      ],
+      "strength": 0.13716307040635023,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01182",
+      "time": 289.105,
+      "attack_interval": [
+        289.1,
+        289.115
+      ],
+      "strength": 0.16249282784004293,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01183",
+      "time": 289.66,
+      "attack_interval": [
+        289.655,
+        289.67
+      ],
+      "strength": 0.37828466995429416,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01184",
+      "time": 289.73,
+      "attack_interval": [
+        289.725,
+        289.74
+      ],
+      "strength": 0.14267403164590575,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01185",
+      "time": 290.155,
+      "attack_interval": [
+        290.15,
+        290.165
+      ],
+      "strength": 0.15965013636654937,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01186",
+      "time": 290.325,
+      "attack_interval": [
+        290.32,
+        290.335
+      ],
+      "strength": 0.18276340638186858,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01187",
+      "time": 290.635,
+      "attack_interval": [
+        290.63,
+        290.645
+      ],
+      "strength": 0.2117348541129717,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01188",
+      "time": 290.71,
+      "attack_interval": [
+        290.705,
+        290.72
+      ],
+      "strength": 0.349252639836201,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01189",
+      "time": 291.005,
+      "attack_interval": [
+        291,
+        291.015
+      ],
+      "strength": 0.5200653238813808,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01221",
+      "time": 296.755,
+      "attack_interval": [
+        296.75,
+        296.765
+      ],
+      "strength": 0.19914894991007398,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01222",
+      "time": 297.335,
+      "attack_interval": [
+        297.33,
+        297.345
+      ],
+      "strength": 0.5742359709867734,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01223",
+      "time": 297.695,
+      "attack_interval": [
+        297.69,
+        297.705
+      ],
+      "strength": 0.2541205801046221,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01224",
+      "time": 297.865,
+      "attack_interval": [
+        297.86,
+        297.875
+      ],
+      "strength": 0.14232972339275596,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01225",
+      "time": 299.325,
+      "attack_interval": [
+        299.32,
+        299.335
+      ],
+      "strength": 0.13231350819116297,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01226",
+      "time": 299.64,
+      "attack_interval": [
+        299.635,
+        299.65
+      ],
+      "strength": 0.23327545340956765,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01227",
+      "time": 299.715,
+      "attack_interval": [
+        299.71,
+        299.725
+      ],
+      "strength": 0.4419201551206987,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01228",
+      "time": 299.99,
+      "attack_interval": [
+        299.985,
+        300
+      ],
+      "strength": 0.7938826357146145,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01229",
+      "time": 300.08,
+      "attack_interval": [
+        300.075,
+        300.09
+      ],
+      "strength": 0.23205688034714692,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01230",
+      "time": 300.59,
+      "attack_interval": [
+        300.585,
+        300.6
+      ],
+      "strength": 0.13194500256469568,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01231",
+      "time": 301.575,
+      "attack_interval": [
+        301.57,
+        301.585
+      ],
+      "strength": 0.6420930973775039,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01232",
+      "time": 301.645,
+      "attack_interval": [
+        301.64,
+        301.655
+      ],
+      "strength": 0.21111267131649794,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01233",
+      "time": 301.7,
+      "attack_interval": [
+        301.695,
+        301.71
+      ],
+      "strength": 0.5761407222249272,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01234",
+      "time": 301.865,
+      "attack_interval": [
+        301.86,
+        301.875
+      ],
+      "strength": 0.3671555650788197,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01235",
+      "time": 301.91,
+      "attack_interval": [
+        301.905,
+        301.92
+      ],
+      "strength": 0.4963859587547352,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01236",
+      "time": 301.955,
+      "attack_interval": [
+        301.95,
+        301.965
+      ],
+      "strength": 0.3068904806038083,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01237",
+      "time": 302.55,
+      "attack_interval": [
+        302.545,
+        302.56
+      ],
+      "strength": 0.6861858519238435,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01238",
+      "time": 302.715,
+      "attack_interval": [
+        302.71,
+        302.725
+      ],
+      "strength": 0.7374731704123758,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01239",
+      "time": 302.9,
+      "attack_interval": [
+        302.895,
+        302.91
+      ],
+      "strength": 0.6380718774512982,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01240",
+      "time": 303.075,
+      "attack_interval": [
+        303.07,
+        303.085
+      ],
+      "strength": 0.6152210368436964,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01389",
+      "time": 340.365,
+      "attack_interval": [
+        340.36,
+        340.375
+      ],
+      "strength": 0.19679257272317652,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01390",
+      "time": 340.415,
+      "attack_interval": [
+        340.41,
+        340.425
+      ],
+      "strength": 0.26268717633581556,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01391",
+      "time": 340.675,
+      "attack_interval": [
+        340.67,
+        340.685
+      ],
+      "strength": 0.2513735938903023,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01392",
+      "time": 341.075,
+      "attack_interval": [
+        341.07,
+        341.085
+      ],
+      "strength": 0.34676103185905116,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01393",
+      "time": 341.15,
+      "attack_interval": [
+        341.145,
+        341.16
+      ],
+      "strength": 0.2168446872667864,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01394",
+      "time": 341.255,
+      "attack_interval": [
+        341.25,
+        341.265
+      ],
+      "strength": 0.22387465744931928,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01395",
+      "time": 341.4,
+      "attack_interval": [
+        341.395,
+        341.41
+      ],
+      "strength": 0.1742352653328401,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01396",
+      "time": 341.445,
+      "attack_interval": [
+        341.44,
+        341.455
+      ],
+      "strength": 0.32582904255454603,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01397",
+      "time": 341.505,
+      "attack_interval": [
+        341.5,
+        341.515
+      ],
+      "strength": 0.22157020866311525,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01398",
+      "time": 341.635,
+      "attack_interval": [
+        341.63,
+        341.645
+      ],
+      "strength": 0.5425624953321574,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01399",
+      "time": 341.68,
+      "attack_interval": [
+        341.675,
+        341.69
+      ],
+      "strength": 0.8412858831077336,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01400",
+      "time": 341.735,
+      "attack_interval": [
+        341.73,
+        341.745
+      ],
+      "strength": 0.3866527557209015,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01401",
+      "time": 342.405,
+      "attack_interval": [
+        342.4,
+        342.415
+      ],
+      "strength": 0.14942846814138053,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01402",
+      "time": 342.565,
+      "attack_interval": [
+        342.56,
+        342.575
+      ],
+      "strength": 0.137240842855771,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01403",
+      "time": 342.94,
+      "attack_interval": [
+        342.935,
+        342.95
+      ],
+      "strength": 0.13799297027473673,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01404",
+      "time": 343.2,
+      "attack_interval": [
+        343.195,
+        343.21
+      ],
+      "strength": 0.13225409791263673,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01405",
+      "time": 343.36,
+      "attack_interval": [
+        343.355,
+        343.37
+      ],
+      "strength": 0.7371849502186102,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01406",
+      "time": 343.405,
+      "attack_interval": [
+        343.4,
+        343.415
+      ],
+      "strength": 0.13503215771679175,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01407",
+      "time": 343.505,
+      "attack_interval": [
+        343.5,
+        343.515
+      ],
+      "strength": 0.1397535216635291,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01408",
+      "time": 343.715,
+      "attack_interval": [
+        343.71,
+        343.725
+      ],
+      "strength": 0.1843646000379718,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01409",
+      "time": 343.795,
+      "attack_interval": [
+        343.79,
+        343.805
+      ],
+      "strength": 0.13827316969200693,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01410",
+      "time": 344.075,
+      "attack_interval": [
+        344.07,
+        344.085
+      ],
+      "strength": 0.16696587166439988,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01411",
+      "time": 344.425,
+      "attack_interval": [
+        344.42,
+        344.435
+      ],
+      "strength": 0.17168554349194373,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01412",
+      "time": 344.86,
+      "attack_interval": [
+        344.855,
+        344.87
+      ],
+      "strength": 0.37749831568685993,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01413",
+      "time": 344.91,
+      "attack_interval": [
+        344.905,
+        344.92
+      ],
+      "strength": 0.28569523320757106,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01414",
+      "time": 344.965,
+      "attack_interval": [
+        344.96,
+        344.975
+      ],
+      "strength": 0.19067827263254644,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01415",
+      "time": 345.195,
+      "attack_interval": [
+        345.19,
+        345.205
+      ],
+      "strength": 0.2683205388951599,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01416",
+      "time": 345.255,
+      "attack_interval": [
+        345.25,
+        345.265
+      ],
+      "strength": 0.5078868953179771,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01417",
+      "time": 345.3,
+      "attack_interval": [
+        345.295,
+        345.31
+      ],
+      "strength": 0.22635914598727314,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01418",
+      "time": 345.53,
+      "attack_interval": [
+        345.525,
+        345.54
+      ],
+      "strength": 0.4688570160016598,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01419",
+      "time": 345.585,
+      "attack_interval": [
+        345.58,
+        345.595
+      ],
+      "strength": 0.2529956182617939,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01420",
+      "time": 345.865,
+      "attack_interval": [
+        345.86,
+        345.875
+      ],
+      "strength": 0.2006562980759918,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01421",
+      "time": 345.92,
+      "attack_interval": [
+        345.915,
+        345.93
+      ],
+      "strength": 0.2819501598865126,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01422",
+      "time": 345.965,
+      "attack_interval": [
+        345.96,
+        345.975
+      ],
+      "strength": 0.34881284382390754,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01423",
+      "time": 346.225,
+      "attack_interval": [
+        346.22,
+        346.235
+      ],
+      "strength": 0.6381072554706531,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01424",
+      "time": 346.37,
+      "attack_interval": [
+        346.365,
+        346.38
+      ],
+      "strength": 0.35307790950095985,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01425",
+      "time": 346.54,
+      "attack_interval": [
+        346.535,
+        346.55
+      ],
+      "strength": 0.1581716164532157,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01426",
+      "time": 346.69,
+      "attack_interval": [
+        346.685,
+        346.7
+      ],
+      "strength": 0.19352436331381095,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01427",
+      "time": 346.75,
+      "attack_interval": [
+        346.745,
+        346.76
+      ],
+      "strength": 0.38294092504740757,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01428",
+      "time": 346.81,
+      "attack_interval": [
+        346.805,
+        346.82
+      ],
+      "strength": 0.23102244855614143,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01570",
+      "time": 381.7,
+      "attack_interval": [
+        381.695,
+        381.71
+      ],
+      "strength": 0.483315746651141,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01571",
+      "time": 381.795,
+      "attack_interval": [
+        381.79,
+        381.805
+      ],
+      "strength": 0.501088665982186,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01572",
+      "time": 381.945,
+      "attack_interval": [
+        381.94,
+        381.955
+      ],
+      "strength": 0.3514294114053748,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01573",
+      "time": 382.05,
+      "attack_interval": [
+        382.045,
+        382.06
+      ],
+      "strength": 0.20009886135258775,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01574",
+      "time": 382.145,
+      "attack_interval": [
+        382.14,
+        382.155
+      ],
+      "strength": 0.4086595243168375,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01575",
+      "time": 382.255,
+      "attack_interval": [
+        382.25,
+        382.265
+      ],
+      "strength": 0.41947744777503404,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01576",
+      "time": 382.365,
+      "attack_interval": [
+        382.36,
+        382.375
+      ],
+      "strength": 0.46015018091290233,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01577",
+      "time": 382.425,
+      "attack_interval": [
+        382.42,
+        382.435
+      ],
+      "strength": 0.1777163848699963,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01578",
+      "time": 382.565,
+      "attack_interval": [
+        382.56,
+        382.575
+      ],
+      "strength": 0.27115802088070456,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01579",
+      "time": 382.665,
+      "attack_interval": [
+        382.66,
+        382.675
+      ],
+      "strength": 0.33748093810216795,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01580",
+      "time": 382.755,
+      "attack_interval": [
+        382.75,
+        382.765
+      ],
+      "strength": 0.5287145234678817,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01581",
+      "time": 382.855,
+      "attack_interval": [
+        382.85,
+        382.865
+      ],
+      "strength": 0.8788518070510631,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01582",
+      "time": 383.2,
+      "attack_interval": [
+        383.195,
+        383.21
+      ],
+      "strength": 0.36858667302599685,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01583",
+      "time": 383.415,
+      "attack_interval": [
+        383.41,
+        383.425
+      ],
+      "strength": 0.2025798165371402,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01584",
+      "time": 383.46,
+      "attack_interval": [
+        383.455,
+        383.47
+      ],
+      "strength": 0.4627861022025066,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01585",
+      "time": 383.51,
+      "attack_interval": [
+        383.505,
+        383.52
+      ],
+      "strength": 0.5292362721582118,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01586",
+      "time": 383.66,
+      "attack_interval": [
+        383.655,
+        383.67
+      ],
+      "strength": 0.20581651067497697,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01587",
+      "time": 383.78,
+      "attack_interval": [
+        383.775,
+        383.79
+      ],
+      "strength": 0.6442203249670164,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01588",
+      "time": 383.88,
+      "attack_interval": [
+        383.875,
+        383.89
+      ],
+      "strength": 0.734214856821402,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01589",
+      "time": 384.05,
+      "attack_interval": [
+        384.045,
+        384.06
+      ],
+      "strength": 0.40496621644818365,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01590",
+      "time": 384.175,
+      "attack_interval": [
+        384.17,
+        384.185
+      ],
+      "strength": 0.34429710059754,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01591",
+      "time": 384.27,
+      "attack_interval": [
+        384.265,
+        384.28
+      ],
+      "strength": 0.6005958940075067,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01592",
+      "time": 384.45,
+      "attack_interval": [
+        384.445,
+        384.46
+      ],
+      "strength": 0.26277808018558574,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01593",
+      "time": 384.85,
+      "attack_interval": [
+        384.845,
+        384.86
+      ],
+      "strength": 0.2903987477206781,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01594",
+      "time": 385.505,
+      "attack_interval": [
+        385.5,
+        385.515
+      ],
+      "strength": 0.7335050306072475,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01595",
+      "time": 385.615,
+      "attack_interval": [
+        385.61,
+        385.625
+      ],
+      "strength": 0.39824049757202384,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01596",
+      "time": 385.68,
+      "attack_interval": [
+        385.675,
+        385.69
+      ],
+      "strength": 0.2833789964871907,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01597",
+      "time": 385.825,
+      "attack_interval": [
+        385.82,
+        385.835
+      ],
+      "strength": 0.17060498918981276,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01598",
+      "time": 386.255,
+      "attack_interval": [
+        386.25,
+        386.265
+      ],
+      "strength": 0.34697789193233924,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01599",
+      "time": 386.395,
+      "attack_interval": [
+        386.39,
+        386.405
+      ],
+      "strength": 0.3154774481143833,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01600",
+      "time": 386.49,
+      "attack_interval": [
+        386.485,
+        386.5
+      ],
+      "strength": 0.36105129852266926,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01601",
+      "time": 386.64,
+      "attack_interval": [
+        386.635,
+        386.65
+      ],
+      "strength": 0.20707366667717647,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01602",
+      "time": 386.745,
+      "attack_interval": [
+        386.74,
+        386.755
+      ],
+      "strength": 0.28144992317789014,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01603",
+      "time": 386.845,
+      "attack_interval": [
+        386.84,
+        386.855
+      ],
+      "strength": 0.17796454586948765,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01604",
+      "time": 387.445,
+      "attack_interval": [
+        387.44,
+        387.455
+      ],
+      "strength": 0.3163172227989644,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01605",
+      "time": 387.85,
+      "attack_interval": [
+        387.845,
+        387.86
+      ],
+      "strength": 0.2052994606154491,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01606",
+      "time": 388.22,
+      "attack_interval": [
+        388.215,
+        388.23
+      ],
+      "strength": 0.25927998683703735,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01607",
+      "time": 388.4,
+      "attack_interval": [
+        388.395,
+        388.41
+      ],
+      "strength": 0.5523711473380093,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01608",
+      "time": 388.455,
+      "attack_interval": [
+        388.45,
+        388.465
+      ],
+      "strength": 0.3092656144758009,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01640",
+      "time": 396.94,
+      "attack_interval": [
+        396.935,
+        396.95
+      ],
+      "strength": 0.24715707312316673,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01641",
+      "time": 396.985,
+      "attack_interval": [
+        396.98,
+        396.995
+      ],
+      "strength": 0.20579780696085875,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01642",
+      "time": 397.035,
+      "attack_interval": [
+        397.03,
+        397.045
+      ],
+      "strength": 0.21237196109665582,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01643",
+      "time": 397.415,
+      "attack_interval": [
+        397.41,
+        397.425
+      ],
+      "strength": 0.21491162784062923,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01644",
+      "time": 397.47,
+      "attack_interval": [
+        397.465,
+        397.48
+      ],
+      "strength": 0.14301706202030495,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01645",
+      "time": 397.515,
+      "attack_interval": [
+        397.51,
+        397.525
+      ],
+      "strength": 0.28125246754117145,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01646",
+      "time": 398.07,
+      "attack_interval": [
+        398.065,
+        398.08
+      ],
+      "strength": 0.15475153194183608,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01647",
+      "time": 398.32,
+      "attack_interval": [
+        398.315,
+        398.33
+      ],
+      "strength": 0.1805138771150299,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01648",
+      "time": 398.91,
+      "attack_interval": [
+        398.905,
+        398.92
+      ],
+      "strength": 0.22151832539277,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01649",
+      "time": 399.475,
+      "attack_interval": [
+        399.47,
+        399.485
+      ],
+      "strength": 0.2759007743240685,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01650",
+      "time": 399.615,
+      "attack_interval": [
+        399.61,
+        399.625
+      ],
+      "strength": 0.3464785737889296,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01651",
+      "time": 399.765,
+      "attack_interval": [
+        399.76,
+        399.775
+      ],
+      "strength": 0.2537512968965367,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01652",
+      "time": 399.935,
+      "attack_interval": [
+        399.93,
+        399.945
+      ],
+      "strength": 0.5764880810268956,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01653",
+      "time": 400.045,
+      "attack_interval": [
+        400.04,
+        400.055
+      ],
+      "strength": 0.2054878475860764,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01654",
+      "time": 400.2,
+      "attack_interval": [
+        400.195,
+        400.21
+      ],
+      "strength": 0.13100378868005141,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01655",
+      "time": 400.505,
+      "attack_interval": [
+        400.5,
+        400.515
+      ],
+      "strength": 0.18295641140325067,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01656",
+      "time": 400.885,
+      "attack_interval": [
+        400.88,
+        400.895
+      ],
+      "strength": 0.14272371775007447,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01657",
+      "time": 401.5,
+      "attack_interval": [
+        401.495,
+        401.51
+      ],
+      "strength": 0.17352302415241913,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01658",
+      "time": 401.61,
+      "attack_interval": [
+        401.605,
+        401.62
+      ],
+      "strength": 0.15209291365890484,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01659",
+      "time": 401.705,
+      "attack_interval": [
+        401.7,
+        401.715
+      ],
+      "strength": 0.14220640181409896,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01660",
+      "time": 401.96,
+      "attack_interval": [
+        401.955,
+        401.97
+      ],
+      "strength": 0.6175528965171472,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01661",
+      "time": 402.045,
+      "attack_interval": [
+        402.04,
+        402.055
+      ],
+      "strength": 0.43031865159797283,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01662",
+      "time": 402.165,
+      "attack_interval": [
+        402.16,
+        402.175
+      ],
+      "strength": 0.3991660881298743,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01663",
+      "time": 402.26,
+      "attack_interval": [
+        402.255,
+        402.27
+      ],
+      "strength": 0.15910854931762344,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01664",
+      "time": 402.37,
+      "attack_interval": [
+        402.365,
+        402.38
+      ],
+      "strength": 0.1454806470232665,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01665",
+      "time": 402.625,
+      "attack_interval": [
+        402.62,
+        402.635
+      ],
+      "strength": 0.1757344119828076,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01666",
+      "time": 402.985,
+      "attack_interval": [
+        402.98,
+        402.995
+      ],
+      "strength": 0.22836278035062832,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01667",
+      "time": 403.235,
+      "attack_interval": [
+        403.23,
+        403.245
+      ],
+      "strength": 0.15891021252557963,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01668",
+      "time": 403.615,
+      "attack_interval": [
+        403.61,
+        403.625
+      ],
+      "strength": 0.18866138295292495,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01669",
+      "time": 403.86,
+      "attack_interval": [
+        403.855,
+        403.87
+      ],
+      "strength": 0.3419373847258364,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01721",
+      "time": 414.74,
+      "attack_interval": [
+        414.735,
+        414.75
+      ],
+      "strength": 0.264012176620611,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01722",
+      "time": 415.01,
+      "attack_interval": [
+        415.005,
+        415.02
+      ],
+      "strength": 0.29243743482678963,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01723",
+      "time": 415.075,
+      "attack_interval": [
+        415.07,
+        415.085
+      ],
+      "strength": 0.31729353296026086,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01724",
+      "time": 415.185,
+      "attack_interval": [
+        415.18,
+        415.195
+      ],
+      "strength": 0.29402491854990565,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01725",
+      "time": 415.28,
+      "attack_interval": [
+        415.275,
+        415.29
+      ],
+      "strength": 0.15287766146704804,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01726",
+      "time": 415.43,
+      "attack_interval": [
+        415.425,
+        415.44
+      ],
+      "strength": 0.1860764536591288,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01727",
+      "time": 415.77,
+      "attack_interval": [
+        415.765,
+        415.78
+      ],
+      "strength": 0.538451426003555,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01728",
+      "time": 416.225,
+      "attack_interval": [
+        416.22,
+        416.235
+      ],
+      "strength": 0.13212691095190712,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01729",
+      "time": 416.565,
+      "attack_interval": [
+        416.56,
+        416.575
+      ],
+      "strength": 0.29642524275539117,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01730",
+      "time": 416.625,
+      "attack_interval": [
+        416.62,
+        416.635
+      ],
+      "strength": 0.14951084536721634,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01731",
+      "time": 416.92,
+      "attack_interval": [
+        416.915,
+        416.93
+      ],
+      "strength": 0.15261318219588094,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01732",
+      "time": 417.03,
+      "attack_interval": [
+        417.025,
+        417.04
+      ],
+      "strength": 0.2868092949996122,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01733",
+      "time": 417.135,
+      "attack_interval": [
+        417.13,
+        417.145
+      ],
+      "strength": 0.3835950788197143,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01734",
+      "time": 417.215,
+      "attack_interval": [
+        417.21,
+        417.225
+      ],
+      "strength": 0.1387838289161696,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01735",
+      "time": 417.35,
+      "attack_interval": [
+        417.345,
+        417.36
+      ],
+      "strength": 0.4937756043394989,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01736",
+      "time": 417.45,
+      "attack_interval": [
+        417.445,
+        417.46
+      ],
+      "strength": 0.1618072317110576,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01737",
+      "time": 417.805,
+      "attack_interval": [
+        417.8,
+        417.815
+      ],
+      "strength": 0.2677311633268874,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01738",
+      "time": 417.945,
+      "attack_interval": [
+        417.94,
+        417.955
+      ],
+      "strength": 0.34584037997559813,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01739",
+      "time": 418.595,
+      "attack_interval": [
+        418.59,
+        418.605
+      ],
+      "strength": 0.3687086651960155,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01740",
+      "time": 418.665,
+      "attack_interval": [
+        418.66,
+        418.675
+      ],
+      "strength": 0.15901027534353934,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01741",
+      "time": 418.905,
+      "attack_interval": [
+        418.9,
+        418.915
+      ],
+      "strength": 0.1798229070429897,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01742",
+      "time": 420.08,
+      "attack_interval": [
+        420.075,
+        420.09
+      ],
+      "strength": 0.16293636591241964,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01743",
+      "time": 420.29,
+      "attack_interval": [
+        420.285,
+        420.3
+      ],
+      "strength": 0.13271691314247192,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01744",
+      "time": 420.665,
+      "attack_interval": [
+        420.66,
+        420.675
+      ],
+      "strength": 0.1787081406705271,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01745",
+      "time": 421.055,
+      "attack_interval": [
+        421.05,
+        421.065
+      ],
+      "strength": 0.3240434627074148,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01746",
+      "time": 421.135,
+      "attack_interval": [
+        421.13,
+        421.145
+      ],
+      "strength": 0.1658774004217089,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01747",
+      "time": 421.36,
+      "attack_interval": [
+        421.355,
+        421.37
+      ],
+      "strength": 0.14102647670978827,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01748",
+      "time": 421.645,
+      "attack_interval": [
+        421.64,
+        421.655
+      ],
+      "strength": 0.18216059022342043,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01749",
+      "time": 421.705,
+      "attack_interval": [
+        421.7,
+        421.715
+      ],
+      "strength": 0.24826235034235947,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01750",
+      "time": 422.13,
+      "attack_interval": [
+        422.125,
+        422.14
+      ],
+      "strength": 0.6793787602792514,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01751",
+      "time": 422.205,
+      "attack_interval": [
+        422.2,
+        422.215
+      ],
+      "strength": 0.6632071836123961,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01752",
+      "time": 422.665,
+      "attack_interval": [
+        422.66,
+        422.675
+      ],
+      "strength": 0.1549053884542706,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01753",
+      "time": 422.885,
+      "attack_interval": [
+        422.88,
+        422.895
+      ],
+      "strength": 0.6939172569654182,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01754",
+      "time": 422.995,
+      "attack_interval": [
+        422.99,
+        423.005
+      ],
+      "strength": 0.1763207070293417,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01755",
+      "time": 423.085,
+      "attack_interval": [
+        423.08,
+        423.095
+      ],
+      "strength": 0.27065249553787835,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01756",
+      "time": 423.205,
+      "attack_interval": [
+        423.2,
+        423.215
+      ],
+      "strength": 0.14573436556038702,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01757",
+      "time": 423.3,
+      "attack_interval": [
+        423.295,
+        423.31
+      ],
+      "strength": 0.3209193568653327,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01758",
+      "time": 423.385,
+      "attack_interval": [
+        423.38,
+        423.395
+      ],
+      "strength": 0.2788058960293923,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01759",
+      "time": 423.61,
+      "attack_interval": [
+        423.605,
+        423.62
+      ],
+      "strength": 0.15705026674379924,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01760",
+      "time": 423.875,
+      "attack_interval": [
+        423.87,
+        423.885
+      ],
+      "strength": 0.29495418882576907,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01761",
+      "time": 424.095,
+      "attack_interval": [
+        424.09,
+        424.105
+      ],
+      "strength": 0.24119377315701726,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01762",
+      "time": 424.27,
+      "attack_interval": [
+        424.265,
+        424.28
+      ],
+      "strength": 0.28519483356912395,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01763",
+      "time": 424.33,
+      "attack_interval": [
+        424.325,
+        424.34
+      ],
+      "strength": 0.4592759239030906,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01764",
+      "time": 424.385,
+      "attack_interval": [
+        424.38,
+        424.395
+      ],
+      "strength": 0.21710748600591395,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01765",
+      "time": 424.605,
+      "attack_interval": [
+        424.6,
+        424.615
+      ],
+      "strength": 0.2588740489990337,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01766",
+      "time": 424.805,
+      "attack_interval": [
+        424.8,
+        424.815
+      ],
+      "strength": 0.48387394595547384,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01767",
+      "time": 425.075,
+      "attack_interval": [
+        425.07,
+        425.085
+      ],
+      "strength": 0.20988209927653964,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01768",
+      "time": 425.495,
+      "attack_interval": [
+        425.49,
+        425.505
+      ],
+      "strength": 0.19445442338271055,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01769",
+      "time": 425.905,
+      "attack_interval": [
+        425.9,
+        425.915
+      ],
+      "strength": 0.22439456594890136,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01773",
+      "time": 426.925,
+      "attack_interval": [
+        426.92,
+        426.935
+      ],
+      "strength": 0.7614755294215465,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01774",
+      "time": 427.03,
+      "attack_interval": [
+        427.025,
+        427.04
+      ],
+      "strength": 0.21226229427287005,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01775",
+      "time": 427.12,
+      "attack_interval": [
+        427.115,
+        427.13
+      ],
+      "strength": 0.39779111053846095,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01776",
+      "time": 427.215,
+      "attack_interval": [
+        427.21,
+        427.225
+      ],
+      "strength": 0.21563823442796654,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01777",
+      "time": 427.505,
+      "attack_interval": [
+        427.5,
+        427.515
+      ],
+      "strength": 0.41368770255894044,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01778",
+      "time": 427.745,
+      "attack_interval": [
+        427.74,
+        427.755
+      ],
+      "strength": 0.22463987094274956,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01779",
+      "time": 427.835,
+      "attack_interval": [
+        427.83,
+        427.845
+      ],
+      "strength": 0.13125455691371782,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01780",
+      "time": 428.13,
+      "attack_interval": [
+        428.125,
+        428.14
+      ],
+      "strength": 0.6503721600639542,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01781",
+      "time": 429.11,
+      "attack_interval": [
+        429.105,
+        429.12
+      ],
+      "strength": 0.20124936870408422,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01782",
+      "time": 429.375,
+      "attack_interval": [
+        429.37,
+        429.385
+      ],
+      "strength": 0.38551011969530785,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01783",
+      "time": 429.43,
+      "attack_interval": [
+        429.425,
+        429.44
+      ],
+      "strength": 0.2443472211808278,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01784",
+      "time": 429.645,
+      "attack_interval": [
+        429.64,
+        429.655
+      ],
+      "strength": 0.2917103994633753,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01785",
+      "time": 429.85,
+      "attack_interval": [
+        429.845,
+        429.86
+      ],
+      "strength": 0.3924656819415131,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01786",
+      "time": 429.945,
+      "attack_interval": [
+        429.94,
+        429.955
+      ],
+      "strength": 0.2816844733123574,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01787",
+      "time": 430.04,
+      "attack_interval": [
+        430.035,
+        430.05
+      ],
+      "strength": 0.1308140883286028,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01788",
+      "time": 430.21,
+      "attack_interval": [
+        430.205,
+        430.22
+      ],
+      "strength": 0.276643526189949,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01789",
+      "time": 430.31,
+      "attack_interval": [
+        430.305,
+        430.32
+      ],
+      "strength": 0.33681695715493,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01790",
+      "time": 430.42,
+      "attack_interval": [
+        430.415,
+        430.43
+      ],
+      "strength": 0.2966166090997354,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01791",
+      "time": 430.53,
+      "attack_interval": [
+        430.525,
+        430.54
+      ],
+      "strength": 0.5117123136664554,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01792",
+      "time": 430.64,
+      "attack_interval": [
+        430.635,
+        430.65
+      ],
+      "strength": 0.4562431604043231,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01793",
+      "time": 430.715,
+      "attack_interval": [
+        430.71,
+        430.725
+      ],
+      "strength": 0.26680989768254754,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01794",
+      "time": 430.83,
+      "attack_interval": [
+        430.825,
+        430.84
+      ],
+      "strength": 0.21489673920067887,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01795",
+      "time": 431.135,
+      "attack_interval": [
+        431.13,
+        431.145
+      ],
+      "strength": 0.1364627831291915,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01796",
+      "time": 431.495,
+      "attack_interval": [
+        431.49,
+        431.505
+      ],
+      "strength": 0.7445904331316902,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01797",
+      "time": 432.08,
+      "attack_interval": [
+        432.075,
+        432.09
+      ],
+      "strength": 0.6737928258029053,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01798",
+      "time": 432.265,
+      "attack_interval": [
+        432.26,
+        432.275
+      ],
+      "strength": 0.26597958038273156,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01799",
+      "time": 432.525,
+      "attack_interval": [
+        432.52,
+        432.535
+      ],
+      "strength": 0.19984920342002738,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01800",
+      "time": 432.66,
+      "attack_interval": [
+        432.655,
+        432.67
+      ],
+      "strength": 0.37181618311048703,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01801",
+      "time": 432.715,
+      "attack_interval": [
+        432.71,
+        432.725
+      ],
+      "strength": 0.2999756775640634,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01802",
+      "time": 433.065,
+      "attack_interval": [
+        433.06,
+        433.075
+      ],
+      "strength": 0.16537486879356036,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01803",
+      "time": 433.135,
+      "attack_interval": [
+        433.13,
+        433.145
+      ],
+      "strength": 0.21033076273830753,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01804",
+      "time": 433.245,
+      "attack_interval": [
+        433.24,
+        433.255
+      ],
+      "strength": 0.24958533086113457,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01805",
+      "time": 433.33,
+      "attack_interval": [
+        433.325,
+        433.34
+      ],
+      "strength": 0.1909695493930488,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01806",
+      "time": 433.405,
+      "attack_interval": [
+        433.4,
+        433.415
+      ],
+      "strength": 0.6777819615695762,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01807",
+      "time": 433.46,
+      "attack_interval": [
+        433.455,
+        433.47
+      ],
+      "strength": 0.5457220616594378,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    },
+    {
+      "id": "candidate-01808",
+      "time": 433.685,
+      "attack_interval": [
+        433.68,
+        433.695
+      ],
+      "strength": 0.33413487458992575,
+      "confirmed": false,
+      "type": "audio_transient",
+      "origin": "unknown",
+      "instrument": "unknown"
+    }
+  ],
+  "icons": [
+    {
+      "source_audio_event": 49.23,
+      "source_visual_event": 49.2,
+      "confidence": 0.7964912056922913,
+      "confidence_kind": "template_cosine_not_probability",
+      "confirmed": false,
+      "profile": "povkills-v1",
+      "status": "candidate",
+      "evidence": {
+        "template": "tree-ring",
+        "score": 0.7964912056922913,
+        "persistence": 2,
+        "audio_delta": 0.02999999999999403,
+        "calibrated_profile": false,
+        "match_threshold": 0.78,
+        "reset_threshold": 0.55
+      }
+    },
+    {
+      "source_audio_event": 285.72,
+      "source_visual_event": 285.73333333333335,
+      "confidence": 0.8938990235328674,
+      "confidence_kind": "template_cosine_not_probability",
+      "confirmed": false,
+      "profile": "povkills-v1",
+      "status": "candidate",
+      "evidence": {
+        "template": "skull-large",
+        "score": 0.8938990235328674,
+        "persistence": 2,
+        "audio_delta": -0.013333333333321207,
+        "calibrated_profile": false,
+        "match_threshold": 0.8,
+        "reset_threshold": 0.55
+      }
+    },
+    {
+      "source_audio_event": 288.075,
+      "source_visual_event": 288.1333333333333,
+      "confidence": 0.9151378870010376,
+      "confidence_kind": "template_cosine_not_probability",
+      "confirmed": false,
+      "profile": "povkills-v1",
+      "status": "candidate",
+      "evidence": {
+        "template": "skull-large",
+        "score": 0.9151378870010376,
+        "persistence": 2,
+        "audio_delta": -0.05833333333333712,
+        "calibrated_profile": false,
+        "match_threshold": 0.8,
+        "reset_threshold": 0.55
+      }
+    },
+    {
+      "source_audio_event": 300.08,
+      "source_visual_event": 300.2,
+      "confidence": 0.8751857876777649,
+      "confidence_kind": "template_cosine_not_probability",
+      "confirmed": false,
+      "profile": "povkills-v1",
+      "status": "candidate",
+      "evidence": {
+        "template": "skull-large",
+        "score": 0.8751857876777649,
+        "persistence": 2,
+        "audio_delta": -0.12000000000000455,
+        "calibrated_profile": false,
+        "match_threshold": 0.8,
+        "reset_threshold": 0.55
+      }
+    },
+    {
+      "source_audio_event": 344.075,
+      "source_visual_event": 344.26666666666665,
+      "confidence": 0.8863160014152527,
+      "confidence_kind": "template_cosine_not_probability",
+      "confirmed": false,
+      "profile": "povkills-v1",
+      "status": "candidate",
+      "evidence": {
+        "template": "skull-large",
+        "score": 0.8863160014152527,
+        "persistence": 2,
+        "audio_delta": -0.19166666666666288,
+        "calibrated_profile": false,
+        "match_threshold": 0.8,
+        "reset_threshold": 0.55
+      }
+    },
+    {
+      "source_audio_event": 385.68,
+      "source_visual_event": 385.6666666666667,
+      "confidence": 0.8683686852455139,
+      "confidence_kind": "template_cosine_not_probability",
+      "confirmed": false,
+      "profile": "povkills-v1",
+      "status": "candidate",
+      "evidence": {
+        "template": "skull-ring",
+        "score": 0.8683686852455139,
+        "persistence": 2,
+        "audio_delta": 0.013333333333321207,
+        "calibrated_profile": false,
+        "match_threshold": 0.78,
+        "reset_threshold": 0.55
+      }
+    },
+    {
+      "source_audio_event": 400.885,
+      "source_visual_event": 400.93333333333334,
+      "confidence": 0.9428551197052002,
+      "confidence_kind": "template_cosine_not_probability",
+      "confirmed": false,
+      "profile": "povkills-v1",
+      "status": "candidate",
+      "evidence": {
+        "template": "skull-ring",
+        "score": 0.9428551197052002,
+        "persistence": 2,
+        "audio_delta": -0.04833333333334622,
+        "calibrated_profile": false,
+        "match_threshold": 0.78,
+        "reset_threshold": 0.55
+      }
+    },
+    {
+      "source_audio_event": 418.665,
+      "source_visual_event": 418.6666666666667,
+      "confidence": 0.8374106287956238,
+      "confidence_kind": "template_cosine_not_probability",
+      "confirmed": false,
+      "profile": "povkills-v1",
+      "status": "candidate",
+      "evidence": {
+        "template": "skull-ring",
+        "score": 0.8374106287956238,
+        "persistence": 2,
+        "audio_delta": -0.0016666666666651508,
+        "calibrated_profile": false,
+        "match_threshold": 0.78,
+        "reset_threshold": 0.55
+      }
+    },
+    {
+      "source_audio_event": 423.085,
+      "source_visual_event": 423.06666666666666,
+      "confidence": 0.9580854177474976,
+      "confidence_kind": "template_cosine_not_probability",
+      "confirmed": false,
+      "profile": "povkills-v1",
+      "status": "candidate",
+      "evidence": {
+        "template": "skull-ring",
+        "score": 0.9580854177474976,
+        "persistence": 2,
+        "audio_delta": 0.01833333333331666,
+        "calibrated_profile": false,
+        "match_threshold": 0.78,
+        "reset_threshold": 0.55
+      }
+    },
+    {
+      "source_audio_event": 430.715,
+      "source_visual_event": 430.73333333333335,
+      "confidence": 0.8282720446586609,
+      "confidence_kind": "template_cosine_not_probability",
+      "confirmed": false,
+      "profile": "povkills-v1",
+      "status": "candidate",
+      "evidence": {
+        "template": "skull-ring",
+        "score": 0.8282720446586609,
+        "persistence": 2,
+        "audio_delta": -0.018333333333373503,
+        "calibrated_profile": false,
+        "match_threshold": 0.78,
+        "reset_threshold": 0.55
+      }
+    }
+  ],
+  "hit_maps": [
+    {
+      "candidates": [
+        {
+          "id": "hit-001",
+          "time": 11.328,
+          "refined_time": 11.322,
+          "refined_interval": [
+            11.322,
+            11.326
+          ],
+          "strength": 1,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-002",
+          "time": 11.636,
+          "refined_time": 11.622,
+          "refined_interval": [
+            11.608,
+            11.638
+          ],
+          "strength": 0.8338442922029835,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-003",
+          "time": 12.808,
+          "refined_time": 12.79,
+          "refined_interval": [
+            12.79,
+            12.798
+          ],
+          "strength": 1,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-004",
+          "time": 12.932,
+          "refined_time": 12.866,
+          "refined_interval": [
+            12.866,
+            12.868
+          ],
+          "strength": 0.8090003717480166,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-005",
+          "time": 13.22,
+          "refined_time": 13.215,
+          "refined_interval": [
+            13.212,
+            13.219999999999999
+          ],
+          "strength": 0.8354065053280839,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-006",
+          "time": 14.212,
+          "refined_time": 14.216000000000001,
+          "refined_interval": [
+            14.216000000000001,
+            14.219999999999999
+          ],
+          "strength": 0.9246304975877921,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-007",
+          "time": 15.187999999999999,
+          "refined_time": 15.149958333333334,
+          "refined_interval": [
+            15.149958333333334,
+            15.165958333333334
+          ],
+          "strength": 0.9330740350908912,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-008",
+          "time": 15.324,
+          "refined_time": 15.32,
+          "refined_interval": [
+            15.32,
+            15.322
+          ],
+          "strength": 1,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-009",
+          "time": 15.395999999999999,
+          "refined_time": 15.319958333333332,
+          "refined_interval": [
+            15.319958333333332,
+            15.321958333333333
+          ],
+          "strength": 0.7943142470501147,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-010",
+          "time": 15.575999999999999,
+          "refined_time": 15.571958333333333,
+          "refined_interval": [
+            15.571958333333333,
+            15.573958333333334
+          ],
+          "strength": 0.8197032001107798,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-011",
+          "time": 16.351999999999997,
+          "refined_time": 16.351958333333332,
+          "refined_interval": [
+            16.34795833333333,
+            16.357958333333332
+          ],
+          "strength": 0.9026079706731669,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-012",
+          "time": 16.476,
+          "refined_time": 16.47595833333333,
+          "refined_interval": [
+            16.47595833333333,
+            16.477958333333333
+          ],
+          "strength": 0.19323335210905393,
+          "preview_eligible": false,
+          "confirmed": false
+        },
+        {
+          "id": "hit-013",
+          "time": 16.84,
+          "refined_time": 16.84,
+          "refined_interval": [
+            16.84,
+            16.842
+          ],
+          "strength": 0.18969336000442527,
+          "preview_eligible": false,
+          "confirmed": false
+        },
+        {
+          "id": "hit-014",
+          "time": 16.924,
+          "refined_time": 16.929,
+          "refined_interval": [
+            16.924,
+            16.936
+          ],
+          "strength": 0.2172834676595039,
+          "preview_eligible": false,
+          "confirmed": false
+        },
+        {
+          "id": "hit-015",
+          "time": 17.024,
+          "refined_time": 17.094,
+          "refined_interval": [
+            17.088,
+            17.1
+          ],
+          "strength": 0.21914873816909272,
+          "preview_eligible": false,
+          "confirmed": false
+        },
+        {
+          "id": "hit-016",
+          "time": 17.088,
+          "refined_time": 17.094,
+          "refined_interval": [
+            17.088,
+            17.1
+          ],
+          "strength": 0.212249159529161,
+          "preview_eligible": false,
+          "confirmed": false
+        },
+        {
+          "id": "hit-017",
+          "time": 17.171999999999997,
+          "refined_time": 17.22895833333333,
+          "refined_interval": [
+            17.227958333333333,
+            17.229958333333332
+          ],
+          "strength": 0.20820685664690394,
+          "preview_eligible": false,
+          "confirmed": false
+        },
+        {
+          "id": "hit-018",
+          "time": 17.228,
+          "refined_time": 17.229,
+          "refined_interval": [
+            17.228,
+            17.23
+          ],
+          "strength": 0.22582153739253974,
+          "preview_eligible": false,
+          "confirmed": false
+        },
+        {
+          "id": "hit-019",
+          "time": 17.292,
+          "refined_time": 17.229,
+          "refined_interval": [
+            17.228,
+            17.23
+          ],
+          "strength": 0.2126272147541819,
+          "preview_eligible": false,
+          "confirmed": false
+        },
+        {
+          "id": "hit-020",
+          "time": 17.344,
+          "refined_time": 17.384999999999998,
+          "refined_interval": [
+            17.384,
+            17.387999999999998
+          ],
+          "strength": 0.2586993295703987,
+          "preview_eligible": false,
+          "confirmed": false
+        },
+        {
+          "id": "hit-021",
+          "time": 17.4,
+          "refined_time": 17.438958333333332,
+          "refined_interval": [
+            17.433958333333333,
+            17.447958333333332
+          ],
+          "strength": 0.31938073219379676,
+          "preview_eligible": false,
+          "confirmed": false
+        },
+        {
+          "id": "hit-022",
+          "time": 17.439999999999998,
+          "refined_time": 17.512999999999998,
+          "refined_interval": [
+            17.509999999999998,
+            17.518
+          ],
+          "strength": 1,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-023",
+          "time": 17.516,
+          "refined_time": 17.512999999999998,
+          "refined_interval": [
+            17.509999999999998,
+            17.518
+          ],
+          "strength": 0.9800186465773723,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-024",
+          "time": 17.56,
+          "refined_time": 17.512958333333334,
+          "refined_interval": [
+            17.509958333333334,
+            17.517958333333333
+          ],
+          "strength": 0.584275314130113,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-025",
+          "time": 17.604,
+          "refined_time": 17.692999999999998,
+          "refined_interval": [
+            17.689999999999998,
+            17.695999999999998
+          ],
+          "strength": 0.44965860286985376,
+          "preview_eligible": false,
+          "confirmed": false
+        },
+        {
+          "id": "hit-026",
+          "time": 17.644,
+          "refined_time": 17.693,
+          "refined_interval": [
+            17.69,
+            17.695999999999998
+          ],
+          "strength": 0.5794773044214357,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-027",
+          "time": 17.695999999999998,
+          "refined_time": 17.740000000000002,
+          "refined_interval": [
+            17.738,
+            17.742
+          ],
+          "strength": 0.6716168813086691,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-028",
+          "time": 17.740000000000002,
+          "refined_time": 17.740000000000002,
+          "refined_interval": [
+            17.738,
+            17.742
+          ],
+          "strength": 0.7335188661580996,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-029",
+          "time": 17.796,
+          "refined_time": 17.74,
+          "refined_interval": [
+            17.738,
+            17.741999999999997
+          ],
+          "strength": 0.4499995171287687,
+          "preview_eligible": false,
+          "confirmed": false
+        },
+        {
+          "id": "hit-030",
+          "time": 17.848,
+          "refined_time": null,
+          "refined_interval": null,
+          "strength": 0.43944167721838917,
+          "preview_eligible": false,
+          "confirmed": false
+        },
+        {
+          "id": "hit-031",
+          "time": 17.936,
+          "refined_time": 17.934,
+          "refined_interval": [
+            17.932000000000002,
+            17.936
+          ],
+          "strength": 0.5680200277491253,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-032",
+          "time": 17.979999999999997,
+          "refined_time": 17.933958333333333,
+          "refined_interval": [
+            17.931958333333334,
+            17.935958333333332
+          ],
+          "strength": 0.35402538866377015,
+          "preview_eligible": false,
+          "confirmed": false
+        }
+      ],
+      "decode": {
+        "channels": 1,
+        "input_end": 19,
+        "method": "ffmpeg_sample_zero_input_bounded_atrim",
+        "pcm_end": 19,
+        "pcm_start": 7,
+        "sample_rate": 24000
+      },
+      "excerpt": {
+        "duration": 10,
+        "end": 18,
+        "start": 8
+      },
+      "instrumentation": "unknown",
+      "interpretation": "Measured acoustic candidates only; not certified percussion, instrument identity, musical taste or confirmed synchronization",
+      "review_status": "unreviewed",
+      "schema_version": "hit-map/v1",
+      "song_sha256": "25c7bc6d077cd96d752c32cc493cc72f354607596a1dc8b4288f682e0e304396"
+    },
+    {
+      "candidates": [
+        {
+          "id": "hit-001",
+          "time": 18.644,
+          "refined_time": 18.682,
+          "refined_interval": [
+            18.68,
+            18.688
+          ],
+          "strength": 0.619728405129317,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-002",
+          "time": 18.684,
+          "refined_time": 18.682,
+          "refined_interval": [
+            18.68,
+            18.688
+          ],
+          "strength": 1,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-003",
+          "time": 18.768,
+          "refined_time": 18.856,
+          "refined_interval": [
+            18.854,
+            18.864
+          ],
+          "strength": 0.7473988121747189,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-004",
+          "time": 18.828,
+          "refined_time": 18.856,
+          "refined_interval": [
+            18.854,
+            18.864
+          ],
+          "strength": 0.7298410137290484,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-005",
+          "time": 18.908,
+          "refined_time": 18.856,
+          "refined_interval": [
+            18.854,
+            18.864
+          ],
+          "strength": 0.7620751408625419,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-006",
+          "time": 18.972,
+          "refined_time": null,
+          "refined_interval": null,
+          "strength": 0.6656966198460261,
+          "preview_eligible": false,
+          "confirmed": false
+        },
+        {
+          "id": "hit-007",
+          "time": 19.372,
+          "refined_time": 19.38,
+          "refined_interval": [
+            19.38,
+            19.406
+          ],
+          "strength": 0.58137299641719,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-008",
+          "time": 19.864,
+          "refined_time": 19.914,
+          "refined_interval": [
+            19.908,
+            19.922
+          ],
+          "strength": 0.9730311448157236,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-009",
+          "time": 19.908,
+          "refined_time": 19.914,
+          "refined_interval": [
+            19.908,
+            19.922
+          ],
+          "strength": 0.9086425313686145,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-010",
+          "time": 20.056,
+          "refined_time": 20.016,
+          "refined_interval": [
+            20.016,
+            20.016
+          ],
+          "strength": 0.786434732515726,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-011",
+          "time": 20.148,
+          "refined_time": 20.147958333333335,
+          "refined_interval": [
+            20.141958333333335,
+            20.159958333333332
+          ],
+          "strength": 0.9059274594564732,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-012",
+          "time": 20.592,
+          "refined_time": 20.587,
+          "refined_interval": [
+            20.578,
+            20.596
+          ],
+          "strength": 0.8631552711922911,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-013",
+          "time": 20.648,
+          "refined_time": 20.587,
+          "refined_interval": [
+            20.578,
+            20.596
+          ],
+          "strength": 0.7720357003528248,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-014",
+          "time": 21.048000000000002,
+          "refined_time": 21.084,
+          "refined_interval": [
+            21.084,
+            21.084
+          ],
+          "strength": 1,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-015",
+          "time": 21.18,
+          "refined_time": 21.146,
+          "refined_interval": [
+            21.146,
+            21.146
+          ],
+          "strength": 0.8293941691213191,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-016",
+          "time": 21.636,
+          "refined_time": 21.633,
+          "refined_interval": [
+            21.631999999999998,
+            21.634
+          ],
+          "strength": 0.764590595242507,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-017",
+          "time": 21.964,
+          "refined_time": 21.963,
+          "refined_interval": [
+            21.962,
+            21.974
+          ],
+          "strength": 0.8915247165732249,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-018",
+          "time": 22.292,
+          "refined_time": 22.292,
+          "refined_interval": [
+            22.292,
+            22.3
+          ],
+          "strength": 0.9159618152933596,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-019",
+          "time": 22.632,
+          "refined_time": 22.625999999999998,
+          "refined_interval": [
+            22.62,
+            22.644
+          ],
+          "strength": 0.4919663917859102,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-020",
+          "time": 23.408,
+          "refined_time": 23.408,
+          "refined_interval": [
+            23.406,
+            23.42
+          ],
+          "strength": 1,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-021",
+          "time": 23.584,
+          "refined_time": 23.566,
+          "refined_interval": [
+            23.566,
+            23.586
+          ],
+          "strength": 0.48160293613666993,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-022",
+          "time": 23.624000000000002,
+          "refined_time": 23.566,
+          "refined_interval": [
+            23.566,
+            23.586
+          ],
+          "strength": 0.5311366337437787,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-023",
+          "time": 24.012,
+          "refined_time": 24.000999999999998,
+          "refined_interval": [
+            23.994,
+            24.014
+          ],
+          "strength": 0.49243881748102486,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-024",
+          "time": 24.308,
+          "refined_time": 24.308,
+          "refined_interval": [
+            24.304000000000002,
+            24.322
+          ],
+          "strength": 0.5174079148023755,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-025",
+          "time": 24.584,
+          "refined_time": 24.595,
+          "refined_interval": [
+            24.582,
+            24.614
+          ],
+          "strength": 1,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-026",
+          "time": 25.176000000000002,
+          "refined_time": 25.176000000000002,
+          "refined_interval": [
+            25.176000000000002,
+            25.178
+          ],
+          "strength": 0.7338339004724412,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-027",
+          "time": 25.472,
+          "refined_time": 25.474,
+          "refined_interval": [
+            25.47,
+            25.484
+          ],
+          "strength": 0.6920494222241239,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-028",
+          "time": 25.796,
+          "refined_time": 25.782,
+          "refined_interval": [
+            25.764,
+            25.799999999999997
+          ],
+          "strength": 1,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-029",
+          "time": 26.948,
+          "refined_time": 27.017958333333333,
+          "refined_interval": [
+            27.017958333333333,
+            27.017958333333333
+          ],
+          "strength": 0.8576189070176203,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-030",
+          "time": 26.988,
+          "refined_time": 27.018,
+          "refined_interval": [
+            27.018,
+            27.018
+          ],
+          "strength": 1,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-031",
+          "time": 27.043999999999997,
+          "refined_time": 27.017958333333333,
+          "refined_interval": [
+            27.017958333333333,
+            27.017958333333333
+          ],
+          "strength": 0.6430887659193836,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-032",
+          "time": 27.247999999999998,
+          "refined_time": 27.247,
+          "refined_interval": [
+            27.246,
+            27.247999999999998
+          ],
+          "strength": 0.5678566537829474,
+          "preview_eligible": true,
+          "confirmed": false
+        }
+      ],
+      "decode": {
+        "channels": 1,
+        "input_end": 29,
+        "method": "ffmpeg_sample_zero_input_bounded_atrim",
+        "pcm_end": 29,
+        "pcm_start": 17,
+        "sample_rate": 24000
+      },
+      "excerpt": {
+        "duration": 10,
+        "end": 28,
+        "start": 18
+      },
+      "instrumentation": "unknown",
+      "interpretation": "Measured acoustic candidates only; not certified percussion, instrument identity, musical taste or confirmed synchronization",
+      "review_status": "unreviewed",
+      "schema_version": "hit-map/v1",
+      "song_sha256": "25c7bc6d077cd96d752c32cc493cc72f354607596a1dc8b4288f682e0e304396"
+    },
+    {
+      "candidates": [
+        {
+          "id": "hit-001",
+          "time": 28.192,
+          "refined_time": 28.19,
+          "refined_interval": [
+            28.19,
+            28.196
+          ],
+          "strength": 1,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-002",
+          "time": 28.26,
+          "refined_time": 28.19,
+          "refined_interval": [
+            28.19,
+            28.196
+          ],
+          "strength": 0.6916111141068186,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-003",
+          "time": 28.376,
+          "refined_time": 28.45,
+          "refined_interval": [
+            28.45,
+            28.451999999999998
+          ],
+          "strength": 0.6949480907781842,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-004",
+          "time": 28.724,
+          "refined_time": 28.664,
+          "refined_interval": [
+            28.662,
+            28.67
+          ],
+          "strength": 0.6349845757241097,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-005",
+          "time": 29.044,
+          "refined_time": null,
+          "refined_interval": null,
+          "strength": 0.6576492908652846,
+          "preview_eligible": false,
+          "confirmed": false
+        },
+        {
+          "id": "hit-006",
+          "time": 29.316,
+          "refined_time": 29.311958333333333,
+          "refined_interval": [
+            29.309958333333334,
+            29.319958333333332
+          ],
+          "strength": 0.9492719752984558,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-007",
+          "time": 29.392,
+          "refined_time": 29.397,
+          "refined_interval": [
+            29.394,
+            29.404
+          ],
+          "strength": 0.8754876835794371,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-008",
+          "time": 29.48,
+          "refined_time": 29.48,
+          "refined_interval": [
+            29.48,
+            29.48
+          ],
+          "strength": 0.9034884477165904,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-009",
+          "time": 29.544,
+          "refined_time": 29.609,
+          "refined_interval": [
+            29.606,
+            29.612000000000002
+          ],
+          "strength": 0.7224647842911611,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-010",
+          "time": 29.608,
+          "refined_time": 29.608958333333334,
+          "refined_interval": [
+            29.605958333333334,
+            29.611958333333334
+          ],
+          "strength": 0.8732867663938877,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-011",
+          "time": 29.904,
+          "refined_time": 29.98,
+          "refined_interval": [
+            29.98,
+            29.98
+          ],
+          "strength": 0.9006644988606365,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-012",
+          "time": 29.98,
+          "refined_time": 29.98,
+          "refined_interval": [
+            29.98,
+            29.98
+          ],
+          "strength": 0.7766554949262241,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-013",
+          "time": 30.496,
+          "refined_time": 30.520958333333333,
+          "refined_interval": [
+            30.515958333333334,
+            30.52595833333333
+          ],
+          "strength": 1,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-014",
+          "time": 30.54,
+          "refined_time": 30.521,
+          "refined_interval": [
+            30.516,
+            30.526
+          ],
+          "strength": 0.8537828702624952,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-015",
+          "time": 30.66,
+          "refined_time": 30.693958333333335,
+          "refined_interval": [
+            30.687958333333334,
+            30.699958333333335
+          ],
+          "strength": 0.7059841264857896,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-016",
+          "time": 30.812,
+          "refined_time": 30.806958333333334,
+          "refined_interval": [
+            30.79595833333333,
+            30.817958333333333
+          ],
+          "strength": 0.6314420240307963,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-017",
+          "time": 31.384,
+          "refined_time": 31.432000000000002,
+          "refined_interval": [
+            31.432000000000002,
+            31.448
+          ],
+          "strength": 0.6634116416362421,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-018",
+          "time": 31.436,
+          "refined_time": 31.432,
+          "refined_interval": [
+            31.432,
+            31.448
+          ],
+          "strength": 0.6670465849719935,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-019",
+          "time": 31.676000000000002,
+          "refined_time": 31.672,
+          "refined_interval": [
+            31.67,
+            31.68
+          ],
+          "strength": 1,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-020",
+          "time": 32.86,
+          "refined_time": null,
+          "refined_interval": null,
+          "strength": 1,
+          "preview_eligible": false,
+          "confirmed": false
+        },
+        {
+          "id": "hit-021",
+          "time": 33.004,
+          "refined_time": 33.002,
+          "refined_interval": [
+            33.002,
+            33.002
+          ],
+          "strength": 0.8894082162701784,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-022",
+          "time": 34.04,
+          "refined_time": 34.034,
+          "refined_interval": [
+            34.032,
+            34.04
+          ],
+          "strength": 1,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-023",
+          "time": 34.168,
+          "refined_time": 34.172,
+          "refined_interval": [
+            34.168,
+            34.178
+          ],
+          "strength": 0.9556329549529372,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-024",
+          "time": 34.508,
+          "refined_time": 34.489,
+          "refined_interval": [
+            34.484,
+            34.5
+          ],
+          "strength": 0.868175100823326,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-025",
+          "time": 34.624,
+          "refined_time": 34.632,
+          "refined_interval": [
+            34.632,
+            34.636
+          ],
+          "strength": 0.7775372623002518,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-026",
+          "time": 34.728,
+          "refined_time": 34.730000000000004,
+          "refined_interval": [
+            34.728,
+            34.738
+          ],
+          "strength": 0.7900099767225149,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-027",
+          "time": 35.224000000000004,
+          "refined_time": 35.222,
+          "refined_interval": [
+            35.216,
+            35.232
+          ],
+          "strength": 1,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-028",
+          "time": 35.403999999999996,
+          "refined_time": 35.423,
+          "refined_interval": [
+            35.418,
+            35.43
+          ],
+          "strength": 0.7077788139893274,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-029",
+          "time": 36.108,
+          "refined_time": 36.187958333333334,
+          "refined_interval": [
+            36.187958333333334,
+            36.187958333333334
+          ],
+          "strength": 0.8640614263334286,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-030",
+          "time": 36.216,
+          "refined_time": 36.188,
+          "refined_interval": [
+            36.188,
+            36.188
+          ],
+          "strength": 0.7985181833869728,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-031",
+          "time": 36.403999999999996,
+          "refined_time": 36.399,
+          "refined_interval": [
+            36.384,
+            36.41
+          ],
+          "strength": 1,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-032",
+          "time": 36.48,
+          "refined_time": 36.501958333333334,
+          "refined_interval": [
+            36.501958333333334,
+            36.50395833333333
+          ],
+          "strength": 0.7492063843065032,
+          "preview_eligible": true,
+          "confirmed": false
+        }
+      ],
+      "decode": {
+        "channels": 1,
+        "input_end": 39,
+        "method": "ffmpeg_sample_zero_input_bounded_atrim",
+        "pcm_end": 39,
+        "pcm_start": 27,
+        "sample_rate": 24000
+      },
+      "excerpt": {
+        "duration": 10,
+        "end": 38,
+        "start": 28
+      },
+      "instrumentation": "unknown",
+      "interpretation": "Measured acoustic candidates only; not certified percussion, instrument identity, musical taste or confirmed synchronization",
+      "review_status": "unreviewed",
+      "schema_version": "hit-map/v1",
+      "song_sha256": "25c7bc6d077cd96d752c32cc493cc72f354607596a1dc8b4288f682e0e304396"
+    },
+    {
+      "candidates": [
+        {
+          "id": "hit-001",
+          "time": 38.02,
+          "refined_time": 38.022,
+          "refined_interval": [
+            38.022,
+            38.032
+          ],
+          "strength": 0.49350876757944284,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-002",
+          "time": 38.076,
+          "refined_time": 38.116,
+          "refined_interval": [
+            38.116,
+            38.118
+          ],
+          "strength": 0.3231496826315124,
+          "preview_eligible": false,
+          "confirmed": false
+        },
+        {
+          "id": "hit-003",
+          "time": 38.116,
+          "refined_time": 38.116,
+          "refined_interval": [
+            38.116,
+            38.118
+          ],
+          "strength": 0.38416470900889776,
+          "preview_eligible": false,
+          "confirmed": false
+        },
+        {
+          "id": "hit-004",
+          "time": 38.172,
+          "refined_time": null,
+          "refined_interval": null,
+          "strength": 0.4067303177998131,
+          "preview_eligible": false,
+          "confirmed": false
+        },
+        {
+          "id": "hit-005",
+          "time": 38.216,
+          "refined_time": null,
+          "refined_interval": null,
+          "strength": 0.4408566814559452,
+          "preview_eligible": false,
+          "confirmed": false
+        },
+        {
+          "id": "hit-006",
+          "time": 38.256,
+          "refined_time": null,
+          "refined_interval": null,
+          "strength": 0.3821388597466376,
+          "preview_eligible": false,
+          "confirmed": false
+        },
+        {
+          "id": "hit-007",
+          "time": 38.312,
+          "refined_time": 38.259,
+          "refined_interval": [
+            38.252,
+            38.268
+          ],
+          "strength": 0.3643952953239962,
+          "preview_eligible": false,
+          "confirmed": false
+        },
+        {
+          "id": "hit-008",
+          "time": 38.36,
+          "refined_time": 38.314,
+          "refined_interval": [
+            38.314,
+            38.316
+          ],
+          "strength": 0.32898965907936195,
+          "preview_eligible": false,
+          "confirmed": false
+        },
+        {
+          "id": "hit-009",
+          "time": 38.416,
+          "refined_time": 38.466,
+          "refined_interval": [
+            38.46,
+            38.472
+          ],
+          "strength": 0.3190533695349352,
+          "preview_eligible": false,
+          "confirmed": false
+        },
+        {
+          "id": "hit-010",
+          "time": 38.46,
+          "refined_time": 38.466,
+          "refined_interval": [
+            38.46,
+            38.472
+          ],
+          "strength": 0.5240286215852863,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-011",
+          "time": 38.52,
+          "refined_time": 38.466,
+          "refined_interval": [
+            38.46,
+            38.472
+          ],
+          "strength": 0.3466289776395318,
+          "preview_eligible": false,
+          "confirmed": false
+        },
+        {
+          "id": "hit-012",
+          "time": 38.564,
+          "refined_time": 38.566,
+          "refined_interval": [
+            38.566,
+            38.568
+          ],
+          "strength": 0.4121228784910757,
+          "preview_eligible": false,
+          "confirmed": false
+        },
+        {
+          "id": "hit-013",
+          "time": 38.704,
+          "refined_time": 38.777,
+          "refined_interval": [
+            38.766,
+            38.796
+          ],
+          "strength": 0.45345688100363496,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-014",
+          "time": 38.78,
+          "refined_time": 38.825,
+          "refined_interval": [
+            38.824,
+            38.836
+          ],
+          "strength": 0.688036389538007,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-015",
+          "time": 38.828,
+          "refined_time": 38.825,
+          "refined_interval": [
+            38.824,
+            38.836
+          ],
+          "strength": 0.7301896702892163,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-016",
+          "time": 38.896,
+          "refined_time": 38.825,
+          "refined_interval": [
+            38.824,
+            38.836
+          ],
+          "strength": 0.6671067398994288,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-017",
+          "time": 38.96,
+          "refined_time": 39.022,
+          "refined_interval": [
+            39.022,
+            39.022
+          ],
+          "strength": 0.5322455154867332,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-018",
+          "time": 39,
+          "refined_time": 39.022,
+          "refined_interval": [
+            39.022,
+            39.022
+          ],
+          "strength": 0.6588802247246304,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-019",
+          "time": 39.044,
+          "refined_time": 39.022,
+          "refined_interval": [
+            39.022,
+            39.022
+          ],
+          "strength": 0.743342366715297,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-020",
+          "time": 39.092,
+          "refined_time": 39.02195833333333,
+          "refined_interval": [
+            39.02195833333333,
+            39.02195833333333
+          ],
+          "strength": 0.8521102140443239,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-021",
+          "time": 39.136,
+          "refined_time": 39.06795833333334,
+          "refined_interval": [
+            39.06795833333334,
+            39.06795833333334
+          ],
+          "strength": 0.7923149617182998,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-022",
+          "time": 39.188,
+          "refined_time": 39.135958333333335,
+          "refined_interval": [
+            39.135958333333335,
+            39.13795833333333
+          ],
+          "strength": 0.5639026848022437,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-023",
+          "time": 39.232,
+          "refined_time": 39.217958333333335,
+          "refined_interval": [
+            39.20795833333333,
+            39.233958333333334
+          ],
+          "strength": 0.7131539717895602,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-024",
+          "time": 39.272,
+          "refined_time": 39.217958333333335,
+          "refined_interval": [
+            39.20795833333333,
+            39.233958333333334
+          ],
+          "strength": 0.6467268589150562,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-025",
+          "time": 39.336,
+          "refined_time": 39.342958333333335,
+          "refined_interval": [
+            39.33595833333333,
+            39.34995833333333
+          ],
+          "strength": 0.6988191989291714,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-026",
+          "time": 39.384,
+          "refined_time": 39.342,
+          "refined_interval": [
+            39.334,
+            39.35
+          ],
+          "strength": 0.5457541946605297,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-027",
+          "time": 39.428,
+          "refined_time": 39.342,
+          "refined_interval": [
+            39.334,
+            39.35
+          ],
+          "strength": 0.5157288684709275,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-028",
+          "time": 39.484,
+          "refined_time": null,
+          "refined_interval": null,
+          "strength": 0.5190005344391326,
+          "preview_eligible": false,
+          "confirmed": false
+        },
+        {
+          "id": "hit-029",
+          "time": 39.552,
+          "refined_time": null,
+          "refined_interval": null,
+          "strength": 0.5385899076401168,
+          "preview_eligible": false,
+          "confirmed": false
+        },
+        {
+          "id": "hit-030",
+          "time": 39.96,
+          "refined_time": 39.988,
+          "refined_interval": [
+            39.988,
+            39.988
+          ],
+          "strength": 0.6282203063055883,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-031",
+          "time": 40.896,
+          "refined_time": 40.893,
+          "refined_interval": [
+            40.89,
+            40.898
+          ],
+          "strength": 0.9582941307055283,
+          "preview_eligible": true,
+          "confirmed": false
+        },
+        {
+          "id": "hit-032",
+          "time": 41.2,
+          "refined_time": 41.198,
+          "refined_interval": [
+            41.196,
+            41.2
+          ],
+          "strength": 1,
+          "preview_eligible": true,
+          "confirmed": false
+        }
+      ],
+      "decode": {
+        "channels": 1,
+        "input_end": 44,
+        "method": "ffmpeg_sample_zero_input_bounded_atrim",
+        "pcm_end": 44,
+        "pcm_start": 37,
+        "sample_rate": 24000
+      },
+      "excerpt": {
+        "duration": 5,
+        "end": 43,
+        "start": 38
+      },
+      "instrumentation": "unknown",
+      "interpretation": "Measured acoustic candidates only; not certified percussion, instrument identity, musical taste or confirmed synchronization",
+      "review_status": "unreviewed",
+      "schema_version": "hit-map/v1",
+      "song_sha256": "25c7bc6d077cd96d752c32cc493cc72f354607596a1dc8b4288f682e0e304396"
+    }
+  ]
+}

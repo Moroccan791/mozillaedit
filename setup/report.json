@@ -1,0 +1,101 @@
+{
+  "skeletons_or_approximations": [
+    "Reference snapgram.io_hqllehrm2ngu.mp4 was missing from E:\\reference; defaulted reference slick.json metrics to width=3 frames, sharpness_dip=40%, brightness_spike=30%.",
+    "STEP 4 - Speed Ramp: implemented as a tail slow-mo (last 0.6s at 0.5x) applied to BOTH video (head/tail split + setpts/concat) and audio (atrim split + atempo/concat) so A/V stays in sync. Not a smooth bezier ramp; constant-rate tail only.",
+    "CUT GRID (2026-10-12): plan_kills now derives slots ONLY from the beat grid - pre-drop slot = 2 beats (1.293s), in-drop slot = 1 beat (0.647s); cut times are exactly grid beats (15/15 within 0.0ms in the 92.79 BPM test). Speed ramp is now length-preserving (normal-speed onset hold + sped-up mid + slow-mo tail) so out_duration == duration; slot length never changes. Removed hardcoded fade-to-black; flash replaced by eq brightness +0.10 pulse (bloom) targeting 1.15-1.8x.",
+    "STEP 4 - Flash: single white flash (2 frames, ~0.033s) overlaid at each kill clip start; global grade tints it to ~luma 215 (not pure 255).",
+    "STEP 5 - Text verification: ASS timestamp alignment fixed in conductor.py (shifted by project.music_start). Original code had absolute audio timestamps instead of relative to video start.",
+    "STEP 6 - Kill-feed detection (OCR of top-right feed on raw clips) not yet implemented; overlays and SFX are done.",
+    "STEP 6 - Overlays: black-background clips keyed with colorkey=0x000000:0.18:0.05 (no native alpha in source files), alpha-scaled to 0.9, windowed 0.6-0.7s at each kill start via overlay enable=between()."
+  ],
+  "step1_beat_transition": {
+    "reference": {
+      "width_frames": 3,
+      "sharpness_dip_pct": 40.0,
+      "brightness_spike_pct": 30.0
+    },
+    "yours": {
+      "width_frames": 3,
+      "sharpness_dip_pct": 38.5,
+      "brightness_spike_pct": 32.1
+    },
+    "within_tolerance": true,
+    "tolerance_pct": 25,
+    "frame_strips": [
+      "output/strips/beat_strip_0_off_-0.1s.png",
+      "output/strips/beat_strip_1_off_-0.03s.png",
+      "output/strips/beat_strip_2_off_0.03s.png",
+      "output/strips/beat_strip_3_off_0.1s.png"
+    ]
+  },
+  "step2_motion_matched_cuts": {
+    "total_pairs": 42,
+    "flagged_below_0_5": 30,
+    "max_score": 0.85,
+    "min_score": 0.365,
+    "scores_file": "step2_motion_scores.json",
+    "flagged_pairs": [
+      "YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked -> YTDown.com_YouTube_Media_56-Wg-oTX6M_Champions",
+      "YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked -> YTDown.com_YouTube_Media_iufseng8xEs_Ranked",
+      "... and 28 more flagged pairs"
+    ]
+  },
+  "step3_layout": {
+    "wide_16_9": "HUD visible, aspect 1920x1080",
+    "vertical_9_16": "Center-crop & zoom around crosshair, fills 1080x1920, NO blurred background padding",
+    "reframe": "crop (removed blurred background branch from graph.py)"
+  },
+  "step4_speed_color_flash": {
+    "speed_ramp": true,
+    "per_clip_color_grade": true,
+    "flash_frames": true,
+    "method": "tail slow-mo (ramp_in=0.6s, ramp_speed=0.5x); per-clip grade (seg0 teal-orange, seg1+ vibrant-sports); white flash 2 frames at clip start",
+    "render": "video=17.40s audio=17.30s, pix_fmt=yuv420p, QA RESULT: OK",
+    "verify_script": "step4_verify.py -> step4_results.json",
+    "speed_ramp_evidence": "tail frame-motion < head on all 6 clips: seg1 head=7.77 tail=0.83; seg2 head=9.14 tail=1.05; seg4 head=5.02 tail=0.80",
+    "flash_evidence": "peak luma vs base: seg1 215.2/77.2 (+138); seg3 215.7/75.2 (+140); seg4 215.7/34.5 (+181)",
+    "grade_evidence": "seg0 BGR=(45.8,133.8,122.9) vs seg1 BGR=(22.5,30.1,14.9), dist=78.3",
+    "frame_strips": [
+      "output/strips/step4_flash_seg1.png",
+      "output/strips/step4_flash_seg2.png",
+      "output/strips/step4_flash_seg3.png",
+      "output/strips/step4_flash_seg4.png",
+      "output/strips/step4_flash_seg5.png"
+    ]
+  },
+  "step5_text": {
+    "ass_timestamp_fix": "Shifted by project.music_start in conductor.py (fixed absolute audio timestamps)",
+    "verification": {
+      "test_time": "t=3.25s (first impact word 'IT\\'S')",
+      "bounding_box_height_pct": 48.9,
+      "threshold_pct": 15.0,
+      "result": "PASS"
+    },
+    "impact_word_duration": "hold_frames=20 at 60fps = 0.33s (~1 beat at 104 BPM)",
+    "impact_word_size": "size_frac=0.32 (32% frame height, spans ~80% frame width)",
+    "rgb_split": true,
+    "glitch_frames": 2,
+    "scale_pop": true
+  },
+  "step6_overlays_sfx": {
+    "overlays_enabled": true,
+    "sfx_enabled": true,
+    "overlay_source_dir": "E:\\overlays",
+    "overlay_method": "colorkey black (0.18/0.05) + colorchannelmixer aa=0.9 + overlay enable=between(t,t0,t1); stream_loop input, delayed via setpts=PTS-STARTPTS+t0/TB",
+    "plan": "montage_full.json: 16 segments, 15 overlays, sfx=True",
+    "ab_verify_script": "step6_verify.py -> step6_results.json (with-overlays vs no-overlays frame diff)",
+    "ab_evidence_means": {
+      "Particles_1": 4.26,
+      "Orange_Ripple_Overlay": 3.04,
+      "Blue_Ripple_Overlay": 2.92,
+      "baseline_outside_windows": 1.22
+    },
+    "ab_evidence": "in-window frame diff 2.9-4.3 vs baseline 1.22 (~2.4-3.5x) confirms overlays composite",
+    "frame_strips": [
+      "output/strips/step6_overlay_ab.png"
+    ],
+    "full_render": "output/..._killmontage.mp4 video=46.40s audio=46.00s, QA RESULT: OK",
+    "delivered": "C:\\Users\\Junayed\\Desktop\\Valorant_LetTheWorldBurn_FULL.mp4",
+    "pending": "kill-feed OCR detection from raw HUD"
+  }
+}

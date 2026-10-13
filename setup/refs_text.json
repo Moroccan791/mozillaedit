@@ -1,0 +1,5252 @@
+{
+  "YTDown.com_YouTube_Media_Vp5ClXhplkU_Esp": {
+    "fps": 60.0,
+    "width": 1280,
+    "height": 720,
+    "nframes": 2155,
+    "duration_s": 35.92,
+    "text_events": 134,
+    "events": [
+      {
+        "text": "ac",
+        "start_frame": 36,
+        "end_frame": 36,
+        "duration_frames": 0,
+        "x_center": 0.506,
+        "y_center": 0.502,
+        "height_frac": 0.26,
+        "width_frac": 0.211,
+        "size_class": "big",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 251.0,
+          "g": 251.0,
+          "b": 251.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "TRIC",
+        "start_frame": 48,
+        "end_frame": 174,
+        "duration_frames": 126,
+        "x_center": 0.519,
+        "y_center": 0.501,
+        "height_frac": 0.256,
+        "width_frac": 0.336,
+        "size_class": "big",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 234.0,
+          "g": 234.0,
+          "b": 234.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "10",
+        "start_frame": 180,
+        "end_frame": 210,
+        "duration_frames": 30,
+        "x_center": 0.577,
+        "y_center": 0.046,
+        "height_frac": 0.025,
+        "width_frac": 0.024,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 85.0,
+          "g": 84.0,
+          "b": 88.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "BSite",
+        "start_frame": 216,
+        "end_frame": 228,
+        "duration_frames": 12,
+        "x_center": 0.129,
+        "y_center": 0.028,
+        "height_frac": 0.024,
+        "width_frac": 0.03,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 222.0,
+          "g": 213.0,
+          "b": 224.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "2164217",
+        "start_frame": 234,
+        "end_frame": 234,
+        "duration_frames": 0,
+        "x_center": 0.96,
+        "y_center": 0.987,
+        "height_frac": 0.015,
+        "width_frac": 0.028,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 93.0,
+          "g": 74.0,
+          "b": 85.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "BSite",
+        "start_frame": 240,
+        "end_frame": 270,
+        "duration_frames": 30,
+        "x_center": 0.129,
+        "y_center": 0.028,
+        "height_frac": 0.024,
+        "width_frac": 0.03,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 222.0,
+          "g": 213.0,
+          "b": 224.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "10",
+        "start_frame": 276,
+        "end_frame": 306,
+        "duration_frames": 30,
+        "x_center": 0.581,
+        "y_center": 0.045,
+        "height_frac": 0.029,
+        "width_frac": 0.034,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 193.0,
+          "g": 192.0,
+          "b": 199.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "00.2164217",
+        "start_frame": 312,
+        "end_frame": 312,
+        "duration_frames": 0,
+        "x_center": 0.957,
+        "y_center": 0.987,
+        "height_frac": 0.018,
+        "width_frac": 0.035,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 93.0,
+          "g": 73.0,
+          "b": 84.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "BSite",
+        "start_frame": 318,
+        "end_frame": 354,
+        "duration_frames": 36,
+        "x_center": 0.129,
+        "y_center": 0.028,
+        "height_frac": 0.024,
+        "width_frac": 0.03,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 222.0,
+          "g": 214.0,
+          "b": 225.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "11",
+        "start_frame": 360,
+        "end_frame": 366,
+        "duration_frames": 6,
+        "x_center": 0.428,
+        "y_center": 0.049,
+        "height_frac": 0.022,
+        "width_frac": 0.02,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 211.0,
+          "g": 211.0,
+          "b": 218.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "100",
+        "start_frame": 372,
+        "end_frame": 378,
+        "duration_frames": 6,
+        "x_center": 0.31,
+        "y_center": 0.95,
+        "height_frac": 0.047,
+        "width_frac": 0.063,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 227.0,
+          "g": 229.0,
+          "b": 238.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "1:34",
+        "start_frame": 384,
+        "end_frame": 384,
+        "duration_frames": 0,
+        "x_center": 0.501,
+        "y_center": 0.045,
+        "height_frac": 0.04,
+        "width_frac": 0.038,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 225.0,
+          "g": 226.0,
+          "b": 230.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "BSite",
+        "start_frame": 390,
+        "end_frame": 390,
+        "duration_frames": 0,
+        "x_center": 0.129,
+        "y_center": 0.028,
+        "height_frac": 0.022,
+        "width_frac": 0.03,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 211.0,
+          "g": 200.0,
+          "b": 214.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "10",
+        "start_frame": 396,
+        "end_frame": 402,
+        "duration_frames": 6,
+        "x_center": 0.573,
+        "y_center": 0.046,
+        "height_frac": 0.028,
+        "width_frac": 0.02,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 227.0,
+          "g": 225.0,
+          "b": 230.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "YDAL",
+        "start_frame": 408,
+        "end_frame": 408,
+        "duration_frames": 0,
+        "x_center": 0.93,
+        "y_center": 0.901,
+        "height_frac": 0.024,
+        "width_frac": 0.034,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 129.0,
+          "g": 125.0,
+          "b": 178.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "VANDAL",
+        "start_frame": 414,
+        "end_frame": 414,
+        "duration_frames": 0,
+        "x_center": 0.926,
+        "y_center": 0.901,
+        "height_frac": 0.026,
+        "width_frac": 0.035,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 137.0,
+          "g": 158.0,
+          "b": 230.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "VANDAL",
+        "start_frame": 426,
+        "end_frame": 432,
+        "duration_frames": 6,
+        "x_center": 0.929,
+        "y_center": 0.9,
+        "height_frac": 0.022,
+        "width_frac": 0.038,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 139.0,
+          "g": 122.0,
+          "b": 155.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "BGarden",
+        "start_frame": 438,
+        "end_frame": 450,
+        "duration_frames": 12,
+        "x_center": 0.118,
+        "y_center": 0.026,
+        "height_frac": 0.028,
+        "width_frac": 0.048,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 170.0,
+          "g": 178.0,
+          "b": 207.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "10",
+        "start_frame": 456,
+        "end_frame": 474,
+        "duration_frames": 18,
+        "x_center": 0.575,
+        "y_center": 0.045,
+        "height_frac": 0.021,
+        "width_frac": 0.02,
+        "size_class": "small",
+        "entry_anim": "scale_pop",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 228.0,
+          "g": 242.0,
+          "b": 254.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "10",
+        "start_frame": 510,
+        "end_frame": 558,
+        "duration_frames": 48,
+        "x_center": 0.563,
+        "y_center": 0.047,
+        "height_frac": 0.028,
+        "width_frac": 0.02,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 213.0,
+          "g": 212.0,
+          "b": 232.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "10",
+        "start_frame": 582,
+        "end_frame": 606,
+        "duration_frames": 24,
+        "x_center": 0.587,
+        "y_center": 0.023,
+        "height_frac": 0.032,
+        "width_frac": 0.023,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 200.0,
+          "g": 196.0,
+          "b": 223.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "imnotningning",
+        "start_frame": 618,
+        "end_frame": 642,
+        "duration_frames": 24,
+        "x_center": 0.859,
+        "y_center": 0.076,
+        "height_frac": 0.024,
+        "width_frac": 0.066,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 207.0,
+          "g": 234.0,
+          "b": 241.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "57",
+        "start_frame": 654,
+        "end_frame": 684,
+        "duration_frames": 30,
+        "x_center": 0.306,
+        "y_center": 0.955,
+        "height_frac": 0.043,
+        "width_frac": 0.054,
+        "size_class": "small",
+        "entry_anim": "shrink",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 213.0,
+          "g": 201.0,
+          "b": 212.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "imwinter",
+        "start_frame": 690,
+        "end_frame": 690,
+        "duration_frames": 0,
+        "x_center": 0.968,
+        "y_center": 0.163,
+        "height_frac": 0.022,
+        "width_frac": 0.04,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 213.0,
+          "g": 240.0,
+          "b": 245.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "交页",
+        "start_frame": 696,
+        "end_frame": 696,
+        "duration_frames": 0,
+        "x_center": 0.634,
+        "y_center": 0.988,
+        "height_frac": 0.019,
+        "width_frac": 0.023,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 122.0,
+          "g": 101.0,
+          "b": 124.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "Make UpY",
+        "start_frame": 714,
+        "end_frame": 720,
+        "duration_frames": 6,
+        "x_center": 0.975,
+        "y_center": 0.026,
+        "height_frac": 0.028,
+        "width_frac": 0.047,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 187.0,
+          "g": 196.0,
+          "b": 213.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "100",
+        "start_frame": 726,
+        "end_frame": 732,
+        "duration_frames": 6,
+        "x_center": 0.311,
+        "y_center": 0.962,
+        "height_frac": 0.046,
+        "width_frac": 0.043,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 248.0,
+          "g": 230.0,
+          "b": 249.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "YoManchey",
+        "start_frame": 738,
+        "end_frame": 774,
+        "duration_frames": 36,
+        "x_center": 0.932,
+        "y_center": 0.104,
+        "height_frac": 0.031,
+        "width_frac": 0.048,
+        "size_class": "small",
+        "entry_anim": "shrink",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 215.0,
+          "g": 156.0,
+          "b": 184.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "MakeUpYourMind",
+        "start_frame": 780,
+        "end_frame": 780,
+        "duration_frames": 0,
+        "x_center": 0.824,
+        "y_center": 0.085,
+        "height_frac": 0.022,
+        "width_frac": 0.076,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 189.0,
+          "g": 205.0,
+          "b": 215.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "50",
+        "start_frame": 786,
+        "end_frame": 786,
+        "duration_frames": 0,
+        "x_center": 0.275,
+        "y_center": 0.981,
+        "height_frac": 0.026,
+        "width_frac": 0.02,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 198.0,
+          "g": 179.0,
+          "b": 209.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "YoManchey",
+        "start_frame": 792,
+        "end_frame": 792,
+        "duration_frames": 0,
+        "x_center": 0.974,
+        "y_center": 0.069,
+        "height_frac": 0.028,
+        "width_frac": 0.05,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 214.0,
+          "g": 152.0,
+          "b": 182.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "ALLYPLANTING",
+        "start_frame": 798,
+        "end_frame": 816,
+        "duration_frames": 18,
+        "x_center": 0.501,
+        "y_center": 0.105,
+        "height_frac": 0.026,
+        "width_frac": 0.095,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 246.0,
+          "g": 239.0,
+          "b": 243.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "Phoenix",
+        "start_frame": 828,
+        "end_frame": 834,
+        "duration_frames": 6,
+        "x_center": 0.939,
+        "y_center": 0.142,
+        "height_frac": 0.028,
+        "width_frac": 0.037,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 182.0,
+          "g": 125.0,
+          "b": 150.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "To",
+        "start_frame": 840,
+        "end_frame": 840,
+        "duration_frames": 0,
+        "x_center": 0.071,
+        "y_center": 0.024,
+        "height_frac": 0.033,
+        "width_frac": 0.044,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 102.0,
+          "g": 98.0,
+          "b": 133.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "KAY/O",
+        "start_frame": 846,
+        "end_frame": 846,
+        "duration_frames": 0,
+        "x_center": 0.825,
+        "y_center": 0.022,
+        "height_frac": 0.024,
+        "width_frac": 0.037,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 198.0,
+          "g": 153.0,
+          "b": 195.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "PAWN",
+        "start_frame": 864,
+        "end_frame": 870,
+        "duration_frames": 6,
+        "x_center": 0.788,
+        "y_center": 0.431,
+        "height_frac": 0.032,
+        "width_frac": 0.043,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 235.0,
+          "g": 211.0,
+          "b": 202.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "49",
+        "start_frame": 876,
+        "end_frame": 882,
+        "duration_frames": 6,
+        "x_center": 0.321,
+        "y_center": 0.946,
+        "height_frac": 0.039,
+        "width_frac": 0.029,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 204.0,
+          "g": 193.0,
+          "b": 206.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "1,850",
+        "start_frame": 888,
+        "end_frame": 888,
+        "duration_frames": 0,
+        "x_center": 0.96,
+        "y_center": 0.97,
+        "height_frac": 0.024,
+        "width_frac": 0.037,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 156.0,
+          "g": 143.0,
+          "b": 154.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "049",
+        "start_frame": 894,
+        "end_frame": 894,
+        "duration_frames": 0,
+        "x_center": 0.3,
+        "y_center": 0.965,
+        "height_frac": 0.043,
+        "width_frac": 0.059,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 135.0,
+          "g": 123.0,
+          "b": 143.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "HOLDING",
+        "start_frame": 900,
+        "end_frame": 918,
+        "duration_frames": 18,
+        "x_center": 0.366,
+        "y_center": 0.525,
+        "height_frac": 0.028,
+        "width_frac": 0.071,
+        "size_class": "small",
+        "entry_anim": "scale_pop",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 71.0,
+          "g": 50.0,
+          "b": 75.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "MELEE",
+        "start_frame": 930,
+        "end_frame": 930,
+        "duration_frames": 0,
+        "x_center": 0.968,
+        "y_center": 0.729,
+        "height_frac": 0.019,
+        "width_frac": 0.028,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 150.0,
+          "g": 100.0,
+          "b": 137.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "41m",
+        "start_frame": 936,
+        "end_frame": 942,
+        "duration_frames": 6,
+        "x_center": 0.414,
+        "y_center": 0.466,
+        "height_frac": 0.015,
+        "width_frac": 0.016,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 174.0,
+          "g": 153.0,
+          "b": 177.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "Erro",
+        "start_frame": 948,
+        "end_frame": 948,
+        "duration_frames": 0,
+        "x_center": 0.951,
+        "y_center": 0.21,
+        "height_frac": 0.014,
+        "width_frac": 0.017,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 213.0,
+          "g": 198.0,
+          "b": 220.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "delvan",
+        "start_frame": 954,
+        "end_frame": 972,
+        "duration_frames": 18,
+        "x_center": 0.8,
+        "y_center": 0.142,
+        "height_frac": 0.024,
+        "width_frac": 0.032,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 197.0,
+          "g": 217.0,
+          "b": 224.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "TANRIIYA",
+        "start_frame": 978,
+        "end_frame": 978,
+        "duration_frames": 0,
+        "x_center": 0.979,
+        "y_center": 0.068,
+        "height_frac": 0.025,
+        "width_frac": 0.041,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 242.0,
+          "g": 188.0,
+          "b": 224.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "THATS",
+        "start_frame": 1032,
+        "end_frame": 1038,
+        "duration_frames": 6,
+        "x_center": 0.506,
+        "y_center": 0.909,
+        "height_frac": 0.104,
+        "width_frac": 0.174,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 24.0,
+          "g": 219.0,
+          "b": 248.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "THE",
+        "start_frame": 1050,
+        "end_frame": 1062,
+        "duration_frames": 12,
+        "x_center": 0.505,
+        "y_center": 0.105,
+        "height_frac": 0.104,
+        "width_frac": 0.114,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 23.0,
+          "g": 189.0,
+          "b": 243.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "ME",
+        "start_frame": 1068,
+        "end_frame": 1080,
+        "duration_frames": 12,
+        "x_center": 0.717,
+        "y_center": 0.91,
+        "height_frac": 0.107,
+        "width_frac": 0.099,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 24.0,
+          "g": 196.0,
+          "b": 240.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "5",
+        "start_frame": 1092,
+        "end_frame": 1092,
+        "duration_frames": 0,
+        "x_center": 0.424,
+        "y_center": 0.014,
+        "height_frac": 0.019,
+        "width_frac": 0.01,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 154.0,
+          "g": 176.0,
+          "b": 241.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "中",
+        "start_frame": 1098,
+        "end_frame": 1098,
+        "duration_frames": 0,
+        "x_center": 0.057,
+        "y_center": 0.15,
+        "height_frac": 0.239,
+        "width_frac": 0.113,
+        "size_class": "big",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 178.0,
+          "g": 187.0,
+          "b": 240.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "Packet Loss",
+        "start_frame": 1104,
+        "end_frame": 1104,
+        "duration_frames": 0,
+        "x_center": 0.945,
+        "y_center": 0.135,
+        "height_frac": 0.019,
+        "width_frac": 0.047,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 240.0,
+          "g": 235.0,
+          "b": 252.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "zam",
+        "start_frame": 1110,
+        "end_frame": 1110,
+        "duration_frames": 0,
+        "x_center": 0.425,
+        "y_center": 0.615,
+        "height_frac": 0.019,
+        "width_frac": 0.023,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 96.0,
+          "g": 113.0,
+          "b": 178.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "1150",
+        "start_frame": 1122,
+        "end_frame": 1128,
+        "duration_frames": 6,
+        "x_center": 0.701,
+        "y_center": 0.966,
+        "height_frac": 0.032,
+        "width_frac": 0.056,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 210.0,
+          "g": 222.0,
+          "b": 219.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "HEALING",
+        "start_frame": 1134,
+        "end_frame": 1134,
+        "duration_frames": 0,
+        "x_center": 0.335,
+        "y_center": 0.906,
+        "height_frac": 0.022,
+        "width_frac": 0.043,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 156.0,
+          "g": 243.0,
+          "b": 254.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "2.600",
+        "start_frame": 1140,
+        "end_frame": 1140,
+        "duration_frames": 0,
+        "x_center": 0.973,
+        "y_center": 0.991,
+        "height_frac": 0.015,
+        "width_frac": 0.036,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 161.0,
+          "g": 150.0,
+          "b": 184.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "100",
+        "start_frame": 1146,
+        "end_frame": 1146,
+        "duration_frames": 0,
+        "x_center": 0.296,
+        "y_center": 0.98,
+        "height_frac": 0.037,
+        "width_frac": 0.045,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 232.0,
+          "g": 242.0,
+          "b": 248.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "Deadlock sigoatsDANGERnearBTunnot",
+        "start_frame": 1152,
+        "end_frame": 1152,
+        "duration_frames": 0,
+        "x_center": 0.083,
+        "y_center": 0.97,
+        "height_frac": 0.046,
+        "width_frac": 0.166,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 110.0,
+          "g": 108.0,
+          "b": 120.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "ERnearBTunnel",
+        "start_frame": 1158,
+        "end_frame": 1158,
+        "duration_frames": 0,
+        "x_center": 0.041,
+        "y_center": 0.974,
+        "height_frac": 0.049,
+        "width_frac": 0.083,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 112.0,
+          "g": 111.0,
+          "b": 120.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "PRESS AGAINTO CANCEL",
+        "start_frame": 1164,
+        "end_frame": 1164,
+        "duration_frames": 0,
+        "x_center": 0.459,
+        "y_center": 0.767,
+        "height_frac": 0.09,
+        "width_frac": 0.132,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 183.0,
+          "g": 239.0,
+          "b": 249.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "HEALING",
+        "start_frame": 1170,
+        "end_frame": 1170,
+        "duration_frames": 0,
+        "x_center": 0.17,
+        "y_center": 0.96,
+        "height_frac": 0.058,
+        "width_frac": 0.064,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 148.0,
+          "g": 230.0,
+          "b": 253.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "PRESS AGAIN TO CANCEL",
+        "start_frame": 1176,
+        "end_frame": 1182,
+        "duration_frames": 6,
+        "x_center": 0.462,
+        "y_center": 0.769,
+        "height_frac": 0.087,
+        "width_frac": 0.133,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 183.0,
+          "g": 231.0,
+          "b": 244.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "8Tunnef",
+        "start_frame": 1188,
+        "end_frame": 1188,
+        "duration_frames": 0,
+        "x_center": 0.023,
+        "y_center": 0.974,
+        "height_frac": 0.049,
+        "width_frac": 0.046,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 118.0,
+          "g": 116.0,
+          "b": 128.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "DRsDANGERoarBTunnet",
+        "start_frame": 1194,
+        "end_frame": 1194,
+        "duration_frames": 0,
+        "x_center": 0.063,
+        "y_center": 0.978,
+        "height_frac": 0.042,
+        "width_frac": 0.127,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 125.0,
+          "g": 124.0,
+          "b": 135.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "2525100",
+        "start_frame": 1200,
+        "end_frame": 1200,
+        "duration_frames": 0,
+        "x_center": 0.277,
+        "y_center": 0.978,
+        "height_frac": 0.042,
+        "width_frac": 0.089,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 202.0,
+          "g": 203.0,
+          "b": 209.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "ALong",
+        "start_frame": 1206,
+        "end_frame": 1206,
+        "duration_frames": 0,
+        "x_center": 0.094,
+        "y_center": 0.02,
+        "height_frac": 0.032,
+        "width_frac": 0.037,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 147.0,
+          "g": 132.0,
+          "b": 160.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "100",
+        "start_frame": 1212,
+        "end_frame": 1212,
+        "duration_frames": 0,
+        "x_center": 0.319,
+        "y_center": 0.954,
+        "height_frac": 0.058,
+        "width_frac": 0.059,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 190.0,
+          "g": 190.0,
+          "b": 213.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "HEADSHOT",
+        "start_frame": 1218,
+        "end_frame": 1218,
+        "duration_frames": 0,
+        "x_center": 0.497,
+        "y_center": 0.881,
+        "height_frac": 0.028,
+        "width_frac": 0.055,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 168.0,
+          "g": 148.0,
+          "b": 216.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "2.600",
+        "start_frame": 1224,
+        "end_frame": 1224,
+        "duration_frames": 0,
+        "x_center": 0.956,
+        "y_center": 0.967,
+        "height_frac": 0.025,
+        "width_frac": 0.038,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 109.0,
+          "g": 110.0,
+          "b": 132.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "HEADSHOT",
+        "start_frame": 1230,
+        "end_frame": 1236,
+        "duration_frames": 6,
+        "x_center": 0.5,
+        "y_center": 0.883,
+        "height_frac": 0.019,
+        "width_frac": 0.053,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 198.0,
+          "g": 175.0,
+          "b": 232.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "SPIKE CARRIER KTLLED",
+        "start_frame": 1242,
+        "end_frame": 1248,
+        "duration_frames": 6,
+        "x_center": 0.593,
+        "y_center": 0.074,
+        "height_frac": 0.028,
+        "width_frac": 0.145,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 245.0,
+          "g": 206.0,
+          "b": 236.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "100",
+        "start_frame": 1254,
+        "end_frame": 1254,
+        "duration_frames": 0,
+        "x_center": 0.323,
+        "y_center": 0.976,
+        "height_frac": 0.044,
+        "width_frac": 0.067,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 224.0,
+          "g": 221.0,
+          "b": 245.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "70",
+        "start_frame": 1260,
+        "end_frame": 1266,
+        "duration_frames": 6,
+        "x_center": 0.306,
+        "y_center": 0.949,
+        "height_frac": 0.043,
+        "width_frac": 0.058,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 205.0,
+          "g": 205.0,
+          "b": 229.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "2.600",
+        "start_frame": 1272,
+        "end_frame": 1272,
+        "duration_frames": 0,
+        "x_center": 0.961,
+        "y_center": 0.973,
+        "height_frac": 0.024,
+        "width_frac": 0.038,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 157.0,
+          "g": 154.0,
+          "b": 179.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "AMN",
+        "start_frame": 1278,
+        "end_frame": 1278,
+        "duration_frames": 0,
+        "x_center": 0.981,
+        "y_center": 0.043,
+        "height_frac": 0.033,
+        "width_frac": 0.036,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 202.0,
+          "g": 140.0,
+          "b": 174.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "AEM",
+        "start_frame": 1284,
+        "end_frame": 1284,
+        "duration_frames": 0,
+        "x_center": 0.986,
+        "y_center": 0.025,
+        "height_frac": 0.025,
+        "width_frac": 0.026,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 230.0,
+          "g": 172.0,
+          "b": 206.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "HEAOSHOI",
+        "start_frame": 1290,
+        "end_frame": 1290,
+        "duration_frames": 0,
+        "x_center": 0.5,
+        "y_center": 0.961,
+        "height_frac": 0.022,
+        "width_frac": 0.064,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 207.0,
+          "g": 180.0,
+          "b": 239.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "AEMr",
+        "start_frame": 1296,
+        "end_frame": 1302,
+        "duration_frames": 6,
+        "x_center": 0.986,
+        "y_center": 0.026,
+        "height_frac": 0.025,
+        "width_frac": 0.027,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 236.0,
+          "g": 178.0,
+          "b": 212.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "HEADSHOT",
+        "start_frame": 1308,
+        "end_frame": 1308,
+        "duration_frames": 0,
+        "x_center": 0.5,
+        "y_center": 0.955,
+        "height_frac": 0.024,
+        "width_frac": 0.062,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 178.0,
+          "g": 147.0,
+          "b": 217.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "AEMrMig",
+        "start_frame": 1314,
+        "end_frame": 1314,
+        "duration_frames": 0,
+        "x_center": 0.978,
+        "y_center": 0.042,
+        "height_frac": 0.024,
+        "width_frac": 0.043,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 231.0,
+          "g": 177.0,
+          "b": 209.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "SP",
+        "start_frame": 1320,
+        "end_frame": 1326,
+        "duration_frames": 6,
+        "x_center": 0.184,
+        "y_center": 0.89,
+        "height_frac": 0.092,
+        "width_frac": 0.072,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 88.0,
+          "g": 93.0,
+          "b": 118.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "100",
+        "start_frame": 1332,
+        "end_frame": 1332,
+        "duration_frames": 0,
+        "x_center": 0.307,
+        "y_center": 0.982,
+        "height_frac": 0.033,
+        "width_frac": 0.038,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 240.0,
+          "g": 236.0,
+          "b": 253.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "REWIND",
+        "start_frame": 1338,
+        "end_frame": 1344,
+        "duration_frames": 6,
+        "x_center": 0.268,
+        "y_center": 0.09,
+        "height_frac": 0.074,
+        "width_frac": 0.177,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 152.0,
+          "g": 147.0,
+          "b": 146.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "SP",
+        "start_frame": 1350,
+        "end_frame": 1350,
+        "duration_frames": 0,
+        "x_center": 0.219,
+        "y_center": 0.848,
+        "height_frac": 0.087,
+        "width_frac": 0.069,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 115.0,
+          "g": 113.0,
+          "b": 111.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "ALobby",
+        "start_frame": 1356,
+        "end_frame": 1374,
+        "duration_frames": 18,
+        "x_center": 0.096,
+        "y_center": 0.022,
+        "height_frac": 0.028,
+        "width_frac": 0.032,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 147.0,
+          "g": 140.0,
+          "b": 152.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "HEADSHOT",
+        "start_frame": 1380,
+        "end_frame": 1380,
+        "duration_frames": 0,
+        "x_center": 0.5,
+        "y_center": 0.947,
+        "height_frac": 0.019,
+        "width_frac": 0.06,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 202.0,
+          "g": 182.0,
+          "b": 234.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "心",
+        "start_frame": 1392,
+        "end_frame": 1392,
+        "duration_frames": 0,
+        "x_center": 0.502,
+        "y_center": 0.826,
+        "height_frac": 0.107,
+        "width_frac": 0.042,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 177.0,
+          "g": 161.0,
+          "b": 208.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "Empr",
+        "start_frame": 1398,
+        "end_frame": 1404,
+        "duration_frames": 6,
+        "x_center": 0.491,
+        "y_center": 0.237,
+        "height_frac": 0.024,
+        "width_frac": 0.031,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 220.0,
+          "g": 220.0,
+          "b": 227.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "AEMr",
+        "start_frame": 1416,
+        "end_frame": 1422,
+        "duration_frames": 6,
+        "x_center": 0.985,
+        "y_center": 0.028,
+        "height_frac": 0.024,
+        "width_frac": 0.029,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 231.0,
+          "g": 171.0,
+          "b": 211.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "ASite",
+        "start_frame": 1446,
+        "end_frame": 1446,
+        "duration_frames": 0,
+        "x_center": 0.092,
+        "y_center": 0.46,
+        "height_frac": 0.024,
+        "width_frac": 0.028,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 194.0,
+          "g": 191.0,
+          "b": 206.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "50100",
+        "start_frame": 1452,
+        "end_frame": 1452,
+        "duration_frames": 0,
+        "x_center": 0.303,
+        "y_center": 0.981,
+        "height_frac": 0.036,
+        "width_frac": 0.062,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 189.0,
+          "g": 194.0,
+          "b": 210.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "12",
+        "start_frame": 1458,
+        "end_frame": 1482,
+        "duration_frames": 24,
+        "x_center": 0.429,
+        "y_center": 0.041,
+        "height_frac": 0.026,
+        "width_frac": 0.018,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 176.0,
+          "g": 172.0,
+          "b": 185.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "ASite",
+        "start_frame": 1488,
+        "end_frame": 1506,
+        "duration_frames": 18,
+        "x_center": 0.041,
+        "y_center": 0.385,
+        "height_frac": 0.025,
+        "width_frac": 0.031,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 202.0,
+          "g": 199.0,
+          "b": 215.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "2",
+        "start_frame": 1512,
+        "end_frame": 1518,
+        "duration_frames": 6,
+        "x_center": 0.428,
+        "y_center": 0.028,
+        "height_frac": 0.017,
+        "width_frac": 0.012,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 181.0,
+          "g": 185.0,
+          "b": 201.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "ASite",
+        "start_frame": 1524,
+        "end_frame": 1524,
+        "duration_frames": 0,
+        "x_center": 0.113,
+        "y_center": 0.403,
+        "height_frac": 0.019,
+        "width_frac": 0.025,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 197.0,
+          "g": 204.0,
+          "b": 220.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "12",
+        "start_frame": 1530,
+        "end_frame": 1530,
+        "duration_frames": 0,
+        "x_center": 0.428,
+        "y_center": 0.048,
+        "height_frac": 0.026,
+        "width_frac": 0.027,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 160.0,
+          "g": 154.0,
+          "b": 167.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "1:37",
+        "start_frame": 1536,
+        "end_frame": 1536,
+        "duration_frames": 0,
+        "x_center": 0.5,
+        "y_center": 0.047,
+        "height_frac": 0.035,
+        "width_frac": 0.037,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 186.0,
+          "g": 181.0,
+          "b": 195.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "12",
+        "start_frame": 1542,
+        "end_frame": 1548,
+        "duration_frames": 6,
+        "x_center": 0.43,
+        "y_center": 0.048,
+        "height_frac": 0.026,
+        "width_frac": 0.023,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 162.0,
+          "g": 156.0,
+          "b": 169.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "ANu",
+        "start_frame": 1554,
+        "end_frame": 1554,
+        "duration_frames": 0,
+        "x_center": 0.032,
+        "y_center": 0.382,
+        "height_frac": 0.025,
+        "width_frac": 0.035,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 216.0,
+          "g": 185.0,
+          "b": 183.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "ANest",
+        "start_frame": 1560,
+        "end_frame": 1560,
+        "duration_frames": 0,
+        "x_center": 0.032,
+        "y_center": 0.383,
+        "height_frac": 0.024,
+        "width_frac": 0.034,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 202.0,
+          "g": 171.0,
+          "b": 162.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "ROCKETFUSE",
+        "start_frame": 1566,
+        "end_frame": 1572,
+        "duration_frames": 6,
+        "x_center": 0.502,
+        "y_center": 0.644,
+        "height_frac": 0.022,
+        "width_frac": 0.062,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 156.0,
+          "g": 142.0,
+          "b": 161.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "ANest",
+        "start_frame": 1578,
+        "end_frame": 1578,
+        "duration_frames": 0,
+        "x_center": 0.031,
+        "y_center": 0.383,
+        "height_frac": 0.025,
+        "width_frac": 0.034,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 223.0,
+          "g": 198.0,
+          "b": 194.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "ABelt",
+        "start_frame": 1584,
+        "end_frame": 1584,
+        "duration_frames": 0,
+        "x_center": 0.036,
+        "y_center": 0.383,
+        "height_frac": 0.025,
+        "width_frac": 0.033,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 222.0,
+          "g": 201.0,
+          "b": 196.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "12",
+        "start_frame": 1590,
+        "end_frame": 1626,
+        "duration_frames": 36,
+        "x_center": 0.428,
+        "y_center": 0.04,
+        "height_frac": 0.026,
+        "width_frac": 0.019,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 185.0,
+          "g": 156.0,
+          "b": 197.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "ABelt",
+        "start_frame": 1632,
+        "end_frame": 1650,
+        "duration_frames": 18,
+        "x_center": 0.059,
+        "y_center": 0.389,
+        "height_frac": 0.025,
+        "width_frac": 0.03,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 227.0,
+          "g": 205.0,
+          "b": 200.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "21",
+        "start_frame": 1656,
+        "end_frame": 1662,
+        "duration_frames": 6,
+        "x_center": 0.694,
+        "y_center": 0.965,
+        "height_frac": 0.043,
+        "width_frac": 0.055,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 132.0,
+          "g": 131.0,
+          "b": 143.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "A Bell",
+        "start_frame": 1674,
+        "end_frame": 1680,
+        "duration_frames": 6,
+        "x_center": 0.055,
+        "y_center": 0.388,
+        "height_frac": 0.029,
+        "width_frac": 0.033,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 215.0,
+          "g": 193.0,
+          "b": 193.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "86",
+        "start_frame": 1692,
+        "end_frame": 1710,
+        "duration_frames": 18,
+        "x_center": 0.301,
+        "y_center": 0.983,
+        "height_frac": 0.032,
+        "width_frac": 0.035,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 195.0,
+          "g": 189.0,
+          "b": 202.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "Sage",
+        "start_frame": 1716,
+        "end_frame": 1716,
+        "duration_frames": 0,
+        "x_center": 0.939,
+        "y_center": 0.25,
+        "height_frac": 0.025,
+        "width_frac": 0.026,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 199.0,
+          "g": 150.0,
+          "b": 159.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "13",
+        "start_frame": 1722,
+        "end_frame": 1734,
+        "duration_frames": 12,
+        "x_center": 0.428,
+        "y_center": 0.047,
+        "height_frac": 0.028,
+        "width_frac": 0.02,
+        "size_class": "small",
+        "entry_anim": "shrink",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 174.0,
+          "g": 154.0,
+          "b": 162.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "Viper",
+        "start_frame": 1740,
+        "end_frame": 1740,
+        "duration_frames": 0,
+        "x_center": 0.939,
+        "y_center": 0.215,
+        "height_frac": 0.024,
+        "width_frac": 0.027,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 150.0,
+          "g": 121.0,
+          "b": 128.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "13",
+        "start_frame": 1746,
+        "end_frame": 1758,
+        "duration_frames": 12,
+        "x_center": 0.429,
+        "y_center": 0.049,
+        "height_frac": 0.028,
+        "width_frac": 0.02,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 122.0,
+          "g": 113.0,
+          "b": 124.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "MB3",
+        "start_frame": 1764,
+        "end_frame": 1770,
+        "duration_frames": 6,
+        "x_center": 0.588,
+        "y_center": 0.985,
+        "height_frac": 0.021,
+        "width_frac": 0.019,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 84.0,
+          "g": 77.0,
+          "b": 79.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "Viper",
+        "start_frame": 1776,
+        "end_frame": 1776,
+        "duration_frames": 0,
+        "x_center": 0.939,
+        "y_center": 0.215,
+        "height_frac": 0.028,
+        "width_frac": 0.026,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 61.0,
+          "g": 49.0,
+          "b": 55.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "Killjoy",
+        "start_frame": 1782,
+        "end_frame": 1782,
+        "duration_frames": 0,
+        "x_center": 0.039,
+        "y_center": 0.64,
+        "height_frac": 0.019,
+        "width_frac": 0.024,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 48.0,
+          "g": 44.0,
+          "b": 47.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "口",
+        "start_frame": 1836,
+        "end_frame": 1836,
+        "duration_frames": 0,
+        "x_center": 0.502,
+        "y_center": 0.464,
+        "height_frac": 0.392,
+        "width_frac": 0.25,
+        "size_class": "big",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 28.0,
+          "g": 27.0,
+          "b": 10.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "O",
+        "start_frame": 1842,
+        "end_frame": 1860,
+        "duration_frames": 18,
+        "x_center": 0.5,
+        "y_center": 0.483,
+        "height_frac": 0.347,
+        "width_frac": 0.205,
+        "size_class": "big",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 54.0,
+          "g": 55.0,
+          "b": 19.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "SUBSCRIBE",
+        "start_frame": 1878,
+        "end_frame": 1908,
+        "duration_frames": 30,
+        "x_center": 0.5,
+        "y_center": 0.89,
+        "height_frac": 0.082,
+        "width_frac": 0.206,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 193.0,
+          "g": 177.0,
+          "b": 91.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "WATCHTHIS",
+        "start_frame": 1914,
+        "end_frame": 1920,
+        "duration_frames": 6,
+        "x_center": 0.185,
+        "y_center": 0.724,
+        "height_frac": 0.097,
+        "width_frac": 0.248,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 254.0,
+          "g": 249.0,
+          "b": 136.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "SUBSCRIBE",
+        "start_frame": 1926,
+        "end_frame": 1926,
+        "duration_frames": 0,
+        "x_center": 0.498,
+        "y_center": 0.867,
+        "height_frac": 0.092,
+        "width_frac": 0.21,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 255.0,
+          "g": 249.0,
+          "b": 163.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "WATCHTHIS",
+        "start_frame": 1932,
+        "end_frame": 1932,
+        "duration_frames": 0,
+        "x_center": 0.181,
+        "y_center": 0.729,
+        "height_frac": 0.092,
+        "width_frac": 0.242,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 255.0,
+          "g": 249.0,
+          "b": 144.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "SUBSCRIBE",
+        "start_frame": 1938,
+        "end_frame": 1944,
+        "duration_frames": 6,
+        "x_center": 0.497,
+        "y_center": 0.867,
+        "height_frac": 0.087,
+        "width_frac": 0.209,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 255.0,
+          "g": 250.0,
+          "b": 165.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "WATCHTHIS",
+        "start_frame": 1950,
+        "end_frame": 1950,
+        "duration_frames": 0,
+        "x_center": 0.819,
+        "y_center": 0.73,
+        "height_frac": 0.099,
+        "width_frac": 0.248,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 255.0,
+          "g": 249.0,
+          "b": 143.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "SUBSCRIBE",
+        "start_frame": 1956,
+        "end_frame": 1974,
+        "duration_frames": 18,
+        "x_center": 0.498,
+        "y_center": 0.865,
+        "height_frac": 0.087,
+        "width_frac": 0.207,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 255.0,
+          "g": 250.0,
+          "b": 165.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "THANKSFORWATCHING!",
+        "start_frame": 1980,
+        "end_frame": 1980,
+        "duration_frames": 0,
+        "x_center": 0.505,
+        "y_center": 0.147,
+        "height_frac": 0.121,
+        "width_frac": 0.65,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 255.0,
+          "g": 253.0,
+          "b": 174.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "SUBSCRIBE",
+        "start_frame": 1986,
+        "end_frame": 2010,
+        "duration_frames": 24,
+        "x_center": 0.504,
+        "y_center": 0.859,
+        "height_frac": 0.093,
+        "width_frac": 0.205,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 255.0,
+          "g": 249.0,
+          "b": 164.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "WATCHTHIS",
+        "start_frame": 2016,
+        "end_frame": 2016,
+        "duration_frames": 0,
+        "x_center": 0.817,
+        "y_center": 0.728,
+        "height_frac": 0.099,
+        "width_frac": 0.243,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 255.0,
+          "g": 250.0,
+          "b": 141.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "SUBSCRIBE",
+        "start_frame": 2022,
+        "end_frame": 2034,
+        "duration_frames": 12,
+        "x_center": 0.499,
+        "y_center": 0.863,
+        "height_frac": 0.093,
+        "width_frac": 0.207,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 255.0,
+          "g": 249.0,
+          "b": 165.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "WATCHTHIS",
+        "start_frame": 2040,
+        "end_frame": 2052,
+        "duration_frames": 12,
+        "x_center": 0.176,
+        "y_center": 0.722,
+        "height_frac": 0.097,
+        "width_frac": 0.259,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 255.0,
+          "g": 249.0,
+          "b": 142.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "SUBSCRIBE",
+        "start_frame": 2058,
+        "end_frame": 2100,
+        "duration_frames": 42,
+        "x_center": 0.501,
+        "y_center": 0.864,
+        "height_frac": 0.092,
+        "width_frac": 0.211,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 255.0,
+          "g": 250.0,
+          "b": 165.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "WATCHTHIS",
+        "start_frame": 2106,
+        "end_frame": 2106,
+        "duration_frames": 0,
+        "x_center": 0.176,
+        "y_center": 0.721,
+        "height_frac": 0.1,
+        "width_frac": 0.258,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 254.0,
+          "g": 249.0,
+          "b": 138.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "THANKSFORWATCHING!",
+        "start_frame": 2112,
+        "end_frame": 2112,
+        "duration_frames": 0,
+        "x_center": 0.5,
+        "y_center": 0.148,
+        "height_frac": 0.121,
+        "width_frac": 0.654,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 255.0,
+          "g": 253.0,
+          "b": 173.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "SUBSCRIBE",
+        "start_frame": 2118,
+        "end_frame": 2118,
+        "duration_frames": 0,
+        "x_center": 0.497,
+        "y_center": 0.863,
+        "height_frac": 0.092,
+        "width_frac": 0.205,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 255.0,
+          "g": 249.0,
+          "b": 168.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "WATCHTHIS",
+        "start_frame": 2124,
+        "end_frame": 2124,
+        "duration_frames": 0,
+        "x_center": 0.189,
+        "y_center": 0.728,
+        "height_frac": 0.097,
+        "width_frac": 0.244,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 255.0,
+          "g": 250.0,
+          "b": 143.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "SUBSCRIBE",
+        "start_frame": 2130,
+        "end_frame": 2148,
+        "duration_frames": 18,
+        "x_center": 0.497,
+        "y_center": 0.865,
+        "height_frac": 0.086,
+        "width_frac": 0.206,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 255.0,
+          "g": 250.0,
+          "b": 169.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      }
+    ],
+    "vocal_words": 0
+  },
+  "YTDown.com_YouTube_Media_YJWDatNCoCM_Let": {
+    "fps": 60.0,
+    "width": 1280,
+    "height": 720,
+    "nframes": 1813,
+    "duration_s": 30.22,
+    "text_events": 128,
+    "events": [
+      {
+        "text": "Reyna",
+        "start_frame": 12,
+        "end_frame": 12,
+        "duration_frames": 0,
+        "x_center": 0.943,
+        "y_center": 0.106,
+        "height_frac": 0.024,
+        "width_frac": 0.024,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 127.0,
+          "g": 83.0,
+          "b": 81.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "69",
+        "start_frame": 18,
+        "end_frame": 30,
+        "duration_frames": 12,
+        "x_center": 0.32,
+        "y_center": 0.951,
+        "height_frac": 0.028,
+        "width_frac": 0.022,
+        "size_class": "small",
+        "entry_anim": "scale_pop",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 227.0,
+          "g": 221.0,
+          "b": 215.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "and i know you think",
+        "start_frame": 36,
+        "end_frame": 42,
+        "duration_frames": 6,
+        "x_center": 0.5,
+        "y_center": 0.867,
+        "height_frac": 0.046,
+        "width_frac": 0.211,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 199.0,
+          "g": 198.0,
+          "b": 198.0
+        },
+        "vocal_match": "I",
+        "timing_error_ms": 160.0
+      },
+      {
+        "text": "69",
+        "start_frame": 48,
+        "end_frame": 108,
+        "duration_frames": 60,
+        "x_center": 0.32,
+        "y_center": 0.951,
+        "height_frac": 0.028,
+        "width_frac": 0.022,
+        "size_class": "small",
+        "entry_anim": "scale_pop",
+        "exit_anim": "hard_cut",
+        "color": null,
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "you can run",
+        "start_frame": 114,
+        "end_frame": 132,
+        "duration_frames": 18,
+        "x_center": 0.5,
+        "y_center": 0.872,
+        "height_frac": 0.046,
+        "width_frac": 0.123,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 159.0,
+          "g": 159.0,
+          "b": 160.0
+        },
+        "vocal_match": "you",
+        "timing_error_ms": 920.0
+      },
+      {
+        "text": "5",
+        "start_frame": 138,
+        "end_frame": 138,
+        "duration_frames": 0,
+        "x_center": 0.427,
+        "y_center": 0.048,
+        "height_frac": 0.024,
+        "width_frac": 0.01,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 231.0,
+          "g": 230.0,
+          "b": 234.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "you can run",
+        "start_frame": 144,
+        "end_frame": 150,
+        "duration_frames": 6,
+        "x_center": 0.5,
+        "y_center": 0.871,
+        "height_frac": 0.042,
+        "width_frac": 0.121,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 203.0,
+          "g": 203.0,
+          "b": 203.0
+        },
+        "vocal_match": "you",
+        "timing_error_ms": 1420.0
+      },
+      {
+        "text": "300",
+        "start_frame": 156,
+        "end_frame": 156,
+        "duration_frames": 0,
+        "x_center": 0.961,
+        "y_center": 0.972,
+        "height_frac": 0.019,
+        "width_frac": 0.027,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 218.0,
+          "g": 223.0,
+          "b": 222.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "5",
+        "start_frame": 162,
+        "end_frame": 168,
+        "duration_frames": 6,
+        "x_center": 0.431,
+        "y_center": 0.045,
+        "height_frac": 0.015,
+        "width_frac": 0.006,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 244.0,
+          "g": 238.0,
+          "b": 233.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "300",
+        "start_frame": 174,
+        "end_frame": 174,
+        "duration_frames": 0,
+        "x_center": 0.959,
+        "y_center": 0.976,
+        "height_frac": 0.024,
+        "width_frac": 0.028,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 202.0,
+          "g": 207.0,
+          "b": 204.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "399868",
+        "start_frame": 180,
+        "end_frame": 180,
+        "duration_frames": 0,
+        "x_center": 0.949,
+        "y_center": 0.986,
+        "height_frac": 0.014,
+        "width_frac": 0.031,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 89.0,
+          "g": 81.0,
+          "b": 75.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "Reyna",
+        "start_frame": 186,
+        "end_frame": 186,
+        "duration_frames": 0,
+        "x_center": 0.477,
+        "y_center": 0.62,
+        "height_frac": 0.015,
+        "width_frac": 0.021,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 189.0,
+          "g": 189.0,
+          "b": 193.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "Me",
+        "start_frame": 192,
+        "end_frame": 192,
+        "duration_frames": 0,
+        "x_center": 0.806,
+        "y_center": 0.104,
+        "height_frac": 0.019,
+        "width_frac": 0.018,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 199.0,
+          "g": 198.0,
+          "b": 201.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "Reyna",
+        "start_frame": 198,
+        "end_frame": 210,
+        "duration_frames": 12,
+        "x_center": 0.923,
+        "y_center": 0.106,
+        "height_frac": 0.028,
+        "width_frac": 0.037,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 234.0,
+          "g": 161.0,
+          "b": 162.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "3399868",
+        "start_frame": 216,
+        "end_frame": 216,
+        "duration_frames": 0,
+        "x_center": 0.948,
+        "y_center": 0.986,
+        "height_frac": 0.014,
+        "width_frac": 0.034,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 68.0,
+          "g": 66.0,
+          "b": 67.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "Reyna",
+        "start_frame": 222,
+        "end_frame": 222,
+        "duration_frames": 0,
+        "x_center": 0.923,
+        "y_center": 0.106,
+        "height_frac": 0.028,
+        "width_frac": 0.036,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 187.0,
+          "g": 192.0,
+          "b": 193.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "believe im the one",
+        "start_frame": 228,
+        "end_frame": 228,
+        "duration_frames": 0,
+        "x_center": 0.501,
+        "y_center": 0.868,
+        "height_frac": 0.05,
+        "width_frac": 0.184,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 192.0,
+          "g": 193.0,
+          "b": 193.0
+        },
+        "vocal_match": "I",
+        "timing_error_ms": 3360.0
+      },
+      {
+        "text": "Reyna",
+        "start_frame": 234,
+        "end_frame": 234,
+        "duration_frames": 0,
+        "x_center": 0.923,
+        "y_center": 0.106,
+        "height_frac": 0.028,
+        "width_frac": 0.037,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 234.0,
+          "g": 161.0,
+          "b": 164.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "Skye",
+        "start_frame": 240,
+        "end_frame": 240,
+        "duration_frames": 0,
+        "x_center": 0.927,
+        "y_center": 0.143,
+        "height_frac": 0.025,
+        "width_frac": 0.03,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 238.0,
+          "g": 158.0,
+          "b": 160.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "Reyna",
+        "start_frame": 246,
+        "end_frame": 246,
+        "duration_frames": 0,
+        "x_center": 0.923,
+        "y_center": 0.106,
+        "height_frac": 0.028,
+        "width_frac": 0.034,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 192.0,
+          "g": 196.0,
+          "b": 195.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "believe im the one",
+        "start_frame": 252,
+        "end_frame": 258,
+        "duration_frames": 6,
+        "x_center": 0.501,
+        "y_center": 0.867,
+        "height_frac": 0.047,
+        "width_frac": 0.182,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 200.0,
+          "g": 200.0,
+          "b": 200.0
+        },
+        "vocal_match": "I",
+        "timing_error_ms": 3760.0
+      },
+      {
+        "text": "Reyna",
+        "start_frame": 264,
+        "end_frame": 264,
+        "duration_frames": 0,
+        "x_center": 0.923,
+        "y_center": 0.106,
+        "height_frac": 0.028,
+        "width_frac": 0.037,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 237.0,
+          "g": 164.0,
+          "b": 163.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "100",
+        "start_frame": 270,
+        "end_frame": 276,
+        "duration_frames": 6,
+        "x_center": 0.261,
+        "y_center": 0.95,
+        "height_frac": 0.044,
+        "width_frac": 0.053,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 237.0,
+          "g": 236.0,
+          "b": 237.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "believe im the one",
+        "start_frame": 282,
+        "end_frame": 300,
+        "duration_frames": 18,
+        "x_center": 0.502,
+        "y_center": 0.867,
+        "height_frac": 0.046,
+        "width_frac": 0.183,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 207.0,
+          "g": 205.0,
+          "b": 207.0
+        },
+        "vocal_match": "I",
+        "timing_error_ms": 4260.0
+      },
+      {
+        "text": "1.100",
+        "start_frame": 306,
+        "end_frame": 306,
+        "duration_frames": 0,
+        "x_center": 0.958,
+        "y_center": 0.968,
+        "height_frac": 0.022,
+        "width_frac": 0.034,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 214.0,
+          "g": 215.0,
+          "b": 205.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "ignite",
+        "start_frame": 312,
+        "end_frame": 324,
+        "duration_frames": 12,
+        "x_center": 0.944,
+        "y_center": 0.106,
+        "height_frac": 0.021,
+        "width_frac": 0.024,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 246.0,
+          "g": 191.0,
+          "b": 186.0
+        },
+        "vocal_match": "I",
+        "timing_error_ms": 4760.0
+      },
+      {
+        "text": "BUT",
+        "start_frame": 330,
+        "end_frame": 342,
+        "duration_frames": 12,
+        "x_center": 0.504,
+        "y_center": 0.507,
+        "height_frac": 0.169,
+        "width_frac": 0.33,
+        "size_class": "big",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 241.0,
+          "g": 210.0,
+          "b": 183.0
+        },
+        "vocal_match": "But",
+        "timing_error_ms": 140.0
+      },
+      {
+        "text": "3.800",
+        "start_frame": 348,
+        "end_frame": 348,
+        "duration_frames": 0,
+        "x_center": 0.958,
+        "y_center": 0.969,
+        "height_frac": 0.024,
+        "width_frac": 0.037,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 215.0,
+          "g": 214.0,
+          "b": 216.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "1:20",
+        "start_frame": 354,
+        "end_frame": 354,
+        "duration_frames": 0,
+        "x_center": 0.5,
+        "y_center": 0.044,
+        "height_frac": 0.039,
+        "width_frac": 0.038,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 217.0,
+          "g": 217.0,
+          "b": 217.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "JUST",
+        "start_frame": 360,
+        "end_frame": 360,
+        "duration_frames": 0,
+        "x_center": 0.532,
+        "y_center": 0.509,
+        "height_frac": 0.226,
+        "width_frac": 0.493,
+        "size_class": "big",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 217.0,
+          "g": 189.0,
+          "b": 216.0
+        },
+        "vocal_match": "just",
+        "timing_error_ms": 60.0
+      },
+      {
+        "text": "650",
+        "start_frame": 366,
+        "end_frame": 366,
+        "duration_frames": 0,
+        "x_center": 0.962,
+        "y_center": 0.969,
+        "height_frac": 0.024,
+        "width_frac": 0.029,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 195.0,
+          "g": 194.0,
+          "b": 197.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "CAN'T",
+        "start_frame": 372,
+        "end_frame": 372,
+        "duration_frames": 0,
+        "x_center": 0.509,
+        "y_center": 0.512,
+        "height_frac": 0.214,
+        "width_frac": 0.487,
+        "size_class": "big",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 136.0,
+          "g": 110.0,
+          "b": 119.0
+        },
+        "vocal_match": "can",
+        "timing_error_ms": 4520.0
+      },
+      {
+        "text": "5100",
+        "start_frame": 378,
+        "end_frame": 378,
+        "duration_frames": 0,
+        "x_center": 0.959,
+        "y_center": 0.968,
+        "height_frac": 0.022,
+        "width_frac": 0.035,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 253.0,
+          "g": 234.0,
+          "b": 252.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "LET",
+        "start_frame": 384,
+        "end_frame": 384,
+        "duration_frames": 0,
+        "x_center": 0.502,
+        "y_center": 0.509,
+        "height_frac": 0.199,
+        "width_frac": 0.312,
+        "size_class": "big",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 190.0,
+          "g": 168.0,
+          "b": 170.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "37",
+        "start_frame": 390,
+        "end_frame": 390,
+        "duration_frames": 0,
+        "x_center": 0.321,
+        "y_center": 0.951,
+        "height_frac": 0.043,
+        "width_frac": 0.031,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 237.0,
+          "g": 233.0,
+          "b": 234.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "89",
+        "start_frame": 396,
+        "end_frame": 396,
+        "duration_frames": 0,
+        "x_center": 0.32,
+        "y_center": 0.949,
+        "height_frac": 0.043,
+        "width_frac": 0.032,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 254.0,
+          "g": 253.0,
+          "b": 252.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "haunted",
+        "start_frame": 402,
+        "end_frame": 420,
+        "duration_frames": 18,
+        "x_center": 0.813,
+        "y_center": 0.108,
+        "height_frac": 0.024,
+        "width_frac": 0.034,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 167.0,
+          "g": 199.0,
+          "b": 191.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "DOD",
+        "start_frame": 432,
+        "end_frame": 438,
+        "duration_frames": 6,
+        "x_center": 0.092,
+        "y_center": 0.581,
+        "height_frac": 0.099,
+        "width_frac": 0.133,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 176.0,
+          "g": 168.0,
+          "b": 171.0
+        },
+        "vocal_match": "do",
+        "timing_error_ms": 420.0
+      },
+      {
+        "text": "GO",
+        "start_frame": 456,
+        "end_frame": 456,
+        "duration_frames": 0,
+        "x_center": 0.501,
+        "y_center": 0.513,
+        "height_frac": 0.185,
+        "width_frac": 0.229,
+        "size_class": "big",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 209.0,
+          "g": 177.0,
+          "b": 182.0
+        },
+        "vocal_match": "gonna",
+        "timing_error_ms": -5900.0
+      },
+      {
+        "text": "MOD",
+        "start_frame": 462,
+        "end_frame": 462,
+        "duration_frames": 0,
+        "x_center": 0.093,
+        "y_center": 0.581,
+        "height_frac": 0.097,
+        "width_frac": 0.129,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 180.0,
+          "g": 170.0,
+          "b": 175.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "DOZ",
+        "start_frame": 468,
+        "end_frame": 468,
+        "duration_frames": 0,
+        "x_center": 0.083,
+        "y_center": 0.582,
+        "height_frac": 0.089,
+        "width_frac": 0.109,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 168.0,
+          "g": 160.0,
+          "b": 161.0
+        },
+        "vocal_match": "do",
+        "timing_error_ms": 1020.0
+      },
+      {
+        "text": "Q",
+        "start_frame": 486,
+        "end_frame": 492,
+        "duration_frames": 6,
+        "x_center": 0.767,
+        "y_center": 0.424,
+        "height_frac": 0.308,
+        "width_frac": 0.201,
+        "size_class": "big",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 254.0,
+          "g": 250.0,
+          "b": 250.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "GD",
+        "start_frame": 498,
+        "end_frame": 498,
+        "duration_frames": 0,
+        "x_center": 0.504,
+        "y_center": 0.513,
+        "height_frac": 0.196,
+        "width_frac": 0.236,
+        "size_class": "big",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 195.0,
+          "g": 165.0,
+          "b": 172.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "BOD",
+        "start_frame": 510,
+        "end_frame": 510,
+        "duration_frames": 0,
+        "x_center": 0.092,
+        "y_center": 0.578,
+        "height_frac": 0.103,
+        "width_frac": 0.127,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 177.0,
+          "g": 166.0,
+          "b": 168.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "DOD",
+        "start_frame": 528,
+        "end_frame": 528,
+        "duration_frames": 0,
+        "x_center": 0.093,
+        "y_center": 0.58,
+        "height_frac": 0.107,
+        "width_frac": 0.13,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 176.0,
+          "g": 164.0,
+          "b": 165.0
+        },
+        "vocal_match": "do",
+        "timing_error_ms": 2020.0
+      },
+      {
+        "text": "Q",
+        "start_frame": 540,
+        "end_frame": 546,
+        "duration_frames": 6,
+        "x_center": 0.787,
+        "y_center": 0.543,
+        "height_frac": 0.325,
+        "width_frac": 0.206,
+        "size_class": "big",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 254.0,
+          "g": 249.0,
+          "b": 250.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "MNW",
+        "start_frame": 552,
+        "end_frame": 552,
+        "duration_frames": 0,
+        "x_center": 0.328,
+        "y_center": 0.567,
+        "height_frac": 0.093,
+        "width_frac": 0.068,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 153.0,
+          "g": 123.0,
+          "b": 131.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "Q",
+        "start_frame": 558,
+        "end_frame": 564,
+        "duration_frames": 6,
+        "x_center": 0.784,
+        "y_center": 0.424,
+        "height_frac": 0.321,
+        "width_frac": 0.178,
+        "size_class": "big",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 254.0,
+          "g": 251.0,
+          "b": 252.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "D",
+        "start_frame": 570,
+        "end_frame": 570,
+        "duration_frames": 0,
+        "x_center": 0.232,
+        "y_center": 0.451,
+        "height_frac": 0.303,
+        "width_frac": 0.196,
+        "size_class": "big",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 254.0,
+          "g": 250.0,
+          "b": 251.0
+        },
+        "vocal_match": "do",
+        "timing_error_ms": 2720.0
+      },
+      {
+        "text": "COm",
+        "start_frame": 582,
+        "end_frame": 582,
+        "duration_frames": 0,
+        "x_center": 0.092,
+        "y_center": 0.579,
+        "height_frac": 0.097,
+        "width_frac": 0.126,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 180.0,
+          "g": 168.0,
+          "b": 170.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "Q",
+        "start_frame": 606,
+        "end_frame": 612,
+        "duration_frames": 6,
+        "x_center": 0.783,
+        "y_center": 0.424,
+        "height_frac": 0.331,
+        "width_frac": 0.184,
+        "size_class": "big",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 254.0,
+          "g": 249.0,
+          "b": 250.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "9",
+        "start_frame": 618,
+        "end_frame": 618,
+        "duration_frames": 0,
+        "x_center": 0.214,
+        "y_center": 0.451,
+        "height_frac": 0.351,
+        "width_frac": 0.195,
+        "size_class": "big",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 254.0,
+          "g": 249.0,
+          "b": 250.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "COA",
+        "start_frame": 630,
+        "end_frame": 630,
+        "duration_frames": 0,
+        "x_center": 0.086,
+        "y_center": 0.578,
+        "height_frac": 0.096,
+        "width_frac": 0.115,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 164.0,
+          "g": 154.0,
+          "b": 157.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "COI",
+        "start_frame": 642,
+        "end_frame": 642,
+        "duration_frames": 0,
+        "x_center": 0.087,
+        "y_center": 0.578,
+        "height_frac": 0.097,
+        "width_frac": 0.116,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 169.0,
+          "g": 159.0,
+          "b": 162.0
+        },
+        "vocal_match": "I",
+        "timing_error_ms": 10260.0
+      },
+      {
+        "text": "i'd let the world...",
+        "start_frame": 654,
+        "end_frame": 666,
+        "duration_frames": 12,
+        "x_center": 0.499,
+        "y_center": 0.867,
+        "height_frac": 0.05,
+        "width_frac": 0.173,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 165.0,
+          "g": 164.0,
+          "b": 165.0
+        },
+        "vocal_match": "I",
+        "timing_error_ms": 10460.0
+      },
+      {
+        "text": "75",
+        "start_frame": 672,
+        "end_frame": 672,
+        "duration_frames": 0,
+        "x_center": 0.32,
+        "y_center": 0.951,
+        "height_frac": 0.049,
+        "width_frac": 0.034,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 244.0,
+          "g": 233.0,
+          "b": 243.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "i'd let the world...",
+        "start_frame": 678,
+        "end_frame": 678,
+        "duration_frames": 0,
+        "x_center": 0.497,
+        "y_center": 0.867,
+        "height_frac": 0.05,
+        "width_frac": 0.171,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 168.0,
+          "g": 168.0,
+          "b": 169.0
+        },
+        "vocal_match": "I",
+        "timing_error_ms": 10860.0
+      },
+      {
+        "text": "100",
+        "start_frame": 684,
+        "end_frame": 684,
+        "duration_frames": 0,
+        "x_center": 0.32,
+        "y_center": 0.95,
+        "height_frac": 0.039,
+        "width_frac": 0.04,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": null,
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "i'd let the world...",
+        "start_frame": 696,
+        "end_frame": 696,
+        "duration_frames": 0,
+        "x_center": 0.499,
+        "y_center": 0.867,
+        "height_frac": 0.046,
+        "width_frac": 0.173,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 179.0,
+          "g": 179.0,
+          "b": 179.0
+        },
+        "vocal_match": "I",
+        "timing_error_ms": 11160.0
+      },
+      {
+        "text": "70",
+        "start_frame": 702,
+        "end_frame": 780,
+        "duration_frames": 78,
+        "x_center": 0.321,
+        "y_center": 0.948,
+        "height_frac": 0.037,
+        "width_frac": 0.03,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 250.0,
+          "g": 250.0,
+          "b": 250.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "220",
+        "start_frame": 786,
+        "end_frame": 786,
+        "duration_frames": 0,
+        "x_center": 0.95,
+        "y_center": 0.964,
+        "height_frac": 0.014,
+        "width_frac": 0.016,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 213.0,
+          "g": 210.0,
+          "b": 249.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "Kxn萌宝",
+        "start_frame": 792,
+        "end_frame": 798,
+        "duration_frames": 6,
+        "x_center": 0.937,
+        "y_center": 0.108,
+        "height_frac": 0.024,
+        "width_frac": 0.031,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 191.0,
+          "g": 238.0,
+          "b": 225.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "70",
+        "start_frame": 804,
+        "end_frame": 804,
+        "duration_frames": 0,
+        "x_center": 0.309,
+        "y_center": 0.947,
+        "height_frac": 0.044,
+        "width_frac": 0.058,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 184.0,
+          "g": 180.0,
+          "b": 176.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "EORN",
+        "start_frame": 816,
+        "end_frame": 816,
+        "duration_frames": 0,
+        "x_center": 0.508,
+        "y_center": 0.491,
+        "height_frac": 0.282,
+        "width_frac": 0.412,
+        "size_class": "big",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 180.0,
+          "g": 162.0,
+          "b": 139.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "replay",
+        "start_frame": 822,
+        "end_frame": 840,
+        "duration_frames": 18,
+        "x_center": 0.903,
+        "y_center": 0.826,
+        "height_frac": 0.025,
+        "width_frac": 0.034,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 203.0,
+          "g": 194.0,
+          "b": 169.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "Afficher",
+        "start_frame": 846,
+        "end_frame": 846,
+        "duration_frames": 0,
+        "x_center": 0.903,
+        "y_center": 0.787,
+        "height_frac": 0.032,
+        "width_frac": 0.048,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 175.0,
+          "g": 172.0,
+          "b": 170.0
+        },
+        "vocal_match": "I",
+        "timing_error_ms": 13660.0
+      },
+      {
+        "text": "replay",
+        "start_frame": 852,
+        "end_frame": 852,
+        "duration_frames": 0,
+        "x_center": 0.898,
+        "y_center": 0.839,
+        "height_frac": 0.033,
+        "width_frac": 0.037,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 172.0,
+          "g": 170.0,
+          "b": 168.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "Afficher",
+        "start_frame": 858,
+        "end_frame": 858,
+        "duration_frames": 0,
+        "x_center": 0.903,
+        "y_center": 0.786,
+        "height_frac": 0.022,
+        "width_frac": 0.043,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 203.0,
+          "g": 203.0,
+          "b": 197.0
+        },
+        "vocal_match": "I",
+        "timing_error_ms": 13860.0
+      },
+      {
+        "text": "de",
+        "start_frame": 864,
+        "end_frame": 864,
+        "duration_frames": 0,
+        "x_center": 0.941,
+        "y_center": 0.81,
+        "height_frac": 0.021,
+        "width_frac": 0.017,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 218.0,
+          "g": 216.0,
+          "b": 215.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "Affiche",
+        "start_frame": 870,
+        "end_frame": 882,
+        "duration_frames": 12,
+        "x_center": 0.9,
+        "y_center": 0.787,
+        "height_frac": 0.024,
+        "width_frac": 0.039,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 219.0,
+          "g": 220.0,
+          "b": 177.0
+        },
+        "vocal_match": "I",
+        "timing_error_ms": 14060.0
+      },
+      {
+        "text": "mytta",
+        "start_frame": 888,
+        "end_frame": 918,
+        "duration_frames": 30,
+        "x_center": 0.828,
+        "y_center": 0.108,
+        "height_frac": 0.028,
+        "width_frac": 0.03,
+        "size_class": "small",
+        "entry_anim": "shrink",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 182.0,
+          "g": 179.0,
+          "b": 181.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "O",
+        "start_frame": 936,
+        "end_frame": 936,
+        "duration_frames": 0,
+        "x_center": 0.523,
+        "y_center": 0.503,
+        "height_frac": 0.467,
+        "width_frac": 0.187,
+        "size_class": "big",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 102.0,
+          "g": 254.0,
+          "b": 255.0
+        },
+        "vocal_match": "Oh,",
+        "timing_error_ms": 15600.0
+      },
+      {
+        "text": "8",
+        "start_frame": 942,
+        "end_frame": 942,
+        "duration_frames": 0,
+        "x_center": 0.32,
+        "y_center": 0.949,
+        "height_frac": 0.035,
+        "width_frac": 0.025,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 95.0,
+          "g": 95.0,
+          "b": 95.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "0:06",
+        "start_frame": 948,
+        "end_frame": 948,
+        "duration_frames": 0,
+        "x_center": 0.5,
+        "y_center": 0.044,
+        "height_frac": 0.039,
+        "width_frac": 0.041,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 170.0,
+          "g": 156.0,
+          "b": 156.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "载者4",
+        "start_frame": 954,
+        "end_frame": 954,
+        "duration_frames": 0,
+        "x_center": 0.956,
+        "y_center": 0.022,
+        "height_frac": 0.024,
+        "width_frac": 0.041,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 158.0,
+          "g": 129.0,
+          "b": 108.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "BURN FOR YOU",
+        "start_frame": 960,
+        "end_frame": 972,
+        "duration_frames": 12,
+        "x_center": 0.5,
+        "y_center": 0.867,
+        "height_frac": 0.042,
+        "width_frac": 0.177,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 165.0,
+          "g": 0.0,
+          "b": 5.0
+        },
+        "vocal_match": "you",
+        "timing_error_ms": 15020.0
+      },
+      {
+        "text": "78",
+        "start_frame": 978,
+        "end_frame": 978,
+        "duration_frames": 0,
+        "x_center": 0.321,
+        "y_center": 0.95,
+        "height_frac": 0.044,
+        "width_frac": 0.031,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 242.0,
+          "g": 228.0,
+          "b": 222.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "FERNANDINHU001",
+        "start_frame": 984,
+        "end_frame": 984,
+        "duration_frames": 0,
+        "x_center": 0.92,
+        "y_center": 0.102,
+        "height_frac": 0.026,
+        "width_frac": 0.072,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 247.0,
+          "g": 247.0,
+          "b": 247.0
+        },
+        "vocal_match": "I",
+        "timing_error_ms": 15960.0
+      },
+      {
+        "text": "100",
+        "start_frame": 990,
+        "end_frame": 990,
+        "duration_frames": 0,
+        "x_center": 0.32,
+        "y_center": 0.95,
+        "height_frac": 0.047,
+        "width_frac": 0.043,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 254.0,
+          "g": 252.0,
+          "b": 250.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "Sage",
+        "start_frame": 996,
+        "end_frame": 996,
+        "duration_frames": 0,
+        "x_center": 0.944,
+        "y_center": 0.143,
+        "height_frac": 0.019,
+        "width_frac": 0.021,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 251.0,
+          "g": 197.0,
+          "b": 184.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "BURNFORYOU",
+        "start_frame": 1002,
+        "end_frame": 1008,
+        "duration_frames": 6,
+        "x_center": 0.5,
+        "y_center": 0.865,
+        "height_frac": 0.037,
+        "width_frac": 0.176,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 189.0,
+          "g": 0.0,
+          "b": 6.0
+        },
+        "vocal_match": "you",
+        "timing_error_ms": 15720.0
+      },
+      {
+        "text": "100",
+        "start_frame": 1014,
+        "end_frame": 1020,
+        "duration_frames": 6,
+        "x_center": 0.32,
+        "y_center": 0.95,
+        "height_frac": 0.044,
+        "width_frac": 0.046,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 248.0,
+          "g": 243.0,
+          "b": 249.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "自分",
+        "start_frame": 1026,
+        "end_frame": 1026,
+        "duration_frames": 0,
+        "x_center": 0.823,
+        "y_center": 0.104,
+        "height_frac": 0.025,
+        "width_frac": 0.026,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 207.0,
+          "g": 206.0,
+          "b": 209.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "BURN FOR YOU",
+        "start_frame": 1032,
+        "end_frame": 1032,
+        "duration_frames": 0,
+        "x_center": 0.5,
+        "y_center": 0.867,
+        "height_frac": 0.042,
+        "width_frac": 0.177,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 165.0,
+          "g": 0.0,
+          "b": 5.0
+        },
+        "vocal_match": "you",
+        "timing_error_ms": 16220.0
+      },
+      {
+        "text": "100",
+        "start_frame": 1038,
+        "end_frame": 1152,
+        "duration_frames": 114,
+        "x_center": 0.324,
+        "y_center": 0.95,
+        "height_frac": 0.05,
+        "width_frac": 0.052,
+        "size_class": "small",
+        "entry_anim": "shrink",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 248.0,
+          "g": 248.0,
+          "b": 248.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "100",
+        "start_frame": 1164,
+        "end_frame": 1224,
+        "duration_frames": 60,
+        "x_center": 0.321,
+        "y_center": 0.949,
+        "height_frac": 0.04,
+        "width_frac": 0.041,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 255.0,
+          "g": 251.0,
+          "b": 243.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "100",
+        "start_frame": 1236,
+        "end_frame": 1260,
+        "duration_frames": 24,
+        "x_center": 0.319,
+        "y_center": 0.949,
+        "height_frac": 0.043,
+        "width_frac": 0.051,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 241.0,
+          "g": 243.0,
+          "b": 237.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "skibidisigma69",
+        "start_frame": 1266,
+        "end_frame": 1272,
+        "duration_frames": 6,
+        "x_center": 0.786,
+        "y_center": 0.177,
+        "height_frac": 0.024,
+        "width_frac": 0.063,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 182.0,
+          "g": 213.0,
+          "b": 204.0
+        },
+        "vocal_match": "I",
+        "timing_error_ms": 20660.0
+      },
+      {
+        "text": "100",
+        "start_frame": 1278,
+        "end_frame": 1278,
+        "duration_frames": 0,
+        "x_center": 0.313,
+        "y_center": 0.949,
+        "height_frac": 0.043,
+        "width_frac": 0.066,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 215.0,
+          "g": 216.0,
+          "b": 217.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "Omen",
+        "start_frame": 1284,
+        "end_frame": 1284,
+        "duration_frames": 0,
+        "x_center": 0.942,
+        "y_center": 0.142,
+        "height_frac": 0.019,
+        "width_frac": 0.028,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 182.0,
+          "g": 233.0,
+          "b": 214.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "skibidisigma69",
+        "start_frame": 1290,
+        "end_frame": 1290,
+        "duration_frames": 0,
+        "x_center": 0.825,
+        "y_center": 0.214,
+        "height_frac": 0.031,
+        "width_frac": 0.067,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 194.0,
+          "g": 195.0,
+          "b": 197.0
+        },
+        "vocal_match": "I",
+        "timing_error_ms": 21060.0
+      },
+      {
+        "text": "100",
+        "start_frame": 1296,
+        "end_frame": 1296,
+        "duration_frames": 0,
+        "x_center": 0.323,
+        "y_center": 0.949,
+        "height_frac": 0.043,
+        "width_frac": 0.058,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 229.0,
+          "g": 230.0,
+          "b": 229.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "then no one can",
+        "start_frame": 1302,
+        "end_frame": 1302,
+        "duration_frames": 0,
+        "x_center": 0.501,
+        "y_center": 0.87,
+        "height_frac": 0.043,
+        "width_frac": 0.155,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 160.0,
+          "g": 0.0,
+          "b": 3.0
+        },
+        "vocal_match": "can",
+        "timing_error_ms": 20020.0
+      },
+      {
+        "text": "100",
+        "start_frame": 1308,
+        "end_frame": 1308,
+        "duration_frames": 0,
+        "x_center": 0.331,
+        "y_center": 0.949,
+        "height_frac": 0.042,
+        "width_frac": 0.074,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 213.0,
+          "g": 227.0,
+          "b": 231.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "then no one can",
+        "start_frame": 1314,
+        "end_frame": 1314,
+        "duration_frames": 0,
+        "x_center": 0.501,
+        "y_center": 0.87,
+        "height_frac": 0.043,
+        "width_frac": 0.156,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 161.0,
+          "g": 0.0,
+          "b": 3.0
+        },
+        "vocal_match": "can",
+        "timing_error_ms": 20220.0
+      },
+      {
+        "text": "100",
+        "start_frame": 1320,
+        "end_frame": 1326,
+        "duration_frames": 6,
+        "x_center": 0.319,
+        "y_center": 0.949,
+        "height_frac": 0.043,
+        "width_frac": 0.051,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 245.0,
+          "g": 245.0,
+          "b": 245.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "then no one can",
+        "start_frame": 1332,
+        "end_frame": 1332,
+        "duration_frames": 0,
+        "x_center": 0.5,
+        "y_center": 0.87,
+        "height_frac": 0.049,
+        "width_frac": 0.157,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 156.0,
+          "g": 0.0,
+          "b": 1.0
+        },
+        "vocal_match": "can",
+        "timing_error_ms": 20520.0
+      },
+      {
+        "text": "SHERIFF",
+        "start_frame": 1338,
+        "end_frame": 1338,
+        "duration_frames": 0,
+        "x_center": 0.933,
+        "y_center": 0.749,
+        "height_frac": 0.026,
+        "width_frac": 0.04,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 145.0,
+          "g": 143.0,
+          "b": 149.0
+        },
+        "vocal_match": "I",
+        "timing_error_ms": 21860.0
+      },
+      {
+        "text": "1:12",
+        "start_frame": 1344,
+        "end_frame": 1344,
+        "duration_frames": 0,
+        "x_center": 0.501,
+        "y_center": 0.045,
+        "height_frac": 0.04,
+        "width_frac": 0.042,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 204.0,
+          "g": 202.0,
+          "b": 212.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "3",
+        "start_frame": 1350,
+        "end_frame": 1350,
+        "duration_frames": 0,
+        "x_center": 0.429,
+        "y_center": 0.047,
+        "height_frac": 0.022,
+        "width_frac": 0.01,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 209.0,
+          "g": 212.0,
+          "b": 209.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "70",
+        "start_frame": 1356,
+        "end_frame": 1380,
+        "duration_frames": 24,
+        "x_center": 0.322,
+        "y_center": 0.949,
+        "height_frac": 0.033,
+        "width_frac": 0.025,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 255.0,
+          "g": 252.0,
+          "b": 248.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "then no one can",
+        "start_frame": 1386,
+        "end_frame": 1386,
+        "duration_frames": 0,
+        "x_center": 0.501,
+        "y_center": 0.87,
+        "height_frac": 0.049,
+        "width_frac": 0.158,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 139.0,
+          "g": 3.0,
+          "b": 8.0
+        },
+        "vocal_match": "can",
+        "timing_error_ms": 21420.0
+      },
+      {
+        "text": "100",
+        "start_frame": 1398,
+        "end_frame": 1404,
+        "duration_frames": 6,
+        "x_center": 0.292,
+        "y_center": 0.949,
+        "height_frac": 0.043,
+        "width_frac": 0.063,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 236.0,
+          "g": 234.0,
+          "b": 230.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "3",
+        "start_frame": 1410,
+        "end_frame": 1410,
+        "duration_frames": 0,
+        "x_center": 0.587,
+        "y_center": 0.046,
+        "height_frac": 0.019,
+        "width_frac": 0.022,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 185.0,
+          "g": 186.0,
+          "b": 187.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "100",
+        "start_frame": 1416,
+        "end_frame": 1416,
+        "duration_frames": 0,
+        "x_center": 0.299,
+        "y_center": 0.949,
+        "height_frac": 0.043,
+        "width_frac": 0.049,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 251.0,
+          "g": 250.0,
+          "b": 249.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "GaragemB",
+        "start_frame": 1422,
+        "end_frame": 1422,
+        "duration_frames": 0,
+        "x_center": 0.107,
+        "y_center": 0.023,
+        "height_frac": 0.026,
+        "width_frac": 0.048,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 171.0,
+          "g": 167.0,
+          "b": 165.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "100",
+        "start_frame": 1428,
+        "end_frame": 1446,
+        "duration_frames": 18,
+        "x_center": 0.3,
+        "y_center": 0.949,
+        "height_frac": 0.05,
+        "width_frac": 0.049,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 247.0,
+          "g": 247.0,
+          "b": 247.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "1:19",
+        "start_frame": 1452,
+        "end_frame": 1452,
+        "duration_frames": 0,
+        "x_center": 0.501,
+        "y_center": 0.046,
+        "height_frac": 0.039,
+        "width_frac": 0.04,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 237.0,
+          "g": 237.0,
+          "b": 237.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "Cypher",
+        "start_frame": 1458,
+        "end_frame": 1458,
+        "duration_frames": 0,
+        "x_center": 0.931,
+        "y_center": 0.106,
+        "height_frac": 0.028,
+        "width_frac": 0.041,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 203.0,
+          "g": 203.0,
+          "b": 203.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "100",
+        "start_frame": 1464,
+        "end_frame": 1500,
+        "duration_frames": 36,
+        "x_center": 0.3,
+        "y_center": 0.949,
+        "height_frac": 0.044,
+        "width_frac": 0.048,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 247.0,
+          "g": 247.0,
+          "b": 247.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "100",
+        "start_frame": 1512,
+        "end_frame": 1560,
+        "duration_frames": 48,
+        "x_center": 0.32,
+        "y_center": 0.95,
+        "height_frac": 0.05,
+        "width_frac": 0.047,
+        "size_class": "small",
+        "entry_anim": "hard_cut",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 238.0,
+          "g": 239.0,
+          "b": 242.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "2",
+        "start_frame": 1566,
+        "end_frame": 1566,
+        "duration_frames": 0,
+        "x_center": 0.573,
+        "y_center": 0.045,
+        "height_frac": 0.024,
+        "width_frac": 0.013,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 215.0,
+          "g": 216.0,
+          "b": 218.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "SalaoB",
+        "start_frame": 1572,
+        "end_frame": 1572,
+        "duration_frames": 0,
+        "x_center": 0.129,
+        "y_center": 0.028,
+        "height_frac": 0.022,
+        "width_frac": 0.038,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 188.0,
+          "g": 185.0,
+          "b": 184.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "100",
+        "start_frame": 1578,
+        "end_frame": 1578,
+        "duration_frames": 0,
+        "x_center": 0.321,
+        "y_center": 0.949,
+        "height_frac": 0.04,
+        "width_frac": 0.043,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 252.0,
+          "g": 250.0,
+          "b": 248.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "54",
+        "start_frame": 1584,
+        "end_frame": 1584,
+        "duration_frames": 0,
+        "x_center": 0.322,
+        "y_center": 0.949,
+        "height_frac": 0.037,
+        "width_frac": 0.03,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": null,
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "0:06",
+        "start_frame": 1590,
+        "end_frame": 1590,
+        "duration_frames": 0,
+        "x_center": 0.5,
+        "y_center": 0.044,
+        "height_frac": 0.039,
+        "width_frac": 0.041,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 229.0,
+          "g": 228.0,
+          "b": 228.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "54",
+        "start_frame": 1596,
+        "end_frame": 1596,
+        "duration_frames": 0,
+        "x_center": 0.322,
+        "y_center": 0.949,
+        "height_frac": 0.037,
+        "width_frac": 0.029,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 253.0,
+          "g": 252.0,
+          "b": 252.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "0100",
+        "start_frame": 1602,
+        "end_frame": 1608,
+        "duration_frames": 6,
+        "x_center": 0.31,
+        "y_center": 0.95,
+        "height_frac": 0.047,
+        "width_frac": 0.066,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 239.0,
+          "g": 242.0,
+          "b": 244.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "ASite",
+        "start_frame": 1614,
+        "end_frame": 1614,
+        "duration_frames": 0,
+        "x_center": 0.125,
+        "y_center": 0.027,
+        "height_frac": 0.024,
+        "width_frac": 0.03,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 232.0,
+          "g": 209.0,
+          "b": 190.0
+        },
+        "vocal_match": "I",
+        "timing_error_ms": 26460.0
+      },
+      {
+        "text": "ALLYPLANTING",
+        "start_frame": 1626,
+        "end_frame": 1626,
+        "duration_frames": 0,
+        "x_center": 0.5,
+        "y_center": 0.147,
+        "height_frac": 0.026,
+        "width_frac": 0.088,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 225.0,
+          "g": 226.0,
+          "b": 224.0
+        },
+        "vocal_match": "I",
+        "timing_error_ms": 26660.0
+      },
+      {
+        "text": "Attacker SideSpawn",
+        "start_frame": 1632,
+        "end_frame": 1632,
+        "duration_frames": 0,
+        "x_center": 0.11,
+        "y_center": 0.024,
+        "height_frac": 0.031,
+        "width_frac": 0.082,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 187.0,
+          "g": 178.0,
+          "b": 170.0
+        },
+        "vocal_match": "I",
+        "timing_error_ms": 26760.0
+      },
+      {
+        "text": "1#2",
+        "start_frame": 1638,
+        "end_frame": 1638,
+        "duration_frames": 0,
+        "x_center": 0.384,
+        "y_center": 0.055,
+        "height_frac": 0.06,
+        "width_frac": 0.112,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 204.0,
+          "g": 218.0,
+          "b": 251.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "Defender Side Spawn",
+        "start_frame": 1644,
+        "end_frame": 1644,
+        "duration_frames": 0,
+        "x_center": 0.125,
+        "y_center": 0.027,
+        "height_frac": 0.029,
+        "width_frac": 0.099,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 209.0,
+          "g": 209.0,
+          "b": 216.0
+        },
+        "vocal_match": "I",
+        "timing_error_ms": 26960.0
+      },
+      {
+        "text": "1:14",
+        "start_frame": 1650,
+        "end_frame": 1650,
+        "duration_frames": 0,
+        "x_center": 0.502,
+        "y_center": 0.046,
+        "height_frac": 0.039,
+        "width_frac": 0.039,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 215.0,
+          "g": 221.0,
+          "b": 235.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "94",
+        "start_frame": 1656,
+        "end_frame": 1656,
+        "duration_frames": 0,
+        "x_center": 0.321,
+        "y_center": 0.949,
+        "height_frac": 0.033,
+        "width_frac": 0.026,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 243.0,
+          "g": 254.0,
+          "b": 255.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "ALVES",
+        "start_frame": 1662,
+        "end_frame": 1662,
+        "duration_frames": 0,
+        "x_center": 0.869,
+        "y_center": 0.105,
+        "height_frac": 0.026,
+        "width_frac": 0.052,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 250.0,
+          "g": 248.0,
+          "b": 249.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      },
+      {
+        "text": "monimoni",
+        "start_frame": 1668,
+        "end_frame": 1668,
+        "duration_frames": 0,
+        "x_center": 0.05,
+        "y_center": 0.644,
+        "height_frac": 0.022,
+        "width_frac": 0.041,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 204.0,
+          "g": 197.0,
+          "b": 193.0
+        },
+        "vocal_match": "I",
+        "timing_error_ms": 27360.0
+      },
+      {
+        "text": "350",
+        "start_frame": 1674,
+        "end_frame": 1674,
+        "duration_frames": 0,
+        "x_center": 0.962,
+        "y_center": 0.969,
+        "height_frac": 0.024,
+        "width_frac": 0.029,
+        "size_class": "small",
+        "entry_anim": "unknown",
+        "exit_anim": "hard_cut",
+        "color": {
+          "r": 203.0,
+          "g": 194.0,
+          "b": 189.0
+        },
+        "vocal_match": null,
+        "timing_error_ms": null
+      }
+    ],
+    "vocal_words": 62
+  }
+}

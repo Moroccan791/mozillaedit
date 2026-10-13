@@ -1,0 +1,82 @@
+{
+  "name": "YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p_killmontage",
+  "source": "E:\\raw clips val\\YTDown.com_YouTube_Media_2Ywo4r3D9DM_Ranked-but-it-s-a-1v9_002_720p.mp4",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.3,
+      "label": "",
+      "speed": 1.0,
+      "motion": "none",
+      "zoom": 1.15,
+      "transition": null
+    },
+    {
+      "start": 86.7874,
+      "end": 89.0874,
+      "label": "",
+      "speed": 1.0,
+      "motion": "none",
+      "zoom": 1.15,
+      "transition": null
+    },
+    {
+      "start": 231.3147,
+      "end": 233.6147,
+      "label": "",
+      "speed": 1.0,
+      "motion": "none",
+      "zoom": 1.15,
+      "transition": null
+    },
+    {
+      "start": 264.6977,
+      "end": 266.9977,
+      "label": "",
+      "speed": 1.0,
+      "motion": "none",
+      "zoom": 1.15,
+      "transition": null
+    },
+    {
+      "start": 343.8676,
+      "end": 346.1676,
+      "label": "",
+      "speed": 1.0,
+      "motion": "none",
+      "zoom": 1.15,
+      "transition": null
+    },
+    {
+      "start": 433.8289,
+      "end": 436.1289,
+      "label": "",
+      "speed": 1.0,
+      "motion": "none",
+      "zoom": 1.15,
+      "transition": null
+    }
+  ],
+  "grade": "teal-orange",
+  "target_lufs": -14.0,
+  "music": "E:\\audio\\Dracula (Slowed Best Part) - Tame Impala & JENNIE [Edit Audio].mp3",
+  "music_gain_db": -6.0,
+  "music_start": 19.923,
+  "captions": [],
+  "captions_mode": "lyrics",
+  "title": {},
+  "outro": {
+    "enabled": false
+  },
+  "platform": "reels",
+  "hook": "",
+  "aspect": "9:16",
+  "reframe": "blur",
+  "fps": 0,
+  "vibe": "montage",
+  "transition": {},
+  "audio_mode": "mix",
+  "sfx": false,
+  "sfx_gain_db": -8.0,
+  "schema_version": 1
+}

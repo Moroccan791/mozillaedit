@@ -1,0 +1,6 @@
+appName=undefined
+version=24.1.0
+build=85
+error=Error: Unknown error exception
+line=11
+ok=false

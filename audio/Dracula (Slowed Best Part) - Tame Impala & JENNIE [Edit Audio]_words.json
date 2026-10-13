@@ -1,0 +1,1007 @@
+{
+  "audio": "E:\\audio\\Dracula (Slowed Best Part) - Tame Impala & JENNIE [Edit Audio].mp3",
+  "language": "en",
+  "text": "It's you and me In the darkness I will never leave You're the one to see me in the light of day I just want to let the time come I want the road you came in and I'll run back to the top And I wanna stick a wrist where fucking I blow My friends are saying shut up, can't you just get in the car I just want to be right where you are I'm holding hands, driving with a feeling that's my boss The night is in the town, this is the bed, my baby This shadow's hiding behind, burning like a fire It's not until it's dark, can't you just get in the car I just want to let the time come I just want to be right where you are I just want to be right where you are I just want to be right where you are",
+  "segments": [
+    {
+      "start": 3.24,
+      "end": 5.22,
+      "text": "It's you and me"
+    },
+    {
+      "start": 6.22,
+      "end": 9.68,
+      "text": "In the darkness I will never leave"
+    },
+    {
+      "start": 9.68,
+      "end": 14.28,
+      "text": "You're the one to see me in the light of day"
+    },
+    {
+      "start": 14.28,
+      "end": 18.58,
+      "text": "I just want to let the time come"
+    },
+    {
+      "start": 18.58,
+      "end": 23.82,
+      "text": "I want the road you came in and I'll run back to the top"
+    },
+    {
+      "start": 23.82,
+      "end": 27.34,
+      "text": "And I wanna stick a wrist where fucking I blow"
+    },
+    {
+      "start": 28.34,
+      "end": 32.92,
+      "text": "My friends are saying shut up, can't you just get in the car"
+    },
+    {
+      "start": 32.92,
+      "end": 37.04,
+      "text": "I just want to be right where you are"
+    },
+    {
+      "start": 37.82,
+      "end": 42.32,
+      "text": "I'm holding hands, driving with a feeling that's my boss"
+    },
+    {
+      "start": 42.32,
+      "end": 46.24,
+      "text": "The night is in the town, this is the bed, my baby"
+    },
+    {
+      "start": 47.04,
+      "end": 50.82,
+      "text": "This shadow's hiding behind, burning like a fire"
+    },
+    {
+      "start": 50.82,
+      "end": 55.38,
+      "text": "It's not until it's dark, can't you just get in the car"
+    },
+    {
+      "start": 55.38,
+      "end": 56.88,
+      "text": "I just want to let the time come"
+    },
+    {
+      "start": 56.88,
+      "end": 58.58,
+      "text": "I just want to be right where you are"
+    },
+    {
+      "start": 58.58,
+      "end": 62.36,
+      "text": "I just want to be right where you are"
+    },
+    {
+      "start": 62.36,
+      "end": 67.0,
+      "text": "I just want to be right where you are"
+    }
+  ],
+  "words": [
+    {
+      "start": 3.24,
+      "end": 3.92,
+      "word": "It's",
+      "prob": 0.448
+    },
+    {
+      "start": 3.92,
+      "end": 4.12,
+      "word": "you",
+      "prob": 0.152
+    },
+    {
+      "start": 4.12,
+      "end": 4.36,
+      "word": "and",
+      "prob": 0.579
+    },
+    {
+      "start": 4.36,
+      "end": 5.22,
+      "word": "me",
+      "prob": 0.982
+    },
+    {
+      "start": 6.22,
+      "end": 6.9,
+      "word": "In",
+      "prob": 0.162
+    },
+    {
+      "start": 6.9,
+      "end": 7.12,
+      "word": "the",
+      "prob": 0.957
+    },
+    {
+      "start": 7.12,
+      "end": 7.56,
+      "word": "darkness",
+      "prob": 0.469
+    },
+    {
+      "start": 7.56,
+      "end": 8.14,
+      "word": "I",
+      "prob": 0.682
+    },
+    {
+      "start": 8.14,
+      "end": 8.36,
+      "word": "will",
+      "prob": 0.664
+    },
+    {
+      "start": 8.36,
+      "end": 8.76,
+      "word": "never",
+      "prob": 0.996
+    },
+    {
+      "start": 8.76,
+      "end": 9.68,
+      "word": "leave",
+      "prob": 0.836
+    },
+    {
+      "start": 9.68,
+      "end": 10.74,
+      "word": "You're",
+      "prob": 0.265
+    },
+    {
+      "start": 10.74,
+      "end": 11.08,
+      "word": "the",
+      "prob": 0.594
+    },
+    {
+      "start": 11.08,
+      "end": 11.08,
+      "word": "one",
+      "prob": 0.685
+    },
+    {
+      "start": 11.08,
+      "end": 11.72,
+      "word": "to",
+      "prob": 0.238
+    },
+    {
+      "start": 11.72,
+      "end": 11.96,
+      "word": "see",
+      "prob": 0.31
+    },
+    {
+      "start": 11.96,
+      "end": 12.48,
+      "word": "me",
+      "prob": 0.994
+    },
+    {
+      "start": 12.48,
+      "end": 12.78,
+      "word": "in",
+      "prob": 0.762
+    },
+    {
+      "start": 12.78,
+      "end": 13.02,
+      "word": "the",
+      "prob": 0.935
+    },
+    {
+      "start": 13.02,
+      "end": 13.38,
+      "word": "light",
+      "prob": 0.462
+    },
+    {
+      "start": 13.38,
+      "end": 13.58,
+      "word": "of",
+      "prob": 0.815
+    },
+    {
+      "start": 13.58,
+      "end": 14.28,
+      "word": "day",
+      "prob": 0.934
+    },
+    {
+      "start": 14.28,
+      "end": 14.82,
+      "word": "I",
+      "prob": 0.201
+    },
+    {
+      "start": 14.82,
+      "end": 15.3,
+      "word": "just",
+      "prob": 0.678
+    },
+    {
+      "start": 15.3,
+      "end": 15.58,
+      "word": "want",
+      "prob": 0.961
+    },
+    {
+      "start": 15.58,
+      "end": 15.86,
+      "word": "to",
+      "prob": 0.951
+    },
+    {
+      "start": 15.86,
+      "end": 16.56,
+      "word": "let",
+      "prob": 0.83
+    },
+    {
+      "start": 16.56,
+      "end": 17.48,
+      "word": "the",
+      "prob": 0.668
+    },
+    {
+      "start": 17.48,
+      "end": 17.96,
+      "word": "time",
+      "prob": 0.949
+    },
+    {
+      "start": 17.96,
+      "end": 18.58,
+      "word": "come",
+      "prob": 0.394
+    },
+    {
+      "start": 18.58,
+      "end": 19.86,
+      "word": "I",
+      "prob": 0.804
+    },
+    {
+      "start": 19.86,
+      "end": 20.2,
+      "word": "want",
+      "prob": 0.128
+    },
+    {
+      "start": 20.2,
+      "end": 20.46,
+      "word": "the",
+      "prob": 0.554
+    },
+    {
+      "start": 20.46,
+      "end": 20.8,
+      "word": "road",
+      "prob": 0.557
+    },
+    {
+      "start": 20.8,
+      "end": 21.0,
+      "word": "you",
+      "prob": 0.826
+    },
+    {
+      "start": 21.0,
+      "end": 21.44,
+      "word": "came",
+      "prob": 0.694
+    },
+    {
+      "start": 21.44,
+      "end": 21.68,
+      "word": "in",
+      "prob": 0.985
+    },
+    {
+      "start": 21.68,
+      "end": 22.02,
+      "word": "and",
+      "prob": 0.625
+    },
+    {
+      "start": 22.02,
+      "end": 22.3,
+      "word": "I'll",
+      "prob": 0.801
+    },
+    {
+      "start": 22.3,
+      "end": 22.54,
+      "word": "run",
+      "prob": 0.966
+    },
+    {
+      "start": 22.54,
+      "end": 22.82,
+      "word": "back",
+      "prob": 0.994
+    },
+    {
+      "start": 22.82,
+      "end": 23.06,
+      "word": "to",
+      "prob": 0.872
+    },
+    {
+      "start": 23.06,
+      "end": 23.28,
+      "word": "the",
+      "prob": 0.706
+    },
+    {
+      "start": 23.28,
+      "end": 23.82,
+      "word": "top",
+      "prob": 0.838
+    },
+    {
+      "start": 23.82,
+      "end": 24.42,
+      "word": "And",
+      "prob": 0.214
+    },
+    {
+      "start": 24.42,
+      "end": 24.54,
+      "word": "I",
+      "prob": 0.855
+    },
+    {
+      "start": 24.54,
+      "end": 24.86,
+      "word": "wanna",
+      "prob": 0.398
+    },
+    {
+      "start": 24.86,
+      "end": 25.3,
+      "word": "stick",
+      "prob": 0.76
+    },
+    {
+      "start": 25.3,
+      "end": 25.7,
+      "word": "a",
+      "prob": 0.537
+    },
+    {
+      "start": 25.7,
+      "end": 25.94,
+      "word": "wrist",
+      "prob": 0.367
+    },
+    {
+      "start": 25.94,
+      "end": 26.2,
+      "word": "where",
+      "prob": 0.159
+    },
+    {
+      "start": 26.2,
+      "end": 26.7,
+      "word": "fucking",
+      "prob": 0.337
+    },
+    {
+      "start": 26.7,
+      "end": 27.06,
+      "word": "I",
+      "prob": 0.933
+    },
+    {
+      "start": 27.06,
+      "end": 27.34,
+      "word": "blow",
+      "prob": 0.688
+    },
+    {
+      "start": 28.1,
+      "end": 28.42,
+      "word": "My",
+      "prob": 0.011
+    },
+    {
+      "start": 28.42,
+      "end": 29.48,
+      "word": "friends",
+      "prob": 0.758
+    },
+    {
+      "start": 29.48,
+      "end": 29.72,
+      "word": "are",
+      "prob": 0.972
+    },
+    {
+      "start": 29.72,
+      "end": 30.1,
+      "word": "saying",
+      "prob": 0.796
+    },
+    {
+      "start": 30.1,
+      "end": 30.6,
+      "word": "shut",
+      "prob": 0.11
+    },
+    {
+      "start": 30.6,
+      "end": 30.9,
+      "word": "up,",
+      "prob": 0.992
+    },
+    {
+      "start": 30.94,
+      "end": 31.32,
+      "word": "can't",
+      "prob": 0.574
+    },
+    {
+      "start": 31.32,
+      "end": 31.4,
+      "word": "you",
+      "prob": 0.49
+    },
+    {
+      "start": 31.4,
+      "end": 31.78,
+      "word": "just",
+      "prob": 0.992
+    },
+    {
+      "start": 31.78,
+      "end": 32.1,
+      "word": "get",
+      "prob": 0.994
+    },
+    {
+      "start": 32.1,
+      "end": 32.36,
+      "word": "in",
+      "prob": 0.985
+    },
+    {
+      "start": 32.36,
+      "end": 32.5,
+      "word": "the",
+      "prob": 0.993
+    },
+    {
+      "start": 32.5,
+      "end": 32.92,
+      "word": "car",
+      "prob": 0.994
+    },
+    {
+      "start": 32.92,
+      "end": 34.02,
+      "word": "I",
+      "prob": 0.312
+    },
+    {
+      "start": 34.02,
+      "end": 34.36,
+      "word": "just",
+      "prob": 0.989
+    },
+    {
+      "start": 34.36,
+      "end": 34.72,
+      "word": "want",
+      "prob": 0.15
+    },
+    {
+      "start": 34.72,
+      "end": 34.86,
+      "word": "to",
+      "prob": 0.902
+    },
+    {
+      "start": 34.86,
+      "end": 35.2,
+      "word": "be",
+      "prob": 0.986
+    },
+    {
+      "start": 35.2,
+      "end": 35.5,
+      "word": "right",
+      "prob": 0.696
+    },
+    {
+      "start": 35.5,
+      "end": 35.74,
+      "word": "where",
+      "prob": 0.291
+    },
+    {
+      "start": 35.74,
+      "end": 36.02,
+      "word": "you",
+      "prob": 0.913
+    },
+    {
+      "start": 36.02,
+      "end": 37.04,
+      "word": "are",
+      "prob": 0.999
+    },
+    {
+      "start": 37.82,
+      "end": 38.46,
+      "word": "I'm",
+      "prob": 0.575
+    },
+    {
+      "start": 38.46,
+      "end": 38.76,
+      "word": "holding",
+      "prob": 0.271
+    },
+    {
+      "start": 38.76,
+      "end": 39.28,
+      "word": "hands,",
+      "prob": 0.11
+    },
+    {
+      "start": 39.58,
+      "end": 39.88,
+      "word": "driving",
+      "prob": 0.129
+    },
+    {
+      "start": 39.88,
+      "end": 40.44,
+      "word": "with",
+      "prob": 0.252
+    },
+    {
+      "start": 40.44,
+      "end": 40.66,
+      "word": "a",
+      "prob": 0.254
+    },
+    {
+      "start": 40.66,
+      "end": 41.08,
+      "word": "feeling",
+      "prob": 0.537
+    },
+    {
+      "start": 41.08,
+      "end": 41.6,
+      "word": "that's",
+      "prob": 0.709
+    },
+    {
+      "start": 41.6,
+      "end": 41.74,
+      "word": "my",
+      "prob": 0.515
+    },
+    {
+      "start": 41.74,
+      "end": 42.32,
+      "word": "boss",
+      "prob": 0.446
+    },
+    {
+      "start": 42.32,
+      "end": 42.92,
+      "word": "The",
+      "prob": 0.599
+    },
+    {
+      "start": 42.92,
+      "end": 43.32,
+      "word": "night",
+      "prob": 0.672
+    },
+    {
+      "start": 43.32,
+      "end": 43.64,
+      "word": "is",
+      "prob": 0.944
+    },
+    {
+      "start": 43.64,
+      "end": 43.9,
+      "word": "in",
+      "prob": 0.127
+    },
+    {
+      "start": 43.9,
+      "end": 44.08,
+      "word": "the",
+      "prob": 0.788
+    },
+    {
+      "start": 44.08,
+      "end": 44.36,
+      "word": "town,",
+      "prob": 0.22
+    },
+    {
+      "start": 44.48,
+      "end": 44.78,
+      "word": "this",
+      "prob": 0.256
+    },
+    {
+      "start": 44.78,
+      "end": 44.92,
+      "word": "is",
+      "prob": 0.43
+    },
+    {
+      "start": 44.92,
+      "end": 45.26,
+      "word": "the",
+      "prob": 0.722
+    },
+    {
+      "start": 45.26,
+      "end": 45.54,
+      "word": "bed,",
+      "prob": 0.738
+    },
+    {
+      "start": 45.62,
+      "end": 45.88,
+      "word": "my",
+      "prob": 0.185
+    },
+    {
+      "start": 45.88,
+      "end": 46.24,
+      "word": "baby",
+      "prob": 0.694
+    },
+    {
+      "start": 47.04,
+      "end": 47.68,
+      "word": "This",
+      "prob": 0.153
+    },
+    {
+      "start": 47.68,
+      "end": 48.32,
+      "word": "shadow's",
+      "prob": 0.427
+    },
+    {
+      "start": 48.32,
+      "end": 48.62,
+      "word": "hiding",
+      "prob": 0.319
+    },
+    {
+      "start": 48.62,
+      "end": 49.16,
+      "word": "behind,",
+      "prob": 0.114
+    },
+    {
+      "start": 49.42,
+      "end": 49.82,
+      "word": "burning",
+      "prob": 0.324
+    },
+    {
+      "start": 49.82,
+      "end": 50.2,
+      "word": "like",
+      "prob": 0.989
+    },
+    {
+      "start": 50.2,
+      "end": 50.46,
+      "word": "a",
+      "prob": 0.799
+    },
+    {
+      "start": 50.46,
+      "end": 50.82,
+      "word": "fire",
+      "prob": 0.335
+    },
+    {
+      "start": 50.82,
+      "end": 51.04,
+      "word": "It's",
+      "prob": 0.615
+    },
+    {
+      "start": 51.04,
+      "end": 51.3,
+      "word": "not",
+      "prob": 0.614
+    },
+    {
+      "start": 51.3,
+      "end": 52.56,
+      "word": "until",
+      "prob": 0.254
+    },
+    {
+      "start": 52.56,
+      "end": 53.18,
+      "word": "it's",
+      "prob": 0.317
+    },
+    {
+      "start": 53.18,
+      "end": 53.88,
+      "word": "dark,",
+      "prob": 0.068
+    },
+    {
+      "start": 53.96,
+      "end": 54.76,
+      "word": "can't",
+      "prob": 0.18
+    },
+    {
+      "start": 54.76,
+      "end": 54.88,
+      "word": "you",
+      "prob": 0.134
+    },
+    {
+      "start": 54.88,
+      "end": 55.2,
+      "word": "just",
+      "prob": 0.006
+    },
+    {
+      "start": 55.2,
+      "end": 55.2,
+      "word": "get",
+      "prob": 0.008
+    },
+    {
+      "start": 55.2,
+      "end": 55.2,
+      "word": "in",
+      "prob": 0.011
+    },
+    {
+      "start": 55.2,
+      "end": 55.2,
+      "word": "the",
+      "prob": 0.101
+    },
+    {
+      "start": 55.2,
+      "end": 55.38,
+      "word": "car",
+      "prob": 0.034
+    },
+    {
+      "start": 55.38,
+      "end": 55.9,
+      "word": "I",
+      "prob": 0.017
+    },
+    {
+      "start": 55.9,
+      "end": 55.9,
+      "word": "just",
+      "prob": 0.033
+    },
+    {
+      "start": 55.9,
+      "end": 56.3,
+      "word": "want",
+      "prob": 0.212
+    },
+    {
+      "start": 56.3,
+      "end": 56.8,
+      "word": "to",
+      "prob": 0.432
+    },
+    {
+      "start": 56.8,
+      "end": 56.8,
+      "word": "let",
+      "prob": 0.029
+    },
+    {
+      "start": 56.8,
+      "end": 56.88,
+      "word": "the",
+      "prob": 0.002
+    },
+    {
+      "start": 56.88,
+      "end": 56.88,
+      "word": "time",
+      "prob": 0.014
+    },
+    {
+      "start": 56.88,
+      "end": 56.88,
+      "word": "come",
+      "prob": 0.028
+    },
+    {
+      "start": 56.88,
+      "end": 56.88,
+      "word": "I",
+      "prob": 0.025
+    },
+    {
+      "start": 56.88,
+      "end": 56.9,
+      "word": "just",
+      "prob": 0.418
+    },
+    {
+      "start": 56.9,
+      "end": 57.1,
+      "word": "want",
+      "prob": 0.713
+    },
+    {
+      "start": 57.1,
+      "end": 57.38,
+      "word": "to",
+      "prob": 0.773
+    },
+    {
+      "start": 57.38,
+      "end": 57.62,
+      "word": "be",
+      "prob": 0.012
+    },
+    {
+      "start": 57.62,
+      "end": 57.62,
+      "word": "right",
+      "prob": 0.006
+    },
+    {
+      "start": 57.62,
+      "end": 57.62,
+      "word": "where",
+      "prob": 0.006
+    },
+    {
+      "start": 57.62,
+      "end": 58.58,
+      "word": "you",
+      "prob": 0.491
+    },
+    {
+      "start": 58.58,
+      "end": 58.58,
+      "word": "are",
+      "prob": 0.396
+    },
+    {
+      "start": 58.58,
+      "end": 58.66,
+      "word": "I",
+      "prob": 0.287
+    },
+    {
+      "start": 58.66,
+      "end": 59.34,
+      "word": "just",
+      "prob": 0.885
+    },
+    {
+      "start": 59.34,
+      "end": 59.6,
+      "word": "want",
+      "prob": 0.944
+    },
+    {
+      "start": 59.6,
+      "end": 59.6,
+      "word": "to",
+      "prob": 0.95
+    },
+    {
+      "start": 59.6,
+      "end": 60.16,
+      "word": "be",
+      "prob": 0.295
+    },
+    {
+      "start": 60.16,
+      "end": 61.36,
+      "word": "right",
+      "prob": 0.857
+    },
+    {
+      "start": 61.36,
+      "end": 61.64,
+      "word": "where",
+      "prob": 0.862
+    },
+    {
+      "start": 61.64,
+      "end": 61.8,
+      "word": "you",
+      "prob": 0.991
+    },
+    {
+      "start": 61.8,
+      "end": 62.36,
+      "word": "are",
+      "prob": 0.991
+    },
+    {
+      "start": 62.36,
+      "end": 63.22,
+      "word": "I",
+      "prob": 0.574
+    },
+    {
+      "start": 63.22,
+      "end": 63.34,
+      "word": "just",
+      "prob": 0.937
+    },
+    {
+      "start": 63.34,
+      "end": 63.76,
+      "word": "want",
+      "prob": 0.962
+    },
+    {
+      "start": 63.76,
+      "end": 64.38,
+      "word": "to",
+      "prob": 0.985
+    },
+    {
+      "start": 64.38,
+      "end": 65.12,
+      "word": "be",
+      "prob": 0.514
+    },
+    {
+      "start": 65.12,
+      "end": 65.82,
+      "word": "right",
+      "prob": 0.923
+    },
+    {
+      "start": 65.82,
+      "end": 65.82,
+      "word": "where",
+      "prob": 0.903
+    },
+    {
+      "start": 65.82,
+      "end": 66.54,
+      "word": "you",
+      "prob": 0.992
+    },
+    {
+      "start": 66.54,
+      "end": 67.0,
+      "word": "are",
+      "prob": 0.994
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "subtitle": {
+    "font": "Arial Black",
+    "size_frac": 0.05,
+    "color": "#FFFFFF",
+    "outline_color": "#000000",
+    "outline_width": 2.0,
+    "shadow": 1.0,
+    "position": "bottom",
+    "margin_v": 60,
+    "fade_in": 0.05,
+    "fade_out": 0.05
+  },
+  "impact": {
+    "font": "Arial Black",
+    "size_frac": 0.32,
+    "color": "#FFFFFF",
+    "outline_color": "#000000",
+    "outline_width": 6.0,
+    "shadow": 3.0,
+    "entry_anim": "pop",
+    "exit_anim": "hard_cut",
+    "hold_frames": 20,
+    "rgb_split": true,
+    "glitch_frames": 2
+  },
+  "impact_word_rules": {
+    "emotional_words": [
+      "love", "hate", "die", "live", "burn", "fire", "blood", "pain",
+      "heart", "soul", "dream", "night", "dark", "light", "fall",
+      "rise", "run", "fly", "free", "lost", "found", "alone", "together",
+      "forever", "never", "always", "but", "just", "can't", "let", "go",
+      "world", "life", "death", "god", "hell", "heaven", "angel", "demon",
+      "beautiful", "ugly", "real", "fake", "true", "lie", "truth"
+    ],
+    "max_per_phrase": 2,
+    "min_word_length": 2
+  }
+}

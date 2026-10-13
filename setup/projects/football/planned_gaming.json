@@ -1,0 +1,583 @@
+{
+  "name": "match_gaming",
+  "source": "E:\\ai-video-editor\\projects\\football\\raw\\match.mp4",
+  "segments": [
+    {
+      "start": 415.8,
+      "end": 416.343,
+      "label": "",
+      "speed": 1.0,
+      "motion": "zoom-in",
+      "zoom": 1.18,
+      "transition": null
+    },
+    {
+      "start": 314.8,
+      "end": 315.071,
+      "label": "",
+      "speed": 1.0,
+      "motion": "zoom-in",
+      "zoom": 1.18,
+      "transition": null
+    },
+    {
+      "start": 114.8,
+      "end": 115.343,
+      "label": "",
+      "speed": 1.0,
+      "motion": "zoom-in",
+      "zoom": 1.18,
+      "transition": null
+    },
+    {
+      "start": 512.8,
+      "end": 513.343,
+      "label": "",
+      "speed": 1.0,
+      "motion": "zoom-in",
+      "zoom": 1.18,
+      "transition": null
+    },
+    {
+      "start": 78.8,
+      "end": 79.071,
+      "label": "",
+      "speed": 1.0,
+      "motion": "punch",
+      "zoom": 1.3,
+      "transition": null
+    },
+    {
+      "start": 388.8,
+      "end": 389.071,
+      "label": "",
+      "speed": 1.0,
+      "motion": "punch",
+      "zoom": 1.3,
+      "transition": null
+    },
+    {
+      "start": 123.8,
+      "end": 124.886,
+      "label": "",
+      "speed": 1.0,
+      "motion": "none",
+      "zoom": 1.15,
+      "transition": null
+    },
+    {
+      "start": 235.8,
+      "end": 236.343,
+      "label": "",
+      "speed": 1.0,
+      "motion": "punch",
+      "zoom": 1.3,
+      "transition": null
+    },
+    {
+      "start": 460.8,
+      "end": 461.071,
+      "label": "",
+      "speed": 1.0,
+      "motion": "punch",
+      "zoom": 1.3,
+      "transition": null
+    },
+    {
+      "start": 279.8,
+      "end": 280.343,
+      "label": "",
+      "speed": 1.0,
+      "motion": "none",
+      "zoom": 1.15,
+      "transition": null
+    },
+    {
+      "start": 447.8,
+      "end": 448.342,
+      "label": "",
+      "speed": 1.0,
+      "motion": "none",
+      "zoom": 1.15,
+      "transition": null
+    },
+    {
+      "start": 182.8,
+      "end": 183.072,
+      "label": "",
+      "speed": 1.0,
+      "motion": "none",
+      "zoom": 1.15,
+      "transition": null
+    },
+    {
+      "start": 295.8,
+      "end": 296.071,
+      "label": "",
+      "speed": 1.0,
+      "motion": "none",
+      "zoom": 1.15,
+      "transition": null
+    },
+    {
+      "start": 38.8,
+      "end": 39.886,
+      "label": "drop",
+      "speed": 1.0,
+      "motion": "punch",
+      "zoom": 1.3,
+      "transition": null
+    },
+    {
+      "start": 164.8,
+      "end": 165.342,
+      "label": "",
+      "speed": 1.0,
+      "motion": "zoom-in",
+      "zoom": 1.18,
+      "transition": null
+    },
+    {
+      "start": 597.8,
+      "end": 598.072,
+      "label": "",
+      "speed": 1.0,
+      "motion": "punch",
+      "zoom": 1.3,
+      "transition": null
+    },
+    {
+      "start": 206.8,
+      "end": 207.342,
+      "label": "",
+      "speed": 1.0,
+      "motion": "zoom-in",
+      "zoom": 1.18,
+      "transition": null
+    },
+    {
+      "start": 50.8,
+      "end": 51.343,
+      "label": "",
+      "speed": 1.0,
+      "motion": "punch",
+      "zoom": 1.3,
+      "transition": null
+    },
+    {
+      "start": 476.8,
+      "end": 477.072,
+      "label": "",
+      "speed": 1.0,
+      "motion": "none",
+      "zoom": 1.15,
+      "transition": null
+    },
+    {
+      "start": 432.8,
+      "end": 433.071,
+      "label": "",
+      "speed": 1.0,
+      "motion": "none",
+      "zoom": 1.15,
+      "transition": null
+    },
+    {
+      "start": 134.8,
+      "end": 135.885,
+      "label": "",
+      "speed": 1.0,
+      "motion": "punch",
+      "zoom": 1.3,
+      "transition": null
+    },
+    {
+      "start": 103.8,
+      "end": 104.343,
+      "label": "",
+      "speed": 1.0,
+      "motion": "punch",
+      "zoom": 1.3,
+      "transition": null
+    },
+    {
+      "start": 39.886,
+      "end": 40.158,
+      "label": "",
+      "speed": 1.0,
+      "motion": "zoom-in",
+      "zoom": 1.18,
+      "transition": null
+    },
+    {
+      "start": 416.343,
+      "end": 416.885,
+      "label": "",
+      "speed": 1.0,
+      "motion": "zoom-in",
+      "zoom": 1.18,
+      "transition": null
+    },
+    {
+      "start": 315.071,
+      "end": 315.614,
+      "label": "",
+      "speed": 1.0,
+      "motion": "punch",
+      "zoom": 1.3,
+      "transition": null
+    },
+    {
+      "start": 115.343,
+      "end": 115.614,
+      "label": "",
+      "speed": 1.0,
+      "motion": "punch",
+      "zoom": 1.3,
+      "transition": null
+    },
+    {
+      "start": 513.343,
+      "end": 513.615,
+      "label": "",
+      "speed": 1.0,
+      "motion": "punch",
+      "zoom": 1.3,
+      "transition": null
+    },
+    {
+      "start": 79.071,
+      "end": 80.156,
+      "label": "",
+      "speed": 1.0,
+      "motion": "punch",
+      "zoom": 1.3,
+      "transition": null
+    },
+    {
+      "start": 389.071,
+      "end": 389.614,
+      "label": "",
+      "speed": 1.0,
+      "motion": "none",
+      "zoom": 1.15,
+      "transition": null
+    },
+    {
+      "start": 124.886,
+      "end": 125.157,
+      "label": "",
+      "speed": 1.0,
+      "motion": "punch",
+      "zoom": 1.3,
+      "transition": null
+    },
+    {
+      "start": 236.343,
+      "end": 236.886,
+      "label": "",
+      "speed": 1.0,
+      "motion": "punch",
+      "zoom": 1.3,
+      "transition": null
+    },
+    {
+      "start": 461.071,
+      "end": 461.614,
+      "label": "",
+      "speed": 1.0,
+      "motion": "punch",
+      "zoom": 1.3,
+      "transition": null
+    },
+    {
+      "start": 280.343,
+      "end": 280.614,
+      "label": "",
+      "speed": 1.0,
+      "motion": "punch",
+      "zoom": 1.3,
+      "transition": null
+    },
+    {
+      "start": 448.342,
+      "end": 448.614,
+      "label": "",
+      "speed": 1.0,
+      "motion": "zoom-in",
+      "zoom": 1.18,
+      "transition": null
+    },
+    {
+      "start": 183.072,
+      "end": 184.157,
+      "label": "",
+      "speed": 1.0,
+      "motion": "punch",
+      "zoom": 1.3,
+      "transition": null
+    },
+    {
+      "start": 296.071,
+      "end": 296.614,
+      "label": "",
+      "speed": 1.0,
+      "motion": "none",
+      "zoom": 1.15,
+      "transition": null
+    },
+    {
+      "start": 165.342,
+      "end": 165.613,
+      "label": "",
+      "speed": 1.0,
+      "motion": "zoom-in",
+      "zoom": 1.18,
+      "transition": null
+    },
+    {
+      "start": 598.072,
+      "end": 598.615,
+      "label": "",
+      "speed": 1.0,
+      "motion": "zoom-in",
+      "zoom": 1.18,
+      "transition": null
+    },
+    {
+      "start": 207.342,
+      "end": 207.885,
+      "label": "",
+      "speed": 1.0,
+      "motion": "none",
+      "zoom": 1.15,
+      "transition": null
+    },
+    {
+      "start": 51.343,
+      "end": 51.614,
+      "label": "",
+      "speed": 1.0,
+      "motion": "punch",
+      "zoom": 1.3,
+      "transition": null
+    },
+    {
+      "start": 477.072,
+      "end": 477.343,
+      "label": "",
+      "speed": 1.0,
+      "motion": "none",
+      "zoom": 1.15,
+      "transition": null
+    },
+    {
+      "start": 433.071,
+      "end": 434.157,
+      "label": "",
+      "speed": 1.0,
+      "motion": "none",
+      "zoom": 1.15,
+      "transition": null
+    },
+    {
+      "start": 135.885,
+      "end": 136.428,
+      "label": "",
+      "speed": 1.0,
+      "motion": "punch",
+      "zoom": 1.3,
+      "transition": null
+    },
+    {
+      "start": 104.343,
+      "end": 104.614,
+      "label": "",
+      "speed": 1.0,
+      "motion": "none",
+      "zoom": 1.15,
+      "transition": null
+    },
+    {
+      "start": 40.158,
+      "end": 40.701,
+      "label": "",
+      "speed": 1.0,
+      "motion": "none",
+      "zoom": 1.15,
+      "transition": null
+    },
+    {
+      "start": 416.885,
+      "end": 417.427,
+      "label": "",
+      "speed": 1.0,
+      "motion": "none",
+      "zoom": 1.15,
+      "transition": null
+    },
+    {
+      "start": 315.614,
+      "end": 315.886,
+      "label": "",
+      "speed": 1.0,
+      "motion": "none",
+      "zoom": 1.15,
+      "transition": null
+    },
+    {
+      "start": 115.614,
+      "end": 115.885,
+      "label": "",
+      "speed": 1.0,
+      "motion": "punch",
+      "zoom": 1.3,
+      "transition": null
+    },
+    {
+      "start": 513.615,
+      "end": 514.701,
+      "label": "",
+      "speed": 1.0,
+      "motion": "punch",
+      "zoom": 1.3,
+      "transition": null
+    },
+    {
+      "start": 80.156,
+      "end": 80.698,
+      "label": "",
+      "speed": 1.0,
+      "motion": "none",
+      "zoom": 1.15,
+      "transition": null
+    },
+    {
+      "start": 389.614,
+      "end": 389.886,
+      "label": "",
+      "speed": 1.0,
+      "motion": "none",
+      "zoom": 1.15,
+      "transition": null
+    },
+    {
+      "start": 125.157,
+      "end": 125.7,
+      "label": "",
+      "speed": 1.0,
+      "motion": "none",
+      "zoom": 1.15,
+      "transition": null
+    },
+    {
+      "start": 236.886,
+      "end": 237.428,
+      "label": "",
+      "speed": 1.0,
+      "motion": "punch",
+      "zoom": 1.3,
+      "transition": null
+    },
+    {
+      "start": 461.614,
+      "end": 461.886,
+      "label": "",
+      "speed": 1.0,
+      "motion": "punch",
+      "zoom": 1.3,
+      "transition": null
+    },
+    {
+      "start": 280.614,
+      "end": 280.885,
+      "label": "",
+      "speed": 1.0,
+      "motion": "punch",
+      "zoom": 1.3,
+      "transition": null
+    },
+    {
+      "start": 448.614,
+      "end": 449.7,
+      "label": "",
+      "speed": 1.0,
+      "motion": "punch",
+      "zoom": 1.3,
+      "transition": null
+    },
+    {
+      "start": 184.157,
+      "end": 184.699,
+      "label": "",
+      "speed": 1.0,
+      "motion": "punch",
+      "zoom": 1.3,
+      "transition": null
+    },
+    {
+      "start": 296.614,
+      "end": 296.886,
+      "label": "",
+      "speed": 1.0,
+      "motion": "punch",
+      "zoom": 1.3,
+      "transition": null
+    },
+    {
+      "start": 165.613,
+      "end": 166.155,
+      "label": "",
+      "speed": 1.0,
+      "motion": "punch",
+      "zoom": 1.3,
+      "transition": null
+    },
+    {
+      "start": 597.8,
+      "end": 597.908,
+      "label": "",
+      "speed": 1.0,
+      "motion": "none",
+      "zoom": 1.15,
+      "transition": null
+    }
+  ],
+  "grade": "vibrant-sports",
+  "target_lufs": -14.0,
+  "music": "E:\\ai-video-editor\\assets\\music\\jrpg-70-arena.wav",
+  "music_gain_db": -6.0,
+  "captions": [],
+  "captions_mode": "off",
+  "title": {
+    "enabled": true,
+    "lines": [
+      "RONALDO",
+      "HYPE"
+    ],
+    "font_size": [
+      90,
+      90
+    ],
+    "in": 0.3,
+    "out": 3.0,
+    "fade_in": 0.5
+  },
+  "outro": {
+    "enabled": false
+  },
+  "platform": "reels",
+  "hook": "",
+  "aspect": "9:16",
+  "reframe": "blur",
+  "fps": 0,
+  "vibe": "gaming",
+  "transition": {
+    "type": "glitch",
+    "duration": 0.12
+  },
+  "audio_mode": "mix",
+  "sfx": true,
+  "sfx_gain_db": -8.0,
+  "schema_version": 1
+}

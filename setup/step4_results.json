@@ -1,0 +1,127 @@
+{
+  "fps": 60.0,
+  "total_s": 17.4,
+  "segments": [
+    {
+      "i": 0,
+      "start": 0.0,
+      "out_dur": 2.9,
+      "ramp": "0.6s @ 0.5x",
+      "head_motion": 2.48,
+      "tail_motion": 2.1,
+      "tail_slower": true,
+      "median_luma": 105.0,
+      "grade": "teal-orange"
+    },
+    {
+      "i": 1,
+      "start": 2.9,
+      "out_dur": 2.9,
+      "ramp": "0.6s @ 0.5x",
+      "head_motion": 7.77,
+      "tail_motion": 0.83,
+      "tail_slower": true,
+      "median_luma": 34.8,
+      "grade": "vibrant-sports"
+    },
+    {
+      "i": 2,
+      "start": 5.8,
+      "out_dur": 2.9,
+      "ramp": "0.6s @ 0.5x",
+      "head_motion": 9.14,
+      "tail_motion": 1.05,
+      "tail_slower": true,
+      "median_luma": 90.8,
+      "grade": "vibrant-sports"
+    },
+    {
+      "i": 3,
+      "start": 8.7,
+      "out_dur": 2.9,
+      "ramp": "0.6s @ 0.5x",
+      "head_motion": 7.09,
+      "tail_motion": 2.32,
+      "tail_slower": true,
+      "median_luma": 71.7,
+      "grade": "vibrant-sports"
+    },
+    {
+      "i": 4,
+      "start": 11.6,
+      "out_dur": 2.9,
+      "ramp": "0.6s @ 0.5x",
+      "head_motion": 5.02,
+      "tail_motion": 0.8,
+      "tail_slower": true,
+      "median_luma": 40.4,
+      "grade": "vibrant-sports"
+    },
+    {
+      "i": 5,
+      "start": 14.5,
+      "out_dur": 2.9,
+      "ramp": "0.6s @ 0.5x",
+      "head_motion": 4.51,
+      "tail_motion": 1.73,
+      "tail_slower": true,
+      "median_luma": 75.6,
+      "grade": "vibrant-sports"
+    }
+  ],
+  "flash": [
+    {
+      "i": 1,
+      "start": 2.9,
+      "peak_luma": 215.2,
+      "base_luma": 77.2,
+      "spike": 138.0,
+      "white": true
+    },
+    {
+      "i": 2,
+      "start": 5.8,
+      "peak_luma": 215.7,
+      "base_luma": 96.4,
+      "spike": 119.3,
+      "white": true
+    },
+    {
+      "i": 3,
+      "start": 8.7,
+      "peak_luma": 215.7,
+      "base_luma": 75.2,
+      "spike": 140.5,
+      "white": true
+    },
+    {
+      "i": 4,
+      "start": 11.6,
+      "peak_luma": 215.7,
+      "base_luma": 34.5,
+      "spike": 181.2,
+      "white": true
+    },
+    {
+      "i": 5,
+      "start": 14.5,
+      "peak_luma": 214.5,
+      "base_luma": 71.0,
+      "spike": 143.4,
+      "white": true
+    }
+  ],
+  "grade": {
+    "seg0_bgr": [
+      45.8,
+      133.8,
+      122.9
+    ],
+    "seg1_bgr": [
+      22.5,
+      30.1,
+      14.9
+    ],
+    "dist": 78.3
+  }
+}

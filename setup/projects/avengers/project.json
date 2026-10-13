@@ -1,0 +1,37 @@
+{
+  "name": "avengers",
+  "source": "raw/trailer.mp4",
+  "grade": "teal-orange",
+  "platform": "youtube",
+  "target_lufs": -14.0,
+  "music": null,
+  "segments": [
+    { "start": 54.80, "end": 63.44, "label": "open" },
+    { "start": 63.44, "end": 69.53, "label": "build" },
+    { "start": 69.53, "end": 77.74, "label": "action" },
+    { "start": 77.74, "end": 83.17, "label": "action" },
+    { "start": 83.17, "end": 88.76, "label": "action" },
+    { "start": 88.76, "end": 93.26, "label": "climax" },
+    { "start": 93.64, "end": 99.31, "label": "climax" }
+  ],
+  "title": {
+    "enabled": true,
+    "lines": ["A V E N G E R S", "DOOMSDAY"],
+    "font_size": [70, 130],
+    "in": 0.4,
+    "out": 3.2,
+    "fade_in": 0.8
+  },
+  "outro": {
+    "enabled": true,
+    "lines": ["A V E N G E R S", "DOOMSDAY", "IN THEATERS DECEMBER 18"],
+    "hold": 8.0,
+    "fade": 1.2
+  },
+  "captions": [
+    { "text": "THEIR GREATEST THREAT", "start": 8.5, "end": 11.0, "style": "Lower" },
+    { "text": "BECOMES THEIR FINAL STAND", "start": 14.5, "end": 17.0, "style": "Lower" },
+    { "text": "NO ONE GETS OUT", "start": 27.0, "end": 29.5, "style": "Lower" },
+    { "text": "EVERYTHING ENDS", "start": 35.0, "end": 37.5, "style": "Lower" }
+  ]
+}

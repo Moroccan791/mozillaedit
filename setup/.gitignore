@@ -1,0 +1,23 @@
+# outputs and caches
+output/
+cache/
+*.mp4
+*.ass
+*.shots.json
+*.transcript.json
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# secrets (never commit)
+.env
+*.key
+
+# editor cruft
+*.prproj
+*.prproj~autosave*
+Adobe Premiere Pro Auto-Save/

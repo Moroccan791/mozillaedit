@@ -1,0 +1,44 @@
+﻿# Python virtual environments & cache
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Browser profiles, automation snapshots & cache
+aside1/
+aside2/
+aside3/
+aside4/
+aside5/
+aside6/
+aside7/
+aside8/
+aside9/
+aside10/
+x/
+y/
+**/User Data/
+**/aside_component_crx_cache/
+**/AsideDaemon/
+*.exe
+*.dll
+
+# Raw video downloads & zip archives
+raw/
+*.zip
+**/proof-input/
+
+# AI models & rendered video outputs
+models/
+**/models/
+*.bin
+output/
+**/output/
+
+# Logs and temp files
+*.log
+*.err
+*.out
+tmp*
