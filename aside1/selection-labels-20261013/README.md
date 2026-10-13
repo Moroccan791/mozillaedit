@@ -10,7 +10,7 @@ to locate windows; every verdict below comes from actually viewing frames.
 - `review-*.json` — per-clip verdicts: good_kill_window / probable_kill_verify /
   exclude, with signals and best moments.
 
-Progress: 2Ywo4r3D9DM (1v9) COMPLETE 12/12: 2 good_kill, 5 probable_kill_verify,
-5 exclude (rotation/scoreboard/death/buy-phase/ability = the exact semantic
+Progress: 2Ywo4r3D9DM (1v9) COMPLETE 12/12: 2 good_kill, 4 probable_kill_verify,
+6 exclude (rotation/scoreboard/death/buy-phase/ability = the exact semantic
 false-positive classes the detector must learn to reject). Next: label remaining
 6 clips (72 sheets), then dense-resample the probable kills for exact shot times.
