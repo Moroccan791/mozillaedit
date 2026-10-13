@@ -1,0 +1,235 @@
+{
+ "schema": "agent-visual-review/v1",
+ "provenance": "independent agent frame-level visual review of decoded source frames; audio candidates only used to locate windows; labels are visual observations, not audio inference",
+ "clips": {
+  "iufseng8xEs_Ranked-but-I-m-O": {
+   "windows": [
+    {
+     "w": 0,
+     "lo": -1.5,
+     "hi": 4.9,
+     "peak": 0.5,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "clip-start intro",
+      "trapwire + aiming",
+      "yellow enemy contact 3.3-4.9 (no firing, ammo 25)",
+      "purple scene at end"
+     ],
+     "notes": "fight begins at window edge; kill possible ~5-8 dense pass",
+     "sheet_note": "negative stamps = pre-0 frames clamped to t=0"
+    },
+    {
+     "w": 1,
+     "lo": 64.8,
+     "hi": 70.0,
+     "peak": 66.8,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "green starburst flash 64.8-65.6 (peak)",
+      "orange util 67.6",
+      "2 yellow enemies spotted 68.8",
+      "opening shots ammo->23 at 70.0"
+     ],
+     "notes": "kill likely ~70-75 just past edge; dense pass 64-76"
+    },
+    {
+     "w": 2,
+     "lo": 117.2,
+     "hi": 122.4,
+     "peak": 119.2,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "Thrash/creature ability prowling",
+      "red possess FX 121.6 (peak)",
+      "shots at end ammo 25->22",
+      "no emblem/corpse"
+     ],
+     "notes": "ability FP; engagement may continue past 122"
+    },
+    {
+     "w": 3,
+     "lo": 151.3,
+     "hi": 156.5,
+     "peak": 153.3,
+     "verdict": "good_kill_window",
+     "kill_times": [
+      156.1
+     ],
+     "setup": true,
+     "outcome": true,
+     "signals": [
+      "objective banner + enemy 153.7",
+      "shots ammo->22 154.1",
+      "edit flash 154.5 + source cut",
+      "firing 22->16 155.7-156.1",
+      "gold tracer + kill emblem 156.1",
+      "killfeed entries + purple frame 156.5"
+     ],
+     "notes": "kill in dense-fire sequence",
+     "best_moment": 156.1
+    },
+    {
+     "w": 4,
+     "lo": 174.7,
+     "hi": 179.8,
+     "peak": 176.7,
+     "verdict": "good_kill_window",
+     "kill_times": [
+      174.8
+     ],
+     "setup": true,
+     "outcome": true,
+     "signals": [
+      "SPIKE CARRIER KILLED banner + fresh emblem at start",
+      "corpse on stairs 177.1-178.2",
+      "knife reposition",
+      "next enemy spotted 179.5"
+     ],
+     "notes": "shot ~173.5-174.8; dense resample 172-176",
+     "best_moment": 174.8
+    },
+    {
+     "w": 5,
+     "lo": 194.7,
+     "hi": 199.9,
+     "peak": 196.7,
+     "verdict": "good_kill_window",
+     "kill_times": [
+      194.7
+     ],
+     "setup": false,
+     "outcome": true,
+     "signals": [
+      "fresh emblem + killfeed at start",
+      "Reyna devour heal HP 53->76",
+      "orb closeup 197.5",
+      "whip transition 197.9",
+      "wall decals 198.7"
+     ],
+     "notes": "shot ~192-194.5; dense resample 191-196",
+     "best_moment": 194.7
+    },
+    {
+     "w": 6,
+     "lo": 214.4,
+     "hi": 219.6,
+     "peak": 216.4,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "TAB scoreboard open 214.4",
+      "knife + dismiss FX 215.6-216.0",
+      "source cut to new round 216.4",
+      "two-hand ability cast 217.2+"
+     ],
+     "notes": "scoreboard + cast FP"
+    },
+    {
+     "w": 7,
+     "lo": 260.3,
+     "hi": 265.5,
+     "peak": 262.9,
+     "verdict": "good_kill_window",
+     "kill_times": [
+      260.3
+     ],
+     "setup": false,
+     "outcome": true,
+     "signals": [
+      "fresh emblem + red kill burst 260.3-261.5",
+      "killfeed entries + HP 66",
+      "pink edit transition 261.9-262.7",
+      "new scene HP 100 after"
+     ],
+     "notes": "shot ~258.5-260.3; dense resample 258.5-261",
+     "best_moment": 260.4
+    },
+    {
+     "w": 8,
+     "lo": 303.7,
+     "hi": 308.9,
+     "peak": 305.0,
+     "verdict": "probable_kill_verify",
+     "kill_times": [
+      301.5,
+      306.5
+     ],
+     "setup": true,
+     "outcome": true,
+     "signals": [
+      "emblem up from start (kill ~301-303)",
+      "pink transition wash throughout",
+      "shots 26->24 ~306.1",
+      "kill-card overlay 307.7",
+      "green confirm ring 308.1"
+     ],
+     "notes": "verify both kill moments; resample 300-309"
+    },
+    {
+     "w": 9,
+     "lo": 359.3,
+     "hi": 364.5,
+     "peak": 361.3,
+     "verdict": "good_kill_window",
+     "kill_times": [
+      362.1
+     ],
+     "setup": true,
+     "outcome": true,
+     "signals": [
+      "enemy at archway 361.3",
+      "muzzle flash 361.7",
+      "kill emblem 362.1 + edit borders",
+      "fight continues ammo->10 + ability burst 364.1"
+     ],
+     "notes": "multi-event fight",
+     "best_moment": 362.1
+    },
+    {
+     "w": 10,
+     "lo": 421.4,
+     "hi": 426.6,
+     "peak": 423.4,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "purple ability blob/smoke 421.8-424.6",
+      "angle holds + walking",
+      "ammo 25 constant",
+      "no enemy/emblem"
+     ],
+     "notes": "ability-passive FP"
+    },
+    {
+     "w": 11,
+     "lo": 455.5,
+     "hi": 460.7,
+     "peak": 457.5,
+     "verdict": "good_kill_window",
+     "kill_times": [
+      460.3
+     ],
+     "setup": true,
+     "outcome": true,
+     "signals": [
+      "16 rounds fired 25->9",
+      "HP 100->82 trade",
+      "enemy tracers 459.5",
+      "kill emblem 460.3 at window edge"
+     ],
+     "notes": "confirm at edge; resample 458-462",
+     "best_moment": 460.3
+    }
+   ],
+   "summary": {
+    "exclude": 5,
+    "good_kill_window": 6,
+    "probable_kill_verify": 1
+   }
+  }
+ }
+}
