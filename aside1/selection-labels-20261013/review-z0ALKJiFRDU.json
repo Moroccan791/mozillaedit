@@ -1,0 +1,214 @@
+{
+ "schema": "agent-visual-review/v1",
+ "provenance": "independent agent frame-level visual review of decoded source frames; audio candidates only used to locate windows; labels are visual observations, not audio inference",
+ "clips": {
+  "z0ALKJiFRDU_Warden-is-Simply": {
+   "windows": [
+    {
+     "w": 0,
+     "lo": 44.8,
+     "hi": 50.0,
+     "peak": 46.8,
+     "verdict": "probable_kill_verify",
+     "kill_times": [
+      44.5
+     ],
+     "setup": false,
+     "outcome": true,
+     "signals": [
+      "kill emblem up in scoped frames (kill ~0:44.5 pre-window)",
+      "ammo 11 constant (no new fire)",
+      "move-through aftermath"
+     ],
+     "notes": "resample 0:42-0:45",
+     "best_moment": 44.6
+    },
+    {
+     "w": 1,
+     "lo": 57.6,
+     "hi": 62.8,
+     "peak": 59.6,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "static scope hold, ammo constant",
+      "SPIKE PLANTED timer",
+      "purple/cyan ability FX end"
+     ],
+     "notes": "post-plant hold FP"
+    },
+    {
+     "w": 2,
+     "lo": 109.9,
+     "hi": 115.1,
+     "peak": 111.9,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "passive aim, badge ambiguous (edit sticker vs emblem)",
+      "ability cast 1:53.1",
+      "prism edit transition + source cut (HP 36->100)"
+     ],
+     "notes": "transition FP; spot-check 1:46-1:50 if emblem confirmed"
+    },
+    {
+     "w": 3,
+     "lo": 237.4,
+     "hi": 242.6,
+     "peak": 239.4,
+     "verdict": "good_kill_window",
+     "kill_times": [
+      240.8
+     ],
+     "setup": true,
+     "outcome": true,
+     "signals": [
+      "corpses + 2 live enemies",
+      "pistol fired 6->3",
+      "HP 46->20",
+      "round-WON kill: emblem + death FX + WON banner 4:01.0"
+     ],
+     "notes": "clutch round-win kill; montage candidate",
+     "best_moment": 240.9
+    },
+    {
+     "w": 4,
+     "lo": 241.7,
+     "hi": 246.9,
+     "peak": 243.7,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "WON-aftermath overlap w/ w03",
+      "source cut 4:03.7",
+      "passive aim new round",
+      "pink badge = edit sticker (confirmed across rounds)"
+     ],
+     "notes": "round-won sting FP; badge-not-emblem calibration note"
+    },
+    {
+     "w": 5,
+     "lo": 281.3,
+     "hi": 286.5,
+     "peak": 283.3,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "BUY PHASE banner throughout",
+      "spawn util spam + shop UI",
+      "no combat possible"
+     ],
+     "notes": "buy-phase FP class (matches clip1 w07)"
+    },
+    {
+     "w": 6,
+     "lo": 288.2,
+     "hi": 293.4,
+     "peak": 290.2,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "BUY PHASE + scoreboard overlay",
+      "knife inspect",
+      "source cut 4:52.2",
+      "purple claw FX"
+     ],
+     "notes": "buy-phase/FX FP"
+    },
+    {
+     "w": 7,
+     "lo": 313.1,
+     "hi": 318.3,
+     "peak": 315.1,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "scope toggle sequence",
+      "1 shot ammo 16->15 at 5:17.4",
+      "no emblem/corpse/visible confirm"
+     ],
+     "notes": "shots-no-kill; spot-check killfeed entry at 5:17.4 during audit"
+    },
+    {
+     "w": 8,
+     "lo": 356.9,
+     "hi": 362.1,
+     "peak": 358.9,
+     "verdict": "probable_kill_verify",
+     "kill_times": [
+      358.9
+     ],
+     "setup": true,
+     "outcome": false,
+     "signals": [
+      "close fight HP 22",
+      "red-orange FX + enemy figure 5:58.5",
+      "blue-white burst at peak 5:58.9",
+      "calm after"
+     ],
+     "notes": "confirm ambiguous; resample 5:57-5:59",
+     "best_moment": 358.9
+    },
+    {
+     "w": 9,
+     "lo": 368.6,
+     "hi": 373.8,
+     "peak": 370.6,
+     "verdict": "probable_kill_verify",
+     "kill_times": [
+      367.8
+     ],
+     "setup": false,
+     "outcome": true,
+     "signals": [
+      "WON banner + corpse at start (round-winning kill pre-window)",
+      "ammo 17 constant after",
+      "teammate FX + red banners"
+     ],
+     "notes": "low-confidence; resample 6:05-6:09",
+     "best_moment": 367.9
+    },
+    {
+     "w": 10,
+     "lo": 404.6,
+     "hi": 409.8,
+     "peak": 406.6,
+     "verdict": "exclude",
+     "kill_times": [],
+     "signals": [
+      "scoped toggle w/ skin FX",
+      "ammo 5 constant (no fire)",
+      "enemy visible 6:46.6 untouched",
+      "purple wash transition"
+     ],
+     "notes": "FX/transition FP"
+    },
+    {
+     "w": 11,
+     "lo": 450.3,
+     "hi": 455.5,
+     "peak": 452.3,
+     "verdict": "probable_kill_verify",
+     "kill_times": [
+      449.8
+     ],
+     "setup": false,
+     "outcome": true,
+     "signals": [
+      "gore + badge at first frame (kill pre-window)",
+      "orange swoosh edit sting",
+      "BUY PHASE transition 7:31.9+",
+      "gold vine edit frame"
+     ],
+     "notes": "resample 7:28-7:31",
+     "best_moment": 449.9
+    }
+   ],
+   "summary": {
+    "probable_kill_verify": 4,
+    "exclude": 7,
+    "good_kill_window": 1
+   }
+  }
+ }
+}

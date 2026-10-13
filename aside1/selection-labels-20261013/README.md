@@ -10,7 +10,18 @@ to locate windows; every verdict below comes from actually viewing frames.
 - `review-*.json` — per-clip verdicts: good_kill_window / probable_kill_verify /
   exclude, with signals and best moments.
 
-Progress: 6/7 clips complete (72 windows).
+Progress: 7/7 clips COMPLETE — Stage-1 sheet pass done (84/84 windows).
+Totals: 27 good_kill_window, 15 probable_kill_verify, 42 exclude,
+46 kill timestamps recorded. FP taxonomy (10 classes): rotation/walking,
+scoreboard+TAB, death, buy-phase, ability cast, sponsor-ad voiceover,
+source-edit transitions (whip/rainbow/green-flash), round-end stings
+(WON/THRIFTY/VICTORY), shots-no-kill, black outro. Calibration note:
+small pink badge under crosshair = source edit sticker, NOT kill emblem
+(confirmed across rounds in z0ALKJiFRDU).
+- z0ALKJiFRDU (Warden): 1 good (240.8 clutch-WON), 4 probable
+  (44.5, 358.9, 367.8, 449.8), 7 exclude.
+Next: dense-resample the 15 probable kills (+ spot-check notes) for exact
+shot times, then audit/repair povkills+killfeed against this ground truth.
 - 2Ywo4r3D9DM (1v9): 2 good_kill, 4 probable, 6 exclude
   (rotation/scoreboard/death/buy-phase/ability = semantic FP classes).
 - 56-Wg-oTX6M (Champions 2026): 2 good_kill (209.2, 313.9),
