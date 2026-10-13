@@ -66,3 +66,14 @@ e023fb2 vs canonical differs on 5 windows: clip4 w8/w9 kill-time offsets
 (309.1/355.5 vs 307.0/361.4), clip4 w11 probable-vs-exclude; clip5 w1
 probable-vs-exclude, w8 offsets (304.1/308.5 vs 301.5/306.5), w9 second
 kill 364.1. Dense resample during step-3 audit decides each.
+
+## Dense-resample pass — COMPLETE (2026-10-13, later session)
+
+All 24 dense sheets reviewed; see `DENSE-REVIEW.md` + `dense-review.json`.
+Totals after reconciliation: **37 good / 2 probable / 45 exclude, 40 exact kill
+times** (was 27/15/42/46). 3 canonical good kills deleted (Z210 w08/w09,
+iufs w09), 4 excluded windows promoted to good (Z210 w03/w06/w11, iufs w01),
+iufs w08 overcount fixed to one kill @305.6. Remaining probables: ObWy w01/w08
+(corpse-only). Unresolved: j59 w03/w07 out-of-window kill times (suspected
+mm:ss corruption) — dense re-check needed. Next: detector audit of
+povkills+killfeed against this corrected ground truth.
