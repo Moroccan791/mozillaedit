@@ -1,0 +1,331 @@
+{
+ "schema": "povkills-audit-run/v1",
+ "profile": "valorant-reyna-default-720p-calibration (uncalibrated)",
+ "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_j59f0UqxcIs_90-aim-10-brain-immortal-2_002_720p.mp4",
+ "events": [
+  {
+   "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_j59f0UqxcIs_90-aim-10-brain-immortal-2_002_720p.mp4",
+   "source_visual_event": 49.2,
+   "source_audio_event": null,
+   "confidence": 0.8078571557998657,
+   "confidence_kind": "template_cosine_not_probability",
+   "confirmed": false,
+   "status": "candidate",
+   "confirmation": "pov_icon_temporal:valorant-reyna-default-720p-calibration:povkills-v1+audio_missing+uncalibrated",
+   "profile": "povkills-v1",
+   "evidence": {
+    "template": "tree-ring",
+    "score": 0.8078571557998657,
+    "persistence": 2,
+    "audio_delta": null,
+    "calibrated_profile": false,
+    "match_threshold": 0.78,
+    "reset_threshold": 0.55
+   },
+   "limitations": [
+    "Icon identity is profile-specific; no player-name OCR is performed.",
+    "Template cosine similarity is not a probability.",
+    "Missing nearby audio leaves visual detections uncertain.",
+    "ROI guards do not identify every scene cut.",
+    "Visual timing is quantized to the configured sample rate."
+   ]
+  },
+  {
+   "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_j59f0UqxcIs_90-aim-10-brain-immortal-2_002_720p.mp4",
+   "source_visual_event": 205.4,
+   "source_audio_event": null,
+   "confidence": 0.8435710668563843,
+   "confidence_kind": "template_cosine_not_probability",
+   "confirmed": false,
+   "status": "candidate",
+   "confirmation": "pov_icon_temporal:valorant-reyna-default-720p-calibration:povkills-v1+audio_missing+uncalibrated",
+   "profile": "povkills-v1",
+   "evidence": {
+    "template": "skull-multi",
+    "score": 0.8435710668563843,
+    "persistence": 2,
+    "audio_delta": null,
+    "calibrated_profile": false,
+    "match_threshold": 0.78,
+    "reset_threshold": 0.55
+   },
+   "limitations": [
+    "Icon identity is profile-specific; no player-name OCR is performed.",
+    "Template cosine similarity is not a probability.",
+    "Missing nearby audio leaves visual detections uncertain.",
+    "ROI guards do not identify every scene cut.",
+    "Visual timing is quantized to the configured sample rate."
+   ]
+  },
+  {
+   "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_j59f0UqxcIs_90-aim-10-brain-immortal-2_002_720p.mp4",
+   "source_visual_event": 215.26666666666668,
+   "source_audio_event": null,
+   "confidence": 0.8709905743598938,
+   "confidence_kind": "template_cosine_not_probability",
+   "confirmed": false,
+   "status": "candidate",
+   "confirmation": "pov_icon_temporal:valorant-reyna-default-720p-calibration:povkills-v1+audio_missing+uncalibrated",
+   "profile": "povkills-v1",
+   "evidence": {
+    "template": "skull-multi",
+    "score": 0.8709905743598938,
+    "persistence": 2,
+    "audio_delta": null,
+    "calibrated_profile": false,
+    "match_threshold": 0.78,
+    "reset_threshold": 0.55
+   },
+   "limitations": [
+    "Icon identity is profile-specific; no player-name OCR is performed.",
+    "Template cosine similarity is not a probability.",
+    "Missing nearby audio leaves visual detections uncertain.",
+    "ROI guards do not identify every scene cut.",
+    "Visual timing is quantized to the configured sample rate."
+   ]
+  },
+  {
+   "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_j59f0UqxcIs_90-aim-10-brain-immortal-2_002_720p.mp4",
+   "source_visual_event": 228.6,
+   "source_audio_event": null,
+   "confidence": 0.7943263649940491,
+   "confidence_kind": "template_cosine_not_probability",
+   "confirmed": false,
+   "status": "candidate",
+   "confirmation": "pov_icon_temporal:valorant-reyna-default-720p-calibration:povkills-v1+audio_missing+uncalibrated",
+   "profile": "povkills-v1",
+   "evidence": {
+    "template": "skull-multi",
+    "score": 0.7943263649940491,
+    "persistence": 2,
+    "audio_delta": null,
+    "calibrated_profile": false,
+    "match_threshold": 0.78,
+    "reset_threshold": 0.55
+   },
+   "limitations": [
+    "Icon identity is profile-specific; no player-name OCR is performed.",
+    "Template cosine similarity is not a probability.",
+    "Missing nearby audio leaves visual detections uncertain.",
+    "ROI guards do not identify every scene cut.",
+    "Visual timing is quantized to the configured sample rate."
+   ]
+  },
+  {
+   "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_j59f0UqxcIs_90-aim-10-brain-immortal-2_002_720p.mp4",
+   "source_visual_event": 312.8,
+   "source_audio_event": null,
+   "confidence": 0.8137252330780029,
+   "confidence_kind": "template_cosine_not_probability",
+   "confirmed": false,
+   "status": "candidate",
+   "confirmation": "pov_icon_temporal:valorant-reyna-default-720p-calibration:povkills-v1+audio_missing+uncalibrated",
+   "profile": "povkills-v1",
+   "evidence": {
+    "template": "skull-multi",
+    "score": 0.8137252330780029,
+    "persistence": 2,
+    "audio_delta": null,
+    "calibrated_profile": false,
+    "match_threshold": 0.78,
+    "reset_threshold": 0.55
+   },
+   "limitations": [
+    "Icon identity is profile-specific; no player-name OCR is performed.",
+    "Template cosine similarity is not a probability.",
+    "Missing nearby audio leaves visual detections uncertain.",
+    "ROI guards do not identify every scene cut.",
+    "Visual timing is quantized to the configured sample rate."
+   ]
+  },
+  {
+   "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_j59f0UqxcIs_90-aim-10-brain-immortal-2_002_720p.mp4",
+   "source_visual_event": 385.6666666666667,
+   "source_audio_event": null,
+   "confidence": 0.8251383304595947,
+   "confidence_kind": "template_cosine_not_probability",
+   "confirmed": false,
+   "status": "candidate",
+   "confirmation": "pov_icon_temporal:valorant-reyna-default-720p-calibration:povkills-v1+audio_missing+uncalibrated",
+   "profile": "povkills-v1",
+   "evidence": {
+    "template": "skull-ring",
+    "score": 0.8251383304595947,
+    "persistence": 2,
+    "audio_delta": null,
+    "calibrated_profile": false,
+    "match_threshold": 0.78,
+    "reset_threshold": 0.55
+   },
+   "limitations": [
+    "Icon identity is profile-specific; no player-name OCR is performed.",
+    "Template cosine similarity is not a probability.",
+    "Missing nearby audio leaves visual detections uncertain.",
+    "ROI guards do not identify every scene cut.",
+    "Visual timing is quantized to the configured sample rate."
+   ]
+  },
+  {
+   "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_j59f0UqxcIs_90-aim-10-brain-immortal-2_002_720p.mp4",
+   "source_visual_event": 392.46666666666664,
+   "source_audio_event": null,
+   "confidence": 0.8111958503723145,
+   "confidence_kind": "template_cosine_not_probability",
+   "confirmed": false,
+   "status": "candidate",
+   "confirmation": "pov_icon_temporal:valorant-reyna-default-720p-calibration:povkills-v1+audio_missing+uncalibrated",
+   "profile": "povkills-v1",
+   "evidence": {
+    "template": "skull-ring",
+    "score": 0.8111958503723145,
+    "persistence": 2,
+    "audio_delta": null,
+    "calibrated_profile": false,
+    "match_threshold": 0.78,
+    "reset_threshold": 0.55
+   },
+   "limitations": [
+    "Icon identity is profile-specific; no player-name OCR is performed.",
+    "Template cosine similarity is not a probability.",
+    "Missing nearby audio leaves visual detections uncertain.",
+    "ROI guards do not identify every scene cut.",
+    "Visual timing is quantized to the configured sample rate."
+   ]
+  },
+  {
+   "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_j59f0UqxcIs_90-aim-10-brain-immortal-2_002_720p.mp4",
+   "source_visual_event": 402.3333333333333,
+   "source_audio_event": null,
+   "confidence": 0.8136035203933716,
+   "confidence_kind": "template_cosine_not_probability",
+   "confirmed": false,
+   "status": "candidate",
+   "confirmation": "pov_icon_temporal:valorant-reyna-default-720p-calibration:povkills-v1+audio_missing+uncalibrated",
+   "profile": "povkills-v1",
+   "evidence": {
+    "template": "skull-ring",
+    "score": 0.8136035203933716,
+    "persistence": 2,
+    "audio_delta": null,
+    "calibrated_profile": false,
+    "match_threshold": 0.78,
+    "reset_threshold": 0.55
+   },
+   "limitations": [
+    "Icon identity is profile-specific; no player-name OCR is performed.",
+    "Template cosine similarity is not a probability.",
+    "Missing nearby audio leaves visual detections uncertain.",
+    "ROI guards do not identify every scene cut.",
+    "Visual timing is quantized to the configured sample rate."
+   ]
+  },
+  {
+   "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_j59f0UqxcIs_90-aim-10-brain-immortal-2_002_720p.mp4",
+   "source_visual_event": 418.6666666666667,
+   "source_audio_event": null,
+   "confidence": 0.9456465244293213,
+   "confidence_kind": "template_cosine_not_probability",
+   "confirmed": false,
+   "status": "candidate",
+   "confirmation": "pov_icon_temporal:valorant-reyna-default-720p-calibration:povkills-v1+audio_missing+uncalibrated",
+   "profile": "povkills-v1",
+   "evidence": {
+    "template": "skull-ring",
+    "score": 0.9456465244293213,
+    "persistence": 2,
+    "audio_delta": null,
+    "calibrated_profile": false,
+    "match_threshold": 0.78,
+    "reset_threshold": 0.55
+   },
+   "limitations": [
+    "Icon identity is profile-specific; no player-name OCR is performed.",
+    "Template cosine similarity is not a probability.",
+    "Missing nearby audio leaves visual detections uncertain.",
+    "ROI guards do not identify every scene cut.",
+    "Visual timing is quantized to the configured sample rate."
+   ]
+  },
+  {
+   "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_j59f0UqxcIs_90-aim-10-brain-immortal-2_002_720p.mp4",
+   "source_visual_event": 423.06666666666666,
+   "source_audio_event": null,
+   "confidence": 0.9177194833755493,
+   "confidence_kind": "template_cosine_not_probability",
+   "confirmed": false,
+   "status": "candidate",
+   "confirmation": "pov_icon_temporal:valorant-reyna-default-720p-calibration:povkills-v1+audio_missing+uncalibrated",
+   "profile": "povkills-v1",
+   "evidence": {
+    "template": "skull-ring",
+    "score": 0.9177194833755493,
+    "persistence": 2,
+    "audio_delta": null,
+    "calibrated_profile": false,
+    "match_threshold": 0.78,
+    "reset_threshold": 0.55
+   },
+   "limitations": [
+    "Icon identity is profile-specific; no player-name OCR is performed.",
+    "Template cosine similarity is not a probability.",
+    "Missing nearby audio leaves visual detections uncertain.",
+    "ROI guards do not identify every scene cut.",
+    "Visual timing is quantized to the configured sample rate."
+   ]
+  },
+  {
+   "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_j59f0UqxcIs_90-aim-10-brain-immortal-2_002_720p.mp4",
+   "source_visual_event": 430.73333333333335,
+   "source_audio_event": null,
+   "confidence": 0.8247584700584412,
+   "confidence_kind": "template_cosine_not_probability",
+   "confirmed": false,
+   "status": "candidate",
+   "confirmation": "pov_icon_temporal:valorant-reyna-default-720p-calibration:povkills-v1+audio_missing+uncalibrated",
+   "profile": "povkills-v1",
+   "evidence": {
+    "template": "skull-ring",
+    "score": 0.8247584700584412,
+    "persistence": 2,
+    "audio_delta": null,
+    "calibrated_profile": false,
+    "match_threshold": 0.78,
+    "reset_threshold": 0.55
+   },
+   "limitations": [
+    "Icon identity is profile-specific; no player-name OCR is performed.",
+    "Template cosine similarity is not a probability.",
+    "Missing nearby audio leaves visual detections uncertain.",
+    "ROI guards do not identify every scene cut.",
+    "Visual timing is quantized to the configured sample rate."
+   ]
+  },
+  {
+   "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_j59f0UqxcIs_90-aim-10-brain-immortal-2_002_720p.mp4",
+   "source_visual_event": 447.1333333333333,
+   "source_audio_event": null,
+   "confidence": 0.8989657759666443,
+   "confidence_kind": "template_cosine_not_probability",
+   "confirmed": false,
+   "status": "candidate",
+   "confirmation": "pov_icon_temporal:valorant-reyna-default-720p-calibration:povkills-v1+audio_missing+uncalibrated",
+   "profile": "povkills-v1",
+   "evidence": {
+    "template": "tree-ring",
+    "score": 0.8989657759666443,
+    "persistence": 2,
+    "audio_delta": null,
+    "calibrated_profile": false,
+    "match_threshold": 0.78,
+    "reset_threshold": 0.55
+   },
+   "limitations": [
+    "Icon identity is profile-specific; no player-name OCR is performed.",
+    "Template cosine similarity is not a probability.",
+    "Missing nearby audio leaves visual detections uncertain.",
+    "ROI guards do not identify every scene cut.",
+    "Visual timing is quantized to the configured sample rate."
+   ]
+  }
+ ]
+}

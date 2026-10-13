@@ -1,0 +1,1652 @@
+{
+ "schema": "selection-ground-truth/v1",
+ "provenance": "canonical Stage-1 visual review reconciled by dense-resample review 2026-10-13; exact kill times are emblem/firing frames, not audio peaks",
+ "tolerances": {
+  "timing_match_s": 0.5,
+  "edge_scoring_s": 2.0
+ },
+ "windows": [
+  {
+   "tag": "2Ywo4r3D9DM",
+   "clip": "2Ywo4r3D9DM_Ranked-but-it-s-a-1v9",
+   "w": 0,
+   "lo": 4.8,
+   "hi": 13.0,
+   "peak": 8.8,
+   "verdict": "good_kill_window",
+   "kill_times": [
+    7.6
+   ],
+   "signals": [
+    "muzzle flash 6.8-7.6",
+    "red kill-confirm banner",
+    "center skull badge 7.6-9.6",
+    "corpse on stairs by 11.6"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "2Ywo4r3D9DM",
+   "clip": "2Ywo4r3D9DM_Ranked-but-it-s-a-1v9",
+   "w": 1,
+   "lo": 112.8,
+   "hi": 118.3,
+   "peak": 114.8,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "corridor rotation",
+    "no banner/corpse/enemy contact"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "2Ywo4r3D9DM",
+   "clip": "2Ywo4r3D9DM_Ranked-but-it-s-a-1v9",
+   "w": 2,
+   "lo": 117.8,
+   "hi": 123.3,
+   "peak": 119.8,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "rotation",
+    "tail enters scoreboard"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "2Ywo4r3D9DM",
+   "clip": "2Ywo4r3D9DM_Ranked-but-it-s-a-1v9",
+   "w": 3,
+   "lo": 119.6,
+   "hi": 125.1,
+   "peak": 121.8,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "smoke burst 2:02.0",
+    "dead-state red overlay",
+    "scoreboard open 2:02.4+"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "2Ywo4r3D9DM",
+   "clip": "2Ywo4r3D9DM_Ranked-but-it-s-a-1v9",
+   "w": 4,
+   "lo": 125.5,
+   "hi": 131.0,
+   "peak": 127.5,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "scoreboard open 2:05.5-2:07.1",
+    "knife out 2:07.5+",
+    "weapon pickup",
+    "ability UI frame 2:10.7"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "2Ywo4r3D9DM",
+   "clip": "2Ywo4r3D9DM_Ranked-but-it-s-a-1v9",
+   "w": 5,
+   "lo": 210.8,
+   "hi": 216.3,
+   "peak": 212.8,
+   "verdict": "good_kill_window",
+   "kill_times": [
+    213.2
+   ],
+   "signals": [
+    "Chamber ult scope (orange octagon)",
+    "corpse + red decals in doorway 3:33.2-3:34.0",
+    "center reward icon 3:33.6"
+   ],
+   "source": "dense",
+   "dense_signals": [
+    "Chamber Tour De Force scope (orange octagon) 3:30.3-3:33.1",
+    "enemy in doorway 3:32.7-3:33.1",
+    "corpse + red decals 3:33.2-3:34.2",
+    "center reward icon 3:33.6"
+   ]
+  },
+  {
+   "tag": "2Ywo4r3D9DM",
+   "clip": "2Ywo4r3D9DM_Ranked-but-it-s-a-1v9",
+   "w": 6,
+   "lo": 260.0,
+   "hi": 265.5,
+   "peak": 262.2,
+   "verdict": "good_kill_window",
+   "kill_times": [
+    263.4
+   ],
+   "signals": [
+    "muzzle flash 4:21.6-4:23.2",
+    "wall scorch 4:23.2",
+    "red kill-diamond at crosshair 4:23.6-4:24.8"
+   ],
+   "source": "dense",
+   "dense_signals": [
+    "muzzle flash at wall edge 4:22.8-4:23.2",
+    "wall scorch 4:23.2",
+    "red kill-diamond at crosshair 4:23.4-4:24.8",
+    "CLUTCH banner 4:26.4"
+   ]
+  },
+  {
+   "tag": "2Ywo4r3D9DM",
+   "clip": "2Ywo4r3D9DM_Ranked-but-it-s-a-1v9",
+   "w": 7,
+   "lo": 268.2,
+   "hi": 273.7,
+   "peak": 270.2,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "CLUTCH banner 4:28.2",
+    "BUY PHASE 4:28.6",
+    "barrier/round transition"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "2Ywo4r3D9DM",
+   "clip": "2Ywo4r3D9DM_Ranked-but-it-s-a-1v9",
+   "w": 8,
+   "lo": 289.2,
+   "hi": 294.7,
+   "peak": 291.2,
+   "verdict": "good_kill_window",
+   "kill_times": [
+    292.5
+   ],
+   "signals": [
+    "flash/explosion 4:49.2",
+    "red tracer exchange 4:52.0",
+    "white kill-emblem at crosshair 4:52.0-4:53.6",
+    "blood splat 4:53.6",
+    "player damaged to 87 at 4:54.4"
+   ],
+   "source": "dense",
+   "dense_signals": [
+    "flash starburst 4:48.4-4:49.7",
+    "red tracer exchange 4:51.9-4:52.2",
+    "white kill-emblem at crosshair 4:52.5-4:53.1",
+    "blood splat 4:53.8",
+    "Reyna devour/pink orb 4:54.3+"
+   ]
+  },
+  {
+   "tag": "2Ywo4r3D9DM",
+   "clip": "2Ywo4r3D9DM_Ranked-but-it-s-a-1v9",
+   "w": 9,
+   "lo": 313.9,
+   "hi": 319.4,
+   "peak": 315.5,
+   "verdict": "good_kill_window",
+   "kill_times": [
+    318.6
+   ],
+   "signals": [
+    "sustained fire ammo 25->18",
+    "enemy figure at 5:18.3",
+    "purple kill-emblem 5:18.7+",
+    "Reyna orb + pink wash context"
+   ],
+   "source": "dense",
+   "dense_signals": [
+    "enemy figure in smoke 5:18.1-5:18.5",
+    "muzzle flash 5:18.5",
+    "purple kill-emblem 5:18.6-5:19.0",
+    "player damaged (red) 5:19.9+"
+   ]
+  },
+  {
+   "tag": "2Ywo4r3D9DM",
+   "clip": "2Ywo4r3D9DM_Ranked-but-it-s-a-1v9",
+   "w": 10,
+   "lo": 454.5,
+   "hi": 459.9,
+   "peak": 456.3,
+   "verdict": "good_kill_window",
+   "kill_times": [
+    457.0,
+    459.0
+   ],
+   "signals": [
+    "corpse from prior kill 7:36.1",
+    "enemy engaged 7:36.9",
+    "firing ammo 25->18",
+    "red kill-emblem 7:38.9",
+    "ROUND WON banner 7:39.7"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "2Ywo4r3D9DM",
+   "clip": "2Ywo4r3D9DM_Ranked-but-it-s-a-1v9",
+   "w": 11,
+   "lo": 469.6,
+   "hi": 475.1,
+   "peak": 471.0,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "ability cast + cyan projectile 7:50-7:52",
+    "distant potshots 7:54",
+    "no kill emblem/corpse"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "56-Wg-oTX6M",
+   "clip": "56-Wg-oTX6M_Champions-2026-B",
+   "w": 0,
+   "lo": 49.4,
+   "hi": 54.9,
+   "peak": 51.4,
+   "verdict": "good_kill_window",
+   "kill_times": [
+    51.8
+   ],
+   "signals": [
+    "firing at enemy on structure 49.8-51.4",
+    "full-screen green flash 51.8-52.6",
+    "source cut ~53.6",
+    "SPIKE CARRIER KILLED banner + white skull 54.2",
+    "HP 100->89"
+   ],
+   "source": "dense",
+   "dense_signals": [
+    "enemy crossing 0:51.0-0:51.5",
+    "hit explosion on enemy 0:51.8",
+    "green-flash source-edit transition 0:52.0-0:53.2 masks banner"
+   ]
+  },
+  {
+   "tag": "56-Wg-oTX6M",
+   "clip": "56-Wg-oTX6M_Champions-2026-B",
+   "w": 1,
+   "lo": 114.5,
+   "hi": 119.9,
+   "peak": 116.0,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "GEARUP sponsor overlay",
+    "ad captions",
+    "menu UI 1:59.3+",
+    "no combat"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "56-Wg-oTX6M",
+   "clip": "56-Wg-oTX6M_Champions-2026-B",
+   "w": 2,
+   "lo": 120.2,
+   "hi": 125.7,
+   "peak": 122.0,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "GEARUP app UI fullscreen",
+    "server-select + globe map",
+    "blurred gameplay only"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "56-Wg-oTX6M",
+   "clip": "56-Wg-oTX6M_Champions-2026-B",
+   "w": 3,
+   "lo": 123.8,
+   "hi": 129.0,
+   "peak": 125.0,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "globe server-map UI",
+    "split-screen ping demo",
+    "ad captions"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "56-Wg-oTX6M",
+   "clip": "56-Wg-oTX6M_Champions-2026-B",
+   "w": 4,
+   "lo": 129.3,
+   "hi": 134.5,
+   "peak": 131.0,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "GEARUP OFF/AND ON split-screen",
+    "feature captions",
+    "ad demo footage"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "56-Wg-oTX6M",
+   "clip": "56-Wg-oTX6M_Champions-2026-B",
+   "w": 5,
+   "lo": 134.4,
+   "hi": 139.6,
+   "peak": 136.4,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "LOWEST PACKET LOSS captions",
+    "purple dashboard UI overlay",
+    "no combat"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "56-Wg-oTX6M",
+   "clip": "56-Wg-oTX6M_Champions-2026-B",
+   "w": 6,
+   "lo": 141.0,
+   "hi": 146.2,
+   "peak": 143.0,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "TSM x GEARUP endcard",
+    "tweet overlays",
+    "CTA captions over inventory UI"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "56-Wg-oTX6M",
+   "clip": "56-Wg-oTX6M_Champions-2026-B",
+   "w": 7,
+   "lo": 148.4,
+   "hi": 153.6,
+   "peak": 150.4,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "CODE: Narwax promo screen",
+    "free-trial CTA captions",
+    "app UI only"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "56-Wg-oTX6M",
+   "clip": "56-Wg-oTX6M_Champions-2026-B",
+   "w": 8,
+   "lo": 205.2,
+   "hi": 210.4,
+   "peak": 207.2,
+   "verdict": "good_kill_window",
+   "kill_times": [
+    209.2
+   ],
+   "signals": [
+    "stalk setup 3:27.2-3:28.0",
+    "muzzle flash 3:28.4",
+    "red kill-emblem 3:29.2",
+    "blood splash + corpse 3:30.0"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "56-Wg-oTX6M",
+   "clip": "56-Wg-oTX6M_Champions-2026-B",
+   "w": 9,
+   "lo": 310.7,
+   "hi": 315.9,
+   "peak": 312.7,
+   "verdict": "good_kill_window",
+   "kill_times": [
+    313.9
+   ],
+   "signals": [
+    "enemy spotted 5:12.7",
+    "muzzle flash + hit sparks ammo 30->25",
+    "kill emblem 5:13.9",
+    "knife reposition"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "56-Wg-oTX6M",
+   "clip": "56-Wg-oTX6M_Champions-2026-B",
+   "w": 10,
+   "lo": 417.0,
+   "hi": 422.2,
+   "peak": 419.0,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "kill emblem already up at 6:57.0",
+    "body on ground",
+    "firing ammo 22->17 at distant enemy",
+    "Omen smoke/TP cast 6:59+",
+    "source-edit transitions"
+   ],
+   "source": "dense",
+   "dense_signals": [
+    "passive hold 6:53.5-6:58.8",
+    "green ability smoke 6:55.3",
+    "death + scoreboard 6:59.1",
+    "new-round ability cast 7:00.2+"
+   ]
+  },
+  {
+   "tag": "56-Wg-oTX6M",
+   "clip": "56-Wg-oTX6M_Champions-2026-B",
+   "w": 11,
+   "lo": 452.9,
+   "hi": 458.1,
+   "peak": 454.7,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "whip-smear edit transition 7:33-7:35 (peak cause)",
+    "quiet aiming after",
+    "edit-frame overlay",
+    "suspect corpse 7:37.7 spot-check"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "ObWy97A6INU",
+   "clip": "ObWy97A6INU_reyna-u-need-to-",
+   "w": 0,
+   "lo": 1.7,
+   "hi": 6.9,
+   "peak": 3.7,
+   "verdict": "good_kill_window",
+   "kill_times": [
+    4.1
+   ],
+   "signals": [
+    "clip opens mid-fight",
+    "point-blank muzzle flash 0:03.7",
+    "kill emblem + corpse 0:04.1",
+    "pink-glowing enemies ahead 0:06.1"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "ObWy97A6INU",
+   "clip": "ObWy97A6INU_reyna-u-need-to-",
+   "w": 1,
+   "lo": 47.5,
+   "hi": 52.7,
+   "peak": 49.5,
+   "verdict": "probable_kill_verify",
+   "kill_times": [],
+   "signals": [
+    "corpse + soul orb at 0:47.5 (kill pre-window)",
+    "aim 0:48-49",
+    "colored edit-transition smear 0:49.9-52.3 (peak cause)"
+   ],
+   "source": "dense",
+   "kill_bounds": [
+    45.5,
+    46.3
+   ],
+   "dense_signals": [
+    "corpse on stairs from 0:46.3",
+    "Reyna orb + pink devour wash 0:51.1+"
+   ],
+   "flags": [
+    "corpse-only probable; no exact kill time; exclude from timing scoring"
+   ]
+  },
+  {
+   "tag": "ObWy97A6INU",
+   "clip": "ObWy97A6INU_reyna-u-need-to-",
+   "w": 2,
+   "lo": 226.4,
+   "hi": 231.6,
+   "peak": 228.0,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "THRIFTY round-win banner",
+    "knife swing + corpse (kill pre-window)",
+    "edit flash 3:47.2",
+    "ability cast after source cut"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "ObWy97A6INU",
+   "clip": "ObWy97A6INU_reyna-u-need-to-",
+   "w": 3,
+   "lo": 253.0,
+   "hi": 258.2,
+   "peak": 255.0,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "enemy spotted 4:13.8-14.6",
+    "2 shots fired ammo 30->28",
+    "enemy escapes doorway",
+    "camera whip 4:17"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "ObWy97A6INU",
+   "clip": "ObWy97A6INU_reyna-u-need-to-",
+   "w": 4,
+   "lo": 285.9,
+   "hi": 291.1,
+   "peak": 287.9,
+   "verdict": "good_kill_window",
+   "kill_times": [
+    288.1
+   ],
+   "signals": [
+    "enemy engaged 4:47.9",
+    "kill emblem + ACE banner 4:48.3",
+    "flames + CROWN 4:49.1",
+    "Reyna soul devour FX 4:49.9+"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "ObWy97A6INU",
+   "clip": "ObWy97A6INU_reyna-u-need-to-",
+   "w": 5,
+   "lo": 314.8,
+   "hi": 320.0,
+   "peak": 316.8,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "passive aiming most of window",
+    "shots at edge ammo 19->16",
+    "corpse-like shape on road 5:17.6+",
+    "red edit bars right"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "ObWy97A6INU",
+   "clip": "ObWy97A6INU_reyna-u-need-to-",
+   "w": 6,
+   "lo": 326.8,
+   "hi": 332.0,
+   "peak": 328.0,
+   "verdict": "good_kill_window",
+   "kill_times": [
+    329.6
+   ],
+   "signals": [
+    "point-blank duel HP 72->57",
+    "kill emblem 5:29.6",
+    "soul orb + devour FX",
+    "corpse visible 5:31.6"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "ObWy97A6INU",
+   "clip": "ObWy97A6INU_reyna-u-need-to-",
+   "w": 7,
+   "lo": 342.3,
+   "hi": 347.5,
+   "peak": 344.0,
+   "verdict": "good_kill_window",
+   "kill_times": [
+    341.8
+   ],
+   "signals": [
+    "kill emblem up at start (kill ~5:41 pre-window)",
+    "rainbow edit wash 5:42-43",
+    "edit border 5:44+",
+    "scope on live target 5:46.7-47.5 (shot ~5:48 post-window)"
+   ],
+   "source": "dense",
+   "dense_signals": [
+    "firing tracers 5:40.9-5:41.3",
+    "kill emblem at crosshair 5:41.8-5:42.7",
+    "rainbow wall (source edit) 5:41.6+",
+    "second event: Operator scope + shot 5:48.2-5:48.4 with NO emblem/corpse after"
+   ]
+  },
+  {
+   "tag": "ObWy97A6INU",
+   "clip": "ObWy97A6INU_reyna-u-need-to-",
+   "w": 8,
+   "lo": 359.0,
+   "hi": 364.2,
+   "peak": 361.0,
+   "verdict": "probable_kill_verify",
+   "kill_times": [],
+   "signals": [
+    "corpse at 6:00.2 (kill pre-window)",
+    "soul-devour FX 6:01.4-6:01.8 (peak)",
+    "gold rifle re-equip 6:02.2"
+   ],
+   "source": "dense",
+   "kill_bounds": [
+    null,
+    355.0
+   ],
+   "dense_signals": [
+    "corpse on room floor 5:58.0-6:00.4 (first seen in window)",
+    "knife/scythe out, no firing in window",
+    "new scene 6:02.2+"
+   ],
+   "flags": [
+    "corpse-only probable; no exact kill time; exclude from timing scoring"
+   ]
+  },
+  {
+   "tag": "ObWy97A6INU",
+   "clip": "ObWy97A6INU_reyna-u-need-to-",
+   "w": 9,
+   "lo": 365.0,
+   "hi": 370.2,
+   "peak": 367.0,
+   "verdict": "good_kill_window",
+   "kill_times": [
+    365.1
+   ],
+   "signals": [
+    "muzzle glow 6:05.0",
+    "SPIKE CARRIER KILLED banner + emblem 6:05.0-05.4",
+    "dismiss FX 6:08.2",
+    "emblem persists to 6:10"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "ObWy97A6INU",
+   "clip": "ObWy97A6INU_reyna-u-need-to-",
+   "w": 10,
+   "lo": 432.1,
+   "hi": 437.3,
+   "peak": 434.1,
+   "verdict": "good_kill_window",
+   "kill_times": [
+    431.5,
+    435.7
+   ],
+   "signals": [
+    "emblem up at start (prior kill)",
+    "enemy engaged 7:12.9-7:16.5",
+    "11+ rounds fired ammo 46->33",
+    "second emblem ~7:15.7",
+    "green edit-flash end"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "ObWy97A6INU",
+   "clip": "ObWy97A6INU_reyna-u-need-to-",
+   "w": 11,
+   "lo": 506.4,
+   "hi": 511.6,
+   "peak": 508.4,
+   "verdict": "good_kill_window",
+   "kill_times": [
+    506.3
+   ],
+   "signals": [
+    "emblem up at start (kill ~8:25 pre-window)",
+    "scope in/out 8:27-8:29",
+    "blood splat 8:30",
+    "no firing in-window"
+   ],
+   "source": "dense",
+   "dense_signals": [
+    "Operator scope on doorway 8:24.4-8:26.3",
+    "enemy in scope 8:25.8-8:26.3",
+    "shot + enemy gone 8:26.3-8:27.1"
+   ]
+  },
+  {
+   "tag": "Z210dNkaapY",
+   "clip": "Z210dNkaapY_Your-aim-is-just",
+   "w": 0,
+   "lo": 24.1,
+   "hi": 29.3,
+   "peak": 26.1,
+   "verdict": "good_kill_window",
+   "kill_times": [
+    27.7
+   ],
+   "signals": [
+    "enemy spotted 0:26.9",
+    "11-round spray ammo 30->19",
+    "red burst + kill emblem 0:27.7",
+    "soul devour FX 0:28.5+"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "Z210dNkaapY",
+   "clip": "Z210dNkaapY_Your-aim-is-just",
+   "w": 1,
+   "lo": 33.5,
+   "hi": 38.7,
+   "peak": 35.5,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "death banner + spectate Jett",
+    "score panel",
+    "subscribe-overlay card 0:35.1+",
+    "respawn pistol at end"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "Z210dNkaapY",
+   "clip": "Z210dNkaapY_Your-aim-is-just",
+   "w": 2,
+   "lo": 99.1,
+   "hi": 104.3,
+   "peak": 101.1,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "Raze nade splatter on wall (explosion = peak)",
+    "no enemy/firing",
+    "HP 100",
+    "source cut 1:43.5"
+   ],
+   "source": "dense",
+   "dense_signals": [
+    "giant red blood-wall source-edit overlay 1:37.0-1:43.0 obscures play",
+    "wall-corner firing ~1:42.7 with no enemy/emblem/corpse visible through overlay"
+   ]
+  },
+  {
+   "tag": "Z210dNkaapY",
+   "clip": "Z210dNkaapY_Your-aim-is-just",
+   "w": 3,
+   "lo": 108.5,
+   "hi": 113.7,
+   "peak": 110.5,
+   "verdict": "good_kill_window",
+   "kill_times": [
+    107.6
+   ],
+   "signals": [
+    "CLUTCH banner (round win)",
+    "fist/knife celebration",
+    "killfeed banner",
+    "edit scale-down effect 1:52+"
+   ],
+   "source": "dense",
+   "dense_signals": [
+    "firing at flaming enemy 1:45.0-1:45.4",
+    "enemy center doorway 1:47.2-1:47.6",
+    "CLUTCH banner 1:47.9+",
+    "corpse on ground 1:49.1+"
+   ]
+  },
+  {
+   "tag": "Z210dNkaapY",
+   "clip": "Z210dNkaapY_Your-aim-is-just",
+   "w": 4,
+   "lo": 115.1,
+   "hi": 120.3,
+   "peak": 117.1,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "corpse-cam/death view",
+    "team roster panel",
+    "killfeed banners",
+    "source cut to new round + ability FX"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "Z210dNkaapY",
+   "clip": "Z210dNkaapY_Your-aim-is-just",
+   "w": 5,
+   "lo": 272.9,
+   "hi": 278.1,
+   "peak": 274.9,
+   "verdict": "good_kill_window",
+   "kill_times": [
+    275.7
+   ],
+   "signals": [
+    "enemy mid-street 4:34.5",
+    "firing ammo 10->8",
+    "SPIKE CARRIER KILLED banner + emblem 4:36.5",
+    "corpse 4:37.7"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "Z210dNkaapY",
+   "clip": "Z210dNkaapY_Your-aim-is-just",
+   "w": 6,
+   "lo": 280.0,
+   "hi": 285.2,
+   "peak": 282.0,
+   "verdict": "good_kill_window",
+   "kill_times": [
+    286.4
+   ],
+   "signals": [
+    "Sheriff shots 13->10 at wall gap",
+    "green ability FX 4:43",
+    "2 enemies re-peek 4:44.4-4:45.2",
+    "no emblem/corpse"
+   ],
+   "source": "dense",
+   "dense_signals": [
+    "enemy yellow in doorway 4:44.8-4:45.2",
+    "Sheriff muzzle flash 4:45.6",
+    "red kill emblem at crosshair 4:46.2-4:46.5",
+    "enemy gone, white skull icon persists 4:47.0-4:48.4"
+   ]
+  },
+  {
+   "tag": "Z210dNkaapY",
+   "clip": "Z210dNkaapY_Your-aim-is-just",
+   "w": 7,
+   "lo": 292.5,
+   "hi": 297.7,
+   "peak": 294.5,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "static angle-hold 4s",
+    "ammo 13 constant, HP 100",
+    "ability glow 4:56.9+"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "Z210dNkaapY",
+   "clip": "Z210dNkaapY_Your-aim-is-just",
+   "w": 8,
+   "lo": 306.3,
+   "hi": 311.5,
+   "peak": 308.3,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "enemy + muzzle flash 5:06.7",
+    "kill emblem from 5:07.1",
+    "pink transition sweep",
+    "second tracer engagement ammo ->15",
+    "dismiss + green field"
+   ],
+   "source": "dense",
+   "dense_signals": [
+    "WON banner 5:02.9-5:03.4 over corpses (round end)",
+    "pink-wall new round 5:04.1+",
+    "enemy silhouette in doorway 5:06.5-5:07.0, NO shot fired, no emblem"
+   ]
+  },
+  {
+   "tag": "Z210dNkaapY",
+   "clip": "Z210dNkaapY_Your-aim-is-just",
+   "w": 9,
+   "lo": 356.2,
+   "hi": 361.4,
+   "peak": 358.2,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "emblem up at start (kill ~354 pre-window)",
+    "soul orb 5:57",
+    "enemy at 6:00.2",
+    "shots + white skull confirm 6:01.4 ammo->10",
+    "rainbow edit borders"
+   ],
+   "source": "dense",
+   "dense_signals": [
+    "Ghost pistol passive stair hold 5:52.0-6:03.5 (whole window)",
+    "Reyna orb/eye ability cast 5:57.0-5:58.2",
+    "no firing, enemy, emblem or corpse at any frame"
+   ]
+  },
+  {
+   "tag": "Z210dNkaapY",
+   "clip": "Z210dNkaapY_Your-aim-is-just",
+   "w": 10,
+   "lo": 400.9,
+   "hi": 406.1,
+   "peak": 402.9,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "corridor rotation 5s",
+    "ammo 13 constant (distant flash 6:44)",
+    "no enemy/emblem"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "Z210dNkaapY",
+   "clip": "Z210dNkaapY_Your-aim-is-just",
+   "w": 11,
+   "lo": 417.9,
+   "hi": 420.0,
+   "peak": 419.9,
+   "verdict": "good_kill_window",
+   "kill_times": [
+    417.8
+   ],
+   "signals": [
+    "WON banner + emblem",
+    "no firing in-window",
+    "clip ends 420s"
+   ],
+   "source": "dense",
+   "dense_signals": [
+    "Sheriff push 6:56.5-6:57.5",
+    "firing + white skull icon 6:57.5-6:58.5",
+    "WON banner 6:58.1+"
+   ]
+  },
+  {
+   "tag": "iufseng8xEs",
+   "clip": "iufseng8xEs_Ranked-but-I-m-O",
+   "w": 0,
+   "lo": -1.5,
+   "hi": 4.9,
+   "peak": 0.5,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "clip-start intro",
+    "trapwire + aiming",
+    "yellow enemy contact 3.3-4.9 (no firing, ammo 25)",
+    "purple scene at end"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "iufseng8xEs",
+   "clip": "iufseng8xEs_Ranked-but-I-m-O",
+   "w": 1,
+   "lo": 64.8,
+   "hi": 70.0,
+   "peak": 66.8,
+   "verdict": "good_kill_window",
+   "kill_times": [
+    71.5
+   ],
+   "signals": [
+    "green starburst flash 64.8-65.6 (peak)",
+    "orange util 67.6",
+    "2 yellow enemies spotted 68.8",
+    "opening shots ammo->23 at 70.0"
+   ],
+   "source": "dense",
+   "dense_signals": [
+    "green-flash transition 1:04.5-1:06.2",
+    "two enemies crossing courtyard 1:09.4-1:10.5",
+    "kill emblem (green skull icon) 1:11.4-1:12.0"
+   ]
+  },
+  {
+   "tag": "iufseng8xEs",
+   "clip": "iufseng8xEs_Ranked-but-I-m-O",
+   "w": 2,
+   "lo": 117.2,
+   "hi": 122.4,
+   "peak": 119.2,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "Thrash/creature ability prowling",
+    "red possess FX 121.6 (peak)",
+    "shots at end ammo 25->22",
+    "no emblem/corpse"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "iufseng8xEs",
+   "clip": "iufseng8xEs_Ranked-but-I-m-O",
+   "w": 3,
+   "lo": 151.3,
+   "hi": 156.5,
+   "peak": 153.3,
+   "verdict": "good_kill_window",
+   "kill_times": [
+    156.1
+   ],
+   "signals": [
+    "objective banner + enemy 153.7",
+    "shots ammo->22 154.1",
+    "edit flash 154.5 + source cut",
+    "firing 22->16 155.7-156.1",
+    "gold tracer + kill emblem 156.1",
+    "killfeed entries + purple frame 156.5"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "iufseng8xEs",
+   "clip": "iufseng8xEs_Ranked-but-I-m-O",
+   "w": 4,
+   "lo": 174.7,
+   "hi": 179.8,
+   "peak": 176.7,
+   "verdict": "good_kill_window",
+   "kill_times": [
+    174.8
+   ],
+   "signals": [
+    "SPIKE CARRIER KILLED banner + fresh emblem at start",
+    "corpse on stairs 177.1-178.2",
+    "knife reposition",
+    "next enemy spotted 179.5"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "iufseng8xEs",
+   "clip": "iufseng8xEs_Ranked-but-I-m-O",
+   "w": 5,
+   "lo": 194.7,
+   "hi": 199.9,
+   "peak": 196.7,
+   "verdict": "good_kill_window",
+   "kill_times": [
+    194.7
+   ],
+   "signals": [
+    "fresh emblem + killfeed at start",
+    "Reyna devour heal HP 53->76",
+    "orb closeup 197.5",
+    "whip transition 197.9",
+    "wall decals 198.7"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "iufseng8xEs",
+   "clip": "iufseng8xEs_Ranked-but-I-m-O",
+   "w": 6,
+   "lo": 214.4,
+   "hi": 219.6,
+   "peak": 216.4,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "TAB scoreboard open 214.4",
+    "knife + dismiss FX 215.6-216.0",
+    "source cut to new round 216.4",
+    "two-hand ability cast 217.2+"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "iufseng8xEs",
+   "clip": "iufseng8xEs_Ranked-but-I-m-O",
+   "w": 7,
+   "lo": 260.3,
+   "hi": 265.5,
+   "peak": 262.9,
+   "verdict": "good_kill_window",
+   "kill_times": [
+    260.3
+   ],
+   "signals": [
+    "fresh emblem + red kill burst 260.3-261.5",
+    "killfeed entries + HP 66",
+    "pink edit transition 261.9-262.7",
+    "new scene HP 100 after"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "iufseng8xEs",
+   "clip": "iufseng8xEs_Ranked-but-I-m-O",
+   "w": 8,
+   "lo": 303.7,
+   "hi": 308.9,
+   "peak": 305.0,
+   "verdict": "good_kill_window",
+   "kill_times": [
+    305.6
+   ],
+   "signals": [
+    "emblem up from start (kill ~301-303)",
+    "pink transition wash throughout",
+    "shots 26->24 ~306.1",
+    "kill-card overlay 307.7",
+    "green confirm ring 308.1"
+   ],
+   "source": "dense",
+   "dense_signals": [
+    "drop-in 5:04.4-5:05.0",
+    "kill icon at crosshair 5:05.3-5:05.9",
+    "player damaged 5:07.6, death/respawn 5:08.4-5:10.7"
+   ]
+  },
+  {
+   "tag": "iufseng8xEs",
+   "clip": "iufseng8xEs_Ranked-but-I-m-O",
+   "w": 9,
+   "lo": 359.3,
+   "hi": 364.5,
+   "peak": 361.3,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "enemy at archway 361.3",
+    "muzzle flash 361.7",
+    "kill emblem 362.1 + edit borders",
+    "fight continues ammo->10 + ability burst 364.1"
+   ],
+   "source": "dense",
+   "dense_signals": [
+    "ability cast (blue hands) 6:02.1-6:04.3 at the claimed 362.1",
+    "yellow ability explosion 6:04.1 (claimed 364.1)",
+    "enemy firing at player 6:04.9, knife out, WON 6:05.8+; no POV firing/emblem/corpse"
+   ]
+  },
+  {
+   "tag": "iufseng8xEs",
+   "clip": "iufseng8xEs_Ranked-but-I-m-O",
+   "w": 10,
+   "lo": 421.4,
+   "hi": 426.6,
+   "peak": 423.4,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "purple ability blob/smoke 421.8-424.6",
+    "angle holds + walking",
+    "ammo 25 constant",
+    "no enemy/emblem"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "iufseng8xEs",
+   "clip": "iufseng8xEs_Ranked-but-I-m-O",
+   "w": 11,
+   "lo": 455.5,
+   "hi": 460.7,
+   "peak": 457.5,
+   "verdict": "good_kill_window",
+   "kill_times": [
+    460.3
+   ],
+   "signals": [
+    "16 rounds fired 25->9",
+    "HP 100->82 trade",
+    "enemy tracers 459.5",
+    "kill emblem 460.3 at window edge"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "j59f0UqxcIs",
+   "clip": "j59f0UqxcIs_90-aim-10-brain-",
+   "w": 0,
+   "lo": 58.2,
+   "hi": 63.4,
+   "peak": 60.3,
+   "verdict": "good_kill_window",
+   "kill_times": [
+    61.8
+   ],
+   "signals": [
+    "scope hold 0:59.4-1:01.4",
+    "fired ammo 4->3 + muzzle 1:01.8",
+    "kill emblem 1:02.2",
+    "knife-out celebration"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "j59f0UqxcIs",
+   "clip": "j59f0UqxcIs_90-aim-10-brain-",
+   "w": 1,
+   "lo": 177.0,
+   "hi": 182.2,
+   "peak": 179.0,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "ammo constant 12 (no firing)",
+    "enemy pass-by 2:58.2",
+    "teammate silhouette through wall",
+    "others' red kill banner 3:01"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "j59f0UqxcIs",
+   "clip": "j59f0UqxcIs_90-aim-10-brain-",
+   "w": 2,
+   "lo": 233.9,
+   "hi": 239.1,
+   "peak": 235.9,
+   "verdict": "good_kill_window",
+   "kill_times": [
+    234.0,
+    236.3
+   ],
+   "signals": [
+    "kill emblem at 3:54.3 (kill ~3:53.5)",
+    "blood burst 3:56.3",
+    "refire ammo 24->22 + killfeed 3:57.9-58.3",
+    "fire FX"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "j59f0UqxcIs",
+   "clip": "j59f0UqxcIs_90-aim-10-brain-",
+   "w": 3,
+   "lo": 282.0,
+   "hi": 287.2,
+   "peak": 284.0,
+   "verdict": "good_kill_window",
+   "kill_times": [
+    245.2
+   ],
+   "signals": [
+    "SPIKE CARRIER banner pre-window",
+    "cyan orb cast + impact 4:43.6",
+    "HP 100->87",
+    "kill emblem 4:45.2-4:47 + death burst 4:45.6"
+   ],
+   "source": "canonical",
+   "flags": [
+    "kill_time 245.2 outside window 282.0-287.2 (suspected mm:ss corruption; unresolved)"
+   ]
+  },
+  {
+   "tag": "j59f0UqxcIs",
+   "clip": "j59f0UqxcIs_90-aim-10-brain-",
+   "w": 4,
+   "lo": 319.1,
+   "hi": 324.3,
+   "peak": 321.1,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "ammo constant 15 (no fire)",
+    "others' killfeed",
+    "edit transition wash 5:23.9+"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "j59f0UqxcIs",
+   "clip": "j59f0UqxcIs_90-aim-10-brain-",
+   "w": 5,
+   "lo": 376.6,
+   "hi": 381.8,
+   "peak": 378.6,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "VICTORY scoreboard 6:16.6-17.8 (match-end sting = peak)",
+    "source cut",
+    "single shot 6:19.4 no confirm"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "j59f0UqxcIs",
+   "clip": "j59f0UqxcIs_90-aim-10-brain-",
+   "w": 6,
+   "lo": 380.9,
+   "hi": 386.1,
+   "peak": 382.9,
+   "verdict": "good_kill_window",
+   "kill_times": [
+    385.5
+   ],
+   "signals": [
+    "firing at doorway 6:25.3",
+    "red kill emblem 6:25.7",
+    "HP 89->76",
+    "killfeed active",
+    "possible earlier badge 6:24.1"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "j59f0UqxcIs",
+   "clip": "j59f0UqxcIs_90-aim-10-brain-",
+   "w": 7,
+   "lo": 455.4,
+   "hi": 460.6,
+   "peak": 457.4,
+   "verdict": "good_kill_window",
+   "kill_times": [
+    398.6
+   ],
+   "signals": [
+    "orange cast 7:35.4",
+    "enemy figure 7:37.8",
+    "kill emblem 7:38.6",
+    "snap FX 7:39.0",
+    "re-cast 7:40.2"
+   ],
+   "source": "canonical",
+   "flags": [
+    "kill_time 398.6 outside window 455.4-460.6 (suspected mm:ss corruption; unresolved)"
+   ]
+  },
+  {
+   "tag": "j59f0UqxcIs",
+   "clip": "j59f0UqxcIs_90-aim-10-brain-",
+   "w": 8,
+   "lo": 475.3,
+   "hi": 480.5,
+   "peak": 477.3,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "purple burst at start (ambiguous, no emblem)",
+    "ammo 25 constant (no fire)",
+    "passive aim + edit sticker"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "j59f0UqxcIs",
+   "clip": "j59f0UqxcIs_90-aim-10-brain-",
+   "w": 9,
+   "lo": 479.3,
+   "hi": 484.5,
+   "peak": 481.3,
+   "verdict": "good_kill_window",
+   "kill_times": [
+    483.4
+   ],
+   "signals": [
+    "enemy spotted 8:02.9",
+    "fired ammo 25->16",
+    "death burst + emblem 8:03.4",
+    "second gold target 8:04.1+"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "j59f0UqxcIs",
+   "clip": "j59f0UqxcIs_90-aim-10-brain-",
+   "w": 10,
+   "lo": 486.7,
+   "hi": 491.9,
+   "peak": 488.7,
+   "verdict": "good_kill_window",
+   "kill_times": [
+    487.1
+   ],
+   "signals": [
+    "emblem persists from w09",
+    "mid-spray ammo 16->7",
+    "magenta death burst 8:07.1",
+    "killfeed swarm",
+    "swap to pistol 8:09.5"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "j59f0UqxcIs",
+   "clip": "j59f0UqxcIs_90-aim-10-brain-",
+   "w": 11,
+   "lo": 502.4,
+   "hi": 507.6,
+   "peak": 504.4,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "all frames black (outro)"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "z0ALKJiFRDU",
+   "clip": "z0ALKJiFRDU_Warden-is-Simply",
+   "w": 0,
+   "lo": 44.8,
+   "hi": 50.0,
+   "peak": 46.8,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "kill emblem up in scoped frames (kill ~0:44.5 pre-window)",
+    "ammo 11 constant (no new fire)",
+    "move-through aftermath"
+   ],
+   "source": "dense",
+   "dense_signals": [
+    "Operator scope doorway empty 0:45.0-0:46.0",
+    "unconfirmed lane tracers 0:47.4-0:48.4, no enemy/emblem/corpse visible",
+    "player death 0:50.5 (weapon drop, purple orb)"
+   ]
+  },
+  {
+   "tag": "z0ALKJiFRDU",
+   "clip": "z0ALKJiFRDU_Warden-is-Simply",
+   "w": 1,
+   "lo": 57.6,
+   "hi": 62.8,
+   "peak": 59.6,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "static scope hold, ammo constant",
+    "SPIKE PLANTED timer",
+    "purple/cyan ability FX end"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "z0ALKJiFRDU",
+   "clip": "z0ALKJiFRDU_Warden-is-Simply",
+   "w": 2,
+   "lo": 109.9,
+   "hi": 115.1,
+   "peak": 111.9,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "passive aim, badge ambiguous (edit sticker vs emblem)",
+    "ability cast 1:53.1",
+    "prism edit transition + source cut (HP 36->100)"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "z0ALKJiFRDU",
+   "clip": "z0ALKJiFRDU_Warden-is-Simply",
+   "w": 3,
+   "lo": 237.4,
+   "hi": 242.6,
+   "peak": 239.4,
+   "verdict": "good_kill_window",
+   "kill_times": [
+    240.8
+   ],
+   "signals": [
+    "corpses + 2 live enemies",
+    "pistol fired 6->3",
+    "HP 46->20",
+    "round-WON kill: emblem + death FX + WON banner 4:01.0"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "z0ALKJiFRDU",
+   "clip": "z0ALKJiFRDU_Warden-is-Simply",
+   "w": 4,
+   "lo": 241.7,
+   "hi": 246.9,
+   "peak": 243.7,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "WON-aftermath overlap w/ w03",
+    "source cut 4:03.7",
+    "passive aim new round",
+    "pink badge = edit sticker (confirmed across rounds)"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "z0ALKJiFRDU",
+   "clip": "z0ALKJiFRDU_Warden-is-Simply",
+   "w": 5,
+   "lo": 281.3,
+   "hi": 286.5,
+   "peak": 283.3,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "BUY PHASE banner throughout",
+    "spawn util spam + shop UI",
+    "no combat possible"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "z0ALKJiFRDU",
+   "clip": "z0ALKJiFRDU_Warden-is-Simply",
+   "w": 6,
+   "lo": 288.2,
+   "hi": 293.4,
+   "peak": 290.2,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "BUY PHASE + scoreboard overlay",
+    "knife inspect",
+    "source cut 4:52.2",
+    "purple claw FX"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "z0ALKJiFRDU",
+   "clip": "z0ALKJiFRDU_Warden-is-Simply",
+   "w": 7,
+   "lo": 313.1,
+   "hi": 318.3,
+   "peak": 315.1,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "scope toggle sequence",
+    "1 shot ammo 16->15 at 5:17.4",
+    "no emblem/corpse/visible confirm"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "z0ALKJiFRDU",
+   "clip": "z0ALKJiFRDU_Warden-is-Simply",
+   "w": 8,
+   "lo": 356.9,
+   "hi": 362.1,
+   "peak": 358.9,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "close fight HP 22",
+    "red-orange FX + enemy figure 5:58.5",
+    "blue-white burst at peak 5:58.9",
+    "calm after"
+   ],
+   "source": "dense",
+   "dense_signals": [
+    "Sheriff hold on pillar 5:54.9-6:04.1",
+    "red explosion/incoming damage 5:57.5-5:58.2",
+    "weapon inspect, continued passive hold; no firing, emblem or corpse"
+   ]
+  },
+  {
+   "tag": "z0ALKJiFRDU",
+   "clip": "z0ALKJiFRDU_Warden-is-Simply",
+   "w": 9,
+   "lo": 368.6,
+   "hi": 373.8,
+   "peak": 370.6,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "WON banner + corpse at start (round-winning kill pre-window)",
+    "ammo 17 constant after",
+    "teammate FX + red banners"
+   ],
+   "source": "dense",
+   "dense_signals": [
+    "WON banner + corpses from 6:06.6 (round already won)",
+    "blue round-end explosion 6:08.0-6:08.4",
+    "new-round Operator hold 6:09.3-6:15.8, enemy silhouette in scope 6:11.3 but no shot"
+   ]
+  },
+  {
+   "tag": "z0ALKJiFRDU",
+   "clip": "z0ALKJiFRDU_Warden-is-Simply",
+   "w": 10,
+   "lo": 404.6,
+   "hi": 409.8,
+   "peak": 406.6,
+   "verdict": "exclude",
+   "kill_times": [],
+   "signals": [
+    "scoped toggle w/ skin FX",
+    "ammo 5 constant (no fire)",
+    "enemy visible 6:46.6 untouched",
+    "purple wash transition"
+   ],
+   "source": "canonical"
+  },
+  {
+   "tag": "z0ALKJiFRDU",
+   "clip": "z0ALKJiFRDU_Warden-is-Simply",
+   "w": 11,
+   "lo": 450.3,
+   "hi": 455.5,
+   "peak": 452.3,
+   "verdict": "good_kill_window",
+   "kill_times": [
+    450.0
+   ],
+   "signals": [
+    "gore + badge at first frame (kill pre-window)",
+    "orange swoosh edit sting",
+    "BUY PHASE transition 7:31.9+",
+    "gold vine edit frame"
+   ],
+   "source": "dense",
+   "dense_signals": [
+    "enemy firing left 7:29.4-7:29.6",
+    "exchange 7:29.6-7:30.2",
+    "multiple corpses 7:30.2-7:31.2",
+    "BUY PHASE 7:31.6+"
+   ]
+  }
+ ],
+ "unresolved_flags": [
+  [
+   "j59f0UqxcIs",
+   3,
+   245.2
+  ],
+  [
+   "j59f0UqxcIs",
+   7,
+   398.6
+  ]
+ ]
+}

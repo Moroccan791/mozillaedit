@@ -50,3 +50,4 @@ output/
 *.err
 *.out
 tmp*
+.venv-audit/
