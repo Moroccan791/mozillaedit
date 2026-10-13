@@ -8,13 +8,14 @@ import json
 from pathlib import Path
 import time
 import traceback
+from . import lyric_track as lyrics_track
 from .daily_runner import _job_dir, _write, _hash
 
 
 def run_local_preview(*, song, source, profile, output_root, music_start=8., duration=35.,
                       encoder="h264_qsv", plan_only=False, lyrics_mode="off",
                       lyric_track=None, lyric_design=None, lyric_model=None,
-                      lyric_language=None, lyric_max_moments=3, fonts_root=r"E:\fonts",
+                      lyric_language=None, lyric_max_moments=3, fonts_root=lyrics_track.DEFAULT_FONTS_ROOT,
                       calibration_labels=None):
     from .encounter_render import RenderConfig
     import math

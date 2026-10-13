@@ -8,6 +8,7 @@ Never transcribes, converts legacy assets or independently marks them verified.
 """
 from __future__ import annotations
 import hashlib
+import os
 import shutil
 from contextlib import contextmanager
 import json
@@ -22,6 +23,12 @@ from typing import Iterable, Mapping
 
 SCHEMA = "lyric-track/v1"
 _VALIDATED = object()
+
+# Licensed-font root. Defaults to the original Windows project path; another
+# machine may set AIVE_FONTS_ROOT to its own Oswald/Bebas Neue + OFL folder.
+# This only relocates the search root. Discovery still requires a bundled SIL
+# OFL license per family and never substitutes, installs or downloads a font.
+DEFAULT_FONTS_ROOT = os.environ.get("AIVE_FONTS_ROOT", r"E:\fonts") or r"E:\fonts"
 
 
 class LyricValidationError(ValueError):
@@ -213,7 +220,7 @@ def _font_family(file):
     raise ValueError("font has no family name")
 
 
-def discover_licensed_fonts(root: str | Path = r"E:\fonts") -> tuple[LicensedFont, ...]:
+def discover_licensed_fonts(root: str | Path = DEFAULT_FONTS_ROOT) -> tuple[LicensedFont, ...]:
     """Discover local TTFs with bundled SIL OFL. Never download or fallback."""
     root, found = Path(root).resolve(), []
     for font in sorted(root.rglob("*.ttf")):
@@ -233,7 +240,7 @@ def discover_licensed_fonts(root: str | Path = r"E:\fonts") -> tuple[LicensedFon
 
 
 @contextmanager
-def ass_fonts_directory(root: str | Path = r"E:\fonts"):
+def ass_fonts_directory(root: str | Path = DEFAULT_FONTS_ROOT):
     """Stage licensed fonts flat for libass, which need not recurse fontsdir.
 
     Use this directory during ffmpeg rendering; it is deleted on context exit.
@@ -315,7 +322,7 @@ def _ass_time(cs):
 
 
 def build_lyric_ass(track: LyricTrack, *, width=1920, height=1080,
-                    fonts_root: str | Path = r"E:\fonts", **excerpt_options) -> str:
+                    fonts_root: str | Path = DEFAULT_FONTS_ROOT, **excerpt_options) -> str:
     """Build ASS using licensed local Oswald/Bebas Neue, no HTML.
 
     Use ass_fonts_directory(fonts_root) for libass fontsdir. Phrases are quiet lower

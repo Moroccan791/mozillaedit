@@ -1,0 +1,41 @@
+{
+  "status": "synthetic_combined_api_plumbing_not_real_semantic_or_aesthetic_acceptance",
+  "platform": "linux-sandbox-port",
+  "frames": 300,
+  "samples": 480000,
+  "duration": 10.0,
+  "music_start_sample": 6096,
+  "game_stem_pcm_identical": true,
+  "music_stem_pcm_identical": true,
+  "full_decode_pass": true,
+  "video_changed": true,
+  "original_unchanged": true,
+  "render_seconds": [
+    0.9248566229999824,
+    0.9883141090000436
+  ],
+  "manifests": [
+    "/tmp/aive-combined-proof/multishot/encounters-v0001/render-manifest.json",
+    "/tmp/aive-combined-proof/multishot-authored/encounters-v0001/render-manifest.json"
+  ],
+  "combined_style_policy": "Explicit renderer API experiment pending front-door/lyric policy; no semantic or perceptual approval.",
+  "combined_limitations": [
+    "Explicit renderer API experiment; supported front doors and combined lyric integration remain unsupported pending policy/clock work; no closure acceptance (current closure QA is 1x-only).",
+    "Source hashes bind bytes, not semantic review; supplied review assertions are not authenticated.",
+    "Map protected intervals bypass atempo; gap audio waveform/within-slice timing remain approximate, with exact sample endpoints.",
+    "Composition is video-only after the existing mapped CFR base; no additional map/fps stage, no music retiming or perceptual approval."
+  ],
+  "candidate_confirmed": [
+    false,
+    false,
+    false,
+    false
+  ],
+  "limitations": [
+    "Synthetic fixture attestation only",
+    "No real reviewed maps invented",
+    "Game gap atempo remains approximate",
+    "No lyric/front-door/closure integration yet",
+    "No gameplay/music/lyric/perceptual approval"
+  ]
+}

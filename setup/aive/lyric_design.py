@@ -187,7 +187,7 @@ class DesignedLyrics:
 
 
 def compile_lyric_design(track: lyrics.LyricTrack, document: dict, *,
-                         fonts_root: str | Path = r"E:\fonts") -> DesignedLyrics:
+                         fonts_root: str | Path = lyrics.DEFAULT_FONTS_ROOT) -> DesignedLyrics:
     """Select authored moments only. Return ASS plus JSON-safe lineage/audit.
 
     Excerpt is continuous selected-music decoded sample-zero clock. No retiming,

@@ -14,7 +14,8 @@ from pathlib import Path
 
 from . import lyric_track as lyrics
 from .lyric_design import compile_lyric_design
-from .encounter_render import RenderConfig, _rounded, validate_plan
+from .encounter_render import (RenderConfig, _rounded, assert_uniform_1x_clock,
+                               effective_style, validate_plan)
 
 TRACK_BYTES = 2 * 1024 * 1024
 DESIGN_BYTES = 128000
@@ -218,7 +219,7 @@ def _generated_design(track, excerpt, canvas, impacts, policy):
                 allow_impact_collision=False, allow_protected_overlap=False, protected_zones=[])
 
 
-def prepare_lyrics(song, plan, config, job, lyric_track, lyric_design=None, *, policy=None, fonts_root=r"E:\fonts"):
+def prepare_lyrics(song, plan, config, job, lyric_track, lyric_design=None, *, policy=None, fonts_root=lyrics.DEFAULT_FONTS_ROOT):
     """Validate exact music/plan, compile selective graphics, snapshot BEFORE video.
 
     Inputs may be JSON paths or dicts. Original files are never overwritten.
@@ -227,6 +228,13 @@ def prepare_lyrics(song, plan, config, job, lyric_track, lyric_design=None, *, p
     config = RenderConfig(**config) if isinstance(config, dict) else config
     if not isinstance(config, RenderConfig):
         raise lyrics.LyricValidationError("RenderConfig required")
+    # Explicit 1x-clock boundary: candidate/event protection here assumes a
+    # constant source-to-output offset. Mapped/retimed clocks must never enter.
+    try:
+        assert_uniform_1x_clock(config.style, plan.get("clock_model") if isinstance(plan, dict) else None,
+                                what="lyric preflight")
+    except ValueError as exc:
+        raise lyrics.LyricValidationError(str(exc)) from exc
     validate_plan(plan, config)
     song = str(Path(song).resolve())
     from .music_lyrics import AUDIO_EXTENSIONS
@@ -298,10 +306,17 @@ def apply_prepared_lyrics(manifest, prepared):
     Existing encounter_text owns the video burn, immutable original check and
     exact CFR validation. No music/game stem regeneration or silent fallback.
     """
-    if not isinstance(prepared, PreparedLyrics):
-        raise lyrics.LyricValidationError("PreparedLyrics required")
     if not isinstance(manifest, dict) or manifest.get("schema_version") != "encounter-render/v1":
         raise lyrics.LyricValidationError("encounter-render/v1 manifest required")
+    # Same boundary at the post-render side: a retimed render's manifest may
+    # never receive 1x-prepared typography.
+    try:
+        assert_uniform_1x_clock(effective_style(manifest), manifest.get("clock_model"),
+                                what="prepared-lyric application")
+    except ValueError as exc:
+        raise lyrics.LyricValidationError(str(exc)) from exc
+    if not isinstance(prepared, PreparedLyrics):
+        raise lyrics.LyricValidationError("PreparedLyrics required")
     if (str(Path(manifest.get("music_source", "")).resolve()) != prepared.song
             or manifest.get("config") != prepared.config
             or manifest.get("music_start_sample") != prepared.excerpt["music_start_sample"]

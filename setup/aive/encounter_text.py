@@ -15,7 +15,8 @@ import re
 import shutil
 
 from . import lyric_track as lyrics
-from .encounter_render import RenderConfig, RenderError, _json, _path, _probe, _run
+from .encounter_render import (RenderConfig, RenderError, _json, _path, _probe, _run,
+                               assert_uniform_1x_clock, effective_style)
 
 __all__ = ["apply_verified_lyrics"]
 
@@ -91,7 +92,7 @@ def _load_logged_track(doc, music, digest, job, config):
 
 
 def apply_verified_lyrics(manifest, track_path, music, *, design_path=None, visual_impacts=(),
-                          fonts_root=r"E:\fonts"):
+                          fonts_root=lyrics.DEFAULT_FONTS_ROOT):
     """Return a deep-copied encounter-render/v1 manifest with a new text output.
 
     Raises LyricValidationError/ValueError/RenderError, never enables missing or
@@ -103,6 +104,13 @@ def apply_verified_lyrics(manifest, track_path, music, *, design_path=None, visu
     """
     if not isinstance(manifest, dict) or manifest.get("schema_version") != "encounter-render/v1":
         raise lyrics.LyricValidationError("expected encounter-render/v1 manifest")
+    # Defense in depth: the post-process burns 1x-prepared typography and must
+    # refuse a retimed/mapped render even if called directly.
+    try:
+        assert_uniform_1x_clock(effective_style(manifest), manifest.get("clock_model"),
+                                what="verified-lyric postprocess")
+    except ValueError as exc:
+        raise lyrics.LyricValidationError(str(exc)) from exc
     config = RenderConfig(**manifest["config"])
     config.validate()
     job_root = Path(_path(manifest["job_dir"], "job_dir"))

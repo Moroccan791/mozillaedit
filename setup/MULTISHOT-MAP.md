@@ -88,6 +88,22 @@ The row source bounds must exactly match the map's source bounds. The map's targ
 
 Frames are selected at the configured CFR; no interpolation is used. Gap audio uses bounded, short `atempo` slices based on absolute source/output sample endpoints. Protected attack intervals bypass `atempo`; when the translation lands on sample boundaries, their decoded PCM is byte-identical. Sample rounding can differ by one sample for non-grid-aligned translations. Music is extracted unchanged from decoded sample zero at `music_start`.
 
+## Clock boundary (enforced)
+
+Every render now persists an explicit `render-clock-model/v1` marker in `plan.json` and in
+the returned `render-manifest.json`: `clean` and `authored-footage` are `uniform-1x`;
+`restrained-impact` is `retimed-eased`; `multishot` and `multishot-authored` are
+`retimed-reviewed-map` (with their mapped-row count). The renderer refuses a supplied plan
+whose marker contradicts the requested style before any media IO.
+
+The 1x-only consumers fail closed on any retimed or malformed clock instead of silently
+misprotecting candidate/event clocks: `lyric_workflow.prepare_lyrics`,
+`lyric_workflow.apply_prepared_lyrics` and `encounter_text.apply_verified_lyrics` raise
+`LyricValidationError` before touching media. A missing marker is tolerated only for a
+known 1x style (historical manifests). There is no tolerance, conversion or fallback for
+mapped clocks — an actual mapped-clock lyric/closure workflow does not exist yet, and the
+supported CLI cannot select a retimed style.
+
 **Still unimplemented:** integration into the rhythm planner or `automation_runner` authored-footage mode; authenticated independent review provenance; proof that supplied anchors are real shots/hits; full rendered semantic/musical QA on actual footage; aesthetic approval. Rendering mechanics are tested on synthetic media only.
 
 Any future renderer must preserve each protected attack at 1x, use absolute sample/frame boundaries rounded once, reject collapsed or out-of-bounds rounded segments, and verify all mapped anchors in decoded output. Mathematical planning tests are not evidence of rendered crispness or perception.
@@ -104,6 +120,8 @@ $env:PYTHONDONTWRITEBYTECODE = '1'
 .\.venv\Scripts\python.exe -m unittest discover -s tests -p test_multishot_map.py -v
 ```
 
-Verification on the account-6 continuation: **24 multi-shot planning/render tests passed** in 1.556 seconds, including a real FFmpeg synthetic render; **6 existing impact-motion tests passed** in 1.637 seconds. Inherited Python variables were cleared before running the project's venv.
+Verification on the account-6 continuation: **24 multi-shot planning/render tests passed** in 1.556 seconds, including a real FFmpeg synthetic render; **6 existing impact-motion tests passed** in 1.637 seconds.
+
+Current checkpoint (2026-10-14, Linux sandbox): the full suite is **512 tests OK (skipped=1)** in ~45 seconds, including `test_multishot_authored` (9), `test_multishot_render` (5) and the new `test_lyric_clock_boundary` (6). The portable combined proof is `multishot-authored-v0001/run_combined_proof_local.py`; see its `proof-summary-local-v*.json`. Inherited Python variables were cleared before running the project's venv.
 
 Coverage includes feasibility and analytic bounds; clock/schema validation; detached manifest round-trip; mapped-event binding; source-hash mismatch rejection before job creation; mapped frame graph generation; bounded audio slices; exact protected PCM intervals; unchanged music sample slice; decoded synthetic visual anchors and exact frame/sample counts. These are mechanical synthetic proofs only. No real media labels, detector precision/recall, semantic outcomes, actual-song sync, or aesthetic approval are claimed.

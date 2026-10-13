@@ -1,0 +1,60 @@
+{
+  "status": "synthetic_combined_api_plumbing_not_real_semantic_or_aesthetic_acceptance",
+  "platform": "linux-sandbox-port",
+  "frames": 300,
+  "samples": 480000,
+  "duration": 10.0,
+  "music_start_sample": 6096,
+  "game_stem_pcm_identical": true,
+  "music_stem_pcm_identical": true,
+  "full_decode_pass": true,
+  "video_changed": true,
+  "original_unchanged": true,
+  "render_seconds": [
+    0.9839011970000229,
+    0.99261418399999
+  ],
+  "manifests": [
+    "/tmp/aive-combined-proof/multishot/encounters-v0002/render-manifest.json",
+    "/tmp/aive-combined-proof/multishot-authored/encounters-v0002/render-manifest.json"
+  ],
+  "clock_models": [
+    {
+      "schema": "render-clock-model/v1",
+      "kind": "retimed-reviewed-map",
+      "style": "multishot",
+      "retimed": true,
+      "source_to_output": "piecewise-c2-quintic-reviewed-map",
+      "mapped_rows": 4
+    },
+    {
+      "schema": "render-clock-model/v1",
+      "kind": "retimed-reviewed-map",
+      "style": "multishot-authored",
+      "retimed": true,
+      "source_to_output": "piecewise-c2-quintic-reviewed-map",
+      "mapped_rows": 4
+    }
+  ],
+  "combined_style_policy": "Explicit renderer API experiment pending front-door/lyric policy; no semantic or perceptual approval.",
+  "combined_limitations": [
+    "Explicit renderer API experiment; supported front doors remain unsupported and the 1x-only lyric/closure paths fail closed on retimed clocks (no mapped-clock lyric integration exists).",
+    "Source hashes bind bytes, not semantic review; supplied review assertions are not authenticated.",
+    "Map protected intervals bypass atempo; gap audio waveform/within-slice timing remain approximate, with exact sample endpoints.",
+    "Composition is video-only after the existing mapped CFR base; no additional map/fps stage, no music retiming or perceptual approval."
+  ],
+  "candidate_confirmed": [
+    false,
+    false,
+    false,
+    false
+  ],
+  "limitations": [
+    "Synthetic fixture attestation only",
+    "No real reviewed maps invented",
+    "Game gap atempo remains approximate",
+    "No lyric/front-door/closure integration yet",
+    "No gameplay/music/lyric/perceptual approval",
+    "Retimed clocks are refused by the 1x lyric/closure paths (clock boundary enforced)"
+  ]
+}

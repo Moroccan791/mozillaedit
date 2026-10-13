@@ -50,3 +50,7 @@ output/
 *.err
 *.out
 tmp*
+
+# Engine render intermediates in sample runs (finals + reports are kept)
+test-sample-mp4/**/renders/**/*.mp4
+test-sample-mp4/**/renders/**/*.wav

@@ -29,11 +29,63 @@ MULTISHOT_STYLES = {"multishot", "multishot-authored"}
 AUTHORED_STYLES = {"authored-footage", "multishot-authored"}
 RETIMED_STYLES = {"restrained-impact", *MULTISHOT_STYLES}
 COMBINED_LIMITATIONS = (
-    "Explicit renderer API experiment; supported front doors and combined lyric integration remain unsupported pending policy/clock work; no closure acceptance (current closure QA is 1x-only).",
+    "Explicit renderer API experiment; supported front doors remain unsupported and the 1x-only lyric/closure paths fail closed on retimed clocks (no mapped-clock lyric integration exists).",
     "Source hashes bind bytes, not semantic review; supplied review assertions are not authenticated.",
     "Map protected intervals bypass atempo; gap audio waveform/within-slice timing remain approximate, with exact sample endpoints.",
     "Composition is video-only after the existing mapped CFR base; no additional map/fps stage, no music retiming or perceptual approval.",
 )
+
+# Styles whose output clock is a constant source offset at 1x. Everything else
+# (restrained-impact, multishot, multishot-authored) retimes source-to-output.
+ONEX_STYLES = {"clean", "authored-footage"}
+CLOCK_MODEL_SCHEMA = "render-clock-model/v1"
+
+
+def render_clock_model(style: str, rows) -> dict:
+    """Explicit, persisted clock model for one render.
+
+    Downstream 1x-only machinery (lyric preflight/postprocess, closure audit)
+    must read this instead of assuming every render is uniform 1x. Retimed
+    styles cannot claim `uniform-1x`.
+    """
+    if style in ONEX_STYLES:
+        return {"schema": CLOCK_MODEL_SCHEMA, "kind": "uniform-1x", "style": style,
+                "retimed": False, "source_to_output": "constant-offset",
+                "mapped_rows": 0}
+    if style in MULTISHOT_STYLES:
+        return {"schema": CLOCK_MODEL_SCHEMA, "kind": "retimed-reviewed-map", "style": style,
+                "retimed": True, "source_to_output": "piecewise-c2-quintic-reviewed-map",
+                "mapped_rows": len(rows)}
+    return {"schema": CLOCK_MODEL_SCHEMA, "kind": "retimed-eased", "style": style,
+            "retimed": True, "source_to_output": "piecewise-c2-quintic",
+            "mapped_rows": len(rows)}
+
+
+def effective_style(container) -> object:
+    """Style of a manifest/plan, falling back to its nested config object."""
+    if not isinstance(container, dict):
+        return None
+    style = container.get("style")
+    if style is None and isinstance(container.get("config"), dict):
+        style = container["config"].get("style")
+    return style
+
+
+def assert_uniform_1x_clock(style, clock_model=None, *, what: str = "this step") -> None:
+    """Fail closed when a retimed/mapped/unknown clock reaches 1x-only machinery.
+
+    Missing marker is tolerated ONLY for a known 1x style (historical renders);
+    a present marker must be a well-formed uniform-1x model. No silent
+    conversion, tolerance or fallback exists for mapped clocks.
+    """
+    if style not in ONEX_STYLES:
+        raise ValueError(
+            f"{what} supports only uniform 1x styles {sorted(ONEX_STYLES)}; "
+            f"style {style!r} retimes source-to-output and has no mapped-clock integration")
+    if clock_model is not None:
+        if (not isinstance(clock_model, dict) or clock_model.get("schema") != CLOCK_MODEL_SCHEMA
+                or clock_model.get("kind") != "uniform-1x" or clock_model.get("retimed") is not False):
+            raise ValueError(f"{what} refuses a non-1x or malformed clock model")
 
 
 @dataclass(frozen=True)
@@ -144,6 +196,12 @@ def validate_plan(plan: dict, config: RenderConfig | None = None,
     for key in ("effects", "lyrics", "ramps", "transitions", "overlays", "sfx"):
         if plan.get(key):
             raise ValueError(f"unsupported {key}")
+    supplied_clock = plan.get("clock_model")
+    if supplied_clock is not None:
+        if not isinstance(supplied_clock, dict) or supplied_clock.get("schema") != CLOCK_MODEL_SCHEMA:
+            raise ValueError("invalid clock_model")
+        if (supplied_clock.get("kind") == "uniform-1x") != (config.style in ONEX_STYLES):
+            raise ValueError("plan clock_model is incompatible with the requested style")
     if "authored_design" in plan and config.style not in AUTHORED_STYLES:
         raise ValueError("authored_design requires explicit authored-footage or multishot-authored style")
     duration = _number(plan.get("duration"), "duration")
@@ -414,6 +472,13 @@ def render_encounters(plan: dict, music: str | Path, output_root: str | Path, *,
     """
     config = config or RenderConfig()
     rows = validate_plan(plan, config, multishot_maps=multishot_maps)
+    clock_model = render_clock_model(config.style, rows)
+    supplied_clock = plan.get("clock_model")
+    # Compare the descriptive fields only; mapped_rows is a derived count.
+    if supplied_clock is not None and any(
+            supplied_clock.get(key) != clock_model[key]
+            for key in ("schema", "kind", "style", "retimed")):
+        raise ValueError("supplied plan clock_model does not match the requested style")
     music = Path(_path(str(music), "music"))
     sources = list(dict.fromkeys(row["source"] for row in rows))
     for filename in sources + [str(music)]:
@@ -428,6 +493,7 @@ def render_encounters(plan: dict, music: str | Path, output_root: str | Path, *,
                 raise ValueError("multishot source SHA256 does not match rendered media bytes")
     job = _new_job(output_root)
     persisted_plan = dict(plan)
+    persisted_plan["clock_model"] = clock_model
     if multishot_maps is not None:
         persisted_plan["multishot_maps"] = {str(i): rows[i]["multishot_map"] for i in sorted(multishot_maps)}
     _json(job / "plan.json", persisted_plan)
@@ -558,6 +624,7 @@ def render_encounters(plan: dict, music: str | Path, output_root: str | Path, *,
     manifest = {"schema_version": "encounter-render/v1", "job_dir": str(job), "manifest_path": str(manifest_path),
                 "output": str(output), "game_stem": str(game), "music_stem": str(music_stem),
                 "style": config.style,
+                "clock_model": clock_model,
                 "multishot_maps": persisted_plan.get("multishot_maps"),
                 "combined_limitations": list(COMBINED_LIMITATIONS) if config.style == "multishot-authored" else [],
                 "combined_style_policy": ("Explicit renderer API experiment pending front-door/lyric policy; no semantic or perceptual approval." if config.style == "multishot-authored" else None),

@@ -1,5 +1,8 @@
 # AI continuation: existing local Valorant montage system
 
+> Repo-root memory (2026-10-14): read `MEMORY.md`, `HANDOFF.md` and `SESSION-MAP.md` first.
+> They index both prior sessions, this file's lineage and the current Linux checkpoint (512 tests OK).
+
 Latest continuation: 2026-10-13. Read this FIRST, then E:\ai-video-editor\AGENTS.md.
 
 ## User intent and non-negotiables
