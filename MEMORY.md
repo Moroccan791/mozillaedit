@@ -123,6 +123,33 @@ OFL font face unavailable"). Two increments landed, both uncommitted:
    paths and run here: identical game/music PCM, exact frame/sample clocks, changed video,
    full decode, retimed markers asserted.
 
+### Reference tutorials supplied by the user (`val tutorial/`, main)
+
+Four professional Valorant-montage tutorials (~5 h 25 m) were pushed to **main** and read on
+2026-10-14. Spoken audio could **not** be transcribed (the pinned model's `model.bin` is
+`*.bin`-ignored and absent; HuggingFace is blocked; no subtitle streams) — nothing was guessed.
+What was extracted is in `aside1/val-tutorial-20261014/` (`NOTES.md`, `frames/` = editor-UI
+screenshots, `measurements/` = cut-vs-attack numbers, plus reusable `analyze_edit.py` /
+`transcribe.py`, and the bootstrap fix in `aside1/sandbox-env-setup.sh`).
+
+Measured against our own renders with the same detector:
+
+| edit | median cut gap | mean cut-to-attack offset | cuts ≤ 50 ms |
+| --- | --- | --- | --- |
+| tutorial "edit like Qwa" | **1.90 s** | 0.040 s | 73 % |
+| ours, sample A (user: "good") | 2.63 s | 0.019 s | 3/3 |
+| ours, sample B (1x) | 3.27 s | 0.046 s | 3/8 |
+| ours, sample B2 (paced) | 3.57 / 6.63 s | 0.045 / 0.049 s | 5/8, 3/5 |
+
+Conclusion: our cut-to-attack **accuracy** is already competitive; the remaining gap is
+**cadence** (reference ≈1.9 s between cuts, ours 3.3-6.6 s). The frames also show the reference
+technique: music waveform as the grid on every layer, Time Remap speed graphs ramping from ~0
+up to ~2.0-2.4x through travel (slow on the action, fast through dead time), progressive
+clip-length build into the drop, and layered graphics over scaled gameplay. Our map is
+stretch-only (never >1x) and `impact_motion` gap slices are ≤0.10 s atempo, so travel
+compression and action slow-mo would be real capability changes (proposals in NOTES.md, not
+built).
+
 ### Slowed-song pacing (candidate-only, user-requested)
 
 The user's verdict on sample B ("did good at the 10s clip but not in the longer one … we should

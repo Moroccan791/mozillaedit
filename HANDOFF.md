@@ -143,6 +143,17 @@ python setup/edit.py local-preview --music "<slowed song>.mp3" --source "<raw>.m
 - Not done: the user has not listened yet; anchors stay unreviewed; the lyric/closure paths are
   1x-only, so this mode refuses lyrics.
 
+## Reference tutorials the user supplied (`val tutorial/` on main)
+
+Read 2026-10-14; durable notes in `aside1/val-tutorial-20261014/NOTES.md` (with `frames/`
+editor-UI screenshots and `measurements/`). Headline: the reference montage cuts every ~1.9 s
+with mean cut-to-attack offset 0.040 s, while our previews cut every 3.3-6.6 s at comparable
+accuracy (0.045 s) — i.e. the remaining "pace" gap is **cadence**, plus the reference's
+Time Remap speed ramps (slow on the action, up to ~2.4x through travel) which our stretch-only
+map cannot express yet. Spoken audio is NOT transcribed (pinned model's `model.bin` is absent
+and HF is blocked; no subtitle streams) — never guess it. Proposals, not built: cadence preset
+(more/shorter clips), bounded speed-up slices, action-moment slow-mo.
+
 ## Next work order (unchanged from session 2; pick up at the top)
 
 1. **`multishot-authored-v0001` is now at its documented stopping point** — proof ported

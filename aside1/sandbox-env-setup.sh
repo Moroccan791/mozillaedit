@@ -21,6 +21,9 @@ export PATH=/home/user/.local/bin:$PATH
 # The engine's font defaults are the user's Windows paths (E:\fonts); point the
 # sandbox at the licensed fonts shipped in the repo instead.
 export AIVE_FONTS_ROOT=$REPO/font
+# Both land outside the repo and are wiped on snapshot restore, so recreate them
+# before anything tries to write a symlink into them.
+mkdir -p /home/user/.local/bin /home/user/.local/node
 
 if [ "${1:-}" != "--tests" ]; then
   if [ ! -x "$VENV/bin/python" ]; then
@@ -29,14 +32,12 @@ if [ "${1:-}" != "--tests" ]; then
     "$VENV/bin/pip" install --quiet numpy scipy soundfile librosa imageio-ffmpeg
   fi
   if ! command -v ffprobe >/dev/null 2>&1; then
-    mkdir -p /home/user/.local/node
     cd /home/user/.local/node
     npm install --silent --no-fund --no-audit @ffprobe-installer/linux-x64
     ln -sf /home/user/.local/node/node_modules/@ffprobe-installer/linux-x64/ffprobe /home/user/.local/bin/ffprobe
     cd - >/dev/null
   fi
   if ! command -v ffmpeg >/dev/null 2>&1; then
-    mkdir -p /home/user/.local/bin
     FFMPEG=$("$VENV/bin/python" -c "import imageio_ffmpeg, sys; sys.stdout.write(imageio_ffmpeg.get_ffmpeg_exe())")
     ln -sf "$FFMPEG" /home/user/.local/bin/ffmpeg
   fi
