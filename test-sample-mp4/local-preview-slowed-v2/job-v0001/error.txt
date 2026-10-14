@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/user/mozillaedit/setup/aive/local_preview_runner.py", line 114, in run_local_preview
+    _write(job/"timeline.json",plan)
+  File "/home/user/mozillaedit/setup/aive/daily_runner.py", line 78, in _write
+    with Path(path).open('x',encoding='utf-8') as stream:json.dump(data,stream,indent=2,allow_nan=False)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/pathlib.py", line 1045, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileExistsError: [Errno 17] File exists: '/home/user/mozillaedit/test-sample-mp4/local-preview-slowed-v2/job-v0001/timeline.json'

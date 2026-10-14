@@ -1,0 +1,124 @@
+{
+  "schema_version": "encounters/v1",
+  "mode": "candidate-preview",
+  "confirmed": false,
+  "review_status": "unreviewed",
+  "status": "blocked",
+  "requested_duration": 35.0,
+  "duration": 0.0,
+  "music_start": 0.0,
+  "music_end": 0.0,
+  "music_continuous": true,
+  "gaps": [],
+  "timeline": [],
+  "rhythm_assignments": [],
+  "omitted_encounters": [
+    {
+      "icon_index": 1,
+      "reason": "no existing audio association"
+    },
+    {
+      "icon_index": 4,
+      "reason": "no existing audio association"
+    },
+    {
+      "icon_index": 5,
+      "reason": "no existing audio association"
+    },
+    {
+      "icon_index": 6,
+      "reason": "no existing audio association"
+    },
+    {
+      "icon_index": 7,
+      "reason": "no existing audio association"
+    },
+    {
+      "icon_index": 9,
+      "reason": "no existing audio association"
+    },
+    {
+      "icon_index": 11,
+      "reason": "no existing audio association"
+    },
+    {
+      "icon_index": 14,
+      "reason": "no existing audio association"
+    },
+    {
+      "icon_index": 17,
+      "reason": "no existing audio association"
+    },
+    {
+      "icon_index": 19,
+      "reason": "no existing audio association"
+    },
+    {
+      "icon_index": 24,
+      "reason": "no existing audio association"
+    },
+    {
+      "icon_index": 25,
+      "reason": "no existing audio association"
+    }
+  ],
+  "warnings": [
+    "Explicit unverified local candidate diagnostic, not a reviewed montage or certified sync.",
+    "Template cosine is not probability; local profile and gameplay/outcomes are uncalibrated.",
+    "Context inferred locally only; scene cuts, fight closure and song suitability remain unverified."
+  ],
+  "authored_role_scope": "Generated video design roles only, not reviewed gameplay semantics.",
+  "candidate_protection": "Every root attack retained; bridge/fade exclude all intervals with >=0.18s margin.",
+  "local_selection_evidence": {
+    "schema_version": "local-selection/v1",
+    "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_z0ALKJiFRDU_Warden-is-Simply-Overpowered_002_720p.mp4",
+    "profile_status": "uncalibrated",
+    "confirmed": false,
+    "review_status": "unreviewed",
+    "song_sha256": "25c7bc6d077cd96d752c32cc493cc72f354607596a1dc8b4288f682e0e304396",
+    "measured_excerpts": [
+      {
+        "start": 0.0,
+        "end": 10.0
+      },
+      {
+        "start": 10.0,
+        "end": 20.0
+      },
+      {
+        "start": 20.0,
+        "end": 30.0
+      },
+      {
+        "start": 30.0,
+        "end": 40.0
+      },
+      {
+        "start": 40.0,
+        "end": 45.324694
+      }
+    ],
+    "refined_hit_count": 66,
+    "original_eligible_hit_count": 106,
+    "confidence_kind": "template_cosine_not_probability",
+    "no_source_retiming": true,
+    "policy": "Existing associated audio only; full root candidates, no truncation, reuse, outcome claims or filler.",
+    "max_beam_options": 1024,
+    "context_nominal_pre": 1.3,
+    "context_nominal_post": 1.7,
+    "max_clip_seconds": 5.0,
+    "max_neutral_tail_seconds": 4.0,
+    "beam_width": 24,
+    "eligible_associated_roots": 16,
+    "planning_depth_reached": 4,
+    "scene_cut_status": "unknown",
+    "pre_cap_prunings": 12,
+    "max_ranked_options": 2463,
+    "ranked_options": 31240,
+    "final_design_rejections": 0,
+    "final_validation_rejections": 0,
+    "last_beam_durations": []
+  },
+  "blocked_reason": "No anchor-safe 30..requested-second 10..20-shot plan fits existing evidence; no forced fallback",
+  "music": "/home/user/mozillaedit/audio/Reflections (slowed) - The Neighbourhood [Edit Audio].mp3"
+}

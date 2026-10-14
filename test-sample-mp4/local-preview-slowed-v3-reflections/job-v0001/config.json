@@ -1,0 +1,19 @@
+{
+  "song": "audio/Reflections (slowed) - The Neighbourhood [Edit Audio].mp3",
+  "source": "raw/YTDown.com_YouTube_Media_z0ALKJiFRDU_Warden-is-Simply-Overpowered_002_720p.mp4",
+  "profile": "aside1/selection-calibration-20261012-153257/reyna-expanded-profile.json",
+  "music_start": 0.0,
+  "duration": 35.0,
+  "encoder": "libx264",
+  "plan_only": false,
+  "lyrics_mode": "off",
+  "lyric_track": null,
+  "lyric_design": null,
+  "lyric_model": null,
+  "lyric_language": null,
+  "lyric_max_moments": 3,
+  "fonts_root": "/home/user/mozillaedit/font",
+  "calibration_labels": null,
+  "pacing": "slowed-song",
+  "slow_floor": 0.55
+}

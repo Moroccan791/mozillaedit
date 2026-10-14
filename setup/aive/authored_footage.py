@@ -146,7 +146,7 @@ def validate_design(plan, rows, config):
 def _source_output(row, source_time):
     """Validated map output clock, or unchanged 1x; never trust event metadata."""
     local = source_time-row["source_start"]
-    mapping = row.get("_multishot_mapping")
+    mapping = row.get("_multishot_mapping") or row.get("_pacing_mapping")
     return row["output_start"] + (mapping.map(local) if mapping is not None else local)
 
 

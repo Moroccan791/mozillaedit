@@ -306,10 +306,11 @@ def cmd_local_preview(args: argparse.Namespace) -> int:
         encoder=args.encoder,plan_only=args.plan_only,lyrics_mode=args.lyrics,
         lyric_track=args.lyric_track,lyric_design=args.lyric_design,lyric_model=args.local_lyric_model,
         lyric_language=args.lyric_language,lyric_max_moments=args.lyric_max_moments,
-        fonts_root=args.fonts_root,calibration_labels=args.calibration_labels)
+        fonts_root=args.fonts_root,calibration_labels=args.calibration_labels,
+        pacing=args.pacing,slow_floor=args.slow_floor)
     print(f"Existing local-only preview: {result['status']}")
     print(f"Report: {Path(result['job_dir']) / 'job-report.json'}")
-    for key in ('output','blocked_reason','error','planned_duration'):
+    for key in ('output','blocked_reason','error','planned_duration','pacing'):
         if result.get(key):print(f"{key}: {result[key]}")
     print(f"Lyrics: {result.get('lyrics', {}).get('status', 'disabled')}")
     print("No visual AI, no manual source-window selection, no fallback. Uncalibrated candidates, not certified montage.")
@@ -638,6 +639,10 @@ def build_parser() -> argparse.ArgumentParser:
     sp.add_argument("--lyric-max-moments",type=int,default=3,help="1..8 selective lyric moments, not a caption stream")
     sp.add_argument("--fonts-root",default=r"E:\fonts",help="existing licensed OFL font folder")
     sp.add_argument("--calibration-labels",default=None,help="independent source-bound calibration annotations")
+    sp.add_argument("--pacing",choices=["off","slowed-song"],default="off",
+                    help="candidate-only auto gap slow-mo so measured gunshot bursts ride the song's measured attacks; retimed clock, lyrics stay off")
+    sp.add_argument("--slow-floor",type=float,default=0.55,
+                    help="declared slow-motion floor for paced gaps (0.5..1; the engine's atempo range starts at 0.5), never applied outside gaps")
     sp.set_defaults(func=cmd_local_preview)
 
     sp = sub.add_parser("studio", help="SUPPORTED existing-authored-system only; no basic-export fallback")

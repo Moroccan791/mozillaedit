@@ -1,0 +1,10 @@
+[
+  "ffprobe",
+  "-v",
+  "error",
+  "-show_streams",
+  "-show_format",
+  "-of",
+  "json",
+  "/home/user/mozillaedit/audio/mary on a cross(bestpart! slowed) [edit audio].mp3"
+]

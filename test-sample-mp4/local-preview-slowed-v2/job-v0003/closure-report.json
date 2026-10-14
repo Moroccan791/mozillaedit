@@ -1,0 +1,200 @@
+{
+  "schema_version": "closure-qa/v1",
+  "status": "fail",
+  "engineering_gate": false,
+  "perceptual_approval": false,
+  "perceptual_status": "not_assessed",
+  "checks": [
+    {
+      "name": "timeline",
+      "status": "fail",
+      "reason": "row 0: retiming or padding; row 0: event clock mismatch; row 0: event clock mismatch; row 2: retiming or padding; row 2: event clock mismatch; row 2: event clock mismatch; row 2: event clock mismatch; row 2: event clock mismatch; row 2: event clock mismatch; row 2: event clock mismatch; row 2: event clock mismatch; row 2: event clock mismatch; row 3: retiming or padding; row 3: event clock mismatch; row 3: event clock mismatch; row 3: event clock mismatch; row 4: retiming or padding; row 4: event clock mismatch; row 4: event clock mismatch; row 4: event clock mismatch; row 4: event clock mismatch; row 4: event clock mismatch; row 4: event clock mismatch; row 4: event clock mismatch; row 4: event clock mismatch; row 4: event clock mismatch; row 4: event clock mismatch; row 5: retiming or padding; row 5: event clock mismatch; row 5: event clock mismatch; row 5: event clock mismatch; row 5: event clock mismatch; row 5: event clock mismatch; row 5: event clock mismatch; row 5: event clock mismatch; row 5: event clock mismatch; row 5: event clock mismatch; row 5: event clock mismatch; row 5: event clock mismatch; row 5: event clock mismatch; row 5: event clock mismatch; row 5: event clock mismatch; row 6: retiming or padding; row 6: event clock mismatch; row 6: event clock mismatch; row 6: event clock mismatch; row 6: event clock mismatch; row 6: event clock mismatch; row 6: event clock mismatch; row 6: event clock mismatch; row 6: event clock mismatch; row 6: event clock mismatch; row 6: event clock mismatch; row 7: retiming or padding; row 7: event clock mismatch; row 7: event clock mismatch; row 7: event clock mismatch; row 7: event clock mismatch; row 7: event clock mismatch; row 7: event clock mismatch; row 7: event clock mismatch; row 8: retiming or padding; row 8: event clock mismatch; row 8: event clock mismatch; row 8: event clock mismatch; row 8: event clock mismatch; row 8: event clock mismatch; row 8: event clock mismatch; row 8: event clock mismatch; row 9: retiming or padding; row 9: event clock mismatch; row 9: event clock mismatch; row 9: event clock mismatch; row 9: event clock mismatch; row 9: event clock mismatch; row 9: event clock mismatch; row 9: event clock mismatch; row 9: event clock mismatch; row 9: event clock mismatch; row 9: event clock mismatch; row 10: retiming or padding; row 10: event clock mismatch; row 10: event clock mismatch; row 10: event clock mismatch; row 10: event clock mismatch; row 10: event clock mismatch; row 10: event clock mismatch; row 10: event clock mismatch; row 10: event clock mismatch; row 10: event clock mismatch; row 10: event clock mismatch; row 10: event clock mismatch; row 10: event clock mismatch",
+      "evidence": {
+        "joins": [
+          {
+            "boundary": 1,
+            "output_delta": 0.0,
+            "music_delta": 0.0,
+            "status": "pass"
+          },
+          {
+            "boundary": 2,
+            "output_delta": 0.0,
+            "music_delta": 0.0,
+            "status": "pass"
+          },
+          {
+            "boundary": 3,
+            "output_delta": 0.0,
+            "music_delta": 3.552713678800501e-15,
+            "status": "pass"
+          },
+          {
+            "boundary": 4,
+            "output_delta": 0.0,
+            "music_delta": 0.0,
+            "status": "pass"
+          },
+          {
+            "boundary": 5,
+            "output_delta": -3.552713678800501e-15,
+            "music_delta": -3.552713678800501e-15,
+            "status": "pass"
+          },
+          {
+            "boundary": 6,
+            "output_delta": 0.0,
+            "music_delta": 0.0,
+            "status": "pass"
+          },
+          {
+            "boundary": 7,
+            "output_delta": 0.0,
+            "music_delta": 0.0,
+            "status": "pass"
+          },
+          {
+            "boundary": 8,
+            "output_delta": 0.0,
+            "music_delta": 0.0,
+            "status": "pass"
+          },
+          {
+            "boundary": 9,
+            "output_delta": 0.0,
+            "music_delta": 0.0,
+            "status": "pass"
+          },
+          {
+            "boundary": 10,
+            "output_delta": 0.0,
+            "music_delta": 0.0,
+            "status": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "name": "review_mode",
+      "status": "warn",
+      "reason": "candidate/unreviewed plans cannot pass closure gate",
+      "evidence": {}
+    },
+    {
+      "name": "evidence_binding",
+      "status": "warn",
+      "reason": "no reviewed source/outcome/phrase sidecar",
+      "evidence": {}
+    },
+    {
+      "name": "fight_bounds",
+      "status": "warn",
+      "reason": "intersected supplied fights must remain intact; intact omission allowed",
+      "evidence": {
+        "bounds": []
+      }
+    },
+    {
+      "name": "join_outcomes",
+      "status": "warn",
+      "reason": "each outgoing clip needs its own reviewed resolved fight; unknown context is not invented closure",
+      "evidence": {
+        "joins": [
+          {
+            "boundary": 1,
+            "fight_id": null,
+            "result": "unknown",
+            "status": "warn"
+          },
+          {
+            "boundary": 2,
+            "fight_id": null,
+            "result": "unknown",
+            "status": "warn"
+          },
+          {
+            "boundary": 3,
+            "fight_id": null,
+            "result": "unknown",
+            "status": "warn"
+          },
+          {
+            "boundary": 4,
+            "fight_id": null,
+            "result": "unknown",
+            "status": "warn"
+          },
+          {
+            "boundary": 5,
+            "fight_id": null,
+            "result": "unknown",
+            "status": "warn"
+          },
+          {
+            "boundary": 6,
+            "fight_id": null,
+            "result": "unknown",
+            "status": "warn"
+          },
+          {
+            "boundary": 7,
+            "fight_id": null,
+            "result": "unknown",
+            "status": "warn"
+          },
+          {
+            "boundary": 8,
+            "fight_id": null,
+            "result": "unknown",
+            "status": "warn"
+          },
+          {
+            "boundary": 9,
+            "fight_id": null,
+            "result": "unknown",
+            "status": "warn"
+          },
+          {
+            "boundary": 10,
+            "fight_id": null,
+            "result": "unknown",
+            "status": "warn"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ending_fight",
+      "status": "warn",
+      "reason": "no explicitly reviewed final fight; role/fade is not evidence",
+      "evidence": {}
+    },
+    {
+      "name": "phrase_end",
+      "status": "warn",
+      "reason": "no unique reviewed phrase end at actual music end; no grid invented",
+      "evidence": {}
+    },
+    {
+      "name": "closure_gap",
+      "status": "warn",
+      "reason": "cannot measure closure without fight/phrase evidence",
+      "evidence": {
+        "maximum": 1.5
+      }
+    }
+  ],
+  "clocks": {
+    "source": "absolute source sample-zero seconds",
+    "music": "absolute track sample-zero seconds",
+    "output": "zero-origin seconds; 1x; music = plan.music_start + output"
+  },
+  "duration": 40.90067803030309,
+  "requested_duration": 40.90067803030309,
+  "unfilled_duration": 0.0,
+  "limitations": [
+    "Schema and caller file bindings do not authenticate reviewer assertions.",
+    "No media decode, firing classification, rendered sync proof, listening or aesthetic approval.",
+    "Short output permitted; no padding or invented beats/downbeats."
+  ]
+}

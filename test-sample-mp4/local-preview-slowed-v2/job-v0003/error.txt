@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/home/user/mozillaedit/setup/aive/local_preview_runner.py", line 157, in run_local_preview
+    manifest=render_encounters(plan,song,job/"renders",config=config)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/mozillaedit/setup/aive/encounter_render.py", line 693, in render_encounters
+    handle.write(video_graph(_video_filter(row, config), row, config))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/mozillaedit/setup/aive/encounter_render.py", line 571, in _video_filter
+    mapping = row["_multishot_mapping"] if config.style in MULTISHOT_STYLES else row["_pacing_mapping"]
+                                                                                 ~~~^^^^^^^^^^^^^^^^^^^
+KeyError: '_pacing_mapping'

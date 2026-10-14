@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/home/user/mozillaedit/setup/aive/local_preview_runner.py", line 157, in run_local_preview
+    manifest=render_encounters(plan,song,job/"renders",config=config)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/mozillaedit/setup/aive/encounter_render.py", line 730, in render_encounters
+    _run(base + ["-t", f"{end_sample/config.sample_rate+0.1:.12f}", "-i", row["source"],
+  File "/home/user/mozillaedit/setup/aive/encounter_render.py", line 520, in _run
+    raise RenderError(f"{label} exited {code}; args={args_path}; stderr={stderr_path}", returncode=code)
+aive.encounter_render.RenderError: game-001 exited 222; args=/home/user/mozillaedit/test-sample-mp4/local-preview-slowed-v2/job-v0002/renders/encounters-v0001/game-001.args.json; stderr=/home/user/mozillaedit/test-sample-mp4/local-preview-slowed-v2/job-v0002/renders/encounters-v0001/game-001.stderr.log

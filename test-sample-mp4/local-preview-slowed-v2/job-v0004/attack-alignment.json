@@ -1,0 +1,183 @@
+{
+  "schema_version": "attack-qa/v1",
+  "status": "warn",
+  "acoustic_alignment": "warn",
+  "musical_sync": "unverified",
+  "assignments": [
+    {
+      "assignment_index": 0,
+      "status": "warn",
+      "musical_sync": "unverified",
+      "game_attack": null,
+      "music_attack": null,
+      "offset_ms": null,
+      "offset_range_ms": null,
+      "clip_index": 0,
+      "event_id": "candidate-00991",
+      "music_hit_id": "map-0:hit-021",
+      "detail": "assignment output_time differs from candidate"
+    },
+    {
+      "assignment_index": 1,
+      "status": "warn",
+      "musical_sync": "unverified",
+      "game_attack": null,
+      "music_attack": null,
+      "offset_ms": null,
+      "offset_range_ms": null,
+      "clip_index": 1,
+      "event_id": "candidate-00284",
+      "music_hit_id": "map-0:hit-029",
+      "detail": "assignment output_time differs from candidate"
+    },
+    {
+      "assignment_index": 2,
+      "status": "warn",
+      "musical_sync": "unverified",
+      "game_attack": null,
+      "music_attack": null,
+      "offset_ms": null,
+      "offset_range_ms": null,
+      "clip_index": 2,
+      "event_id": "candidate-00331",
+      "music_hit_id": "map-1:hit-001",
+      "detail": "assignment output_time differs from candidate"
+    },
+    {
+      "assignment_index": 3,
+      "status": "warn",
+      "musical_sync": "unverified",
+      "game_attack": null,
+      "music_attack": null,
+      "offset_ms": null,
+      "offset_range_ms": null,
+      "clip_index": 3,
+      "event_id": "candidate-01657",
+      "music_hit_id": "map-1:hit-008",
+      "detail": "assignment output_time differs from candidate"
+    },
+    {
+      "assignment_index": 4,
+      "status": "warn",
+      "musical_sync": "unverified",
+      "game_attack": null,
+      "music_attack": null,
+      "offset_ms": null,
+      "offset_range_ms": null,
+      "clip_index": 4,
+      "event_id": "candidate-01743",
+      "music_hit_id": "map-1:hit-013",
+      "detail": "assignment output_time differs from candidate"
+    },
+    {
+      "assignment_index": 5,
+      "status": "warn",
+      "musical_sync": "unverified",
+      "game_attack": null,
+      "music_attack": null,
+      "offset_ms": null,
+      "offset_range_ms": null,
+      "clip_index": 5,
+      "event_id": "candidate-01242",
+      "music_hit_id": "map-1:hit-018",
+      "detail": "assignment output_time differs from candidate"
+    },
+    {
+      "assignment_index": 6,
+      "status": "warn",
+      "musical_sync": "unverified",
+      "game_attack": null,
+      "music_attack": null,
+      "offset_ms": null,
+      "offset_range_ms": null,
+      "clip_index": 6,
+      "event_id": "candidate-00358",
+      "music_hit_id": "map-2:hit-002",
+      "detail": "assignment output_time differs from candidate"
+    },
+    {
+      "assignment_index": 7,
+      "status": "warn",
+      "musical_sync": "unverified",
+      "game_attack": null,
+      "music_attack": null,
+      "offset_ms": null,
+      "offset_range_ms": null,
+      "clip_index": 7,
+      "event_id": "candidate-01307",
+      "music_hit_id": "map-2:hit-020",
+      "detail": "assignment output_time differs from candidate"
+    },
+    {
+      "assignment_index": 8,
+      "status": "warn",
+      "musical_sync": "unverified",
+      "game_attack": null,
+      "music_attack": null,
+      "offset_ms": null,
+      "offset_range_ms": null,
+      "clip_index": 8,
+      "event_id": "candidate-00625",
+      "music_hit_id": "map-2:hit-026",
+      "detail": "assignment output_time differs from candidate"
+    },
+    {
+      "assignment_index": 9,
+      "status": "warn",
+      "musical_sync": "unverified",
+      "game_attack": null,
+      "music_attack": null,
+      "offset_ms": null,
+      "offset_range_ms": null,
+      "clip_index": 9,
+      "event_id": "candidate-01110",
+      "music_hit_id": "map-3:hit-001",
+      "detail": "assignment output_time differs from candidate"
+    },
+    {
+      "assignment_index": 10,
+      "status": "warn",
+      "musical_sync": "unverified",
+      "game_attack": null,
+      "music_attack": null,
+      "offset_ms": null,
+      "offset_range_ms": null,
+      "clip_index": 10,
+      "event_id": "candidate-01788",
+      "music_hit_id": "map-3:hit-010",
+      "detail": "assignment output_time differs from candidate"
+    }
+  ],
+  "issues": [
+    "no measurable assignments"
+  ],
+  "final_mix": {
+    "status": "not_inspected"
+  },
+  "source_identities": {},
+  "stem_identity_evidence": {},
+  "source_media_provenance": {
+    "status": "supplied_render_binding",
+    "identities": {
+      "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_z0ALKJiFRDU_Warden-is-Simply-Overpowered_002_720p.mp4": {
+        "schema": "file-content/v1",
+        "sha256": "b68eb9ee7a3bd5901e4490c0da47762139a9151b9cbeccd9d959e6b3c01ebf4f",
+        "size_bytes": 71198338
+      },
+      "/home/user/mozillaedit/audio/mary on a cross(bestpart! slowed) [edit audio].mp3": {
+        "schema": "file-content/v1",
+        "sha256": "ce78b72561769a1a566b665ff0876ae12edad69dab079231da419ae6e8ccb54a",
+        "size_bytes": 2860231
+      }
+    },
+    "limitation": "Persisted renderer provenance, not reauthenticated by attack QA or semantic review."
+  },
+  "limitations": [
+    "Acoustic attack overlap is heuristic, not perceptual certification.",
+    "Candidate identity does not establish gunshot or strong musical-hit identity.",
+    "No reviewed semantic evidence is evaluated; musical sync is unverified.",
+    "Final mix audibility, masking, and artistic quality are not inspected."
+  ],
+  "tolerance_ms": 12.0,
+  "offset_convention": "game minus music; positive means game attack is later"
+}

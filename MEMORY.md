@@ -62,8 +62,10 @@ mapped-retiming + authored composition style) and stopped mid-milestone.
 ## Where it actually stands (do not fake completion)
 
 Done and tested: reusable engine, renderer styles (`clean`, `restrained-impact`,
-`multishot`, `authored-footage`, `multishot-authored`), verified-lyrics machinery
-(fail-closed, designed graphics only), bounded content identity, closure/calibration audits.
+`multishot`, `authored-footage`, `multishot-authored`, `slowed-pacing`), verified-lyrics machinery
+(fail-closed, designed graphics only), bounded content identity, closure/calibration audits,
+and candidate slowed-song pacing (`--pacing slowed-song`, bursts rigid 1x, gaps stretched onto
+measured attacks, per-row certified maps, rigid/partial rows reported).
 
 Blocked / unfinished — every one of these still needs a human-evidence step:
 1. **Real sung-word verification** — ASR candidates exist (Reflections 32, Winner 54
@@ -73,6 +75,10 @@ Blocked / unfinished — every one of these still needs a human-evidence step:
    full-source observations / 0 confirmed kills; 0/5 held-out references matched.
 3. **Layered-song attack/beat calibration** — attack QA conservatively abstains; no
    independent labels, no whole-stem PR, `musical_sync` unverified.
+3b. **Slowed-song pacing acceptance** — the mode is wired, verified and rendered twice
+   (`test-sample-mp4/sample-B2-*.mp4`) but the user has not listened yet; the achievable pace
+   change is bounded by the song's attack spacing, the encoder's 0.5x `atempo` floor, per-gap
+   capacity and how much song remains. Anchors stay unreviewed.
 4. **Combined multishot+authored front door** — the renderer API experiment exists and the
    clock boundary is now *enforced* (retimed/mapped plans are refused by the 1x lyric/
    closure paths and the CLI cannot select retimed styles), but a real combined front-door
@@ -81,6 +87,9 @@ Blocked / unfinished — every one of these still needs a human-evidence step:
 
 ## Next work order (from session 2's handoff, still current)
 
+0. **Listen to `test-sample-mp4/sample-B2-*.mp4`** (paced) against
+   `sample-B-35s-local-preview-reflections.mp4` (strict 1x) and report what still feels wrong —
+   that is the only acceptance signal for the pacing work.
 1. Run `lyric-review prepare/audit` for the exact candidates; listen and correct real sung
    words/onsets/offsets by hand. No fabricated/clamped labels.
 2. Verify corrected exact-file tracks; run `lyric-prepare` / `local-preview --lyrics
@@ -114,7 +123,41 @@ OFL font face unavailable"). Two increments landed, both uncommitted:
    paths and run here: identical game/music PCM, exact frame/sample clocks, changed video,
    full decode, retimed markers asserted.
 
-**Current suite: 512 tests OK (skipped=1) in ~45 s** with
+### Slowed-song pacing (candidate-only, user-requested)
+
+The user's verdict on sample B ("did good at the 10s clip but not in the longer one … we should
+have slowed down the pace of gunshots with the sound bcs reflection was a slowed song") is
+implemented as an explicit opt-in mode, never a global slowdown and never a fixed factor:
+
+- `setup/aive/slowed_pacing.py` (`candidate-pacing-map/v1`) splits each row into measured burst
+  clusters; a cluster is rigid 1x (transients are not smeared) and the gaps between clusters
+  stretch with the C2 quintic ease so the next cluster head — or the row's cut, which is where the
+  next cut begins — lands on a measured acoustic attack. Strength is per-gap, bounded by the
+  analytic playback floor (`--slow-floor`, >= 0.5 because the audio path uses `atempo`) and a
+  per-row budget; a row whose main candidate cannot reach an attack renders **rigid**, or
+  **partial** (stretched, no beat claim), and says so in `pacing-report.json`.
+- Renderer style `slowed-pacing`, clock kind `retimed-candidate-pacing`. `validate_plan`
+  re-derives every row's map, rejects stale/hand-edited manifests, requires the report to declare
+  every row exactly once (kept + rigid disjoint), and refuses a beat claim without its map or a
+  map without a declaration. The plan duration bound counts only *certified* stretch.
+- Runner: `local-preview --pacing slowed-song --slow-floor 0.55` (lyrics refused — the lyric and
+  closure paths are 1x-only and fail closed on retimed clocks); writes `timeline-1x-candidate.json`,
+  `pacing-report.json` and the retimed `timeline.json`; after the render it demands
+  `manifest["style"] == "slowed-pacing"` and a truthy `candidate_pacing_policy`, so a silent 1x
+  downgrade fails closed. A blocked candidate plan still surfaces as an honest BLOCK.
+- Independent verification of the two renders: every claimed landing re-measured against the
+  detected grid at **0.000000 s** error; protected bursts are the source PCM at 1x (best alignment
+  0.00 samples, residual = the 44.1→48 kHz resample, ≈ −55 dB); per-row audio length equals the
+  paced row duration. Reflections v2: 35.000 → **36.468 s**, 11 rows (5 matched / 4 partial / 2
+  rigid), 11 stretched gaps, 3 cuts on attacks. mary on a cross v2: 35.000 → **37.436 s**, 11 rows
+  (7 / 3 / 1), 18 gaps, 5 cuts. Delivered as `test-sample-mp4/sample-B2-*.mp4` for the user's
+  listen; not yet perceptually reviewed.
+- Honest limits: anchors are unreviewed detections, the grid is measured attacks (not certified
+  meter), the candidate planner blocks for `--music-start` values whose first seconds hold no
+  detected attacks (Reflections only plans from 8 s), and pacing room is song-limited (Reflections
+  is 45.37 s long, so a 35 s cut from 8 s can only grow ≈2.4 s).
+
+**Current suite: 529 tests OK (skipped=1) in ~51 s** (512 before + 17 new pacing contracts) with
 `PATH=/home/user/.local/bin:$PATH AIVE_FONTS_ROOT=/home/user/mozillaedit/font`.
 Environment bootstrap and exact commands live in `HANDOFF.md`.
 

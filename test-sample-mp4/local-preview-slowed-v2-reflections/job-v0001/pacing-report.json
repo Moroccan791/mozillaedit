@@ -1,0 +1,811 @@
+{
+  "schema": "candidate-pacing-report/v1",
+  "beats": [
+    11.322,
+    11.622,
+    12.79,
+    12.866,
+    13.215,
+    14.216000000000001,
+    15.149958333333334,
+    15.319958333333332,
+    15.571958333333333,
+    16.351958333333332,
+    16.47595833333333,
+    16.84,
+    16.929,
+    17.094,
+    17.22895833333333,
+    17.384999999999998,
+    17.438958333333332,
+    17.512958333333334,
+    17.692999999999998,
+    17.74,
+    17.848,
+    17.933958333333333,
+    18.682,
+    18.856,
+    18.972,
+    19.38,
+    19.914,
+    20.016,
+    20.147958333333335,
+    20.587,
+    21.084,
+    21.146,
+    21.633,
+    21.963,
+    22.292,
+    22.625999999999998,
+    23.408,
+    23.566,
+    24.000999999999998,
+    24.308,
+    24.595,
+    25.176000000000002,
+    25.474,
+    25.782,
+    27.017958333333333,
+    27.247,
+    28.19,
+    28.45,
+    28.664,
+    29.044,
+    29.311958333333333,
+    29.397,
+    29.48,
+    29.608958333333334,
+    29.98,
+    30.520958333333333,
+    30.693958333333335,
+    30.806958333333334,
+    31.432,
+    31.672,
+    32.86,
+    33.002,
+    34.034,
+    34.172,
+    34.489,
+    34.632,
+    34.730000000000004,
+    35.222,
+    35.423,
+    36.187958333333334,
+    36.399,
+    36.501958333333334,
+    38.022,
+    38.116,
+    38.172,
+    38.216,
+    38.256,
+    38.314,
+    38.466,
+    38.566,
+    38.777,
+    38.825,
+    39.02195833333333,
+    39.06795833333334,
+    39.135958333333335,
+    39.217958333333335,
+    39.342,
+    39.484,
+    39.552,
+    39.988,
+    40.893,
+    41.198
+  ],
+  "song_seconds": 45.374694,
+  "music_bound_seconds": 37.374694,
+  "report": {
+    "mode": "auto-slowed-candidate",
+    "schema_version": "candidate-pacing-report/v1",
+    "grid_origin": "measured acoustic attacks from hit-map/v1, unreviewed",
+    "measured_attacks": 92,
+    "bursts_stay_rigid": true,
+    "slow_floor": 0.55,
+    "burst_gap_seconds": 0.18,
+    "max_row_slowdown": 1.75,
+    "max_output_duration": 37.374694,
+    "original_duration": 35.000000000000014,
+    "paced_duration": 36.4681818181818,
+    "rows_total": 11,
+    "rows_beat_matched": 5,
+    "rows_partial": 4,
+    "rows_rigid": 2,
+    "kept": [
+      {
+        "index": 0,
+        "beat_matched": true,
+        "partial": false,
+        "main_candidate_id": "candidate-00284",
+        "anchor_offset_seconds": 0.0,
+        "unsnapped_clusters": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "clusters": [
+          {
+            "cluster": 0,
+            "source_start": 0.38700000000000045,
+            "source_end": 0.402000000000001,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 1,
+            "source_start": 1.2920000000000016,
+            "source_end": 1.3569999999999993,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 2,
+            "source_start": 1.6020000000000039,
+            "source_end": 1.6170000000000044,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 3,
+            "source_start": 1.8419999999999987,
+            "source_end": 1.8569999999999993,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 4,
+            "source_start": 2.0720000000000027,
+            "source_end": 2.0870000000000033,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 5,
+            "source_start": 2.6269999999999953,
+            "source_end": 2.641999999999996,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 6,
+            "source_start": 2.852000000000004,
+            "source_end": 3.332000000000008,
+            "shift": 0.0,
+            "snapped": true,
+            "target_beat": 11.322
+          }
+        ],
+        "gap_strengths": [],
+        "tail": {
+          "source_seconds": 0.79,
+          "stretch_seconds": 0.0,
+          "target_beat": null,
+          "playback_floor": 0.344727
+        },
+        "stretch_seconds": 0.0,
+        "playback_floor": 1.0
+      },
+      {
+        "index": 1,
+        "beat_matched": true,
+        "partial": false,
+        "main_candidate_id": "candidate-00991",
+        "anchor_offset_seconds": 0.0,
+        "unsnapped_clusters": [],
+        "clusters": [
+          {
+            "cluster": 0,
+            "source_start": 0.8429999999999893,
+            "source_end": 1.1030000000000086,
+            "shift": 0.0,
+            "snapped": true,
+            "target_beat": 13.215
+          }
+        ],
+        "gap_strengths": [],
+        "tail": {
+          "source_seconds": 0.897,
+          "stretch_seconds": 0.094,
+          "target_beat": 14.216000000000001,
+          "playback_floor": 0.391418
+        },
+        "stretch_seconds": 0.0940000000000012,
+        "playback_floor": 0.8357791754018242
+      },
+      {
+        "index": 2,
+        "beat_matched": true,
+        "partial": false,
+        "main_candidate_id": "candidate-01743",
+        "anchor_offset_seconds": 0.0,
+        "unsnapped_clusters": [
+          0,
+          3,
+          4
+        ],
+        "clusters": [
+          {
+            "cluster": 0,
+            "source_start": 0.45299999999997453,
+            "source_end": 0.4679999999999609,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 1,
+            "source_start": 0.7929999999999495,
+            "source_end": 0.8079999999999927,
+            "shift": 0.140958,
+            "snapped": true,
+            "target_beat": 15.149958333333334
+          },
+          {
+            "cluster": 2,
+            "source_start": 1.0979999999999563,
+            "source_end": 1.3029999999999973,
+            "shift": 0.157958,
+            "snapped": true,
+            "target_beat": 15.571958333333333
+          },
+          {
+            "cluster": 3,
+            "source_start": 1.7929999999999495,
+            "source_end": 1.8079999999999927,
+            "shift": 0.157958,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 4,
+            "source_start": 2.2929999999999495,
+            "source_end": 2.6829999999999927,
+            "shift": 0.157958,
+            "snapped": false,
+            "target_beat": null
+          }
+        ],
+        "gap_strengths": [
+          {
+            "cluster": 1,
+            "source_seconds": 0.325,
+            "stretch_seconds": 0.140958,
+            "playback_floor": 0.551505
+          },
+          {
+            "cluster": 2,
+            "source_seconds": 0.29,
+            "stretch_seconds": 0.017,
+            "playback_floor": 0.900971
+          }
+        ],
+        "tail": {
+          "source_seconds": 0.498818,
+          "stretch_seconds": 0.0,
+          "target_beat": null,
+          "playback_floor": 0.217666
+        },
+        "stretch_seconds": 0.15795833333335274,
+        "playback_floor": 0.5515047063501596
+      },
+      {
+        "index": 3,
+        "beat_matched": true,
+        "partial": false,
+        "main_candidate_id": "candidate-01657",
+        "anchor_offset_seconds": 0.0,
+        "unsnapped_clusters": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "clusters": [
+          {
+            "cluster": 0,
+            "source_start": 0.3081818181818221,
+            "source_end": 0.32318181818180847,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 1,
+            "source_start": 0.5081818181818107,
+            "source_end": 0.5231818181817971,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 2,
+            "source_start": 0.8031818181817698,
+            "source_end": 0.818181818181813,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 3,
+            "source_start": 1.3731818181818198,
+            "source_end": 1.3881818181818062,
+            "shift": 0.038042,
+            "snapped": true,
+            "target_beat": 18.972
+          },
+          {
+            "cluster": 4,
+            "source_start": 1.5881818181817948,
+            "source_end": 1.6031818181817812,
+            "shift": 0.038042,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 5,
+            "source_start": 2.418181818181779,
+            "source_end": 3.228181818181781,
+            "shift": 0.174,
+            "snapped": true,
+            "target_beat": 20.147958333333335
+          }
+        ],
+        "gap_strengths": [
+          {
+            "cluster": 3,
+            "source_seconds": 0.555,
+            "stretch_seconds": 0.038042,
+            "playback_floor": 0.886117
+          },
+          {
+            "cluster": 5,
+            "source_seconds": 0.815,
+            "stretch_seconds": 0.135958,
+            "playback_floor": 0.761738
+          }
+        ],
+        "tail": {
+          "source_seconds": 0.271818,
+          "stretch_seconds": 0.0,
+          "target_beat": null,
+          "playback_floor": 0.118612
+        },
+        "stretch_seconds": 0.1740000000000137,
+        "playback_floor": 0.7617378605329871
+      },
+      {
+        "index": 4,
+        "beat_matched": false,
+        "partial": true,
+        "main_candidate_id": "candidate-00331",
+        "anchor_offset_seconds": 0.091958,
+        "unsnapped_clusters": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "clusters": [
+          {
+            "cluster": 0,
+            "source_start": 0.05318181818182666,
+            "source_end": 0.06818181818182723,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 1,
+            "source_start": 0.4331818181818363,
+            "source_end": 0.4481818181818369,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 2,
+            "source_start": 1.1181818181818244,
+            "source_end": 1.133181818181825,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 3,
+            "source_start": 1.4831818181818335,
+            "source_end": 1.498181818181834,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 4,
+            "source_start": 2.8581818181818335,
+            "source_end": 2.873181818181834,
+            "shift": 0.220042,
+            "snapped": true,
+            "target_beat": 24.308
+          }
+        ],
+        "gap_strengths": [
+          {
+            "cluster": 4,
+            "source_seconds": 1.36,
+            "stretch_seconds": 0.220042,
+            "playback_floor": 0.767244
+          }
+        ],
+        "tail": {
+          "source_seconds": 0.308636,
+          "stretch_seconds": 0.0,
+          "target_beat": null,
+          "playback_floor": 0.134678
+        },
+        "stretch_seconds": 0.22004166666661007,
+        "playback_floor": 0.7672440389616527
+      },
+      {
+        "index": 5,
+        "beat_matched": false,
+        "partial": true,
+        "main_candidate_id": "candidate-01110",
+        "anchor_offset_seconds": 0.589958,
+        "unsnapped_clusters": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "clusters": [
+          {
+            "cluster": 0,
+            "source_start": 0.0863636363636715,
+            "source_end": 0.10136363636365786,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 1,
+            "source_start": 0.2913636363636556,
+            "source_end": 0.806363636363642,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 2,
+            "source_start": 1.0963636363636624,
+            "source_end": 1.2013636363636238,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 3,
+            "source_start": 1.5013636363636351,
+            "source_end": 2.091363636363667,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 4,
+            "source_start": 2.511363636363626,
+            "source_end": 2.716363636363667,
+            "shift": 0.104,
+            "snapped": true,
+            "target_beat": 27.247
+          }
+        ],
+        "gap_strengths": [
+          {
+            "cluster": 4,
+            "source_seconds": 0.42,
+            "stretch_seconds": 0.104,
+            "playback_floor": 0.682927
+          }
+        ],
+        "tail": {
+          "source_seconds": 0.283636,
+          "stretch_seconds": 0.0,
+          "target_beat": null,
+          "playback_floor": 0.123769
+        },
+        "stretch_seconds": 0.10400000000002052,
+        "playback_floor": 0.6829268292682253
+      },
+      {
+        "index": 6,
+        "beat_matched": true,
+        "partial": false,
+        "main_candidate_id": "candidate-01242",
+        "anchor_offset_seconds": 0.0,
+        "unsnapped_clusters": [
+          3,
+          5
+        ],
+        "clusters": [
+          {
+            "cluster": 0,
+            "source_start": 0.3593636363636392,
+            "source_end": 0.5893636363636574,
+            "shift": 0.095,
+            "snapped": true,
+            "target_beat": 28.19
+          },
+          {
+            "cluster": 1,
+            "source_start": 1.1343636363636733,
+            "source_end": 1.2143636363636574,
+            "shift": 0.104,
+            "snapped": true,
+            "target_beat": 29.044
+          },
+          {
+            "cluster": 2,
+            "source_start": 1.6843636363636278,
+            "source_end": 1.699363636363671,
+            "shift": 0.188958,
+            "snapped": true,
+            "target_beat": 29.608958333333334
+          },
+          {
+            "cluster": 3,
+            "source_start": 2.219363636363653,
+            "source_end": 2.289363636363646,
+            "shift": 0.188958,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 4,
+            "source_start": 2.529363636363655,
+            "source_end": 2.6493636363636597,
+            "shift": 0.255958,
+            "snapped": true,
+            "target_beat": 30.520958333333333
+          },
+          {
+            "cluster": 5,
+            "source_start": 2.86936363636363,
+            "source_end": 2.8843636363636733,
+            "shift": 0.255958,
+            "snapped": false,
+            "target_beat": null
+          }
+        ],
+        "gap_strengths": [
+          {
+            "cluster": 0,
+            "source_seconds": 0.359364,
+            "stretch_seconds": 0.095,
+            "playback_floor": 0.668598
+          },
+          {
+            "cluster": 1,
+            "source_seconds": 0.545,
+            "stretch_seconds": 0.009,
+            "playback_floor": 0.969967
+          },
+          {
+            "cluster": 2,
+            "source_seconds": 0.47,
+            "stretch_seconds": 0.084958,
+            "playback_floor": 0.746865
+          },
+          {
+            "cluster": 4,
+            "source_seconds": 0.24,
+            "stretch_seconds": 0.067,
+            "playback_floor": 0.65641
+          }
+        ],
+        "tail": {
+          "source_seconds": 0.297455,
+          "stretch_seconds": 0.0,
+          "target_beat": null,
+          "playback_floor": 0.129798
+        },
+        "stretch_seconds": 0.25595833333330376,
+        "playback_floor": 0.6564102564103568
+      },
+      {
+        "index": 7,
+        "beat_matched": false,
+        "partial": true,
+        "main_candidate_id": "candidate-00625",
+        "anchor_offset_seconds": 0.182042,
+        "unsnapped_clusters": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "clusters": [
+          {
+            "cluster": 0,
+            "source_start": 0.07454545454544359,
+            "source_end": 0.08954545454542995,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 1,
+            "source_start": 0.3245454545454436,
+            "source_end": 0.48954545454543563,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 2,
+            "source_start": 0.6995454545454436,
+            "source_end": 0.7595454545454459,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 3,
+            "source_start": 1.039545454545447,
+            "source_end": 1.0545454545454334,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 4,
+            "source_start": 1.3945454545454368,
+            "source_end": 1.5145454545454413,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 5,
+            "source_start": 2.569545454545448,
+            "source_end": 2.7245454545454493,
+            "shift": 0.291042,
+            "snapped": true,
+            "target_beat": 34.034
+          }
+        ],
+        "gap_strengths": [
+          {
+            "cluster": 5,
+            "source_seconds": 1.055,
+            "stretch_seconds": 0.291042,
+            "playback_floor": 0.659085
+          }
+        ],
+        "tail": {
+          "source_seconds": 0.48,
+          "stretch_seconds": 0.061,
+          "target_beat": 34.730000000000004,
+          "playback_floor": 0.209455
+        },
+        "stretch_seconds": 0.3520416666666719,
+        "playback_floor": 0.6590853628776248
+      },
+      {
+        "index": 8,
+        "beat_matched": false,
+        "partial": true,
+        "main_candidate_id": "candidate-00358",
+        "anchor_offset_seconds": 0.078042,
+        "unsnapped_clusters": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "clusters": [
+          {
+            "cluster": 0,
+            "source_start": 0.03999999999999204,
+            "source_end": 0.05499999999999261,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 1,
+            "source_start": 0.25,
+            "source_end": 0.4549999999999983,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 2,
+            "source_start": 0.6550000000000011,
+            "source_end": 0.8900000000000006,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 3,
+            "source_start": 1.1199999999999903,
+            "source_end": 1.25,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 4,
+            "source_start": 1.6299999999999955,
+            "source_end": 1.9699999999999989,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 5,
+            "source_start": 2.3799999999999955,
+            "source_end": 2.844999999999999,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          }
+        ],
+        "gap_strengths": [],
+        "tail": {
+          "source_seconds": 0.336818,
+          "stretch_seconds": 0.110182,
+          "target_beat": 38.022,
+          "playback_floor": 0.146975
+        },
+        "stretch_seconds": 0.1101818181818075,
+        "playback_floor": 0.6198243412798236
+      }
+    ],
+    "rigid_rows": [
+      {
+        "index": 9,
+        "row": 9,
+        "beat_matched": false,
+        "reason": "no measured attack is reachable through the row's certified gap chain",
+        "partial": false,
+        "main_candidate_id": "candidate-01788",
+        "anchor_offset_seconds": 0.40286,
+        "unsnapped_clusters": []
+      },
+      {
+        "index": 10,
+        "row": 10,
+        "beat_matched": false,
+        "reason": "no measured attack is reachable through the row's certified gap chain",
+        "partial": false,
+        "main_candidate_id": "candidate-01307",
+        "anchor_offset_seconds": 1.468182,
+        "unsnapped_clusters": []
+      }
+    ],
+    "limitations": [
+      "Candidate pacing only: anchors are unreviewed local acoustic/video candidates, not reviewed shots or kills.",
+      "The target grid is measured acoustic attacks, not certified percussion, meter or musical taste.",
+      "Playback is slowed only in the gaps between measured burst clusters; each cluster keeps rigid 1x playback so gunshot transients are not smeared.",
+      "Gap slow-motion cannot go below the engine's atempo range, so the declared floor stays at or above 0.5 with a small margin for rounded slice edges.",
+      "No interval is ever sped up: gaps keep 1x or stretch, bounded by the declared slow floor and per-row budget.",
+      "Gap capacity is the inverse of the same analytic C2 bound the map certifies with, so no gap can overshoot the floor.",
+      "Clusters and rows without a reachable measured attack stay at 1x and are reported as unsnapped/rigid; nothing is force-fitted or invented.",
+      "musical_sync remains unverified; no lyric/closure integration exists for retimed clocks."
+    ]
+  }
+}

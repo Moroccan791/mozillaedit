@@ -1,0 +1,1 @@
+[0:a:0]aresample=48000,aformat=sample_fmts=s16:channel_layouts=stereo,asplit=1[s0];[s0]atrim=start_sample=15497470:end_sample=15650016,asetpts=N/SR/TB,apad=whole_len=152546,atrim=end_sample=152546,asetpts=N/SR/TB[a0];[a0]concat=n=1:v=0:a=1,asetpts=N/SR/TB[a]

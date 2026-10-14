@@ -26,8 +26,17 @@ EPS = 1e-7
 
 # Combined style is an explicit renderer API experiment, not a front-door policy.
 MULTISHOT_STYLES = {"multishot", "multishot-authored"}
-AUTHORED_STYLES = {"authored-footage", "multishot-authored"}
-RETIMED_STYLES = {"restrained-impact", *MULTISHOT_STYLES}
+# Candidate-only slowed-song pacing: rigid 1x bursts, eased pre-shot gaps.
+CANDIDATE_PACING_STYLES = {"slowed-pacing"}
+AUTHORED_STYLES = {"authored-footage", "multishot-authored", *CANDIDATE_PACING_STYLES}
+RETIMED_STYLES = {"restrained-impact", *MULTISHOT_STYLES, *CANDIDATE_PACING_STYLES}
+CANDIDATE_PACING_LIMITATIONS = (
+    "Candidate-only auto-slowed pacing: anchors are unreviewed measured candidates, not reviewed shots or kills.",
+    "The target grid is measured acoustic attacks, not certified percussion, meter or musical taste.",
+    "Gunshot bursts keep rigid 1x playback inside their measured span; only the pre-shot approach gap is eased.",
+    "Rows without a certifiable target inside the declared playback bounds are dropped, never force-fitted.",
+    "musical_sync remains unverified; lyrics and closure QA refuse retimed clocks by design.",
+)
 COMBINED_LIMITATIONS = (
     "Explicit renderer API experiment; supported front doors remain unsupported and the 1x-only lyric/closure paths fail closed on retimed clocks (no mapped-clock lyric integration exists).",
     "Source hashes bind bytes, not semantic review; supplied review assertions are not authenticated.",
@@ -55,6 +64,10 @@ def render_clock_model(style: str, rows) -> dict:
     if style in MULTISHOT_STYLES:
         return {"schema": CLOCK_MODEL_SCHEMA, "kind": "retimed-reviewed-map", "style": style,
                 "retimed": True, "source_to_output": "piecewise-c2-quintic-reviewed-map",
+                "mapped_rows": len(rows)}
+    if style in CANDIDATE_PACING_STYLES:
+        return {"schema": CLOCK_MODEL_SCHEMA, "kind": "retimed-candidate-pacing", "style": style,
+                "retimed": True, "source_to_output": "rigid-burst-1x-eased-pre-shot-gap-candidate",
                 "mapped_rows": len(rows)}
     return {"schema": CLOCK_MODEL_SCHEMA, "kind": "retimed-eased", "style": style,
             "retimed": True, "source_to_output": "piecewise-c2-quintic",
@@ -125,7 +138,8 @@ class RenderConfig:
             if not -60 <= _number(getattr(self, name), name, negative=True) <= 12:
                 raise ValueError(f"invalid {name}")
         if self.style not in {"clean", "restrained-impact", *MULTISHOT_STYLES, *AUTHORED_STYLES}:
-            raise ValueError("style must be clean, restrained-impact, multishot, authored-footage or multishot-authored")
+            raise ValueError("style must be clean, restrained-impact, multishot, authored-footage, "
+                             "multishot-authored or slowed-pacing")
         if self.encoder not in {"libx264", "h264_qsv"}:
             raise ValueError("encoder must be libx264 or h264_qsv")
         if self.fallback_encoder is not None and not (
@@ -175,6 +189,149 @@ def _revalidate_multishot_map(mapping):
         source_sha256=mapping.source_sha256)
 
 
+def document_shift(item):
+    """Certified total stretch declared by a paced row's own manifest."""
+    document = item["pacing_map"]
+    return _number(document["shifts"][-1], "pacing shift")
+
+
+def _pacing_declarations(plan):
+    """Index -> declaration for every row, from the plan's pacing report.
+
+    Candidate pacing is only transportable together with the solver's report: a
+    row may only be rendered when the report says whether its main measured
+    candidate was beat-matched, so a "rigid 1x" row can never masquerade as a
+    paced one, and vice versa.
+    """
+    report = plan.get("pacing")
+    if not isinstance(report, dict) or report.get("mode") != "auto-slowed-candidate":
+        raise ValueError("slowed-pacing mode requires the candidate pacing report in the plan")
+    timeline = plan.get("timeline")
+    if not isinstance(timeline, list):
+        raise ValueError("nonempty bounded timeline required")
+    declared, seen = {}, set()
+    for key, forced_rigid in (("kept", False), ("rigid_rows", True)):
+        entries = report.get(key)
+        if not isinstance(entries, list):
+            raise ValueError(f"pacing report requires a {key} list")
+        for entry in entries:
+            if not isinstance(entry, dict) or type(entry.get("index")) is not int:
+                raise ValueError("pacing report entries must declare an integer row index")
+            index = entry["index"]
+            if index in seen or not 0 <= index < len(timeline):
+                raise ValueError("pacing report must declare every row exactly once")
+            seen.add(index)
+            declared[index] = dict(beat_matched=False if forced_rigid else bool(entry.get("beat_matched")),
+                                   partial=bool(entry.get("partial")),
+                                   anchor_offset_seconds=entry.get("anchor_offset_seconds"),
+                                   main_candidate_id=entry.get("main_candidate_id"),
+                                   unsnapped_clusters=entry.get("unsnapped_clusters"))
+    if seen != set(range(len(timeline))):
+        raise ValueError("pacing report must declare every rendered row")
+    if report.get("grid_origin") != "measured acoustic attacks from hit-map/v1, unreviewed":
+        raise ValueError("pacing report must declare its unreviewed measured grid")
+    return report, declared
+
+
+def _revalidate_pacing_map(item, index, row_bounds, declared):
+    """Rebuild one row's pacing clock and cross-check it against its own row.
+
+    Candidate-only: a paced row must declare ``reviewed_input=False`` with the
+    unreviewed-candidate origin, its protected clusters must be exactly the bursts
+    measured on this row's own unconfirmed candidates at the declared
+    ``burst_gap_seconds``, its anchor must be that row's main measured candidate,
+    and both the row's candidate output clocks and its unsnapped-cluster
+    declaration must agree with the solver's report. A row the report declares
+    rigid is re-derived as an identity 1x clock and must be exactly that: no map,
+    no stretch, every candidate clock at 1x.
+    """
+    from .slowed_pacing import (CandidatePacingMap, DEFAULT_BURST_GAP, DEFAULT_SLOW_FLOOR,
+                                build_candidate_pacing_map, cluster_shots)
+    source_start, source_end, music_start, music_end = row_bounds
+    document = item.get("pacing_map")
+    beat_matched = bool(declared[index]["beat_matched"])
+    partial = bool(declared[index]["partial"])
+    if document is None:
+        if beat_matched:
+            raise ValueError("paced rows require an explicit pacing_map on every row")
+        if partial:
+            raise ValueError("a partially paced row must carry the pacing map it rendered")
+        mapping = CandidatePacingMap(source_start=source_start, source_end=source_end,
+                                     music_start=music_start, music_end=music_end,
+                                     burst_gap_seconds=DEFAULT_BURST_GAP,
+                                     slow_floor=DEFAULT_SLOW_FLOOR)
+    else:
+        mapping = build_candidate_pacing_map(document)
+        clocks = document["clocks"]
+        if (clocks["source_origin"] != source_start or clocks["source_endpoint"] != source_end
+                or clocks["target_origin"] != music_start or clocks["target_endpoint"] != music_end):
+            raise ValueError("pacing map endpoints must exactly match the rendered row")
+        if not beat_matched and (not partial or document["beat_matched"] is not False):
+            # Only a partial row may carry a map without an anchor claim, and it may
+            # never smuggle a beat claim in through its own manifest.
+            raise ValueError("a row with a pacing map must be declared paced or partial in the report")
+        if beat_matched and mapping.beat_matched is not True:
+            raise ValueError("a beat-matched row requires a beat-matched pacing map")
+        if partial and declared[index]["anchor_offset_seconds"] is None:
+            raise ValueError("a partial row must report how far its anchor stayed from a measured attack")
+    if item.get("events"):
+        raise ValueError("candidate rows must not carry confirmed events; candidate pacing stays unreviewed")
+    candidates = item.get("candidate_events")
+    if not isinstance(candidates, list) or not candidates:
+        raise ValueError("candidate rows require their measured burst candidates")
+    shots, anchor_source, previous_end = [], None, None
+    for candidate in candidates:
+        if not isinstance(candidate, dict) or candidate.get("confirmed") is not False:
+            raise ValueError("candidate rows keep every candidate explicitly unconfirmed")
+        interval = candidate.get("attack_interval")
+        if not isinstance(interval, list) or len(interval) != 2:
+            raise ValueError("candidate attack interval required")
+        interval = [_number(v, "candidate attack interval") for v in interval]
+        if not source_start <= interval[0] <= interval[1] <= source_end:
+            raise ValueError("candidate attack interval outside the row")
+        if previous_end is not None and interval[0] < previous_end - EPS:
+            raise ValueError("measured attack intervals must not overlap")
+        previous_end = interval[1]
+        time = candidate.get("source_audio_event", candidate.get("time"))
+        time = _number(time, "candidate time")
+        if not interval[0] - EPS <= time <= interval[1] + EPS:
+            raise ValueError("candidate anchor time outside its measured attack interval")
+        # Same (start, end, anchor) local tuple order the solver clustered with.
+        shots.append((interval[0] - source_start, interval[1] - source_start, time - source_start))
+        if candidate.get("id") == item.get("main_candidate_id"):
+            anchor_source = time
+    if anchor_source is None:
+        raise ValueError("candidate row lacks its declared main measured candidate")
+    if beat_matched:
+        if abs(mapping.anchor_source_time - anchor_source) > 1e-7:
+            raise ValueError("pacing map anchor must equal the row's main measured candidate")
+        expected = cluster_shots(sorted(shots), document["burst_gap_seconds"])
+        if len(expected) != len(mapping.clusters) or any(
+                abs(a - c[0]) > 1e-7 or abs(b - c[1]) > 1e-7
+                for (a, b), c in zip(expected, mapping.clusters)):
+            raise ValueError("pacing map protected clusters must be exactly this row's measured bursts")
+    elif document is None and mapping.clusters:
+        raise ValueError("a rigid row cannot declare protected clusters")
+    if list(item.get("pacing_unsnapped_clusters", [])) != list(declared[index]["unsnapped_clusters"] or []):
+        raise ValueError("row unsnapped clusters must match the pacing report")
+    if document is None and list(item.get("pacing_unsnapped_clusters", [])):
+        raise ValueError("a rigid row cannot declare unsnapped clusters")
+    if document is None and mapping.shift_total > EPS:
+        raise ValueError("a rigid row cannot carry a stretched cut")
+    for candidate in candidates:
+        for key, out_key in (("source_audio_event", "output_audio_event"), ("time", "output_audio_event"),
+                             ("source_visual_event", "output_visual_event")):
+            if candidate.get(key) is None:
+                continue
+            local = _number(candidate[key], key) - source_start
+            if not 0 <= local <= source_end - source_start:
+                raise ValueError("candidate source clock outside the row")
+            _same(_number(candidate[out_key], out_key),
+                  _number(item["output_start"], "output_start") + mapping.map(local),
+                  "candidate mapped output clock")
+    return mapping
+
+
 def validate_plan(plan: dict, config: RenderConfig | None = None,
                   source_durations: Mapping[str, float] | None = None,
                   music_duration: float | None = None,
@@ -208,7 +365,14 @@ def validate_plan(plan: dict, config: RenderConfig | None = None,
     requested = _number(plan.get("requested_duration"), "requested_duration")
     ms = _number(plan.get("music_start"), "music_start")
     me = _number(plan.get("music_end"), "music_end")
-    if not 0 < duration <= config.max_duration or duration > requested + EPS:
+    declared_rows = plan.get("timeline") if isinstance(plan.get("timeline"), list) else []
+    stretch = sum(_number(item["pacing_map"]["tail_shift"], "pacing stretch")
+                  for item in declared_rows
+                  if isinstance(item, dict) and isinstance(item.get("pacing_map"), dict)) \
+        if config.style in CANDIDATE_PACING_STYLES else 0.0
+    if not 0 < duration <= config.max_duration or duration > requested + stretch + EPS:
+        # Candidate pacing lengthens a render by exactly the stretch its own row
+        # manifests certify; the request bounds the 1x material, not that stretch.
         raise ValueError("duration outside render/requested bounds")
     _same(me - ms, duration, "music excerpt duration")
     if me > config.max_source_duration or (music_duration is not None and me > music_duration + EPS):
@@ -223,6 +387,8 @@ def validate_plan(plan: dict, config: RenderConfig | None = None,
             raise ValueError("multishot mode requires one explicit map for every timeline row")
     elif multishot_maps is not None:
         raise ValueError("multishot maps require style='multishot' or 'multishot-authored'")
+    pacing_report, pacing_declared = (_pacing_declarations(plan)
+                                      if config.style in CANDIDATE_PACING_STYLES else (None, None))
     bounds = {_path(k, "source"): _number(v, "source duration")
               for k, v in (source_durations or {}).items()}
     rows, ranges, cursor = [], {}, 0.0
@@ -234,6 +400,9 @@ def validate_plan(plan: dict, config: RenderConfig | None = None,
                   ("source_start", "source_end", "output_start", "output_end", "music_start", "music_end", "speed")}
         a, b, os, oe = (values[k] for k in ("source_start", "source_end", "output_start", "output_end"))
         mapping = _revalidate_multishot_map(multishot_maps[i]) if config.style in MULTISHOT_STYLES else None
+        pacing = (_revalidate_pacing_map(item, i, (a, b, values["music_start"], values["music_end"]),
+                                        pacing_declared)
+                  if config.style in CANDIDATE_PACING_STYLES else None)
         if values["speed"] != 1.0:
             raise ValueError("explicit speed=1 required; map mode may retime only reviewed gaps")
         if mapping is not None:
@@ -252,10 +421,13 @@ def validate_plan(plan: dict, config: RenderConfig | None = None,
         if source_durations is not None and (source not in bounds or b > bounds[source] + EPS):
             raise ValueError("clip exceeds actual source duration")
         _same(os, cursor, "contiguous output")
-        if mapping is None:
+        if mapping is None and pacing is None:
             _same(oe - os, b - a, "1x clip duration")
-        else:
+        elif mapping is not None:
             _same(oe - os, mapping.output_duration, "multishot mapped clip duration")
+        else:
+            _same(oe - os, pacing.output_duration, "paced clip duration")
+            _same(oe - os, b - a + pacing.shift_total, "paced clip duration must equal 1x plus its certified stretch")
         _same(values["music_start"], ms + os, "clip music start")
         _same(values["music_end"], ms + oe, "clip music end")
         for x, y in ranges.setdefault(source, []):
@@ -274,6 +446,12 @@ def validate_plan(plan: dict, config: RenderConfig | None = None,
         if mapping is not None:
             row["multishot_map"] = mapping.manifest()
             row["_multishot_mapping"] = mapping
+        if pacing is not None:
+            # Only beat-matched rows persist a map document; a rigid row keeps the
+            # identity clock the report declared and no stretch record.
+            if pacing_declared is None or pacing_declared[i]["beat_matched"]:
+                row["pacing_map"] = pacing.manifest()
+            row["_pacing_mapping"] = pacing
         events = item.get("events", [])
         if not isinstance(events, list):
             raise ValueError("events must be a list")
@@ -332,9 +510,14 @@ def validate_plan(plan: dict, config: RenderConfig | None = None,
         elif mapping is not None:
             from .impact_motion import audio_segments
             row["audio_segments"] = audio_segments(mapping, row, config.sample_rate, _rounded)
+        if pacing is not None:
+            from .impact_motion import audio_segments
+            row["audio_segments"] = audio_segments(pacing, row, config.sample_rate, _rounded)
         rows.append(row)
         cursor = oe
     _same(cursor, duration, "total duration")
+    if pacing_report is not None:
+        _same(_number(pacing_report.get("paced_duration"), "paced duration"), duration, "reported paced duration")
     if config.style in AUTHORED_STYLES:
         from .authored_footage import validate_design
         rows = validate_design(plan, rows, config)
@@ -418,8 +601,8 @@ def _video_filter(row, config):
                 f"s={config.width}x{config.height}:fps={config.fps},"
                 f"tpad=stop_mode=clone:stop_duration={2/config.fps:.12f},"
                 f"trim=end_frame={row['frame_count']},setpts=N/({config.fps}*TB)")
-    if config.style in MULTISHOT_STYLES:
-        mapping = row["_multishot_mapping"]
+    if config.style in MULTISHOT_STYLES or config.style in CANDIDATE_PACING_STYLES:
+        mapping = row["_multishot_mapping"] if config.style in MULTISHOT_STYLES else row["_pacing_mapping"]
         mapped = mapping.expression(f"(PTS*TB-{a:.12f})")
         return (f"trim=start={a:.12f}:end={b:.12f},setpts='({mapped}+({phase:.12f}))/TB',"
                 f"fps={config.fps}:start_time=0,"
@@ -628,6 +811,8 @@ def render_encounters(plan: dict, music: str | Path, output_root: str | Path, *,
                 "multishot_maps": persisted_plan.get("multishot_maps"),
                 "combined_limitations": list(COMBINED_LIMITATIONS) if config.style == "multishot-authored" else [],
                 "combined_style_policy": ("Explicit renderer API experiment pending front-door/lyric policy; no semantic or perceptual approval." if config.style == "multishot-authored" else None),
+                "candidate_pacing_limitations": (list(CANDIDATE_PACING_LIMITATIONS) if config.style in CANDIDATE_PACING_STYLES else []),
+                "candidate_pacing_policy": ("Candidate-only auto-slowed pacing; unreviewed measured anchors; no review, lyric, closure or perceptual certification." if config.style in CANDIDATE_PACING_STYLES else None),
                 "authored_design": plan.get("authored_design") if config.style in AUTHORED_STYLES else None,
                 "authored_limitations": (["Paired directional edge reframing/smear across unchanged hard cuts, not an overlapping wipe or crossfade.",
                                           "Inset duplicates the same decoded footage, not an unseen camera angle or isolated subject.",
@@ -658,7 +843,7 @@ def render_encounters(plan: dict, music: str | Path, output_root: str | Path, *,
                 "warnings": ["Not unattended-ready: real decoded event/video/audio QA is still required.",
                              "Final video is globally rounded to frames; audio retains sample-precision plan timing.",
                              ("At most two edge frames may be cloned for CFR rounding, never source speed changed." if config.style not in RETIMED_STYLES else
-                              "Source video and game audio retimed together by the supplied map/motion profile; music untouched."),
+                              "Source video and game audio retimed together by the supplied candidate pacing map; gunshot bursts stay rigidly 1x; music untouched."),
                              "Constant-gain mix can clip; PCM stems are retained for independent timing QA."]}
     _json(manifest_path, manifest)
     return manifest

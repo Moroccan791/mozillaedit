@@ -1,0 +1,48 @@
+{
+  "status": "failed",
+  "job_dir": "/home/user/mozillaedit/test-sample-mp4/local-preview-slowed-v2/job-v0002",
+  "output": null,
+  "mode": "local-candidate-preview",
+  "visual_ai_used": false,
+  "manual_source_windows": false,
+  "perceptual_approval": false,
+  "pipeline": "existing-authored-system/v2",
+  "fallback_allowed": false,
+  "lyrics": {
+    "mode": "off",
+    "status": "disabled",
+    "alignment_verified": false
+  },
+  "analysis_cache": {
+    "firing": true,
+    "hits": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "pacing": {
+    "mode": "auto-slowed-candidate",
+    "report": "/home/user/mozillaedit/test-sample-mp4/local-preview-slowed-v2/job-v0002/pacing-report.json",
+    "rows_total": 11,
+    "rows_beat_matched": 11,
+    "rows_rigid": 0,
+    "paced_duration": 48.835041666666676,
+    "slow_floor": 0.35,
+    "burst_gap_seconds": 0.18,
+    "original_duration": 34.99999999999996
+  },
+  "planned_duration": 48.835041666666676,
+  "closure_report": "/home/user/mozillaedit/test-sample-mp4/local-preview-slowed-v2/job-v0002/closure-report.json",
+  "calibration_report": "/home/user/mozillaedit/test-sample-mp4/local-preview-slowed-v2/job-v0002/calibration-plan-report.json",
+  "error": "game-001 exited 222; args=/home/user/mozillaedit/test-sample-mp4/local-preview-slowed-v2/job-v0002/renders/encounters-v0001/game-001.args.json; stderr=/home/user/mozillaedit/test-sample-mp4/local-preview-slowed-v2/job-v0002/renders/encounters-v0001/game-001.stderr.log",
+  "elapsed_seconds": 15.943,
+  "limitations": [
+    "Existing template profile is uncalibrated; icon/audio matches are not confirmed kills.",
+    "No visual AI or manual source-window selection; local numerical frame/template processing is used.",
+    "1x source clocks; only selected main attacks assigned, burst attacks may remain unmatched.",
+    "Fight/outcome, phrase suitability, exact musical sync and listening/aesthetic approval remain unverified."
+  ]
+}

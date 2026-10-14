@@ -127,7 +127,11 @@ def audio_segments(mapping: TimeMap, row: dict, rate: int, rounded, max_step=.10
         if out_b <= out_a or src_b <= src_a:
             raise ValueError("impossible map: segment collapses at sample precision")
         speed = 1. if identity else (src_b-src_a)/(out_b-out_a)
-        if not mapping.min_speed <= speed <= mapping.max_speed:
+        # Slice edges are rounded to sample precision independently on the source
+        # and output clocks, so a slice may be off by one sample at either edge;
+        # the analytic bounds therefore carry exactly that much slack and no more.
+        slack = 1.5/max(out_b-out_a, src_b-src_a, 1)
+        if not mapping.min_speed-slack <= speed <= mapping.max_speed+slack:
             raise ValueError("impossible rounded audio speed")
         segments.append(dict(source_start_sample=src_a, source_end_sample=src_b,
                              output_start_sample=out_a, output_end_sample=out_b,
@@ -144,6 +148,11 @@ def audio_filter(segments, rate):
     for i, seg in enumerate(segments):
         first, length = seg["source_start_sample"], seg["count"]
         end = first+length if seg["identity"] else seg["source_end_sample"]
+        if not seg["identity"] and not 0.5 <= seg["speed"] <= 100.0:
+            # ffmpeg's atempo accepts 0.5..100 only; failing here names the actual
+            # limit instead of letting the encoder die on an opaque range error.
+            raise ValueError(f"slice playback speed {seg['speed']:.4f} outside the engine's "
+                             f"atempo range 0.5..100; declared slow floors must stay at or above 0.5")
         tempo = "" if seg["identity"] else f",atempo={seg['speed']:.12f}"
         parts.append(f"[s{i}]atrim=start_sample={first}:end_sample={end},asetpts=N/SR/TB{tempo},"
                      f"apad=whole_len={length},atrim=end_sample={length},asetpts=N/SR/TB[a{i}]")

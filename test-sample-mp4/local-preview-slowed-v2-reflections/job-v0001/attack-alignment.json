@@ -1,0 +1,1284 @@
+{
+  "schema_version": "attack-qa/v1",
+  "status": "warn",
+  "acoustic_alignment": "warn",
+  "musical_sync": "unverified",
+  "assignments": [
+    {
+      "assignment_index": 0,
+      "status": "warn",
+      "musical_sync": "unverified",
+      "game_attack": {
+        "status": "measured",
+        "expected_time": 3.3220000000000027,
+        "time": 3.3219583333333333,
+        "attack_range": [
+          3.3179583333333333,
+          3.3259583333333333
+        ],
+        "candidates": [
+          {
+            "time": 3.3219583333333333,
+            "attack_range": [
+              3.3179583333333333,
+              3.3259583333333333
+            ],
+            "strength": 0.28628767069509387
+          }
+        ],
+        "method": "multiband-4ms-rms-slope",
+        "range_basis": "heuristic +/-4 ms localization; not calibrated confidence",
+        "diagnostics": {
+          "version": "attack-diagnostics/v1",
+          "decision_effect": "none",
+          "band_summary": [
+            {
+              "band_hz": [
+                1500,
+                5000
+              ],
+              "useful": true,
+              "peak_rms": 0.1552823313796877,
+              "median_change": -0.0004262964512209144,
+              "mad_change": 0.003285457517478753,
+              "robust_scale": 0.004871019315413999,
+              "max_robust_change": 11.996450877747247
+            },
+            {
+              "band_hz": [
+                5000,
+                10000
+              ],
+              "useful": true,
+              "peak_rms": 0.08676264909219639,
+              "median_change": 0.00020565474411924842,
+              "mad_change": 0.002362858809459325,
+              "robust_scale": 0.003503174470904395,
+              "max_robust_change": 7.031742829943032
+            }
+          ],
+          "peaks": [
+            {
+              "peak_time": 3.3299583333333334,
+              "strength": 0.28628767069509387,
+              "status": "accepted_before_deduplication",
+              "reasons": [],
+              "band_change": [
+                {
+                  "band_hz": [
+                    1500,
+                    5000
+                  ],
+                  "useful": true,
+                  "change": 0.013301671257583442,
+                  "robust_change": 2.8182946565954206
+                },
+                {
+                  "band_hz": [
+                    5000,
+                    10000
+                  ],
+                  "useful": true,
+                  "change": 0.024839076711940702,
+                  "robust_change": 7.031742829943032
+                }
+              ],
+              "local_floor": 0.4907725247530797,
+              "local_top": 1.0,
+              "onset_time": 3.3219583333333333,
+              "crossing_threshold": 0.5671566460401177
+            },
+            {
+              "peak_time": 3.3419583333333334,
+              "strength": 0.23192655190363853,
+              "status": "rejected",
+              "reasons": [
+                "insufficient_local_rise"
+              ],
+              "band_change": [
+                {
+                  "band_hz": [
+                    1500,
+                    5000
+                  ],
+                  "useful": true,
+                  "change": 0.03601409568844914,
+                  "robust_change": 7.481060899175044
+                },
+                {
+                  "band_hz": [
+                    5000,
+                    10000
+                  ],
+                  "useful": true,
+                  "change": 0.0,
+                  "robust_change": 0.0
+                }
+              ],
+              "local_floor": 0.5292274480210585,
+              "local_top": 1.0
+            },
+            {
+              "peak_time": 3.3619583333333334,
+              "strength": 0.14350960110480832,
+              "status": "rejected",
+              "reasons": [
+                "insufficient_local_rise"
+              ],
+              "band_change": [
+                {
+                  "band_hz": [
+                    1500,
+                    5000
+                  ],
+                  "useful": true,
+                  "change": 0.0,
+                  "robust_change": 0.08751688786614523
+                },
+                {
+                  "band_hz": [
+                    5000,
+                    10000
+                  ],
+                  "useful": true,
+                  "change": 0.012451273162017558,
+                  "robust_change": 3.495577659521173
+                }
+              ],
+              "local_floor": 0.46461421084455445,
+              "local_top": 0.6164702043097313
+            }
+          ],
+          "note": "Robust change is descriptive, not calibrated confidence or attack identity.",
+          "fused_baseline": 0.3411847920722464,
+          "peak_height_gate": 0.12,
+          "peak_count": 3
+        },
+        "bands_hz": [
+          [
+            1500,
+            5000
+          ],
+          [
+            5000,
+            10000
+          ]
+        ]
+      },
+      "music_attack": {
+        "status": "unmeasurable",
+        "expected_time": 3.321999999999999,
+        "time": null,
+        "attack_range": null,
+        "candidates": [],
+        "method": "multiband-4ms-rms-slope",
+        "range_basis": "heuristic +/-4 ms localization; not calibrated confidence",
+        "diagnostics": {
+          "version": "attack-diagnostics/v1",
+          "decision_effect": "none",
+          "band_summary": [
+            {
+              "band_hz": [
+                40,
+                250
+              ],
+              "useful": true,
+              "peak_rms": 0.11450681866963945,
+              "median_change": 0.00030213031469491364,
+              "mad_change": 0.008654315612164086,
+              "robust_scale": 0.012830888326594474,
+              "max_robust_change": 3.533803136702229
+            },
+            {
+              "band_hz": [
+                250,
+                1500
+              ],
+              "useful": true,
+              "peak_rms": 0.08505758308287319,
+              "median_change": -0.00023390257883249693,
+              "mad_change": 0.007773381829704537,
+              "robust_scale": 0.011524815900719946,
+              "max_robust_change": 2.5801425811504033
+            },
+            {
+              "band_hz": [
+                1500,
+                6000
+              ],
+              "useful": true,
+              "peak_rms": 0.007408967951413289,
+              "median_change": 1.4398155062829432e-06,
+              "mad_change": 0.00041054720118359825,
+              "robust_scale": 0.0006086772804748027,
+              "max_robust_change": 2.5727733524008394
+            }
+          ],
+          "peaks": [
+            {
+              "peak_time": 3.230916666666667,
+              "strength": 0.14439044993555927,
+              "status": "rejected",
+              "reasons": [
+                "peak_outside_search"
+              ],
+              "band_change": [
+                {
+                  "band_hz": [
+                    40,
+                    250
+                  ],
+                  "useful": true,
+                  "change": 0.0,
+                  "robust_change": 0.0
+                },
+                {
+                  "band_hz": [
+                    250,
+                    1500
+                  ],
+                  "useful": true,
+                  "change": 0.012281502691767268,
+                  "robust_change": 1.085952728305008
+                },
+                {
+                  "band_hz": [
+                    1500,
+                    6000
+                  ],
+                  "useful": true,
+                  "change": 0.0002312532033018743,
+                  "robust_change": 0.3775619612684145
+                }
+              ]
+            },
+            {
+              "peak_time": 3.2449166666666667,
+              "strength": 0.12333603959797423,
+              "status": "rejected",
+              "reasons": [
+                "peak_outside_search"
+              ],
+              "band_change": [
+                {
+                  "band_hz": [
+                    40,
+                    250
+                  ],
+                  "useful": true,
+                  "change": 0.0,
+                  "robust_change": 0.0
+                },
+                {
+                  "band_hz": [
+                    250,
+                    1500
+                  ],
+                  "useful": true,
+                  "change": 0.0,
+                  "robust_change": 0.020295558805228743
+                },
+                {
+                  "band_hz": [
+                    1500,
+                    6000
+                  ],
+                  "useful": true,
+                  "change": 0.0009137927646356318,
+                  "robust_change": 1.4989107995252622
+                }
+              ]
+            },
+            {
+              "peak_time": 3.2579166666666666,
+              "strength": 0.13720490515343986,
+              "status": "rejected",
+              "reasons": [
+                "peak_outside_search"
+              ],
+              "band_change": [
+                {
+                  "band_hz": [
+                    40,
+                    250
+                  ],
+                  "useful": true,
+                  "change": 0.0,
+                  "robust_change": 0.0
+                },
+                {
+                  "band_hz": [
+                    250,
+                    1500
+                  ],
+                  "useful": true,
+                  "change": 0.0,
+                  "robust_change": 0.020295558805228743
+                },
+                {
+                  "band_hz": [
+                    1500,
+                    6000
+                  ],
+                  "useful": true,
+                  "change": 0.0010165467450585367,
+                  "robust_change": 1.667726005413596
+                }
+              ]
+            },
+            {
+              "peak_time": 3.2809166666666667,
+              "strength": 0.18159764443761617,
+              "status": "rejected",
+              "reasons": [
+                "insufficient_local_rise",
+                "high_sustained_baseline"
+              ],
+              "band_change": [
+                {
+                  "band_hz": [
+                    40,
+                    250
+                  ],
+                  "useful": true,
+                  "change": 0.007412915208852469,
+                  "robust_change": 0.5541927194096992
+                },
+                {
+                  "band_hz": [
+                    250,
+                    1500
+                  ],
+                  "useful": true,
+                  "change": 0.015446256729406603,
+                  "robust_change": 1.3605561636138217
+                },
+                {
+                  "band_hz": [
+                    1500,
+                    6000
+                  ],
+                  "useful": true,
+                  "change": 0.0011783321479602264,
+                  "robust_change": 1.933524332526262
+                }
+              ],
+              "local_floor": 0.6054854208446687,
+              "local_top": 0.9442730865378541
+            },
+            {
+              "peak_time": 3.303916666666667,
+              "strength": 0.1917614140699489,
+              "status": "rejected",
+              "reasons": [
+                "insufficient_local_rise",
+                "high_sustained_baseline"
+              ],
+              "band_change": [
+                {
+                  "band_hz": [
+                    40,
+                    250
+                  ],
+                  "useful": true,
+                  "change": 0.0074102122387397565,
+                  "robust_change": 0.5539820582267856
+                },
+                {
+                  "band_hz": [
+                    250,
+                    1500
+                  ],
+                  "useful": true,
+                  "change": 0.015162931836193827,
+                  "robust_change": 1.3359722660788445
+                },
+                {
+                  "band_hz": [
+                    1500,
+                    6000
+                  ],
+                  "useful": true,
+                  "change": 0.001420754171161945,
+                  "robust_change": 2.331801105749366
+                }
+              ],
+              "local_floor": 0.4602573064816485,
+              "local_top": 0.7744414047698077
+            },
+            {
+              "peak_time": 3.331916666666667,
+              "strength": 0.22465883028514966,
+              "status": "rejected",
+              "reasons": [
+                "insufficient_local_rise",
+                "high_sustained_baseline"
+              ],
+              "band_change": [
+                {
+                  "band_hz": [
+                    40,
+                    250
+                  ],
+                  "useful": true,
+                  "change": 0.025488434408472115,
+                  "robust_change": 1.9629431301006464
+                },
+                {
+                  "band_hz": [
+                    250,
+                    1500
+                  ],
+                  "useful": true,
+                  "change": 0.02950176566653427,
+                  "robust_change": 2.5801425811504033
+                },
+                {
+                  "band_hz": [
+                    1500,
+                    6000
+                  ],
+                  "useful": true,
+                  "change": 2.8942718544347837e-05,
+                  "robust_change": 0.04518470447362693
+                }
+              ],
+              "local_floor": 0.5690080365529515,
+              "local_top": 1.0
+            },
+            {
+              "peak_time": 3.3509166666666665,
+              "strength": 0.14837924347777576,
+              "status": "rejected",
+              "reasons": [
+                "insufficient_local_rise",
+                "high_sustained_baseline"
+              ],
+              "band_change": [
+                {
+                  "band_hz": [
+                    40,
+                    250
+                  ],
+                  "useful": true,
+                  "change": 0.0071960667323686806,
+                  "robust_change": 0.5372922156437729
+                },
+                {
+                  "band_hz": [
+                    250,
+                    1500
+                  ],
+                  "useful": true,
+                  "change": 0.0,
+                  "robust_change": 0.020295558805228743
+                },
+                {
+                  "band_hz": [
+                    1500,
+                    6000
+                  ],
+                  "useful": true,
+                  "change": 0.0010993370595817906,
+                  "robust_change": 1.8037427702559978
+                }
+              ],
+              "local_floor": 0.6464886524054206,
+              "local_top": 0.8534715580900116
+            },
+            {
+              "peak_time": 3.3859166666666667,
+              "strength": 0.18722259289094134,
+              "status": "rejected",
+              "reasons": [
+                "peak_outside_search"
+              ],
+              "band_change": [
+                {
+                  "band_hz": [
+                    40,
+                    250
+                  ],
+                  "useful": true,
+                  "change": 0.02462419994811843,
+                  "robust_change": 1.895587352514897
+                },
+                {
+                  "band_hz": [
+                    250,
+                    1500
+                  ],
+                  "useful": true,
+                  "change": 0.0,
+                  "robust_change": 0.020295558805228743
+                },
+                {
+                  "band_hz": [
+                    1500,
+                    6000
+                  ],
+                  "useful": true,
+                  "change": 0.0006475720282328621,
+                  "robust_change": 1.0615349602379762
+                }
+              ]
+            },
+            {
+              "peak_time": 3.4149166666666666,
+              "strength": 0.2115582781843015,
+              "status": "rejected",
+              "reasons": [
+                "peak_outside_search"
+              ],
+              "band_change": [
+                {
+                  "band_hz": [
+                    40,
+                    250
+                  ],
+                  "useful": true,
+                  "change": 0.0,
+                  "robust_change": 0.0
+                },
+                {
+                  "band_hz": [
+                    250,
+                    1500
+                  ],
+                  "useful": true,
+                  "change": 0.007427881526987,
+                  "robust_change": 0.6648075051108514
+                },
+                {
+                  "band_hz": [
+                    1500,
+                    6000
+                  ],
+                  "useful": true,
+                  "change": 0.0015674285029236672,
+                  "robust_change": 2.5727733524008394
+                }
+              ]
+            }
+          ],
+          "note": "Robust change is descriptive, not calibrated confidence or attack identity.",
+          "fused_baseline": 0.7240423458227593,
+          "peak_height_gate": 0.12,
+          "peak_count": 9
+        },
+        "bands_hz": [
+          [
+            40,
+            250
+          ],
+          [
+            250,
+            1500
+          ],
+          [
+            1500,
+            6000
+          ]
+        ],
+        "detail": "no isolated salient attack within +/-50 ms"
+      },
+      "offset_ms": null,
+      "offset_range_ms": null,
+      "clip_index": 0,
+      "event_id": "candidate-00284",
+      "music_hit_id": "map-0:hit-001",
+      "candidate_attack_interval_source": [
+        72.01,
+        72.025
+      ],
+      "music_interval_source": [
+        11.322,
+        11.326
+      ],
+      "expected_game_time": 3.3220000000000027,
+      "matched": true,
+      "expected_music_time": 3.321999999999999,
+      "detail": "independent attacks missing or ambiguous"
+    },
+    {
+      "assignment_index": 1,
+      "status": "warn",
+      "musical_sync": "unverified",
+      "game_attack": {
+        "status": "measured",
+        "expected_time": 5.214999999999989,
+        "time": 5.211916666666666,
+        "attack_range": [
+          5.207916666666667,
+          5.215916666666666
+        ],
+        "candidates": [
+          {
+            "time": 5.211916666666666,
+            "attack_range": [
+              5.207916666666667,
+              5.215916666666666
+            ],
+            "strength": 0.27962203356100374
+          }
+        ],
+        "method": "multiband-4ms-rms-slope",
+        "range_basis": "heuristic +/-4 ms localization; not calibrated confidence",
+        "diagnostics": {
+          "version": "attack-diagnostics/v1",
+          "decision_effect": "none",
+          "band_summary": [
+            {
+              "band_hz": [
+                1500,
+                5000
+              ],
+              "useful": true,
+              "peak_rms": 0.17446354024769445,
+              "median_change": 0.0,
+              "mad_change": 0.005124516517693731,
+              "robust_scale": 0.007597608189132725,
+              "max_robust_change": 8.20616314360276
+            },
+            {
+              "band_hz": [
+                5000,
+                10000
+              ],
+              "useful": true,
+              "peak_rms": 0.09466928099065769,
+              "median_change": -0.00020901431992389682,
+              "mad_change": 0.0028076688797135547,
+              "robust_scale": 0.004162649881063316,
+              "max_robust_change": 6.4095304550269585
+            }
+          ],
+          "peaks": [
+            {
+              "peak_time": 5.148916666666667,
+              "strength": 0.27436859357130106,
+              "status": "rejected",
+              "reasons": [
+                "peak_outside_search"
+              ],
+              "band_change": [
+                {
+                  "band_hz": [
+                    1500,
+                    5000
+                  ],
+                  "useful": true,
+                  "change": 0.04786731616723,
+                  "robust_change": 6.300313858734811
+                },
+                {
+                  "band_hz": [
+                    5000,
+                    10000
+                  ],
+                  "useful": true,
+                  "change": 0.0,
+                  "robust_change": 0.05021184243112605
+                }
+              ]
+            },
+            {
+              "peak_time": 5.2179166666666665,
+              "strength": 0.27962203356100374,
+              "status": "accepted_before_deduplication",
+              "reasons": [],
+              "band_change": [
+                {
+                  "band_hz": [
+                    1500,
+                    5000
+                  ],
+                  "useful": true,
+                  "change": 0.06234721230119547,
+                  "robust_change": 8.20616314360276
+                },
+                {
+                  "band_hz": [
+                    5000,
+                    10000
+                  ],
+                  "useful": true,
+                  "change": 0.026471616866365774,
+                  "robust_change": 6.4095304550269585
+                }
+              ],
+              "local_floor": 0.2860970360127906,
+              "local_top": 0.9482878715582101,
+              "onset_time": 5.211916666666666,
+              "crossing_threshold": 0.3854256613446035
+            },
+            {
+              "peak_time": 5.230916666666666,
+              "strength": 0.20370949801617888,
+              "status": "rejected",
+              "reasons": [
+                "insufficient_local_rise"
+              ],
+              "band_change": [
+                {
+                  "band_hz": [
+                    1500,
+                    5000
+                  ],
+                  "useful": true,
+                  "change": 0.014308097349884918,
+                  "robust_change": 1.88323706536362
+                },
+                {
+                  "band_hz": [
+                    5000,
+                    10000
+                  ],
+                  "useful": true,
+                  "change": 0.019285031708159456,
+                  "robust_change": 4.683085675008476
+                }
+              ],
+              "local_floor": 0.7108218580953014,
+              "local_top": 1.0
+            }
+          ],
+          "note": "Robust change is descriptive, not calibrated confidence or attack identity.",
+          "fused_baseline": 0.4339348642813004,
+          "peak_height_gate": 0.12,
+          "peak_count": 3
+        },
+        "bands_hz": [
+          [
+            1500,
+            5000
+          ],
+          [
+            5000,
+            10000
+          ]
+        ]
+      },
+      "music_attack": {
+        "status": "unmeasurable",
+        "expected_time": 5.215,
+        "time": null,
+        "attack_range": null,
+        "candidates": [],
+        "method": "multiband-4ms-rms-slope",
+        "range_basis": "heuristic +/-4 ms localization; not calibrated confidence",
+        "diagnostics": {
+          "version": "attack-diagnostics/v1",
+          "decision_effect": "none",
+          "band_summary": [
+            {
+              "band_hz": [
+                40,
+                250
+              ],
+              "useful": true,
+              "peak_rms": 0.10390465035355563,
+              "median_change": -0.00040254614129142663,
+              "mad_change": 0.008155429654919638,
+              "robust_scale": 0.012091240006383855,
+              "max_robust_change": 3.0512196165859
+            },
+            {
+              "band_hz": [
+                250,
+                1500
+              ],
+              "useful": true,
+              "peak_rms": 0.07566165579326656,
+              "median_change": 0.0,
+              "mad_change": 0.00578097453264944,
+              "robust_scale": 0.008570872842106059,
+              "max_robust_change": 2.4502223892570822
+            },
+            {
+              "band_hz": [
+                1500,
+                6000
+              ],
+              "useful": true,
+              "peak_rms": 0.013147332455447752,
+              "median_change": -2.937331580837345e-05,
+              "mad_change": 0.0008158013900375315,
+              "robust_scale": 0.0012095071408696441,
+              "max_robust_change": 3.3817879434534976
+            }
+          ],
+          "peaks": [
+            {
+              "peak_time": 5.138958333333333,
+              "strength": 0.1571536667419534,
+              "status": "rejected",
+              "reasons": [
+                "peak_outside_search"
+              ],
+              "band_change": [
+                {
+                  "band_hz": [
+                    40,
+                    250
+                  ],
+                  "useful": true,
+                  "change": 0.007374436497048581,
+                  "robust_change": 0.6431914869139944
+                },
+                {
+                  "band_hz": [
+                    250,
+                    1500
+                  ],
+                  "useful": true,
+                  "change": 0.010880755099224468,
+                  "robust_change": 1.269503736628861
+                },
+                {
+                  "band_hz": [
+                    1500,
+                    6000
+                  ],
+                  "useful": true,
+                  "change": 0.0020661515032491043,
+                  "robust_change": 1.7325443961833749
+                }
+              ]
+            },
+            {
+              "peak_time": 5.178958333333333,
+              "strength": 0.15935718648690322,
+              "status": "rejected",
+              "reasons": [
+                "insufficient_local_rise",
+                "high_sustained_baseline"
+              ],
+              "band_change": [
+                {
+                  "band_hz": [
+                    40,
+                    250
+                  ],
+                  "useful": true,
+                  "change": 0.016557952743248033,
+                  "robust_change": 1.4027096373560335
+                },
+                {
+                  "band_hz": [
+                    250,
+                    1500
+                  ],
+                  "useful": true,
+                  "change": 0.0,
+                  "robust_change": 0.0
+                },
+                {
+                  "band_hz": [
+                    1500,
+                    6000
+                  ],
+                  "useful": true,
+                  "change": 0.0006603371988184005,
+                  "robust_change": 0.5702409612322481
+                }
+              ],
+              "local_floor": 0.5712676996443403,
+              "local_top": 0.7954774764647138
+            },
+            {
+              "peak_time": 5.202958333333333,
+              "strength": 0.13188836788784597,
+              "status": "rejected",
+              "reasons": [
+                "insufficient_local_rise",
+                "high_sustained_baseline"
+              ],
+              "band_change": [
+                {
+                  "band_hz": [
+                    40,
+                    250
+                  ],
+                  "useful": true,
+                  "change": 0.0196753530866859,
+                  "robust_change": 1.6605326846027975
+                },
+                {
+                  "band_hz": [
+                    250,
+                    1500
+                  ],
+                  "useful": true,
+                  "change": 0.0038270714093761315,
+                  "robust_change": 0.44652061463039194
+                },
+                {
+                  "band_hz": [
+                    1500,
+                    6000
+                  ],
+                  "useful": true,
+                  "change": 0.002256507110353124,
+                  "robust_change": 1.8899271851490957
+                }
+              ],
+              "local_floor": 0.6995543606668934,
+              "local_top": 1.0
+            },
+            {
+              "peak_time": 5.222958333333334,
+              "strength": 0.3016412036537742,
+              "status": "rejected",
+              "reasons": [
+                "insufficient_local_rise",
+                "high_sustained_baseline"
+              ],
+              "band_change": [
+                {
+                  "band_hz": [
+                    40,
+                    250
+                  ],
+                  "useful": true,
+                  "change": 0.007875579103826441,
+                  "robust_change": 0.6846382373310956
+                },
+                {
+                  "band_hz": [
+                    250,
+                    1500
+                  ],
+                  "useful": true,
+                  "change": 0.014387845406322937,
+                  "robust_change": 1.6786908021362636
+                },
+                {
+                  "band_hz": [
+                    1500,
+                    6000
+                  ],
+                  "useful": true,
+                  "change": 0.0040609233507055,
+                  "robust_change": 3.3817879434534976
+                }
+              ],
+              "local_floor": 0.6913454235789092,
+              "local_top": 1.0
+            },
+            {
+              "peak_time": 5.258958333333333,
+              "strength": 0.1401568783558903,
+              "status": "rejected",
+              "reasons": [
+                "insufficient_local_rise",
+                "high_sustained_baseline"
+              ],
+              "band_change": [
+                {
+                  "band_hz": [
+                    40,
+                    250
+                  ],
+                  "useful": true,
+                  "change": 0.014553805477263274,
+                  "robust_change": 1.2369576330184615
+                },
+                {
+                  "band_hz": [
+                    250,
+                    1500
+                  ],
+                  "useful": true,
+                  "change": 0.01147179081175987,
+                  "robust_change": 1.3384623740306232
+                },
+                {
+                  "band_hz": [
+                    1500,
+                    6000
+                  ],
+                  "useful": true,
+                  "change": 0.0,
+                  "robust_change": 0.024285359561625926
+                }
+              ],
+              "local_floor": 0.635749660480843,
+              "local_top": 0.7759065388367333
+            },
+            {
+              "peak_time": 5.304958333333333,
+              "strength": 0.2611162092574726,
+              "status": "rejected",
+              "reasons": [
+                "peak_outside_search"
+              ],
+              "band_change": [
+                {
+                  "band_hz": [
+                    40,
+                    250
+                  ],
+                  "useful": true,
+                  "change": 0.027131188424543554,
+                  "robust_change": 2.2771638435179433
+                },
+                {
+                  "band_hz": [
+                    250,
+                    1500
+                  ],
+                  "useful": true,
+                  "change": 0.010729796437038343,
+                  "robust_change": 1.2518907507676649
+                },
+                {
+                  "band_hz": [
+                    1500,
+                    6000
+                  ],
+                  "useful": true,
+                  "change": 0.0009636513759125678,
+                  "robust_change": 0.8210159809448909
+                }
+              ]
+            }
+          ],
+          "note": "Robust change is descriptive, not calibrated confidence or attack identity.",
+          "fused_baseline": 0.7246853931585667,
+          "peak_height_gate": 0.12,
+          "peak_count": 6
+        },
+        "bands_hz": [
+          [
+            40,
+            250
+          ],
+          [
+            250,
+            1500
+          ],
+          [
+            1500,
+            6000
+          ]
+        ],
+        "detail": "no isolated salient attack within +/-50 ms"
+      },
+      "offset_ms": null,
+      "offset_range_ms": null,
+      "clip_index": 1,
+      "event_id": "candidate-00991",
+      "music_hit_id": "map-0:hit-005",
+      "candidate_attack_interval_source": [
+        253.22,
+        253.235
+      ],
+      "music_interval_source": [
+        13.212,
+        13.219999999999999
+      ],
+      "expected_game_time": 5.214999999999989,
+      "matched": true,
+      "expected_music_time": 5.215,
+      "detail": "independent attacks missing or ambiguous"
+    },
+    {
+      "assignment_index": 2,
+      "status": "warn",
+      "musical_sync": "unverified",
+      "game_attack": null,
+      "music_attack": null,
+      "offset_ms": null,
+      "offset_range_ms": null,
+      "clip_index": 2,
+      "event_id": "candidate-01743",
+      "music_hit_id": "map-0:hit-008",
+      "detail": "assignment output_time differs from candidate"
+    },
+    {
+      "assignment_index": 3,
+      "status": "warn",
+      "musical_sync": "unverified",
+      "game_attack": null,
+      "music_attack": null,
+      "offset_ms": null,
+      "offset_range_ms": null,
+      "clip_index": 3,
+      "event_id": "candidate-01657",
+      "music_hit_id": "map-1:hit-002",
+      "detail": "assignment output_time differs from candidate"
+    },
+    {
+      "assignment_index": 4,
+      "status": "warn",
+      "musical_sync": "unverified",
+      "game_attack": null,
+      "music_attack": null,
+      "offset_ms": null,
+      "offset_range_ms": null,
+      "clip_index": 4,
+      "event_id": "candidate-00331",
+      "music_hit_id": "map-1:hit-018",
+      "detail": "assignment output_time differs from candidate"
+    },
+    {
+      "assignment_index": 5,
+      "status": "warn",
+      "musical_sync": "unverified",
+      "game_attack": null,
+      "music_attack": null,
+      "offset_ms": null,
+      "offset_range_ms": null,
+      "clip_index": 5,
+      "event_id": "candidate-01110",
+      "music_hit_id": "map-1:hit-028",
+      "detail": "assignment output_time differs from candidate"
+    },
+    {
+      "assignment_index": 6,
+      "status": "warn",
+      "musical_sync": "unverified",
+      "game_attack": null,
+      "music_attack": null,
+      "offset_ms": null,
+      "offset_range_ms": null,
+      "clip_index": 6,
+      "event_id": "candidate-01242",
+      "music_hit_id": "map-2:hit-001",
+      "detail": "assignment output_time differs from candidate"
+    },
+    {
+      "assignment_index": 7,
+      "status": "warn",
+      "musical_sync": "unverified",
+      "game_attack": null,
+      "music_attack": null,
+      "offset_ms": null,
+      "offset_range_ms": null,
+      "clip_index": 7,
+      "event_id": "candidate-00625",
+      "music_hit_id": "map-2:hit-019",
+      "detail": "assignment output_time differs from candidate"
+    },
+    {
+      "assignment_index": 8,
+      "status": "warn",
+      "musical_sync": "unverified",
+      "game_attack": null,
+      "music_attack": null,
+      "offset_ms": null,
+      "offset_range_ms": null,
+      "clip_index": 8,
+      "event_id": "candidate-00358",
+      "music_hit_id": "map-2:hit-027",
+      "detail": "assignment output_time differs from candidate"
+    },
+    {
+      "assignment_index": 9,
+      "status": "warn",
+      "musical_sync": "unverified",
+      "game_attack": null,
+      "music_attack": null,
+      "offset_ms": null,
+      "offset_range_ms": null,
+      "clip_index": 9,
+      "event_id": "candidate-01788",
+      "music_hit_id": "map-3:hit-020",
+      "detail": "assignment output_time differs from candidate"
+    },
+    {
+      "assignment_index": 10,
+      "status": "warn",
+      "musical_sync": "unverified",
+      "game_attack": null,
+      "music_attack": null,
+      "offset_ms": null,
+      "offset_range_ms": null,
+      "clip_index": 10,
+      "event_id": "candidate-01307",
+      "music_hit_id": "map-3:hit-032",
+      "detail": "assignment output_time differs from candidate"
+    }
+  ],
+  "issues": [],
+  "final_mix": {
+    "status": "not_inspected"
+  },
+  "source_identities": {
+    "game": {
+      "schema": "file-content/v1",
+      "sha256": "b5716ac13f2f5f48544e16f010064df71a70efe86cf72e3e6ce18501d6c3f01c",
+      "size_bytes": 7001970
+    },
+    "music": {
+      "schema": "file-content/v1",
+      "sha256": "2c59f437a2fd59856eb0aedd86821940c7050a9c59e6972e41f128b440be8ff6",
+      "size_bytes": 7001970
+    }
+  },
+  "stem_identity_evidence": {
+    "game": {
+      "status": "checked_before_after",
+      "method": "full-file SHA256 before/after sample-zero decode",
+      "clock": "output_seconds_from_first_decoded_sample",
+      "identity": {
+        "schema": "file-content/v1",
+        "sha256": "b5716ac13f2f5f48544e16f010064df71a70efe86cf72e3e6ce18501d6c3f01c",
+        "size_bytes": 7001970
+      },
+      "decoded_end": 5.316,
+      "sample_rate": 24000,
+      "pcm_format": "stereo interleaved little-endian float32",
+      "decoded_bytes": 1020672,
+      "decoded_pcm_sha256": "aeb98e87be6143d662e69df061f6d58116adb7b809a9342872b14f0924afaa14"
+    },
+    "music": {
+      "status": "checked_before_after",
+      "method": "full-file SHA256 before/after sample-zero decode",
+      "clock": "output_seconds_from_first_decoded_sample",
+      "identity": {
+        "schema": "file-content/v1",
+        "sha256": "2c59f437a2fd59856eb0aedd86821940c7050a9c59e6972e41f128b440be8ff6",
+        "size_bytes": 7001970
+      },
+      "decoded_end": 5.316,
+      "sample_rate": 24000,
+      "pcm_format": "stereo interleaved little-endian float32",
+      "decoded_bytes": 1020672,
+      "decoded_pcm_sha256": "ffa9b6ae96848a63b4ac7b43436f9e1de112508ac3937aaffb36c1ef48af06ba"
+    }
+  },
+  "source_media_provenance": {
+    "status": "supplied_render_binding",
+    "identities": {
+      "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_z0ALKJiFRDU_Warden-is-Simply-Overpowered_002_720p.mp4": {
+        "schema": "file-content/v1",
+        "sha256": "b68eb9ee7a3bd5901e4490c0da47762139a9151b9cbeccd9d959e6b3c01ebf4f",
+        "size_bytes": 71198338
+      },
+      "/home/user/mozillaedit/audio/Reflections (slowed) - The Neighbourhood [Edit Audio].mp3": {
+        "schema": "file-content/v1",
+        "sha256": "25c7bc6d077cd96d752c32cc493cc72f354607596a1dc8b4288f682e0e304396",
+        "size_bytes": 636703
+      }
+    },
+    "limitation": "Persisted renderer provenance, not reauthenticated by attack QA or semantic review."
+  },
+  "limitations": [
+    "Acoustic attack overlap is heuristic, not perceptual certification.",
+    "Candidate identity does not establish gunshot or strong musical-hit identity.",
+    "No reviewed semantic evidence is evaluated; musical sync is unverified.",
+    "Final mix audibility, masking, and artistic quality are not inspected."
+  ],
+  "decode": {
+    "sample_rate": 24000,
+    "origin": "PCM sample zero",
+    "bytes_written": 2041344,
+    "max_decode_bytes": 50331648,
+    "max_duration_seconds": 120.0,
+    "decoded_end": 5.316
+  },
+  "tolerance_ms": 12.0,
+  "offset_convention": "game minus music; positive means game attack is later"
+}

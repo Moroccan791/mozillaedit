@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/home/user/mozillaedit/setup/aive/local_preview_runner.py", line 110, in run_local_preview
+    paced,pacing_report=plan_slowed_pacing(plan, beats=grid, fps=60, slow_floor=slow_floor,
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/mozillaedit/setup/aive/slowed_pacing.py", line 577, in plan_slowed_pacing
+    raise ValueError(f"at least {min_clips} candidate rows required")
+ValueError: at least 4 candidate rows required

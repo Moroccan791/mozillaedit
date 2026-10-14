@@ -159,6 +159,31 @@ are fabricated. To compare an identical saved plan without replanning:
   --output-root E:\edits\comparison --style clean --encoder h264_qsv
 ```
 
+### Candidate slowed-song pacing (`--pacing slowed-song`)
+
+`local-preview --pacing slowed-song [--slow-floor 0.55]` retimes the candidate plan onto the song's
+*measured acoustic attacks* before rendering (`aive.slowed_pacing`, schema
+`candidate-pacing-map/v1`; renderer style `slowed-pacing`, clock kind
+`retimed-candidate-pacing`). Each row is split into measured burst clusters: a cluster keeps rigid 1x
+playback so gunshot transients are not smeared, and the gaps between clusters stretch with the C2
+quintic ease so the next cluster head - or the row's cut, where the next cut begins - lands on a
+measured attack. Per-gap stretch is bounded by the analytic playback floor (`--slow-floor`, at or above
+the encoder's `atempo` 0.5 limit) and by a per-row budget; rows whose main candidate cannot reach an
+attack are rendered rigid, or partial (stretched without a beat claim), and are reported as such.
+
+```powershell
+.\.venv\Scripts\python.exe edit.py local-preview --music E:\audio\slowed-song.mp3 `
+  --source E:\raw\clip.mp4 --profile <profile.json> --music-start 8 --duration 35 `
+  --pacing slowed-song --slow-floor 0.55 --output-root E:\edits\paced
+```
+
+Every render writes `pacing-report.json` (per-row clusters, shifts, snapped targets, playback floors)
+next to `timeline-1x-candidate.json` (the untouched 1x cut) and the retimed `timeline.json`. The
+renderer re-derives each row's map, rejects stale/hand-edited manifests, requires the report to
+declare every row exactly once, and refuses a beat-matched claim without its map. Anchors remain
+unreviewed candidate detections and the grid is measured attacks, not certified meter; lyrics are
+refused in this mode because the lyric/closure paths are 1x-only and fail closed on retimed clocks.
+
 Independent `aive.encounter_qa.verify_encounters()` checks decoded source/game,
 music and final-mix event windows, duplicates, loudness/clipping, export integrity
 and sparse visual heuristics. These correlation checks establish render-clock

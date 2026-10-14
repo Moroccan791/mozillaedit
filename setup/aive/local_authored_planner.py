@@ -108,6 +108,23 @@ def _hits(maps, ms, duration):
     return identity, sorted(distinct, key=lambda h: h["time"]), excerpts, len(hits)
 
 
+def _attack_window(row):
+    """Output-local [earliest, latest] measured attack position for a row.
+
+    Honours any pacing map declared on the row, so bridge/fade room is computed on
+    the clock that will actually be rendered instead of assuming 1x playback.
+    """
+    a = row["source_start"]
+    edges = [v for e in row["candidate_events"] for v in e["attack_interval"]]
+    document = row.get("pacing_map")
+    if document:
+        from .slowed_pacing import build_candidate_pacing_map
+        mapping = build_candidate_pacing_map(document)
+        mapped = [mapping.map(v - a) for v in edges]
+        return (row["output_start"] + min(mapped), row["output_start"] + max(mapped))
+    return (row["output_start"] + (min(edges) - a), row["output_start"] + (max(edges) - a))
+
+
 def _design(rows, assignments, fps):
     roles = ["impact"]*len(rows)
     roles[0], roles[-1] = "setup", "payoff"
@@ -123,17 +140,19 @@ def _design(rows, assignments, fps):
         for row, side in ((left, "out"), (right, "in")):
             phase = row["output_start"]-_rounded(row["output_start"], fps)/fps
             frames = _rounded(row["output_end"], fps)-_rounded(row["output_start"], fps)
+            first, last = _attack_window(row)
             if side == "in":
-                room = min(e["attack_interval"][0] for e in row["candidate_events"])-row["source_start"]+phase-.20
+                room = first-row["output_start"]+phase-.20
             else:
-                room = (frames-1)/fps-(max(e["attack_interval"][1] for e in row["candidate_events"])-row["source_start"]+phase)-.20
+                room = (frames-1)/fps-(last-row["output_start"]+phase)-.20
             count = min(count, math.floor(room*fps), frames//3)
         if count >= 2:
             bridges.append(dict(boundary=i, direction="left" if i%2 else "right", frames=count))
     last = rows[-1]
     phase = last["output_start"]-_rounded(last["output_start"], fps)/fps
     frames = _rounded(last["output_end"], fps)-_rounded(last["output_start"], fps)
-    room = (frames-1)/fps-(max(e["attack_interval"][1] for e in last["candidate_events"])-last["source_start"]+phase)-.20
+    _first, last_attack = _attack_window(last)
+    room = (frames-1)/fps-(last_attack-last["output_start"]+phase)-.20
     fade = min(round(.4*fps), math.floor(room*fps), frames//2)
     if not bridges or fade < 2:
         return None

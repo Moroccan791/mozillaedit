@@ -174,3 +174,24 @@ sample B (35.000 s, local-preview, Warden + Reflections 8→43 s), both warn-onl
 - Persisted JSON/report assertions are not authentication; source hashes bind bytes, not
   meaning. `perceptual_approval` stays false everywhere.
 - Update handoff docs + test logs whenever a milestone finishes.
+
+## Increment (2026-10-14, sandbox): slowed-song pacing + real samples
+
+- Samples delivered to `test-sample-mp4/`; user verdict: A "good", B pace wrong ("we should have
+  slowed down the pace of gunshots with the sound bcs reflection was a slowed song").
+- Diagnosis: A = 6 clips ~1.4 s, B = 11 clips ~3.18 s, both strict 1x, `timing_error_seconds` 0.0 -
+  the mismatch was pace, not offset; B rows carry 3-19 measured 15 ms shots 0.035-1.36 s apart.
+- User choice (asked explicitly): **gap slow-mo** with **auto** per-gap strength.
+- Built `setup/aive/slowed_pacing.py` (`candidate-pacing-map/v1`): burst clusters rigid 1x, C2-eased
+  gaps stretched onto measured attacks, cut snapping (a row ends where the next cut begins), per-gap
+  floor + per-row budget, rigid/partial rows declared. Renderer style `slowed-pacing`
+  (`retimed-candidate-pacing`) re-derives every map and rejects stale/contradictory declarations; the
+  plan duration bound counts only certified stretch. Runner/CLI wiring with artifacts
+  (`timeline-1x-candidate.json`, `pacing-report.json`) and post-render evidence checks.
+- Renders: Reflections v2 36.468 s (5 matched / 4 partial / 2 rigid, 11 gaps, 3 cuts) and mary on a
+  cross v2 37.436 s (7/3/1, 18 gaps, 5 cuts); claims 0.000000 s from the detected grid; protected
+  bursts = source PCM at 1x (0.00-sample alignment, -55 dB resample residual).
+- Tests: `setup/tests/test_slowed_pacing.py` (17) => suite 529 OK.
+- Open: the user's listen (the only acceptance signal); pacing room is song-limited; the planner
+  blocks for `--music-start` values with no detected attacks in the first seconds.
+

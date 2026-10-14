@@ -1,0 +1,4602 @@
+{
+  "schema_version": "encounter-render/v1",
+  "job_dir": "/home/user/mozillaedit/test-sample-mp4/local-preview-slowed-v2-reflections/job-v0001/renders/encounters-v0001",
+  "manifest_path": "/home/user/mozillaedit/test-sample-mp4/local-preview-slowed-v2-reflections/job-v0001/renders/encounters-v0001/render-manifest.json",
+  "output": "/home/user/mozillaedit/test-sample-mp4/local-preview-slowed-v2-reflections/job-v0001/renders/encounters-v0001/encounters.mp4",
+  "game_stem": "/home/user/mozillaedit/test-sample-mp4/local-preview-slowed-v2-reflections/job-v0001/renders/encounters-v0001/game-stem.wav",
+  "music_stem": "/home/user/mozillaedit/test-sample-mp4/local-preview-slowed-v2-reflections/job-v0001/renders/encounters-v0001/music-stem.wav",
+  "style": "slowed-pacing",
+  "clock_model": {
+    "schema": "render-clock-model/v1",
+    "kind": "retimed-candidate-pacing",
+    "style": "slowed-pacing",
+    "retimed": true,
+    "source_to_output": "rigid-burst-1x-eased-pre-shot-gap-candidate",
+    "mapped_rows": 11
+  },
+  "multishot_maps": null,
+  "combined_limitations": [],
+  "combined_style_policy": null,
+  "candidate_pacing_limitations": [
+    "Candidate-only auto-slowed pacing: anchors are unreviewed measured candidates, not reviewed shots or kills.",
+    "The target grid is measured acoustic attacks, not certified percussion, meter or musical taste.",
+    "Gunshot bursts keep rigid 1x playback inside their measured span; only the pre-shot approach gap is eased.",
+    "Rows without a certifiable target inside the declared playback bounds are dropped, never force-fitted.",
+    "musical_sync remains unverified; lyrics and closure QA refuse retimed clocks by design."
+  ],
+  "candidate_pacing_policy": "Candidate-only auto-slowed pacing; unreviewed measured anchors; no review, lyric, closure or perceptual certification.",
+  "authored_design": {
+    "schema_version": "authored-footage/v2",
+    "shots": [
+      {
+        "role": "setup",
+        "composition": "full"
+      },
+      {
+        "role": "impact",
+        "composition": "full"
+      },
+      {
+        "role": "impact",
+        "composition": "full"
+      },
+      {
+        "role": "impact",
+        "composition": "full"
+      },
+      {
+        "role": "contrast",
+        "composition": "inset"
+      },
+      {
+        "role": "impact",
+        "composition": "full"
+      },
+      {
+        "role": "impact",
+        "composition": "full"
+      },
+      {
+        "role": "impact",
+        "composition": "full"
+      },
+      {
+        "role": "impact",
+        "composition": "full"
+      },
+      {
+        "role": "impact",
+        "composition": "full"
+      },
+      {
+        "role": "payoff",
+        "composition": "full"
+      }
+    ],
+    "bridges": [
+      {
+        "boundary": 1,
+        "direction": "left",
+        "frames": 10
+      },
+      {
+        "boundary": 2,
+        "direction": "right",
+        "frames": 10
+      },
+      {
+        "boundary": 3,
+        "direction": "left",
+        "frames": 6
+      },
+      {
+        "boundary": 6,
+        "direction": "right",
+        "frames": 3
+      },
+      {
+        "boundary": 10,
+        "direction": "right",
+        "frames": 10
+      }
+    ],
+    "ending": {
+      "fade_frames": 17
+    },
+    "impacts": [
+      {
+        "clip_index": 0,
+        "output_time": 3.3220000000000027,
+        "frames": 6,
+        "strength": 0.33093615163600776
+      },
+      {
+        "clip_index": 1,
+        "output_time": 5.214999999999989,
+        "frames": 6,
+        "strength": 0.20927481991137317
+      },
+      {
+        "clip_index": 2,
+        "output_time": 7.571958333333333,
+        "frames": 6,
+        "strength": 0.20141208257484838
+      },
+      {
+        "clip_index": 3,
+        "output_time": 10.972,
+        "frames": 6,
+        "strength": 0.20670022904219637
+      },
+      {
+        "clip_index": 4,
+        "output_time": 14.717958333333383,
+        "frames": 6,
+        "strength": 0.20250136023434226
+      },
+      {
+        "clip_index": 5,
+        "output_time": 18.428000000000004,
+        "frames": 6,
+        "strength": 0.1634715499564853
+      },
+      {
+        "clip_index": 6,
+        "output_time": 21.044,
+        "frames": 6,
+        "strength": 0.1852876330603841
+      },
+      {
+        "clip_index": 7,
+        "output_time": 24.677958333333315,
+        "frames": 6,
+        "strength": 0.19151656153518556
+      },
+      {
+        "clip_index": 8,
+        "output_time": 28.58,
+        "frames": 6,
+        "strength": 0.17353325004364767
+      },
+      {
+        "clip_index": 9,
+        "output_time": 32.49014015151517,
+        "frames": 6,
+        "strength": 0.13285606866488026
+      },
+      {
+        "clip_index": 10,
+        "output_time": 34.66618181818178,
+        "frames": 6,
+        "strength": 0.16370809935209607
+      }
+    ]
+  },
+  "authored_limitations": [
+    "Paired directional edge reframing/smear across unchanged hard cuts, not an overlapping wipe or crossfade.",
+    "Inset duplicates the same decoded footage, not an unseen camera angle or isolated subject.",
+    "1x video and unchanged PCM/music clocks; no attack or aesthetic certification.",
+    "Supplied anchors, complete supplied attack intervals and map protected intervals are guarded; unknown attacks and unresolved fight bounds require independent review."
+  ],
+  "motion_audio_granularity_seconds": 0.1,
+  "motion_limitations": [],
+  "multishot_limitations": [],
+  "video_concat": "/home/user/mozillaedit/test-sample-mp4/local-preview-slowed-v2-reflections/job-v0001/renders/encounters-v0001/video.ffconcat",
+  "game_concat": "/home/user/mozillaedit/test-sample-mp4/local-preview-slowed-v2-reflections/job-v0001/renders/encounters-v0001/game.ffconcat",
+  "config": {
+    "width": 1280,
+    "height": 720,
+    "fps": 60,
+    "sample_rate": 48000,
+    "encoder": "libx264",
+    "fallback_encoder": null,
+    "quality": 21,
+    "preset": "veryfast",
+    "music_gain_db": -7,
+    "game_gain_db": -8,
+    "max_duration": 120.0,
+    "max_clip_duration": 30.0,
+    "max_clips": 64,
+    "max_source_duration": 86400.0,
+    "timeout": 600.0,
+    "ffmpeg": "ffmpeg",
+    "ffprobe": "ffprobe",
+    "style": "slowed-pacing"
+  },
+  "plan_duration": 36.4681818181818,
+  "video_duration": 36.46666666666667,
+  "audio_duration": 36.4681875,
+  "frame_count": 2188,
+  "sample_count": 1750473,
+  "music_start_sample": 384000,
+  "music_source": "/home/user/mozillaedit/audio/Reflections (slowed) - The Neighbourhood [Edit Audio].mp3",
+  "music_time_origin": "decoded sample zero after FFmpeg codec skip/encoder-delay handling",
+  "chunks": [
+    {
+      "source_start": 68.693,
+      "source_end": 72.815,
+      "output_start": 0.0,
+      "output_end": 4.122,
+      "music_start": 8.0,
+      "music_end": 12.122,
+      "speed": 1.0,
+      "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_z0ALKJiFRDU_Warden-is-Simply-Overpowered_002_720p.mp4",
+      "index": 0,
+      "frame_start": 0,
+      "frame_end": 247,
+      "frame_count": 247,
+      "sample_start": 0,
+      "sample_end": 197856,
+      "sample_count": 197856,
+      "source_sample_start": 3297264,
+      "source_sample_end": 3495120,
+      "video_phase_seconds": 0.0,
+      "events": [],
+      "pacing_map": {
+        "schema_version": "candidate-pacing-map/v1",
+        "anchor_origin": "unreviewed-candidate-detector",
+        "reviewed_input": false,
+        "burst_gap_seconds": 0.18,
+        "slow_floor": 0.55,
+        "duration": 4.122,
+        "output_duration": 4.122,
+        "shift_total": 0.0,
+        "stretch_ratio": 1.0,
+        "clusters": [
+          [
+            0.38700000000000045,
+            0.402000000000001
+          ],
+          [
+            1.2920000000000016,
+            1.3569999999999993
+          ],
+          [
+            1.6020000000000039,
+            1.6170000000000044
+          ],
+          [
+            1.8419999999999987,
+            1.8569999999999993
+          ],
+          [
+            2.0720000000000027,
+            2.0870000000000033
+          ],
+          [
+            2.6269999999999953,
+            2.641999999999996
+          ],
+          [
+            2.852000000000004,
+            3.332000000000008
+          ]
+        ],
+        "shifts": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "unsnapped_clusters": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "anchor_source_time": 72.015,
+        "beat_music_time": 11.322,
+        "beat_matched": true,
+        "tail_shift": 0.0,
+        "tail_beat_music_time": null,
+        "min_speed": 1.0,
+        "max_speed": 1.0,
+        "clauses": [
+          {
+            "source_seconds": 4.122,
+            "output_seconds": 4.122,
+            "playback_floor": 1.0
+          }
+        ],
+        "clocks": {
+          "source_origin": 68.693,
+          "source_endpoint": 72.815,
+          "target_origin": 8.0,
+          "target_endpoint": 12.122
+        },
+        "limitations": [
+          "Candidate pacing only: anchors are unreviewed local acoustic/video candidates, not reviewed shots or kills.",
+          "The target grid is measured acoustic attacks, not certified percussion, meter or musical taste.",
+          "Playback is slowed only in the gaps between measured burst clusters; each cluster keeps rigid 1x playback so gunshot transients are not smeared.",
+          "Gap slow-motion cannot go below the engine's atempo range, so the declared floor stays at or above 0.5 with a small margin for rounded slice edges.",
+          "No interval is ever sped up: gaps keep 1x or stretch, bounded by the declared slow floor and per-row budget.",
+          "Gap capacity is the inverse of the same analytic C2 bound the map certifies with, so no gap can overshoot the floor.",
+          "Clusters and rows without a reachable measured attack stay at 1x and are reported as unsnapped/rigid; nothing is force-fitted or invented.",
+          "musical_sync remains unverified; no lyric/closure integration exists for retimed clocks."
+        ]
+      },
+      "audio_segments": [
+        {
+          "source_start_sample": 3297264,
+          "source_end_sample": 3315840,
+          "output_start_sample": 0,
+          "output_end_sample": 18576,
+          "count": 18576,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 3315840,
+          "source_end_sample": 3316560,
+          "output_start_sample": 18576,
+          "output_end_sample": 19296,
+          "count": 720,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 3316560,
+          "source_end_sample": 3359280,
+          "output_start_sample": 19296,
+          "output_end_sample": 62016,
+          "count": 42720,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 3359280,
+          "source_end_sample": 3362400,
+          "output_start_sample": 62016,
+          "output_end_sample": 65136,
+          "count": 3120,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 3362400,
+          "source_end_sample": 3374160,
+          "output_start_sample": 65136,
+          "output_end_sample": 76896,
+          "count": 11760,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 3374160,
+          "source_end_sample": 3374880,
+          "output_start_sample": 76896,
+          "output_end_sample": 77616,
+          "count": 720,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 3374880,
+          "source_end_sample": 3385680,
+          "output_start_sample": 77616,
+          "output_end_sample": 88416,
+          "count": 10800,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 3385680,
+          "source_end_sample": 3386400,
+          "output_start_sample": 88416,
+          "output_end_sample": 89136,
+          "count": 720,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 3386400,
+          "source_end_sample": 3396720,
+          "output_start_sample": 89136,
+          "output_end_sample": 99456,
+          "count": 10320,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 3396720,
+          "source_end_sample": 3397440,
+          "output_start_sample": 99456,
+          "output_end_sample": 100176,
+          "count": 720,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 3397440,
+          "source_end_sample": 3423360,
+          "output_start_sample": 100176,
+          "output_end_sample": 126096,
+          "count": 25920,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 3423360,
+          "source_end_sample": 3424080,
+          "output_start_sample": 126096,
+          "output_end_sample": 126816,
+          "count": 720,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 3424080,
+          "source_end_sample": 3434160,
+          "output_start_sample": 126816,
+          "output_end_sample": 136896,
+          "count": 10080,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 3434160,
+          "source_end_sample": 3457200,
+          "output_start_sample": 136896,
+          "output_end_sample": 159936,
+          "count": 23040,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 3457200,
+          "source_end_sample": 3495120,
+          "output_start_sample": 159936,
+          "output_end_sample": 197856,
+          "count": 37920,
+          "speed": 1.0,
+          "identity": true
+        }
+      ],
+      "authored_shot": {
+        "role": "setup",
+        "composition": "full"
+      },
+      "authored_edges": [
+        {
+          "side": "out",
+          "frames": 10,
+          "direction": "left",
+          "boundary": 1
+        }
+      ],
+      "authored_impacts": [
+        {
+          "clip_index": 0,
+          "output_time": 3.3220000000000027,
+          "frames": 6,
+          "strength": 0.33093615163600776,
+          "start_frame": 197,
+          "end_frame": 202,
+          "center_frame": 199
+        }
+      ],
+      "authored_design": {
+        "schema_version": "authored-footage/v2",
+        "shots": [
+          {
+            "role": "setup",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "contrast",
+            "composition": "inset"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "payoff",
+            "composition": "full"
+          }
+        ],
+        "bridges": [
+          {
+            "boundary": 1,
+            "direction": "left",
+            "frames": 10
+          },
+          {
+            "boundary": 2,
+            "direction": "right",
+            "frames": 10
+          },
+          {
+            "boundary": 3,
+            "direction": "left",
+            "frames": 6
+          },
+          {
+            "boundary": 6,
+            "direction": "right",
+            "frames": 3
+          },
+          {
+            "boundary": 10,
+            "direction": "right",
+            "frames": 10
+          }
+        ],
+        "ending": {
+          "fade_frames": 17
+        },
+        "impacts": [
+          {
+            "clip_index": 0,
+            "output_time": 3.3220000000000027,
+            "frames": 6,
+            "strength": 0.33093615163600776
+          },
+          {
+            "clip_index": 1,
+            "output_time": 5.214999999999989,
+            "frames": 6,
+            "strength": 0.20927481991137317
+          },
+          {
+            "clip_index": 2,
+            "output_time": 7.571958333333333,
+            "frames": 6,
+            "strength": 0.20141208257484838
+          },
+          {
+            "clip_index": 3,
+            "output_time": 10.972,
+            "frames": 6,
+            "strength": 0.20670022904219637
+          },
+          {
+            "clip_index": 4,
+            "output_time": 14.717958333333383,
+            "frames": 6,
+            "strength": 0.20250136023434226
+          },
+          {
+            "clip_index": 5,
+            "output_time": 18.428000000000004,
+            "frames": 6,
+            "strength": 0.1634715499564853
+          },
+          {
+            "clip_index": 6,
+            "output_time": 21.044,
+            "frames": 6,
+            "strength": 0.1852876330603841
+          },
+          {
+            "clip_index": 7,
+            "output_time": 24.677958333333315,
+            "frames": 6,
+            "strength": 0.19151656153518556
+          },
+          {
+            "clip_index": 8,
+            "output_time": 28.58,
+            "frames": 6,
+            "strength": 0.17353325004364767
+          },
+          {
+            "clip_index": 9,
+            "output_time": 32.49014015151517,
+            "frames": 6,
+            "strength": 0.13285606866488026
+          },
+          {
+            "clip_index": 10,
+            "output_time": 34.66618181818178,
+            "frames": 6,
+            "strength": 0.16370809935209607
+          }
+        ]
+      },
+      "combined_limitations": [],
+      "video": "/home/user/mozillaedit/test-sample-mp4/local-preview-slowed-v2-reflections/job-v0001/renders/encounters-v0001/clip-000-libx264.mp4",
+      "game_audio": "/home/user/mozillaedit/test-sample-mp4/local-preview-slowed-v2-reflections/job-v0001/renders/encounters-v0001/game-000.wav",
+      "encoder": "libx264",
+      "source_audio_end_rounding_seconds": 0.0
+    },
+    {
+      "source_start": 252.132,
+      "source_end": 254.132,
+      "output_start": 4.122,
+      "output_end": 6.216000000000001,
+      "music_start": 12.122,
+      "music_end": 14.216000000000001,
+      "speed": 1.0,
+      "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_z0ALKJiFRDU_Warden-is-Simply-Overpowered_002_720p.mp4",
+      "index": 1,
+      "frame_start": 247,
+      "frame_end": 373,
+      "frame_count": 126,
+      "sample_start": 197856,
+      "sample_end": 298368,
+      "sample_count": 100512,
+      "source_sample_start": 12102336,
+      "source_sample_end": 12198336,
+      "video_phase_seconds": 0.005333333333333634,
+      "events": [],
+      "pacing_map": {
+        "schema_version": "candidate-pacing-map/v1",
+        "anchor_origin": "unreviewed-candidate-detector",
+        "reviewed_input": false,
+        "burst_gap_seconds": 0.18,
+        "slow_floor": 0.55,
+        "duration": 2.0,
+        "output_duration": 2.094000000000001,
+        "shift_total": 0.0940000000000012,
+        "stretch_ratio": 1.0470000000000006,
+        "clusters": [
+          [
+            0.8429999999999893,
+            1.1030000000000086
+          ]
+        ],
+        "shifts": [
+          1.0658141036401503e-14
+        ],
+        "unsnapped_clusters": [],
+        "anchor_source_time": 253.225,
+        "beat_music_time": 13.215,
+        "beat_matched": true,
+        "tail_shift": 0.0940000000000012,
+        "tail_beat_music_time": 14.216000000000001,
+        "min_speed": 0.8357791754018242,
+        "max_speed": 1.0000000000000075,
+        "clauses": [
+          {
+            "source_seconds": 2.0,
+            "output_seconds": 2.094000000000001,
+            "playback_floor": 0.8357791754018242
+          }
+        ],
+        "clocks": {
+          "source_origin": 252.132,
+          "source_endpoint": 254.132,
+          "target_origin": 12.122,
+          "target_endpoint": 14.216000000000001
+        },
+        "limitations": [
+          "Candidate pacing only: anchors are unreviewed local acoustic/video candidates, not reviewed shots or kills.",
+          "The target grid is measured acoustic attacks, not certified percussion, meter or musical taste.",
+          "Playback is slowed only in the gaps between measured burst clusters; each cluster keeps rigid 1x playback so gunshot transients are not smeared.",
+          "Gap slow-motion cannot go below the engine's atempo range, so the declared floor stays at or above 0.5 with a small margin for rounded slice edges.",
+          "No interval is ever sped up: gaps keep 1x or stretch, bounded by the declared slow floor and per-row budget.",
+          "Gap capacity is the inverse of the same analytic C2 bound the map certifies with, so no gap can overshoot the floor.",
+          "Clusters and rows without a reachable measured attack stay at 1x and are reported as unsnapped/rigid; nothing is force-fitted or invented.",
+          "musical_sync remains unverified; no lyric/closure integration exists for retimed clocks."
+        ]
+      },
+      "audio_segments": [
+        {
+          "source_start_sample": 12102336,
+          "source_end_sample": 12142800,
+          "output_start_sample": 0,
+          "output_end_sample": 40464,
+          "count": 40464,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 12142800,
+          "source_end_sample": 12155280,
+          "output_start_sample": 40464,
+          "output_end_sample": 52944,
+          "count": 12480,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 12155280,
+          "source_end_sample": 12198336,
+          "output_start_sample": 52944,
+          "output_end_sample": 100512,
+          "count": 47568,
+          "speed": 1.0,
+          "identity": true
+        }
+      ],
+      "authored_shot": {
+        "role": "impact",
+        "composition": "full"
+      },
+      "authored_edges": [
+        {
+          "side": "in",
+          "frames": 10,
+          "direction": "left",
+          "boundary": 1
+        },
+        {
+          "side": "out",
+          "frames": 10,
+          "direction": "right",
+          "boundary": 2
+        }
+      ],
+      "authored_impacts": [
+        {
+          "clip_index": 1,
+          "output_time": 5.214999999999989,
+          "frames": 6,
+          "strength": 0.20927481991137317,
+          "start_frame": 64,
+          "end_frame": 69,
+          "center_frame": 66
+        }
+      ],
+      "authored_design": {
+        "schema_version": "authored-footage/v2",
+        "shots": [
+          {
+            "role": "setup",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "contrast",
+            "composition": "inset"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "payoff",
+            "composition": "full"
+          }
+        ],
+        "bridges": [
+          {
+            "boundary": 1,
+            "direction": "left",
+            "frames": 10
+          },
+          {
+            "boundary": 2,
+            "direction": "right",
+            "frames": 10
+          },
+          {
+            "boundary": 3,
+            "direction": "left",
+            "frames": 6
+          },
+          {
+            "boundary": 6,
+            "direction": "right",
+            "frames": 3
+          },
+          {
+            "boundary": 10,
+            "direction": "right",
+            "frames": 10
+          }
+        ],
+        "ending": {
+          "fade_frames": 17
+        },
+        "impacts": [
+          {
+            "clip_index": 0,
+            "output_time": 3.3220000000000027,
+            "frames": 6,
+            "strength": 0.33093615163600776
+          },
+          {
+            "clip_index": 1,
+            "output_time": 5.214999999999989,
+            "frames": 6,
+            "strength": 0.20927481991137317
+          },
+          {
+            "clip_index": 2,
+            "output_time": 7.571958333333333,
+            "frames": 6,
+            "strength": 0.20141208257484838
+          },
+          {
+            "clip_index": 3,
+            "output_time": 10.972,
+            "frames": 6,
+            "strength": 0.20670022904219637
+          },
+          {
+            "clip_index": 4,
+            "output_time": 14.717958333333383,
+            "frames": 6,
+            "strength": 0.20250136023434226
+          },
+          {
+            "clip_index": 5,
+            "output_time": 18.428000000000004,
+            "frames": 6,
+            "strength": 0.1634715499564853
+          },
+          {
+            "clip_index": 6,
+            "output_time": 21.044,
+            "frames": 6,
+            "strength": 0.1852876330603841
+          },
+          {
+            "clip_index": 7,
+            "output_time": 24.677958333333315,
+            "frames": 6,
+            "strength": 0.19151656153518556
+          },
+          {
+            "clip_index": 8,
+            "output_time": 28.58,
+            "frames": 6,
+            "strength": 0.17353325004364767
+          },
+          {
+            "clip_index": 9,
+            "output_time": 32.49014015151517,
+            "frames": 6,
+            "strength": 0.13285606866488026
+          },
+          {
+            "clip_index": 10,
+            "output_time": 34.66618181818178,
+            "frames": 6,
+            "strength": 0.16370809935209607
+          }
+        ]
+      },
+      "combined_limitations": [],
+      "video": "/home/user/mozillaedit/test-sample-mp4/local-preview-slowed-v2-reflections/job-v0001/renders/encounters-v0001/clip-001-libx264.mp4",
+      "game_audio": "/home/user/mozillaedit/test-sample-mp4/local-preview-slowed-v2-reflections/job-v0001/renders/encounters-v0001/game-001.wav",
+      "encoder": "libx264",
+      "source_audio_end_rounding_seconds": 0.0
+    },
+    {
+      "source_start": 435.41700000000003,
+      "source_end": 438.5988181818182,
+      "output_start": 6.216000000000001,
+      "output_end": 9.55577651515154,
+      "music_start": 14.216000000000001,
+      "music_end": 17.555776515151543,
+      "speed": 1.0,
+      "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_z0ALKJiFRDU_Warden-is-Simply-Overpowered_002_720p.mp4",
+      "index": 2,
+      "frame_start": 373,
+      "frame_end": 573,
+      "frame_count": 200,
+      "sample_start": 298368,
+      "sample_end": 458677,
+      "sample_count": 160309,
+      "source_sample_start": 20900016,
+      "source_sample_end": 21052743,
+      "video_phase_seconds": -0.0006666666666657051,
+      "events": [],
+      "pacing_map": {
+        "schema_version": "candidate-pacing-map/v1",
+        "anchor_origin": "unreviewed-candidate-detector",
+        "reviewed_input": false,
+        "burst_gap_seconds": 0.18,
+        "slow_floor": 0.55,
+        "duration": 3.181818181818187,
+        "output_duration": 3.3397765151515397,
+        "shift_total": 0.15795833333335274,
+        "stretch_ratio": 1.0496440476190536,
+        "clusters": [
+          [
+            0.45299999999997453,
+            0.4679999999999609
+          ],
+          [
+            0.7929999999999495,
+            0.8079999999999927
+          ],
+          [
+            1.0979999999999563,
+            1.3029999999999973
+          ],
+          [
+            1.7929999999999495,
+            1.8079999999999927
+          ],
+          [
+            2.2929999999999495,
+            2.6829999999999927
+          ]
+        ],
+        "shifts": [
+          0.0,
+          0.14095833333338348,
+          0.15795833333335274,
+          0.15795833333335274,
+          0.15795833333335274
+        ],
+        "unsnapped_clusters": [
+          0,
+          3,
+          4
+        ],
+        "anchor_source_time": 436.615,
+        "beat_music_time": 15.571958333333333,
+        "beat_matched": true,
+        "tail_shift": 0.15795833333335274,
+        "tail_beat_music_time": null,
+        "min_speed": 0.5515047063501596,
+        "max_speed": 1.0000000000000075,
+        "clauses": [
+          {
+            "source_seconds": 3.181818181818187,
+            "output_seconds": 3.3397765151515397,
+            "playback_floor": 0.5515047063501596
+          }
+        ],
+        "clocks": {
+          "source_origin": 435.41700000000003,
+          "source_endpoint": 438.5988181818182,
+          "target_origin": 14.216000000000001,
+          "target_endpoint": 17.555776515151543
+        },
+        "limitations": [
+          "Candidate pacing only: anchors are unreviewed local acoustic/video candidates, not reviewed shots or kills.",
+          "The target grid is measured acoustic attacks, not certified percussion, meter or musical taste.",
+          "Playback is slowed only in the gaps between measured burst clusters; each cluster keeps rigid 1x playback so gunshot transients are not smeared.",
+          "Gap slow-motion cannot go below the engine's atempo range, so the declared floor stays at or above 0.5 with a small margin for rounded slice edges.",
+          "No interval is ever sped up: gaps keep 1x or stretch, bounded by the declared slow floor and per-row budget.",
+          "Gap capacity is the inverse of the same analytic C2 bound the map certifies with, so no gap can overshoot the floor.",
+          "Clusters and rows without a reachable measured attack stay at 1x and are reported as unsnapped/rigid; nothing is force-fitted or invented.",
+          "musical_sync remains unverified; no lyric/closure integration exists for retimed clocks."
+        ]
+      },
+      "audio_segments": [
+        {
+          "source_start_sample": 20900016,
+          "source_end_sample": 20921760,
+          "output_start_sample": 0,
+          "output_end_sample": 21744,
+          "count": 21744,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 20921760,
+          "source_end_sample": 20922480,
+          "output_start_sample": 21744,
+          "output_end_sample": 22464,
+          "count": 720,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 20922480,
+          "source_end_sample": 20926380,
+          "output_start_sample": 22464,
+          "output_end_sample": 27064,
+          "count": 4600,
+          "speed": 0.8478260869565217,
+          "identity": false
+        },
+        {
+          "source_start_sample": 20926380,
+          "source_end_sample": 20930280,
+          "output_start_sample": 27064,
+          "output_end_sample": 33647,
+          "count": 6583,
+          "speed": 0.5924350600030381,
+          "identity": false
+        },
+        {
+          "source_start_sample": 20930280,
+          "source_end_sample": 20934180,
+          "output_start_sample": 33647,
+          "output_end_sample": 40230,
+          "count": 6583,
+          "speed": 0.5924350600030381,
+          "identity": false
+        },
+        {
+          "source_start_sample": 20934180,
+          "source_end_sample": 20938080,
+          "output_start_sample": 40230,
+          "output_end_sample": 44830,
+          "count": 4600,
+          "speed": 0.8478260869565217,
+          "identity": false
+        },
+        {
+          "source_start_sample": 20938080,
+          "source_end_sample": 20938800,
+          "output_start_sample": 44830,
+          "output_end_sample": 45550,
+          "count": 720,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 20938800,
+          "source_end_sample": 20943440,
+          "output_start_sample": 45550,
+          "output_end_sample": 50361,
+          "count": 4811,
+          "speed": 0.9644564539596757,
+          "identity": false
+        },
+        {
+          "source_start_sample": 20943440,
+          "source_end_sample": 20948080,
+          "output_start_sample": 50361,
+          "output_end_sample": 55475,
+          "count": 5114,
+          "speed": 0.9073132577238952,
+          "identity": false
+        },
+        {
+          "source_start_sample": 20948080,
+          "source_end_sample": 20952720,
+          "output_start_sample": 55475,
+          "output_end_sample": 60286,
+          "count": 4811,
+          "speed": 0.9644564539596757,
+          "identity": false
+        },
+        {
+          "source_start_sample": 20952720,
+          "source_end_sample": 20962560,
+          "output_start_sample": 60286,
+          "output_end_sample": 70126,
+          "count": 9840,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 20962560,
+          "source_end_sample": 20986080,
+          "output_start_sample": 70126,
+          "output_end_sample": 93646,
+          "count": 23520,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 20986080,
+          "source_end_sample": 20986800,
+          "output_start_sample": 93646,
+          "output_end_sample": 94366,
+          "count": 720,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 20986800,
+          "source_end_sample": 21010080,
+          "output_start_sample": 94366,
+          "output_end_sample": 117646,
+          "count": 23280,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 21010080,
+          "source_end_sample": 21028800,
+          "output_start_sample": 117646,
+          "output_end_sample": 136366,
+          "count": 18720,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 21028800,
+          "source_end_sample": 21052743,
+          "output_start_sample": 136366,
+          "output_end_sample": 160309,
+          "count": 23943,
+          "speed": 1.0,
+          "identity": true
+        }
+      ],
+      "authored_shot": {
+        "role": "impact",
+        "composition": "full"
+      },
+      "authored_edges": [
+        {
+          "side": "in",
+          "frames": 10,
+          "direction": "right",
+          "boundary": 2
+        },
+        {
+          "side": "out",
+          "frames": 6,
+          "direction": "left",
+          "boundary": 3
+        }
+      ],
+      "authored_impacts": [
+        {
+          "clip_index": 2,
+          "output_time": 7.571958333333333,
+          "frames": 6,
+          "strength": 0.20141208257484838,
+          "start_frame": 79,
+          "end_frame": 84,
+          "center_frame": 81
+        }
+      ],
+      "authored_design": {
+        "schema_version": "authored-footage/v2",
+        "shots": [
+          {
+            "role": "setup",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "contrast",
+            "composition": "inset"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "payoff",
+            "composition": "full"
+          }
+        ],
+        "bridges": [
+          {
+            "boundary": 1,
+            "direction": "left",
+            "frames": 10
+          },
+          {
+            "boundary": 2,
+            "direction": "right",
+            "frames": 10
+          },
+          {
+            "boundary": 3,
+            "direction": "left",
+            "frames": 6
+          },
+          {
+            "boundary": 6,
+            "direction": "right",
+            "frames": 3
+          },
+          {
+            "boundary": 10,
+            "direction": "right",
+            "frames": 10
+          }
+        ],
+        "ending": {
+          "fade_frames": 17
+        },
+        "impacts": [
+          {
+            "clip_index": 0,
+            "output_time": 3.3220000000000027,
+            "frames": 6,
+            "strength": 0.33093615163600776
+          },
+          {
+            "clip_index": 1,
+            "output_time": 5.214999999999989,
+            "frames": 6,
+            "strength": 0.20927481991137317
+          },
+          {
+            "clip_index": 2,
+            "output_time": 7.571958333333333,
+            "frames": 6,
+            "strength": 0.20141208257484838
+          },
+          {
+            "clip_index": 3,
+            "output_time": 10.972,
+            "frames": 6,
+            "strength": 0.20670022904219637
+          },
+          {
+            "clip_index": 4,
+            "output_time": 14.717958333333383,
+            "frames": 6,
+            "strength": 0.20250136023434226
+          },
+          {
+            "clip_index": 5,
+            "output_time": 18.428000000000004,
+            "frames": 6,
+            "strength": 0.1634715499564853
+          },
+          {
+            "clip_index": 6,
+            "output_time": 21.044,
+            "frames": 6,
+            "strength": 0.1852876330603841
+          },
+          {
+            "clip_index": 7,
+            "output_time": 24.677958333333315,
+            "frames": 6,
+            "strength": 0.19151656153518556
+          },
+          {
+            "clip_index": 8,
+            "output_time": 28.58,
+            "frames": 6,
+            "strength": 0.17353325004364767
+          },
+          {
+            "clip_index": 9,
+            "output_time": 32.49014015151517,
+            "frames": 6,
+            "strength": 0.13285606866488026
+          },
+          {
+            "clip_index": 10,
+            "output_time": 34.66618181818178,
+            "frames": 6,
+            "strength": 0.16370809935209607
+          }
+        ]
+      },
+      "combined_limitations": [],
+      "video": "/home/user/mozillaedit/test-sample-mp4/local-preview-slowed-v2-reflections/job-v0001/renders/encounters-v0001/clip-002-libx264.mp4",
+      "game_audio": "/home/user/mozillaedit/test-sample-mp4/local-preview-slowed-v2-reflections/job-v0001/renders/encounters-v0001/game-002.wav",
+      "encoder": "libx264",
+      "source_audio_end_rounding_seconds": -5.681818208813638e-06
+    },
+    {
+      "source_start": 410.2868181818182,
+      "source_end": 413.7868181818182,
+      "output_start": 9.55577651515154,
+      "output_end": 13.229776515151555,
+      "music_start": 17.555776515151543,
+      "music_end": 21.229776515151556,
+      "speed": 1.0,
+      "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_z0ALKJiFRDU_Warden-is-Simply-Overpowered_002_720p.mp4",
+      "index": 3,
+      "frame_start": 573,
+      "frame_end": 794,
+      "frame_count": 221,
+      "sample_start": 458677,
+      "sample_end": 635029,
+      "sample_count": 176352,
+      "source_sample_start": 19693767,
+      "source_sample_end": 19861767,
+      "video_phase_seconds": 0.005776515151540096,
+      "events": [],
+      "pacing_map": {
+        "schema_version": "candidate-pacing-map/v1",
+        "anchor_origin": "unreviewed-candidate-detector",
+        "reviewed_input": false,
+        "burst_gap_seconds": 0.18,
+        "slow_floor": 0.55,
+        "duration": 3.5,
+        "output_duration": 3.6740000000000137,
+        "shift_total": 0.1740000000000137,
+        "stretch_ratio": 1.0497142857142896,
+        "clusters": [
+          [
+            0.3081818181818221,
+            0.32318181818180847
+          ],
+          [
+            0.5081818181818107,
+            0.5231818181817971
+          ],
+          [
+            0.8031818181817698,
+            0.818181818181813
+          ],
+          [
+            1.3731818181818198,
+            1.3881818181818062
+          ],
+          [
+            1.5881818181817948,
+            1.6031818181817812
+          ],
+          [
+            2.418181818181779,
+            3.228181818181781
+          ]
+        ],
+        "shifts": [
+          0.0,
+          0.0,
+          0.0,
+          0.03804166666664344,
+          0.03804166666664344,
+          0.1740000000000137
+        ],
+        "unsnapped_clusters": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "anchor_source_time": 411.665,
+        "beat_music_time": 18.972,
+        "beat_matched": true,
+        "tail_shift": 0.1740000000000137,
+        "tail_beat_music_time": null,
+        "min_speed": 0.7617378605329871,
+        "max_speed": 1.0000000000000075,
+        "clauses": [
+          {
+            "source_seconds": 3.5,
+            "output_seconds": 3.6740000000000137,
+            "playback_floor": 0.7617378605329871
+          }
+        ],
+        "clocks": {
+          "source_origin": 410.2868181818182,
+          "source_endpoint": 413.7868181818182,
+          "target_origin": 17.555776515151543,
+          "target_endpoint": 21.229776515151556
+        },
+        "limitations": [
+          "Candidate pacing only: anchors are unreviewed local acoustic/video candidates, not reviewed shots or kills.",
+          "The target grid is measured acoustic attacks, not certified percussion, meter or musical taste.",
+          "Playback is slowed only in the gaps between measured burst clusters; each cluster keeps rigid 1x playback so gunshot transients are not smeared.",
+          "Gap slow-motion cannot go below the engine's atempo range, so the declared floor stays at or above 0.5 with a small margin for rounded slice edges.",
+          "No interval is ever sped up: gaps keep 1x or stretch, bounded by the declared slow floor and per-row budget.",
+          "Gap capacity is the inverse of the same analytic C2 bound the map certifies with, so no gap can overshoot the floor.",
+          "Clusters and rows without a reachable measured attack stay at 1x and are reported as unsnapped/rigid; nothing is force-fitted or invented.",
+          "musical_sync remains unverified; no lyric/closure integration exists for retimed clocks."
+        ]
+      },
+      "audio_segments": [
+        {
+          "source_start_sample": 19693767,
+          "source_end_sample": 19708560,
+          "output_start_sample": 0,
+          "output_end_sample": 14793,
+          "count": 14793,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 19708560,
+          "source_end_sample": 19709280,
+          "output_start_sample": 14793,
+          "output_end_sample": 15513,
+          "count": 720,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 19709280,
+          "source_end_sample": 19718160,
+          "output_start_sample": 15513,
+          "output_end_sample": 24393,
+          "count": 8880,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 19718160,
+          "source_end_sample": 19718880,
+          "output_start_sample": 24393,
+          "output_end_sample": 25113,
+          "count": 720,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 19718880,
+          "source_end_sample": 19732320,
+          "output_start_sample": 25113,
+          "output_end_sample": 38553,
+          "count": 13440,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 19732320,
+          "source_end_sample": 19733040,
+          "output_start_sample": 38553,
+          "output_end_sample": 39273,
+          "count": 720,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 19733040,
+          "source_end_sample": 19737480,
+          "output_start_sample": 39273,
+          "output_end_sample": 43778,
+          "count": 4505,
+          "speed": 0.9855715871254163,
+          "identity": false
+        },
+        {
+          "source_start_sample": 19737480,
+          "source_end_sample": 19741920,
+          "output_start_sample": 43778,
+          "output_end_sample": 48536,
+          "count": 4758,
+          "speed": 0.9331651954602774,
+          "identity": false
+        },
+        {
+          "source_start_sample": 19741920,
+          "source_end_sample": 19746360,
+          "output_start_sample": 48536,
+          "output_end_sample": 53506,
+          "count": 4970,
+          "speed": 0.8933601609657947,
+          "identity": false
+        },
+        {
+          "source_start_sample": 19746360,
+          "source_end_sample": 19750800,
+          "output_start_sample": 53506,
+          "output_end_sample": 58476,
+          "count": 4970,
+          "speed": 0.8933601609657947,
+          "identity": false
+        },
+        {
+          "source_start_sample": 19750800,
+          "source_end_sample": 19755240,
+          "output_start_sample": 58476,
+          "output_end_sample": 63234,
+          "count": 4758,
+          "speed": 0.9331651954602774,
+          "identity": false
+        },
+        {
+          "source_start_sample": 19755240,
+          "source_end_sample": 19759680,
+          "output_start_sample": 63234,
+          "output_end_sample": 67739,
+          "count": 4505,
+          "speed": 0.9855715871254163,
+          "identity": false
+        },
+        {
+          "source_start_sample": 19759680,
+          "source_end_sample": 19760400,
+          "output_start_sample": 67739,
+          "output_end_sample": 68459,
+          "count": 720,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 19760400,
+          "source_end_sample": 19770000,
+          "output_start_sample": 68459,
+          "output_end_sample": 78059,
+          "count": 9600,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 19770000,
+          "source_end_sample": 19770720,
+          "output_start_sample": 78059,
+          "output_end_sample": 78779,
+          "count": 720,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 19770720,
+          "source_end_sample": 19775067,
+          "output_start_sample": 78779,
+          "output_end_sample": 83201,
+          "count": 4422,
+          "speed": 0.9830393487109905,
+          "identity": false
+        },
+        {
+          "source_start_sample": 19775067,
+          "source_end_sample": 19779413,
+          "output_start_sample": 83201,
+          "output_end_sample": 87971,
+          "count": 4770,
+          "speed": 0.9111111111111111,
+          "identity": false
+        },
+        {
+          "source_start_sample": 19779413,
+          "source_end_sample": 19783760,
+          "output_start_sample": 87971,
+          "output_end_sample": 93189,
+          "count": 5218,
+          "speed": 0.8330778075891146,
+          "identity": false
+        },
+        {
+          "source_start_sample": 19783760,
+          "source_end_sample": 19788107,
+          "output_start_sample": 93189,
+          "output_end_sample": 98754,
+          "count": 5565,
+          "speed": 0.7811320754716982,
+          "identity": false
+        },
+        {
+          "source_start_sample": 19788107,
+          "source_end_sample": 19792453,
+          "output_start_sample": 98754,
+          "output_end_sample": 104450,
+          "count": 5696,
+          "speed": 0.7629915730337079,
+          "identity": false
+        },
+        {
+          "source_start_sample": 19792453,
+          "source_end_sample": 19796800,
+          "output_start_sample": 104450,
+          "output_end_sample": 110015,
+          "count": 5565,
+          "speed": 0.7811320754716982,
+          "identity": false
+        },
+        {
+          "source_start_sample": 19796800,
+          "source_end_sample": 19801147,
+          "output_start_sample": 110015,
+          "output_end_sample": 115233,
+          "count": 5218,
+          "speed": 0.8330778075891146,
+          "identity": false
+        },
+        {
+          "source_start_sample": 19801147,
+          "source_end_sample": 19805493,
+          "output_start_sample": 115233,
+          "output_end_sample": 120003,
+          "count": 4770,
+          "speed": 0.9111111111111111,
+          "identity": false
+        },
+        {
+          "source_start_sample": 19805493,
+          "source_end_sample": 19809840,
+          "output_start_sample": 120003,
+          "output_end_sample": 124425,
+          "count": 4422,
+          "speed": 0.9830393487109905,
+          "identity": false
+        },
+        {
+          "source_start_sample": 19809840,
+          "source_end_sample": 19848720,
+          "output_start_sample": 124425,
+          "output_end_sample": 163305,
+          "count": 38880,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 19848720,
+          "source_end_sample": 19861767,
+          "output_start_sample": 163305,
+          "output_end_sample": 176352,
+          "count": 13047,
+          "speed": 1.0,
+          "identity": true
+        }
+      ],
+      "authored_shot": {
+        "role": "impact",
+        "composition": "full"
+      },
+      "authored_edges": [
+        {
+          "side": "in",
+          "frames": 6,
+          "direction": "left",
+          "boundary": 3
+        }
+      ],
+      "authored_impacts": [
+        {
+          "clip_index": 3,
+          "output_time": 10.972,
+          "frames": 6,
+          "strength": 0.20670022904219637,
+          "start_frame": 83,
+          "end_frame": 88,
+          "center_frame": 85
+        }
+      ],
+      "authored_design": {
+        "schema_version": "authored-footage/v2",
+        "shots": [
+          {
+            "role": "setup",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "contrast",
+            "composition": "inset"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "payoff",
+            "composition": "full"
+          }
+        ],
+        "bridges": [
+          {
+            "boundary": 1,
+            "direction": "left",
+            "frames": 10
+          },
+          {
+            "boundary": 2,
+            "direction": "right",
+            "frames": 10
+          },
+          {
+            "boundary": 3,
+            "direction": "left",
+            "frames": 6
+          },
+          {
+            "boundary": 6,
+            "direction": "right",
+            "frames": 3
+          },
+          {
+            "boundary": 10,
+            "direction": "right",
+            "frames": 10
+          }
+        ],
+        "ending": {
+          "fade_frames": 17
+        },
+        "impacts": [
+          {
+            "clip_index": 0,
+            "output_time": 3.3220000000000027,
+            "frames": 6,
+            "strength": 0.33093615163600776
+          },
+          {
+            "clip_index": 1,
+            "output_time": 5.214999999999989,
+            "frames": 6,
+            "strength": 0.20927481991137317
+          },
+          {
+            "clip_index": 2,
+            "output_time": 7.571958333333333,
+            "frames": 6,
+            "strength": 0.20141208257484838
+          },
+          {
+            "clip_index": 3,
+            "output_time": 10.972,
+            "frames": 6,
+            "strength": 0.20670022904219637
+          },
+          {
+            "clip_index": 4,
+            "output_time": 14.717958333333383,
+            "frames": 6,
+            "strength": 0.20250136023434226
+          },
+          {
+            "clip_index": 5,
+            "output_time": 18.428000000000004,
+            "frames": 6,
+            "strength": 0.1634715499564853
+          },
+          {
+            "clip_index": 6,
+            "output_time": 21.044,
+            "frames": 6,
+            "strength": 0.1852876330603841
+          },
+          {
+            "clip_index": 7,
+            "output_time": 24.677958333333315,
+            "frames": 6,
+            "strength": 0.19151656153518556
+          },
+          {
+            "clip_index": 8,
+            "output_time": 28.58,
+            "frames": 6,
+            "strength": 0.17353325004364767
+          },
+          {
+            "clip_index": 9,
+            "output_time": 32.49014015151517,
+            "frames": 6,
+            "strength": 0.13285606866488026
+          },
+          {
+            "clip_index": 10,
+            "output_time": 34.66618181818178,
+            "frames": 6,
+            "strength": 0.16370809935209607
+          }
+        ]
+      },
+      "combined_limitations": [],
+      "video": "/home/user/mozillaedit/test-sample-mp4/local-preview-slowed-v2-reflections/job-v0001/renders/encounters-v0001/clip-003-libx264.mp4",
+      "game_audio": "/home/user/mozillaedit/test-sample-mp4/local-preview-slowed-v2-reflections/job-v0001/renders/encounters-v0001/game-003.wav",
+      "encoder": "libx264",
+      "source_audio_end_rounding_seconds": -5.681818208813638e-06
+    },
+    {
+      "source_start": 83.70181818181817,
+      "source_end": 86.88363636363636,
+      "output_start": 13.229776515151555,
+      "output_end": 16.631636363636353,
+      "music_start": 21.229776515151556,
+      "music_end": 24.631636363636353,
+      "speed": 1.0,
+      "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_z0ALKJiFRDU_Warden-is-Simply-Overpowered_002_720p.mp4",
+      "index": 4,
+      "frame_start": 794,
+      "frame_end": 998,
+      "frame_count": 204,
+      "sample_start": 635029,
+      "sample_end": 798319,
+      "sample_count": 163290,
+      "source_sample_start": 4017687,
+      "source_sample_end": 4170415,
+      "video_phase_seconds": -0.0035568181817779987,
+      "events": [],
+      "audio_segments": [
+        {
+          "source_start_sample": 4017687,
+          "source_end_sample": 4020240,
+          "output_start_sample": 0,
+          "output_end_sample": 2553,
+          "count": 2553,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 4020240,
+          "source_end_sample": 4020960,
+          "output_start_sample": 2553,
+          "output_end_sample": 3273,
+          "count": 720,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 4020960,
+          "source_end_sample": 4038480,
+          "output_start_sample": 3273,
+          "output_end_sample": 20793,
+          "count": 17520,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 4038480,
+          "source_end_sample": 4039200,
+          "output_start_sample": 20793,
+          "output_end_sample": 21513,
+          "count": 720,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 4039200,
+          "source_end_sample": 4071360,
+          "output_start_sample": 21513,
+          "output_end_sample": 53673,
+          "count": 32160,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 4071360,
+          "source_end_sample": 4072080,
+          "output_start_sample": 53673,
+          "output_end_sample": 54393,
+          "count": 720,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 4072080,
+          "source_end_sample": 4088880,
+          "output_start_sample": 54393,
+          "output_end_sample": 71193,
+          "count": 16800,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 4088880,
+          "source_end_sample": 4089600,
+          "output_start_sample": 71193,
+          "output_end_sample": 71913,
+          "count": 720,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 4089600,
+          "source_end_sample": 4094263,
+          "output_start_sample": 71913,
+          "output_end_sample": 76610,
+          "count": 4697,
+          "speed": 0.9927613370236321,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4094263,
+          "source_end_sample": 4098926,
+          "output_start_sample": 76610,
+          "output_end_sample": 81484,
+          "count": 4874,
+          "speed": 0.9567090685268773,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4098926,
+          "source_end_sample": 4103589,
+          "output_start_sample": 81484,
+          "output_end_sample": 86635,
+          "count": 5151,
+          "speed": 0.9052611143467288,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4103589,
+          "source_end_sample": 4108251,
+          "output_start_sample": 86635,
+          "output_end_sample": 92093,
+          "count": 5458,
+          "speed": 0.8541590326126787,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4108251,
+          "source_end_sample": 4112914,
+          "output_start_sample": 92093,
+          "output_end_sample": 97829,
+          "count": 5736,
+          "speed": 0.8129358437935844,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4112914,
+          "source_end_sample": 4117577,
+          "output_start_sample": 97829,
+          "output_end_sample": 103776,
+          "count": 5947,
+          "speed": 0.7840928199091979,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4117577,
+          "source_end_sample": 4122240,
+          "output_start_sample": 103776,
+          "output_end_sample": 109834,
+          "count": 6058,
+          "speed": 0.7697259821723341,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4122240,
+          "source_end_sample": 4126903,
+          "output_start_sample": 109834,
+          "output_end_sample": 115892,
+          "count": 6058,
+          "speed": 0.7697259821723341,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4126903,
+          "source_end_sample": 4131566,
+          "output_start_sample": 115892,
+          "output_end_sample": 121839,
+          "count": 5947,
+          "speed": 0.7840928199091979,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4131566,
+          "source_end_sample": 4136229,
+          "output_start_sample": 121839,
+          "output_end_sample": 127575,
+          "count": 5736,
+          "speed": 0.8129358437935844,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4136229,
+          "source_end_sample": 4140891,
+          "output_start_sample": 127575,
+          "output_end_sample": 133033,
+          "count": 5458,
+          "speed": 0.8541590326126787,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4140891,
+          "source_end_sample": 4145554,
+          "output_start_sample": 133033,
+          "output_end_sample": 138184,
+          "count": 5151,
+          "speed": 0.9052611143467288,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4145554,
+          "source_end_sample": 4150217,
+          "output_start_sample": 138184,
+          "output_end_sample": 143058,
+          "count": 4874,
+          "speed": 0.9567090685268773,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4150217,
+          "source_end_sample": 4154880,
+          "output_start_sample": 143058,
+          "output_end_sample": 147755,
+          "count": 4697,
+          "speed": 0.9927613370236321,
+          "identity": false
+        },
+        {
+          "source_start_sample": 4154880,
+          "source_end_sample": 4155600,
+          "output_start_sample": 147755,
+          "output_end_sample": 148475,
+          "count": 720,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 4155600,
+          "source_end_sample": 4170415,
+          "output_start_sample": 148475,
+          "output_end_sample": 163290,
+          "count": 14815,
+          "speed": 1.0,
+          "identity": true
+        }
+      ],
+      "authored_shot": {
+        "role": "contrast",
+        "composition": "inset"
+      },
+      "authored_edges": [],
+      "authored_impacts": [
+        {
+          "clip_index": 4,
+          "output_time": 14.717958333333383,
+          "frames": 6,
+          "strength": 0.20250136023434226,
+          "start_frame": 87,
+          "end_frame": 92,
+          "center_frame": 89
+        }
+      ],
+      "authored_design": {
+        "schema_version": "authored-footage/v2",
+        "shots": [
+          {
+            "role": "setup",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "contrast",
+            "composition": "inset"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "payoff",
+            "composition": "full"
+          }
+        ],
+        "bridges": [
+          {
+            "boundary": 1,
+            "direction": "left",
+            "frames": 10
+          },
+          {
+            "boundary": 2,
+            "direction": "right",
+            "frames": 10
+          },
+          {
+            "boundary": 3,
+            "direction": "left",
+            "frames": 6
+          },
+          {
+            "boundary": 6,
+            "direction": "right",
+            "frames": 3
+          },
+          {
+            "boundary": 10,
+            "direction": "right",
+            "frames": 10
+          }
+        ],
+        "ending": {
+          "fade_frames": 17
+        },
+        "impacts": [
+          {
+            "clip_index": 0,
+            "output_time": 3.3220000000000027,
+            "frames": 6,
+            "strength": 0.33093615163600776
+          },
+          {
+            "clip_index": 1,
+            "output_time": 5.214999999999989,
+            "frames": 6,
+            "strength": 0.20927481991137317
+          },
+          {
+            "clip_index": 2,
+            "output_time": 7.571958333333333,
+            "frames": 6,
+            "strength": 0.20141208257484838
+          },
+          {
+            "clip_index": 3,
+            "output_time": 10.972,
+            "frames": 6,
+            "strength": 0.20670022904219637
+          },
+          {
+            "clip_index": 4,
+            "output_time": 14.717958333333383,
+            "frames": 6,
+            "strength": 0.20250136023434226
+          },
+          {
+            "clip_index": 5,
+            "output_time": 18.428000000000004,
+            "frames": 6,
+            "strength": 0.1634715499564853
+          },
+          {
+            "clip_index": 6,
+            "output_time": 21.044,
+            "frames": 6,
+            "strength": 0.1852876330603841
+          },
+          {
+            "clip_index": 7,
+            "output_time": 24.677958333333315,
+            "frames": 6,
+            "strength": 0.19151656153518556
+          },
+          {
+            "clip_index": 8,
+            "output_time": 28.58,
+            "frames": 6,
+            "strength": 0.17353325004364767
+          },
+          {
+            "clip_index": 9,
+            "output_time": 32.49014015151517,
+            "frames": 6,
+            "strength": 0.13285606866488026
+          },
+          {
+            "clip_index": 10,
+            "output_time": 34.66618181818178,
+            "frames": 6,
+            "strength": 0.16370809935209607
+          }
+        ]
+      },
+      "combined_limitations": [],
+      "video": "/home/user/mozillaedit/test-sample-mp4/local-preview-slowed-v2-reflections/job-v0001/renders/encounters-v0001/clip-004-libx264.mp4",
+      "game_audio": "/home/user/mozillaedit/test-sample-mp4/local-preview-slowed-v2-reflections/job-v0001/renders/encounters-v0001/game-004.wav",
+      "encoder": "libx264",
+      "source_audio_end_rounding_seconds": 9.469696976793784e-06
+    },
+    {
+      "source_start": 275.88863636363635,
+      "source_end": 278.88863636363635,
+      "output_start": 16.631636363636353,
+      "output_end": 19.735636363636374,
+      "music_start": 24.631636363636353,
+      "music_end": 27.735636363636374,
+      "speed": 1.0,
+      "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_z0ALKJiFRDU_Warden-is-Simply-Overpowered_002_720p.mp4",
+      "index": 5,
+      "frame_start": 998,
+      "frame_end": 1184,
+      "frame_count": 186,
+      "sample_start": 798319,
+      "sample_end": 947311,
+      "sample_count": 148992,
+      "source_sample_start": 13242655,
+      "source_sample_end": 13386655,
+      "video_phase_seconds": -0.0016969696969795223,
+      "events": [],
+      "audio_segments": [
+        {
+          "source_start_sample": 13242655,
+          "source_end_sample": 13246800,
+          "output_start_sample": 0,
+          "output_end_sample": 4145,
+          "count": 4145,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 13246800,
+          "source_end_sample": 13247520,
+          "output_start_sample": 4145,
+          "output_end_sample": 4865,
+          "count": 720,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 13247520,
+          "source_end_sample": 13256640,
+          "output_start_sample": 4865,
+          "output_end_sample": 13985,
+          "count": 9120,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 13256640,
+          "source_end_sample": 13281360,
+          "output_start_sample": 13985,
+          "output_end_sample": 38705,
+          "count": 24720,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 13281360,
+          "source_end_sample": 13295280,
+          "output_start_sample": 38705,
+          "output_end_sample": 52625,
+          "count": 13920,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 13295280,
+          "source_end_sample": 13300320,
+          "output_start_sample": 52625,
+          "output_end_sample": 57665,
+          "count": 5040,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 13300320,
+          "source_end_sample": 13314720,
+          "output_start_sample": 57665,
+          "output_end_sample": 72065,
+          "count": 14400,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 13314720,
+          "source_end_sample": 13343040,
+          "output_start_sample": 72065,
+          "output_end_sample": 100385,
+          "count": 28320,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 13343040,
+          "source_end_sample": 13347072,
+          "output_start_sample": 100385,
+          "output_end_sample": 104706,
+          "count": 4321,
+          "speed": 0.9331173339504745,
+          "identity": false
+        },
+        {
+          "source_start_sample": 13347072,
+          "source_end_sample": 13351104,
+          "output_start_sample": 104706,
+          "output_end_sample": 110034,
+          "count": 5328,
+          "speed": 0.7567567567567568,
+          "identity": false
+        },
+        {
+          "source_start_sample": 13351104,
+          "source_end_sample": 13355136,
+          "output_start_sample": 110034,
+          "output_end_sample": 115888,
+          "count": 5854,
+          "speed": 0.6887598223436966,
+          "identity": false
+        },
+        {
+          "source_start_sample": 13355136,
+          "source_end_sample": 13359168,
+          "output_start_sample": 115888,
+          "output_end_sample": 121216,
+          "count": 5328,
+          "speed": 0.7567567567567568,
+          "identity": false
+        },
+        {
+          "source_start_sample": 13359168,
+          "source_end_sample": 13363200,
+          "output_start_sample": 121216,
+          "output_end_sample": 125537,
+          "count": 4321,
+          "speed": 0.9331173339504745,
+          "identity": false
+        },
+        {
+          "source_start_sample": 13363200,
+          "source_end_sample": 13373040,
+          "output_start_sample": 125537,
+          "output_end_sample": 135377,
+          "count": 9840,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 13373040,
+          "source_end_sample": 13386655,
+          "output_start_sample": 135377,
+          "output_end_sample": 148992,
+          "count": 13615,
+          "speed": 1.0,
+          "identity": true
+        }
+      ],
+      "authored_shot": {
+        "role": "impact",
+        "composition": "full"
+      },
+      "authored_edges": [
+        {
+          "side": "out",
+          "frames": 3,
+          "direction": "right",
+          "boundary": 6
+        }
+      ],
+      "authored_impacts": [
+        {
+          "clip_index": 5,
+          "output_time": 18.428000000000004,
+          "frames": 6,
+          "strength": 0.1634715499564853,
+          "start_frame": 106,
+          "end_frame": 111,
+          "center_frame": 108
+        }
+      ],
+      "authored_design": {
+        "schema_version": "authored-footage/v2",
+        "shots": [
+          {
+            "role": "setup",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "contrast",
+            "composition": "inset"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "payoff",
+            "composition": "full"
+          }
+        ],
+        "bridges": [
+          {
+            "boundary": 1,
+            "direction": "left",
+            "frames": 10
+          },
+          {
+            "boundary": 2,
+            "direction": "right",
+            "frames": 10
+          },
+          {
+            "boundary": 3,
+            "direction": "left",
+            "frames": 6
+          },
+          {
+            "boundary": 6,
+            "direction": "right",
+            "frames": 3
+          },
+          {
+            "boundary": 10,
+            "direction": "right",
+            "frames": 10
+          }
+        ],
+        "ending": {
+          "fade_frames": 17
+        },
+        "impacts": [
+          {
+            "clip_index": 0,
+            "output_time": 3.3220000000000027,
+            "frames": 6,
+            "strength": 0.33093615163600776
+          },
+          {
+            "clip_index": 1,
+            "output_time": 5.214999999999989,
+            "frames": 6,
+            "strength": 0.20927481991137317
+          },
+          {
+            "clip_index": 2,
+            "output_time": 7.571958333333333,
+            "frames": 6,
+            "strength": 0.20141208257484838
+          },
+          {
+            "clip_index": 3,
+            "output_time": 10.972,
+            "frames": 6,
+            "strength": 0.20670022904219637
+          },
+          {
+            "clip_index": 4,
+            "output_time": 14.717958333333383,
+            "frames": 6,
+            "strength": 0.20250136023434226
+          },
+          {
+            "clip_index": 5,
+            "output_time": 18.428000000000004,
+            "frames": 6,
+            "strength": 0.1634715499564853
+          },
+          {
+            "clip_index": 6,
+            "output_time": 21.044,
+            "frames": 6,
+            "strength": 0.1852876330603841
+          },
+          {
+            "clip_index": 7,
+            "output_time": 24.677958333333315,
+            "frames": 6,
+            "strength": 0.19151656153518556
+          },
+          {
+            "clip_index": 8,
+            "output_time": 28.58,
+            "frames": 6,
+            "strength": 0.17353325004364767
+          },
+          {
+            "clip_index": 9,
+            "output_time": 32.49014015151517,
+            "frames": 6,
+            "strength": 0.13285606866488026
+          },
+          {
+            "clip_index": 10,
+            "output_time": 34.66618181818178,
+            "frames": 6,
+            "strength": 0.16370809935209607
+          }
+        ]
+      },
+      "combined_limitations": [],
+      "video": "/home/user/mozillaedit/test-sample-mp4/local-preview-slowed-v2-reflections/job-v0001/renders/encounters-v0001/clip-005-libx264.mp4",
+      "game_audio": "/home/user/mozillaedit/test-sample-mp4/local-preview-slowed-v2-reflections/job-v0001/renders/encounters-v0001/game-005.wav",
+      "encoder": "libx264",
+      "source_audio_end_rounding_seconds": 9.469696976793784e-06
+    },
+    {
+      "source_start": 306.03063636363635,
+      "source_end": 309.21245454545453,
+      "output_start": 19.735636363636374,
+      "output_end": 23.173412878787865,
+      "music_start": 27.735636363636374,
+      "music_end": 31.173412878787865,
+      "speed": 1.0,
+      "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_z0ALKJiFRDU_Warden-is-Simply-Overpowered_002_720p.mp4",
+      "index": 6,
+      "frame_start": 1184,
+      "frame_end": 1390,
+      "frame_count": 206,
+      "sample_start": 947311,
+      "sample_end": 1112324,
+      "sample_count": 165013,
+      "source_sample_start": 14689471,
+      "source_sample_end": 14842198,
+      "video_phase_seconds": 0.002303030303039577,
+      "events": [],
+      "pacing_map": {
+        "schema_version": "candidate-pacing-map/v1",
+        "anchor_origin": "unreviewed-candidate-detector",
+        "reviewed_input": false,
+        "burst_gap_seconds": 0.18,
+        "slow_floor": 0.55,
+        "duration": 3.181818181818187,
+        "output_duration": 3.4377765151514907,
+        "shift_total": 0.25595833333330376,
+        "stretch_ratio": 1.0804440476190382,
+        "clusters": [
+          [
+            0.3593636363636392,
+            0.5893636363636574
+          ],
+          [
+            1.1343636363636733,
+            1.2143636363636574
+          ],
+          [
+            1.6843636363636278,
+            1.699363636363671
+          ],
+          [
+            2.219363636363653,
+            2.289363636363646
+          ],
+          [
+            2.529363636363655,
+            2.6493636363636597
+          ],
+          [
+            2.86936363636363,
+            2.8843636363636733
+          ]
+        ],
+        "shifts": [
+          0.0949999999999882,
+          0.10399999999996012,
+          0.188958333333332,
+          0.188958333333332,
+          0.25595833333330376,
+          0.25595833333330376
+        ],
+        "unsnapped_clusters": [
+          3,
+          5
+        ],
+        "anchor_source_time": 307.235,
+        "beat_music_time": 29.044,
+        "beat_matched": true,
+        "tail_shift": 0.25595833333330376,
+        "tail_beat_music_time": null,
+        "min_speed": 0.6564102564103568,
+        "max_speed": 1.0000000000000075,
+        "clauses": [
+          {
+            "source_seconds": 3.181818181818187,
+            "output_seconds": 3.4377765151514907,
+            "playback_floor": 0.6564102564103568
+          }
+        ],
+        "clocks": {
+          "source_origin": 306.03063636363635,
+          "source_endpoint": 309.21245454545453,
+          "target_origin": 27.735636363636374,
+          "target_endpoint": 31.173412878787865
+        },
+        "limitations": [
+          "Candidate pacing only: anchors are unreviewed local acoustic/video candidates, not reviewed shots or kills.",
+          "The target grid is measured acoustic attacks, not certified percussion, meter or musical taste.",
+          "Playback is slowed only in the gaps between measured burst clusters; each cluster keeps rigid 1x playback so gunshot transients are not smeared.",
+          "Gap slow-motion cannot go below the engine's atempo range, so the declared floor stays at or above 0.5 with a small margin for rounded slice edges.",
+          "No interval is ever sped up: gaps keep 1x or stretch, bounded by the declared slow floor and per-row budget.",
+          "Gap capacity is the inverse of the same analytic C2 bound the map certifies with, so no gap can overshoot the floor.",
+          "Clusters and rows without a reachable measured attack stay at 1x and are reported as unsnapped/rigid; nothing is force-fitted or invented.",
+          "musical_sync remains unverified; no lyric/closure integration exists for retimed clocks."
+        ]
+      },
+      "audio_segments": [
+        {
+          "source_start_sample": 14689471,
+          "source_end_sample": 14693783,
+          "output_start_sample": 0,
+          "output_end_sample": 4784,
+          "count": 4784,
+          "speed": 0.9013377926421404,
+          "identity": false
+        },
+        {
+          "source_start_sample": 14693783,
+          "source_end_sample": 14698095,
+          "output_start_sample": 4784,
+          "output_end_sample": 10904,
+          "count": 6120,
+          "speed": 0.7045751633986929,
+          "identity": false
+        },
+        {
+          "source_start_sample": 14698095,
+          "source_end_sample": 14702408,
+          "output_start_sample": 10904,
+          "output_end_sample": 17025,
+          "count": 6121,
+          "speed": 0.7046234275445189,
+          "identity": false
+        },
+        {
+          "source_start_sample": 14702408,
+          "source_end_sample": 14706720,
+          "output_start_sample": 17025,
+          "output_end_sample": 21809,
+          "count": 4784,
+          "speed": 0.9013377926421404,
+          "identity": false
+        },
+        {
+          "source_start_sample": 14706720,
+          "source_end_sample": 14717760,
+          "output_start_sample": 21809,
+          "output_end_sample": 32849,
+          "count": 11040,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 14717760,
+          "source_end_sample": 14722120,
+          "output_start_sample": 32849,
+          "output_end_sample": 37224,
+          "count": 4375,
+          "speed": 0.9965714285714286,
+          "identity": false
+        },
+        {
+          "source_start_sample": 14722120,
+          "source_end_sample": 14726480,
+          "output_start_sample": 37224,
+          "output_end_sample": 41660,
+          "count": 4436,
+          "speed": 0.9828674481514879,
+          "identity": false
+        },
+        {
+          "source_start_sample": 14726480,
+          "source_end_sample": 14730840,
+          "output_start_sample": 41660,
+          "output_end_sample": 46145,
+          "count": 4485,
+          "speed": 0.9721293199554069,
+          "identity": false
+        },
+        {
+          "source_start_sample": 14730840,
+          "source_end_sample": 14735200,
+          "output_start_sample": 46145,
+          "output_end_sample": 50630,
+          "count": 4485,
+          "speed": 0.9721293199554069,
+          "identity": false
+        },
+        {
+          "source_start_sample": 14735200,
+          "source_end_sample": 14739560,
+          "output_start_sample": 50630,
+          "output_end_sample": 55066,
+          "count": 4436,
+          "speed": 0.9828674481514879,
+          "identity": false
+        },
+        {
+          "source_start_sample": 14739560,
+          "source_end_sample": 14743920,
+          "output_start_sample": 55066,
+          "output_end_sample": 59441,
+          "count": 4375,
+          "speed": 0.9965714285714286,
+          "identity": false
+        },
+        {
+          "source_start_sample": 14743920,
+          "source_end_sample": 14747760,
+          "output_start_sample": 59441,
+          "output_end_sample": 63281,
+          "count": 3840,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 14747760,
+          "source_end_sample": 14752272,
+          "output_start_sample": 63281,
+          "output_end_sample": 68029,
+          "count": 4748,
+          "speed": 0.9502948609941028,
+          "identity": false
+        },
+        {
+          "source_start_sample": 14752272,
+          "source_end_sample": 14756784,
+          "output_start_sample": 68029,
+          "output_end_sample": 73600,
+          "count": 5571,
+          "speed": 0.8099084544964997,
+          "identity": false
+        },
+        {
+          "source_start_sample": 14756784,
+          "source_end_sample": 14761296,
+          "output_start_sample": 73600,
+          "output_end_sample": 79600,
+          "count": 6000,
+          "speed": 0.752,
+          "identity": false
+        },
+        {
+          "source_start_sample": 14761296,
+          "source_end_sample": 14765808,
+          "output_start_sample": 79600,
+          "output_end_sample": 85171,
+          "count": 5571,
+          "speed": 0.8099084544964997,
+          "identity": false
+        },
+        {
+          "source_start_sample": 14765808,
+          "source_end_sample": 14770320,
+          "output_start_sample": 85171,
+          "output_end_sample": 89919,
+          "count": 4748,
+          "speed": 0.9502948609941028,
+          "identity": false
+        },
+        {
+          "source_start_sample": 14770320,
+          "source_end_sample": 14771040,
+          "output_start_sample": 89919,
+          "output_end_sample": 90639,
+          "count": 720,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 14771040,
+          "source_end_sample": 14796000,
+          "output_start_sample": 90639,
+          "output_end_sample": 115599,
+          "count": 24960,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 14796000,
+          "source_end_sample": 14799360,
+          "output_start_sample": 115599,
+          "output_end_sample": 118959,
+          "count": 3360,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 14799360,
+          "source_end_sample": 14803200,
+          "output_start_sample": 118959,
+          "output_end_sample": 123474,
+          "count": 4515,
+          "speed": 0.8504983388704319,
+          "identity": false
+        },
+        {
+          "source_start_sample": 14803200,
+          "source_end_sample": 14807040,
+          "output_start_sample": 123474,
+          "output_end_sample": 129180,
+          "count": 5706,
+          "speed": 0.6729758149316509,
+          "identity": false
+        },
+        {
+          "source_start_sample": 14807040,
+          "source_end_sample": 14810880,
+          "output_start_sample": 129180,
+          "output_end_sample": 133695,
+          "count": 4515,
+          "speed": 0.8504983388704319,
+          "identity": false
+        },
+        {
+          "source_start_sample": 14810880,
+          "source_end_sample": 14816640,
+          "output_start_sample": 133695,
+          "output_end_sample": 139455,
+          "count": 5760,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 14816640,
+          "source_end_sample": 14827200,
+          "output_start_sample": 139455,
+          "output_end_sample": 150015,
+          "count": 10560,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 14827200,
+          "source_end_sample": 14827920,
+          "output_start_sample": 150015,
+          "output_end_sample": 150735,
+          "count": 720,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 14827920,
+          "source_end_sample": 14842198,
+          "output_start_sample": 150735,
+          "output_end_sample": 165013,
+          "count": 14278,
+          "speed": 1.0,
+          "identity": true
+        }
+      ],
+      "authored_shot": {
+        "role": "impact",
+        "composition": "full"
+      },
+      "authored_edges": [
+        {
+          "side": "in",
+          "frames": 3,
+          "direction": "right",
+          "boundary": 6
+        }
+      ],
+      "authored_impacts": [
+        {
+          "clip_index": 6,
+          "output_time": 21.044,
+          "frames": 6,
+          "strength": 0.1852876330603841,
+          "start_frame": 77,
+          "end_frame": 82,
+          "center_frame": 79
+        }
+      ],
+      "authored_design": {
+        "schema_version": "authored-footage/v2",
+        "shots": [
+          {
+            "role": "setup",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "contrast",
+            "composition": "inset"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "payoff",
+            "composition": "full"
+          }
+        ],
+        "bridges": [
+          {
+            "boundary": 1,
+            "direction": "left",
+            "frames": 10
+          },
+          {
+            "boundary": 2,
+            "direction": "right",
+            "frames": 10
+          },
+          {
+            "boundary": 3,
+            "direction": "left",
+            "frames": 6
+          },
+          {
+            "boundary": 6,
+            "direction": "right",
+            "frames": 3
+          },
+          {
+            "boundary": 10,
+            "direction": "right",
+            "frames": 10
+          }
+        ],
+        "ending": {
+          "fade_frames": 17
+        },
+        "impacts": [
+          {
+            "clip_index": 0,
+            "output_time": 3.3220000000000027,
+            "frames": 6,
+            "strength": 0.33093615163600776
+          },
+          {
+            "clip_index": 1,
+            "output_time": 5.214999999999989,
+            "frames": 6,
+            "strength": 0.20927481991137317
+          },
+          {
+            "clip_index": 2,
+            "output_time": 7.571958333333333,
+            "frames": 6,
+            "strength": 0.20141208257484838
+          },
+          {
+            "clip_index": 3,
+            "output_time": 10.972,
+            "frames": 6,
+            "strength": 0.20670022904219637
+          },
+          {
+            "clip_index": 4,
+            "output_time": 14.717958333333383,
+            "frames": 6,
+            "strength": 0.20250136023434226
+          },
+          {
+            "clip_index": 5,
+            "output_time": 18.428000000000004,
+            "frames": 6,
+            "strength": 0.1634715499564853
+          },
+          {
+            "clip_index": 6,
+            "output_time": 21.044,
+            "frames": 6,
+            "strength": 0.1852876330603841
+          },
+          {
+            "clip_index": 7,
+            "output_time": 24.677958333333315,
+            "frames": 6,
+            "strength": 0.19151656153518556
+          },
+          {
+            "clip_index": 8,
+            "output_time": 28.58,
+            "frames": 6,
+            "strength": 0.17353325004364767
+          },
+          {
+            "clip_index": 9,
+            "output_time": 32.49014015151517,
+            "frames": 6,
+            "strength": 0.13285606866488026
+          },
+          {
+            "clip_index": 10,
+            "output_time": 34.66618181818178,
+            "frames": 6,
+            "strength": 0.16370809935209607
+          }
+        ]
+      },
+      "combined_limitations": [],
+      "video": "/home/user/mozillaedit/test-sample-mp4/local-preview-slowed-v2-reflections/job-v0001/renders/encounters-v0001/clip-006-libx264.mp4",
+      "game_audio": "/home/user/mozillaedit/test-sample-mp4/local-preview-slowed-v2-reflections/job-v0001/renders/encounters-v0001/game-006.wav",
+      "encoder": "libx264",
+      "source_audio_end_rounding_seconds": 3.787878824823565e-06
+    },
+    {
+      "source_start": 163.45045454545456,
+      "source_end": 166.65500000000003,
+      "output_start": 23.173412878787865,
+      "output_end": 26.730000000000004,
+      "music_start": 31.173412878787865,
+      "music_end": 34.730000000000004,
+      "speed": 1.0,
+      "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_z0ALKJiFRDU_Warden-is-Simply-Overpowered_002_720p.mp4",
+      "index": 7,
+      "frame_start": 1390,
+      "frame_end": 1604,
+      "frame_count": 214,
+      "sample_start": 1112324,
+      "sample_end": 1283040,
+      "sample_count": 170716,
+      "source_sample_start": 7845622,
+      "source_sample_end": 7999440,
+      "video_phase_seconds": 0.0067462121211967485,
+      "events": [],
+      "audio_segments": [
+        {
+          "source_start_sample": 7845622,
+          "source_end_sample": 7849200,
+          "output_start_sample": 0,
+          "output_end_sample": 3578,
+          "count": 3578,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 7849200,
+          "source_end_sample": 7849920,
+          "output_start_sample": 3578,
+          "output_end_sample": 4298,
+          "count": 720,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 7849920,
+          "source_end_sample": 7861200,
+          "output_start_sample": 4298,
+          "output_end_sample": 15578,
+          "count": 11280,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 7861200,
+          "source_end_sample": 7869120,
+          "output_start_sample": 15578,
+          "output_end_sample": 23498,
+          "count": 7920,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 7869120,
+          "source_end_sample": 7879200,
+          "output_start_sample": 23498,
+          "output_end_sample": 33578,
+          "count": 10080,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 7879200,
+          "source_end_sample": 7882080,
+          "output_start_sample": 33578,
+          "output_end_sample": 36458,
+          "count": 2880,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 7882080,
+          "source_end_sample": 7895520,
+          "output_start_sample": 36458,
+          "output_end_sample": 49898,
+          "count": 13440,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 7895520,
+          "source_end_sample": 7896240,
+          "output_start_sample": 49898,
+          "output_end_sample": 50618,
+          "count": 720,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 7896240,
+          "source_end_sample": 7912560,
+          "output_start_sample": 50618,
+          "output_end_sample": 66938,
+          "count": 16320,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 7912560,
+          "source_end_sample": 7918320,
+          "output_start_sample": 66938,
+          "output_end_sample": 72698,
+          "count": 5760,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 7918320,
+          "source_end_sample": 7922924,
+          "output_start_sample": 72698,
+          "output_end_sample": 77393,
+          "count": 4695,
+          "speed": 0.9806176783812567,
+          "identity": false
+        },
+        {
+          "source_start_sample": 7922924,
+          "source_end_sample": 7927527,
+          "output_start_sample": 77393,
+          "output_end_sample": 82533,
+          "count": 5140,
+          "speed": 0.8955252918287938,
+          "identity": false
+        },
+        {
+          "source_start_sample": 7927527,
+          "source_end_sample": 7932131,
+          "output_start_sample": 82533,
+          "output_end_sample": 88310,
+          "count": 5777,
+          "speed": 0.7969534360394669,
+          "identity": false
+        },
+        {
+          "source_start_sample": 7932131,
+          "source_end_sample": 7936735,
+          "output_start_sample": 88310,
+          "output_end_sample": 94699,
+          "count": 6389,
+          "speed": 0.7206135545468775,
+          "identity": false
+        },
+        {
+          "source_start_sample": 7936735,
+          "source_end_sample": 7941338,
+          "output_start_sample": 94699,
+          "output_end_sample": 101517,
+          "count": 6818,
+          "speed": 0.6751246699911998,
+          "identity": false
+        },
+        {
+          "source_start_sample": 7941338,
+          "source_end_sample": 7945942,
+          "output_start_sample": 101517,
+          "output_end_sample": 108489,
+          "count": 6972,
+          "speed": 0.6603557085484796,
+          "identity": false
+        },
+        {
+          "source_start_sample": 7945942,
+          "source_end_sample": 7950545,
+          "output_start_sample": 108489,
+          "output_end_sample": 115307,
+          "count": 6818,
+          "speed": 0.6751246699911998,
+          "identity": false
+        },
+        {
+          "source_start_sample": 7950545,
+          "source_end_sample": 7955149,
+          "output_start_sample": 115307,
+          "output_end_sample": 121696,
+          "count": 6389,
+          "speed": 0.7206135545468775,
+          "identity": false
+        },
+        {
+          "source_start_sample": 7955149,
+          "source_end_sample": 7959753,
+          "output_start_sample": 121696,
+          "output_end_sample": 127473,
+          "count": 5777,
+          "speed": 0.7969534360394669,
+          "identity": false
+        },
+        {
+          "source_start_sample": 7959753,
+          "source_end_sample": 7964356,
+          "output_start_sample": 127473,
+          "output_end_sample": 132613,
+          "count": 5140,
+          "speed": 0.8955252918287938,
+          "identity": false
+        },
+        {
+          "source_start_sample": 7964356,
+          "source_end_sample": 7968960,
+          "output_start_sample": 132613,
+          "output_end_sample": 137308,
+          "count": 4695,
+          "speed": 0.9806176783812567,
+          "identity": false
+        },
+        {
+          "source_start_sample": 7968960,
+          "source_end_sample": 7976400,
+          "output_start_sample": 137308,
+          "output_end_sample": 144748,
+          "count": 7440,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 7976400,
+          "source_end_sample": 7999440,
+          "output_start_sample": 144748,
+          "output_end_sample": 170716,
+          "count": 25968,
+          "speed": 1.0,
+          "identity": true
+        }
+      ],
+      "authored_shot": {
+        "role": "impact",
+        "composition": "full"
+      },
+      "authored_edges": [],
+      "authored_impacts": [
+        {
+          "clip_index": 7,
+          "output_time": 24.677958333333315,
+          "frames": 6,
+          "strength": 0.19151656153518556,
+          "start_frame": 89,
+          "end_frame": 94,
+          "center_frame": 91
+        }
+      ],
+      "authored_design": {
+        "schema_version": "authored-footage/v2",
+        "shots": [
+          {
+            "role": "setup",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "contrast",
+            "composition": "inset"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "payoff",
+            "composition": "full"
+          }
+        ],
+        "bridges": [
+          {
+            "boundary": 1,
+            "direction": "left",
+            "frames": 10
+          },
+          {
+            "boundary": 2,
+            "direction": "right",
+            "frames": 10
+          },
+          {
+            "boundary": 3,
+            "direction": "left",
+            "frames": 6
+          },
+          {
+            "boundary": 6,
+            "direction": "right",
+            "frames": 3
+          },
+          {
+            "boundary": 10,
+            "direction": "right",
+            "frames": 10
+          }
+        ],
+        "ending": {
+          "fade_frames": 17
+        },
+        "impacts": [
+          {
+            "clip_index": 0,
+            "output_time": 3.3220000000000027,
+            "frames": 6,
+            "strength": 0.33093615163600776
+          },
+          {
+            "clip_index": 1,
+            "output_time": 5.214999999999989,
+            "frames": 6,
+            "strength": 0.20927481991137317
+          },
+          {
+            "clip_index": 2,
+            "output_time": 7.571958333333333,
+            "frames": 6,
+            "strength": 0.20141208257484838
+          },
+          {
+            "clip_index": 3,
+            "output_time": 10.972,
+            "frames": 6,
+            "strength": 0.20670022904219637
+          },
+          {
+            "clip_index": 4,
+            "output_time": 14.717958333333383,
+            "frames": 6,
+            "strength": 0.20250136023434226
+          },
+          {
+            "clip_index": 5,
+            "output_time": 18.428000000000004,
+            "frames": 6,
+            "strength": 0.1634715499564853
+          },
+          {
+            "clip_index": 6,
+            "output_time": 21.044,
+            "frames": 6,
+            "strength": 0.1852876330603841
+          },
+          {
+            "clip_index": 7,
+            "output_time": 24.677958333333315,
+            "frames": 6,
+            "strength": 0.19151656153518556
+          },
+          {
+            "clip_index": 8,
+            "output_time": 28.58,
+            "frames": 6,
+            "strength": 0.17353325004364767
+          },
+          {
+            "clip_index": 9,
+            "output_time": 32.49014015151517,
+            "frames": 6,
+            "strength": 0.13285606866488026
+          },
+          {
+            "clip_index": 10,
+            "output_time": 34.66618181818178,
+            "frames": 6,
+            "strength": 0.16370809935209607
+          }
+        ]
+      },
+      "combined_limitations": [],
+      "video": "/home/user/mozillaedit/test-sample-mp4/local-preview-slowed-v2-reflections/job-v0001/renders/encounters-v0001/clip-007-libx264.mp4",
+      "game_audio": "/home/user/mozillaedit/test-sample-mp4/local-preview-slowed-v2-reflections/job-v0001/renders/encounters-v0001/game-007.wav",
+      "encoder": "libx264",
+      "source_audio_end_rounding_seconds": -2.842170943040401e-14
+    },
+    {
+      "source_start": 91.495,
+      "source_end": 94.67681818181819,
+      "output_start": 26.730000000000004,
+      "output_end": 30.022,
+      "music_start": 34.730000000000004,
+      "music_end": 38.022,
+      "speed": 1.0,
+      "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_z0ALKJiFRDU_Warden-is-Simply-Overpowered_002_720p.mp4",
+      "index": 8,
+      "frame_start": 1604,
+      "frame_end": 1801,
+      "frame_count": 197,
+      "sample_start": 1283040,
+      "sample_end": 1441056,
+      "sample_count": 158016,
+      "source_sample_start": 4391760,
+      "source_sample_end": 4544487,
+      "video_phase_seconds": -0.0033333333333303017,
+      "events": [],
+      "audio_segments": [
+        {
+          "source_start_sample": 4391760,
+          "source_end_sample": 4393680,
+          "output_start_sample": 0,
+          "output_end_sample": 1920,
+          "count": 1920,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 4393680,
+          "source_end_sample": 4394400,
+          "output_start_sample": 1920,
+          "output_end_sample": 2640,
+          "count": 720,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 4394400,
+          "source_end_sample": 4403760,
+          "output_start_sample": 2640,
+          "output_end_sample": 12000,
+          "count": 9360,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 4403760,
+          "source_end_sample": 4413600,
+          "output_start_sample": 12000,
+          "output_end_sample": 21840,
+          "count": 9840,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 4413600,
+          "source_end_sample": 4423200,
+          "output_start_sample": 21840,
+          "output_end_sample": 31440,
+          "count": 9600,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 4423200,
+          "source_end_sample": 4434480,
+          "output_start_sample": 31440,
+          "output_end_sample": 42720,
+          "count": 11280,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 4434480,
+          "source_end_sample": 4445520,
+          "output_start_sample": 42720,
+          "output_end_sample": 53760,
+          "count": 11040,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 4445520,
+          "source_end_sample": 4451760,
+          "output_start_sample": 53760,
+          "output_end_sample": 60000,
+          "count": 6240,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 4451760,
+          "source_end_sample": 4470000,
+          "output_start_sample": 60000,
+          "output_end_sample": 78240,
+          "count": 18240,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 4470000,
+          "source_end_sample": 4486320,
+          "output_start_sample": 78240,
+          "output_end_sample": 94560,
+          "count": 16320,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 4486320,
+          "source_end_sample": 4506000,
+          "output_start_sample": 94560,
+          "output_end_sample": 114240,
+          "count": 19680,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 4506000,
+          "source_end_sample": 4528320,
+          "output_start_sample": 114240,
+          "output_end_sample": 136560,
+          "count": 22320,
+          "speed": 1.0,
+          "identity": true
+        },
+        {
+          "source_start_sample": 4528320,
+          "source_end_sample": 4544487,
+          "output_start_sample": 136560,
+          "output_end_sample": 158016,
+          "count": 21456,
+          "speed": 1.0,
+          "identity": true
+        }
+      ],
+      "authored_shot": {
+        "role": "impact",
+        "composition": "full"
+      },
+      "authored_edges": [],
+      "authored_impacts": [
+        {
+          "clip_index": 8,
+          "output_time": 28.58,
+          "frames": 6,
+          "strength": 0.17353325004364767,
+          "start_frame": 109,
+          "end_frame": 114,
+          "center_frame": 111
+        }
+      ],
+      "authored_design": {
+        "schema_version": "authored-footage/v2",
+        "shots": [
+          {
+            "role": "setup",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "contrast",
+            "composition": "inset"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "payoff",
+            "composition": "full"
+          }
+        ],
+        "bridges": [
+          {
+            "boundary": 1,
+            "direction": "left",
+            "frames": 10
+          },
+          {
+            "boundary": 2,
+            "direction": "right",
+            "frames": 10
+          },
+          {
+            "boundary": 3,
+            "direction": "left",
+            "frames": 6
+          },
+          {
+            "boundary": 6,
+            "direction": "right",
+            "frames": 3
+          },
+          {
+            "boundary": 10,
+            "direction": "right",
+            "frames": 10
+          }
+        ],
+        "ending": {
+          "fade_frames": 17
+        },
+        "impacts": [
+          {
+            "clip_index": 0,
+            "output_time": 3.3220000000000027,
+            "frames": 6,
+            "strength": 0.33093615163600776
+          },
+          {
+            "clip_index": 1,
+            "output_time": 5.214999999999989,
+            "frames": 6,
+            "strength": 0.20927481991137317
+          },
+          {
+            "clip_index": 2,
+            "output_time": 7.571958333333333,
+            "frames": 6,
+            "strength": 0.20141208257484838
+          },
+          {
+            "clip_index": 3,
+            "output_time": 10.972,
+            "frames": 6,
+            "strength": 0.20670022904219637
+          },
+          {
+            "clip_index": 4,
+            "output_time": 14.717958333333383,
+            "frames": 6,
+            "strength": 0.20250136023434226
+          },
+          {
+            "clip_index": 5,
+            "output_time": 18.428000000000004,
+            "frames": 6,
+            "strength": 0.1634715499564853
+          },
+          {
+            "clip_index": 6,
+            "output_time": 21.044,
+            "frames": 6,
+            "strength": 0.1852876330603841
+          },
+          {
+            "clip_index": 7,
+            "output_time": 24.677958333333315,
+            "frames": 6,
+            "strength": 0.19151656153518556
+          },
+          {
+            "clip_index": 8,
+            "output_time": 28.58,
+            "frames": 6,
+            "strength": 0.17353325004364767
+          },
+          {
+            "clip_index": 9,
+            "output_time": 32.49014015151517,
+            "frames": 6,
+            "strength": 0.13285606866488026
+          },
+          {
+            "clip_index": 10,
+            "output_time": 34.66618181818178,
+            "frames": 6,
+            "strength": 0.16370809935209607
+          }
+        ]
+      },
+      "combined_limitations": [],
+      "video": "/home/user/mozillaedit/test-sample-mp4/local-preview-slowed-v2-reflections/job-v0001/renders/encounters-v0001/clip-008-libx264.mp4",
+      "game_audio": "/home/user/mozillaedit/test-sample-mp4/local-preview-slowed-v2-reflections/job-v0001/renders/encounters-v0001/game-008.wav",
+      "encoder": "libx264",
+      "source_audio_end_rounding_seconds": -5.6818181946027835e-06
+    },
+    {
+      "source_start": 447.12685984848486,
+      "source_end": 450.395,
+      "output_start": 30.022,
+      "output_end": 33.290140151515125,
+      "music_start": 38.022,
+      "music_end": 41.290140151515125,
+      "speed": 1.0,
+      "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_z0ALKJiFRDU_Warden-is-Simply-Overpowered_002_720p.mp4",
+      "index": 9,
+      "frame_start": 1801,
+      "frame_end": 1997,
+      "frame_count": 196,
+      "sample_start": 1441056,
+      "sample_end": 1597927,
+      "sample_count": 156871,
+      "source_sample_start": 21462089,
+      "source_sample_end": 21618960,
+      "video_phase_seconds": 0.005333333333332746,
+      "events": [],
+      "audio_segments": [
+        {
+          "source_start_sample": 21462089,
+          "source_end_sample": 21618960,
+          "output_start_sample": 0,
+          "output_end_sample": 156871,
+          "count": 156871,
+          "speed": 1.0,
+          "identity": true
+        }
+      ],
+      "authored_shot": {
+        "role": "impact",
+        "composition": "full"
+      },
+      "authored_edges": [
+        {
+          "side": "out",
+          "frames": 10,
+          "direction": "right",
+          "boundary": 10
+        }
+      ],
+      "authored_impacts": [
+        {
+          "clip_index": 9,
+          "output_time": 32.49014015151517,
+          "frames": 6,
+          "strength": 0.13285606866488026,
+          "start_frame": 146,
+          "end_frame": 151,
+          "center_frame": 148
+        }
+      ],
+      "authored_design": {
+        "schema_version": "authored-footage/v2",
+        "shots": [
+          {
+            "role": "setup",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "contrast",
+            "composition": "inset"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "payoff",
+            "composition": "full"
+          }
+        ],
+        "bridges": [
+          {
+            "boundary": 1,
+            "direction": "left",
+            "frames": 10
+          },
+          {
+            "boundary": 2,
+            "direction": "right",
+            "frames": 10
+          },
+          {
+            "boundary": 3,
+            "direction": "left",
+            "frames": 6
+          },
+          {
+            "boundary": 6,
+            "direction": "right",
+            "frames": 3
+          },
+          {
+            "boundary": 10,
+            "direction": "right",
+            "frames": 10
+          }
+        ],
+        "ending": {
+          "fade_frames": 17
+        },
+        "impacts": [
+          {
+            "clip_index": 0,
+            "output_time": 3.3220000000000027,
+            "frames": 6,
+            "strength": 0.33093615163600776
+          },
+          {
+            "clip_index": 1,
+            "output_time": 5.214999999999989,
+            "frames": 6,
+            "strength": 0.20927481991137317
+          },
+          {
+            "clip_index": 2,
+            "output_time": 7.571958333333333,
+            "frames": 6,
+            "strength": 0.20141208257484838
+          },
+          {
+            "clip_index": 3,
+            "output_time": 10.972,
+            "frames": 6,
+            "strength": 0.20670022904219637
+          },
+          {
+            "clip_index": 4,
+            "output_time": 14.717958333333383,
+            "frames": 6,
+            "strength": 0.20250136023434226
+          },
+          {
+            "clip_index": 5,
+            "output_time": 18.428000000000004,
+            "frames": 6,
+            "strength": 0.1634715499564853
+          },
+          {
+            "clip_index": 6,
+            "output_time": 21.044,
+            "frames": 6,
+            "strength": 0.1852876330603841
+          },
+          {
+            "clip_index": 7,
+            "output_time": 24.677958333333315,
+            "frames": 6,
+            "strength": 0.19151656153518556
+          },
+          {
+            "clip_index": 8,
+            "output_time": 28.58,
+            "frames": 6,
+            "strength": 0.17353325004364767
+          },
+          {
+            "clip_index": 9,
+            "output_time": 32.49014015151517,
+            "frames": 6,
+            "strength": 0.13285606866488026
+          },
+          {
+            "clip_index": 10,
+            "output_time": 34.66618181818178,
+            "frames": 6,
+            "strength": 0.16370809935209607
+          }
+        ]
+      },
+      "combined_limitations": [],
+      "video": "/home/user/mozillaedit/test-sample-mp4/local-preview-slowed-v2-reflections/job-v0001/renders/encounters-v0001/clip-009-libx264.mp4",
+      "game_audio": "/home/user/mozillaedit/test-sample-mp4/local-preview-slowed-v2-reflections/job-v0001/renders/encounters-v0001/game-009.wav",
+      "encoder": "libx264",
+      "source_audio_end_rounding_seconds": 0.0
+    },
+    {
+      "source_start": 322.86395833333336,
+      "source_end": 326.04200000000003,
+      "output_start": 33.290140151515125,
+      "output_end": 36.4681818181818,
+      "music_start": 41.290140151515125,
+      "music_end": 44.4681818181818,
+      "speed": 1.0,
+      "source": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_z0ALKJiFRDU_Warden-is-Simply-Overpowered_002_720p.mp4",
+      "index": 10,
+      "frame_start": 1997,
+      "frame_end": 2188,
+      "frame_count": 191,
+      "sample_start": 1597927,
+      "sample_end": 1750473,
+      "sample_count": 152546,
+      "source_sample_start": 15497470,
+      "source_sample_end": 15650016,
+      "video_phase_seconds": 0.006806818181793517,
+      "events": [],
+      "audio_segments": [
+        {
+          "source_start_sample": 15497470,
+          "source_end_sample": 15650016,
+          "output_start_sample": 0,
+          "output_end_sample": 152546,
+          "count": 152546,
+          "speed": 1.0,
+          "identity": true
+        }
+      ],
+      "authored_shot": {
+        "role": "payoff",
+        "composition": "full"
+      },
+      "authored_edges": [
+        {
+          "side": "in",
+          "frames": 10,
+          "direction": "right",
+          "boundary": 10
+        }
+      ],
+      "authored_fade_frames": 17,
+      "authored_impacts": [
+        {
+          "clip_index": 10,
+          "output_time": 34.66618181818178,
+          "frames": 6,
+          "strength": 0.16370809935209607,
+          "start_frame": 81,
+          "end_frame": 86,
+          "center_frame": 83
+        }
+      ],
+      "authored_design": {
+        "schema_version": "authored-footage/v2",
+        "shots": [
+          {
+            "role": "setup",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "contrast",
+            "composition": "inset"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "impact",
+            "composition": "full"
+          },
+          {
+            "role": "payoff",
+            "composition": "full"
+          }
+        ],
+        "bridges": [
+          {
+            "boundary": 1,
+            "direction": "left",
+            "frames": 10
+          },
+          {
+            "boundary": 2,
+            "direction": "right",
+            "frames": 10
+          },
+          {
+            "boundary": 3,
+            "direction": "left",
+            "frames": 6
+          },
+          {
+            "boundary": 6,
+            "direction": "right",
+            "frames": 3
+          },
+          {
+            "boundary": 10,
+            "direction": "right",
+            "frames": 10
+          }
+        ],
+        "ending": {
+          "fade_frames": 17
+        },
+        "impacts": [
+          {
+            "clip_index": 0,
+            "output_time": 3.3220000000000027,
+            "frames": 6,
+            "strength": 0.33093615163600776
+          },
+          {
+            "clip_index": 1,
+            "output_time": 5.214999999999989,
+            "frames": 6,
+            "strength": 0.20927481991137317
+          },
+          {
+            "clip_index": 2,
+            "output_time": 7.571958333333333,
+            "frames": 6,
+            "strength": 0.20141208257484838
+          },
+          {
+            "clip_index": 3,
+            "output_time": 10.972,
+            "frames": 6,
+            "strength": 0.20670022904219637
+          },
+          {
+            "clip_index": 4,
+            "output_time": 14.717958333333383,
+            "frames": 6,
+            "strength": 0.20250136023434226
+          },
+          {
+            "clip_index": 5,
+            "output_time": 18.428000000000004,
+            "frames": 6,
+            "strength": 0.1634715499564853
+          },
+          {
+            "clip_index": 6,
+            "output_time": 21.044,
+            "frames": 6,
+            "strength": 0.1852876330603841
+          },
+          {
+            "clip_index": 7,
+            "output_time": 24.677958333333315,
+            "frames": 6,
+            "strength": 0.19151656153518556
+          },
+          {
+            "clip_index": 8,
+            "output_time": 28.58,
+            "frames": 6,
+            "strength": 0.17353325004364767
+          },
+          {
+            "clip_index": 9,
+            "output_time": 32.49014015151517,
+            "frames": 6,
+            "strength": 0.13285606866488026
+          },
+          {
+            "clip_index": 10,
+            "output_time": 34.66618181818178,
+            "frames": 6,
+            "strength": 0.16370809935209607
+          }
+        ]
+      },
+      "combined_limitations": [],
+      "video": "/home/user/mozillaedit/test-sample-mp4/local-preview-slowed-v2-reflections/job-v0001/renders/encounters-v0001/clip-010-libx264.mp4",
+      "game_audio": "/home/user/mozillaedit/test-sample-mp4/local-preview-slowed-v2-reflections/job-v0001/renders/encounters-v0001/game-010.wav",
+      "encoder": "libx264",
+      "source_audio_end_rounding_seconds": -5.684341886080802e-14
+    }
+  ],
+  "source_metadata": {
+    "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_z0ALKJiFRDU_Warden-is-Simply-Overpowered_002_720p.mp4": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "profile": "High",
+          "codec_type": "video",
+          "codec_tag_string": "avc1",
+          "codec_tag": "0x31637661",
+          "width": 1280,
+          "height": 720,
+          "coded_width": 1280,
+          "coded_height": 720,
+          "closed_captions": 0,
+          "film_grain": 0,
+          "has_b_frames": 1,
+          "sample_aspect_ratio": "1:1",
+          "display_aspect_ratio": "16:9",
+          "pix_fmt": "yuv420p",
+          "level": 32,
+          "color_range": "tv",
+          "color_space": "bt709",
+          "color_transfer": "bt709",
+          "color_primaries": "bt709",
+          "chroma_location": "left",
+          "field_order": "progressive",
+          "refs": 1,
+          "is_avc": "true",
+          "nal_length_size": "4",
+          "id": "0x1",
+          "r_frame_rate": "60/1",
+          "avg_frame_rate": "60/1",
+          "time_base": "1/15360",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 7373568,
+          "duration": "480.050000",
+          "bit_rate": "1076579",
+          "bits_per_raw_sample": "8",
+          "nb_frames": "28803",
+          "extradata_size": 58,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "ISO Media file produced by Google Inc.",
+            "vendor_id": "[0][0][0][0]",
+            "encoder": "Lavc63.1.101 h264_qsv"
+          }
+        },
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "codec_long_name": "AAC (Advanced Audio Coding)",
+          "profile": "LC",
+          "codec_type": "audio",
+          "codec_tag_string": "mp4a",
+          "codec_tag": "0x6134706d",
+          "sample_fmt": "fltp",
+          "sample_rate": "44100",
+          "channels": 2,
+          "channel_layout": "stereo",
+          "bits_per_sample": 0,
+          "initial_padding": 0,
+          "id": "0x2",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "time_base": "1/44100",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 21173248,
+          "duration": "480.119002",
+          "bit_rate": "98013",
+          "nb_frames": "20678",
+          "extradata_size": 5,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "ISO Media file produced by Google Inc.",
+            "vendor_id": "[0][0][0][0]"
+          }
+        }
+      ],
+      "format": {
+        "filename": "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_z0ALKJiFRDU_Warden-is-Simply-Overpowered_002_720p.mp4",
+        "nb_streams": 2,
+        "nb_programs": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.000000",
+        "duration": "480.119002",
+        "size": "71198338",
+        "bit_rate": "1186344",
+        "probe_score": 100,
+        "tags": {
+          "major_brand": "isom",
+          "minor_version": "512",
+          "compatible_brands": "isomiso2avc1mp41",
+          "encoder": "Lavf63.1.101"
+        }
+      }
+    }
+  },
+  "music_metadata": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "mp3",
+        "codec_long_name": "MP3 (MPEG audio layer 3)",
+        "codec_type": "audio",
+        "codec_tag_string": "[0][0][0][0]",
+        "codec_tag": "0x0000",
+        "sample_fmt": "fltp",
+        "sample_rate": "44100",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/14112000",
+        "start_pts": 353600,
+        "start_time": "0.025057",
+        "duration_ts": 640327680,
+        "duration": "45.374694",
+        "bit_rate": "112232",
+        "disposition": {
+          "default": 0,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0
+        },
+        "tags": {
+          "encoder": "Lavc60.31"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/home/user/mozillaedit/audio/Reflections (slowed) - The Neighbourhood [Edit Audio].mp3",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "format_name": "mp3",
+      "format_long_name": "MP2/3 (MPEG audio layer 2/3)",
+      "start_time": "0.025057",
+      "duration": "45.374694",
+      "size": "636703",
+      "bit_rate": "112256",
+      "probe_score": 51,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2mp41",
+        "encoder": "Lavf60.16.100"
+      }
+    }
+  },
+  "media_content_identities": {
+    "/home/user/mozillaedit/raw/YTDown.com_YouTube_Media_z0ALKJiFRDU_Warden-is-Simply-Overpowered_002_720p.mp4": {
+      "schema": "file-content/v1",
+      "sha256": "b68eb9ee7a3bd5901e4490c0da47762139a9151b9cbeccd9d959e6b3c01ebf4f",
+      "size_bytes": 71198338
+    },
+    "/home/user/mozillaedit/audio/Reflections (slowed) - The Neighbourhood [Edit Audio].mp3": {
+      "schema": "file-content/v1",
+      "sha256": "25c7bc6d077cd96d752c32cc493cc72f354607596a1dc8b4288f682e0e304396",
+      "size_bytes": 636703
+    }
+  },
+  "media_identity_binding": {
+    "schema": "render-media-binding/v1",
+    "status": "checked_before_after",
+    "method": "bounded full-file SHA256 before/after rendering",
+    "limitations": "Not semantic authentication; adversarial change-and-restore is not excluded."
+  },
+  "output_metadata": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "width": 1280,
+        "height": 720,
+        "coded_width": 1280,
+        "coded_height": 720,
+        "closed_captions": 0,
+        "film_grain": 0,
+        "has_b_frames": 2,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "16:9",
+        "pix_fmt": "yuv420p",
+        "level": 32,
+        "color_range": "tv",
+        "color_space": "bt709",
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "refs": 1,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "60/1",
+        "avg_frame_rate": "60/1",
+        "time_base": "1/15360",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 560128,
+        "duration": "36.466667",
+        "bit_rate": "3003454",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "2188",
+        "extradata_size": 48,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "vendor_id": "[0][0][0][0]",
+          "encoder": "Lavc61.3.100 libx264"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 1750464,
+        "duration": "36.468000",
+        "bit_rate": "194014",
+        "nb_frames": "1711",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler",
+          "vendor_id": "[0][0][0][0]"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/home/user/mozillaedit/test-sample-mp4/local-preview-slowed-v2-reflections/job-v0001/renders/encounters-v0001/encounters.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "36.468000",
+      "size": "14631356",
+      "bit_rate": "3209686",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf61.1.100"
+      }
+    }
+  },
+  "warnings": [
+    "Not unattended-ready: real decoded event/video/audio QA is still required.",
+    "Final video is globally rounded to frames; audio retains sample-precision plan timing.",
+    "Source video and game audio retimed together by the supplied candidate pacing map; gunshot bursts stay rigidly 1x; music untouched.",
+    "Constant-gain mix can clip; PCM stems are retained for independent timing QA."
+  ]
+}

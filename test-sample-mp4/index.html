@@ -9,7 +9,12 @@
   body { margin: 0; padding: 24px; background: #101014; color: #e8e8ee;
          font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
   h1 { font-size: 20px; margin: 0 0 4px; }
-  p.sub { margin: 0 0 24px; color: #9a9aa8; }
+  p.sub { margin: 0 0 18px; color: #9a9aa8; }
+  .banner { background: #1b2130; border: 1px solid #33405c; border-radius: 12px;
+            padding: 14px 16px; margin: 0 0 24px; }
+  .banner h2 { font-size: 15px; margin: 0 0 6px; }
+  .banner ul { margin: 8px 0 0; padding-left: 20px; color: #c9c9d6; }
+  .banner li { margin-bottom: 4px; }
   .card { background: #17171d; border: 1px solid #26262f; border-radius: 12px;
           padding: 16px; margin-bottom: 24px; }
   h2 { font-size: 16px; margin: 0 0 4px; }
@@ -17,6 +22,8 @@
   video { width: 100%; max-width: 960px; border-radius: 8px; background: #000; display: block; }
   a { color: #8ab4ff; }
   .warn { color: #ffca7a; font-size: 13px; margin-top: 10px; }
+  .ok { color: #8fe0a8; font-size: 13px; }
+  code { background: #22222b; padding: 1px 5px; border-radius: 4px; font-size: 12.5px; }
 </style>
 </head>
 <body>
@@ -24,18 +31,58 @@
   <p class="sub">Real pipeline output from the existing editor code, rendered 2026-10-14 in the sandbox.
   Candidate/diagnostic previews — not finished or perceptual-approved montages.</p>
 
-  <div class="card">
-    <h2>Sample B — 35 s local-preview <span title="recommended">▶</span></h2>
-    <p class="meta">Reflections (slowed) · Warden raw source · excerpt 8→43 s ·
-      35.000 s · 2100 frames · 1280×720/60 · libx264</p>
-    <video controls preload="metadata" src="sample-B-35s-local-preview-reflections.mp4"></video>
-    <p class="warn">QA warn-only: musical_sync unverified, no confirmed event anchors. Full decode passes.
-    Not reviewed yet — flagged for tomorrow.
-    <a href="sample-B-35s-local-preview-reflections.mp4" download>download mp4</a></p>
+  <div class="banner">
+    <h2>Slowed-song pacing (new — your request: “slow down the pace of gunshots”)</h2>
+    <ul>
+      <li><strong>What it does:</strong> each clip keeps rapid-fire <em>bursts rigid at 1x</em> (gunshot transients stay
+      crisp), and the <em>gaps between bursts stretch</em> with an eased curve so the next burst / the next cut lands on a
+      <em>measured attack of the song</em>. Strength is computed per gap and bounded by a floor you choose
+      (<code>--slow-floor</code>; 0.5 is the encoder’s limit).</li>
+      <li><strong>Verified for these renders:</strong> every claimed landing is re-measured against the detected attack
+      grid (exact to 1e-7 s); protected bursts are the original PCM at 1× (best alignment 0.00 samples; the residual is
+      the 44.1→48 kHz resample, ≈ −55 dB); video and audio are retimed by the same certified per-row map.</li>
+      <li><strong>Honest limits:</strong> the anchors are still unreviewed detections, the grid is measured acoustic
+      attacks (not certified meter), and how much pace can change is bounded by the song’s attack spacing, the 0.5×
+      encoder floor and how much song is left. QA stays <em>warn-only</em>. Rows that could not be beat-matched are
+      reported as partial/rigid — nothing is force-fitted.</li>
+    </ul>
   </div>
 
   <div class="card">
-    <h2>Sample A — 10 s studio candidate preview</h2>
+    <h2>B2 — 36 s, slowed-pacing, Reflections <span title="same song/source as sample B">▶</span></h2>
+    <p class="meta">Reflections (slowed) · Warden raw source · excerpt 8→43 s · 1× cut 35.000 s → rendered
+      <strong>36.468 s</strong> · 2188 frames · 1280×720/60 · libx264</p>
+    <video controls preload="metadata" src="sample-B2-36s-slowed-pacing-reflections.mp4"></video>
+    <p class="ok">11 rows: <strong>5 main shots land exactly on a measured attack</strong>, 3 cuts moved onto measured
+      attacks, 11 stretched gaps (playback 0.55→1.0, bursts untouched), 4 rows partial (no claim), 2 rows rigid at 1×.
+      Like-for-like with sample B below: same song, source, excerpt and clip selection — only the pacing differs.</p>
+    <p class="warn">QA warn-only (musical_sync, event_anchors unverified). Candidate pacing: unreviewed anchors.
+    <a href="sample-B2-36s-slowed-pacing-reflections.mp4" download>download mp4</a></p>
+  </div>
+
+  <div class="card">
+    <h2>B2 — 37 s, slowed-pacing, mary on a cross (bestpart! slowed)</h2>
+    <p class="meta">mary on a cross (bestpart! slowed) · Warden raw source · excerpt 8→43 s · 1× cut 35.000 s → rendered
+      <strong>37.436 s</strong> · 2246 frames · 1280×720/60</p>
+    <video controls preload="metadata" src="sample-B2-37s-slowed-pacing-mary-on-a-cross.mp4"></video>
+    <p class="ok">11 rows: <strong>7 main shots land exactly on a measured attack</strong>, 5 cuts on measured attacks,
+      18 stretched gaps (playback 0.554→1.0). A longer slowed song gives the pacing more room — the same command, a
+      different song, so the mode is not tuned to one track.</p>
+    <p class="warn">QA warn-only. Candidate pacing: unreviewed anchors.
+    <a href="sample-B2-37s-slowed-pacing-mary-on-a-cross.mp4" download>download mp4</a></p>
+  </div>
+
+  <div class="card">
+    <h2>B — 35 s local-preview, strict 1× (what you listened to)</h2>
+    <p class="meta">Reflections (slowed) · Warden raw source · excerpt 8→43 s · 35.000 s · 2100 frames · 1280×720/60</p>
+    <video controls preload="metadata" src="sample-B-35s-local-preview-reflections.mp4"></video>
+    <p class="warn">Your verdict: “did good at the 10s clip but not in the longer one … we should have slowed down the
+      pace of gunshots”. Kept unchanged for comparison. QA warn-only: musical_sync unverified, no confirmed event
+      anchors. <a href="sample-B-35s-local-preview-reflections.mp4" download>download mp4</a></p>
+  </div>
+
+  <div class="card">
+    <h2>A — 10 s studio candidate preview</h2>
     <p class="meta">The Winner Takes It All · Overheating raw source · excerpt 42→50.5 s ·
       8.484 s · 509 frames · 1280×720/60</p>
     <video controls preload="metadata" src="sample-A-10s-studio-candidate-preview.mp4"></video>
@@ -46,10 +93,14 @@
 
   <div class="card">
     <h2>Evidence</h2>
-    <p class="meta">Per-run reports live in <code>job-v0001/</code> and
-    <code>local-preview-35s-w/job-v0001/</code>: <code>REPORT.md</code>, <code>job-report.json</code>,
-    <code>quality-report.json</code>, <code>attack-alignment.json</code>, <code>closure-report.json</code>,
-    <code>timeline.json</code>, renderer manifest + PCM stems. See <a href="README.md">README.md</a>.</p>
+    <p class="meta">Per-run reports: <code>job-v0001/</code> (sample A),
+    <code>local-preview-35s-w/job-v0001/</code> (sample B),
+    <code>local-preview-slowed-v2-reflections/job-v0001/</code> and
+    <code>local-preview-slowed-v2/job-v0004/</code> (both pacing runs). Each has
+    <code>REPORT.md</code>, <code>job-report.json</code>, <code>quality-report.json</code>,
+    <code>attack-alignment.json</code>, <code>closure-report.json</code>, <code>timeline.json</code>,
+    <code>timeline-1x-candidate.json</code> (the 1× cut), <code>pacing-report.json</code> (every row’s clusters,
+    shifts, snapped targets and floors), renderer manifest + PCM stems. See <a href="README.md">README.md</a>.</p>
   </div>
 </body>
 </html>

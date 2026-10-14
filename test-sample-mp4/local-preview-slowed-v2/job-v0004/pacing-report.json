@@ -1,0 +1,930 @@
+{
+  "schema": "candidate-pacing-report/v1",
+  "beats": [
+    8.106,
+    8.267,
+    8.36,
+    8.449,
+    8.574,
+    8.65,
+    8.866,
+    8.954,
+    9.084,
+    9.192958333333333,
+    9.345958333333334,
+    9.395958333333333,
+    9.519958333333333,
+    9.712,
+    9.878,
+    10.19,
+    10.327,
+    10.851958333333334,
+    12.123,
+    12.349,
+    12.826,
+    18.552,
+    18.998,
+    19.735958333333333,
+    19.951999999999998,
+    20.318,
+    20.518,
+    22.064999999999998,
+    22.144,
+    22.238,
+    22.374000000000002,
+    23.172,
+    23.671,
+    24.552,
+    26.398958333333333,
+    26.547958333333334,
+    26.695999999999998,
+    27.136000000000003,
+    27.326,
+    27.43,
+    27.549958333333333,
+    27.716,
+    27.797958333333334,
+    27.956958333333333,
+    28.259,
+    28.581,
+    29.195958333333333,
+    29.506999999999998,
+    29.822,
+    30.395958333333333,
+    30.5,
+    30.585958333333334,
+    30.727958333333333,
+    31.032,
+    31.416,
+    31.676000000000002,
+    31.984,
+    32.287,
+    32.586,
+    33.342,
+    33.508,
+    33.829,
+    34.411,
+    34.731,
+    35.056,
+    35.67,
+    35.964,
+    36.58995833333333,
+    37.194,
+    38.424,
+    38.721000000000004,
+    39.031,
+    39.342958333333335,
+    39.65595833333333,
+    39.978,
+    40.287958333333336,
+    40.575,
+    40.89395833333333,
+    41.174,
+    41.491,
+    41.81,
+    42.115,
+    42.429,
+    42.772,
+    43.354,
+    43.632,
+    43.783,
+    44.275999999999996,
+    44.585,
+    44.672,
+    45.21595833333333,
+    45.83595833333333,
+    46.120000000000005,
+    46.43,
+    46.75,
+    47.049958333333336,
+    47.367958333333334,
+    47.653999999999996,
+    48.28,
+    48.58,
+    48.896,
+    49.498,
+    49.794,
+    50.09995833333333,
+    50.74795833333333,
+    51.368,
+    51.977000000000004,
+    52.315,
+    52.484,
+    52.586,
+    52.878,
+    53.185,
+    53.48,
+    53.806,
+    54.112,
+    54.429,
+    54.730000000000004,
+    55.659958333333336,
+    55.984,
+    56.274,
+    56.374,
+    56.897958333333335,
+    57.2,
+    57.525958333333335,
+    57.754000000000005
+  ],
+  "song_seconds": 119.14449,
+  "music_bound_seconds": 50.0,
+  "report": {
+    "mode": "auto-slowed-candidate",
+    "schema_version": "candidate-pacing-report/v1",
+    "grid_origin": "measured acoustic attacks from hit-map/v1, unreviewed",
+    "measured_attacks": 125,
+    "bursts_stay_rigid": true,
+    "slow_floor": 0.55,
+    "burst_gap_seconds": 0.18,
+    "max_row_slowdown": 1.75,
+    "max_output_duration": 50.0,
+    "original_duration": 34.99999999999996,
+    "paced_duration": 37.436041666666675,
+    "rows_total": 11,
+    "rows_beat_matched": 7,
+    "rows_partial": 3,
+    "rows_rigid": 1,
+    "kept": [
+      {
+        "index": 0,
+        "beat_matched": true,
+        "partial": false,
+        "main_candidate_id": "candidate-00991",
+        "anchor_offset_seconds": 0.0,
+        "unsnapped_clusters": [
+          2
+        ],
+        "clusters": [
+          {
+            "cluster": 0,
+            "source_start": 0.31500000000002615,
+            "source_end": 0.3300000000000125,
+            "shift": 0.134,
+            "snapped": true,
+            "target_beat": 8.449
+          },
+          {
+            "cluster": 1,
+            "source_start": 1.2700000000000102,
+            "source_end": 1.5300000000000296,
+            "shift": 0.358,
+            "snapped": true,
+            "target_beat": 9.878
+          },
+          {
+            "cluster": 2,
+            "source_start": 2.605000000000018,
+            "source_end": 2.700000000000017,
+            "shift": 0.358,
+            "snapped": false,
+            "target_beat": null
+          }
+        ],
+        "gap_strengths": [
+          {
+            "cluster": 0,
+            "source_seconds": 0.315,
+            "stretch_seconds": 0.134,
+            "playback_floor": 0.556291
+          },
+          {
+            "cluster": 1,
+            "source_seconds": 0.94,
+            "stretch_seconds": 0.224,
+            "playback_floor": 0.691176
+          }
+        ],
+        "tail": {
+          "source_seconds": 0.3,
+          "stretch_seconds": 0.0,
+          "target_beat": null,
+          "playback_floor": 0.130909
+        },
+        "stretch_seconds": 0.3579999999999899,
+        "playback_floor": 0.5562913907285434
+      },
+      {
+        "index": 2,
+        "beat_matched": true,
+        "partial": false,
+        "main_candidate_id": "candidate-00331",
+        "anchor_offset_seconds": 0.0,
+        "unsnapped_clusters": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "clusters": [
+          {
+            "cluster": 0,
+            "source_start": 0.1490000000000009,
+            "source_end": 0.5640000000000072,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 1,
+            "source_start": 0.9039999999999964,
+            "source_end": 0.9189999999999969,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 2,
+            "source_start": 1.2439999999999998,
+            "source_end": 1.2590000000000003,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 3,
+            "source_start": 1.8190000000000026,
+            "source_end": 1.8340000000000032,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 4,
+            "source_start": 2.1189999999999998,
+            "source_end": 2.3089999999999975,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 5,
+            "source_start": 2.6740000000000066,
+            "source_end": 2.689000000000007,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 6,
+            "source_start": 3.3589999999999947,
+            "source_end": 3.3739999999999952,
+            "shift": 0.012,
+            "snapped": true,
+            "target_beat": 18.552
+          },
+          {
+            "cluster": 7,
+            "source_start": 3.7240000000000038,
+            "source_end": 3.7390000000000043,
+            "shift": 0.088,
+            "snapped": true,
+            "target_beat": 18.998
+          }
+        ],
+        "gap_strengths": [
+          {
+            "cluster": 6,
+            "source_seconds": 0.67,
+            "stretch_seconds": 0.012,
+            "playback_floor": 0.967509
+          },
+          {
+            "cluster": 7,
+            "source_seconds": 0.35,
+            "stretch_seconds": 0.076,
+            "playback_floor": 0.71066
+          }
+        ],
+        "tail": {
+          "source_seconds": 0.79,
+          "stretch_seconds": 0.154,
+          "target_beat": 19.951999999999998,
+          "playback_floor": 0.344727
+        },
+        "stretch_seconds": 0.24200000000001864,
+        "playback_floor": 0.7106598984771668
+      },
+      {
+        "index": 3,
+        "beat_matched": false,
+        "partial": true,
+        "main_candidate_id": "candidate-01657",
+        "anchor_offset_seconds": 0.6,
+        "unsnapped_clusters": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "clusters": [
+          {
+            "cluster": 0,
+            "source_start": 0.09600000000000364,
+            "source_end": 0.11099999999999,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 1,
+            "source_start": 0.29599999999999227,
+            "source_end": 0.3109999999999786,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 2,
+            "source_start": 0.5909999999999513,
+            "source_end": 0.6059999999999945,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 3,
+            "source_start": 1.1610000000000014,
+            "source_end": 1.1759999999999877,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 4,
+            "source_start": 1.3759999999999764,
+            "source_end": 1.3909999999999627,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          }
+        ],
+        "gap_strengths": [],
+        "tail": {
+          "source_seconds": 0.609,
+          "stretch_seconds": 0.192,
+          "target_beat": 22.144,
+          "playback_floor": 0.265745
+        },
+        "stretch_seconds": 0.19200000000000017,
+        "playback_floor": 0.628482972136234
+      },
+      {
+        "index": 4,
+        "beat_matched": true,
+        "partial": false,
+        "main_candidate_id": "candidate-01743",
+        "anchor_offset_seconds": 0.0,
+        "unsnapped_clusters": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "clusters": [
+          {
+            "cluster": 0,
+            "source_start": 0.2769999999999868,
+            "source_end": 0.29199999999997317,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 1,
+            "source_start": 0.6169999999999618,
+            "source_end": 0.632000000000005,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 2,
+            "source_start": 0.9219999999999686,
+            "source_end": 1.1270000000000095,
+            "shift": 0.006,
+            "snapped": true,
+            "target_beat": 23.172
+          },
+          {
+            "cluster": 3,
+            "source_start": 1.6169999999999618,
+            "source_end": 1.632000000000005,
+            "shift": 0.006,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 4,
+            "source_start": 2.116999999999962,
+            "source_end": 2.507000000000005,
+            "shift": 0.006,
+            "snapped": false,
+            "target_beat": null
+          }
+        ],
+        "gap_strengths": [
+          {
+            "cluster": 2,
+            "source_seconds": 0.29,
+            "stretch_seconds": 0.006,
+            "playback_floor": 0.962656
+          }
+        ],
+        "tail": {
+          "source_seconds": 0.493,
+          "stretch_seconds": 0.0,
+          "target_beat": null,
+          "playback_floor": 0.215127
+        },
+        "stretch_seconds": 0.0060000000000108855,
+        "playback_floor": 0.9626556016596745
+      },
+      {
+        "index": 5,
+        "beat_matched": true,
+        "partial": false,
+        "main_candidate_id": "candidate-01242",
+        "anchor_offset_seconds": 0.0,
+        "unsnapped_clusters": [
+          0,
+          1
+        ],
+        "clusters": [
+          {
+            "cluster": 0,
+            "source_start": 0.03195833333336395,
+            "source_end": 0.40695833333336395,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 1,
+            "source_start": 0.611958333333348,
+            "source_end": 0.8119583333333367,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 2,
+            "source_start": 1.201958333333323,
+            "source_end": 1.4319583333333412,
+            "shift": 0.047,
+            "snapped": true,
+            "target_beat": 26.398958333333333
+          },
+          {
+            "cluster": 3,
+            "source_start": 1.9769583333333571,
+            "source_end": 2.056958333333341,
+            "shift": 0.233042,
+            "snapped": true,
+            "target_beat": 27.43
+          },
+          {
+            "cluster": 4,
+            "source_start": 2.5269583333333117,
+            "source_end": 2.541958333333355,
+            "shift": 0.28,
+            "snapped": true,
+            "target_beat": 27.956958333333333
+          }
+        ],
+        "gap_strengths": [
+          {
+            "cluster": 2,
+            "source_seconds": 0.39,
+            "stretch_seconds": 0.047,
+            "playback_floor": 0.815686
+          },
+          {
+            "cluster": 3,
+            "source_seconds": 0.545,
+            "stretch_seconds": 0.186042,
+            "playback_floor": 0.609737
+          },
+          {
+            "cluster": 4,
+            "source_seconds": 0.47,
+            "stretch_seconds": 0.046958,
+            "playback_floor": 0.842223
+          }
+        ],
+        "tail": {
+          "source_seconds": 0.305,
+          "stretch_seconds": 0.0,
+          "target_beat": null,
+          "playback_floor": 0.133091
+        },
+        "stretch_seconds": 0.2800000000000118,
+        "playback_floor": 0.6097369111092076
+      },
+      {
+        "index": 6,
+        "beat_matched": true,
+        "partial": false,
+        "main_candidate_id": "candidate-00358",
+        "anchor_offset_seconds": 0.0,
+        "unsnapped_clusters": [
+          0,
+          1
+        ],
+        "clusters": [
+          {
+            "cluster": 0,
+            "source_start": 0.18704166666667277,
+            "source_end": 0.4220416666666722,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 1,
+            "source_start": 0.652041666666662,
+            "source_end": 0.7820416666666716,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 2,
+            "source_start": 1.162041666666667,
+            "source_end": 1.5020416666666705,
+            "shift": 0.163,
+            "snapped": true,
+            "target_beat": 29.822
+          },
+          {
+            "cluster": 3,
+            "source_start": 1.912041666666667,
+            "source_end": 2.3770416666666705,
+            "shift": 0.311,
+            "snapped": true,
+            "target_beat": 30.5
+          },
+          {
+            "cluster": 4,
+            "source_start": 2.717041666666674,
+            "source_end": 2.7320416666666603,
+            "shift": 0.422,
+            "snapped": true,
+            "target_beat": 31.416
+          }
+        ],
+        "gap_strengths": [
+          {
+            "cluster": 2,
+            "source_seconds": 0.38,
+            "stretch_seconds": 0.163,
+            "playback_floor": 0.554239
+          },
+          {
+            "cluster": 3,
+            "source_seconds": 0.41,
+            "stretch_seconds": 0.148,
+            "playback_floor": 0.596364
+          },
+          {
+            "cluster": 4,
+            "source_seconds": 0.34,
+            "stretch_seconds": 0.111,
+            "playback_floor": 0.620296
+          }
+        ],
+        "tail": {
+          "source_seconds": 0.35,
+          "stretch_seconds": 0.0,
+          "target_beat": null,
+          "playback_floor": 0.152727
+        },
+        "stretch_seconds": 0.4220000000000006,
+        "playback_floor": 0.5542388331813873
+      },
+      {
+        "index": 7,
+        "beat_matched": true,
+        "partial": false,
+        "main_candidate_id": "candidate-01307",
+        "anchor_offset_seconds": 0.0,
+        "unsnapped_clusters": [
+          0,
+          1,
+          2
+        ],
+        "clusters": [
+          {
+            "cluster": 0,
+            "source_start": 0.11099999999999,
+            "source_end": 0.12599999999997635,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 1,
+            "source_start": 0.36599999999998545,
+            "source_end": 0.3809999999999718,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 2,
+            "source_start": 1.2559999999999718,
+            "source_end": 1.335999999999956,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 3,
+            "source_start": 1.5559999999999832,
+            "source_end": 1.6859999999999786,
+            "shift": 0.005,
+            "snapped": true,
+            "target_beat": 33.342
+          },
+          {
+            "cluster": 4,
+            "source_start": 2.0009999999999764,
+            "source_end": 2.0159999999999627,
+            "shift": 0.042,
+            "snapped": true,
+            "target_beat": 33.829
+          }
+        ],
+        "gap_strengths": [
+          {
+            "cluster": 3,
+            "source_seconds": 0.22,
+            "stretch_seconds": 0.005,
+            "playback_floor": 0.959128
+          },
+          {
+            "cluster": 4,
+            "source_seconds": 0.315,
+            "stretch_seconds": 0.037,
+            "playback_floor": 0.819512
+          }
+        ],
+        "tail": {
+          "source_seconds": 1.165818,
+          "stretch_seconds": 0.051182,
+          "target_beat": 35.056,
+          "playback_floor": 0.508721
+        },
+        "stretch_seconds": 0.0931818181818187,
+        "playback_floor": 0.8195121951218921
+      },
+      {
+        "index": 8,
+        "beat_matched": false,
+        "partial": true,
+        "main_candidate_id": "candidate-00625",
+        "anchor_offset_seconds": 0.265777,
+        "unsnapped_clusters": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "clusters": [
+          {
+            "cluster": 0,
+            "source_start": 0.08818181818182325,
+            "source_end": 0.2531818181818153,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 1,
+            "source_start": 0.46318181818182325,
+            "source_end": 0.5231818181818255,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 2,
+            "source_start": 0.8031818181818267,
+            "source_end": 0.818181818181813,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 3,
+            "source_start": 1.1581818181818164,
+            "source_end": 1.278181818181821,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 4,
+            "source_start": 2.333181818181828,
+            "source_end": 2.488181818181829,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          }
+        ],
+        "gap_strengths": [],
+        "tail": {
+          "source_seconds": 0.693636,
+          "stretch_seconds": 0.186182,
+          "target_beat": 38.424,
+          "playback_floor": 0.302678
+        },
+        "stretch_seconds": 0.18618181818181512,
+        "playback_floor": 0.6652136006974702
+      },
+      {
+        "index": 9,
+        "beat_matched": true,
+        "partial": false,
+        "main_candidate_id": "candidate-01110",
+        "anchor_offset_seconds": 0.0,
+        "unsnapped_clusters": [
+          0,
+          2
+        ],
+        "clusters": [
+          {
+            "cluster": 0,
+            "source_start": 0.0693636363636756,
+            "source_end": 0.08436363636366195,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 1,
+            "source_start": 0.2743636363636597,
+            "source_end": 0.789363636363646,
+            "shift": 0.022636,
+            "snapped": true,
+            "target_beat": 38.721000000000004
+          },
+          {
+            "cluster": 2,
+            "source_start": 1.0793636363636665,
+            "source_end": 1.1843636363636278,
+            "shift": 0.022636,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 3,
+            "source_start": 1.4843636363636392,
+            "source_end": 2.074363636363671,
+            "shift": 0.084595,
+            "snapped": true,
+            "target_beat": 40.287958333333336
+          },
+          {
+            "cluster": 4,
+            "source_start": 2.49436363636363,
+            "source_end": 2.699363636363671,
+            "shift": 0.255636,
+            "snapped": true,
+            "target_beat": 41.174
+          }
+        ],
+        "gap_strengths": [
+          {
+            "cluster": 1,
+            "source_seconds": 0.19,
+            "stretch_seconds": 0.022636,
+            "playback_floor": 0.817404
+          },
+          {
+            "cluster": 3,
+            "source_seconds": 0.3,
+            "stretch_seconds": 0.061958,
+            "playback_floor": 0.720856
+          },
+          {
+            "cluster": 4,
+            "source_seconds": 0.42,
+            "stretch_seconds": 0.171042,
+            "playback_floor": 0.567029
+          }
+        ],
+        "tail": {
+          "source_seconds": 0.300636,
+          "stretch_seconds": 0.130364,
+          "target_beat": 41.81,
+          "playback_floor": 0.131187
+        },
+        "stretch_seconds": 0.3859999999999957,
+        "playback_floor": 0.5515573531251059
+      },
+      {
+        "index": 10,
+        "beat_matched": false,
+        "partial": true,
+        "main_candidate_id": "candidate-01788",
+        "anchor_offset_seconds": 0.287322,
+        "unsnapped_clusters": [
+          0,
+          1,
+          2
+        ],
+        "clusters": [
+          {
+            "cluster": 0,
+            "source_start": 0.2243219696969163,
+            "source_end": 0.23932196969690267,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 1,
+            "source_start": 0.789321969696914,
+            "source_end": 0.9693219696969209,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 2,
+            "source_start": 1.2443219696968981,
+            "source_end": 1.2593219696969413,
+            "shift": 0.0,
+            "snapped": false,
+            "target_beat": null
+          },
+          {
+            "cluster": 3,
+            "source_start": 2.2243219696969163,
+            "source_end": 2.2393219696969027,
+            "shift": 0.241678,
+            "snapped": true,
+            "target_beat": 44.275999999999996
+          },
+          {
+            "cluster": 4,
+            "source_start": 2.504321969696946,
+            "source_end": 2.8893219696969368,
+            "shift": 0.270678,
+            "snapped": true,
+            "target_beat": 44.585
+          }
+        ],
+        "gap_strengths": [
+          {
+            "cluster": 3,
+            "source_seconds": 0.965,
+            "stretch_seconds": 0.241678,
+            "playback_floor": 0.680466
+          },
+          {
+            "cluster": 4,
+            "source_seconds": 0.265,
+            "stretch_seconds": 0.029,
+            "playback_floor": 0.829746
+          }
+        ],
+        "tail": {
+          "source_seconds": 0.466042,
+          "stretch_seconds": 0.0,
+          "target_beat": null,
+          "playback_floor": 0.203364
+        },
+        "stretch_seconds": 0.2706780303030527,
+        "playback_floor": 0.6804657568548375
+      }
+    ],
+    "rigid_rows": [
+      {
+        "index": 1,
+        "row": 1,
+        "beat_matched": false,
+        "reason": "no measured attack is reachable through the row's certified gap chain",
+        "partial": false,
+        "main_candidate_id": "candidate-00284",
+        "anchor_offset_seconds": 0.132,
+        "unsnapped_clusters": []
+      }
+    ],
+    "limitations": [
+      "Candidate pacing only: anchors are unreviewed local acoustic/video candidates, not reviewed shots or kills.",
+      "The target grid is measured acoustic attacks, not certified percussion, meter or musical taste.",
+      "Playback is slowed only in the gaps between measured burst clusters; each cluster keeps rigid 1x playback so gunshot transients are not smeared.",
+      "Gap slow-motion cannot go below the engine's atempo range, so the declared floor stays at or above 0.5 with a small margin for rounded slice edges.",
+      "No interval is ever sped up: gaps keep 1x or stretch, bounded by the declared slow floor and per-row budget.",
+      "Gap capacity is the inverse of the same analytic C2 bound the map certifies with, so no gap can overshoot the floor.",
+      "Clusters and rows without a reachable measured attack stay at 1x and are reported as unsnapped/rigid; nothing is force-fitted or invented.",
+      "musical_sync remains unverified; no lyric/closure integration exists for retimed clocks."
+    ]
+  }
+}

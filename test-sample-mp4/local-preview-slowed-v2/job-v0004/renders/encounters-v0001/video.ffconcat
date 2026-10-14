@@ -1,0 +1,23 @@
+ffconcat version 1.0
+file 'clip-000-libx264.mp4'
+duration 3.350000000000
+file 'clip-001-libx264.mp4'
+duration 3.833333333333
+file 'clip-002-libx264.mp4'
+duration 4.766666666667
+file 'clip-003-libx264.mp4'
+duration 2.200000000000
+file 'clip-004-libx264.mp4'
+duration 3.000000000000
+file 'clip-005-libx264.mp4'
+duration 3.133333333333
+file 'clip-006-libx264.mp4'
+duration 3.500000000000
+file 'clip-007-libx264.mp4'
+duration 3.266666666667
+file 'clip-008-libx264.mp4'
+duration 3.366666666667
+file 'clip-009-libx264.mp4'
+duration 3.400000000000
+file 'clip-010-libx264.mp4'
+duration 3.616666666667

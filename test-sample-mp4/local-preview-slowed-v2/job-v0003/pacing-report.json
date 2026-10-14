@@ -1,0 +1,1235 @@
+{
+  "schema": "candidate-pacing-report/v1",
+  "beats": [
+    8.106,
+    8.267,
+    8.36,
+    8.449,
+    8.574,
+    8.65,
+    8.866,
+    8.954,
+    9.084,
+    9.192958333,
+    9.345958333,
+    9.395958333,
+    9.396,
+    9.519958333,
+    9.52,
+    9.712,
+    9.878,
+    10.19,
+    10.327,
+    10.851958333,
+    12.123,
+    12.349,
+    12.826,
+    18.552,
+    18.998,
+    19.735958333,
+    19.736,
+    19.952,
+    20.318,
+    20.518,
+    22.065,
+    22.144,
+    22.238,
+    22.374,
+    23.172,
+    23.671,
+    24.552,
+    26.398958333,
+    26.547958333,
+    26.696,
+    27.136,
+    27.326,
+    27.43,
+    27.549958333,
+    27.55,
+    27.716,
+    27.797958333,
+    27.798,
+    27.956958333,
+    28.259,
+    28.581,
+    29.195958333,
+    29.507,
+    29.822,
+    30.395958333,
+    30.396,
+    30.5,
+    30.585958333,
+    30.586,
+    30.727958333,
+    31.032,
+    31.416,
+    31.676,
+    31.984,
+    32.287,
+    32.586,
+    33.342,
+    33.508,
+    33.829,
+    34.411,
+    34.731,
+    35.056,
+    35.67,
+    35.964,
+    36.589958333,
+    37.194,
+    38.424,
+    38.721,
+    39.031,
+    39.342958333,
+    39.655958333,
+    39.978,
+    40.287958333,
+    40.575,
+    40.893958333,
+    41.174,
+    41.491,
+    41.81,
+    42.115,
+    42.429,
+    42.772,
+    43.354,
+    43.632,
+    43.783,
+    44.276,
+    44.585,
+    44.672,
+    45.215958333,
+    45.835958333,
+    46.12,
+    46.43,
+    46.75,
+    47.049958333,
+    47.05,
+    47.367958333,
+    47.654,
+    48.28,
+    48.58,
+    48.896,
+    49.498,
+    49.794,
+    50.099958333,
+    50.747958333,
+    51.368,
+    51.977,
+    52.315,
+    52.484,
+    52.586,
+    52.878,
+    53.185,
+    53.48,
+    53.806,
+    54.112,
+    54.429,
+    54.73,
+    55.659958333,
+    55.66,
+    55.984,
+    56.274,
+    56.374,
+    56.897958333,
+    56.898,
+    57.2,
+    57.525958333,
+    57.526,
+    57.754
+  ],
+  "song_seconds": 119.14449,
+  "music_bound_seconds": 50.0,
+  "report": {
+    "mode": "auto-slowed-candidate",
+    "slow_floor": 0.55,
+    "burst_gap_seconds": 0.18,
+    "max_row_slowdown_seconds": 1.75,
+    "max_output_duration": 50.0,
+    "grid_origin": "measured acoustic attacks from hit-map/v1, unreviewed",
+    "grid_size": 136,
+    "measured_attacks": [
+      8.106,
+      8.267,
+      8.36,
+      8.449,
+      8.574,
+      8.65,
+      8.866,
+      8.954,
+      9.084,
+      9.192958333,
+      9.345958333,
+      9.395958333,
+      9.396,
+      9.519958333,
+      9.52,
+      9.712,
+      9.878,
+      10.19,
+      10.327,
+      10.851958333,
+      12.123,
+      12.349,
+      12.826,
+      18.552,
+      18.998,
+      19.735958333,
+      19.736,
+      19.952,
+      20.318,
+      20.518,
+      22.065,
+      22.144,
+      22.238,
+      22.374,
+      23.172,
+      23.671,
+      24.552,
+      26.398958333,
+      26.547958333,
+      26.696,
+      27.136,
+      27.326,
+      27.43,
+      27.549958333,
+      27.55,
+      27.716,
+      27.797958333,
+      27.798,
+      27.956958333,
+      28.259,
+      28.581,
+      29.195958333,
+      29.507,
+      29.822,
+      30.395958333,
+      30.396,
+      30.5,
+      30.585958333,
+      30.586,
+      30.727958333,
+      31.032,
+      31.416,
+      31.676,
+      31.984,
+      32.287,
+      32.586,
+      33.342,
+      33.508,
+      33.829,
+      34.411,
+      34.731,
+      35.056,
+      35.67,
+      35.964,
+      36.589958333,
+      37.194,
+      38.424,
+      38.721,
+      39.031,
+      39.342958333,
+      39.655958333,
+      39.978,
+      40.287958333,
+      40.575,
+      40.893958333,
+      41.174,
+      41.491,
+      41.81,
+      42.115,
+      42.429,
+      42.772,
+      43.354,
+      43.632,
+      43.783,
+      44.276,
+      44.585,
+      44.672,
+      45.215958333,
+      45.835958333,
+      46.12,
+      46.43,
+      46.75,
+      47.049958333,
+      47.05,
+      47.367958333,
+      47.654,
+      48.28,
+      48.58,
+      48.896,
+      49.498,
+      49.794,
+      50.099958333,
+      50.747958333,
+      51.368,
+      51.977,
+      52.315,
+      52.484,
+      52.586,
+      52.878,
+      53.185,
+      53.48,
+      53.806,
+      54.112,
+      54.429,
+      54.73,
+      55.659958333,
+      55.66,
+      55.984,
+      56.274,
+      56.374,
+      56.897958333,
+      56.898,
+      57.2,
+      57.525958333,
+      57.526,
+      57.754
+    ],
+    "selection": "max rows beat-matched, then max total slow-motion, under per-row and duration budgets",
+    "original_duration": 34.99999999999996,
+    "paced_duration": 40.90067803030309,
+    "rows_beat_matched": 10,
+    "rows_partial": 0,
+    "rigid_rows": [
+      {
+        "index": 1,
+        "main_candidate_id": "candidate-00284",
+        "clusters": [
+          [
+            0.42799999999999727,
+            0.44299999999999784
+          ],
+          [
+            0.6530000000000058,
+            1.1330000000000098
+          ],
+          [
+            2.0080000000000098,
+            2.0230000000000103
+          ],
+          [
+            2.5829999999999984,
+            2.722999999999999
+          ],
+          [
+            3.0080000000000098,
+            3.413000000000011
+          ]
+        ],
+        "anchor_offset_to_nearest_attack": -0.02095833299998695,
+        "reason": "no certified stretch fits this row at its drifted position; rendered rigid at 1x with its offset reported, nothing force-fitted"
+      }
+    ],
+    "kept": [
+      {
+        "index": 0,
+        "main_candidate_id": "candidate-00991",
+        "beat_matched": true,
+        "anchor_offset_seconds": 0.0,
+        "anchor_cluster": 1,
+        "row_stretch": 0.2469583329999825,
+        "target_music_time": 9.52000000000001,
+        "clusters": [
+          [
+            0.31500000000002615,
+            0.3300000000000125
+          ],
+          [
+            1.2700000000000102,
+            1.5300000000000296
+          ],
+          [
+            2.605000000000018,
+            2.700000000000017
+          ]
+        ],
+        "shifts": [
+          0.0,
+          0.0,
+          0.2469583329999825
+        ],
+        "unsnapped_clusters": [
+          0
+        ],
+        "gap_strengths": [
+          {
+            "cluster": 0,
+            "gap_seconds": 0.31500000000002615,
+            "stretch_seconds": 0.0,
+            "playback_speed": 1.0,
+            "snapped": false
+          },
+          {
+            "cluster": 1,
+            "gap_seconds": 0.9399999999999977,
+            "stretch_seconds": 0.0,
+            "playback_speed": 1.0,
+            "snapped": true
+          },
+          {
+            "cluster": 2,
+            "gap_seconds": 1.0749999999999886,
+            "stretch_seconds": 0.2469583329999825,
+            "playback_speed": 0.8131875061148482,
+            "snapped": true
+          }
+        ],
+        "certified_playback_speed_bounds": [
+          0.6989383860208099,
+          1.0000000000000075
+        ],
+        "output_interval": [
+          0.0,
+          3.2469583329999825
+        ]
+      },
+      {
+        "index": 2,
+        "main_candidate_id": "candidate-00331",
+        "beat_matched": true,
+        "anchor_offset_seconds": 0.0,
+        "anchor_cluster": 7,
+        "row_stretch": 1.1530416670000267,
+        "target_music_time": 19.951999999999998,
+        "clusters": [
+          [
+            0.1490000000000009,
+            0.5640000000000072
+          ],
+          [
+            0.9039999999999964,
+            0.9189999999999969
+          ],
+          [
+            1.2439999999999998,
+            1.2590000000000003
+          ],
+          [
+            1.8190000000000026,
+            1.8340000000000032
+          ],
+          [
+            2.1189999999999998,
+            2.3089999999999975
+          ],
+          [
+            2.6740000000000066,
+            2.689000000000007
+          ],
+          [
+            3.3589999999999947,
+            3.3739999999999952
+          ],
+          [
+            3.7240000000000038,
+            3.7390000000000043
+          ]
+        ],
+        "shifts": [
+          0.0,
+          0.03813257609094345,
+          0.17995075790912515,
+          0.4243143942727602,
+          0.5486780306363939,
+          0.7079507579091235,
+          1.0003143942727517,
+          1.1530416670000267
+        ],
+        "unsnapped_clusters": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "gap_strengths": [
+          {
+            "cluster": 0,
+            "gap_seconds": 0.1490000000000009,
+            "stretch_seconds": 0.0,
+            "playback_speed": 1.0,
+            "snapped": false
+          },
+          {
+            "cluster": 1,
+            "gap_seconds": 0.3399999999999892,
+            "stretch_seconds": 0.03813257609094345,
+            "playback_speed": 0.8991555382899002,
+            "snapped": false
+          },
+          {
+            "cluster": 2,
+            "gap_seconds": 0.32500000000000284,
+            "stretch_seconds": 0.1418181818181817,
+            "playback_speed": 0.6962025316455716,
+            "snapped": false
+          },
+          {
+            "cluster": 3,
+            "gap_seconds": 0.5600000000000023,
+            "stretch_seconds": 0.24436363636363503,
+            "playback_speed": 0.6962025316455717,
+            "snapped": false
+          },
+          {
+            "cluster": 4,
+            "gap_seconds": 0.2849999999999966,
+            "stretch_seconds": 0.12436363636363368,
+            "playback_speed": 0.6962025316455717,
+            "snapped": false
+          },
+          {
+            "cluster": 5,
+            "gap_seconds": 0.3650000000000091,
+            "stretch_seconds": 0.15927272727272968,
+            "playback_speed": 0.6962025316455717,
+            "snapped": false
+          },
+          {
+            "cluster": 6,
+            "gap_seconds": 0.6699999999999875,
+            "stretch_seconds": 0.29236363636362817,
+            "playback_speed": 0.6962025316455716,
+            "snapped": false
+          },
+          {
+            "cluster": 7,
+            "gap_seconds": 0.3500000000000085,
+            "stretch_seconds": 0.15272727272727504,
+            "playback_speed": 0.6962025316455716,
+            "snapped": true
+          }
+        ],
+        "certified_playback_speed_bounds": [
+          0.5499999999999999,
+          1.0000000000000075
+        ],
+        "output_interval": [
+          7.069958332999976,
+          12.751999999999999
+        ]
+      },
+      {
+        "index": 3,
+        "main_candidate_id": "candidate-01657",
+        "beat_matched": true,
+        "anchor_offset_seconds": 0.0,
+        "anchor_cluster": 3,
+        "row_stretch": 0.40727272727272534,
+        "target_music_time": 22.238,
+        "clusters": [
+          [
+            0.09600000000000364,
+            0.11099999999999
+          ],
+          [
+            0.29599999999999227,
+            0.3109999999999786
+          ],
+          [
+            0.5909999999999513,
+            0.6059999999999945
+          ],
+          [
+            1.1610000000000014,
+            1.1759999999999877
+          ],
+          [
+            1.3759999999999764,
+            1.3909999999999627
+          ]
+        ],
+        "shifts": [
+          0.0,
+          0.0,
+          0.07781818181818498,
+          0.32000000000000384,
+          0.40727272727272534
+        ],
+        "unsnapped_clusters": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "gap_strengths": [
+          {
+            "cluster": 0,
+            "gap_seconds": 0.09600000000000364,
+            "stretch_seconds": 0.0,
+            "playback_speed": 1.0,
+            "snapped": false
+          },
+          {
+            "cluster": 1,
+            "gap_seconds": 0.18500000000000227,
+            "stretch_seconds": 0.0,
+            "playback_speed": 1.0,
+            "snapped": false
+          },
+          {
+            "cluster": 2,
+            "gap_seconds": 0.2799999999999727,
+            "stretch_seconds": 0.07781818181818498,
+            "playback_speed": 0.7825203252032285,
+            "snapped": false
+          },
+          {
+            "cluster": 3,
+            "gap_seconds": 0.5550000000000068,
+            "stretch_seconds": 0.24218181818181886,
+            "playback_speed": 0.6962025316455717,
+            "snapped": true
+          },
+          {
+            "cluster": 4,
+            "gap_seconds": 0.19999999999998863,
+            "stretch_seconds": 0.0872727272727215,
+            "playback_speed": 0.6962025316455716,
+            "snapped": false
+          }
+        ],
+        "certified_playback_speed_bounds": [
+          0.5499999999999999,
+          1.0000000000000075
+        ],
+        "output_interval": [
+          12.751999999999999,
+          15.159272727272725
+        ]
+      },
+      {
+        "index": 4,
+        "main_candidate_id": "candidate-01743",
+        "beat_matched": true,
+        "anchor_offset_seconds": 0.0,
+        "anchor_cluster": 2,
+        "row_stretch": 0.7961818181817847,
+        "target_music_time": 24.552,
+        "clusters": [
+          [
+            0.2769999999999868,
+            0.29199999999997317
+          ],
+          [
+            0.6169999999999618,
+            0.632000000000005
+          ],
+          [
+            0.9219999999999686,
+            1.1270000000000095
+          ],
+          [
+            1.6169999999999618,
+            1.632000000000005
+          ],
+          [
+            2.116999999999962,
+            2.507000000000005
+          ]
+        ],
+        "shifts": [
+          0.10236363636367002,
+          0.24418181818184553,
+          0.370727272727283,
+          0.5845454545454419,
+          0.7961818181817847
+        ],
+        "unsnapped_clusters": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "gap_strengths": [
+          {
+            "cluster": 0,
+            "gap_seconds": 0.2769999999999868,
+            "stretch_seconds": 0.10236363636367002,
+            "playback_speed": 0.7301701413850205,
+            "snapped": false
+          },
+          {
+            "cluster": 1,
+            "gap_seconds": 0.32499999999998863,
+            "stretch_seconds": 0.14181818181817551,
+            "playback_speed": 0.6962025316455717,
+            "snapped": false
+          },
+          {
+            "cluster": 2,
+            "gap_seconds": 0.2899999999999636,
+            "stretch_seconds": 0.12654545454543747,
+            "playback_speed": 0.6962025316455717,
+            "snapped": true
+          },
+          {
+            "cluster": 3,
+            "gap_seconds": 0.48999999999995225,
+            "stretch_seconds": 0.21381818181815893,
+            "playback_speed": 0.6962025316455717,
+            "snapped": false
+          },
+          {
+            "cluster": 4,
+            "gap_seconds": 0.4849999999999568,
+            "stretch_seconds": 0.21163636363634275,
+            "playback_speed": 0.6962025316455717,
+            "snapped": false
+          }
+        ],
+        "certified_playback_speed_bounds": [
+          0.55,
+          1.0000000000000075
+        ],
+        "output_interval": [
+          15.159272727272725,
+          18.95545454545451
+        ]
+      },
+      {
+        "index": 5,
+        "main_candidate_id": "candidate-01242",
+        "beat_matched": true,
+        "anchor_offset_seconds": 0.0,
+        "anchor_cluster": 3,
+        "row_stretch": 0.7096780303030376,
+        "target_music_time": 29.507,
+        "clusters": [
+          [
+            0.03195833333336395,
+            0.40695833333336395
+          ],
+          [
+            0.611958333333348,
+            0.8119583333333367
+          ],
+          [
+            1.201958333333323,
+            1.4319583333333412
+          ],
+          [
+            1.9769583333333571,
+            2.056958333333341
+          ],
+          [
+            2.5269583333333117,
+            2.541958333333355
+          ]
+        ],
+        "shifts": [
+          0.007132575757608575,
+          0.09658712121214624,
+          0.26676893939395685,
+          0.5045871212121433,
+          0.7096780303030376
+        ],
+        "unsnapped_clusters": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "gap_strengths": [
+          {
+            "cluster": 0,
+            "gap_seconds": 0.03195833333336395,
+            "stretch_seconds": 0.007132575757608575,
+            "playback_speed": 0.8175387596893791,
+            "snapped": false
+          },
+          {
+            "cluster": 1,
+            "gap_seconds": 0.20499999999998408,
+            "stretch_seconds": 0.08945454545453767,
+            "playback_speed": 0.6962025316455716,
+            "snapped": false
+          },
+          {
+            "cluster": 2,
+            "gap_seconds": 0.38999999999998636,
+            "stretch_seconds": 0.1701818181818106,
+            "playback_speed": 0.6962025316455716,
+            "snapped": false
+          },
+          {
+            "cluster": 3,
+            "gap_seconds": 0.5450000000000159,
+            "stretch_seconds": 0.23781818181818648,
+            "playback_speed": 0.6962025316455717,
+            "snapped": true
+          },
+          {
+            "cluster": 4,
+            "gap_seconds": 0.46999999999997044,
+            "stretch_seconds": 0.20509090909089422,
+            "playback_speed": 0.6962025316455717,
+            "snapped": false
+          }
+        ],
+        "certified_playback_speed_bounds": [
+          0.55,
+          1.0000000000000075
+        ],
+        "output_interval": [
+          18.955454545454508,
+          22.51209090909085
+        ]
+      },
+      {
+        "index": 6,
+        "main_candidate_id": "candidate-00358",
+        "beat_matched": true,
+        "anchor_offset_seconds": 0.0,
+        "anchor_cluster": 2,
+        "row_stretch": 0.27886742424247757,
+        "target_music_time": 31.984,
+        "clusters": [
+          [
+            0.18704166666667277,
+            0.4220416666666722
+          ],
+          [
+            0.652041666666662,
+            0.7820416666666716
+          ],
+          [
+            1.162041666666667,
+            1.5020416666666705
+          ],
+          [
+            1.912041666666667,
+            2.3770416666666705
+          ],
+          [
+            2.717041666666674,
+            2.7320416666666603
+          ]
+        ],
+        "shifts": [
+          0.0,
+          0.0,
+          0.08986742424248462,
+          0.16186742424248024,
+          0.27886742424247757
+        ],
+        "unsnapped_clusters": [
+          0,
+          1
+        ],
+        "gap_strengths": [
+          {
+            "cluster": 0,
+            "gap_seconds": 0.18704166666667277,
+            "stretch_seconds": 0.0,
+            "playback_speed": 1.0,
+            "snapped": false
+          },
+          {
+            "cluster": 1,
+            "gap_seconds": 0.22999999999998977,
+            "stretch_seconds": 0.0,
+            "playback_speed": 1.0,
+            "snapped": false
+          },
+          {
+            "cluster": 2,
+            "gap_seconds": 0.37999999999999545,
+            "stretch_seconds": 0.08986742424248462,
+            "playback_speed": 0.8087387641580627,
+            "snapped": true
+          },
+          {
+            "cluster": 3,
+            "gap_seconds": 0.4099999999999966,
+            "stretch_seconds": 0.07199999999999562,
+            "playback_speed": 0.8506224066390108,
+            "snapped": true
+          },
+          {
+            "cluster": 4,
+            "gap_seconds": 0.3400000000000034,
+            "stretch_seconds": 0.11699999999999733,
+            "playback_speed": 0.7439824945295468,
+            "snapped": true
+          }
+        ],
+        "certified_playback_speed_bounds": [
+          0.6078212290502844,
+          1.0000000000000075
+        ],
+        "output_interval": [
+          22.51209090909085,
+          25.872999999999998
+        ]
+      },
+      {
+        "index": 7,
+        "main_candidate_id": "candidate-01307",
+        "beat_matched": true,
+        "anchor_offset_seconds": 0.0,
+        "anchor_cluster": 4,
+        "row_stretch": 0.7109583330000291,
+        "target_music_time": 36.589958333,
+        "clusters": [
+          [
+            0.11099999999999,
+            0.12599999999997635
+          ],
+          [
+            0.36599999999998545,
+            0.3809999999999718
+          ],
+          [
+            1.2559999999999718,
+            1.335999999999956
+          ],
+          [
+            1.5559999999999832,
+            1.6859999999999786
+          ],
+          [
+            2.0009999999999764,
+            2.0159999999999627
+          ]
+        ],
+        "shifts": [
+          0.0,
+          0.09568560572729673,
+          0.47750378754547496,
+          0.5735037875454859,
+          0.7109583330000291
+        ],
+        "unsnapped_clusters": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "gap_strengths": [
+          {
+            "cluster": 0,
+            "gap_seconds": 0.11099999999999,
+            "stretch_seconds": 0.0,
+            "playback_speed": 1.0,
+            "snapped": false
+          },
+          {
+            "cluster": 1,
+            "gap_seconds": 0.2400000000000091,
+            "stretch_seconds": 0.09568560572729673,
+            "playback_speed": 0.7149546954210871,
+            "snapped": false
+          },
+          {
+            "cluster": 2,
+            "gap_seconds": 0.875,
+            "stretch_seconds": 0.3818181818181782,
+            "playback_speed": 0.6962025316455716,
+            "snapped": false
+          },
+          {
+            "cluster": 3,
+            "gap_seconds": 0.22000000000002728,
+            "stretch_seconds": 0.09600000000001097,
+            "playback_speed": 0.6962025316455717,
+            "snapped": false
+          },
+          {
+            "cluster": 4,
+            "gap_seconds": 0.3149999999999977,
+            "stretch_seconds": 0.13745454545454316,
+            "playback_speed": 0.6962025316455717,
+            "snapped": true
+          }
+        ],
+        "certified_playback_speed_bounds": [
+          0.55,
+          1.0000000000000075
+        ],
+        "output_interval": [
+          25.872999999999998,
+          29.765776514818214
+        ]
+      },
+      {
+        "index": 8,
+        "main_candidate_id": "candidate-00625",
+        "beat_matched": true,
+        "anchor_offset_seconds": 0.0,
+        "anchor_cluster": 3,
+        "row_stretch": 0.4760416669999614,
+        "target_music_time": 39.342958333,
+        "clusters": [
+          [
+            0.08818181818182325,
+            0.2531818181818153
+          ],
+          [
+            0.46318181818182325,
+            0.5231818181818255
+          ],
+          [
+            0.8031818181818267,
+            0.818181818181813
+          ],
+          [
+            1.1581818181818164,
+            1.278181818181821
+          ],
+          [
+            2.333181818181828,
+            2.488181818181829
+          ]
+        ],
+        "shifts": [
+          0.0,
+          0.0384545454545009,
+          0.16063636363631842,
+          0.30899999999995487,
+          0.4760416669999614
+        ],
+        "unsnapped_clusters": [
+          0,
+          1,
+          2
+        ],
+        "gap_strengths": [
+          {
+            "cluster": 0,
+            "gap_seconds": 0.08818181818182325,
+            "stretch_seconds": 0.0,
+            "playback_speed": 1.0,
+            "snapped": false
+          },
+          {
+            "cluster": 1,
+            "gap_seconds": 0.21000000000000796,
+            "stretch_seconds": 0.0384545454545009,
+            "playback_speed": 0.8452250274425276,
+            "snapped": false
+          },
+          {
+            "cluster": 2,
+            "gap_seconds": 0.28000000000000114,
+            "stretch_seconds": 0.12218181818181752,
+            "playback_speed": 0.6962025316455717,
+            "snapped": false
+          },
+          {
+            "cluster": 3,
+            "gap_seconds": 0.3400000000000034,
+            "stretch_seconds": 0.14836363636363645,
+            "playback_speed": 0.6962025316455716,
+            "snapped": true
+          },
+          {
+            "cluster": 4,
+            "gap_seconds": 1.0550000000000068,
+            "stretch_seconds": 0.16704166700000656,
+            "playback_speed": 0.8633093522824989,
+            "snapped": true
+          }
+        ],
+        "certified_playback_speed_bounds": [
+          0.55,
+          1.0000000000000075
+        ],
+        "output_interval": [
+          29.765776514818214,
+          33.42363636363636
+        ]
+      },
+      {
+        "index": 9,
+        "main_candidate_id": "candidate-01110",
+        "beat_matched": true,
+        "anchor_offset_seconds": 0.0,
+        "anchor_cluster": 3,
+        "row_stretch": 0.33427272727268975,
+        "target_music_time": 43.354,
+        "clusters": [
+          [
+            0.0693636363636756,
+            0.08436363636366195
+          ],
+          [
+            0.2743636363636597,
+            0.789363636363646
+          ],
+          [
+            1.0793636363636665,
+            1.1843636363636278
+          ],
+          [
+            1.4843636363636392,
+            2.074363636363671
+          ],
+          [
+            2.49436363636363,
+            2.699363636363671
+          ]
+        ],
+        "shifts": [
+          0.0,
+          0.0,
+          0.0200909090908874,
+          0.15099999999998204,
+          0.33427272727268975
+        ],
+        "unsnapped_clusters": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "gap_strengths": [
+          {
+            "cluster": 0,
+            "gap_seconds": 0.0693636363636756,
+            "stretch_seconds": 0.0,
+            "playback_speed": 1.0,
+            "snapped": false
+          },
+          {
+            "cluster": 1,
+            "gap_seconds": 0.18999999999999773,
+            "stretch_seconds": 0.0,
+            "playback_speed": 1.0,
+            "snapped": false
+          },
+          {
+            "cluster": 2,
+            "gap_seconds": 0.29000000000002046,
+            "stretch_seconds": 0.0200909090908874,
+            "playback_speed": 0.935209615948472,
+            "snapped": false
+          },
+          {
+            "cluster": 3,
+            "gap_seconds": 0.30000000000001137,
+            "stretch_seconds": 0.13090909090909464,
+            "playback_speed": 0.6962025316455717,
+            "snapped": true
+          },
+          {
+            "cluster": 4,
+            "gap_seconds": 0.4199999999999591,
+            "stretch_seconds": 0.18327272727270771,
+            "playback_speed": 0.6962025316455716,
+            "snapped": false
+          }
+        ],
+        "certified_playback_speed_bounds": [
+          0.5499999999999999,
+          1.0000000000000075
+        ],
+        "output_interval": [
+          33.42363636363636,
+          36.75790909090905
+        ]
+      },
+      {
+        "index": 10,
+        "main_candidate_id": "candidate-01788",
+        "beat_matched": true,
+        "anchor_offset_seconds": 0.0,
+        "anchor_cluster": 2,
+        "row_stretch": 0.7874053030304161,
+        "target_music_time": 46.43,
+        "clusters": [
+          [
+            0.2243219696969163,
+            0.23932196969690267
+          ],
+          [
+            0.789321969696914,
+            0.9693219696969209
+          ],
+          [
+            1.2443219696968981,
+            1.2593219696969413
+          ],
+          [
+            2.2243219696969163,
+            2.2393219696969027
+          ],
+          [
+            2.504321969696946,
+            2.8893219696969368
+          ]
+        ],
+        "shifts": [
+          0.06276893939400521,
+          0.3027689393940079,
+          0.42276893939399685,
+          0.6717689393940347,
+          0.7874053030304161
+        ],
+        "unsnapped_clusters": [
+          0,
+          1,
+          4
+        ],
+        "gap_strengths": [
+          {
+            "cluster": 0,
+            "gap_seconds": 0.2243219696969163,
+            "stretch_seconds": 0.06276893939400521,
+            "playback_speed": 0.7813621490392567,
+            "snapped": false
+          },
+          {
+            "cluster": 1,
+            "gap_seconds": 0.5500000000000114,
+            "stretch_seconds": 0.24000000000000268,
+            "playback_speed": 0.6962025316455717,
+            "snapped": false
+          },
+          {
+            "cluster": 2,
+            "gap_seconds": 0.27499999999997726,
+            "stretch_seconds": 0.11999999999998895,
+            "playback_speed": 0.6962025316455717,
+            "snapped": true
+          },
+          {
+            "cluster": 3,
+            "gap_seconds": 0.964999999999975,
+            "stretch_seconds": 0.24900000000003786,
+            "playback_speed": 0.7948929159802016,
+            "snapped": true
+          },
+          {
+            "cluster": 4,
+            "gap_seconds": 0.2650000000000432,
+            "stretch_seconds": 0.11563636363638141,
+            "playback_speed": 0.6962025316455716,
+            "snapped": false
+          }
+        ],
+        "certified_playback_speed_bounds": [
+          0.5499999999999999,
+          1.0000000000000075
+        ],
+        "output_interval": [
+          36.75790909090905,
+          40.90067803030309
+        ]
+      }
+    ],
+    "limitations": [
+      "Candidate pacing only: anchors are unreviewed local acoustic/video candidates, not reviewed shots or kills.",
+      "The target grid is measured acoustic attacks, not certified percussion, meter or musical taste.",
+      "Playback is slowed only in the gaps between measured burst clusters; each cluster keeps rigid 1x playback so gunshot transients are not smeared.",
+      "Gap slow-motion cannot go below the engine's atempo range, so the declared floor stays at or above 0.5 with a small margin for rounded slice edges.",
+      "No interval is ever sped up: gaps keep 1x or stretch, bounded by the declared slow floor and per-row budget.",
+      "Gap capacity is the inverse of the same analytic C2 bound the map certifies with, so no gap can overshoot the floor.",
+      "Clusters and rows without a reachable measured attack stay at 1x and are reported as unsnapped/rigid; nothing is force-fitted or invented.",
+      "musical_sync remains unverified; no lyric/closure integration exists for retimed clocks."
+    ]
+  }
+}

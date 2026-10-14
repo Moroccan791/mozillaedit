@@ -16,7 +16,7 @@ def run_local_preview(*, song, source, profile, output_root, music_start=8., dur
                       encoder="h264_qsv", plan_only=False, lyrics_mode="off",
                       lyric_track=None, lyric_design=None, lyric_model=None,
                       lyric_language=None, lyric_max_moments=3, fonts_root=lyrics_track.DEFAULT_FONTS_ROOT,
-                      calibration_labels=None):
+                      calibration_labels=None, pacing="off", slow_floor=0.55):
     from .encounter_render import RenderConfig
     import math
     if (type(duration) not in (int,float) or not math.isfinite(duration) or not 30 <= duration <= 50
@@ -27,6 +27,14 @@ def run_local_preview(*, song, source, profile, output_root, music_start=8., dur
         raise ValueError("lyrics_mode must be off, verified or candidates")
     if type(lyric_max_moments) is not int or not 1 <= lyric_max_moments <= 8:
         raise ValueError("lyric_max_moments must be 1..8 selective moments")
+    if pacing not in {"off", "slowed-song"}:
+        raise ValueError("pacing must be off or slowed-song")
+    if pacing == "slowed-song":
+        if lyrics_mode != "off":
+            raise ValueError("candidate slowed-song pacing retimes the game clock; lyric/closure consumers "
+                             "fail closed on retimed clocks, so lyrics must stay off")
+        if type(slow_floor) not in (int, float) or not 0.5 <= slow_floor <= 1.0:
+            raise ValueError("slow_floor must be within 0.5..1 (the engine's atempo range is 0.5..100)")
     if lyrics_mode == "off" and any(v is not None for v in (lyric_track,lyric_design,lyric_model,lyric_language)):
         raise ValueError("lyric inputs require explicit lyrics_mode; no silent ignored lyrics")
     if lyrics_mode == "verified" and (lyric_track is None or lyric_model is not None or lyric_language is not None):
@@ -38,7 +46,8 @@ def run_local_preview(*, song, source, profile, output_root, music_start=8., dur
             raise ValueError("existing lyric/label input file required")
     for value in (song,source,profile):
         if not Path(value).is_file(): raise ValueError("existing song/raw source/local profile required")
-    config=RenderConfig(style="authored-footage",encoder=encoder,game_gain_db=-8,music_gain_db=-7)
+    config=RenderConfig(style="slowed-pacing" if pacing == "slowed-song" else "authored-footage",
+                        encoder=encoder,game_gain_db=-8,music_gain_db=-7)
     config.validate()
     job=_job_dir(output_root); started=time.perf_counter()
     result=dict(status="running",job_dir=str(job),output=None,mode="local-candidate-preview",
@@ -51,7 +60,8 @@ def run_local_preview(*, song, source, profile, output_root, music_start=8., dur
             duration=duration,encoder=encoder,plan_only=plan_only,lyrics_mode=lyrics_mode,
             lyric_track=lyric_track,lyric_design=lyric_design,lyric_model=lyric_model,
             lyric_language=lyric_language,lyric_max_moments=lyric_max_moments,
-            fonts_root=str(fonts_root),calibration_labels=calibration_labels))
+            fonts_root=str(fonts_root),calibration_labels=calibration_labels,
+            pacing=pacing,slow_floor=(slow_floor if pacing == "slowed-song" else None)))
         source_sha=_hash(source);song_sha=_hash(song)
         _write(job/"input-manifest.json",dict(source=str(Path(source).resolve()),source_sha256=source_sha,
             song=str(Path(song).resolve()),song_sha256=song_sha,profile_sha256=_hash(profile)))
@@ -71,16 +81,49 @@ def run_local_preview(*, song, source, profile, output_root, music_start=8., dur
         _write(job/"local-icon-records.json",dict(records=icons,calibration="unverified"))
         # Existing hit builder remains bounded <=12s; combine adjacent excerpts
         # with absolute sample-zero song clocks, never a synthetic BPM grid.
+        # Measured attacks for the whole span a paced render could reach: the
+        # solver may extend the output beyond the requested 1x duration, and it
+        # must never claim a beat outside the analysed song.
+        song_seconds=None; analysis_end=music_start+duration
+        if pacing == "slowed-song":
+            from .ffprobe import probe
+            song_seconds=probe(song).duration
+            if not song_seconds or song_seconds-music_start < 12.:
+                raise ValueError("slowed-song pacing needs enough remaining song for a retimed long preview")
+            analysis_end=min(music_start+duration+15., song_seconds-.05, music_start+50.)
         hits=[];hit_cached=[]; cursor=music_start
-        while cursor < music_start+duration-1e-7:
-            length=min(10.,music_start+duration-cursor)
+        while cursor < analysis_end-1e-7:
+            length=min(10.,analysis_end-cursor)
             data,cached=cached_hit_map(song,cursor,length);hits.append(data);hit_cached.append(cached)
             cursor += length
         _write(job/"hit-maps.json",dict(maps=hits))
         from .local_authored_planner import plan_local_authored
         plan=plan_local_authored(fmap,icons,hits,music_start=music_start,duration=duration,fps=60)
-        plan["music"]=str(Path(song).resolve());_write(job/"timeline.json",plan)
+        plan["music"]=str(Path(song).resolve())
+        if pacing != "slowed-song":
+            _write(job/"timeline.json",plan)
         result["analysis_cache"]=dict(firing=firing_cached,hits=hit_cached)
+        if not plan["timeline"]:
+            # A blocked candidate plan must surface as an honest BLOCK, never as a
+            # pacing failure: the pacing step needs real rows to retime.
+            result.update(status="blocked",blocked_reason="Insufficient bounded local icon/audio windows fit the requested song; no filler or confirmed labels invented.")
+        elif pacing == "slowed-song":
+            from .slowed_pacing import plan_slowed_pacing, beats_from_hit_maps
+            grid=beats_from_hit_maps(hits)
+            music_bound=min(50., song_seconds-music_start)
+            paced,pacing_report=plan_slowed_pacing(plan, beats=grid, fps=60, slow_floor=slow_floor,
+                max_output_duration=music_bound)
+            _write(job/"timeline-1x-candidate.json",plan)
+            _write(job/"pacing-report.json",dict(schema="candidate-pacing-report/v1",beats=list(grid),
+                song_seconds=song_seconds,music_bound_seconds=music_bound,report=pacing_report))
+            plan=paced
+            _write(job/"timeline.json",plan)
+            result["pacing"]=dict(mode="auto-slowed-candidate",report=str(job/"pacing-report.json"),
+                rows_total=len(plan["timeline"]),rows_beat_matched=pacing_report["rows_beat_matched"],
+                rows_rigid=len(pacing_report["rigid_rows"]),
+                paced_duration=pacing_report["paced_duration"],slow_floor=pacing_report["slow_floor"],
+                burst_gap_seconds=pacing_report["burst_gap_seconds"],
+                original_duration=pacing_report["original_duration"])
         result["planned_duration"]=plan["duration"]
         from .closure_qa import audit_closure
         try:
@@ -116,8 +159,10 @@ def run_local_preview(*, song, source, profile, output_root, music_start=8., dur
             if _hash(source)!=source_sha or _hash(song)!=song_sha:raise ValueError("input changed during planning")
             from .encounter_render import render_encounters
             manifest=render_encounters(plan,song,job/"renders",config=config)
-            if manifest["style"]!="authored-footage" or manifest["authored_design"]["schema_version"]!="authored-footage/v2":
+            if manifest["style"]!=config.style or manifest["authored_design"]["schema_version"]!="authored-footage/v2":
                 raise ValueError("actual authored renderer evidence required, no downgrade")
+            if pacing == "slowed-song" and not manifest.get("candidate_pacing_policy"):
+                raise ValueError("requested candidate pacing missing from the rendered manifest; no silent 1x downgrade")
             if prepared is not None:
                 from .lyric_workflow import apply_prepared_lyrics
                 manifest=apply_prepared_lyrics(manifest,prepared)

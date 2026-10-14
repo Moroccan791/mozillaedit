@@ -6,7 +6,7 @@ Updated 2026-10-14. Read order: `MEMORY.md` → this file → `SESSION-MAP.md` �
 ## START HERE TOMORROW (2026-10-15)
 
 1. `bash /home/user/env-setup.sh` — rebuilds the sandbox venv/ffmpeg/ffprobe and runs the
-   full suite (expect `512 tests OK (skipped=1)`). Everything else survives; `.venv` and
+   full suite (expect `529 tests OK (skipped=1)`). Everything else survives; `.venv` and
    `~/.local` do not.
 2. Watch the samples: `python3 /home/user/.local/bin/serve_with_ranges.py 8710
    /home/user/mozillaedit/test-sample-mp4` → LIVE PREVIEW → `index.html`.
@@ -19,7 +19,7 @@ Updated 2026-10-14. Read order: `MEMORY.md` → this file → `SESSION-MAP.md` �
 
 ## Immediate status
 
-- **Suite is green in this sandbox**: `512 tests, OK (skipped=1)` in ~45 s with
+- **Suite is green in this sandbox**: `529 tests, OK (skipped=1)` in ~45 s with
   `AIVE_FONTS_ROOT` pointed at the repo's `font/` folder. (Windows checkpoints for
   comparison: 496 PASS/97.501 s before the 10 `multishot-authored` tests landed.)
 - Uncommitted working-tree changes: font-root portability (below) **and** the enforced
@@ -98,19 +98,50 @@ that is future work, not a silent gap.
 ## Where the code lives and what's inside
 
 - Engine: `setup/aive/` — `encounter_render.py` (renderer + `validate_plan`, styles:
-  `clean`, `restrained-impact`, `multishot`, `authored-footage`, `multishot-authored`),
+  `clean`, `restrained-impact`, `multishot`, `authored-footage`, `multishot-authored`,
+  `slowed-pacing`),
   `authored_footage.py`, `multishot_map.py`, `local_authored_planner.py`,
+  `slowed_pacing.py` (candidate slowed-song pacing, `candidate-pacing-map/v1`),
   `local_preview_runner.py`, `lyric_*.py`, `music_lyrics.py`, `attack_qa.py`,
   `accent_audit.py`, `closure_qa.py`, `calibration_report.py`, `gameplay_gate.py`,
   `povkills.py`, `firing_map.py`, `hit_map.py`, `media_identity.py`,
   `supported_pipeline.py` (front-door policy), `daily_runner.py`, `automation_runner.py`.
 - CLI: `setup/edit.py`. Front door `studio` (candidate preview screened / reviewed authored
-  jobs), diagnostics `local-preview`, `render-encounters --style authored-footage <plan>`,
+  jobs), diagnostics `local-preview` (plus `--pacing slowed-song [--slow-floor 0.55]` for candidate
+  pacing), `render-encounters --style authored-footage <plan>`,
   `auto-preview`, evidence commands `music-lyrics`, `lyric-review`, `lyric-prepare`,
   `calibration-report`, `lyric-check`; legacy `run`/`plan --render`/`montage --render` are
   policy-blocked.
 - Docs: `setup/AGENTS.md` (policy), `ATTACK-CALIBRATION.md`, `LYRIC-REVIEW.md`,
   `MULTISHOT-MAP.md`, `CLOSURE-QA.md`, `MUSIC-LYRICS.md`, `README.md`.
+
+## Latest increment (2026-10-14): candidate slowed-song pacing
+
+Built because the user rejected sample B's pace ("did good at the 10s clip but not in the longer
+one … we should have slowed down the pace of gunshots with the sound bcs reflection was a slowed
+song"), and chose *gap slow-mo* with *auto beat-matched strength* over a fixed factor:
+
+```
+python setup/edit.py local-preview --music "<slowed song>.mp3" --source "<raw>.mp4" `
+  --profile aside1/selection-calibration-20261012-153257/reyna-expanded-profile.json `
+  --music-start 8 --duration 35 --encoder libx264 --pacing slowed-song --slow-floor 0.55
+```
+
+- Each row is split into measured burst clusters (rapid-fire runs <= 0.18 s apart). A cluster is
+  **rigid 1x**; the gaps between clusters stretch with the C2 quintic ease so the next cluster head -
+  or the row's cut, which is where the next cut begins - lands on a **measured acoustic attack**.
+  Per-gap strength is bounded by the analytic playback floor (>= 0.5 = the encoder's `atempo` limit)
+  and a per-row budget. Rows that cannot reach an attack render **rigid** or **partial** and say so.
+- Verified on real renders: claims re-measured against the detected grid at **0.000000 s**; protected
+  bursts are source PCM at 1x (best alignment 0.00 samples; residual is the 44.1->48 kHz resample,
+  ~ -55 dB); per-row audio length equals the paced row duration. Reflections v2 = 36.468 s (5/4/2
+  rows, 11 gaps, 3 cuts on attacks); mary on a cross v2 = 37.436 s (7/3/1, 18 gaps, 5 cuts).
+- Evidence: `test-sample-mp4/local-preview-slowed-v2-reflections/job-v0001/`,
+  `test-sample-mp4/local-preview-slowed-v2/job-v0004/` (`pacing-report.json`,
+  `timeline-1x-candidate.json`, manifest, stems); samples `test-sample-mp4/sample-B2-*.mp4`.
+- Tests: `setup/tests/test_slowed_pacing.py` (17 contracts); full suite **529 OK**.
+- Not done: the user has not listened yet; anchors stay unreviewed; the lyric/closure paths are
+  1x-only, so this mode refuses lyrics.
 
 ## Next work order (unchanged from session 2; pick up at the top)
 
